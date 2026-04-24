@@ -316,13 +316,65 @@ A `.manifest.json` tracks every source that's been ingested — path, timestamps
 
 - **Tiered retrieval.** `wiki-query` reads titles, tags, and page summaries first and only opens page bodies when the cheap pass can't answer. Say "quick answer" or "just scan" to force index-only mode. Keeps query cost roughly flat as your vault grows from 20 pages to 2000.
 
-- **QMD semantic search (optional).** [QMD](https://github.com/tobi/qmd) is a local MCP server that indexes your wiki and source documents for fast semantic search. When `QMD_WIKI_COLLECTION` is set in `.env`, `wiki-query` runs a lex+vec pass against the collection before falling back to Grep — enabling concept-level matches that exact-string search misses. When `QMD_PAPERS_COLLECTION` is set, `wiki-ingest` queries your indexed sources before writing a new page, surfacing related work, detecting contradictions, and deciding whether to create or merge. Without QMD, both skills fall back to Grep/Glob and remain fully functional.
+- **ClickHouse RAG (recommended).** `wiki-rag-index` chunks your vault by heading, embeds each chunk (OpenAI by default; Ollama or LM Studio for local), and stores the result in ClickHouse with a hybrid lex+vec index. `wiki-query` and `wiki-ingest` run semantic queries against it as their first retrieval tier. Supports incremental delta reindex via `content_hash` per file — only changed files get re-embedded. Works with any reachable ClickHouse (Docker, self-hosted, Cloud); set `CLICKHOUSE_URL` in `.env` and run `wiki-rag-index` to populate.
+
+- **QMD semantic search (optional fallback).** [QMD](https://github.com/tobi/qmd) is a local MCP server that indexes your wiki and source documents for fast semantic search. When `QMD_WIKI_COLLECTION` is set in `.env`, `wiki-query` runs a lex+vec pass as a fallback tier below ClickHouse RAG. Kept for backward compatibility with pre-ClickHouse installs.
 
 - **`_raw/` staging directory.** Drop rough notes, clipboard pastes, or quick captures into `_raw/` inside your vault. The next `wiki-ingest` run promotes them to proper wiki pages and removes the originals. Configured via `OBSIDIAN_RAW_DIR` in `.env` (defaults to `_raw`).
 
-## Optional: QMD Semantic Search
+## Optional: ClickHouse RAG
 
-By default, `wiki-ingest` and `wiki-query` use `Grep`/`Glob` for search — fully functional, no extra setup. If your vault grows large or you want concept-level matches across your sources, you can plug in [QMD](https://github.com/tobi/qmd): a local MCP server that runs lex+vec queries against indexed collections.
+The primary semantic-search tier. `wiki-rag-index` populates a ClickHouse table with chunked + embedded wiki pages (and optionally raw sources), and `wiki-query` / `wiki-ingest` hit it via HTTP as their first retrieval tier. Without it, they fall back to QMD (if configured), then `Grep`/`Glob`.
+
+**Prerequisites:** a reachable ClickHouse instance (any deployment — local Docker, self-hosted, ClickHouse Cloud). The framework is agnostic about where it runs; it only needs an HTTP URL. Also needs `curl`, `jq`, `python3`, and `sha256sum` on the machine running the skills.
+
+**Setup:**
+
+1. Point `CLICKHOUSE_URL` at your instance in `.env`:
+   ```env
+   CLICKHOUSE_URL=http://localhost:8123
+   CLICKHOUSE_DATABASE=obsidian_rag
+   CLICKHOUSE_USER=
+   CLICKHOUSE_PASSWORD=
+   ```
+
+2. Pick an embedding provider. `openai` is the default (best quality); `ollama` and `lmstudio` are supported for local setups.
+   ```env
+   # OpenAI (default)
+   RAG_EMBEDDING_PROVIDER=openai
+   RAG_EMBEDDING_MODEL=text-embedding-3-small
+   RAG_EMBEDDING_DIMS=1536
+   OPENAI_API_KEY=sk-...
+
+   # Or, local via Ollama
+   # RAG_EMBEDDING_PROVIDER=ollama
+   # RAG_EMBEDDING_MODEL=bge-m3
+   # RAG_EMBEDDING_DIMS=1024
+
+   # Or, local via LM Studio
+   # RAG_EMBEDDING_PROVIDER=lmstudio
+   # RAG_EMBEDDING_MODEL=bge-m3
+   # RAG_EMBEDDING_DIMS=1024
+   ```
+
+3. Build the initial index:
+   ```
+   /wiki-rag-index both
+   ```
+   This creates the schema (`obsidian_rag.rag_chunks`), scans every markdown file in the vault, chunks by heading hierarchy, embeds each chunk, and inserts into ClickHouse. First run indexes everything; subsequent runs are delta-only (only files whose `sha256` changed since the last index are re-embedded).
+
+**What changes with ClickHouse RAG enabled:**
+
+- **`wiki-query`** — Step 2a runs a hybrid lex+vec query against `rag_chunks` before any grep. Returns pre-read section summaries; often answers the question without opening any page bodies.
+- **`wiki-ingest`** — Step 1a queries the `papers` collection for related prior sources, and the `wiki` collection to dedup against existing pages before writing a new one.
+
+**Keeping the index fresh.** `wiki-rag-index` is not automatic — run it after batch ingests. Typical steady-state reindex touches <5% of chunks and completes in seconds.
+
+## Optional: QMD Semantic Search (legacy fallback)
+
+QMD is a secondary semantic-search tier below ClickHouse RAG. Kept for backward compatibility with pre-ClickHouse installs. New installs should prefer `wiki-rag-index`.
+
+If you haven't set up ClickHouse, you can still plug in [QMD](https://github.com/tobi/qmd): a local MCP server that runs lex+vec queries against indexed collections.
 
 **Setup:**
 
@@ -342,13 +394,10 @@ By default, `wiki-ingest` and `wiki-query` use `Grep`/`Glob` for search — full
 
 **What changes with QMD enabled:**
 
-- **`wiki-query`** runs a semantic pass (lex+vec) against your wiki collection before falling back to Grep. Finds conceptually related pages even when the exact terms don't match.
-- **`wiki-ingest`** queries your papers collection before writing a new page — surfaces related sources, spots contradictions, and decides whether to create a new page or merge into an existing one.
-- **`data-ingest`** and the history-ingest skills (`claude-history-ingest`, `codex-history-ingest`, `hermes-history-ingest`, `openclaw-history-ingest`) consult QMD to dedup against existing wiki pages before writing — catches concept-level duplication that Glob/Grep misses, especially when the same topic recurs across agents or over time.
+- **`wiki-query`** Step 2b runs a QMD pass if ClickHouse RAG didn't return good matches (or isn't configured).
+- **`wiki-ingest`** Step 1b queries the QMD papers collection if ClickHouse RAG didn't return matches.
 
-All skills degrade gracefully: if `QMD_WIKI_COLLECTION` / `QMD_PAPERS_COLLECTION` are not set, they skip the QMD step silently and use Grep instead.
-
-**Keeping the index fresh.** `qmd index` is an external CLI — nothing in the framework writes to QMD automatically, so the index drifts as you ingest new pages. Run `/qmd-reindex` after a batch ingest to refresh both collections in one command. The skill guards on the env vars, so it's safe to invoke even when QMD isn't configured.
+All skills degrade gracefully through the three tiers: ClickHouse RAG → QMD → Grep. If none are configured, Grep/Glob still works.
 
 ### `_raw/` Staging Directory
 

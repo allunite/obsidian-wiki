@@ -140,6 +140,8 @@ Do not create one wiki page per session or per MEMORY.md entry.
 - Merge recurring patterns across dates and agents
 - Use session `cwd` or workspace path to infer project scope when available
 
+**Semantic dedup (optional):** if `$CLICKHOUSE_URL` is set, for each cluster run a ClickHouse RAG query against the wiki collection to catch concept-level duplicates. See `.skills/wiki-rag-index/references/query-snippet.md` for the full recipe — in short: embed the cluster topic, `SELECT vault_path ... FROM rag_chunks WHERE collection = '${RAG_WIKI_COLLECTION:-wiki}' ORDER BY cosineDistance(embedding, $QVEC)`. Merge into an existing page when `dist < 0.3`. Fall back to QMD (`$QMD_WIKI_COLLECTION`) or `Grep` when ClickHouse isn't configured.
+
 ## Step 6: Distill into Wiki Pages
 
 Route extracted knowledge using existing wiki conventions:
