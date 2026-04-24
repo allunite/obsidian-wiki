@@ -1,0 +1,23 @@
+{
+  "chat_id": "oCgFCIAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2025-04-11",
+    "end": "2025-04-11"
+  },
+  "message_count": 4,
+  "topic": "Staging analytics link returning 500 error",
+  "topic_slug": "staging-analytics-link-returning-500-error",
+  "tags": [
+    "analytics"
+  ],
+  "summary_markdown": "A user reported that the staging analytics URL was returning a 500 error when accessed by an administrator without impersonation. A colleague acknowledged the issue, attributing it to missing a required release branch merge. The colleague subsequently deployed changes, resolving conflicts and merging all necessary branches. The updated code is expected to be on staging within three minutes.",
+  "decisions": [
+    "The deployment of the correct release branch was completed."
+  ],
+  "action_items": [
+    "Monitor the staging environment for successful resolution of the 500 error."
+  ]
+}

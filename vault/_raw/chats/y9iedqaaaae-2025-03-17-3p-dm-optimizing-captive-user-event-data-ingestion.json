@@ -1,0 +1,25 @@
+{
+  "chat_id": "y9IEDQAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2025-03-17",
+    "end": "2025-03-17"
+  },
+  "message_count": 27,
+  "topic": "Optimizing captive user event data ingestion",
+  "topic_slug": "optimizing-captive-user-event-data-ingestion",
+  "tags": [
+    "analytics",
+    "insertion",
+    "campaign"
+  ],
+  "summary_markdown": "The discussion focused on optimizing the process for ingesting `captive_user_event` data from BZ. Initially, a high volume of incoming traffic was observed, suggesting potential issues with the existing data pipeline.\n\n[p1] provided and subsequently refined an SQL query designed to insert records into the `captive_user_event` table. The revised query structure was significantly more efficient than the initial method, which involved using a view (`v_pg_captive_bz_captive_user_event`).\n\nAfter testing the optimized query, it performed quickly and did not cause noticeable spikes in monitoring tools.",
+  "decisions": [
+    "Adopted an updated SQL query for ingesting captive user event data."
+  ],
+  "action_items": [
+    "None"
+  ]
+}

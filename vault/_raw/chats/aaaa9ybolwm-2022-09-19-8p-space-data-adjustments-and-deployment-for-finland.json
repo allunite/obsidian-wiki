@@ -1,0 +1,27 @@
+{
+  "chat_id": "AAAA9ybOLwM",
+  "kind": "Space",
+  "space_name": "ИТ",
+  "participants": 8,
+  "date_range": {
+    "start": "2022-09-19",
+    "end": "2022-09-19"
+  },
+  "message_count": 11,
+  "topic": "Data adjustments and deployment for Finland",
+  "topic_slug": "data-adjustments-and-deployment-for-finland",
+  "tags": [
+    "analytics",
+    "campaign",
+    "impression"
+  ],
+  "summary_markdown": "The discussion focused on data validation and necessary adjustments, particularly for the Finnish market. Initial checks confirmed that location frequencies were generally uniform across samples. A specific adjustment was made: the sample was rolled back by decision, but a separate factor relating sessions to unique users (1.5) was introduced for Finland. This adjusted dataset was tested on STAGE and subsequently copied to PROD.\n\nParticipants discussed the need for an overall data check across all countries due to the release of iOS 16. Final deployment checks were performed, confirming functionality before handing off the data.",
+  "decisions": [
+    "The sample size was rolled back by decision.",
+    "A factor of 1.5 relating sessions to unique users was applied specifically for Finland.",
+    "The adjusted dataset was deployed to PROD."
+  ],
+  "action_items": [
+    "Provide an overall data check across all countries due to iOS 16 release."
+  ]
+}

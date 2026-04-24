@@ -1,0 +1,22 @@
+{
+  "chat_id": "AAQAPH1pAKM",
+  "kind": "Space",
+  "space_name": "Group Chat",
+  "participants": 5,
+  "date_range": {
+    "start": "2026-01-27",
+    "end": "2026-01-27"
+  },
+  "message_count": 4,
+  "topic": "Facility data export requirements and bugs",
+  "topic_slug": "facility-data-export-requirements-and-bugs",
+  "tags": [
+    "analytics",
+    "facility"
+  ],
+  "summary_markdown": "A query was raised regarding an apparent bug where facility exports only include locations with sensors, excluding others that have traffic but no recorded sessions. The required criteria for a facility to be included in the export were clarified: it must either have a sensor, or a source listed in `facility_virtual`, or its `facility_type` must equal 'zone'. A new criterion (`facility_type == 'zone'`) was recently added.",
+  "decisions": [
+    "The required criteria for facility inclusion in exports were defined."
+  ],
+  "action_items": []
+}

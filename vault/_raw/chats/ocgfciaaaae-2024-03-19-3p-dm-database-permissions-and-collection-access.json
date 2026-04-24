@@ -1,0 +1,22 @@
+{
+  "chat_id": "oCgFCIAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2024-03-19",
+    "end": "2024-03-19"
+  },
+  "message_count": 17,
+  "topic": "Database permissions and collection access",
+  "topic_slug": "database-permissions-and-collection-access",
+  "tags": [
+    "analytics"
+  ],
+  "summary_markdown": "The discussion focused on granting appropriate database privileges for user jobs, specifically addressing issues with `named_collection_control` versus the newer `use_named_collection` role. Initial attempts to grant necessary permissions failed due to insufficient privileges (e.g., needing `NAMED COLLECTION ON nc_pg_captive_bz`). It was discussed that granting permissions might require specifying patterns like `*.*`. The participants confirmed that configuration changes did not require a service restart, and eventually reverted to using the existing `named_collection_control` role, deciding to refine privileges later when the `use_named_collection` feature is fully implemented.",
+  "decisions": [
+    "The current implementation will retain broad permissions via `named_collection_control` for now.",
+    "Privileges will be refined at a later date once the `use_named_collection` feature is finalized."
+  ],
+  "action_items": []
+}

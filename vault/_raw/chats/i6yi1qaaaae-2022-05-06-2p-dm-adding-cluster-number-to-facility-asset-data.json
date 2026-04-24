@@ -1,0 +1,27 @@
+{
+  "chat_id": "i6YI1QAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 2,
+  "date_range": {
+    "start": "2022-05-06",
+    "end": "2022-05-06"
+  },
+  "message_count": 62,
+  "topic": "Adding cluster number to facility asset data",
+  "topic_slug": "adding-cluster-number-to-facility-asset-data",
+  "tags": [
+    "analytics",
+    "inventory",
+    "facility"
+  ],
+  "summary_markdown": "The discussion focused on adding a 'cluster' identifier (referred to as `ml_cluster`) to the asset data of facilities, specifically for use in modeling and querying. Initially, it was determined that this cluster number should be treated as an internal term or category, rather than relying on existing facility classification.\n\n**Technical Implementation:**\n*   The field name was standardized to `ml_cluster` for consistency with `ml_model`.\n*   A process was developed using a SQL script (`submit` function) to programmatically update the `asset_data` attribute of facilities, allowing bulk assignment of the cluster number (e.g., setting it to '100').\n*   The final query structure demonstrated how to filter session data based on the presence and value of this new `ml_cluster` field within the facility's asset data.\n\n**Data Refresh:** The need for updating dictionary tables was addressed, with a script provided to force a reload of dictionaries when working on Windows.",
+  "decisions": [
+    "The cluster identifier will be stored in the facility's `asset_data` field under the key 'ml_cluster'.",
+    "A SQL mechanism (using `submit`) was defined for programmatically updating the `ml_cluster` value across multiple facilities."
+  ],
+  "action_items": [
+    "Someone needs to run a dictionary reload script if working on Windows after making data changes.",
+    "The cluster number must be assigned/updated in the facility database before it can be used for filtering or modeling."
+  ]
+}

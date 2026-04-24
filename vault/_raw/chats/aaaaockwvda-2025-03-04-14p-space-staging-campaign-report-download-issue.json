@@ -1,0 +1,22 @@
+{
+  "chat_id": "AAAAOcKWvdA",
+  "kind": "Space",
+  "space_name": "Delivery Coordination",
+  "participants": 14,
+  "date_range": {
+    "start": "2025-03-04",
+    "end": "2025-03-04"
+  },
+  "message_count": 9,
+  "topic": "Staging campaign report download issue",
+  "topic_slug": "staging-campaign-report-download-issue",
+  "tags": [
+    "analytics",
+    "campaign"
+  ],
+  "summary_markdown": "A user reported an inability to download a campaign report from the staging analytics environment, even though the campaign was created on that stage. Another participant noted that the report itself appeared to be failing or throwing an error, possibly due to a new feature.\n[me] addressed the issue by deploying a fix.",
+  "decisions": [
+    "The inability to download the staged campaign report is resolved."
+  ],
+  "action_items": []
+}

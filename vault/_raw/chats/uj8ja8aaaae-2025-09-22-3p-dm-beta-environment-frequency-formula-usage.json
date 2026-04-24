@@ -1,0 +1,21 @@
+{
+  "chat_id": "uJ8JA8AAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2025-09-22",
+    "end": "2025-09-22"
+  },
+  "message_count": 3,
+  "topic": "Beta environment frequency formula usage",
+  "topic_slug": "beta-environment-frequency-formula-usage",
+  "tags": [
+    "analytics"
+  ],
+  "summary_markdown": "A question was raised regarding the availability of a specific frequency formula (the 'Ruslan frequency') on the beta environment. It was confirmed that only features currently available in production can be used on the beta platform.",
+  "decisions": [
+    "Beta environment usage is restricted to production-level features."
+  ],
+  "action_items": []
+}

@@ -1,0 +1,25 @@
+{
+  "chat_id": "i6YI1QAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 2,
+  "date_range": {
+    "start": "2021-11-26",
+    "end": "2021-11-26"
+  },
+  "message_count": 27,
+  "topic": "Importing Lithuanian asset parameters into the database",
+  "topic_slug": "importing-lithuanian-asset-parameters-into-database",
+  "tags": [
+    "analytics",
+    "facility",
+    "inventory"
+  ],
+  "summary_markdown": "The discussion focused on importing a set of Lithuanian assets' parameters from an Excel file into the database. The initial plan was for someone to input these parameters, but [me] offered to enter them and then configure the system so that either 'Настя' or [p1] could do it themselves in the future.\n\nLater, it was clarified that the data structure requires merging two sets of properties: the existing asset properties with the new Lithuanian sensor properties. A key technical challenge identified was that a single sensor might correspond to multiple frames (two frames per one sensor), requiring a unique `facilityId` for proper database entry.",
+  "decisions": [
+    "The parameters from the Lithuanian Excel file need to be merged with existing asset properties into a unified format."
+  ],
+  "action_items": [
+    "Someone needs to discuss and determine the best technical approach for merging the sensor data structure, especially regarding unique facility IDs when multiple frames are associated with one sensor."
+  ]
+}

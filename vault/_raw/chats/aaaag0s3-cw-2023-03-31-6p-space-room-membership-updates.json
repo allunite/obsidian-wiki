@@ -1,0 +1,19 @@
+{
+  "chat_id": "AAAAg0s3_Cw",
+  "kind": "Space",
+  "space_name": "Бразилия Дезигн",
+  "participants": 6,
+  "date_range": {
+    "start": "2023-03-31",
+    "end": "2023-03-31"
+  },
+  "message_count": 3,
+  "topic": "Room membership updates",
+  "topic_slug": "room-membership-updates",
+  "tags": [
+    "facility"
+  ],
+  "summary_markdown": "Multiple participants updated the room membership status.",
+  "decisions": [],
+  "action_items": []
+}

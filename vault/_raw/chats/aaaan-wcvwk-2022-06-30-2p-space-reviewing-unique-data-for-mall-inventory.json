@@ -1,0 +1,26 @@
+{
+  "chat_id": "AAAAN-wcvwk",
+  "kind": "Space",
+  "space_name": "Group Chat",
+  "participants": 2,
+  "date_range": {
+    "start": "2022-06-30",
+    "end": "2022-06-30"
+  },
+  "message_count": 20,
+  "topic": "Reviewing unique data for mall inventory",
+  "topic_slug": "reviewing-unique-data-for-mall-inventory",
+  "tags": [
+    "analytics",
+    "impression",
+    "campaign"
+  ],
+  "summary_markdown": "The conversation focused on checking unique data (юники) for a specific mall location. [me] reported making database changes, including deleting and re-adding the sample field due to an update issue with its complex type. Consequently, there are currently no samples in the `uniqBySample` dataset.\n\n[p1] questioned why the unique data showed higher traffic volumes. [me] explained that the staging environment had a temporary loading issue (a minute or two) but the production environment was unaffected. Further investigation is needed to understand the anomaly, particularly if it can be reproduced in `uniqBySample`.",
+  "decisions": [
+    "The unique data for the mall needs checking/reviewing."
+  ],
+  "action_items": [
+    "[me] will recreate the sample field later when Esben finishes his activities.",
+    "Further investigation is required to understand the discrepancy in traffic volumes between staging and production environments, specifically regarding `uniqBySample`."
+  ]
+}

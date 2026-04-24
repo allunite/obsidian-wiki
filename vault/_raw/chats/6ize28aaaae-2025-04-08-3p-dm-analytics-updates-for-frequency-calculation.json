@@ -1,0 +1,27 @@
+{
+  "chat_id": "6ize28AAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2025-04-08",
+    "end": "2025-04-08"
+  },
+  "message_count": 24,
+  "topic": "Analytics updates for frequency calculation",
+  "topic_slug": "analytics-updates-for-frequency-calculation",
+  "tags": [
+    "analytics",
+    "campaign",
+    "inventory"
+  ],
+  "summary_markdown": "The discussion focused on updating the analytics logic to incorporate ML API frequency calculations for specific markets, including South Africa (7930) and Finland. The current calculation method was reviewed and modified.\n\nRegarding deployment, it was decided that deploying the `ml-api` main branch directly to production was not advisable due to a scheduled deployment window around 22:00. Instead, changes should be merged into `main`, which [me] will then redeploy to dev for testing before moving to prod.\n\nAdditionally, a task was created for Japan (DOOH-1893) to ensure Impressions are visible in Campaign reporting even without demographic data.",
+  "decisions": [
+    "ML API frequency calculation needs to be added for South Africa and Finland analytics.",
+    "The `ml-api` main branch will not be deployed directly to production; changes must go through dev testing first."
+  ],
+  "action_items": [
+    "[p1] to add Primedia data into get_frequency.sql.",
+    "[me] to handle the deployment process (main -> dev -> prod)."
+  ]
+}

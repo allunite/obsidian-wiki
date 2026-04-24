@@ -1,0 +1,27 @@
+{
+  "chat_id": "AAAA3B10pvw",
+  "kind": "Space",
+  "space_name": "Looking for QA/Product Owner",
+  "participants": 4,
+  "date_range": {
+    "start": "2023-12-07",
+    "end": "2023-12-07"
+  },
+  "message_count": 27,
+  "topic": "Hiring profile for QA/Product Owner role",
+  "topic_slug": "hiring-profile-qa-product-owner",
+  "tags": [
+    "analytics",
+    "campaign",
+    "inventory",
+    "product-owner",
+    "qa"
+  ],
+  "summary_markdown": "The discussion focused on identifying candidates for a role that bridges Quality Assurance (QA) and Product Owner/Business Analyst functions. The ideal candidate should possess strong analytical, problem-solving, and communication skills, with the potential to grow into a Business Analyst or Product Owner within 6 to 12 months.\n\nThe required profile emphasizes someone who can:\n*   Analyze business requirements and clarify details with customers.\n*   Work closely with US customers.\n*   Translate business logic into clear technical requirements.\n*   Be able to drive discussions in meetings (demos, requirement gathering).\n\nWhile automation testing skills are desired (ideally with an option to learn/use them), the core need is for someone who can deeply engage with the business side of features and processes.",
+  "decisions": [
+    "Focus on candidates demonstrating strong customer interaction and ability to gather requirements, even if their current automation skill level is basic."
+  ],
+  "action_items": [
+    "Review candidates that show potential for growth into BA/PO roles."
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "chat_id": "y9IEDQAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2021-03-01",
+    "end": "2021-03-01"
+  },
+  "message_count": 34,
+  "topic": "Kubernetes cluster upgrade and access issues",
+  "topic_slug": "kubernetes-cluster-upgrade-and-access-issues",
+  "tags": [
+    "analytics",
+    "inventory"
+  ],
+  "summary_markdown": "The conversation focused on upgrading the kubeapps system. [p1] noted that kubeapps had upgraded to version two and suggested an upgrade for their current setup. To avoid complex upgrades, [p1] decided to delete and reinstall the existing environment.\n\nLater, when attempting to access the new kubeapps URL (http://kubeapps.allunite.local/), both participants encountered permission issues: [me] received a 'You don't have sufficient permissions to use the namespace production' error, and [p1] reported being unable to log in even with provided credentials.",
+  "decisions": [
+    "The kubeapps environment needs upgrading.",
+    "[p1] will delete and reinstall the current kubeapps setup."
+  ],
+  "action_items": [
+    "Upgrade the cluster/kubeapps system."
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "chat_id": "AAAA9ybOLwM",
+  "kind": "Space",
+  "space_name": "ИТ",
+  "participants": 8,
+  "date_range": {
+    "start": "2022-08-15",
+    "end": "2022-08-15"
+  },
+  "message_count": 7,
+  "topic": "Lidar data processing and analysis",
+  "topic_slug": "lidar-data-processing-and-analysis",
+  "tags": [
+    "analytics"
+  ],
+  "summary_markdown": "The discussion revolves around the technical process of analyzing lidar data. Initially, there was a focus on circular patterns ('круги'), which were addressed. The current goal is to identify and map straight lines and locate vehicles/pedestrians within the captured data.",
+  "decisions": [],
+  "action_items": []
+}

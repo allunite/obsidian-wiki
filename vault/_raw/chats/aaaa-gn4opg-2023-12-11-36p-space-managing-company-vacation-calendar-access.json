@@ -1,0 +1,23 @@
+{
+  "chat_id": "AAAA-gn4oPg",
+  "kind": "Space",
+  "space_name": "General and random",
+  "participants": 36,
+  "date_range": {
+    "start": "2023-12-11",
+    "end": "2023-12-11"
+  },
+  "message_count": 7,
+  "topic": "Managing company vacation calendar access",
+  "topic_slug": "managing-company-vacation-calendar-access",
+  "tags": [
+    "facility"
+  ],
+  "summary_markdown": "A discussion occurred regarding the ownership and access rights for the company's 'Vacations' Google Calendar. Someone confirmed that all employees now have access to this calendar. A reminder was subsequently posted asking everyone to enter their planned vacation days into the designated 'Vacations' calendar.",
+  "decisions": [
+    "All employees were granted access to the Vacations Google Calendar."
+  ],
+  "action_items": [
+    "Employees must enter their planned vacation days into the Vacations Google Calendar."
+  ]
+}

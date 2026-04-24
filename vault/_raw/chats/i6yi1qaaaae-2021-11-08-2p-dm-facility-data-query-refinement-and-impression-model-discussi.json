@@ -1,0 +1,24 @@
+{
+  "chat_id": "i6YI1QAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 2,
+  "date_range": {
+    "start": "2021-11-08",
+    "end": "2021-11-08"
+  },
+  "message_count": 9,
+  "topic": "Facility data query refinement and impression model discussion",
+  "topic_slug": "facility-data-query-refinement-and-impression-model-discussion",
+  "tags": [
+    "analytics",
+    "facility"
+  ],
+  "summary_markdown": "The conversation focused on refining SQL queries for facility data. Initially, a complex query was shared to select facilities that included 'Rail' or 'City' in their asset networks, including master facilities. [me] then provided a simplified alternative query if master facilities were not required.\n\nSeparately, [p1] mentioned needing to discuss changes to the impression model when the current task is complete. [p1] noted that they are building a prototype for calculations using this new method, which will be easier than using Excel.",
+  "decisions": [
+    "A simplified SQL query was agreed upon for selecting facilities only based on direct asset networks ('Rail' or 'City'), excluding the need to check master facility records."
+  ],
+  "action_items": [
+    "[p1] needs to discuss changes and a prototype for the impression model calculations with [me]."
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "chat_id": "oCgFCIAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2022-04-05",
+    "end": "2022-04-05"
+  },
+  "message_count": 5,
+  "topic": "Git branch structure clarification",
+  "topic_slug": "git-branch-structure-clarification",
+  "tags": [
+    "analytics"
+  ],
+  "summary_markdown": "The conversation focused on simplifying the Git branching strategy. [p1] expressed a desire to merge all existing branches into fewer, more manageable ones due to confusion regarding where new features should be implemented.\n[me] clarified the current branch structure: `master` contains code deployed to both production and staging environments, while `develop` is used for the sandbox environment.",
+  "decisions": [
+    "The Git branching strategy needs simplification/merging."
+  ],
+  "action_items": []
+}

@@ -1,0 +1,25 @@
+{
+  "chat_id": "nW_zkkAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2024-12-16",
+    "end": "2024-12-16"
+  },
+  "message_count": 16,
+  "topic": "Facility asset table structure and data source",
+  "topic_slug": "facility-asset-table-structure-data-source",
+  "tags": [
+    "analytics",
+    "inventory",
+    "facility"
+  ],
+  "summary_markdown": "The conversation covered three main points: 1) Updating calibration for company 7930, requiring the addition and copying of 'RoadSide 89' category from staging to production alongside 'Gas station 78'. This task was completed. 2) A discussion regarding airport data loading had no new information. 3) The structure of the `allunite._v_facility_asset` table was reviewed. It is confirmed that this table is sourced directly from PostgreSQL (pg), not via cache, and its schema was provided.",
+  "decisions": [
+    "Calibration for company 7930 updated on production/staging environments to include 'RoadSide 89' alongside 'Gas station 78'."
+  ],
+  "action_items": [
+    "[p1] will attempt to review the facility asset table structure."
+  ]
+}

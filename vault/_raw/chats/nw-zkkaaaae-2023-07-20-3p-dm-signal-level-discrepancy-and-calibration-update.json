@@ -1,0 +1,26 @@
+{
+  "chat_id": "nW_zkkAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2023-07-20",
+    "end": "2023-07-20"
+  },
+  "message_count": 26,
+  "topic": "Signal level discrepancy and calibration update",
+  "topic_slug": "signal-level-discrepancy-and-calibration-update",
+  "tags": [
+    "analytics",
+    "campaign",
+    "facility"
+  ],
+  "summary_markdown": "A discussion arose regarding a discrepancy in signal levels used for device session calibration. The initial query highlighted that two different methods yielded conflicting signal levels (e.g., 60 vs. 89) for the same sensors/facilities.\n\nIt was clarified that `getCalibrationSignalLimit` uses a specific environment parameter (staging vs. production). A complex, outdated calculation logic used in the reporting system (`recalc`) was reviewed and corrected to use a multi-level coalesce approach (facility -> master -> company -> partner -> default).\n\nThe core issue was identified: the default calibration level for the client's company (7901) was set to 60, while the intended/correct value was 89. The system was created under a generic 'allunite' designation with a default of 60.\n\n**Decision:** The signal levels were updated to the correct value (89), and historical sessions were recalculated.",
+  "decisions": [
+    "The calibration signal level for company 7901 was updated from 60 to 89.",
+    "Historical session data was recalculated using the corrected signal level."
+  ],
+  "action_items": [
+    "Update aggregates/dashboard views to reflect the newly calculated session data."
+  ]
+}

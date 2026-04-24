@@ -1,0 +1,21 @@
+{
+  "chat_id": "oq-w0kAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2024-05-17",
+    "end": "2024-05-17"
+  },
+  "message_count": 4,
+  "topic": "Production fix for working hours data",
+  "topic_slug": "production-fix-working-hours-data",
+  "tags": [
+    "analytics"
+  ],
+  "summary_markdown": "A discussion occurred regarding a recent fix implemented in the production environment that corrected issues with 'working hours' data. The specific cause of the data anomaly was not determined by [me].",
+  "decisions": [
+    "The issue concerning working hours data on production has been noted as fixed."
+  ],
+  "action_items": []
+}

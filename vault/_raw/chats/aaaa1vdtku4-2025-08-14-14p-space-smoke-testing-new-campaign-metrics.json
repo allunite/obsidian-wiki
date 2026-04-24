@@ -1,0 +1,25 @@
+{
+  "chat_id": "AAAA1vdtku4",
+  "kind": "Space",
+  "space_name": "DataTeam+",
+  "participants": 14,
+  "date_range": {
+    "start": "2025-08-14",
+    "end": "2025-08-14"
+  },
+  "message_count": 5,
+  "topic": "Smoke testing required for new campaign metrics",
+  "topic_slug": "smoke-testing-new-campaign-metrics",
+  "tags": [
+    "analytics",
+    "campaign",
+    "impression"
+  ],
+  "summary_markdown": "A release candidate with fixes has been deployed to the staging environment. Thorough smoke testing is required, particularly concerning metric accuracy (impressions, totals). While demographic distribution may change, core metrics for campaigns must match previous results.\n\nIt was noted that the campaign functionality on the staging environment is inconsistent; it works for one company but fails for another ([email@dscreens.lv]).",
+  "decisions": [
+    "Smoke testing of new release candidate required for metric validation."
+  ],
+  "action_items": [
+    "Verify campaign functionality across all client accounts in the staging environment."
+  ]
+}

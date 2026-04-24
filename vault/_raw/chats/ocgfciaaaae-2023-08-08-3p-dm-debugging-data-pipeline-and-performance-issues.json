@@ -1,0 +1,30 @@
+{
+  "chat_id": "oCgFCIAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2023-08-08",
+    "end": "2023-08-08"
+  },
+  "message_count": 39,
+  "topic": "Debugging data pipeline and performance issues",
+  "topic_slug": "debugging-data-pipeline-and-performance-issues",
+  "tags": [
+    "analytics",
+    "impression",
+    "campaign",
+    "session",
+    "dwell-time",
+    "recalc-ch"
+  ],
+  "summary_markdown": "The discussion focused heavily on debugging performance issues, particularly related to data querying and memory consumption in the analytics system (ClickHouse/sandbox). \n\n**Key Issues & Observations:**\n*   **Sandbox Errors:** Initial investigation noted that the sandbox was failing due to a string type for `company_num`.\n*   **Error Handling:** It was discussed that errors are currently logged but not always surfaced, leading to potential blind spots in data quality checks.\n*   **Performance Bottlenecks:** The new version of the system is consuming excessive memory. There were suggestions regarding optimizing cache usage and potentially adding virtual tables to manage resource consumption on smaller servers.\n*   **Data Integrity:** Concerns were raised about stale or duplicate data in the sandbox environment, with a consensus that working with only the last week's data is sufficient.\n*   **Dashboard Slowness:** Specific pages, such as the campaign creation page and traffic dashboard, are reported to be slow, requiring potential redesigns (e.g., preventing queries from running against all historical statistics).\n\n**Next Steps:** The immediate plan is to continue working on the system today to observe if further performance issues emerge.",
+  "decisions": [
+    "The sandbox issue related to `company_num` data type was fixed.",
+    "Focus efforts on observing and debugging current performance bottlenecks throughout the day."
+  ],
+  "action_items": [
+    "Someone needs to redesign the campaign creation page to prevent excessive statistical queries.",
+    "Continue monitoring system performance, especially memory usage and slowdowns, today."
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "chat_id": "y9IEDQAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2025-01-21",
+    "end": "2025-01-21"
+  },
+  "message_count": 33,
+  "topic": "Troubleshooting VPN connectivity issues",
+  "topic_slug": "troubleshooting-vpn-connectivity-issues",
+  "tags": [
+    "analytics",
+    "session"
+  ],
+  "summary_markdown": "The conversation focused on troubleshooting persistent internet and VPN connection failures. Initial attempts involved updating the client software, which did not resolve the issue.\n\nSeveral changes were implemented by one participant: removing static IP assignments from the network card (and configuring the router to assign the correct IP to the MAC address), stopping the `openVPN` interactive service, and disabling the NordVPN service. These steps temporarily stabilized connectivity but failed to maintain a stable connection for Firezone.\n\nThe participants discussed alternative solutions, including checking GitHub for an openWRT module or using WireGuard on a router. A link was provided regarding Linux client applications for Firezone.",
+  "decisions": [
+    "The issue of unstable VPN/internet connectivity remains unresolved."
+  ],
+  "action_items": [
+    "One participant will check for existing openWRT modules or alternative connection methods (like WireGuard) for the router."
+  ]
+}

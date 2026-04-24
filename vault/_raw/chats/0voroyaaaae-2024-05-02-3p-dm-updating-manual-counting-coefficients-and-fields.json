@@ -1,0 +1,26 @@
+{
+  "chat_id": "0VorOYAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2024-05-02",
+    "end": "2024-05-02"
+  },
+  "message_count": 17,
+  "topic": "Updating manual counting coefficients and fields",
+  "topic_slug": "updating-manual-counting-coefficients-and-fields",
+  "tags": [
+    "analytics",
+    "facility"
+  ],
+  "summary_markdown": "The discussion focused on updating the coefficient values for various categories within the `pg.v_ch_manual_counting_extended` table. A set of coefficients was provided for different object types (e.g., Long buses, Trains, Cars). \n\nAdditionally, there was a request to include `company_num`, similar to how `facility_num` is currently extracted, for better usability in notebooks.\n\n**Decisions:**\n*   The existing coefficients were updated by [me].\n*   [p1] will inform the relevant person (Zhek) to set default values for these coefficients when new counting records are created, as this is not urgent.\n*   A new category for facility data was discussed, and a potential name like `asset_category` was suggested to avoid naming conflicts.",
+  "decisions": [
+    "Existing manual counting coefficients were updated by [me].",
+    "The relevant person will set default coefficients upon creation of new counting records."
+  ],
+  "action_items": [
+    "[p1] to write to the responsible person regarding setting default coefficients for future counting records.",
+    "Implement a new facility category, potentially named 'asset_category'."
+  ]
+}

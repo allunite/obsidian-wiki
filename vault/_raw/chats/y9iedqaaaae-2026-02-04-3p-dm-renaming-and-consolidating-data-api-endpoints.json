@@ -1,0 +1,26 @@
+{
+  "chat_id": "y9IEDQAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2026-02-04",
+    "end": "2026-02-04"
+  },
+  "message_count": 44,
+  "topic": "Renaming and consolidating data API endpoints",
+  "topic_slug": "renaming-and-consolidating-data-api-endpoints",
+  "tags": [
+    "analytics",
+    "inventory",
+    "campaign"
+  ],
+  "summary_markdown": "The discussion focused on the naming convention and consolidation of data API endpoints, specifically those related to unique vs. aggregated metrics.\n\n*   **Endpoint Naming:** There was a proposal to rename the existing `/unique` endpoint to `/aggregated` for better clarity regarding its function.\n*   **Technical Review:** The participants reviewed the underlying structure, confirming that `groupBy` functionality is available and applicable across related endpoints.\n*   **Decision on Visibility:** It was decided that the current `/aggregated` endpoint should be hidden from documentation temporarily. Concurrently, the existing `/unique` endpoint will be renamed to `/aggregated`, effectively consolidating the primary reporting function under a single name.",
+  "decisions": [
+    "The API endpoint currently named `/unique` will be renamed to `/aggregated`.",
+    "The current `/aggregated` endpoint should be hidden from documentation for now."
+  ],
+  "action_items": [
+    "Someone needs to update the code and documentation to reflect the renaming of the primary reporting endpoint to `/aggregated`."
+  ]
+}

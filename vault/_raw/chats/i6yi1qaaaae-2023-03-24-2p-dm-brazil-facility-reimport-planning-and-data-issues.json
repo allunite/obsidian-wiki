@@ -1,0 +1,26 @@
+{
+  "chat_id": "i6YI1QAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 2,
+  "date_range": {
+    "start": "2023-03-24",
+    "end": "2023-03-24"
+  },
+  "message_count": 20,
+  "topic": "Brazil facility reimport planning and data issues",
+  "topic_slug": "brazil-facility-reimport-planning-and-data-issues",
+  "tags": [
+    "facility",
+    "frame",
+    "analytics"
+  ],
+  "summary_markdown": "The discussion covered two main topics: demographic data and facility reimporting for JCD Brazil.\n\n1. **Demographic Data:** The initial plan to stratify demographics for Brazil was confirmed, but the timeline was adjusted. While [p1] initially suggested a one-week turnaround, someone stated that two weeks would be necessary due to internal data dependencies.\n2. **JCD Brazil Facility Reimport:** Plans to reimport new facility data from JCD Brazil were reviewed and postponed. The primary issues identified include inconsistencies in the new file format, such as differing `Frame ID`s, varying frame type names, and general structural differences compared to existing MAPA system data. It was noted that the new data appears to originate from an original source rather than directly from MAPA, complicating the update process.",
+  "decisions": [
+    "The demographic stratification for Brazil will proceed, with a revised timeline of two weeks.",
+    "Reimporting the new facility data from JCD Brazil was postponed due to formatting and structural inconsistencies."
+  ],
+  "action_items": [
+    "Someone needs to ensure that any future updates provide consistent owner data in a uniform format."
+  ]
+}

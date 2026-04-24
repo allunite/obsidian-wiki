@@ -1,0 +1,21 @@
+{
+  "chat_id": "oCgFCIAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2025-10-08",
+    "end": "2025-10-08"
+  },
+  "message_count": 3,
+  "topic": "Database dictionary availability issue",
+  "topic_slug": "database-dictionary-availability-issue",
+  "tags": [
+    "analytics"
+  ],
+  "summary_markdown": "A technical discussion regarding the retrieval of data from a specific database dictionary (`allunite.ml_frequency_logreg_http_dict_2_stage`). [p1] noted that the source was initially unavailable due to a 60,000 ms timeout and later confirmed it became available after about ten minutes.",
+  "decisions": [],
+  "action_items": [
+    "None"
+  ]
+}

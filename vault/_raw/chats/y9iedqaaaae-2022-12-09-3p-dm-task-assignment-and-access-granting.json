@@ -1,0 +1,23 @@
+{
+  "chat_id": "y9IEDQAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2022-12-09",
+    "end": "2022-12-09"
+  },
+  "message_count": 9,
+  "topic": "Task assignment and access granting",
+  "topic_slug": "task-assignment-and-access-granting",
+  "tags": [
+    "analytics"
+  ],
+  "summary_markdown": "The conversation primarily consists of greetings and social banter. A key point was the agreement that [p1] will grant access to someone (Polina) on the following day.",
+  "decisions": [
+    "[p1] will provide access to Polina tomorrow."
+  ],
+  "action_items": [
+    "[p1] must grant access to Polina."
+  ]
+}

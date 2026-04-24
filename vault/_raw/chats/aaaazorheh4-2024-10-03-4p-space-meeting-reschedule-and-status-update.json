@@ -1,0 +1,19 @@
+{
+  "chat_id": "AAAAzorHEH4",
+  "kind": "Space",
+  "space_name": "Group Chat",
+  "participants": 4,
+  "date_range": {
+    "start": "2024-10-03",
+    "end": "2024-10-03"
+  },
+  "message_count": 4,
+  "topic": "Meeting reschedule and status update",
+  "topic_slug": "meeting-reschedule-and-status-update",
+  "tags": [],
+  "summary_markdown": "A participant provided a brief update on their availability, stating they had just finished a meeting with 'Ocean' and were traveling to their computer. They subsequently rescheduled an item/task.",
+  "decisions": [],
+  "action_items": [
+    "Reschedule the pending item."
+  ]
+}

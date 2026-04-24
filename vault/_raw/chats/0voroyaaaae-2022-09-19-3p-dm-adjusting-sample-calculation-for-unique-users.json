@@ -1,0 +1,24 @@
+{
+  "chat_id": "0VorOYAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2022-09-19",
+    "end": "2022-09-19"
+  },
+  "message_count": 7,
+  "topic": "Adjusting sample calculation for unique users",
+  "topic_slug": "adjusting-sample-calculation-for-unique-users",
+  "tags": [
+    "analytics",
+    "session",
+    "impression"
+  ],
+  "summary_markdown": "The discussion focused on refining the sample used for calculating the ratio of devices to sessions. Initially, there was concern about 'spammy vectors' (vendors providing many sessions with few devices) not being excluded from the calculation.\n\n[me] clarified that the sample is based on a list of vendors and that the previously attempted inclusion of these 'spammers' did not meet expectations set by Alex and Esben. Therefore, [me] reverted to using the original vendor list for the sample calculation but introduced an additional factor of 1.5.\n\n[p1] noted that comparing data from the week of September 7th to September 14th showed no significant difference compared to the recalculation done on Friday, with approximately over 2 million unique users reported at the end.\n\nRegarding overall metrics, [me] confirmed that while there was a decrease, the decision was made to keep the current methodology. The total unique user count since the beginning of the year was stated as 18 million.",
+  "decisions": [
+    "The sample calculation for device-to-session ratio will use the original vendor list.",
+    "An additional factor of 1.5 will be applied to the sample calculation."
+  ],
+  "action_items": []
+}

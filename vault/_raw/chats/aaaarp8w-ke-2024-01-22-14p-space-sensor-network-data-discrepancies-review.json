@@ -1,0 +1,27 @@
+{
+  "chat_id": "AAAARP8w-KE",
+  "kind": "Space",
+  "space_name": "Problematic sensors",
+  "participants": 14,
+  "date_range": {
+    "start": "2024-01-22",
+    "end": "2024-01-22"
+  },
+  "message_count": 25,
+  "topic": "Sensor network and data discrepancies review",
+  "topic_slug": "sensor-network-data-discrepancies-review",
+  "tags": [
+    "analytics",
+    "inventory",
+    "campaign"
+  ],
+  "summary_markdown": "The conversation focused on several technical issues related to sensor data and network configurations. \n\n1. **Sensor Network Type:** A discrepancy was noted regarding the expected network type for a specific sensor (PMG_ZA_Umlazi_Mega_City_XL_outside_(3x6_LED)). The participants reviewed whether 'TRANSIT XL' or 'iBioscope' should be used, with a decision to change the incorrect network type.\n2. **Location Data:** A query was raised about two different addresses being recorded for sensors at Cape Town train station. It was acknowledged that this was a mechanical error and that all addresses and networks would be re-verified.\n3. **Packet Loss/Firmware:** Discussion covered potential issues like packet loss requiring firmware updates. While no specific problematic sensor was immediately identified, one participant mentioned arranging to replace a unit (BR-SAO-MD-00997) due to its location and traffic profile. Another instance of successful troubleshooting via re-flashing was recalled from RZK and Santo Amoro.",
+  "decisions": [
+    "The incorrect network type for the specified sensor must be changed.",
+    "All addresses and networks related to Cape Town train station sensors will be re-verified."
+  ],
+  "action_items": [
+    "Re-verify all addresses and networks for Cape Town train station sensors.",
+    "Follow up on providing a potentially problematic sensor unit/data set next week."
+  ]
+}

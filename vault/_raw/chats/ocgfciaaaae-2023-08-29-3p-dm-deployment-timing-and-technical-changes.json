@@ -1,0 +1,23 @@
+{
+  "chat_id": "oCgFCIAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2023-08-29",
+    "end": "2023-08-29"
+  },
+  "message_count": 5,
+  "topic": "Deployment timing and technical changes",
+  "topic_slug": "deployment-timing-and-technical-changes",
+  "tags": [
+    "analytics"
+  ],
+  "summary_markdown": "The conversation concerns the scope of a planned change. [p1] questioned whether the change involved altering total traffic metrics or just the query structure. [me] clarified that only the query was being changed. Due to potential instability, [p1] advised against making further changes until after the official release.",
+  "decisions": [
+    "No concrete decisions were made."
+  ],
+  "action_items": [
+    "Wait for the official release before implementing further development or testing changes."
+  ]
+}

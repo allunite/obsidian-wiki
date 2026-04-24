@@ -1,0 +1,22 @@
+{
+  "chat_id": "nW_zkkAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2024-10-21",
+    "end": "2024-10-21"
+  },
+  "message_count": 15,
+  "topic": "Changing network name implications and timeline",
+  "topic_slug": "changing-network-name-implications-and-timeline",
+  "tags": [
+    "analytics",
+    "facility"
+  ],
+  "summary_markdown": "A discussion arose regarding the potential impact of changing a network's name. It was determined that such a change would require updating fields in the aggregate and all facilities associated with that network. The technical feasibility was confirmed, provided the release is not scheduled for the next day.\n\nThe timeline confirmation established that the change can be implemented during the planned release date of November 5th.",
+  "decisions": [
+    "The network name can be changed without major system failure."
+  ],
+  "action_items": []
+}

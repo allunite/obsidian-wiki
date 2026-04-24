@@ -1,0 +1,24 @@
+{
+  "chat_id": "nW_zkkAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2026-03-30",
+    "end": "2026-03-30"
+  },
+  "message_count": 20,
+  "topic": "Investigating data deletion discrepancies in facility records",
+  "topic_slug": "investigating-data-deletion-discrepancies-facility-records",
+  "tags": [
+    "analytics",
+    "facility"
+  ],
+  "summary_markdown": "The discussion focused on debugging why a specific forecast dataset was deleted for one facility (53585) but not another (52880). Multiple queries were run against system logs and mutation tables to track data deletion. It was determined that the user's deletions were visible in the `system.mutations` log only up until March 13th, with no subsequent records found for more recent activity.\n\nUltimately, the conversation concluded that the discrepancy could not be definitively explained through system logs, and the focus shifted back to troubleshooting the data structure for facility 52880.",
+  "decisions": [
+    "The investigation into the deletion of forecast data was paused due to inconclusive log evidence."
+  ],
+  "action_items": [
+    "Focus future debugging efforts solely on facility 52880."
+  ]
+}

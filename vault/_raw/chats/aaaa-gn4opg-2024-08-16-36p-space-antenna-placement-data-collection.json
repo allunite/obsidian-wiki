@@ -1,0 +1,19 @@
+{
+  "chat_id": "AAAA-gn4oPg",
+  "kind": "Space",
+  "space_name": "General and random",
+  "participants": 36,
+  "date_range": {
+    "start": "2024-08-16",
+    "end": "2024-08-16"
+  },
+  "message_count": 3,
+  "topic": "Antenna placement for data collection",
+  "topic_slug": "antenna-placement-data-collection",
+  "tags": [
+    "analytics"
+  ],
+  "summary_markdown": "A participant noted that placing the antenna outside is ideal, which was positively received by the data science team.",
+  "decisions": [],
+  "action_items": []
+}

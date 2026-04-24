@@ -1,0 +1,26 @@
+{
+  "chat_id": "nW_zkkAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2024-04-16",
+    "end": "2024-04-16"
+  },
+  "message_count": 37,
+  "topic": "Debugging and refining analytics SQL queries",
+  "topic_slug": "debugging-and-refining-analytics-sql-queries",
+  "tags": [
+    "analytics",
+    "recalc-ch",
+    "frame",
+    "facility"
+  ],
+  "summary_markdown": "The conversation focused on debugging and refining complex SQL queries used for calculating various advertising metrics (sessions, frequency, unique views). Multiple iterations of the query were shared to correct structural errors (e.g., duplicate `frameNumber` columns) and adjust calculation logic.\n\nKey adjustments included:\n*   Correcting how `frameNumber` was calculated using `max2(uniqExactIf(...), uniqExactIf(...) * 2)`.\n*   Adjusting the formula for `frequency_formula` by dividing `frameNumber` by two (`frameNumber/2`) in the `getFrequency_3C_stage` function, which resolved discrepancies between script data and platform data.\n\nThe final query structure was confirmed to be consistent across different timeframes (e.g., 2023-2024).\n\nSomeone noted that a fix had been published to the staging environment.",
+  "decisions": [
+    "The `frequency_formula` calculation within the SQL query must use `frameNumber/2` as input for `getFrequency_3C_stage`."
+  ],
+  "action_items": [
+    "Someone needs to test the final fix on other countries (e.g., Brazil) to ensure no unintended impact."
+  ]
+}

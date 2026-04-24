@@ -1,0 +1,24 @@
+{
+  "chat_id": "AAAAUkNTt58",
+  "kind": "Space",
+  "space_name": "Group Chat",
+  "participants": 3,
+  "date_range": {
+    "start": "2024-02-12",
+    "end": "2024-02-12"
+  },
+  "message_count": 15,
+  "topic": "Beta data metrics calculation status",
+  "topic_slug": "beta-data-metrics-calculation-status",
+  "tags": [
+    "analytics",
+    "campaign"
+  ],
+  "summary_markdown": "The discussion focused on the current state of metric recalculation for the beta dataset. It was confirmed that no historical or full beta data has been recalculated yet. The process relies on a staging script developed by someone (Vlad) which reads from the database, and this script was recently activated for the beta dataset.\n\nRegarding data sources, it was noted that while metrics were recalculated last week, the current beta data is drawing Sasha's data. However, there are discrepancies observed between the staging environment and the beta environment data over the last couple of days. The team needs to decide on a timeline for recalculating historical and full beta data into the dedicated beta dataset.",
+  "decisions": [
+    "The current metric calculation for the beta dataset uses a staging script that reads from the database."
+  ],
+  "action_items": [
+    "Someone (Vlad) needs to investigate further into the metrics discrepancy between staging and beta environments."
+  ]
+}

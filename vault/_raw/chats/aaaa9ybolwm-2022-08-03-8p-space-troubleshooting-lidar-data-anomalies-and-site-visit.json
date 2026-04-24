@@ -1,0 +1,25 @@
+{
+  "chat_id": "AAAA9ybOLwM",
+  "kind": "Space",
+  "space_name": "ИТ",
+  "participants": 8,
+  "date_range": {
+    "start": "2022-08-03",
+    "end": "2022-08-03"
+  },
+  "message_count": 25,
+  "topic": "Troubleshooting lidar data anomalies and site visit",
+  "topic_slug": "troubleshooting-lidar-data-anomalies-and-site-visit",
+  "tags": [
+    "analytics",
+    "facility"
+  ],
+  "summary_markdown": "The discussion centered on an issue where a specific lidar unit (8017 in Estonia) began showing increased 'noise' or artifacts, particularly at the end of video footage and in corners. This anomaly has been observed over several days.\n\nParticipants discussed potential causes, including debris, dirt accumulation, or nearby branches/vegetation growth. One participant noted a significant increase in sessions across two zones over the past two weeks.\n\nTo address the issue, it was suggested that someone should arrange for an on-site visit by a technician (possibly involving cleaning or inspection of the lidar). There was also discussion about whether to proactively request a site visit despite current operational stability, suggesting potential causes like weather changes or natural occurrences (e.g., bird nests).\n\nAlternatively, one participant suggested investigating if the zonal data visualization could be adjusted without requiring an on-site trip.",
+  "decisions": [
+    "An on-site inspection of the lidar unit is required to determine the cause of the noise/artifacts."
+  ],
+  "action_items": [
+    "Someone needs to contact a technician (possibly 'Rasmus') to schedule and conduct an on-site visual inspection of the lidar unit.",
+    "Investigate if zonal data visualization can be adjusted to mitigate the reported anomalies without requiring physical site visits."
+  ]
+}

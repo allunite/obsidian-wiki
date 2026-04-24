@@ -1,0 +1,27 @@
+{
+  "chat_id": "AAAAD0WuanY",
+  "kind": "Space",
+  "space_name": "Group Chat",
+  "participants": 4,
+  "date_range": {
+    "start": "2022-04-28",
+    "end": "2022-04-28"
+  },
+  "message_count": 12,
+  "topic": "Analytics metric renaming and bug fixes",
+  "topic_slug": "analytics-metric-renaming-and-bug-fixes",
+  "tags": [
+    "analytics",
+    "impression",
+    "dwell-time"
+  ],
+  "summary_markdown": "The discussion focused on clarifying decisions regarding analytics metrics, specifically addressing naming conventions and bugs related to traffic data.\n\n**Metric Renaming:** It was decided that several entities need renaming:\n*   `Total Traffic` becomes `Total Traffic \"Mall\"`.\n*   `Unique Traffic` becomes `Unique Traffic \"Mall\"`.\n*   `Total Traffic Cluster` becomes `Total Traffic \"Screen\"`.\n*   `Unique Traffic` becomes `Unique Traffic \"Screen\"`.\n\n**Bug Fixes/Dashboard Logic:** Two options were presented for handling the traffic dashboard:\n1.  Remove `Total Traffic \"Mall\"` from the Traffic Dashboard, directing users to the Mall Dashboard instead.\n2.  Keep both `Total Traffic \"Mall\"` and `Total Traffic \"Screen\"`, but disable `Total Traffic \"Mall\"` if the user removes a sensor from the cluster.\n\n**Dwell Time:** It was noted that Dwell Time metrics differ between Screen and Mall environments.",
+  "decisions": [
+    "Metrics must be renamed (e.g., Total Traffic -> Total Traffic \"Mall\")",
+    "The implementation of metric changes will be reviewed with Esben."
+  ],
+  "action_items": [
+    "[me] to implement the required changes and show them to Esben.",
+    "Deployment of staging analytics link was confirmed."
+  ]
+}

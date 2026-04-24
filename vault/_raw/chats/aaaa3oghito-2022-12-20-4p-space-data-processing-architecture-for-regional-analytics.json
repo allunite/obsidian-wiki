@@ -1,0 +1,25 @@
+{
+  "chat_id": "AAAA3oghITo",
+  "kind": "Space",
+  "space_name": "Кабаны",
+  "participants": 4,
+  "date_range": {
+    "start": "2022-12-20",
+    "end": "2022-12-20"
+  },
+  "message_count": 11,
+  "topic": "Data processing architecture for regional analytics",
+  "topic_slug": "data-processing-architecture-for-regional-analytics",
+  "tags": [
+    "analytics",
+    "recalc-ch",
+    "session"
+  ],
+  "summary_markdown": "The discussion focused on the optimal data infrastructure, specifically concerning the need for a ClickHouse server in Brazil and regional processing. Concerns were raised about the necessity of a dedicated Brazilian server versus centralizing all data. A key point was the requirement for hourly recalculations (recalc) due to significant time zone differences. It was proposed that a solution involving small regional servers could be implemented, primarily for aggregation and real-time data handling. The participants discussed routing router data via MQTT directly to the center, bypassing local nodes.",
+  "decisions": [
+    "Consideration of a regional structure for data processing in multiple regions."
+  ],
+  "action_items": [
+    "Investigate if ClickHouse can function effectively without dedicated clusters in regional locations."
+  ]
+}

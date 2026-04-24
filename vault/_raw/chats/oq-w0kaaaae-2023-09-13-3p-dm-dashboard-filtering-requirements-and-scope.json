@@ -1,0 +1,22 @@
+{
+  "chat_id": "oq-w0kAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2023-09-13",
+    "end": "2023-09-13"
+  },
+  "message_count": 7,
+  "topic": "Dashboard filtering requirements and scope",
+  "topic_slug": "dashboard-filtering-requirements-and-scope",
+  "tags": [
+    "analytics",
+    "campaign"
+  ],
+  "summary_markdown": "The discussion covered the implementation of new filters (by weekend/by weekday, time granulation) for dashboard data. It was confirmed that these filters should be applied to the `/api/dashboard/airport/` endpoint. However, after questioning if this endpoint is used for an internal, non-public dashboard view, it was determined that since it is not shown to users, no changes are required for that specific endpoint.",
+  "decisions": [
+    "Do not apply new filters (by weekend/by weekday, time granulation) to the `/api/dashboard/airport/` endpoint."
+  ],
+  "action_items": []
+}

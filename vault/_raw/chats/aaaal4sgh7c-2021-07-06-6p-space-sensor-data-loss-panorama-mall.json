@@ -1,0 +1,22 @@
+{
+  "chat_id": "AAAAl4SgH7c",
+  "kind": "Space",
+  "space_name": "Lithuania_old",
+  "participants": 6,
+  "date_range": {
+    "start": "2021-07-06",
+    "end": "2021-07-06"
+  },
+  "message_count": 6,
+  "topic": "Sensor data loss at Panorama mall",
+  "topic_slug": "sensor-data-loss-panorama-mall",
+  "tags": [
+    "analytics",
+    "impression"
+  ],
+  "summary_markdown": "Problems were reported regarding sensors Pnr0008dd and Pnr0005dd at Panorama mall. The issues were attributed to internal screen problems, not the company's equipment. Data review showed that JCD_LT_PNR0008DD had no data for one hour (13:55 - 15:00). No data loss was observed for JCD_LT_PNR0005DD.",
+  "decisions": [
+    "Confirmed sensor issues were due to internal screen problems."
+  ],
+  "action_items": []
+}

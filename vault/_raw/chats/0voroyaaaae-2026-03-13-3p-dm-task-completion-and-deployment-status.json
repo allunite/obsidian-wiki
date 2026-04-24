@@ -1,0 +1,21 @@
+{
+  "chat_id": "0VorOYAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2026-03-13",
+    "end": "2026-03-13"
+  },
+  "message_count": 5,
+  "topic": "Task completion and deployment status",
+  "topic_slug": "task-completion-and-deployment-status",
+  "tags": [
+    "analytics"
+  ],
+  "summary_markdown": "The conversation revolves around the completion of a task (a ticket) and its current deployment stage. The initial work was done on the staging environment, followed by confirmation that the task was completed.",
+  "decisions": [
+    "Task is complete and deployed to staging."
+  ],
+  "action_items": []
+}

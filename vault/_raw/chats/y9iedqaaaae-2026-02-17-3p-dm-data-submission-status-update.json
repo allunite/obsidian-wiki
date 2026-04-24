@@ -1,0 +1,21 @@
+{
+  "chat_id": "y9IEDQAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2026-02-17",
+    "end": "2026-02-17"
+  },
+  "message_count": 5,
+  "topic": "Data submission status update",
+  "topic_slug": "data-submission-status-update",
+  "tags": [
+    "analytics"
+  ],
+  "summary_markdown": "The conversation revolves around the delay in sending data. Initially, it was expected to be sent within half an hour but required more time due to technical issues (staging request). The task was eventually completed and updated in the DEV environment.",
+  "decisions": [],
+  "action_items": [
+    "Send the requested data"
+  ]
+}

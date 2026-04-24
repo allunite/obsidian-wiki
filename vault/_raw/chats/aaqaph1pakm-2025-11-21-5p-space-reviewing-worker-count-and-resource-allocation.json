@@ -1,0 +1,19 @@
+{
+  "chat_id": "AAQAPH1pAKM",
+  "kind": "Space",
+  "space_name": "Group Chat",
+  "participants": 5,
+  "date_range": {
+    "start": "2025-11-21",
+    "end": "2025-11-21"
+  },
+  "message_count": 7,
+  "topic": "Reviewing worker count and resource allocation",
+  "topic_slug": "reviewing-worker-count-and-resource-allocation",
+  "tags": [
+    "analytics"
+  ],
+  "summary_markdown": "The discussion focused on system architecture, specifically the number of workers used for deployment. [me] confirmed that production uses 8 CPU cores and staging uses 4.\n\n[p1] inquired about scaling to 9 workers on both production and staging environments. In response, [me] referenced three potential configurations for CPU-bound tasks: n:n, n:n+1, and n:2n+1.",
+  "decisions": [],
+  "action_items": []
+}

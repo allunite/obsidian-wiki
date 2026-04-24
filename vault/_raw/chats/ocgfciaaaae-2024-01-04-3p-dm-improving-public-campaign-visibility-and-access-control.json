@@ -1,0 +1,27 @@
+{
+  "chat_id": "oCgFCIAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2024-01-04",
+    "end": "2024-01-04"
+  },
+  "message_count": 50,
+  "topic": "Improving public campaign visibility and access control",
+  "topic_slug": "improving-public-campaign-visibility-and-access-control",
+  "tags": [
+    "analytics",
+    "campaign",
+    "inventory"
+  ],
+  "summary_markdown": "The discussion focused on improving the system for determining which users can view public campaigns across different company entities (e.g., ensuring a group sees all public campaigns, but specific entities like RZK do not). Current methods using `linked companies` or standard `campaign_access` are insufficient because they fail to provide comprehensive visibility of all public campaigns.\n\nProposed solutions include:\n1. **Enhancing Access Control:** Modifying the `campaign_access` table to include `company_id`, `access_type`, and potentially `access_level` (or vice versa).\n2. **Group-Based Permissions:** Implementing a system where permissions are managed by a dedicated group (`group_id`) that holds the ",
+  "decisions": [
+    "Implement a centralized method for granting 'read public campaign' rights.",
+    "The technical implementation of access control (e.g., adding `company_id` and `access_type` to `campaign_access`) was discussed as a potential path forward."
+  ],
+  "action_items": [
+    "Search for standard industry approaches regarding group-based permissions and rights management.",
+    "The topic will be raised and discussed at the next general meeting to ensure alignment with business requirements."
+  ]
+}

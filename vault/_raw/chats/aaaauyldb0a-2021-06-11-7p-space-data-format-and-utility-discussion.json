@@ -1,0 +1,21 @@
+{
+  "chat_id": "AAAAuyldb0A",
+  "kind": "Space",
+  "space_name": "Lidar development",
+  "participants": 7,
+  "date_range": {
+    "start": "2021-06-11",
+    "end": "2021-06-11"
+  },
+  "message_count": 11,
+  "topic": "Data format and utility discussion",
+  "topic_slug": "data-format-and-utility-discussion",
+  "tags": [
+    "analytics"
+  ],
+  "summary_markdown": "The conversation focused on data delivery formats, specifically requesting a CSV file for the same timeline. It was noted that timestamps are provided in UTC. While one participant expressed skepticism regarding the utility of the requested data, [me] insisted it would be useful.",
+  "decisions": [],
+  "action_items": [
+    "Provide data in CSV format"
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "chat_id": "uJ8JA8AAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2025-09-21",
+    "end": "2025-09-21"
+  },
+  "message_count": 4,
+  "topic": "Link access issues and deployment",
+  "topic_slug": "link-access-issues-and-deployment",
+  "tags": [
+    "analytics"
+  ],
+  "summary_markdown": "A technical issue was reported regarding a link that displayed an 'unavailable' error message, although the parent page loaded correctly. Later, discussion shifted to potential deployment into production.",
+  "decisions": [],
+  "action_items": [
+    "Check link functionality and potentially deploy to production."
+  ]
+}

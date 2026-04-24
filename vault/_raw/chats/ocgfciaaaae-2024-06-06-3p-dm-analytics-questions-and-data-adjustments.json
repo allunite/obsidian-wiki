@@ -1,0 +1,29 @@
+{
+  "chat_id": "oCgFCIAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2024-06-06",
+    "end": "2024-06-06"
+  },
+  "message_count": 17,
+  "topic": "Analytics questions and data adjustments",
+  "topic_slug": "analytics-questions-and-data-adjustments",
+  "tags": [
+    "analytics",
+    "impression",
+    "campaign",
+    "facility"
+  ],
+  "summary_markdown": "The conversation focused on clarifying several analytics metrics requested by someone (Serjio) during a meeting. Key points discussed include:\n\n*   **Reach:** Confirmed to be unique users per day.\n*   **Real-time Data:** The system currently tracks view data in real-time over 24 hours using UTC, and adjustments for Brazil's time zone were noted as feasible.\n*   **Impressions: Share of Time:** This metric was discussed. It is technically calculated by reducing impressions by a selected percentage. It may be intended as a proxy for campaign calculation or accurate VA/slot usage. The best practice is to confirm its application scope with Galina.\n\nThe discussion also covered dynamic slot duration, suggesting that instead of selling 100% of frame capacity, the goal might be to sell partial slots (e.g., 50%, 25%) using current face counts.\n\nAdditionally, changes were made to how inventory is tracked, moving from user-based association to company-based association for better data integrity.",
+  "decisions": [
+    "Reach is confirmed as unique users per day.",
+    "The system tracks view data in real-time over 24 hours using UTC.",
+    "Share of Time calculation should be verified with Galina regarding its application scope."
+  ],
+  "action_items": [
+    "[me] to create a ticket for the adjustments needed for real-time view data (Brazil time zone).",
+    "Someone needs to investigate how dynamic slot duration can be used to sell partial frame capacity (e.g., 50%, 25%)."
+  ]
+}

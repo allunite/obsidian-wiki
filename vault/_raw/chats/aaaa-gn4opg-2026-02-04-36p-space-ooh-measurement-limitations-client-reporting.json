@@ -1,0 +1,27 @@
+{
+  "chat_id": "AAAA-gn4oPg",
+  "kind": "Space",
+  "space_name": "General and random",
+  "participants": 36,
+  "date_range": {
+    "start": "2026-02-04",
+    "end": "2026-02-04"
+  },
+  "message_count": 30,
+  "topic": "Discussing OOH measurement limitations and client reporting",
+  "topic_slug": "ooh-measurement-limitations-client-reporting",
+  "tags": [
+    "analytics",
+    "inventory",
+    "dwell-time",
+    "campaign"
+  ],
+  "summary_markdown": "The conversation covered technical limitations in Out-of-Home (OOH) measurement and best practices for client reporting.\n\n*   **Measurement Challenges:** Concerns were raised regarding the ability of Wi-Fi sensors to accurately capture in-vehicle audiences, which account for a significant portion of roadside OOH impacts. The intermittent nature of Wi-Fi probes makes accurate counting difficult when people are moving quickly in vehicles.\n*   **Deduplication Issues:** A key technical challenge discussed was calculating reach and frequency transparently. MAC address rotation (daily/bi-weekly) risks double-counting individuals, which can inflate reported reach and depress frequency. Accurate deduplication requires ",
+  "decisions": [
+    "The team will prepare for client questions regarding the measurement of in-vehicle audiences.",
+    "The team must be prepared to explain the complexities of calculating transparent reach and frequency due to MAC address rotation."
+  ],
+  "action_items": [
+    "Someone needs to share a presentation example showing how clients display data to media agencies/brands (following discussion with Adboard client)."
+  ]
+}

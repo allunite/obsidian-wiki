@@ -1,0 +1,24 @@
+{
+  "chat_id": "y9IEDQAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2025-03-14",
+    "end": "2025-03-14"
+  },
+  "message_count": 9,
+  "topic": "Updating captive user event data query",
+  "topic_slug": "updating-captive-user-event-data-query",
+  "tags": [
+    "analytics",
+    "campaign"
+  ],
+  "summary_markdown": "The conversation focused on refining a SQL query designed to insert captured user event data into the `captive_user_event` table. The initial query structure was reviewed and replaced with a more complex version that uses nested selects and specific functions (e.g., `dictGetUInt32`, `xxHash64`). Key modifications included: \n\n*   **Source Table:** Data is pulled from `postgresql(nc_pg_captive_bz, table = 'captive_user_event')`.\n*   **Filtering Logic:** The query filters records based on the maximum `id` in the source and checks for events within a specified time range (e.g., `where event_time_hour > today()-2`).\n*   **Data Mapping:** Specific logic was implemented to map fields like `company_num`, `facility_num`, and `device_id`. The mapping for `captive_id` was updated from `'rzk'` to include both `'rzk'` and `'rzkv2'`. \n\nThe purpose of this query is likely related to tracking user activity or diagnosing performance issues, as suggested by a mention of increased accounts/counts.",
+  "decisions": [
+    "The SQL query for inserting captive user event data was updated to use specific field mapping and filtering logic."
+  ],
+  "action_items": [
+    "Someone needs to confirm the correct value or parameter used in the `where event_time_hour > ...` clause."
+  ]
+}

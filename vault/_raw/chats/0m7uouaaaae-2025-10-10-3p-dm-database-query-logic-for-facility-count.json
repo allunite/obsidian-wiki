@@ -1,0 +1,23 @@
+{
+  "chat_id": "0m7UOUAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2025-10-10",
+    "end": "2025-10-10"
+  },
+  "message_count": 4,
+  "topic": "Database query logic for facility count",
+  "topic_slug": "database-query-logic-for-facility-count",
+  "tags": [
+    "analytics"
+  ],
+  "summary_markdown": "A question was raised regarding the `facility_count` field in `company_dict`. The current SQL calculation uses a complex `COALESCE(NULLIF((SELECT count(*) FROM facility f WHERE f.company_id = c.id AND f.is_active), 0), 1::bigint)` structure. Specifically, it was noted that for companies without facilities, the field incorrectly displays '1', which seems counter-intuitive.\n\nSomeone confirmed they do not recall the exact reason for this logic but stated that outputting '0' facilities was undesirable. They offered to test removing the `COALESCE` wrapper to check if any functionality breaks.",
+  "decisions": [
+    "None"
+  ],
+  "action_items": [
+    "[me] will attempt to remove the outer COALESCE logic and test the resulting query."
+  ]
+}

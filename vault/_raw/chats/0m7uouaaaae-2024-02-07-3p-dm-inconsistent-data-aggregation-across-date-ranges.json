@@ -1,0 +1,25 @@
+{
+  "chat_id": "0m7UOUAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2024-02-07",
+    "end": "2024-02-07"
+  },
+  "message_count": 30,
+  "topic": "Inconsistent data aggregation across date ranges",
+  "topic_slug": "inconsistent-data-aggregation-across-date-ranges",
+  "tags": [
+    "analytics",
+    "recalc-ch"
+  ],
+  "summary_markdown": "The discussion focused on discrepancies found when aggregating Mall Analytics data for the same location over different, overlapping date ranges. It was observed that running the aggregation script with varying start dates (e.g., 2023-04-10 vs. 2023-05-01) resulted in different total traffic figures for identical days.\n\nA specific pattern noted was a noticeable drop in data, particularly on the first and second day of any aggregation period. The participants confirmed that the issue is related to how the historical data is being aggregated or filtered across overlapping time scopes.",
+  "decisions": [
+    "The discrepancy in aggregated Mall Analytics traffic for overlapping periods needs investigation."
+  ],
+  "action_items": [
+    "Investigate why aggregating the same dataset over different date ranges yields inconsistent results.",
+    "Check if the data drop observed on the first and second day of an aggregation period is normal or indicative of a systemic issue."
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "chat_id": "nW_zkkAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2025-09-08",
+    "end": "2025-09-08"
+  },
+  "message_count": 5,
+  "topic": "Testing shared MQL functionality",
+  "topic_slug": "testing-shared-mql-functionality",
+  "tags": [
+    "analytics"
+  ],
+  "summary_markdown": "A discussion occurred regarding testing the 'shared MQL' functionality. [p1] inquired about how and where to test this, specifically asking if it was possible to aggregate production data onto a test dataset using a special script. [me] confirmed that the environment is staging and provided the name of the required script: `ml2ds_agg`.",
+  "decisions": [
+    "The testing environment for shared MQL functionality will be 'staging'."
+  ],
+  "action_items": []
+}

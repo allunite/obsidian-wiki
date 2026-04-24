@@ -1,0 +1,19 @@
+{
+  "chat_id": "AAAA3frAfLA",
+  "kind": "Space",
+  "space_name": "Lidar Tech",
+  "participants": 8,
+  "date_range": {
+    "start": "2022-02-02",
+    "end": "2022-02-02"
+  },
+  "message_count": 12,
+  "topic": "Discussion about lidar data formats and SDKs",
+  "topic_slug": "discussion-lidar-data-formats-and-sdks",
+  "tags": [
+    "analytics"
+  ],
+  "summary_markdown": "The conversation revolves around technical discussions regarding Lidar technology. A participant shared a recommendation for open-source resources related to Velodyne data, specifically pointing to an OpenSearch GitHub link. The discussion focused on the availability of official SDKs and data formats for this equipment. It was noted that while one participant had found the required data format information, attempts to secure an official SDK were unsuccessful.",
+  "decisions": [],
+  "action_items": []
+}

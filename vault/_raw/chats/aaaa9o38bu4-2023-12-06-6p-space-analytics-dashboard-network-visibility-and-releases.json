@@ -1,0 +1,23 @@
+{
+  "chat_id": "AAAA9O38bU4",
+  "kind": "Space",
+  "space_name": "Group Chat",
+  "participants": 6,
+  "date_range": {
+    "start": "2023-12-06",
+    "end": "2023-12-06"
+  },
+  "message_count": 44,
+  "topic": "Analytics dashboard network visibility and releases",
+  "topic_slug": "analytics-dashboard-network-visibility-and-releases",
+  "tags": [
+    "analytics",
+    "inventory",
+    "campaign"
+  ],
+  "summary_markdown": "The discussion covered changes to the analytics platform, specifically regarding 'Network' visibility. Initially, the ability to view networks was restricted in the admin area but was later reintroduced on the beta environment.\n\nSomeone noted that they had previously implemented a method of hiding the category value and instead feeding it into the network field for reporting purposes. A link to an analytics dashboard filtered by 'Riga Digital' was shared for reference.\n\nRegarding product releases, participants confirmed there is no centralized or reliable way for clients to learn about changes, as internal communication (like release notes) has lapsed. One participant mentioned that someone else might be responsible for sending out release announcements.",
+  "decisions": [
+    "The network visibility feature was reintroduced on the beta environment after being temporarily removed from the admin area."
+  ],
+  "action_items": []
+}

@@ -1,0 +1,26 @@
+{
+  "chat_id": "i6YI1QAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 2,
+  "date_range": {
+    "start": "2023-02-09",
+    "end": "2023-02-09"
+  },
+  "message_count": 33,
+  "topic": "Analytics access and staging environment setup",
+  "topic_slug": "analytics-access-staging-environment-setup",
+  "tags": [
+    "inventory",
+    "analytics",
+    "campaign"
+  ],
+  "summary_markdown": "The conversation covered the deployment of frames, confirming approximately 13,700 frames have been uploaded. It was clarified that sensor data is not directly linked to MapaOOH; instead, sensors are managed by a separate company and linked to 'descendants' like Electromedia (Sao Paolo bus stops), CC, JCD clocks, and Electromedia (Rio). \n\nRegarding access, it was confirmed that the staging environment will provide access for all parties. The analytics version deployed on stage will open the /inventory view even for non-administrators.\n\nA separate issue regarding Google Maps integration on inventory was noted; this feature is currently under active development and should not be touched until ready.\n\nFinally, when checking the staging environment, no frames were visible to [p1], prompting [me] to investigate potential discrepancies between the production and staging versions.",
+  "decisions": [
+    "The staging environment will provide access for all parties (CC, JCD, etc.)",
+    "The analytics version on stage will open /inventory view for non-administrators"
+  ],
+  "action_items": [
+    "[me] to investigate why frames are not visible in the staging environment."
+  ]
+}

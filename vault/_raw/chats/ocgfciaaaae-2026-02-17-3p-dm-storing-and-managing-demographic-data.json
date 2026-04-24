@@ -1,0 +1,26 @@
+{
+  "chat_id": "oCgFCIAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2026-02-17",
+    "end": "2026-02-17"
+  },
+  "message_count": 11,
+  "topic": "Storing and managing demographic data",
+  "topic_slug": "storing-and-managing-demographic-data",
+  "tags": [
+    "facility",
+    "analytics",
+    "impression"
+  ],
+  "summary_markdown": "The discussion focused on the best practices for storing and aggregating demographic data, especially given its association with multiple facilities. It was noted that while `demographic_agg` and a view (`v_demography_agg_2`) are currently used, there is confusion regarding future storage architecture.\n\n[me] suggested a workflow involving committing CSV files into the provider's folder, importing them into a temporary PostgreSQL table (`_*`), and then running aggregation selects into both the provider's main table and a copy in `demography_agg.sql`.\n\nRegarding existing views, it was determined that while a view replacement is possible, certain structural constraints (like needing a `_stage` suffix) must be maintained for now.",
+  "decisions": [
+    "Adopt a workflow of importing CSV files into temporary tables and aggregating results into both the provider's table and `demography_agg.sql`."
+  ],
+  "action_items": [
+    "[p1] will implement the file-based data ingestion process using the suggested method.",
+    "[me] will update `demography_agg.sql` to reflect the new structure."
+  ]
+}

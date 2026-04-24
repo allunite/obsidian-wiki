@@ -1,0 +1,28 @@
+{
+  "chat_id": "AAAAOcKWvdA",
+  "kind": "Space",
+  "space_name": "Delivery Coordination",
+  "participants": 14,
+  "date_range": {
+    "start": "2024-04-24",
+    "end": "2024-04-24"
+  },
+  "message_count": 55,
+  "topic": "Reconciling production and beta data discrepancies",
+  "topic_slug": "reconciling-production-and-beta-data-discrepancies",
+  "tags": [
+    "analytics",
+    "campaign",
+    "impression",
+    "session",
+    "facility"
+  ],
+  "summary_markdown": "The discussion focused on significant discrepancies between production (PROD), staging (STAGE), and beta data sets, particularly concerning historical reporting.\n\n**Key Issues & Findings:**\n*   Data consistency was a major concern, with multiple participants noting that PROD and BETA datasets did not align historically. The discrepancy was sometimes attributed to time zones or aggregation methods.\n*   The process of updating the staging environment (STAGE) was discussed, including the need for data to be aggregated correctly (e.g., using `agg5` in alignment with `agg4`).\n*   A specific comparison was made for February 2024, showing differences in Total Traffic, Unique users, Viewable sessions, and Viewed sessions between STAGE and BETA.\n*   The final state involved the staging environment being prepared for review, but copying data to PROD was postponed due to time zone considerations (Brazil).\n\n**Decisions:**\n*   STAGE dataset preparation was completed and ready for viewing.\n*   Copying the staged data to PROD was deferred until a later time to avoid disruption in Brazil.",
+  "decisions": [
+    "The staging environment is ready for review",
+    "Copying STAGE data to PROD will be delayed due to time zone considerations."
+  ],
+  "action_items": [
+    "Wait for further instructions regarding the final synchronization of staged data to production."
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "chat_id": "ws0mTkAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 2,
+  "date_range": {
+    "start": "2025-05-16",
+    "end": "2025-05-16"
+  },
+  "message_count": 12,
+  "topic": "Slot duration location for facility data",
+  "topic_slug": "slot-duration-location-for-facility-data",
+  "tags": [
+    "analytics",
+    "facility"
+  ],
+  "summary_markdown": "The conversation addressed a technical issue regarding the placement of slot duration data. Initially, [me] reported that the 'Tractor' system was missing slot duration information for facilities. It was subsequently determined and confirmed that this specific duration is actually recorded within the frames, under the field name `insertion_duration`, and is correctly populated.",
+  "decisions": [],
+  "action_items": []
+}

@@ -1,0 +1,19 @@
+{
+  "chat_id": "AAAAuyldb0A",
+  "kind": "Space",
+  "space_name": "Lidar development",
+  "participants": 7,
+  "date_range": {
+    "start": "2021-10-07",
+    "end": "2021-10-07"
+  },
+  "message_count": 7,
+  "topic": "Lidar lane count discussion",
+  "topic_slug": "lidar-lane-count-discussion",
+  "tags": [
+    "analytics"
+  ],
+  "summary_markdown": "The participants discussed the number of lanes relevant for Lidar development. Initial confusion regarding whether there were 3 or 4 lanes was clarified, eventually settling on a total count that included dedicated pedestrian space.",
+  "decisions": [],
+  "action_items": []
+}

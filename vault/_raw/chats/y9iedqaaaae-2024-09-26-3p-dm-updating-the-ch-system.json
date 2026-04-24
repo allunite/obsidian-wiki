@@ -1,0 +1,21 @@
+{
+  "chat_id": "y9IEDQAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2024-09-26",
+    "end": "2024-09-26"
+  },
+  "message_count": 21,
+  "topic": "Updating the CH system",
+  "topic_slug": "updating-the-ch-system",
+  "tags": [
+    "analytics"
+  ],
+  "summary_markdown": "The conversation shifts to updating the 'CH' system. Someone suggests updating it on 24.8, noting that while 24.9 was released today (24.9), it is not immediately necessary.",
+  "decisions": [
+    "Update CH system to version 24.8"
+  ],
+  "action_items": []
+}

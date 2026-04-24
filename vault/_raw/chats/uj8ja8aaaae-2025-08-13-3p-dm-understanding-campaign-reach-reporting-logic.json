@@ -1,0 +1,25 @@
+{
+  "chat_id": "uJ8JA8AAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2025-08-13",
+    "end": "2025-08-13"
+  },
+  "message_count": 9,
+  "topic": "Understanding campaign reach reporting logic",
+  "topic_slug": "understanding-campaign-reach-reporting-logic",
+  "tags": [
+    "analytics",
+    "campaign",
+    "impression"
+  ],
+  "summary_markdown": "The discussion centered on understanding the calculation methodology for 'Reach' displayed in a campaign report. [p1] noted discrepancies and proposed three hypotheses: 1) The data might represent a previous month's figures, as dates do not align with the campaign period; 2) It appears to be cumulative reach over a period of days, but this cannot simply be summed due to unique counts; or 3) A self-calculated cumulative figure based on the observed logic does not match the report data.\n\n[p1] clarified that the query originated from a client regarding the reported reach metric. [p1] also stated an understanding that upcoming changes would not affect this specific reach curve graph in the report, while confirming that the frequency metrics were satisfactory.",
+  "decisions": [
+    "The immediate calculation logic for 'Reach' in the campaign report remains under review."
+  ],
+  "action_items": [
+    "Follow up on the discrepancy in the reported Reach metric calculation."
+  ]
+}

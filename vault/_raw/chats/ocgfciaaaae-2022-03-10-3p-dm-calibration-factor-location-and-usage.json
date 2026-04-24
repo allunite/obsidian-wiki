@@ -1,0 +1,22 @@
+{
+  "chat_id": "oCgFCIAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2022-03-10",
+    "end": "2022-03-10"
+  },
+  "message_count": 5,
+  "topic": "Calibration factor location and usage",
+  "topic_slug": "calibration-factor-location-and-usage",
+  "tags": [
+    "analytics",
+    "session"
+  ],
+  "summary_markdown": "A discussion occurred regarding a calibration factor used for data analysis. [p1] asked about the specific factor used for 'calibration' versus the previously established multiplier factor. [me] provided the location of this information, stating it is in the `device_session_calibration_3` table within the pg database. This table contains signal levels, operating time, and session length.",
+  "decisions": [
+    "The calibration data can be found in the `device_session_calibration_3` table."
+  ],
+  "action_items": []
+}

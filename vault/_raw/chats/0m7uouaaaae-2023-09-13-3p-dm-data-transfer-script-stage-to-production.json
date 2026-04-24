@@ -1,0 +1,23 @@
+{
+  "chat_id": "0m7UOUAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2023-09-13",
+    "end": "2023-09-13"
+  },
+  "message_count": 8,
+  "topic": "Data transfer script from stage to production",
+  "topic_slug": "data-transfer-script-stage-to-production",
+  "tags": [
+    "analytics"
+  ],
+  "summary_markdown": "The conversation focused on the correct procedure for moving modeling data from a staging environment (stage) to the production environment (prod). It was confirmed that aggregating data should ideally happen in stage before copying it to prod to prevent downtime. A specific SQL script (`stage_to_prod_copy.sql`) was identified and shared, which participants confirmed is the correct tool for this transfer. The script requires inputting the company name and date.",
+  "decisions": [
+    "The recommended process is to aggregate data in stage before copying it to prod."
+  ],
+  "action_items": [
+    "Use the provided `stage_to_prod_copy.sql` script for transferring modeling data from stage to prod."
+  ]
+}

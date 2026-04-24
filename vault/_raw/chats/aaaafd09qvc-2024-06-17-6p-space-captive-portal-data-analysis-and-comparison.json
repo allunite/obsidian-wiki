@@ -1,0 +1,26 @@
+{
+  "chat_id": "AAAAFD09QVc",
+  "kind": "Space",
+  "space_name": "Captive portal test",
+  "participants": 6,
+  "date_range": {
+    "start": "2024-06-17",
+    "end": "2024-06-17"
+  },
+  "message_count": 16,
+  "topic": "Captive portal data analysis and comparison",
+  "topic_slug": "captive-portal-data-analysis-and-comparison",
+  "tags": [
+    "analytics",
+    "session",
+    "inventory"
+  ],
+  "summary_markdown": "The discussion focused on analyzing captive portal data, specifically comparing metrics from different sources. The initial report covered testing results for Huawei and Trusted devices, noting instability with Xiaomi (Redmi). \n\nKey points regarding data comparison were established:\n1. Captive portal data is primarily compared against the RUT200 Wi-Fi router data.\n2. Data is also compared against a dedicated Access Point (AP) that collects 5GHz data to identify unseen devices.\n3. A third source, X11, which also writes 5GHz data, is used for additional control and comparison.\n\nRegarding specific data points, it was clarified that the X11 events are considered duplicate/additional 5GHz data, while the AP and X11 sources should be checked in the raw data to see if a device has mixed trusted and non-trusted sessions.",
+  "decisions": [
+    "Captive portal data will be compared against RUT200 Wi-Fi router data (standard method).",
+    "Data comparison must include both dedicated Access Point 5GHz collection and X11 5GHz data for comprehensive analysis."
+  ],
+  "action_items": [
+    "Review raw data to check if a single device has mixed trusted and non-trusted sessions across the AP and X11 sources."
+  ]
+}

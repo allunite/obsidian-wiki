@@ -1,0 +1,21 @@
+{
+  "chat_id": "y9IEDQAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2021-06-05",
+    "end": "2021-06-05"
+  },
+  "message_count": 5,
+  "topic": "Reviewing ClickHouse space status",
+  "topic_slug": "reviewing-clickhouse-space-status",
+  "tags": [
+    "analytics"
+  ],
+  "summary_markdown": "Someone asked about reviewing the space status in ClickHouse. [me] indicated knowledge of how to fix the issue and stated that a fix would be implemented either later today or on Monday.",
+  "decisions": [],
+  "action_items": [
+    "Fixing the ClickHouse space status (due today or Monday)"
+  ]
+}

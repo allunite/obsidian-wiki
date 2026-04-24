@@ -1,0 +1,22 @@
+{
+  "chat_id": "xdx5dQAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 2,
+  "date_range": {
+    "start": "2021-03-11",
+    "end": "2021-03-11"
+  },
+  "message_count": 7,
+  "topic": "Locating updated data and algorithms",
+  "topic_slug": "locating-updated-data-and-algorithms",
+  "tags": [
+    "analytics",
+    "data"
+  ],
+  "summary_markdown": "The conversation revolves around locating specific data dumps, particularly those containing results from a new algorithm. One participant provided the path to the missing March data dump in S3 and confirmed that the full path was included in an email. The other participant mentioned being added to the jcd Slack channel, and [me] noted receiving an invitation link but initially missed it.",
+  "decisions": [],
+  "action_items": [
+    "Confirm location of data with the new algorithm."
+  ]
+}

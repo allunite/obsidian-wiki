@@ -1,0 +1,19 @@
+{
+  "chat_id": "i6YI1QAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 2,
+  "date_range": {
+    "start": "2022-02-03",
+    "end": "2022-02-03"
+  },
+  "message_count": 4,
+  "topic": "Follow up on Jira ticket and communication",
+  "topic_slug": "follow-up-jira-ticket-and-communication",
+  "tags": [
+    "analytics"
+  ],
+  "summary_markdown": "The conversation involved sharing a link to a specific Jira ticket (JCDEC-553). Later messages were brief acknowledgments, suggesting general follow-up or status updates.",
+  "decisions": [],
+  "action_items": []
+}

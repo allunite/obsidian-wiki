@@ -1,0 +1,23 @@
+{
+  "chat_id": "y9IEDQAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2023-12-21",
+    "end": "2023-12-21"
+  },
+  "message_count": 7,
+  "topic": "Deployment script and versioning requirements",
+  "topic_slug": "deployment-script-and-versioning-requirements",
+  "tags": [
+    "analytics"
+  ],
+  "summary_markdown": "The conversation focused on the need for a deployment script. Someone noted that this script must automatically handle version release and generate a changelog. Before implementing this, [me] stressed the necessity of adding exception handling to existing jobs.",
+  "decisions": [
+    "A deployment script is required to automate versioning and changelog generation."
+  ],
+  "action_items": [
+    "[me] needs to implement exception handling in jobs before proceeding with the deployment script."
+  ]
+}

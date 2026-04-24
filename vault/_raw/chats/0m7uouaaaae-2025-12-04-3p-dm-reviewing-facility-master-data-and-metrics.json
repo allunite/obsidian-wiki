@@ -1,0 +1,22 @@
+{
+  "chat_id": "0m7UOUAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2025-12-04",
+    "end": "2025-12-04"
+  },
+  "message_count": 8,
+  "topic": "Reviewing facility master data and metrics",
+  "topic_slug": "reviewing-facility-master-data-and-metrics",
+  "tags": [
+    "facility",
+    "analytics"
+  ],
+  "summary_markdown": "The conversation focused on two main topics: reviewing the 'master facility' data and clarifying session metrics. [p1] provided a specific `facility_id` ('e566a1b1-4cd8-4ae2-a4a2-c3375012e4dd') and SQL queries to retrieve information from the `facility_master_version` table. The discussion was scheduled for later, with [p1] requesting a follow-up review of the master facility data.",
+  "decisions": [],
+  "action_items": [
+    "Review the 'master facility' data using the provided facility ID and SQL query."
+  ]
+}

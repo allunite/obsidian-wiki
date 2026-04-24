@@ -1,0 +1,27 @@
+{
+  "chat_id": "y9IEDQAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2021-10-06",
+    "end": "2021-10-06"
+  },
+  "message_count": 90,
+  "topic": "Sessioner deployment and data integrity issues",
+  "topic_slug": "sessioner-deployment-data-integrity-issues",
+  "tags": [
+    "analytics",
+    "campaign",
+    "facility",
+    "impression"
+  ],
+  "summary_markdown": "The conversation covered multiple technical topics, including a sessioner service deployment and data handling.\n\n**Deployment:** [p1] successfully deployed the `sessioner` service using Helm. The process involved retrieving build logs to confirm the correct image version.\n\n**Database Cleanup:** It was decided that the large `stat_ping` table in PostgreSQL, containing ping data since February 2017, should be truncated to manage database size.\n\n**Data Integrity/Realtime Flow:** A significant issue was identified where a recent fix caused periodic drops in real-time facility counts (e.g., dropping from 160 unique facilities to 50). This drop occurred when the session batch contained a facility with `factor = null`. The consensus was that this required an immediate rollback of the deployment.\n\n**Resolution:** After discussion, the decision was made *not* to roll back the service.",
+  "decisions": [
+    "The large `stat_ping` table in PostgreSQL will be truncated.",
+    "The sessioner service deployment issue (data drops due to null factor) was discussed but ultimately not rolled back."
+  ],
+  "action_items": [
+    "Truncate the stat_ping table in PostgreSQL."
+  ]
+}

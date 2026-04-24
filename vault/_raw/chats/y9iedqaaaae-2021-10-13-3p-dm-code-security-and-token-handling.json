@@ -1,0 +1,21 @@
+{
+  "chat_id": "y9IEDQAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2021-10-13",
+    "end": "2021-10-13"
+  },
+  "message_count": 12,
+  "topic": "Code security and token handling",
+  "topic_slug": "code-security-and-token-handling",
+  "tags": [
+    "analytics"
+  ],
+  "summary_markdown": "The conversation focused on improving the security of code, specifically regarding how tokens are stored. Someone suggested that a token should be placed in secrets rather than being exposed openly in the code base. [me] initially dismissed this concern but later agreed with the necessity of securing the token.",
+  "decisions": [
+    "Tokens must be stored securely in secrets."
+  ],
+  "action_items": []
+}

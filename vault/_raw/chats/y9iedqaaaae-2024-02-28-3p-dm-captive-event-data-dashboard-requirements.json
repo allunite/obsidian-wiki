@@ -1,0 +1,26 @@
+{
+  "chat_id": "y9IEDQAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2024-02-28",
+    "end": "2024-02-28"
+  },
+  "message_count": 52,
+  "topic": "Captive event data and dashboard requirements",
+  "topic_slug": "captive-event-data-dashboard-requirements",
+  "tags": [
+    "analytics",
+    "inventory",
+    "campaign"
+  ],
+  "summary_markdown": "The discussion focused on the structure and usage of the `captive_user_event` table. It was noted that this table is currently only used for writing events, with checks performed against other tables.\n\nA key concern raised was the requirement from RZK to display captive data (including user drop-off/conversion) on a dashboard. To support this, creating additional database indexes would be necessary.\n\n**Decision:** It was decided that adding indexes should wait until after the current deployment cycle, and instead, materialized views in the `ch` schema might be considered for querying data from this table.",
+  "decisions": [
+    "Indexes for `captive_user_event` will not be added before the next deployment.",
+    "Materialized views in the `ch` schema should be explored for querying captive event data."
+  ],
+  "action_items": [
+    "Proceed with deploying the current system state without adding indexes to `captive_user_event`."
+  ]
+}

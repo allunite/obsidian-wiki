@@ -1,0 +1,28 @@
+{
+  "chat_id": "8GgAuwAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 2,
+  "date_range": {
+    "start": "2023-03-31",
+    "end": "2023-03-31"
+  },
+  "message_count": 14,
+  "topic": "Data set updates and conversion calculation strategy",
+  "topic_slug": "data-set-updates-conversion-calculation-strategy",
+  "tags": [
+    "analytics",
+    "recalc-ch",
+    "mops"
+  ],
+  "summary_markdown": "The conversation focused on updating data sets and determining the best approach for calculating conversions, particularly regarding historical vs. new metrics.\n\n* **Data Set Access:** The user confirmed they updated the production dataset, making it accessible without specifying `&ds=stage`.\n* **Recalc Integration:** A fix is being implemented in Recalc to ensure the box data continues to be calculated correctly going forward.\n* **Mops Conversion Strategy:** Three options were discussed for updating Mops conversions:\n    1. Release a new conversion using existing box data (if the current AFA/Citymedia vs J&J conversion is no longer relevant).\n    2. Implement a new calibration method for five specific J&J boxes to ensure ",
+  "decisions": [
+    "Use updated production dataset without stage parameter.",
+    "Implement Recalc fix for continuous box data calculation.",
+    "Determine Mops conversion strategy (new release, J&J calibration, or analytics fallback)."
+  ],
+  "action_items": [
+    "Someone will follow up after a meeting due to potential new requirements.",
+    "The user is out of office until April 11th."
+  ]
+}

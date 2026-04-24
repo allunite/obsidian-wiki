@@ -1,0 +1,21 @@
+{
+  "chat_id": "AAAAy7Yj6Xo",
+  "kind": "Space",
+  "space_name": "IT",
+  "participants": 12,
+  "date_range": {
+    "start": "2024-05-31",
+    "end": "2024-05-31"
+  },
+  "message_count": 5,
+  "topic": "Postponing IT strategy discussion",
+  "topic_slug": "postponing-it-strategy-discussion",
+  "tags": [
+    "analytics"
+  ],
+  "summary_markdown": "The planned discussion regarding IT strategy was postponed from the current date to Monday due to focus on the Finland contract. Multiple participants agreed that the Finland contract is the immediate priority, superseding new development work until its status is resolved.",
+  "decisions": [
+    "IT strategy discussion moved to Monday or later"
+  ],
+  "action_items": []
+}

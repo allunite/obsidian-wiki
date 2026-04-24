@@ -1,0 +1,28 @@
+{
+  "chat_id": "i6YI1QAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 2,
+  "date_range": {
+    "start": "2023-11-01",
+    "end": "2023-11-01"
+  },
+  "message_count": 20,
+  "topic": "Data aggregation and time zone handling",
+  "topic_slug": "data-aggregation-and-time-zone-handling",
+  "tags": [
+    "analytics",
+    "recalc-ch",
+    "dwell-time",
+    "impression"
+  ],
+  "summary_markdown": "The discussion covered two main technical points regarding data aggregation and visualization. First, it was confirmed that calculating frequency as a unit over one hour is feasible for optimizing continuous recalculations (recalc). Second, the participants discussed disabling manual time zone selection and defaulting to UTC when viewing dashboards over long intervals (e.g., months or half-years). This approach would simplify data consistency across large date ranges.\n\nLater, questions arose regarding calculation limitations: it was confirmed that frequency calculations are restricted by `signal_level`, only utilizing calibrated data (`is_calibrated`). Finally, the need to discuss specific data issues for 'rzk' and 'transit analytics' compared to mall standards was noted.",
+  "decisions": [
+    "Frequency can be calculated as a unit over one hour.",
+    "For long date ranges (months/half-years), dashboards should default to UTC and disable manual time zone selection."
+  ],
+  "action_items": [
+    "Someone needs to review the implementation details for changing the dashboard's default time zone to UTC for long intervals.",
+    "Discuss specific data issues related to 'rzk' and 'transit analytics' compared to mall standards."
+  ]
+}

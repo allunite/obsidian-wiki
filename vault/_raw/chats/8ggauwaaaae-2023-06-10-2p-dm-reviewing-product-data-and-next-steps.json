@@ -1,0 +1,21 @@
+{
+  "chat_id": "8GgAuwAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 2,
+  "date_range": {
+    "start": "2023-06-10",
+    "end": "2023-06-10"
+  },
+  "message_count": 3,
+  "topic": "Reviewing product data and next steps",
+  "topic_slug": "reviewing-product-data-and-next-steps",
+  "tags": [
+    "analytics"
+  ],
+  "summary_markdown": "The conversation involved a preliminary review of the product, which was deemed acceptable. The decision was made to postpone further discussion until the following day for deeper analysis.",
+  "decisions": [
+    "Postpone detailed review and discussion until tomorrow."
+  ],
+  "action_items": []
+}

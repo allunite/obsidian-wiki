@@ -1,0 +1,22 @@
+{
+  "chat_id": "0VorOYAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2023-05-26",
+    "end": "2023-05-26"
+  },
+  "message_count": 21,
+  "topic": "Fixing SQL parsing error in airport session query",
+  "topic_slug": "fixing-sql-parsing-error-airport-session-query",
+  "tags": [
+    "analytics",
+    "inventory"
+  ],
+  "summary_markdown": "A user reported a `DB::ParsingException` when running an existing SQL query designed to analyze airport sessions (`airport_all_sessions_seen_on_gate.sql`). The error suggested the database could not parse date/time data from JSON fields, despite the format appearing unchanged.\n\nIt was determined that the underlying view (`_vw_airport_departure`) was corrupted or broken, specifically failing when attempting to include date fields. Although the source data was confirmed as updated and stable, the view needed to be rebuilt and fixed by someone.",
+  "decisions": [
+    "The faulty view (`_vw_airport_departure`) was successfully recreated and fixed."
+  ],
+  "action_items": []
+}

@@ -1,0 +1,24 @@
+{
+  "chat_id": "y9IEDQAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2024-01-18",
+    "end": "2024-01-18"
+  },
+  "message_count": 65,
+  "topic": "Keycloak replication and captive portal strategy",
+  "topic_slug": "keycloak-replication-captive-portal-strategy",
+  "tags": [
+    "analytics",
+    "inventory",
+    "campaign"
+  ],
+  "summary_markdown": "The discussion focused on technical challenges for implementing a captive portal that supports multi-region deployment (Denmark and Brazil) while using Keycloak for authentication.\n\n**Keycloak Deployment:** The initial proposal was to use master-master PostgreSQL replication or an alternative like YugabyteDB to run two Keycloak instances pointing to the same database. An alternative suggested was finding a Keycloak replacement that natively supports regional distribution, or simply deploying a completely separate Keycloak instance in Brazil.\n\n**Captive Portal Authentication:** The challenge of user authentication within the captive portal browser was discussed. Initial ideas included using messenger services (Facebook Messenger, WhatsApp, Telegram) for sending codes/links. It was noted that mobile operating systems might prioritize switching to cellular data when on Wi-Fi with no internet access, which could disrupt push notifications or links.\n\n**Proposed Solution:** A more robust approach suggested is relying on SMS delivery of a code, as the OS often handles populating the current screen with received codes. Additionally, after sending a link via messenger, the captive portal could be configured to re-enable internet access and periodically check if the user has registered (e.g., every two to five minutes), prompting them to click the provided link if they haven't done so.",
+  "decisions": [
+    "The use of master-master PostgreSQL replication or a similar distributed database solution for Keycloak was considered.",
+    "A strategy involving SMS codes and periodic captive portal checks (re-enabling internet access) was proposed to improve authentication reliability."
+  ],
+  "action_items": []
+}

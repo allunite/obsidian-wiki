@@ -1,0 +1,23 @@
+{
+  "chat_id": "i6YI1QAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 2,
+  "date_range": {
+    "start": "2022-10-13",
+    "end": "2022-10-13"
+  },
+  "message_count": 5,
+  "topic": "Fixing frequency distribution chart for Latvia",
+  "topic_slug": "fixing-frequency-distribution-chart-latvia",
+  "tags": [
+    "analytics"
+  ],
+  "summary_markdown": "A commitment was made to fix the Frequency Distribution Chart for Latvia. [p1] requested that this be completed today or tomorrow, as it was promised earlier in the week.",
+  "decisions": [
+    "The Frequency Distribution Chart for Latvia will be fixed within the next day or two."
+  ],
+  "action_items": [
+    "Someone needs to work on fixing the Frequency Distribution Chart for Latvia."
+  ]
+}

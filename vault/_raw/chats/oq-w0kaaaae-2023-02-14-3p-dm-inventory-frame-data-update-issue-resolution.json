@@ -1,0 +1,25 @@
+{
+  "chat_id": "oq-w0kAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2023-02-14",
+    "end": "2023-02-14"
+  },
+  "message_count": 44,
+  "topic": "Inventory frame data update issue resolution",
+  "topic_slug": "inventory-frame-data-update-issue-resolution",
+  "tags": [
+    "analytics",
+    "frame",
+    "inventory"
+  ],
+  "summary_markdown": "The conversation focused on debugging issues related to updating inventory data, specifically concerning how frames are stored and retrieved.\n\n**Key Issues & Decisions:**\n*   **Frame Location:** It was decided that when forming the JSON for updates, frame IDs should be placed in the root level, not nested within `facility` (a change from previous implementation).\n*   **Data Synchronization Bug:** A critical bug was identified where frames were being updated successfully in the database via SQL procedures but were returning old data on the front end.\n*   **Root Cause Fix:** The issue was traced to a mismatch between the `frame.id` and the value retrieved from `frame.(data->>'id')::uuid` for six records, which required updating an older version of the portal's saving logic. This fix resolved the data synchronization problem.",
+  "decisions": [
+    "Frame IDs must be placed in the root level when forming update JSON."
+  ],
+  "action_items": [
+    "The issue regarding old frame data returning on the front end was fixed by correcting a UUID mismatch in the saving logic."
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "chat_id": "AAAAaK7z8KI",
+  "kind": "Space",
+  "space_name": "Group Chat",
+  "participants": 5,
+  "date_range": {
+    "start": "2024-12-16",
+    "end": "2024-12-16"
+  },
+  "message_count": 11,
+  "topic": "User count calculation differences with city filtering",
+  "topic_slug": "user-count-calculation-differences-with-city-filtering",
+  "tags": [
+    "analytics",
+    "impression"
+  ],
+  "summary_markdown": "The discussion focused on discrepancies in calculating unique users (uniks) when applying city filters versus using a total aggregation. It was noted that the current implementation uses the city as a parameter within the `getFrequency` function, which prevents company-level aggregation for companies operating in multiple cities if the frequency formula differs by location.\n\nA temporary workaround involves checking specific facility codes (e.g., Gabon, Ivory Coast, Malaysia) to determine if a facility-level frequency formula is required. A future plan includes implementing `agg_6`, which is expected to significantly simplify the SQL code and improve the calculation method.",
+  "decisions": [
+    "The current unique user count discrepancy issue requires addressing the city filtering logic in the aggregation."
+  ],
+  "action_items": []
+}

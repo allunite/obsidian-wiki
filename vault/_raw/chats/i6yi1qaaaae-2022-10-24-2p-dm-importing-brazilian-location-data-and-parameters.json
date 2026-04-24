@@ -1,0 +1,24 @@
+{
+  "chat_id": "i6YI1QAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 2,
+  "date_range": {
+    "start": "2022-10-24",
+    "end": "2022-10-24"
+  },
+  "message_count": 9,
+  "topic": "Importing Brazilian location data and parameters",
+  "topic_slug": "importing-brazilian-location-data-and-parameters",
+  "tags": [
+    "analytics",
+    "facility"
+  ],
+  "summary_markdown": "The conversation confirms that location screenshots and parameters for Brazil were received. These need to be imported into the system. [p1] mentioned discussing this with someone else (Sasha) and plans to create a task for later discussion.",
+  "decisions": [
+    "Location data and parameters for Brazil must be imported."
+  ],
+  "action_items": [
+    "[p1] will create a task regarding the import process."
+  ]
+}

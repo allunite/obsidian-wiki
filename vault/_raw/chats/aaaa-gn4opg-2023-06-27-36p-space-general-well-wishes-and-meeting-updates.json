@@ -1,0 +1,19 @@
+{
+  "chat_id": "AAAA-gn4oPg",
+  "kind": "Space",
+  "space_name": "General and random",
+  "participants": 36,
+  "date_range": {
+    "start": "2023-06-27",
+    "end": "2023-06-27"
+  },
+  "message_count": 8,
+  "topic": "General well wishes and meeting updates",
+  "topic_slug": "general-well-wishes-and-meeting-updates",
+  "tags": [
+    "campaign"
+  ],
+  "summary_markdown": "The conversation consists primarily of general greetings and well wishes among participants. Later messages mention successful presentations with jcd corp across 70 countries, including discussions related to Denmark currency and India. A final update notes positive talks with GB (not UK), with a decision expected in September.",
+  "decisions": [],
+  "action_items": []
+}

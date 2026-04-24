@@ -1,0 +1,24 @@
+{
+  "chat_id": "y9IEDQAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2024-04-30",
+    "end": "2024-04-30"
+  },
+  "message_count": 11,
+  "topic": "Analyzing data discrepancies and reporting periods",
+  "topic_slug": "analyzing-data-discrepancies-and-reporting-periods",
+  "tags": [
+    "analytics",
+    "recalc-ch"
+  ],
+  "summary_markdown": "The conversation focused on diagnosing a significant drop in reported data, specifically noting that the night recalculation (ночной рекальк) captured 30% fewer data points than the historical recalculation. Previous theories for the discrepancy included: one shard failing to process data, an external injection of 30% of sessions, or packages arriving late and being backfilled in late September.\n\nRegarding a specific data release for Brazil, it was unclear which period was affected. Someone suggested the start date might be January 1, 2023, but advised checking with Galina (Галина) to confirm the exact timeframe.",
+  "decisions": [
+    "The potential cause of the data discrepancy needs further investigation."
+  ],
+  "action_items": [
+    "Someone should clarify the specific reporting period covered by the Brazil data release from Galina."
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "chat_id": "i6YI1QAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 2,
+  "date_range": {
+    "start": "2022-05-23",
+    "end": "2022-05-23"
+  },
+  "message_count": 26,
+  "topic": "Analytics dashboard updates and data sources",
+  "topic_slug": "analytics-dashboard-updates-and-data-sources",
+  "tags": [
+    "impression",
+    "analytics",
+    "recalc-ch"
+  ],
+  "summary_markdown": "The conversation covered two main topics: the status of impression data for Finland, and updates to demographic reporting.\n\n1. **Impression Data (Finland):** [p1] requested assistance with the impression panel for Finland on the staging environment. It was confirmed that impression data is available for each company in Finland using the `stage` dataset. Links to the relevant dashboards were shared.\n2. **Demographic Reporting:** The demographic calculation has been added and will update daily. When asked about the old dashboard, it was noted that the demographics were sourced directly from Ranboll (or similar) and were static.",
+  "decisions": [
+    "Impression data for Finland is available in the staging dataset."
+  ],
+  "action_items": [
+    "None"
+  ]
+}

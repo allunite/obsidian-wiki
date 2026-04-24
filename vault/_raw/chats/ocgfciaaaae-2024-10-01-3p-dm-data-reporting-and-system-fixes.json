@@ -1,0 +1,23 @@
+{
+  "chat_id": "oCgFCIAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2024-10-01",
+    "end": "2024-10-01"
+  },
+  "message_count": 6,
+  "topic": "Data reporting and system fixes",
+  "topic_slug": "data-reporting-and-system-fixes",
+  "tags": [
+    "analytics"
+  ],
+  "summary_markdown": "The conversation focused on several data issues. [p1] requested the restoration of real-time data and suggested improving skills in troubleshooting/fixing systems. It was noted that there were no graphs for the current day, as much data had dropped overnight and needed fixing. Regarding specific coefficients, it was confirmed that they would appear after the aggregation process, which is related to the 'recalc' (recalculation) process.",
+  "decisions": [
+    "Coefficients will be available after aggregation/recalculation."
+  ],
+  "action_items": [
+    "Fixing overnight data drops and restoring real-time reporting."
+  ]
+}

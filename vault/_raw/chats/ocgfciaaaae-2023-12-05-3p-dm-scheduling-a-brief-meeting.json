@@ -1,0 +1,19 @@
+{
+  "chat_id": "oCgFCIAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2023-12-05",
+    "end": "2023-12-05"
+  },
+  "message_count": 3,
+  "topic": "Scheduling a brief meeting",
+  "topic_slug": "scheduling-a-brief-meeting",
+  "tags": [],
+  "summary_markdown": "The participants exchanged messages regarding scheduling a short discussion. A time of 15 minutes was agreed upon.",
+  "decisions": [
+    "A follow-up conversation is scheduled for 15 minutes."
+  ],
+  "action_items": []
+}

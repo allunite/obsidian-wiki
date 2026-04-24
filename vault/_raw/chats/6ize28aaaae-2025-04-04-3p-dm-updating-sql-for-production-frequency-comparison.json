@@ -1,0 +1,24 @@
+{
+  "chat_id": "6ize28AAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2025-04-04",
+    "end": "2025-04-04"
+  },
+  "message_count": 6,
+  "topic": "Updating SQL for production frequency comparison",
+  "topic_slug": "updating-sql-for-production-frequency-comparison",
+  "tags": [
+    "analytics",
+    "data"
+  ],
+  "summary_markdown": "The discussion focused on modifying a shared SQL script to correctly pull data from the PROD dataset. Specifically, [p1] requested changes to ensure that `traffic` and `locations_data` are sourced from the production environment by updating the relevant parameters.\n\nAdditionally, [p1] asked for a new line of code to be inserted into the SQL script (around lines 53-25). This addition is intended to calculate and compare frequency data between the production (`frequencyProd`) and staging environments.",
+  "decisions": [
+    "The SQL script will be updated to pull `traffic` and `locations_data` from the PROD dataset."
+  ],
+  "action_items": [
+    "Someone needs to insert the specified frequency comparison line into the SQL script (around lines 53-25)."
+  ]
+}

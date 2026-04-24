@@ -1,0 +1,23 @@
+{
+  "chat_id": "oq-w0kAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2026-03-03",
+    "end": "2026-03-03"
+  },
+  "message_count": 6,
+  "topic": "Inventory view code differences between environments",
+  "topic_slug": "inventory-view-code-differences-between-environments",
+  "tags": [
+    "analytics"
+  ],
+  "summary_markdown": "A discussion arose regarding discrepancies in the `v_mops_inventory` view code. [p1] noted that definitions for 'master' and 'stage' environments differ when checking the database. It was determined that a meeting is required because the individual responsible for changes (Женя) only works with the 'master' environment, while [p1]'s work requires using the 'stage' environment.",
+  "decisions": [
+    "A call/meeting is needed to discuss the differences in `v_mops_inventory` code definitions between master and stage environments."
+  ],
+  "action_items": [
+    "Schedule a meeting involving all parties to align on the correct usage of the inventory view across both development stages."
+  ]
+}

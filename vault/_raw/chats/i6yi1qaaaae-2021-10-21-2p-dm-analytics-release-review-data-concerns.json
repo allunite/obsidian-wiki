@@ -1,0 +1,22 @@
+{
+  "chat_id": "i6YI1QAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 2,
+  "date_range": {
+    "start": "2021-10-21",
+    "end": "2021-10-21"
+  },
+  "message_count": 17,
+  "topic": "Analytics release review and data concerns",
+  "topic_slug": "analytics-release-review-data-concerns",
+  "tags": [
+    "analytics",
+    "dwell-time"
+  ],
+  "summary_markdown": "The session focused on reviewing a staging analytics release. A discussion arose regarding the inclusion of dwell-time data, with one participant expressing concern about potential issues with the data itself, rather than the export process. The participants also discussed network coverage for Germany, noting that if required by a client, a category could be manually copied into the network definition.",
+  "decisions": [
+    "The staging analytics release was reviewed and approved (implied)."
+  ],
+  "action_items": []
+}

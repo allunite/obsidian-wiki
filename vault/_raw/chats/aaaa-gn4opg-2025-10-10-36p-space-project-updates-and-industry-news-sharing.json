@@ -1,0 +1,22 @@
+{
+  "chat_id": "AAAA-gn4oPg",
+  "kind": "Space",
+  "space_name": "General and random",
+  "participants": 36,
+  "date_range": {
+    "start": "2025-10-10",
+    "end": "2025-10-10"
+  },
+  "message_count": 13,
+  "topic": "Project updates and industry news sharing",
+  "topic_slug": "project-updates-and-industry-news-sharing",
+  "tags": [
+    "campaign",
+    "analytics"
+  ],
+  "summary_markdown": "The conversation consisted primarily of general professional check-ins, including mentions of meetings with Mcdecaux and Docomo. One participant shared articles related to the 'Tractor' brand announcing revitalized measurement and accountability in DOOH, suggesting a partnership between Tractor and AllUnite. The session concluded with multiple confirmations of upcoming project kickoffs and meetings.",
+  "decisions": [],
+  "action_items": [
+    "Repost publications regarding the Tractor/AllUnite partnership."
+  ]
+}

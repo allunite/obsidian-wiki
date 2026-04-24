@@ -1,0 +1,25 @@
+{
+  "chat_id": "AAAAOcKWvdA",
+  "kind": "Space",
+  "space_name": "Delivery Coordination",
+  "participants": 14,
+  "date_range": {
+    "start": "2023-09-01",
+    "end": "2023-09-01"
+  },
+  "message_count": 55,
+  "topic": "Data aggregation issues for virtual locations",
+  "topic_slug": "data-aggregation-issues-virtual-locations",
+  "tags": [
+    "analytics",
+    "session",
+    "campaign"
+  ],
+  "summary_markdown": "The discussion focused on data discrepancies observed in the dashboard, specifically regarding missing data for virtual locations and modeling. It was determined that a script error in the staging environment's nightly job prevented virtual sessions from being included in the general aggregate.\n\n**Decisions/Actions:**\n*   The issue required correcting the calculation logic rather than simply re-aggregating the data.\n*   A plan was established to perform an aggregation for Brazil (29th and 30th) on the staging environment first, followed by copying the results to production.\n*   [me] corrected the nightly aggregation job in the staging environment to ensure virtual locations are included.",
+  "decisions": [
+    "The nightly aggregation job was fixed to include data for virtual locations."
+  ],
+  "action_items": [
+    "Perform re-aggregation for Brazil (29th and 30th) on STAGE, then copy results to PROD."
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "chat_id": "y9IEDQAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2024-12-12",
+    "end": "2024-12-12"
+  },
+  "message_count": 8,
+  "topic": "AI agent development and data modeling",
+  "topic_slug": "ai-agent-development-and-data-modeling",
+  "tags": [
+    "analytics",
+    "campaign",
+    "inventory"
+  ],
+  "summary_markdown": "The discussion covered the status of developing an AI agent for two distinct areas. For client-facing applications, embeddings were loaded with facility and POI directories, and JSON query parameters were described to allow the agent to populate these parameters based on user prompts. Development stalled because the pre-prompt exceeded GPT-4o limits, and GPT-4o-mini lacked sufficient understanding of the required output. Plans include implementing this logic in Python code and testing various models, starting with Llama 3.3, while refining the pre-prompt.\n\nFor data analytics, a coefficient calculation model was trained using MC+traffic metrics. However, it struggles with insufficient data and currently cannot handle signal/flag levels. The plan is to make the data more compact and informative by embedding it and interacting with it via an API (currently done only in chat). It was noted that this area requires extended experimentation before a clear breakthrough can be demonstrated, followed by refining the pre-prompt based on test runs from all stakeholders, including someone, to ensure robust performance even when client requests are vague.",
+  "decisions": [
+    "Implement AI agent logic in Python code and test multiple models (starting with Llama 3.3).",
+    "Improve data analytics model by compacting data into embeddings for API interaction."
+  ],
+  "action_items": [
+    "Schedule a chat update session for Saturday or Sunday."
+  ]
+}

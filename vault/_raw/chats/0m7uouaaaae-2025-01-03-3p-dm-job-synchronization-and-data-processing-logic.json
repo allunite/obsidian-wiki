@@ -1,0 +1,29 @@
+{
+  "chat_id": "0m7UOUAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2025-01-03",
+    "end": "2025-01-03"
+  },
+  "message_count": 47,
+  "topic": "Job synchronization and data processing logic",
+  "topic_slug": "job-synchronization-and-data-processing-logic",
+  "tags": [
+    "analytics",
+    "campaign",
+    "impression",
+    "session",
+    "loop",
+    "recalc-ch"
+  ],
+  "summary_markdown": "The discussion focused on data pipeline logic, specifically around job synchronization (`mutations_sync`) and how different jobs (traffic vs. impressions) interact with data records.\n\n*   **Job Sync:** It was noted that the default value for `mutations_sync` is likely 0, which controls whether a mutation starts or queues up. The parameter should ideally be configurable (e.g., 0 for night runs, 2 manually).\n*   **Data Overlap/Deletion:** Concerns were raised about data deletion and potential overlap, particularly when running traffic jobs followed by aggregation jobs, or during period recalculations. It was suggested that using `DELETE` operations might be necessary in certain scenarios.\n*   **Specific Issues:** The conversation addressed double-counting of traffic for Brazil (from both the traffic job and impression job) and inconsistencies in how records are inserted (e.g., mixing `agg_period=\"H\"` and `agg_period=\"h\"`).\n*   **System Maintenance:** Time was spent troubleshooting database locks and long-running processes related to device session data migration.",
+  "decisions": [
+    "The default value for mutations_sync should be configurable (0 vs 2) based on the process type (night run vs. manual recalculation)."
+  ],
+  "action_items": [
+    "Review and potentially adjust the logic for traffic calculation in Brazil to prevent double-counting.",
+    "Investigate database locking issues related to device session data migration."
+  ]
+}

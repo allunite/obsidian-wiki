@@ -1,0 +1,19 @@
+{
+  "chat_id": "y9IEDQAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2025-03-05",
+    "end": "2025-03-05"
+  },
+  "message_count": 7,
+  "topic": "AI presentation and analytics integration status",
+  "topic_slug": "ai-presentation-and-analytics-integration-status",
+  "tags": [
+    "analytics"
+  ],
+  "summary_markdown": "The discussion centered on the availability of an AI demonstration. [me] informed [p1] that integrating AI with analytics is not ready for presentation today, noting that a colleague (Жека) will present it next week. [me] explained that time constraints prevented a brief announcement during development work involving `device_id` sampling for forecasting.",
+  "decisions": [],
+  "action_items": []
+}

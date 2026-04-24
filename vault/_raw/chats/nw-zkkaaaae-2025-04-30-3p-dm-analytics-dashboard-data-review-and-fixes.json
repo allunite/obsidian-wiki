@@ -1,0 +1,26 @@
+{
+  "chat_id": "nW_zkkAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2025-04-30",
+    "end": "2025-04-30"
+  },
+  "message_count": 13,
+  "topic": "Analytics dashboard data review and fixes",
+  "topic_slug": "analytics-dashboard-data-review-and-fixes",
+  "tags": [
+    "analytics",
+    "impression",
+    "campaign"
+  ],
+  "summary_markdown": "The conversation focused on reviewing an analytics dashboard link provided by [p1]. It was noted that the data displayed for 'юніків' (youth/young people) does not seem to be pulling the correct frequency data.\n\n[p1] requested a fix for this issue, stating they would create a task for it. Additionally, [p1] asked for clarification on how the '% OF SUM VISITORS' metric is calculated.\n\n[me] acknowledged the dashboard but stated that the conversions shown were not of interest to anyone.",
+  "decisions": [
+    "A fix is required for the frequency data displayed in the analytics dashboard for 'юніків'."
+  ],
+  "action_items": [
+    "[p1] will create a task to address the frequency data issue.",
+    "[me] needs to review the dashboard data later."
+  ]
+}

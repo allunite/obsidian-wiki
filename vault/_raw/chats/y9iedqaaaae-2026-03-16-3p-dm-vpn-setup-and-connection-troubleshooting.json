@@ -1,0 +1,21 @@
+{
+  "chat_id": "y9IEDQAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2026-03-16",
+    "end": "2026-03-16"
+  },
+  "message_count": 7,
+  "topic": "VPN setup and connection troubleshooting",
+  "topic_slug": "vpn-setup-and-connection-troubleshooting",
+  "tags": [
+    "analytics"
+  ],
+  "summary_markdown": "Someone provided instructions for installing a new VPN (Netbird) and setting the management URL to `https://netbird.allunite.com`. [me] attempted the setup, noting an error: \"mon.allunite.local’s server IP address could not be found.\" Someone then added [me] to the correct group, which resolved the issue.",
+  "decisions": [
+    "The new VPN (Netbird) was installed and configured."
+  ],
+  "action_items": []
+}

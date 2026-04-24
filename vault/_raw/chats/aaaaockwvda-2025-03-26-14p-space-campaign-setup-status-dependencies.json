@@ -1,0 +1,26 @@
+{
+  "chat_id": "AAAAOcKWvdA",
+  "kind": "Space",
+  "space_name": "Delivery Coordination",
+  "participants": 14,
+  "date_range": {
+    "start": "2025-03-26",
+    "end": "2025-03-26"
+  },
+  "message_count": 5,
+  "topic": "Campaign setup and required status dependencies",
+  "topic_slug": "campaign-setup-status-dependencies",
+  "tags": [
+    "campaign",
+    "frame",
+    "analytics"
+  ],
+  "summary_markdown": "A discussion arose regarding the possibility of opening a campaign for Finland with frame statuses beyond just 'ready'. It was noted that the available campaign statuses are generally not expected to depend on specific clients. A workaround was suggested: making changes quickly, perhaps by evening, and deploying them to a staging environment so the client could test for bugs. However, it was stressed that if future campaign frame status availability must be dependent on the client, this requires formal development work (e.g., in Jira) and cannot be implemented immediately.",
+  "decisions": [
+    "The immediate request to open a Finnish campaign with varied frame statuses is considered complex.",
+    "A temporary solution involves deploying changes quickly to staging for client bug testing."
+  ],
+  "action_items": [
+    "If client-specific dependencies on frame status are required, the task must be logged in Jira for a future release."
+  ]
+}

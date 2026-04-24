@@ -1,0 +1,24 @@
+{
+  "chat_id": "oCgFCIAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2024-04-01",
+    "end": "2024-04-01"
+  },
+  "message_count": 10,
+  "topic": "Database user permissions for production deployment",
+  "topic_slug": "database-user-permissions-for-production-deployment",
+  "tags": [
+    "analytics",
+    "facility"
+  ],
+  "summary_markdown": "The discussion focused on setting up database access credentials for a system moving to production. It was noted that the current setup uses default configurations, which is insufficient for proper functionality.\n\n[p1] confirmed that a new user needs to be created with write permissions but must have highly restricted rights. A key requirement emphasized was preventing the new user from having Data Definition Language (DDL) privileges to avoid accidental data deletion or structural changes.",
+  "decisions": [
+    "A new, limited-write database user account will be created for the system's production deployment."
+  ],
+  "action_items": [
+    "[me] to create the restricted write-access user account."
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "chat_id": "i6YI1QAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 2,
+  "date_range": {
+    "start": "2022-03-10",
+    "end": "2022-03-10"
+  },
+  "message_count": 53,
+  "topic": "Session calibration and data processing updates",
+  "topic_slug": "session-calibration-and-data-processing-updates",
+  "tags": [
+    "analytics",
+    "campaign",
+    "impression",
+    "staging"
+  ],
+  "summary_markdown": "The conversation covered technical details regarding session calibration for Spain, specifically addressing the use of `device_session_calibration_staging` data rather than relying solely on the `is_calibrated` flag in `device_session_concept`. A code snippet was shared illustrating how to pull staging calibration data.\n\nLater, a request was made to run all models for the period from February 19th until the end of the month within `ml_staging`. The participant confirmed running a query on the stage table (`allunite.device_session_agg_ml_staging`) filtered between '2022-02-19' and '2022-03-01'. It was noted that this staging data contained new impressions only for Finland, but it is intended for testing purposes.",
+  "decisions": [
+    "The team agreed to use the `device_session_calibration_staging` table directly for calibration data when processing sessions for Spain."
+  ],
+  "action_items": [
+    "Run all models in ml_staging for the period starting February 19th until the end of the month.",
+    "Someone needs to provide the company number for Wonderful Copenhagen."
+  ]
+}

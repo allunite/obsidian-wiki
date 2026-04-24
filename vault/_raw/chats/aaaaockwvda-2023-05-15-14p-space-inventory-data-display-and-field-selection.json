@@ -1,0 +1,28 @@
+{
+  "chat_id": "AAAAOcKWvdA",
+  "kind": "Space",
+  "space_name": "Delivery Coordination",
+  "participants": 14,
+  "date_range": {
+    "start": "2023-05-15",
+    "end": "2023-05-15"
+  },
+  "message_count": 35,
+  "topic": "Inventory data display and field selection",
+  "topic_slug": "inventory-data-display-and-field-selection",
+  "tags": [
+    "analytics",
+    "inventory",
+    "frame",
+    "campaign"
+  ],
+  "summary_markdown": "The discussion focused on refining the data displayed in inventory views, particularly for client consumption. Several fields were discussed, including facility name and address visibility, MAC addresses (which some felt were not highly informative for clients), and various data methods.\n\nIt was decided that the display of information must prioritize what is most valuable to the client, even if it means omitting certain internal or technical details like creation dates. A suggestion was made to structure inventory columns similarly to a campaign list: showing 5 default fields with an option to select up to 10 additional fields.",
+  "decisions": [
+    "Data displayed in inventory views must prioritize client-facing information.",
+    "The display of MAC addresses is questionable regarding its informational value for clients.",
+    "Inventory columns should adopt a structure similar to the campaign list (5 default fields + option for 10 additional fields)."
+  ],
+  "action_items": [
+    "Finalize ideas and start work on implementing the required status updates and data display changes."
+  ]
+}

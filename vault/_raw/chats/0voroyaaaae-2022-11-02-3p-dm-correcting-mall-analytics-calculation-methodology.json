@@ -1,0 +1,26 @@
+{
+  "chat_id": "0VorOYAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2022-11-02",
+    "end": "2022-11-02"
+  },
+  "message_count": 19,
+  "topic": "Correcting mall analytics calculation methodology",
+  "topic_slug": "correcting-mall-analytics-calculation-methodology",
+  "tags": [
+    "analytics",
+    "session",
+    "unique"
+  ],
+  "summary_markdown": "The discussion focused on correcting the methodology for calculating Mall total traffic within the analytics platform. It was noted that the current calculation incorrectly uses `factor total near screen/real total Mall`, instead of normalizing based on unique traffic (uniques).\n\nThe proposed correct plan, discussed with Galina, involves:\n1. Calculating Real sessions and Real uniques specifically for the Mall (e.g., those lasting >2 hours).\n2. Calculating a factor using uniques near screen/real uniques Mall.\n3. Multiplying this factor by both the Mall total and Mall uniques to get the final figure.\n\nIt was determined that the current analytics coefficients are incorrect, leading to inaccurate dashboard numbers, even though the core script calculation for sessions/uniques is correct.",
+  "decisions": [
+    "The mall traffic must be normalized using unique traffic (Mall uniques) rather than total traffic."
+  ],
+  "action_items": [
+    "Fixing the recalculation of screen data, expected to be ready by tomorrow for review.",
+    "Review and correct the analytics coefficients used in the dashboard to ensure accurate data flow from sessions/model to totals."
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "chat_id": "0VorOYAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2025-01-13",
+    "end": "2025-01-13"
+  },
+  "message_count": 4,
+  "topic": "Integrating Brazilian park demographics data",
+  "topic_slug": "integrating-brazilian-park-demographics-data",
+  "tags": [
+    "analytics",
+    "campaign"
+  ],
+  "summary_markdown": "The conversation concerns a new project in Brazil, specifically for 'viva parques'. The goal is to integrate demographic data (Gender, Color or Race, Age Distribution from Census data) for Recife's Park into the existing system. [me] confirmed they would handle the integration after completing another task. A ticket was subsequently created and shared via Jira.",
+  "decisions": [
+    "The project requires integrating specific census-based demographic data for a park in Brazil."
+  ],
+  "action_items": [
+    "A Jira ticket (DOOH-1597) has been created to track the implementation of the demographic data integration."
+  ]
+}

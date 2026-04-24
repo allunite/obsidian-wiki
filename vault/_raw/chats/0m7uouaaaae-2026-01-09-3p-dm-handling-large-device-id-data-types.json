@@ -1,0 +1,24 @@
+{
+  "chat_id": "0m7UOUAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2026-01-09",
+    "end": "2026-01-09"
+  },
+  "message_count": 31,
+  "topic": "Handling large device ID data types in analytics",
+  "topic_slug": "handling-large-device-id-data-types",
+  "tags": [
+    "analytics",
+    "inventory"
+  ],
+  "summary_markdown": "The discussion focused on technical issues encountered when querying and handling very large `device_id` hashes (e.g., 17303602478441054072) within the raw data table (`core.raw_data_3rd_party`).\n\nInitial attempts to load these IDs resulted in `java.lang.ArithmeticException: integer overflow` because standard long types could not represent the full value.\n\nSeveral solutions were tested, including using `toUInt64()` and `toInt64()`, but these failed or produced incorrect results (negative numbers).\n\nThe successful method identified was utilizing `toUInt128()`, which correctly displayed the large ID values. A global configuration change to treat 'long' as 'int128' was discussed but deemed impractical.\n\nAs a workaround, an explicit casting statement (`select * except (data) replace (toUInt128(device_id_hash) as device_id_hash)...`) was proposed and tested.",
+  "decisions": [
+    "The `device_id` hash must be handled using the `toUInt128()` function to prevent integer overflow errors."
+  ],
+  "action_items": [
+    "Use `toUInt128()` when querying or manipulating the `device_id_hash` column in `core.raw_data_3rd_party`."
+  ]
+}

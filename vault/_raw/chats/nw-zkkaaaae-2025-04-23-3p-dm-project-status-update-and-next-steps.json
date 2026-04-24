@@ -1,0 +1,19 @@
+{
+  "chat_id": "nW_zkkAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2025-04-23",
+    "end": "2025-04-23"
+  },
+  "message_count": 3,
+  "topic": "Project status update and next steps",
+  "topic_slug": "project-status-update-and-next-steps",
+  "tags": [
+    "analytics"
+  ],
+  "summary_markdown": "The conversation confirms that a task has been completed by someone else, allowing [me] to proceed with mirroring the project.",
+  "decisions": [],
+  "action_items": []
+}

@@ -1,0 +1,25 @@
+{
+  "chat_id": "AAAAaK7z8KI",
+  "kind": "Space",
+  "space_name": "Group Chat",
+  "participants": 5,
+  "date_range": {
+    "start": "2025-03-28",
+    "end": "2025-03-28"
+  },
+  "message_count": 12,
+  "topic": "Analytics fix deployment timing and execution",
+  "topic_slug": "analytics-fix-deployment-timing-and-execution",
+  "tags": [
+    "analytics",
+    "campaign"
+  ],
+  "summary_markdown": "The discussion centered on the deployment of an analytics fix. Initially, there was concern about whether deploying `ml-api main` to production would affect Finland's data. It was determined that while a fix needed to be deployed, the team decided to wait until after the completion of the Finland DEMO (scheduled for 1.5 hours later). Later, it was agreed that deployment could proceed, and [me] subsequently confirmed that the fix had been successfully deployed.",
+  "decisions": [
+    "The analytics fix must be deployed today.",
+    "Deployment will wait until after the completion of the Finland DEMO."
+  ],
+  "action_items": [
+    "[me] to deploy the analytics fix."
+  ]
+}

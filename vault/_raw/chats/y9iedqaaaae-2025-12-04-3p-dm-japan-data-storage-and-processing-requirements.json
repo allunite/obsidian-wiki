@@ -1,0 +1,21 @@
+{
+  "chat_id": "y9IEDQAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2025-12-04",
+    "end": "2025-12-04"
+  },
+  "message_count": 6,
+  "topic": "Japan data storage and processing requirements",
+  "topic_slug": "japan-data-storage-and-processing-requirements",
+  "tags": [
+    "analytics"
+  ],
+  "summary_markdown": "The discussion focused on the necessity of moving data storage and processing entirely to Japan. Someone asked about the time required to set up an environment in Japan, and the additional cost associated with this move. The speaker noted they could estimate the costs using AWS information the following day.",
+  "decisions": [],
+  "action_items": [
+    "Estimate time and cost for setting up Japanese environment (using AWS)"
+  ]
+}

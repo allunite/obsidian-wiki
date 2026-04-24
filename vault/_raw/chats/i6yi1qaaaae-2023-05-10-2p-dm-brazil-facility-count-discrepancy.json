@@ -1,0 +1,21 @@
+{
+  "chat_id": "i6YI1QAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 2,
+  "date_range": {
+    "start": "2023-05-10",
+    "end": "2023-05-10"
+  },
+  "message_count": 17,
+  "topic": "Brazil facility count discrepancy",
+  "topic_slug": "brazil-facility-count-discrepancy",
+  "tags": [
+    "facility"
+  ],
+  "summary_markdown": "The conversation focused on discrepancies in the total number of facilities available for Brazil. [p1] initially stated a figure of 3,867, which was corrected by [me] to 3,977. [me] clarified that this count includes CC & JCD and excludes current duplicates, referencing selections made by someone named Nastya. The discussion concluded with an understanding of how the facilities were created (when Nastya set up new facility boxes for attaching frames from already imported facilities).",
+  "decisions": [
+    "The correct total number of facilities for Brazil is 3,977."
+  ],
+  "action_items": []
+}

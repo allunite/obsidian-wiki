@@ -1,0 +1,24 @@
+{
+  "chat_id": "nW_zkkAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2023-08-03",
+    "end": "2023-08-03"
+  },
+  "message_count": 12,
+  "topic": "Virtual sensor prediction data preparation",
+  "topic_slug": "virtual-sensor-prediction-data-preparation",
+  "tags": [
+    "analytics",
+    "session"
+  ],
+  "summary_markdown": "Someone provided a file listing virtual sensors, their nearest real counterparts, and a multiplier factor for predicting `session_predicted` values for the virtual sensors. The discussion focused on generating this prediction data using historical records starting from the project launch date (2022-09-15). [me] confirmed they would complete the task the following day.",
+  "decisions": [
+    "The prediction calculation will use a multiplier factor for `session_predicted` values."
+  ],
+  "action_items": [
+    "[me] to generate the virtual sensor prediction data starting from 2022-09-15."
+  ]
+}

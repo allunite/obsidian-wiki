@@ -1,0 +1,30 @@
+{
+  "chat_id": "i6YI1QAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 2,
+  "date_range": {
+    "start": "2022-09-09",
+    "end": "2022-09-09"
+  },
+  "message_count": 37,
+  "topic": "Data calculation adjustments and population scope",
+  "topic_slug": "data-calculation-adjustments-and-population-scope",
+  "tags": [
+    "analytics",
+    "impression",
+    "facility"
+  ],
+  "summary_markdown": "The team discussed several data calculations. First, it was decided that the Over Time Coverage (OTC) metric should be calculated as `viewable_dwell_impressions + viewable_flow_impressions`. Additionally, when pulling data from ОТС, the `#Screens` tag must be removed to prevent duplication of panels.\n\nRegarding population metrics for AFA, it was noted that the target population figure could be updated (e.g., replacing 3.5 million with 5.831 million). Furthermore, clarification was made regarding reach: since the audience number is limited by available physical boxes, the maximum potential reach should be clarified as only covering the region served by AFA boxes, rather than assuming 100% population coverage.",
+  "decisions": [
+    "OTC metric calculation confirmed: viewable_dwell_impressions + viewable_flow_impressions",
+    "When pulling data from ОТС, remove #Screens to prevent panel duplication",
+    "Target population figure can be updated/replaced",
+    "Reach metrics should clarify that coverage is limited by AFA box potential reach, not total population."
+  ],
+  "action_items": [
+    "Implement the OTC calculation (viewable_dwell_impressions + viewable_flow_impressions)",
+    "Remove #Screens tag when pulling data from ОТС",
+    "Review and adjust the display of AFA coverage vs. total population reach metrics"
+  ]
+}

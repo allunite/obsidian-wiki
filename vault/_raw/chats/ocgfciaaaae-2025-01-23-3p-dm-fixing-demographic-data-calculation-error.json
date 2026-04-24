@@ -1,0 +1,26 @@
+{
+  "chat_id": "oCgFCIAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2025-01-23",
+    "end": "2025-01-23"
+  },
+  "message_count": 27,
+  "topic": "Fixing demographic data calculation error",
+  "topic_slug": "fixing-demographic-data-calculation-error",
+  "tags": [
+    "analytics",
+    "campaign",
+    "facility"
+  ],
+  "summary_markdown": "The conversation focused on debugging an error related to calculating demographics, specifically when accessing a local development environment or production metrics. The initial error was traced back to a `ClickHouseError` regarding arrays passed to the `avgWeightedForEach` aggregate function having different sizes. It was determined that for one of three facilities within a specific campaign, demographic data was missing. A hotfix was implemented and deployed to resolve the crash on the analytics platform. Although the system stopped crashing, the metrics displayed were zero, requiring further investigation.",
+  "decisions": [
+    "A hotfix was created and applied to fix the demographic calculation error in the production environment.",
+    "The issue was deemed non-critical ('не горит') but necessary for future stability."
+  ],
+  "action_items": [
+    "Someone needs to investigate why the metrics displayed on the analytics platform are currently zero."
+  ]
+}

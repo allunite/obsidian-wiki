@@ -1,0 +1,27 @@
+{
+  "chat_id": "oCgFCIAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2023-06-27",
+    "end": "2023-06-27"
+  },
+  "message_count": 19,
+  "topic": "Handling fragmented facility traffic data",
+  "topic_slug": "handling-fragmented-facility-traffic-data",
+  "tags": [
+    "analytics",
+    "inventory",
+    "frame",
+    "facility"
+  ],
+  "summary_markdown": "The discussion focused on a large volume of fragmented traffic data (228 pieces per frame) derived from the `_brazil_va_2` table for a specific facility. The core problem identified was that segmenting road data into many small pieces might lead to inaccurate or overly complex reporting.\n\nIt was determined that instead of analyzing each small piece, the goal should be to calculate and report the total traffic for the entire road/facility using an `osm_id` field where possible. The proposed method involves calculating a coefficient (or ratio) to distribute the overall facility traffic across the segmented pieces, rather than relying on individual segment counts.\n\nParticipants reviewed existing views (`v_frame`) and data structures to simplify the required inputs.",
+  "decisions": [
+    "Traffic reporting should aggregate data at the road/facility level using `osm_id` instead of analyzing every small segment piece.",
+    "A coefficient or ratio must be calculated to distribute total facility traffic across segmented pieces."
+  ],
+  "action_items": [
+    "Review and simplify the required data inputs to reduce the volume of fragmented data points."
+  ]
+}

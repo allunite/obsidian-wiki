@@ -1,0 +1,27 @@
+{
+  "chat_id": "0VorOYAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2025-04-18",
+    "end": "2025-04-18"
+  },
+  "message_count": 44,
+  "topic": "Airport analytics data provider fix",
+  "topic_slug": "airport-analytics-data-provider-fix",
+  "tags": [
+    "facility",
+    "analytics",
+    "impression"
+  ],
+  "summary_markdown": "The conversation focused on debugging and fixing the demographic data displayed in the airport analytics dashboard. It was determined that the current issue stemmed from the system incorrectly defaulting to a general demography provider (likely 'areas of living') instead of the specific required provider (e.g., KIDO) for certain regions, such as Brazil.\n\nA hotfix is being implemented to correct this data feed. Separately, discussions covered implementing frequency and footfall models for the airport facility, specifically requesting that these models be applied only to the airport segment within a larger company structure (JCD), rather than affecting other categories or requiring changes at the parent level.",
+  "decisions": [
+    "A hotfix will be implemented to correct the demographic data provider in the airport analytics dashboard.",
+    "Frequency and footfall models for the airport facility will be applied using a specific test identifier (TEST10) on both staging and production environments, limited only to the airport segment."
+  ],
+  "action_items": [
+    "Implement hotfix for demographic data provider in airport analytics.",
+    "Apply frequency/footfall models (TEST10) to airport facility on stage and prod."
+  ]
+}

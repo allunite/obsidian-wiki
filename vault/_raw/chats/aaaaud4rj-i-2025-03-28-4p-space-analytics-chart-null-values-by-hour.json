@@ -1,0 +1,23 @@
+{
+  "chat_id": "AAAAud4RJ_I",
+  "kind": "Space",
+  "space_name": "Group Chat",
+  "participants": 4,
+  "date_range": {
+    "start": "2025-03-28",
+    "end": "2025-03-28"
+  },
+  "message_count": 33,
+  "topic": "Analytics chart displaying null values by hour",
+  "topic_slug": "analytics-chart-null-values-by-hour",
+  "tags": [
+    "analytics",
+    "impression",
+    "session"
+  ],
+  "summary_markdown": "Multiple issues were discussed regarding data visualization in the analytics platform. Initially, random spikes in unique user counts (uniques) were observed when refreshing the production environment chart. Later, a separate issue was identified where the unique traffic graph failed to display data by hour on both production and staging environments, although total unique traffic remained visible at the top of the dashboard. It was determined that null values are being returned from the server for hourly data points, while daily views appear correct.\n\nThe team confirmed that historically, unique counts were expected to match sessions because the frequency was set to 1.",
+  "decisions": [
+    "The random spikes in uniques observed upon refreshing the production chart were resolved (fixed)."
+  ],
+  "action_items": []
+}

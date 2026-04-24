@@ -1,0 +1,24 @@
+{
+  "chat_id": "uJ8JA8AAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2025-10-31",
+    "end": "2025-10-31"
+  },
+  "message_count": 13,
+  "topic": "Updating device session data and forecasts",
+  "topic_slug": "updating-device-session-data-and-forecasts",
+  "tags": [
+    "analytics",
+    "session"
+  ],
+  "summary_markdown": "The conversation focused on updating various datasets related to device sessions and forecasting. Initially, a complex SQL query was run for forecast generation.\n\nLater, it was determined that updates were needed not only for the main forecast but also for virtual facilities linked to specific physical locations, and additionally, the `device_session_trusted` dataset required an update.",
+  "decisions": [
+    "The device session forecast needs to be re-run/updated.",
+    "Updates must be applied to data for virtual facilities linked to existing facilities.",
+    "The `device_session_trusted` dataset must also be updated."
+  ],
+  "action_items": []
+}

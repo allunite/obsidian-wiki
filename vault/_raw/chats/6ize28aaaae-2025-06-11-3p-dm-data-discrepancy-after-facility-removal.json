@@ -1,0 +1,25 @@
+{
+  "chat_id": "6ize28AAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2025-06-11",
+    "end": "2025-06-11"
+  },
+  "message_count": 28,
+  "topic": "Data discrepancy after facility removal",
+  "topic_slug": "data-discrepancy-after-facility-removal",
+  "tags": [
+    "analytics",
+    "campaign",
+    "inventory"
+  ],
+  "summary_markdown": "A data inconsistency issue was discussed where metrics displayed on the dashboard did not match traffic exported to Excel after a facility was removed from the cluster. The discrepancy occurred even though the raw export reflected the change.\n\nSeparately, issues related to frequency calculations were reviewed. It was noted that when there was no traffic for an hour or two, `dayNumber < 1` values appeared, which caused problems because the frequency formula function was not being called correctly in the cluster environment.",
+  "decisions": [
+    "The frequency calculation issue has been fixed."
+  ],
+  "action_items": [
+    "Someone will write to the general chat regarding how a facility was removed from the cluster."
+  ]
+}

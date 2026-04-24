@@ -1,0 +1,24 @@
+{
+  "chat_id": "y9IEDQAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2024-08-28",
+    "end": "2024-08-28"
+  },
+  "message_count": 28,
+  "topic": "Salary negotiation and raise timing",
+  "topic_slug": "salary-negotiation-and-raise-timing",
+  "tags": [
+    "campaign",
+    "analytics"
+  ],
+  "summary_markdown": "The discussion centered on salary increases for a team member. One participant noted that the employee's current salary is higher than previously discussed figures, and suggested an increase of 200–300 EUR was still necessary.\n\nRegarding timing, it was mentioned that any raise could potentially be implemented in December, as attempts to secure smaller increases (like a hundred EUR) were unsuccessful at the time.",
+  "decisions": [
+    "The possibility of raising salary was discussed and deferred until December."
+  ],
+  "action_items": [
+    "[p1] will communicate the timing constraints regarding the raise to the employee."
+  ]
+}

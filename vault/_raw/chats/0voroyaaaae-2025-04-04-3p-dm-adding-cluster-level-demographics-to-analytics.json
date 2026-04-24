@@ -1,0 +1,27 @@
+{
+  "chat_id": "0VorOYAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2025-04-04",
+    "end": "2025-04-04"
+  },
+  "message_count": 31,
+  "topic": "Adding cluster-level demographics to analytics",
+  "topic_slug": "adding-cluster-level-demographics-to-analytics",
+  "tags": [
+    "analytics",
+    "dwell-time",
+    "facility"
+  ],
+  "summary_markdown": "The discussion focused on enhancing demographic data display, particularly for specific facilities like airports. It was determined that while adding separate demographics for every category is complex and not feasible in the current release, a solution involving optional cluster-level demography was proposed.\n\nThis approach suggests using general demographics on traffic pages, but pulling specialized, facility-specific (cluster) data when available on dedicated cluster pages (e.g., malls, airports). If cluster-specific data is missing, the general data should be used instead.\n\nIt was noted that this feature would require a demographic engine update and implementation in a subsequent release.",
+  "decisions": [
+    "Implement optional cluster-level demography for facility analytics.",
+    "Use general demographics on traffic pages; use specific cluster demographics on dedicated cluster pages (e.g., airports).",
+    "The feature will be implemented in the next release."
+  ],
+  "action_items": [
+    "Someone to discuss the proposed demographic logic with Halyna and plan for the next development cycle."
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "chat_id": "AAAAUkNTt58",
+  "kind": "Space",
+  "space_name": "Group Chat",
+  "participants": 3,
+  "date_range": {
+    "start": "2023-01-12",
+    "end": "2023-01-12"
+  },
+  "message_count": 70,
+  "topic": "Analytics development and data import issues",
+  "topic_slug": "analytics-development-and-data-import-issues",
+  "tags": [
+    "inventory",
+    "frame",
+    "analytics"
+  ],
+  "summary_markdown": "The discussion covered multiple technical points regarding analytics development, focusing on frame grouping, status handling, and data import processes.\n\n*   **Frame Data:** There was a discussion about the maximum number of frames (potentially up to 24) and whether to group frames by owner or address. The decision was made to leave this point for later clarification.\n*   **Status Handling:** A bug regarding status display in dropdown lists was noted, requiring data injection into the UI field even if the database value is empty. It was decided that all imported records should default to `status_id: 0`.\n*   **Development Status:** Several features were deployed or updated, including a list with filtering and pagination. The map component's integration was discussed; initially replaced by a standard list view, but the need for the map was acknowledged.\n*   **Deployment Process:** A warning was issued regarding deployment practices, specifically advising against deploying changes at the last minute.\n\nAdditionally, [me] provided an email address and credentials.",
+  "decisions": [
+    "All imported records must default to status_id: 0",
+    "The grouping of frames (by owner or address) will be clarified later",
+    "The list view with filtering/pagination is currently deployed, but the map component integration needs follow-up"
+  ],
+  "action_items": [
+    "Follow up on frame grouping logic (owner vs. address)",
+    "Integrate the map component into the analytics view"
+  ]
+}

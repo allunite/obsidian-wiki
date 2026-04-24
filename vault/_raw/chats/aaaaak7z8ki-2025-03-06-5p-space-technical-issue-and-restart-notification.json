@@ -1,0 +1,19 @@
+{
+  "chat_id": "AAAAaK7z8KI",
+  "kind": "Space",
+  "space_name": "Group Chat",
+  "participants": 5,
+  "date_range": {
+    "start": "2025-03-06",
+    "end": "2025-03-06"
+  },
+  "message_count": 6,
+  "topic": "Technical issue and restart notification",
+  "topic_slug": "technical-issue-and-restart-notification",
+  "tags": [
+    "analytics"
+  ],
+  "summary_markdown": "The conversation primarily involves a technical hiccup, with someone noting they were stuck on a request. Another participant provided updates regarding the system restarting and becoming operational.",
+  "decisions": [],
+  "action_items": []
+}

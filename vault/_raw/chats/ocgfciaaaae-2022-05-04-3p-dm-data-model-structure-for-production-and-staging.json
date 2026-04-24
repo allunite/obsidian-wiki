@@ -1,0 +1,25 @@
+{
+  "chat_id": "oCgFCIAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2022-05-04",
+    "end": "2022-05-04"
+  },
+  "message_count": 37,
+  "topic": "Data model structure for production and staging",
+  "topic_slug": "data-model-structure-for-production-and-staging",
+  "tags": [
+    "analytics",
+    "inventory",
+    "campaign"
+  ],
+  "summary_markdown": "The discussion focused on the best practice for managing data differences between production and staging environments, specifically concerning the `ml_model` table.\n\nInitial options considered were creating a separate table for staging or adding an environment field. The participants agreed that using two views (one for each environment) mapped to a single underlying table was a viable approach.\n\nTechnical discussion highlighted the benefits of using Data Definition Language (DDL) directly on the database dictionary rather than relying on file updates, as this prevents connection failures from causing data unavailability. It was noted that while direct DDL is preferred for robustness, migrating the entire process to use dictionaries/views is a long-term goal.",
+  "decisions": [
+    "Use two views (one for production and one for staging) mapped to the `ml_model` table structure."
+  ],
+  "action_items": [
+    "[p1] will test the proposed view approach with Galina to confirm usability."
+  ]
+}

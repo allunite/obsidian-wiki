@@ -1,0 +1,26 @@
+{
+  "chat_id": "AAAA3frAfLA",
+  "kind": "Space",
+  "space_name": "Lidar Tech",
+  "participants": 8,
+  "date_range": {
+    "start": "2021-10-29",
+    "end": "2021-10-29"
+  },
+  "message_count": 40,
+  "topic": "Analyzing lidar data and network traffic usage",
+  "topic_slug": "analyzing-lidar-data-and-network-traffic-usage",
+  "tags": [
+    "analytics",
+    "inventory",
+    "loop"
+  ],
+  "summary_markdown": "The discussion focused on analyzing high network traffic consumption related to Lidar data and device connectivity. Concerns were raised about the total LiDar counting, with one participant noting a figure of 227 from two points.\n\nParticipants discussed potential causes for excessive bandwidth usage (e.g., MQTT reconnection/certificate exchange, background updates).\n\nIt was noted that traffic monitoring tools like Wireshark might be necessary to diagnose the network issues. The use of RMS connection was confirmed for connecting to Jetson devices.",
+  "decisions": [
+    "The need for a specialized tool (like a lightweight Wireshark) to monitor network traffic was identified."
+  ],
+  "action_items": [
+    "Investigate the root cause of high bandwidth usage, particularly related to MQTT reconnection and certificate exchange on the fourth lidar unit.",
+    "Determine if a devmon is required on the router."
+  ]
+}

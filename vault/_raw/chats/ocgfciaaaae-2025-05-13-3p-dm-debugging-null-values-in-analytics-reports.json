@@ -1,0 +1,27 @@
+{
+  "chat_id": "oCgFCIAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2025-05-13",
+    "end": "2025-05-13"
+  },
+  "message_count": 62,
+  "topic": "Debugging null values in analytics reports",
+  "topic_slug": "debugging-null-values-in-analytics-reports",
+  "tags": [
+    "analytics",
+    "facility",
+    "impression",
+    "session"
+  ],
+  "summary_markdown": "The discussion focused on debugging null values appearing in analytics reports, specifically concerning traffic data for certain facilities (e.g., facility_num=43882) within mall zones.\n\nInitial investigation revealed that the issue was tied to running the report in production mode (`isProduction = true`), while it worked correctly when set to false. The root cause was identified as discrepancies in the frequency calculation logic between the live (production) environment and the staging/development environments, particularly related to how `frequency` functions were implemented.\n\nLater discussions covered general data quality issues, including null values appearing in aggregated metrics (like average session or coverage factor), which required implementing complex conditional logic instead of simple coalesce functions. The team also discussed potential future improvements for handling virtual sessions and improving the system's ability to manage historical data with versioning.",
+  "decisions": [
+    "A fix was pushed and will be merged into development."
+  ],
+  "action_items": [
+    "Implement fixes at the aggregation level to handle empty aggregates.",
+    "Investigate virtual sessions for potential system improvements (future work)."
+  ]
+}

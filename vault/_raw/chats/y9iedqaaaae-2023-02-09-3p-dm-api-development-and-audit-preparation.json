@@ -1,0 +1,32 @@
+{
+  "chat_id": "y9IEDQAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2023-02-09",
+    "end": "2023-02-09"
+  },
+  "message_count": 117,
+  "topic": "API development and audit preparation",
+  "topic_slug": "api-development-and-audit-preparation",
+  "tags": [
+    "analytics",
+    "campaign",
+    "inventory",
+    "facility",
+    "data-api"
+  ],
+  "summary_markdown": "The conversation covered technical debugging for an internal API and preparation of documentation/access for auditors.\n\n**API Development:**\n*   Initial discussion focused on build processes, noting that the current system uses NestJS rather than Angular (unlike Mops).\n*   Debugging revealed issues with local development setup (e.g., `npm ERR! enoent: no such file or directory`).\n*   The API was updated to include a `/echo` endpoint for testing purposes, resolving an issue where the root path (`/`) returned a 404 error.\n*   Network connectivity issues were observed when attempting to retrieve data for Joe&TheJuice (JCD), requiring confirmation that the domain name `data-api.allunite.com` was correctly resolving.\n*   A major issue with report generation was traced back to improper handling of HTTP POST requests being converted to HTTPS GET requests, which required manual file adjustments and re-running jobs.\n\n**Audit Preparation:**\n*   The team discussed the scope of documentation for external auditors. Initial suggestions included creating a dedicated repository (`repe db`) containing schemas (for `ch` and `pg`) and migrating relevant branches from existing APIs.\n*   It was decided that providing full local setup capability might be overkill, but access to a sandboxed environment or providing DDL scripts for the databases (`pg` and `ch`) would be necessary upon request.\n*   The team confirmed adding `data-api` to the list of components presented to auditors.\n*   Access was granted/updated for external users (e.g., creating a contact for an auditor).\n*   Finally, logistical details regarding physical installations were discussed, noting that multiple facilities might be installed at different locations.",
+  "decisions": [
+    "The API endpoint `/echo` will be implemented to ensure basic functionality and prevent 404 errors on the root path.",
+    "Data for Joe&TheJuice (JCD) was processed and loaded into the designated bucket/jobs.",
+    "Report generation issues were resolved by correcting how HTTP POST requests were handled during data retrieval.",
+    "A dedicated repository structure containing schemas and DDL scripts for `pg` and `ch` will be prepared for auditors' review."
+  ],
+  "action_items": [
+    "The team needs to monitor the status of physical facility installations (two facilities mentioned).",
+    "Follow up on whether external users require access to ML models or if documentation is sufficient.",
+    "Create and share a short guide/documentation for auditors regarding the infrastructure components."
+  ]
+}

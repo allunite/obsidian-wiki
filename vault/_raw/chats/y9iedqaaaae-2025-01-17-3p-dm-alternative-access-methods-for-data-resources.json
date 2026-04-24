@@ -1,0 +1,25 @@
+{
+  "chat_id": "y9IEDQAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2025-01-17",
+    "end": "2025-01-17"
+  },
+  "message_count": 33,
+  "topic": "Alternative access methods for data resources",
+  "topic_slug": "alternative-access-methods-for-data-resources",
+  "tags": [
+    "analytics",
+    "inventory",
+    "clickhouse"
+  ],
+  "summary_markdown": "The conversation discussed potential alternatives to traditional VPN connections for accessing internal data resources (e.g., PostgreSQL, ClickHouse). A new tool/platform was presented that utilizes Google authentication for centralized access control across multiple services.\n\nKey features of this alternative include:\n*   Centralized configuration by administrators, eliminating the need for individual user setup for each resource.\n*   Users interact with resources via a standardized `hoop connect` command, which handles authorization and connection details (including SSH).\n*   This method aims to eliminate separate login credentials for various databases and services.\n\nA technical discussion followed regarding how this system would handle connections from external tools like DataGrip to ClickHouse.",
+  "decisions": [
+    "The new access platform using Google authentication was presented as a potential replacement for VPN."
+  ],
+  "action_items": [
+    "Someone needs to confirm if an external tool like DataGrip can connect to ClickHouse using the proposed `hoop` connection method."
+  ]
+}

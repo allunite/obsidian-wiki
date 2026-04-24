@@ -1,0 +1,20 @@
+{
+  "chat_id": "AAAA9ybOLwM",
+  "kind": "Space",
+  "space_name": "ИТ",
+  "participants": 8,
+  "date_range": {
+    "start": "2022-11-07",
+    "end": "2022-11-07"
+  },
+  "message_count": 3,
+  "topic": "Firmware update and router activation status",
+  "topic_slug": "firmware-update-router-activation-status",
+  "tags": [
+    "campaign",
+    "inventory"
+  ],
+  "summary_markdown": "Discussion regarding the approval status of firmware version 53.7 for JCD (Joe&TheJuice). [p1] noted that old routers are having trouble starting due to outdated keys, requiring significant manual effort to activate. [p1] questioned why they are still using an older version when the new one has been ready for six months.",
+  "decisions": [],
+  "action_items": []
+}

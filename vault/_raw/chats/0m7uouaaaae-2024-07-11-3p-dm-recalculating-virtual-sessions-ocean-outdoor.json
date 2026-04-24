@@ -1,0 +1,26 @@
+{
+  "chat_id": "0m7UOUAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2024-07-11",
+    "end": "2024-07-11"
+  },
+  "message_count": 10,
+  "topic": "Recalculating virtual sessions for Ocean Outdoor",
+  "topic_slug": "recalculating-virtual-sessions-ocean-outdoor",
+  "tags": [
+    "facility",
+    "session",
+    "analytics",
+    "campaign"
+  ],
+  "summary_markdown": "The discussion focused on the technical process of recalculating historical virtual sessions for Ocean Outdoor Denmark, following changes to their virtual facilities. The initial problem identified was difficulty reproducing historical virtual sessions from Mall Analytics.\n\nThe session involved providing two SQL scripts designed to insert data into temporary tables (`device_session_concept_temp` and `device_session_concept_temp_sharded`).\n\n1. **First Script (Live Data):** This script joins `device_session_concept` with a virtual facility dictionary (`facility_virtual_dict`) for target company 7847, covering sessions from January 1, 2024, to July 11, 2024. It also includes non-virtual sessions from the same period.\n2. **Second Script (Archived Data):** This script is designed for sharded archive data (`device_session_archive_sharded`). The first part handles virtual sessions by joining with `facility_virtual_dict` for target company 7847, covering December 1, 2023, to January 1, 2024. The second part includes non-virtual archive sessions from the same period.\n\nThe goal is to ensure comprehensive historical data capture across both live and archived datasets.",
+  "decisions": [
+    "SQL scripts were provided for recalculating virtual sessions using both current (device_session_concept) and archived (device_session_archive_sharded) data sources."
+  ],
+  "action_items": [
+    "Execute the provided SQL scripts to populate temporary tables with historical session data."
+  ]
+}

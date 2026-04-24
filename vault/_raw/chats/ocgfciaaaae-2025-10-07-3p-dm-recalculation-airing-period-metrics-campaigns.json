@@ -1,0 +1,26 @@
+{
+  "chat_id": "oCgFCIAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2025-10-07",
+    "end": "2025-10-07"
+  },
+  "message_count": 25,
+  "topic": "Recalculation of airing period metrics for campaigns",
+  "topic_slug": "recalculation-airing-period-metrics-campaigns",
+  "tags": [
+    "analytics",
+    "campaign",
+    "impression",
+    "loop"
+  ],
+  "summary_markdown": "The discussion centered on the necessity and execution of recalculating reporting metrics for airing periods, particularly for fresh or active campaigns. Initial concerns were raised about data discrepancies across different teams regarding metric calculations.\n\nLater, the focus narrowed to identifying which campaigns required updates. It was determined that only campaigns currently in an active period needed reprocessing (those where `c.to_date + INTERVAL '1 day' >= CURRENT_DATE` and `c.from_date < CURRENT_DATE`).\n\n[me] deployed a hotfix to the production environment, which allowed for the recalculation of metrics for affected campaigns. The process was executed successfully by [p1], resulting in updated data being available shortly after.",
+  "decisions": [
+    "Metrics reporting for airing periods must be recalculated for active campaigns."
+  ],
+  "action_items": [
+    "None"
+  ]
+}

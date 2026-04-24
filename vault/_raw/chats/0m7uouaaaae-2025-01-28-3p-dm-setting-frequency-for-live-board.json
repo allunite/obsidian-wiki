@@ -1,0 +1,23 @@
+{
+  "chat_id": "0m7UOUAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2025-01-28",
+    "end": "2025-01-28"
+  },
+  "message_count": 6,
+  "topic": "Setting frequency for Live Board",
+  "topic_slug": "setting-frequency-for-live-board",
+  "tags": [
+    "inventory"
+  ],
+  "summary_markdown": "Someone requested that the frequency setting for the company Live Board (7928, Japan) be set to match that of RZK (7894). This change needs to be applied both in production and staging environments.",
+  "decisions": [
+    "Frequency for Live Board (7928) will match RZK's (7894) frequency."
+  ],
+  "action_items": [
+    "Apply the specified frequency setting to Live Board in both production and staging environments."
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "chat_id": "nW_zkkAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2025-02-26",
+    "end": "2025-02-26"
+  },
+  "message_count": 26,
+  "topic": "Forecast changes and calibration tasks",
+  "topic_slug": "forecast-changes-and-calibration-tasks",
+  "tags": [
+    "analytics",
+    "campaign",
+    "facility"
+  ],
+  "summary_markdown": "The conversation covered several technical updates and future tasks. Initially, [me] deployed a hotfix for factors on production after receiving approval.\n\nRegarding the forecast changes task (for Provence), it was discussed that [me] will complete this within the week and provide a dataset covering the current year. Testing of the resulting data is anticipated.\n\nAdditionally, a calibration task was assigned for company 7944 at facility 43304 on stage and production environments, which needs to be completed.",
+  "decisions": [
+    "The forecast changes will be delivered this week with a dataset covering the current year.",
+    "Calibration must be performed for company 7944 / facility 43304 on both staging and production."
+  ],
+  "action_items": [
+    "Complete and deliver the forecast changes by the end of the week.",
+    "Perform calibration for company 7944 at facility 43304 on stage and prod."
+  ]
+}

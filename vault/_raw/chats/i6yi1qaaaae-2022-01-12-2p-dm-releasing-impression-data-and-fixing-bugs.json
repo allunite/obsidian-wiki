@@ -1,0 +1,26 @@
+{
+  "chat_id": "i6YI1QAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 2,
+  "date_range": {
+    "start": "2022-01-12",
+    "end": "2022-01-12"
+  },
+  "message_count": 56,
+  "topic": "Releasing impression data and fixing bugs",
+  "topic_slug": "releasing-impression-data-and-fixing-bugs",
+  "tags": [
+    "impression",
+    "analytics",
+    "session"
+  ],
+  "summary_markdown": "The team discussed the release of historical impression data for Lithuania. It was agreed that the initial release (v0.8.15) would include impressions but initially exclude a chart visualization, which could be added shortly after.\n\nLater in the day, [p1] needed to recalculate historical impressions for Lithuania due to missing periods post-New Year's Day. This data was prepared on staging and then moved to production by [me]. Finally, a bug related to filtering by network that caused no data was identified and fixed shortly after testing by someone from Lithuania.",
+  "decisions": [
+    "Release v0.8.15 with impression data included but without the chart visualization.",
+    "Recalculate and deploy historical impression data for Lithuania to production."
+  ],
+  "action_items": [
+    "Add the chart visualization for impressions in a follow-up step."
+  ]
+}

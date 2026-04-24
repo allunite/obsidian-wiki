@@ -1,0 +1,26 @@
+{
+  "chat_id": "AAAAugwcjos",
+  "kind": "Space",
+  "space_name": "Group Chat",
+  "participants": 3,
+  "date_range": {
+    "start": "2021-05-28",
+    "end": "2021-05-28"
+  },
+  "message_count": 21,
+  "topic": "Refining unique device exposure metrics",
+  "topic_slug": "refining-unique-device-exposure-metrics",
+  "tags": [
+    "analytics",
+    "impression",
+    "dwell-time"
+  ],
+  "summary_markdown": "The discussion focused on refining the definition and presentation of unique device exposure metrics. Initial definitions were debated, leading to a consensus that the metric should represent \"the percent of unique devices exposed to OOH panel(s) one or more times.\" It was decided that detailed descriptions regarding visit bins (e.g., 1 time, 2-3 times) are unnecessary as this information is visible on the graph itself.\n\nThe documentation was reviewed and updated by [me], who added comments and confirmed the text was satisfactory. A follow-up action item was raised to update tooltips on the staging environment.",
+  "decisions": [
+    "The primary metric for unique device exposure should be the percentage of unique devices seen at least once.",
+    "Detailed descriptions regarding visit frequency bins are not required in the documentation."
+  ],
+  "action_items": [
+    "[me] to update tooltips on the staging environment"
+  ]
+}

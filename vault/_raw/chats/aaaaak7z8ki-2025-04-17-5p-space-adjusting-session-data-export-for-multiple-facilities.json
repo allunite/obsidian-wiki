@@ -1,0 +1,25 @@
+{
+  "chat_id": "AAAAaK7z8KI",
+  "kind": "Space",
+  "space_name": "Group Chat",
+  "participants": 5,
+  "date_range": {
+    "start": "2025-04-17",
+    "end": "2025-04-17"
+  },
+  "message_count": 9,
+  "topic": "Adjusting session data export for multiple facilities",
+  "topic_slug": "adjusting-session-data-export-for-multiple-facilities",
+  "tags": [
+    "analytics",
+    "facility",
+    "session"
+  ],
+  "summary_markdown": "The conversation focused on refining SQL queries used to export and process device session data. Initially, the goal was to adapt an existing script from handling a single facility in Japan to supporting 30+ facilities.\n\n[p2] provided two sample `INSERT` statements for `device_session` and `device_session_trusted`. It was noted that one of these scripts included a field, `is_anomaly_avg3s`, which is not present in the structure of `device_session_trusted`.\n\n[me] confirmed that they had overlooked this discrepancy when creating the original script. [p2] concluded that since the field had not appeared after a long time, it was likely unnecessary for the current process.",
+  "decisions": [
+    "The session data export needs to be updated to handle multiple facilities (30+), moving beyond the single-facility scope previously used for Japan."
+  ],
+  "action_items": [
+    "Review and finalize SQL queries for exporting device session data, ensuring field consistency between `device_session` and `device_session_trusted` tables."
+  ]
+}

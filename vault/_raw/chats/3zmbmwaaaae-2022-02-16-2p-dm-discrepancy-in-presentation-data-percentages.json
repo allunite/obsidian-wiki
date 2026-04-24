@@ -1,0 +1,22 @@
+{
+  "chat_id": "3ZMBmwAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 2,
+  "date_range": {
+    "start": "2022-02-16",
+    "end": "2022-02-16"
+  },
+  "message_count": 10,
+  "topic": "Discrepancy in presentation data percentages",
+  "topic_slug": "discrepancy-in-presentation-data-percentages",
+  "tags": [
+    "analytics",
+    "impression"
+  ],
+  "summary_markdown": "A discrepancy was noted regarding the percentage figures shown on a visual slide compared to data provided in an accompanying spreadsheet, specifically concerning 'Oshien' (Ocean). It was determined that the image used in the presentation had been photoshopped and did not reflect live site data. The discussion suggested using an alternative explanation for the variance: that the website data might be filtered or incomplete, leading to a higher percentage relative to the total.",
+  "decisions": [
+    "The discrepancy between visual slide percentages and spreadsheet data was attributed to Photoshop usage in the presentation image."
+  ],
+  "action_items": []
+}

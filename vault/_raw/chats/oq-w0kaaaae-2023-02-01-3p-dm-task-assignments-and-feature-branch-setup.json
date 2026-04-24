@@ -1,0 +1,27 @@
+{
+  "chat_id": "oq-w0kAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2023-02-01",
+    "end": "2023-02-01"
+  },
+  "message_count": 25,
+  "topic": "Task assignments and feature branch setup",
+  "topic_slug": "task-assignments-and-feature-branch-setup",
+  "tags": [
+    "analytics",
+    "campaign",
+    "inventory"
+  ],
+  "summary_markdown": "The conversation focused on technical development tasks, including setting up a new feature branch and clarifying data availability.\n\n*   **Feature Branch:** [p1] was asked to create a feature branch for a specific task. The branch must originate from the `classification` branch, not `develop`. While there are no strict naming rules, using the ticket name is suggested.\n*   **Data Clarification:** A discussion occurred regarding the data source and calculation of `avgCoverageFactor`. It was clarified that [me] would investigate how this aggregate metric is calculated in ClickHouse, rather than [p1] needing to build a new widget for it. \n*   **New Tasks:** Two new tasks were identified: JCDEC-730 and JCDEC-731.",
+  "decisions": [
+    "The feature branch must be created from the `classification` branch.",
+    "The investigation into `avgCoverageFactor` calculation in ClickHouse is assigned to [me]."
+  ],
+  "action_items": [
+    "[p1] to create a feature branch for the task.",
+    "[me] to investigate how `avgCoverageFactor` is calculated in ClickHouse."
+  ]
+}

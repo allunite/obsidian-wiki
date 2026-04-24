@@ -1,0 +1,21 @@
+{
+  "chat_id": "mQzF6wAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 2,
+  "date_range": {
+    "start": "2021-05-13",
+    "end": "2021-05-13"
+  },
+  "message_count": 9,
+  "topic": "Router MAC addresses for network devices",
+  "topic_slug": "router-mac-addresses-for-network-devices",
+  "tags": [
+    "analytics"
+  ],
+  "summary_markdown": "The conversation focused on identifying which routers were running the '53dirty' firmware. It was confirmed that there are two units at the main office and two units at remote locations. [p1] provided four MAC addresses, specifying which pair belonged to the office and which pair belonged to the remote locations.",
+  "decisions": [
+    "MAC addresses for network routers were successfully exchanged."
+  ],
+  "action_items": []
+}

@@ -1,0 +1,21 @@
+{
+  "chat_id": "AAAA9ybOLwM",
+  "kind": "Space",
+  "space_name": "ИТ",
+  "participants": 8,
+  "date_range": {
+    "start": "2021-03-04",
+    "end": "2021-03-04"
+  },
+  "message_count": 7,
+  "topic": "Data upload and technical issues",
+  "topic_slug": "data-upload-and-technical-issues",
+  "tags": [
+    "analytics"
+  ],
+  "summary_markdown": "Someone uploaded data into the allunite_test environment, specifically for an account's r/o (read-only) status. Later, a discussion occurred regarding technical issues with message delivery: certain spot terms are not arriving in Google but only via Slack.",
+  "decisions": [],
+  "action_items": [
+    "Send follow-up communication to the relevant party today."
+  ]
+}

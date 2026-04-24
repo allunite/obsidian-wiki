@@ -1,0 +1,28 @@
+{
+  "chat_id": "0m7UOUAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2025-09-18",
+    "end": "2025-09-18"
+  },
+  "message_count": 47,
+  "topic": "Impressions calculation discrepancies and fixes",
+  "topic_slug": "impressions-calculation-discrepancies-and-fixes",
+  "tags": [
+    "impression",
+    "analytics",
+    "campaign",
+    "facility",
+    "frame"
+  ],
+  "summary_markdown": "The discussion focused heavily on discrepancies in how impressions are calculated and displayed across different analytics views (platform vs. raw data/queries).\n\n**Key Issues Identified:**\n*   **Aggregation Logic:** There was confusion regarding whether impressions should be aggregated at the facility level or the frame level, due to historical changes in calculation methods. The current aggregation logic attempts to coalesce values from both levels.\n*   **Impressions Mismatch:** [p1] noted that impressions visible in raw data queries (e.g., `device_session_agg_5`) did not match what was displayed on the staging analytics platform, although related traffic metrics seemed consistent.\n*   **Dynamic Frame Impressions:** A specific issue was raised where impressions for dynamic frames were no longer matching the expected traffic page impressions after a recent update.\n*   **Solution Attempts:** The discrepancy was eventually traced to potential issues with time zone handling and parameter passing in the underlying SQL logic. Using `toString(dtStart, 'UTC')` and `toString(dtEndPeriods, 'UTC')` for date parameters appeared to resolve the impression mismatch for testing purposes.\n\n**Future Improvements/Checks:**\n*   A query was agreed upon to identify all facilities where facility-level impressions do not equal the sum of frame-level impressions. This will be reviewed with someone else (Marina) to confirm if discrepancies are justified or require correction.",
+  "decisions": [
+    "The date parameters for running queries should use `toString(dtStart, 'UTC')` and `toString(dtEndPeriods, 'UTC')` format to ensure correct impression calculation."
+  ],
+  "action_items": [
+    "Run a query to identify facilities where facility-level impressions do not equal the sum of frame-level impressions for review.",
+    "Review reach metric usage (reachLocal vs. reachLocal_acc) and potentially approve a new standard reach definition based on testing."
+  ]
+}

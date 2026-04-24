@@ -1,0 +1,24 @@
+{
+  "chat_id": "y9IEDQAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2025-01-03",
+    "end": "2025-01-03"
+  },
+  "message_count": 7,
+  "topic": "Data migration and storage capacity adjustments",
+  "topic_slug": "data-migration-storage-capacity-adjustments",
+  "tags": [
+    "analytics",
+    "session"
+  ],
+  "summary_markdown": "The conversation focused on adjusting data storage allocation between 'hot' and 'cold' environments. Initially, a question was raised about adding 100 GB to the cold storage. It was determined that this addition is not necessary at the moment. The speaker noted that while they had previously over-allocated data to cold storage, current hot storage has approximately 120–140 GB free, but the cold storage remains constantly full. To address this, the session duration for moving data from 'cold' was extended from two months to four months. This change is expected to facilitate the migration of data back to the hot environment, with an estimated transfer size of 40–45 GB.",
+  "decisions": [
+    "The immediate addition of 100 GB to cold storage is not required."
+  ],
+  "action_items": [
+    "Monitor data migration from 'cold' back to 'hot' following the extension of session duration."
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "chat_id": "AAAAud4RJ_I",
+  "kind": "Space",
+  "space_name": "Group Chat",
+  "participants": 4,
+  "date_range": {
+    "start": "2024-04-09",
+    "end": "2024-04-09"
+  },
+  "message_count": 11,
+  "topic": "Database timeout and data deletion strategy",
+  "topic_slug": "database-timeout-and-data-deletion-strategy",
+  "tags": [
+    "analytics",
+    "recalc-ch"
+  ],
+  "summary_markdown": "A recurring database timeout issue was reported, specifically related to a task executing longer than the `distributed_ddl_task_timeout` (default 180 seconds). The timing of the failure was noted as occurring at night on specific dates.\n\nDiscussion focused on optimizing data deletion methods. It was suggested whether replacing `ALTER TABLE` with `DELETE FROM` would resolve the timeout, as `DELETE FROM` is theorized to run asynchronously and avoid triggering timeouts.\n\n[me] confirmed this approach (trying `DELETE FROM` after catching potential `ALTER DELETE` errors) and noted that the `DELETE` operation sometimes fails. As a temporary measure, [me] agreed to increase the `distributed_ddl_task_timeout` to one hour.",
+  "decisions": [
+    "The database timeout limit (`distributed_ddl_task_timeout`) will be increased to one hour."
+  ],
+  "action_items": [
+    "[p1] to attempt using `DELETE FROM` instead of `ALTER TABLE` for data deletion, expecting asynchronous execution."
+  ]
+}

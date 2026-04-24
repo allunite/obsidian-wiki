@@ -1,0 +1,25 @@
+{
+  "chat_id": "i6YI1QAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 2,
+  "date_range": {
+    "start": "2021-02-26",
+    "end": "2021-02-26"
+  },
+  "message_count": 22,
+  "topic": "Testing models using local data sources",
+  "topic_slug": "testing-models-local-data-sources",
+  "tags": [
+    "analytics",
+    "session"
+  ],
+  "summary_markdown": "The discussion focused on testing analytical models. It was decided that for model testing, a dedicated dataset separate from the STAGE environment is preferred to prevent data mixing and ensure other team members (like 'Nasta') can still access reports using the standard STAGE data.\n\nTo facilitate this, one participant agreed to modify the necessary queries by replacing all instances of `'stage'` with `'local_only'` within functions like `dictGetUInt16('device_session_agg_version', 'id'...'`).",
+  "decisions": [
+    "Model testing will use a dedicated dataset ('local_only') rather than the STAGE environment.",
+    "Queries must be updated to replace all instances of `'stage'` with `'local_only'`."
+  ],
+  "action_items": [
+    "Modify aggregation queries by replacing 'stage' with 'local_only'."
+  ]
+}

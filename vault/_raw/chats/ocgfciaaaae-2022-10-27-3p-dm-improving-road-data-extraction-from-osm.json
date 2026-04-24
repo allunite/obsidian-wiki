@@ -1,0 +1,26 @@
+{
+  "chat_id": "oCgFCIAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2022-10-27",
+    "end": "2022-10-27"
+  },
+  "message_count": 26,
+  "topic": "Improving road data extraction from OSM",
+  "topic_slug": "improving-road-data-extraction-from-osm",
+  "tags": [
+    "analytics",
+    "inventory",
+    "facility"
+  ],
+  "summary_markdown": "The discussion focused on extracting comprehensive road network data for facility mapping using OpenStreetMap (OSM) data. Initial attempts using `planet_osm_roads` only returned primary and secondary roads, even when querying large areas.\n\nKey findings included:\n*   Comparing the number of records between production and sandbox environments showed discrepancies in available data size (500K+ vs 176K).\n*   The initial query structure was refined by using `ST_Intersects` to filter roads within a defined polygon area.\n*   After extensive investigation, it was determined that the comprehensive road segments are stored in a separate table, `planet_osm_line`, rather than `planet_osm_roads`. The final successful query used this table and an intersection check against the target geo-area.",
+  "decisions": [
+    "Use the `planet_osm_line` table for comprehensive road segment data instead of `planet_osm_roads`."
+  ],
+  "action_items": [
+    "Implement the final query structure using `planet_osm_line` to ensure all necessary roads are captured for facility display.",
+    "Update the UI/front-end based on the successfully extracted road data."
+  ]
+}

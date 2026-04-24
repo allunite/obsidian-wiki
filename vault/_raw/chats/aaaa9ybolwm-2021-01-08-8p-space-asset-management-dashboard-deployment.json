@@ -1,0 +1,21 @@
+{
+  "chat_id": "AAAA9ybOLwM",
+  "kind": "Space",
+  "space_name": "ИТ",
+  "participants": 8,
+  "date_range": {
+    "start": "2021-01-08",
+    "end": "2021-01-08"
+  },
+  "message_count": 6,
+  "topic": "Asset management dashboard deployment",
+  "topic_slug": "asset-management-dashboard-deployment",
+  "tags": [
+    "analytics"
+  ],
+  "summary_markdown": "The conversation briefly discussed the need to deploy a demo asset management system. Someone mentioned that 'Esben' requires a new dashboard for this system as soon as possible.",
+  "decisions": [],
+  "action_items": [
+    "Deploy demo asset management system"
+  ]
+}

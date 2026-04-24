@@ -1,0 +1,29 @@
+{
+  "chat_id": "6ize28AAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2025-07-21",
+    "end": "2025-07-21"
+  },
+  "message_count": 41,
+  "topic": "Fixing demographic data and facility numbers",
+  "topic_slug": "fixing-demographic-data-and-facility-numbers",
+  "tags": [
+    "analytics",
+    "facility",
+    "frame",
+    "campaign"
+  ],
+  "summary_markdown": "The discussion focused on deploying frequency data and resolving issues with demographic analytics. Initially, a request was made to deploy frequency data for `Latvia_7873` to the staging and analytics environments.\n\nRegarding demographics, it was noted that the current setup incorrectly links facility numbers (`facility_num`) instead of using the master facility number (`facility_master_num`). The issue requires adding frames and adjusting the query logic. It was also discussed a technical discrepancy where campaign clusters belong to one company number (e.g., Japan Pilot) while screen captures reference another (Tokyo), which is technically incorrect but acceptable for the business case.\n\nFinally, changes were made to a specific SQL file (`data-[redacted]traffic_dashboard.sql`) to accommodate `Latvia_7873`.",
+  "decisions": [
+    "Frequency data deployment was requested for Latvia_7873 on staging and analytics environments.",
+    "The demographic query needs modification to use the master facility number (`facility_master_num`) instead of just the facility number.",
+    "Changes were implemented in `data-[redacted]traffic_dashboard.sql` for Latvia_7873."
+  ],
+  "action_items": [
+    "The demographic query needs to be updated to correctly incorporate frames and use the master facility number.",
+    "Push the necessary changes to GitHub so they can be deployed."
+  ]
+}

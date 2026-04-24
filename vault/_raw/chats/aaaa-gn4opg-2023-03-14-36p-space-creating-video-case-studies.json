@@ -1,0 +1,21 @@
+{
+  "chat_id": "AAAA-gn4oPg",
+  "kind": "Space",
+  "space_name": "General and random",
+  "participants": 36,
+  "date_range": {
+    "start": "2023-03-14",
+    "end": "2023-03-14"
+  },
+  "message_count": 3,
+  "topic": "Creating video case studies",
+  "topic_slug": "creating-video-case-studies",
+  "tags": [
+    "campaign"
+  ],
+  "summary_markdown": "The participants discussed the quality and sales potential of video content. A decision was made to create case studies related to this type of video content.",
+  "decisions": [
+    "To develop case studies focused on successful video implementations."
+  ],
+  "action_items": []
+}

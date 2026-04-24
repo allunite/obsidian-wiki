@@ -1,0 +1,19 @@
+{
+  "chat_id": "oCgFCIAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2022-08-12",
+    "end": "2022-08-12"
+  },
+  "message_count": 5,
+  "topic": "Deployment confirmation and build speed",
+  "topic_slug": "deployment-confirmation-and-build-speed",
+  "tags": [
+    "analytics"
+  ],
+  "summary_markdown": "A deployment was requested and subsequently confirmed by [me]. The process was noted to be unusually fast, which was considered a positive change compared to previous builds.",
+  "decisions": [],
+  "action_items": []
+}

@@ -1,0 +1,21 @@
+{
+  "chat_id": "0VorOYAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2022-06-28",
+    "end": "2022-06-28"
+  },
+  "message_count": 14,
+  "topic": "Finding company contact information and data",
+  "topic_slug": "finding-company-contact-information-and-data",
+  "tags": [
+    "analytics"
+  ],
+  "summary_markdown": "The conversation focused on locating centralized storage for company email addresses. Initially, a query against `company_dict` was insufficient. [me] advised that the information exists but is historically complexly structured. For viewing contacts visually across multiple companies and checking production data, [p1] was directed to use the analytics dashboard at `mods.allunite.com`. Specifically, accessing the customer accounts section (`https://mods.allunite.com/accounts/customers`) allows searching and viewing contact details.",
+  "decisions": [
+    "The primary location for viewing company contacts is the dedicated customer accounts section on the mods platform."
+  ],
+  "action_items": []
+}

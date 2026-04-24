@@ -1,0 +1,27 @@
+{
+  "chat_id": "AAQAohh4qc4",
+  "kind": "Space",
+  "space_name": "Bus Finland",
+  "participants": 7,
+  "date_range": {
+    "start": "2026-02-23",
+    "end": "2026-02-23"
+  },
+  "message_count": 13,
+  "topic": "Production deployment timeline and data readiness",
+  "topic_slug": "production-deployment-timeline-and-data-readiness",
+  "tags": [
+    "campaign",
+    "inventory",
+    "analytics"
+  ],
+  "summary_markdown": "The discussion focused on deploying changes to the production environment for bus analytics. \n\n*   **Deployment Status:** Changes are ready to be pushed to production, with one participant confirming a 'green light' to proceed.\n*   **Timeline Coordination:** The team discussed coordinating the release, which is estimated to take nearly four hours. A target was set for all changes to be available in production by Tuesday afternoon.\n*   **Data Availability:** One participant confirmed that numbers are currently available on the staging environment and will be moved to the production dataset once ready.\n*   **Historical Data:** Another team member noted that updates would be pushed tomorrow, ensuring automatically calculated metrics are available in production overnight (between Tuesday and Wednesday). Furthermore, historical data from December (when most bus sensors became operational) until the current date will be recalculated and copied by another participant.\n*   **Configuration Check:** Regarding campaign setup, it was decided to keep all frames and zones active by default, including a large overlapping zone observed in the campaign manager.",
+  "decisions": [
+    "All changes are targeted for production deployment by Tuesday afternoon.",
+    "Historical data from December until the present will be recalculated and copied."
+  ],
+  "action_items": [
+    "Coordinate the final push of changes to production.",
+    "Monitor the availability of automatically calculated metrics in production overnight (Tuesday/Wednesday)."
+  ]
+}

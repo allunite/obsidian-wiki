@@ -1,0 +1,23 @@
+{
+  "chat_id": "y9IEDQAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2025-06-27",
+    "end": "2025-06-27"
+  },
+  "message_count": 4,
+  "topic": "Property repair costs and financing needs",
+  "topic_slug": "property-repair-costs-and-financing-needs",
+  "tags": [
+    "facility"
+  ],
+  "summary_markdown": "The conversation discusses estimated costs for property repairs. The current estimate for windows is 1700 EUR, with an additional approximate cost of $10K for the roof and ceilings. Minor items like fences, outdoor kitchens, or showers are considered negligible in terms of compensation.\n\nRegarding financial support, the sender noted that applying for city/country compensation is difficult due to high demand. Those who have already applied expect funds within 1.5 to 2 months.\n\nThe primary need expressed was securing a loan or credit facility to cover expenses until winter, with $10K EUR being highlighted as a critical amount needed to resume active work and alleviate financial stress.",
+  "decisions": [
+    "No concrete decisions were made regarding the repair costs or financing."
+  ],
+  "action_items": [
+    "Someone (p1) will speak with Esben about the matter."
+  ]
+}

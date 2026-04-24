@@ -1,0 +1,26 @@
+{
+  "chat_id": "i6YI1QAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 2,
+  "date_range": {
+    "start": "2021-01-13",
+    "end": "2021-01-13"
+  },
+  "message_count": 78,
+  "topic": "Correcting device session data and factors",
+  "topic_slug": "correcting-device-session-data-and-factors",
+  "tags": [
+    "analytics",
+    "facility",
+    "campaign"
+  ],
+  "summary_markdown": "The conversation focused on discrepancies in calculated device session metrics, specifically concerning the use of manual vs. system-generated data and associated factors.\n\n*   **Data Discrepancy:** Initial concerns were raised about the correlation between manually derived figures (802) and system figures (856), with one party noting that their calculations suggested internal numbers should be higher than reported.\n*   **Factor Calculation Correction:** It was determined that the factor calculation needs to use data from the master facility table, as the existing SQL query used an outdated or incorrect method. A corrected SQL query structure was provided for calculating `uniq_cal_factor` using multiple nested lookups (device session factors).\n*   **Data Source Confirmation:** There was discussion regarding whether the factor displayed in the Asset Manager is accurate for malls, leading to confirmation that data should ideally be pulled from the database rather than relying solely on the Asset Manager's current display.\n*   **Future Scope:** The final goal established was to recalculate and aggregate device session metrics (potentially over two years) for malls using the improved SQL method, with the resulting data needing to be loaded onto a staging environment.",
+  "decisions": [
+    "The factor calculation must use data sourced from the master facility table.",
+    "The calculated device session metrics need to be aggregated and uploaded to the staging environment."
+  ],
+  "action_items": [
+    "Aggregate the recalculated device session data (potentially for two years) and upload it to the staging environment."
+  ]
+}

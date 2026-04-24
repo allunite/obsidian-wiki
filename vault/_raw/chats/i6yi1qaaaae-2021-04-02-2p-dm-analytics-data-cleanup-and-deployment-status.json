@@ -1,0 +1,23 @@
+{
+  "chat_id": "i6YI1QAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 2,
+  "date_range": {
+    "start": "2021-04-02",
+    "end": "2021-04-02"
+  },
+  "message_count": 12,
+  "topic": "Analytics data cleanup and deployment status",
+  "topic_slug": "analytics-data-cleanup-and-deployment-status",
+  "tags": [
+    "analytics"
+  ],
+  "summary_markdown": "The conversation focused on the removal of specific vendor data (Vendor 0 and Apple) for Latvia. Initially, [p1] inquired about the status of this cleanup. [me] admitted that the task had not been completed due to a failure in redeployment and lack of control. [me] committed to completing the work today and having it ready by tomorrow, including testing for Dnipro.",
+  "decisions": [
+    "Cleanup of Vendor 0 and Apple data for Latvia will be completed today."
+  ],
+  "action_items": [
+    "[me] to complete the cleanup and deployment for Latvia and Dnipro by tomorrow."
+  ]
+}

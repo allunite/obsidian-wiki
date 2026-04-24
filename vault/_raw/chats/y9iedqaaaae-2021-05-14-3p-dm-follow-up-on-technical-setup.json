@@ -1,0 +1,21 @@
+{
+  "chat_id": "y9IEDQAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2021-05-14",
+    "end": "2021-05-14"
+  },
+  "message_count": 9,
+  "topic": "Follow up on technical setup",
+  "topic_slug": "follow-up-on-technical-setup",
+  "tags": [
+    "analytics"
+  ],
+  "summary_markdown": "The conversation primarily involves a status update regarding a technical task. Someone reported completing the necessary steps and plans to troubleshoot or test the system functionality on Monday.",
+  "decisions": [],
+  "action_items": [
+    "Someone needs to follow up on the required chat communication."
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "chat_id": "AAAAFPbiAdE",
+  "kind": "Space",
+  "space_name": "Group Chat",
+  "participants": 3,
+  "date_range": {
+    "start": "2024-05-02",
+    "end": "2024-05-02"
+  },
+  "message_count": 6,
+  "topic": "Moving bug tracking session for AFA",
+  "topic_slug": "moving-bug-tracking-session-for-afa",
+  "tags": [
+    "analytics"
+  ],
+  "summary_markdown": "Someone moved the device session tracking for AFA (device_session_afa_bug_2023_080910_local) to the 4th, as it contained three months of bug data. [me] confirmed that this task was completed.",
+  "decisions": [
+    "The device session tracking for AFA has been moved."
+  ],
+  "action_items": []
+}

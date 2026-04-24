@@ -1,0 +1,24 @@
+{
+  "chat_id": "oq-w0kAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2023-06-09",
+    "end": "2023-06-09"
+  },
+  "message_count": 4,
+  "topic": "Demo preparation timeline and data concerns",
+  "topic_slug": "demo-preparation-timeline-and-data-concerns",
+  "tags": [
+    "analytics",
+    "campaign"
+  ],
+  "summary_markdown": "The conversation discusses the timing of report updates for an upcoming demo. Initially, [p1] suggested delaying deployment until after the Monday demo to avoid issues. However, [me] disagreed, stating that the report was not complex enough to require such caution and offered to finalize queries and potentially add interactive elements.\n\n[p1] countered by noting that replacing mocked data with real data requires significant time for adjustments, which they do not think they will have today. They reiterated concerns about deploying anything right before a major demo.",
+  "decisions": [
+    "No concrete decisions were made regarding the deployment timing."
+  ],
+  "action_items": [
+    "Someone needs to finalize queries and potentially add interactive elements (from [me])."
+  ]
+}

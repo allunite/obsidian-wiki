@@ -1,0 +1,27 @@
+{
+  "chat_id": "nW_zkkAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2023-06-28",
+    "end": "2023-06-28"
+  },
+  "message_count": 56,
+  "topic": "Fixing master facility data aggregation issues",
+  "topic_slug": "fixing-master-facility-data-aggregation-issues",
+  "tags": [
+    "analytics",
+    "facility",
+    "campaign"
+  ],
+  "summary_markdown": "The conversation focused on diagnosing and resolving data discrepancies in the `device_session_agg` table, specifically concerning master facilities. Initial analysis showed that while one facility (27009) appeared correct, others were missing or incorrect in the PROD dataset.\n\nIt was determined that the issue stemmed from an incomplete execution of the aggregation script and a versioning error where the staging environment marker (`*stage*`) was left in the production code. The team agreed to re-aggregate all data for company 7897, starting from scratch, using predictions from `device_session_agg_ml`.\n\nThe process included cleaning up unnecessary entries on the stage and migrating the corrected logic to PROD.",
+  "decisions": [
+    "The master facility data needs full re-aggregation for company 7897.",
+    "The versioning error (leaving *stage* marker in production) was identified and fixed."
+  ],
+  "action_items": [
+    "[me] will perform the complete re-aggregation of all data for company 7897.",
+    "[p1] will assist with cleaning up necessary changes on the stage environment."
+  ]
+}

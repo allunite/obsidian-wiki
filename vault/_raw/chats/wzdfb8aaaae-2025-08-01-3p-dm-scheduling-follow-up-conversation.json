@@ -1,0 +1,21 @@
+{
+  "chat_id": "wZDFB8AAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2025-08-01",
+    "end": "2025-08-01"
+  },
+  "message_count": 5,
+  "topic": "Scheduling follow-up conversation",
+  "topic_slug": "scheduling-follow-up-conversation",
+  "tags": [
+    "session"
+  ],
+  "summary_markdown": "The participants exchanged greetings and confirmed that the discussion would be postponed until Monday, as [me] is on vacation this week.",
+  "decisions": [
+    "Follow-up conversation scheduled for Monday."
+  ],
+  "action_items": []
+}

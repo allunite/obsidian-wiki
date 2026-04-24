@@ -1,0 +1,21 @@
+{
+  "chat_id": "oCgFCIAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2021-12-30",
+    "end": "2021-12-30"
+  },
+  "message_count": 8,
+  "topic": "Follow up on report and health check",
+  "topic_slug": "follow-up-report-and-health-check",
+  "tags": [
+    "analytics"
+  ],
+  "summary_markdown": "The conversation primarily consisted of personal greetings and discussions about general health. One participant mentioned needing to compile a report related to 'Holland' (Голандии). The participants discussed the need for follow-up on this report, suggesting either handling it internally or involving one participant after the New Year.",
+  "decisions": [],
+  "action_items": [
+    "Compile report regarding Holland"
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "chat_id": "AAAA-gn4oPg",
+  "kind": "Space",
+  "space_name": "General and random",
+  "participants": 36,
+  "date_range": {
+    "start": "2025-02-26",
+    "end": "2025-02-26"
+  },
+  "message_count": 8,
+  "topic": "Meeting update regarding Provantage",
+  "topic_slug": "meeting-update-regarding-provantage",
+  "tags": [
+    "campaign"
+  ],
+  "summary_markdown": "The session contained general social conversation and updates. One participant mentioned a meeting with Provantage.",
+  "decisions": [],
+  "action_items": []
+}

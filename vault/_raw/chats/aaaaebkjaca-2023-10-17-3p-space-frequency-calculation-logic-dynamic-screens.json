@@ -1,0 +1,24 @@
+{
+  "chat_id": "AAAAebKjAcA",
+  "kind": "Space",
+  "space_name": "Brazil bugs",
+  "participants": 3,
+  "date_range": {
+    "start": "2023-10-17",
+    "end": "2023-10-17"
+  },
+  "message_count": 6,
+  "topic": "Frequency calculation logic for dynamic screens",
+  "topic_slug": "frequency-calculation-logic-dynamic-screens",
+  "tags": [
+    "analytics",
+    "impression"
+  ],
+  "summary_markdown": "The team discussed the frequency calculation method. It was clarified that frequency is calculated per face, not per frame. On dynamic screens featuring 6-8 faces, setting the 'faces per frame' campaign parameter to 1 results in a low frequency count. Even with two instances, the frequency remains greater than one.\n\n[me] suggested explaining this technical detail via WhatsApp chat.",
+  "decisions": [
+    "Frequency is calculated per face, not per frame."
+  ],
+  "action_items": [
+    "Explain the frequency calculation logic via WhatsApp chat."
+  ]
+}

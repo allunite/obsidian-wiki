@@ -1,0 +1,21 @@
+{
+  "chat_id": "y9IEDQAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2021-07-23",
+    "end": "2021-07-23"
+  },
+  "message_count": 7,
+  "topic": "Kubernetes node management commands",
+  "topic_slug": "kubernetes-node-management-commands",
+  "tags": [
+    "analytics"
+  ],
+  "summary_markdown": "The conversation involves technical instructions for managing a Kubernetes cluster. [p1] requested running `kubectl get no` followed by deleting the name of a failed node using `kubectl delete no название той упавшей ноды`. [me] confirmed that these actions were completed.",
+  "decisions": [
+    "Kubernetes commands (get and delete) were executed on specified nodes."
+  ],
+  "action_items": []
+}

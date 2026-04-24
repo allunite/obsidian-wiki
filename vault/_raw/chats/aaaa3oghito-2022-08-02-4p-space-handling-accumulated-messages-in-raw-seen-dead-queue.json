@@ -1,0 +1,21 @@
+{
+  "chat_id": "AAAA3oghITo",
+  "kind": "Space",
+  "space_name": "Кабаны",
+  "participants": 4,
+  "date_range": {
+    "start": "2022-08-02",
+    "end": "2022-08-02"
+  },
+  "message_count": 8,
+  "topic": "Handling accumulated messages in raw_seen_dead queue",
+  "topic_slug": "handling-accumulated-messages-in-raw-seen-dead-queue",
+  "tags": [
+    "analytics"
+  ],
+  "summary_markdown": "A discussion occurred regarding 190,000 accumulated messages in the `raw_seen_dead` queue on RMQ. Initially, one participant suggested re-queuing them into `raw_seen`, as this is a common practice and might allow processing of more recent data. However, another participant noted that the queue is primarily used for real-time sessions. Consequently, it was decided to discard (or 'kill') the accumulated messages to prevent increasing entropy and maintain system stability.",
+  "decisions": [
+    "Discard 190,000 accumulated messages from the raw_seen_dead queue."
+  ],
+  "action_items": []
+}

@@ -1,0 +1,20 @@
+{
+  "chat_id": "AAAA1vdtku4",
+  "kind": "Space",
+  "space_name": "DataTeam+",
+  "participants": 14,
+  "date_range": {
+    "start": "2023-06-06",
+    "end": "2023-06-06"
+  },
+  "message_count": 4,
+  "topic": "Archiving old session data structure",
+  "topic_slug": "archiving-old-session-data-structure",
+  "tags": [
+    "analytics",
+    "session"
+  ],
+  "summary_markdown": "The user updated the room membership and provided an FYI regarding a database change. A table named `device_session_archive` was created to move 2021 session data from `device_session_concept`. The structure and indexes remain largely the same. Moving this archive to S3 was done primarily for cost reduction while maintaining acceptable performance.",
+  "decisions": [],
+  "action_items": []
+}

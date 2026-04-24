@@ -1,0 +1,28 @@
+{
+  "chat_id": "AAAAw8LFttQ",
+  "kind": "Space",
+  "space_name": "Data",
+  "participants": 5,
+  "date_range": {
+    "start": "2021-04-21",
+    "end": "2021-04-21"
+  },
+  "message_count": 63,
+  "topic": "Analyzing MAC address data trends and accuracy",
+  "topic_slug": "analyzing-mac-address-data-trends-and-accuracy",
+  "tags": [
+    "analytics",
+    "session",
+    "campaign"
+  ],
+  "summary_markdown": "The discussion focused on the proportion of 'real' (non-randomized) MAC addresses versus randomized ones in collected Wi-Fi session data. \n\nKey points addressed:\n*   **MAC Address Type:** Local-only MAC addresses were confirmed to be equivalent to randomized MAC addresses.\n*   **Data Coverage/Proportion:** The current percentage of local sessions is reported to be between 96% and 98%, depending on whether unknown vendors are included. However, when looking at raw packages, the proportion of local packages was estimated to be around 5-8%. \n*   **Historical Discrepancy:** There was significant disagreement regarding historical percentages of 'real' MAC addresses. Some participants insisted that the percentage should have been much higher (e.g., 25%–35%) several years ago, based on manual counts. Others provided data showing a high proportion of local sessions in early 2019 (92%).\n*   **Methodology:** It was agreed that comparing real MAC addresses against manual counting methods is necessary to establish an accurate percentage.\n*   **Next Steps:** The speaker confirmed access to data starting from January 2019 and committed to loading raw data from S3 to recalculate historical periods (specifically suggesting Wednesdays in November of 2015–2018) to compare against manual counts.",
+  "decisions": [
+    "The current percentage of local sessions is estimated between 96% and 98%.",
+    "The proportion of local packages is estimated at 5-8%.",
+    "Historical data for MAC address proportions needs recalculation using raw S3 data to compare against manual counts."
+  ],
+  "action_items": [
+    "[me] will load raw data from S3 and recalculate historical periods (e.g., Wednesdays in November 2015-2018) for MAC address analysis.",
+    "The team needs to compare real MAC addresses against manual counting methods to determine accurate percentages."
+  ]
+}

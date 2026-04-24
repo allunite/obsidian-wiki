@@ -1,0 +1,22 @@
+{
+  "chat_id": "i6YI1QAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 2,
+  "date_range": {
+    "start": "2021-10-26",
+    "end": "2021-10-26"
+  },
+  "message_count": 21,
+  "topic": "Real-time factor calculation in production",
+  "topic_slug": "real-time-factor-calculation-in-production",
+  "tags": [
+    "analytics",
+    "recalc-ch"
+  ],
+  "summary_markdown": "The discussion focused on the methodology for calculating real-time factors, particularly concerning whether the model used in production accounts for previous day's data when the factor was developed or tested on a staging environment. It was confirmed that the production system does account for the necessary factors.\n\n*   **Topic:** Real-time analytics calculation.\n*   **Decision:** The current production setup uses the factor stored in the database designed for sessions.",
+  "decisions": [
+    "The real-time factor model used in production accounts for previous day's data."
+  ],
+  "action_items": []
+}

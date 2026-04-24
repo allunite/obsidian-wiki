@@ -1,0 +1,28 @@
+{
+  "chat_id": "oCgFCIAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2022-04-06",
+    "end": "2022-04-06"
+  },
+  "message_count": 11,
+  "topic": "Follow-up on analytics data issues and project status",
+  "topic_slug": "follow-up-analytics-data-issues-and-project-status",
+  "tags": [
+    "analytics",
+    "inventory",
+    "campaign"
+  ],
+  "summary_markdown": "The conversation focused on resolving previous discrepancies in data reporting, specifically concerning 'mol' (a project/area) and sensor data. A request was made for documentation detailing the specific issues with counting or recalculating figures.\n\nRegarding next steps, it was noted that someone is responsible for providing location maps for all sensors, and whether a funnel needs to be configured for remaining areas due to potential conversion calculation errors when sensors are lost or removed.\n\n[me] stated that feedback must be received before further work on the data. The conversation concluded with general project status updates, including a demo scheduled after Easter and plans to present something by Friday.",
+  "decisions": [
+    "Someone is responsible for providing location maps for all sensors.",
+    "A decision needs to be made regarding whether a funnel must be configured due to sensor loss/removal affecting conversion calculations."
+  ],
+  "action_items": [
+    "Obtain documentation detailing the specific data counting or recalculation issues in 'mol'.",
+    "Someone will follow up with involved parties regarding project status and next steps.",
+    "Prepare a demonstration presentation for Friday."
+  ]
+}

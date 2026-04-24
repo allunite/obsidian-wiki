@@ -1,0 +1,23 @@
+{
+  "chat_id": "uJ8JA8AAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2025-06-05",
+    "end": "2025-06-05"
+  },
+  "message_count": 8,
+  "topic": "Deployment and campaign demographic setup",
+  "topic_slug": "deployment-and-campaign-demographic-setup",
+  "tags": [
+    "analytics",
+    "campaign"
+  ],
+  "summary_markdown": "The initial task involved deploying a feature from staging to production, which was completed by [me] after identifying an inconsistency between the stage and production environments. Later, [p1] requested that empty demographics be activated for a specific campaign associated with company 7873, which [me] confirmed was done.",
+  "decisions": [
+    "Feature deployed from staging to production",
+    "Empty demographics enabled for Campaign (Company 7873)"
+  ],
+  "action_items": []
+}

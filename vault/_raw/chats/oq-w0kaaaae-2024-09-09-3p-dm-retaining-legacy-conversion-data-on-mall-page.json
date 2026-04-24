@@ -1,0 +1,26 @@
+{
+  "chat_id": "oq-w0kAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2024-09-09",
+    "end": "2024-09-09"
+  },
+  "message_count": 12,
+  "topic": "Retaining legacy conversion data on mall page",
+  "topic_slug": "retaining-legacy-conversion-data-on-mall-page",
+  "tags": [
+    "analytics",
+    "inventory",
+    "campaign"
+  ],
+  "summary_markdown": "A discussion occurred regarding the necessity of a secondary table (`storesTable`) displaying historical conversion data, specifically related to `intercluster`, located on the mall page. This data was questioned for removal following the creation of a dedicated conversions page.\n\nIt was confirmed that this feature is still relevant for a small number of clients, and someone offered to verify if these specific clients require the functionality, especially if it conflicts with current design changes.\n\nThe table's API endpoint was identified as `/api/dashboard/mall/totals`. The decision was made to retain the data display on the page.",
+  "decisions": [
+    "The legacy conversion data (`storesTable` / `intercluster`) must remain visible on the mall page because it is still relevant for certain clients."
+  ],
+  "action_items": [
+    "Someone will verify if the specific clients requiring this feature are impacted by potential removal of the table.",
+    "The backend team should consider removing unnecessary API requests related to `intercluster` from the server side."
+  ]
+}

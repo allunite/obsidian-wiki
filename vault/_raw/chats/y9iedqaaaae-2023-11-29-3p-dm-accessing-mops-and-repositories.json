@@ -1,0 +1,23 @@
+{
+  "chat_id": "y9IEDQAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2023-11-29",
+    "end": "2023-11-29"
+  },
+  "message_count": 4,
+  "topic": "Accessing mops and repositories",
+  "topic_slug": "accessing-mops-and-repositories",
+  "tags": [
+    "analytics",
+    "mops"
+  ],
+  "summary_markdown": "The discussion centered on granting access to the mops system. [p1] confirmed that access would be granted, but initially restricted only to mops and not other repositories. Further access to other systems will be provided as needed.",
+  "decisions": [
+    "Access to mops is approved",
+    "Access to other repositories will be granted incrementally"
+  ],
+  "action_items": []
+}

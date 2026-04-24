@@ -1,0 +1,24 @@
+{
+  "chat_id": "y9IEDQAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2022-04-28",
+    "end": "2022-04-28"
+  },
+  "message_count": 23,
+  "topic": "Deploying analytics to staging environment",
+  "topic_slug": "deploying-analytics-to-staging-environment",
+  "tags": [
+    "campaign",
+    "analytics"
+  ],
+  "summary_markdown": "The conversation focused on deploying the analytics application to the staging environment. [p1] confirmed that they had updated the repository and successfully deployed the application using specific `helm` commands (including adding the AllUnite chart repo). The deployment was initiated from the `fix-mall-traffic` branch, specifically targeting staging, not sandbox.\n\nLater in the session, [me] reported significant technical difficulties encountered while working with a related plugin and environment setup (involving Cygwin64 on Windows), indicating frustration with the tooling.",
+  "decisions": [
+    "Analytics application was deployed to the staging environment from the `fix-mall-traffic` branch."
+  ],
+  "action_items": [
+    "[p1] needs to revert repository changes back to normal disks/state."
+  ]
+}

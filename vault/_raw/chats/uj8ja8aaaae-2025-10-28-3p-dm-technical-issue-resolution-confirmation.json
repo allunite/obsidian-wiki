@@ -1,0 +1,21 @@
+{
+  "chat_id": "uJ8JA8AAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2025-10-28",
+    "end": "2025-10-28"
+  },
+  "message_count": 4,
+  "topic": "Technical issue resolution confirmation",
+  "topic_slug": "technical-issue-resolution-confirmation",
+  "tags": [
+    "analytics"
+  ],
+  "summary_markdown": "The conversation revolves around resolving a technical issue. [me] initially noted an issue and confirmed that it was fixed ('done'). Later, [p1] acknowledged the fix and stated everything was working correctly.",
+  "decisions": [
+    "Technical issue was resolved."
+  ],
+  "action_items": []
+}

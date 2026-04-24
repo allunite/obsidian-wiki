@@ -1,0 +1,26 @@
+{
+  "chat_id": "0VorOYAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2024-05-22",
+    "end": "2024-05-22"
+  },
+  "message_count": 9,
+  "topic": "Analyzing device session data granularity and raw packets",
+  "topic_slug": "analyzing-device-session-data-granularity-and-raw-packets",
+  "tags": [
+    "analytics",
+    "session",
+    "dwell-time",
+    "inventory"
+  ],
+  "summary_markdown": "The discussion focused on refining analytics queries for device session data. The initial query, designed to analyze traffic peaks by minute and hour across specific facilities, was reviewed.\n\n**Key Clarifications:**\n*   **`is_excluded`:** This flag includes anomalies detected via a 3-sigma average calculation, as well as all Apple devices for specified client companies (including various JCDecaux entities).\n*   **Raw Packet Data:** It is technically possible to create a similar analysis using raw packet data. The process involves sessionization of the packets.\n*   **Data Limitations:** While the number of unique devices can be tracked similarly, the raw packet approach will lack derived metrics such as `dwell-time` and specific flags like `is_local` or `is_permanent_device`.",
+  "decisions": [
+    "The current query structure for minute/hour granularity is deemed acceptable for further investigation."
+  ],
+  "action_items": [
+    "Review the raw packet data approach for sessionization, acknowledging limitations in derived metrics (dwell-time, flags)."
+  ]
+}

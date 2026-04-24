@@ -1,0 +1,23 @@
+{
+  "chat_id": "oq-w0kAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2023-10-06",
+    "end": "2023-10-06"
+  },
+  "message_count": 21,
+  "topic": "Merging code and debugging dashboard queries",
+  "topic_slug": "merging-code-and-debugging-dashboard-queries",
+  "tags": [
+    "analytics"
+  ],
+  "summary_markdown": "The participants discussed difficulties merging code, specifically noting conflicts in `dashboard.queries.ts` due to changes from both the `develop` and `timezone-fix` branches. Initial attempts by [p1] to leave the file with conflicts for [me] to merge were questioned by [me]. It was determined that a full rollback would make conflict resolution difficult, especially in the UI section. The participants decided to use a screen-sharing session or video call to resolve the merging issues and debug a specific issue where the dashboard lags when transitioning to 'traffic'.",
+  "decisions": [
+    "The team will attempt resolving merge conflicts via a live screen-share/video call."
+  ],
+  "action_items": [
+    "[p1] pushed the merged timezone code. The next step is monitoring the lag observed during the transition to 'traffic' on the dashboard."
+  ]
+}

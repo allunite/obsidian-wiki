@@ -1,0 +1,28 @@
+{
+  "chat_id": "AAAAsuLcSkw",
+  "kind": "Space",
+  "space_name": "Group Chat",
+  "participants": 4,
+  "date_range": {
+    "start": "2022-12-14",
+    "end": "2022-12-14"
+  },
+  "message_count": 19,
+  "topic": "Accessing analytics data for personalization",
+  "topic_slug": "accessing-analytics-data-for-personalization",
+  "tags": [
+    "analytics",
+    "demographics",
+    "mall-analytics",
+    "reach",
+    "impression"
+  ],
+  "summary_markdown": "The discussion focused on obtaining access credentials and understanding the availability of various analytics data points for personalization efforts. It was confirmed that dedicated, separate pages for demographics and reach are not available; demographic data is primarily found at the bottom of traffic reports.\n\nSpecific access details were provided: \n*   **Demographics:** Available only for Mall and main traffic sources.\n*   **Airport Traffic:** Requires specific credentials (e.g., [email@cph.dk]).\n*   **General Access:** Some data requires using test credentials, while some features are available to the user's own account or a designated admin account (for someone and another person).\n\nAdditional data types mentioned include 2D lidar data and impressions.",
+  "decisions": [
+    "Demographics data is not available on a standalone page; it must be accessed via traffic reports."
+  ],
+  "action_items": [
+    "Provide specific user roles/credentials for two individuals (the user and Polina) and Galina, including access to real-time data.",
+    "Investigate the availability of 2D lidar data and impressions."
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "chat_id": "oq-w0kAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2025-06-02",
+    "end": "2025-06-02"
+  },
+  "message_count": 33,
+  "topic": "Debugging variable suffixes for Citydata",
+  "topic_slug": "debugging-variable-suffixes-for-citydata",
+  "tags": [
+    "analytics",
+    "impression",
+    "campaign",
+    "variables"
+  ],
+  "summary_markdown": "The conversation focused on debugging an issue where variables for CITYDATA_DK were incorrectly receiving standard suffixes (`_CY`) instead of the expected `_CDDK` suffix, leading to missing labels in charts. The problem was traced back to caching mechanisms during impersonation/admin login.\n\n**Key Findings:**\n*   The incorrect variable naming appeared specifically on the production environment when administrators logged in (simulating Danish data).\n*   The issue seems related to how demographics variables are fetched and cached, particularly when using a specific endpoint (`/api/demographics/variables?country=Denmark`).\n*   A potential solution discussed was disabling caching for demographic variables and filters.\n*   It was confirmed that the bug only affects internal administrators and does not impact client-facing data.",
+  "decisions": [
+    "The team will discuss disabling cache for demographics variables & filters with 'Женя'."
+  ],
+  "action_items": [
+    "Investigate disabling caching for demographic variables and filters."
+  ]
+}

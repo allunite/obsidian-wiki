@@ -1,0 +1,27 @@
+{
+  "chat_id": "AAQAjCo8l-Q",
+  "kind": "Space",
+  "space_name": "Group Chat",
+  "participants": 4,
+  "date_range": {
+    "start": "2025-05-15",
+    "end": "2025-05-15"
+  },
+  "message_count": 50,
+  "topic": "Data migration and sensor remapping process",
+  "topic_slug": "data-migration-sensor-remapping-process",
+  "tags": [
+    "analytics",
+    "facility",
+    "impression"
+  ],
+  "summary_markdown": "The conversation focused on the complex data transfer and remapping of sensors/facilities. It was established that initial sensor assignments were incorrect, requiring a full data migration.\n\nKey technical points discussed included:\n*   **Data Scope:** The primary need is to migrate historical data, as current configurations have been updated (re-attached).\n*   **Mapping Complexity:** The remapping process is complicated because it involves changing facility locations/IDs across multiple tables, requiring a multi-step transfer (e.g., 37031 -> 37032 -> 37034 -> 37031).\n*   **Proposed Solution:** A simpler alternative was suggested: swapping the facilities' IDs while keeping them in place to update addresses and information, which is reportedly acceptable to the client.\n*   **MAC Addresses:** It was confirmed that MAC addresses have already been re-attached to the correct facilities, meaning historical records may contain incorrect MACs.",
+  "decisions": [
+    "The data migration must focus on transferring historical sensor data due to initial misassignments.",
+    "A multi-step process is required for facility ID changes (e.g., 37031 <-> 37032 <-> 37034)."
+  ],
+  "action_items": [
+    "Someone needs to execute the data transfer and remapping, potentially using a structured job/script.",
+    "Verify if MAC addresses need further adjustment in historical records."
+  ]
+}

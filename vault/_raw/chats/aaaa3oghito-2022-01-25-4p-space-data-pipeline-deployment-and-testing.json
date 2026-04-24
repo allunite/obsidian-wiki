@@ -1,0 +1,26 @@
+{
+  "chat_id": "AAAA3oghITo",
+  "kind": "Space",
+  "space_name": "Кабаны",
+  "participants": 4,
+  "date_range": {
+    "start": "2022-01-25",
+    "end": "2022-01-25"
+  },
+  "message_count": 40,
+  "topic": "Data pipeline deployment and testing",
+  "topic_slug": "data-pipeline-deployment-and-testing",
+  "tags": [
+    "analytics",
+    "campaign",
+    "inventory"
+  ],
+  "summary_markdown": "The conversation focused on deploying a change for tracking data into ClickHouse. Concerns were raised regarding potential data loss, specifically related to S3 data ingestion, which might not handle large volumes of new data efficiently.\n\nTesting involved running the updated pipeline and monitoring device counts (MAC addresses) in raw buffers. The process was confirmed to be functional, though some participants noted that the current setup is complex and involves multiple redundant steps (e.g., downloading from S3, processing in two locations).\n\nFuture plans include testing the insertion of MAC hashes into `device_session_concept` using new vs. old firmware versions.",
+  "decisions": [
+    "The change for data ingestion into ClickHouse was deployed/tested.",
+    "A comparison of MAC hashes between new and old firmware versions will be tested tomorrow."
+  ],
+  "action_items": [
+    "Test the insertion of MAC hashes in `device_session_concept` (new vs. old firmware)."
+  ]
+}

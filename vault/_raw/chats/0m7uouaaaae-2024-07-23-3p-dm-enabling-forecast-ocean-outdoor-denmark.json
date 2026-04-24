@@ -1,0 +1,24 @@
+{
+  "chat_id": "0m7UOUAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2024-07-23",
+    "end": "2024-07-23"
+  },
+  "message_count": 6,
+  "topic": "Enabling forecast for Ocean Outdoor Denmark",
+  "topic_slug": "enabling-forecast-ocean-outdoor-denmark",
+  "tags": [
+    "analytics",
+    "campaign"
+  ],
+  "summary_markdown": "The primary topic was enabling the forecast feature for Ocean Outdoor Denmark (CityMedia). It was confirmed that activating the forecast without recalculating historical data would not cause major issues, with the only expected consequence being the appearance of fake sessions for offline sensors. Someone agreed to proceed with the activation.\n\n[p1] stated they would handle the historical recalculation themselves.",
+  "decisions": [
+    "Forecast feature will be enabled for Ocean Outdoor Denmark (CityMedia)."
+  ],
+  "action_items": [
+    "Someone needs to enable the forecast for Ocean Outdoor Denmark."
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "chat_id": "i6YI1QAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 2,
+  "date_range": {
+    "start": "2021-01-18",
+    "end": "2021-01-18"
+  },
+  "message_count": 30,
+  "topic": "Dashboard data display and analysis",
+  "topic_slug": "dashboard-data-display-and-analysis",
+  "tags": [
+    "analytics",
+    "campaign"
+  ],
+  "summary_markdown": "The conversation covered two main topics: the visibility of old datasets on the dashboard, and discrepancies in 'average screen seen' metrics.\n\n1. **Dataset Visibility:** [p1] requested that the ability to view older datasets on the dashboard be restored before Wednesday for ongoing analysis. [me] agreed to restore this functionality immediately.\n2. **Average Screen Seen:** [p1] noted that the 'average screen seen' metric appears to increase unusually during nighttime hours, specifically for field data. [me] confirmed that the current staging environment uses new metrics (not unique screens) and acknowledged the observed increase. They discussed whether the calculation should exclude certain types of traffic (e.g., security personnel browsing).",
+  "decisions": [
+    "The ability to view old datasets on the dashboard will be restored.",
+    "The 'average screen seen' metric discrepancy needs further investigation."
+  ],
+  "action_items": [
+    "[me] to restore the visibility of the old dataset on the dashboard.",
+    "[p1]/someone to investigate the cause of the nighttime increase in average screen seen metrics after the release."
+  ]
+}

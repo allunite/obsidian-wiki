@@ -1,0 +1,25 @@
+{
+  "chat_id": "nW_zkkAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2024-04-05",
+    "end": "2024-04-05"
+  },
+  "message_count": 30,
+  "topic": "Querying forecast data and sessions",
+  "topic_slug": "querying-forecast-data-and-sessions",
+  "tags": [
+    "analytics",
+    "session",
+    "campaign"
+  ],
+  "summary_markdown": "The conversation covered two main technical topics. First, [p1] inquired about the availability of general logarithmic functions (base other than natural or binary) within ClickHouse; it was noted that while standard SQL supports `log(base, number)`, ClickHouse simplifies this to `ln()`. Second, [p1] encountered an issue where forecast data continued to aggregate even after removing specific companies from the query. It was determined that to correctly compare historical data with forecasts on a test dataset, the query must include an explicit condition (`is_fake=0`) applied both to the sessions and the prediction calculation itself.",
+  "decisions": [
+    "The forecast calculation needs to be rerun/adjusted using `is_fake=0` for accurate comparison against historical session data."
+  ],
+  "action_items": [
+    "[p1] will modify the query to include `is_fake=0` conditions on both sessions and predictions."
+  ]
+}

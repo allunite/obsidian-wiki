@@ -1,0 +1,24 @@
+{
+  "chat_id": "i6YI1QAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 2,
+  "date_range": {
+    "start": "2022-07-21",
+    "end": "2022-07-21"
+  },
+  "message_count": 76,
+  "topic": "Defining analytics metrics for multiple locations",
+  "topic_slug": "defining-analytics-metrics-for-multiple-locations",
+  "tags": [
+    "analytics",
+    "dwell-time",
+    "session"
+  ],
+  "summary_markdown": "The conversation focused on clarifying the calculation methods for various digital out-of-home metrics when multiple locations are selected. Key definitions established include:\n\n*   **Total Traffic (Screen):** When multiple screens/locations are chosen, traffic counts are cumulative.\n*   **Total Uniques (Screen):** Unique users are counted only once, even if they visited multiple locations.\n*   **Dwell Time (Screen):** Calculated as the simple average of session lengths across all selected locations.\n*   **Mall Analytics Metrics:**\n    *   **Average Visit Time (WoCo/Mall):** Represents the time span from the start of the first session to the end of the last session within a cluster, for a single client. This is distinct from Dwell Time.\n    *   **Dwell Time (Mall):** Defined as the average session length across all selected locations, similar to the screen calculation.\n\nIt was clarified that Average Visit Time measures the total time span of visits for one client within a cluster, while Dwell Time measures the average duration of individual sessions.",
+  "decisions": [
+    "Average Visit Time is defined as the time between the start of the first session and the end of the last session for a single client within a cluster.",
+    "Dwell Time (Mall) is calculated as the simple average session length across all selected locations."
+  ],
+  "action_items": []
+}

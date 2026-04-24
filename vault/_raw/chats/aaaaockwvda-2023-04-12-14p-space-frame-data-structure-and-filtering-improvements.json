@@ -1,0 +1,26 @@
+{
+  "chat_id": "AAAAOcKWvdA",
+  "kind": "Space",
+  "space_name": "Delivery Coordination",
+  "participants": 14,
+  "date_range": {
+    "start": "2023-04-12",
+    "end": "2023-04-12"
+  },
+  "message_count": 8,
+  "topic": "Frame data structure and filtering improvements",
+  "topic_slug": "frame-data-structure-and-filtering-improvements",
+  "tags": [
+    "analytics",
+    "inventory",
+    "campaign"
+  ],
+  "summary_markdown": "The discussion focused on identifying the correct classification for screen type (Digital vs. Analog) within campaign inventory data. It was noted that while `reference-data.json` contains a `panelType` array (`All`, `Digital`, `Analog`), this field does not appear to be directly linked to the inventory structure.\n\nAn alternative suggestion was using the `OTHER -> Other parameters` section in the inventory, specifically checking for `Digital = {yes / no }`.\n\nLater, improvements were implemented on the front end: filtering by support, construction, and movement types. A feature was added to the frame list (over the map) allowing users to select all/clear selection. Map controls were updated to toggle between showing only selected frames or all frames (rebuilding from cluster view to standard view). Counters for total, filtered, and selected frames were also implemented.\n\nFuture work includes starting the saving of campaign data and subsequently redesigning the campaigns list page.",
+  "decisions": [
+    "The use of `Digital = {yes / no }` in the inventory's 'Other parameters' section was considered as a potential solution for screen type classification."
+  ],
+  "action_items": [
+    "Start saving campaign data tomorrow",
+    "Redesign the campaigns list page (following campaign save implementation)"
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "chat_id": "AAAAl4SgH7c",
+  "kind": "Space",
+  "space_name": "Lithuania_old",
+  "participants": 6,
+  "date_range": {
+    "start": "2021-05-03",
+    "end": "2021-05-03"
+  },
+  "message_count": 5,
+  "topic": "Sensor replacement and signal level check",
+  "topic_slug": "sensor-replacement-and-signal-level-check",
+  "tags": [
+    "analytics"
+  ],
+  "summary_markdown": "A sensor (001E422D76D5) was replaced with a new unit (001E422AFD7A). Someone inquired about the improvement in signal level following this replacement. The person who performed the replacement reported that there were no empty packages observed, suggesting the change was positive.",
+  "decisions": [
+    "Sensor 001E422D76D5 was replaced with 001E422AFD7A."
+  ],
+  "action_items": []
+}

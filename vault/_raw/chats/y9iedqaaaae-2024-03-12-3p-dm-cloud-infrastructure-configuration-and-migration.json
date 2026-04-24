@@ -1,0 +1,27 @@
+{
+  "chat_id": "y9IEDQAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2024-03-12",
+    "end": "2024-03-12"
+  },
+  "message_count": 55,
+  "topic": "Cloud infrastructure configuration and migration",
+  "topic_slug": "cloud-infrastructure-configuration-and-migration",
+  "tags": [
+    "analytics",
+    "inventory",
+    "campaign"
+  ],
+  "summary_markdown": "The discussion focused heavily on optimizing cloud compute resources, specifically comparing different instance types (e.g., r7g.xlarge vs m7g.8xlarge) and storage options.\n\n**Key Technical Points:**\n*   **Storage Concerns:** The current SSD setup was deemed inadequate due to low transfer speeds (max 400MB/s), with EBS volumes providing significantly higher throughput (>100MB/s).\n*   **Instance Migration:** There was a detailed discussion regarding the implications of migrating an instance. It was clarified that while local ephemeral SSD storage is lost upon re-launching on a different physical machine, the system disk (root) and attached EBS volumes remain persistent.\n*   **Optimization Proposals:** The speaker proposed upgrading the current Graviton 2 setup to a Graviton 3 instance type (e.g., m7gd.8xlarge) for improved SSD performance, increased network bandwidth (15 Gigabit), and DDR5 memory support, despite potential cost increases.\n\n**Operational Decisions:**\n*   The team agreed that the system disk remains persistent if EBS is used correctly, mitigating data loss concerns during instance replacement.",
+  "decisions": [
+    "Investigate upgrading to Graviton 3 instances for better performance (SSD, network, memory)",
+    "Confirm persistence of root/system disk and attached EBS volumes during instance migration"
+  ],
+  "action_items": [
+    "Obtain approval from Esben regarding the proposed cloud resource upgrade costs",
+    "Follow up on potential office space reduction to save operational costs"
+  ]
+}

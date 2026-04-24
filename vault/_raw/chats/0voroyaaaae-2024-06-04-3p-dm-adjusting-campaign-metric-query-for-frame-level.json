@@ -1,0 +1,26 @@
+{
+  "chat_id": "0VorOYAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2024-06-04",
+    "end": "2024-06-04"
+  },
+  "message_count": 17,
+  "topic": "Adjusting campaign metric query for frame level",
+  "topic_slug": "adjusting-campaign-metric-query-for-frame-level",
+  "tags": [
+    "analytics",
+    "impression",
+    "frame",
+    "facility"
+  ],
+  "summary_markdown": "The discussion focused on modifying an existing SQL query to calculate advertising metrics (impressions, viewable impressions, sessions) at the individual frame level within a campaign. Initially, the user attempted to modify the query but struggled with maintaining accurate total traffic figures.\n\nIt was determined that while totals can be calculated per facility, displaying campaign data for frames requires linking frame-level metrics back to their respective facilities' totals. The final provided query structure calculates viewable impressions and other metrics grouped by `company_num`, `facility_num`, and `frame_num` (from the `allunite.device_session_agg_5` table), and then joins this with a separate calculation of total sessions per facility.\n\nThe user confirmed that for each frame, they need to see the traffic metrics calculated at the facility level.",
+  "decisions": [
+    "The query structure was finalized to calculate frame-level metrics while joining them to facility-level session totals."
+  ],
+  "action_items": [
+    "None"
+  ]
+}

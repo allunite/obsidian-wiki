@@ -1,0 +1,22 @@
+{
+  "chat_id": "6ize28AAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2025-12-12",
+    "end": "2025-12-12"
+  },
+  "message_count": 7,
+  "topic": "Deploying frequency data to staging environment",
+  "topic_slug": "deploying-frequency-data-to-staging-environment",
+  "tags": [
+    "analytics",
+    "facility"
+  ],
+  "summary_markdown": "A request was made to deploy the frequency data to the staging environment. The status of the deployment was discussed, noting that old frequency data was still visible on the platform. It was confirmed that the SQL traffic dashboard appeared correct, and eventually, the feature was deployed.",
+  "decisions": [
+    "Frequency data is now deployed to staging."
+  ],
+  "action_items": []
+}

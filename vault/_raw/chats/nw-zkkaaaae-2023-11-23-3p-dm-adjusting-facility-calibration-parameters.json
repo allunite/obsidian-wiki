@@ -1,0 +1,24 @@
+{
+  "chat_id": "nW_zkkAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2023-11-23",
+    "end": "2023-11-23"
+  },
+  "message_count": 8,
+  "topic": "Adjusting facility calibration parameters",
+  "topic_slug": "adjusting-facility-calibration-parameters",
+  "tags": [
+    "analytics",
+    "facility"
+  ],
+  "summary_markdown": "The discussion focused on the `isCalibrated` function, which determines if a session is calibrated based on signal level and duration. It was confirmed that this function currently uses a fixed calibration value (e.g., 78) and would incorrectly filter sessions from a new model with a higher signal level (e.g., 82). To improve flexibility, it was suggested to replace the function's logic with explicit checks.\n\nRegarding maintenance, the current process requires manual updates of calibration settings. A stored procedure will be developed to simplify this process and allow for easier integration into job scheduling systems like Windmill.\n\nSeparately, a specific facility (RZK Brazil) required an immediate update: changing its calibration value from 72 to 74.",
+  "decisions": [
+    "A stored procedure will be created to simplify the process of updating calibration settings for facilities."
+  ],
+  "action_items": [
+    "Develop and share a stored procedure for managing facility calibration updates."
+  ]
+}

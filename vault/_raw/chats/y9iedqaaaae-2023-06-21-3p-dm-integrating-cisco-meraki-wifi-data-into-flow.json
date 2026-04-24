@@ -1,0 +1,28 @@
+{
+  "chat_id": "y9IEDQAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2023-06-21",
+    "end": "2023-06-21"
+  },
+  "message_count": 66,
+  "topic": "Integrating Cisco Meraki Wi-Fi data into flow",
+  "topic_slug": "integrating-cisco-meraki-wifi-data-into-flow",
+  "tags": [
+    "analytics",
+    "inventory",
+    "frame",
+    "raw-data"
+  ],
+  "summary_markdown": "The discussion focused on integrating Wi-Fi data obtained from Cisco Meraki devices, which provide detailed telemetry for connected clients. The raw data includes client location and MAC addresses.\n\n**Data Handling:** It was decided that instead of building a complex adapter to convert the data into the existing flow structure, the data should be dumped directly into a dedicated staging table (`raw_devices_cisco_buffer` on `ch02`). This approach minimizes complexity in the core processing logic (CH).\n\n**Data Type:** The telemetry primarily consists of connected client data, although initial confusion arose regarding whether it was probe or connected status.\n\n**Technical Implementation:** A specific table structure (`raw_devices_cisco_buffer`) and flushing mechanism were defined for storing this raw input.",
+  "decisions": [
+    "Cisco Meraki Wi-Fi telemetry data will be stored in a dedicated staging buffer table: `raw_devices_cisco_buffer` on `ch02`.",
+    "The raw data should be flushed periodically into the main `raw_device_cisco` table."
+  ],
+  "action_items": [
+    "Create and implement the `raw_devices_cisco_buffer` table structure: (timestamp DateTime, data String).",
+    "Implement the process to flush accumulated raw Cisco device data into `raw_device_cisco`."
+  ]
+}

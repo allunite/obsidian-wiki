@@ -1,0 +1,26 @@
+{
+  "chat_id": "i6YI1QAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 2,
+  "date_range": {
+    "start": "2021-02-10",
+    "end": "2021-02-10"
+  },
+  "message_count": 51,
+  "topic": "Data aggregation and real-time data setup",
+  "topic_slug": "data-aggregation-and-real-time-data-setup",
+  "tags": [
+    "analytics",
+    "session",
+    "campaign",
+    "inventory"
+  ],
+  "summary_markdown": "The conversation focused on running and optimizing data aggregation processes, specifically for the 'city' category. Initial steps involved reaggregating a staging dataset using a query provided by [p1]. The process encountered timeout issues in the IDE, which was resolved by increasing the `socket_timeout` parameter to 36000000.\n\nLater discussions covered integrating real-time data for ML results. It was confirmed that the real-time functionality needed to be implemented and tested, with a plan to test it later that day or the next day.",
+  "decisions": [
+    "The staging dataset aggregation process was successfully run after increasing the IDE's socket timeout parameter."
+  ],
+  "action_items": [
+    "Test the real-time data feed for ML results later in the day or the following day."
+  ]
+}

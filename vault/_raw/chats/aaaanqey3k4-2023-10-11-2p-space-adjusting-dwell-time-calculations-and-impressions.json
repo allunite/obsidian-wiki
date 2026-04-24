@@ -1,0 +1,25 @@
+{
+  "chat_id": "AAAANqEY3K4",
+  "kind": "Space",
+  "space_name": "Group Chat",
+  "participants": 2,
+  "date_range": {
+    "start": "2023-10-11",
+    "end": "2023-10-11"
+  },
+  "message_count": 20,
+  "topic": "Adjusting dwell time calculations and impressions",
+  "topic_slug": "adjusting-dwell-time-calculations-and-impressions",
+  "tags": [
+    "analytics",
+    "dwell-time",
+    "impression"
+  ],
+  "summary_markdown": "The conversation focused on data discrepancies, specifically regarding session metrics. It was determined that only the impression counts were affected, and this impact is limited to digital data.\n\nA SQL query was shared for review, which included modifications to calculate `dwell_time` using `sum(session_duration) / count(*)` and updated table/filtering logic (e.g., changing from `device_session_agg_4` to `device_session_concept`, adding filters for `is_local`, `is_permanent_device`, and `is_calibrated`).\n\n**Decisions:**\n*   The request was made to roll back the dwell time query on the STAGE environment, recalculating data starting from October 3rd.",
+  "decisions": [
+    "Recalculate the dwell time query on the STAGE environment, starting from October 3rd."
+  ],
+  "action_items": [
+    "[me] to run the updated dwell time calculation query on STAGE."
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "chat_id": "AAAAOcKWvdA",
+  "kind": "Space",
+  "space_name": "Delivery Coordination",
+  "participants": 14,
+  "date_range": {
+    "start": "2024-04-23",
+    "end": "2024-04-23"
+  },
+  "message_count": 4,
+  "topic": "Data preparation and API updates",
+  "topic_slug": "data-preparation-api-updates",
+  "tags": [
+    "analytics",
+    "frame"
+  ],
+  "summary_markdown": "The ml-api service was released, and all possible frames have been approved (with only a few remaining). A beta dataset for two companies was backed up into a new dataset (id=9), which may be useful elsewhere. The discussion focused on recalculations, with confirmation that the backup/recalculation process starts from August 1st.",
+  "decisions": [
+    "Beta dataset for two companies backed up to dataset id=9."
+  ],
+  "action_items": []
+}

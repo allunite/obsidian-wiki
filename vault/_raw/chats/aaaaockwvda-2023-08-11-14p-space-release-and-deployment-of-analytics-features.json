@@ -1,0 +1,28 @@
+{
+  "chat_id": "AAAAOcKWvdA",
+  "kind": "Space",
+  "space_name": "Delivery Coordination",
+  "participants": 14,
+  "date_range": {
+    "start": "2023-08-11",
+    "end": "2023-08-11"
+  },
+  "message_count": 68,
+  "topic": "Release and deployment of analytics features",
+  "topic_slug": "release-and-deployment-of-analytics-features",
+  "tags": [
+    "campaign",
+    "inventory",
+    "analytics"
+  ],
+  "summary_markdown": "The session focused on the final stages of a product release and deployment. Initial discussions covered technical setup, including Python environments, staging/production separation, and triggering jobs (e.g., `ml_traffic_prediction`).\n\nSeveral issues were identified during testing: data discrepancies in Brazil, missing data on staging, and configuration variables being lost after the initial release.\n\nKey actions included:\n*   Hiding specific metrics (Frequency and Reach) across reports, details, and campaign lists to prepare for deployment.\n*   Deploying Release Candidate v2023.8.3 to staging.\n*   Confirming that data was returned/restored.\n*   The final release involved deploying an improved version of the Brazil analytics module.\n\nTechnical fixes included restoring necessary environment variables and ensuring correct dataset settings (stage vs. prod) were applied during deployment.",
+  "decisions": [
+    "Metrics like Frequency and Reach must be hidden before release.",
+    "Release Candidate v2023.8.3 was deployed to staging.",
+    "The improved Brazil analytics version was finalized for release."
+  ],
+  "action_items": [
+    "A script for transferring data from stage to prod needs to be used/shared.",
+    "Ensure all necessary environment variables are correctly configured and persist through deployment."
+  ]
+}

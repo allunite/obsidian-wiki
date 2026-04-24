@@ -1,0 +1,29 @@
+{
+  "chat_id": "y9IEDQAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2025-02-19",
+    "end": "2025-02-19"
+  },
+  "message_count": 106,
+  "topic": "AWS compute instance optimization and data handling",
+  "topic_slug": "aws-compute-instance-optimization-and-data-handling",
+  "tags": [
+    "analytics",
+    "inventory",
+    "campaign",
+    "loop",
+    "recalc-ch",
+    "c7g.4xlarge"
+  ],
+  "summary_markdown": "The conversation covered multiple technical topics, including API data retrieval and cloud infrastructure optimization.\n\n**Data Retrieval:** Initial attempts to pull demographic data for Mexico failed due to a 404 error when using the `/report/demographics/short` endpoint. The method was corrected from GET to POST, and it was noted that date formats must use `YYYY-MM-DD` instead of `DD-MM-YYYY`.\n\n**Cloud Infrastructure:** A significant portion of the discussion focused on optimizing AWS compute instances for large data processing tasks (3.64 TB). The initial instance type (`r8g.2xlarge`) was found to be suboptimal, leading to slow data transfer rates (<0.5 GB/s) and high CPU utilization. It was decided that future runs should utilize a `c7g.4xlarge` or larger compute-optimized instance for better performance.\n\n**Local Disk Persistence:** The discussion clarified the nature of local storage on AWS instances, noting that while EBS volumes are network-attached, some specialized instances (e.g., c7gd.8xlarge) include local NVMe SSDs. It was confirmed that changing the instance type does not necessarily delete persistent local disks if they were not recreated from scratch.",
+  "decisions": [
+    "Future large data processing runs must use a compute-optimized instance, specifically `c7g.4xlarge` or larger.",
+    "API date parameters must be formatted as YYYY-MM-DD."
+  ],
+  "action_items": [
+    "Update the configuration to default to using `c7g.4xlarge` for large data processing tasks."
+  ]
+}

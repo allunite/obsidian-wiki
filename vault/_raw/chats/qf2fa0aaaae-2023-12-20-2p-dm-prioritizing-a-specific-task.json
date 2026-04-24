@@ -1,0 +1,23 @@
+{
+  "chat_id": "qF2Fa0AAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 2,
+  "date_range": {
+    "start": "2023-12-20",
+    "end": "2023-12-20"
+  },
+  "message_count": 6,
+  "topic": "Prioritizing a specific task",
+  "topic_slug": "prioritizing-a-specific-task",
+  "tags": [
+    "analytics"
+  ],
+  "summary_markdown": "Someone requested that the recipient prioritize an existing, non-complex task (DOOH-453) which was previously assigned. The goal is to commit by the end of the day tomorrow.",
+  "decisions": [
+    "The task DOOH-453 needs to be prioritized and completed by the end of the day tomorrow."
+  ],
+  "action_items": [
+    "Recipient must work on task DOOH-453"
+  ]
+}

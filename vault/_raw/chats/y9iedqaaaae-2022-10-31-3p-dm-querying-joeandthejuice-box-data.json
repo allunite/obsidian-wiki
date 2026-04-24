@@ -1,0 +1,22 @@
+{
+  "chat_id": "y9IEDQAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2022-10-31",
+    "end": "2022-10-31"
+  },
+  "message_count": 7,
+  "topic": "Querying Joe&TheJuice box data",
+  "topic_slug": "querying-joeandthejuice-box-data",
+  "tags": [
+    "analytics",
+    "inventory"
+  ],
+  "summary_markdown": "A request was made to extract all 'JJ' boxes using a single query. The recipient provided the following SQL query for PG (PostgreSQL) database access:\n\n```sql\nselect *\nfrom box\nwhere tenant_id = '7364a8d9-136f-4a18-933c-c98a4c6157fa';\n```",
+  "decisions": [
+    "The SQL query provided will extract all data from the 'box' table for a specific tenant ID."
+  ],
+  "action_items": []
+}

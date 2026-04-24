@@ -1,0 +1,23 @@
+{
+  "chat_id": "wZDFB8AAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2025-12-15",
+    "end": "2025-12-15"
+  },
+  "message_count": 12,
+  "topic": "Applying formulas and updating dwell time",
+  "topic_slug": "applying-formulas-and-updating-dwell-time",
+  "tags": [
+    "analytics",
+    "recalc-ch"
+  ],
+  "summary_markdown": "Initial discussion focused on applying specific formulas to data for companies 7885 and 7887, while other Brazilian companies should use `frequencyBase`. This task was completed by [me]. Later, the conversation addressed moving company 7950's dwell time data into analytics. The initial move was performed to 'stage', requiring a cache expiration wait period. Subsequently, the data for company 7950 was moved to 'prod'.",
+  "decisions": [
+    "Formulas must be applied only for companies 7885 and 7887.",
+    "Company 7950's dwell time data was successfully moved into analytics (first to stage, then to prod)."
+  ],
+  "action_items": []
+}

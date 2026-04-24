@@ -1,0 +1,24 @@
+{
+  "chat_id": "y9IEDQAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2025-01-14",
+    "end": "2025-01-14"
+  },
+  "message_count": 32,
+  "topic": "Demographics and VPN access discussion",
+  "topic_slug": "demographics-and-vpn-access-discussion",
+  "tags": [
+    "analytics",
+    "campaign"
+  ],
+  "summary_markdown": "The conversation covered two main topics: demographics data and network access. Regarding demographics, the work on 'Tractor Demographics' was paused in favor of working on Citydata demographics for a presentation scheduled for 11 AM BRT concerning parks. The discussion also touched upon technical details regarding VPN connectivity, comparing the current openVPN setup (which lacks real-time status visibility) with a more advanced system that allows granular control over access rights and potentially eliminates the need for separate VPN setups via concept gateways.",
+  "decisions": [
+    "Work on Citydata demographics was prioritized over Tractor Demographics."
+  ],
+  "action_items": [
+    "None"
+  ]
+}

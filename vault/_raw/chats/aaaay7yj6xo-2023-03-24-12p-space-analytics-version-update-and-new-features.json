@@ -1,0 +1,20 @@
+{
+  "chat_id": "AAAAy7Yj6Xo",
+  "kind": "Space",
+  "space_name": "IT",
+  "participants": 12,
+  "date_range": {
+    "start": "2023-03-24",
+    "end": "2023-03-24"
+  },
+  "message_count": 3,
+  "topic": "Analytics version update and new features",
+  "topic_slug": "analytics-version-update-and-new-features",
+  "tags": [
+    "analytics",
+    "facility"
+  ],
+  "summary_markdown": "A new version of analytics (v2023.3.3) was released, introducing several changes. Key updates include the ability to limit user access to specific facilities, a feature noted as being beneficial for CPH Airport and Malls. Other improvements involve faster classification processing and aesthetic dashboard enhancements.",
+  "decisions": [],
+  "action_items": []
+}

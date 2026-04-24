@@ -1,0 +1,22 @@
+{
+  "chat_id": "nW_zkkAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2025-02-19",
+    "end": "2025-02-19"
+  },
+  "message_count": 44,
+  "topic": "Deploying ml-api changes to production",
+  "topic_slug": "deploying-ml-api-changes-to-production",
+  "tags": [
+    "analytics",
+    "campaign"
+  ],
+  "summary_markdown": "The conversation focused on deploying updated changes for the `ml-api` from staging to production. Initially, [p1] requested a deployment because previous versions were not reflecting correctly in production.\n\n[me] confirmed that the necessary commits (specifically related to `frequency_for_Riga2`) had been deployed to production after initial issues with the stage environment. Later, when testing showed discrepancies between staging and production data for certain methods, [me] identified a missing element on the production side that was present in staging.\n\nThis fix allowed the function (related to 'facility') to work correctly on the live platform, resolving the issue.",
+  "decisions": [
+    "The `ml-api` changes were successfully deployed from staging to production."
+  ],
+  "action_items": []
+}

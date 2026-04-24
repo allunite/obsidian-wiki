@@ -1,0 +1,29 @@
+{
+  "chat_id": "y9IEDQAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2023-05-30",
+    "end": "2023-05-30"
+  },
+  "message_count": 54,
+  "topic": "Archiving raw device data to S3",
+  "topic_slug": "archiving-raw-device-data-to-s3",
+  "tags": [
+    "analytics",
+    "inventory",
+    "session",
+    "campaign"
+  ],
+  "summary_markdown": "The discussion focused on optimizing the process for exporting raw device data (seen records) to S3. Initial tests compared compression methods (XZ vs GZ), noting that XZ was slower but resulted in smaller files, while a minor modification to the SQL query (using Unix timestamp as text instead of numeric) reduced processing time.\n\n**Data Archiving Strategy:** A new strategy for data archiving and cold storage was defined:\n1. **Raw Data Storage:** Raw data will be archived into a dedicated bucket/path: `allunite-rawdata/ch_flat/`.\n2. **Cold Data Storage:** A separate bucket, `allunite-clickhouse-data`, is designated for ",
+  "decisions": [
+    "Raw data archiving will use a dedicated path: allunite-rawdata/ch_flat/",
+    "A new S3 bucket, allunite-clickhouse-data, will be used for cold storage of ClickHouse data.",
+    "Access controls must restrict deletion and overwrite capabilities on the raw data archive (allunite-rawdata/ch_flat/), while granting full access to the cold data bucket (allunite-clickhouse-data)."
+  ],
+  "action_items": [
+    "Implement the archiving process using the optimized SQL query.",
+    "Set up appropriate S3 buckets and access controls for raw and cold data storage."
+  ]
+}

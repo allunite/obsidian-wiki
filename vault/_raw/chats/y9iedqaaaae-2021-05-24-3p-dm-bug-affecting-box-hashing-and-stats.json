@@ -1,0 +1,21 @@
+{
+  "chat_id": "y9IEDQAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2021-05-24",
+    "end": "2021-05-24"
+  },
+  "message_count": 6,
+  "topic": "Bug affecting box hashing and stats",
+  "topic_slug": "bug-affecting-box-hashing-and-stats",
+  "tags": [
+    "analytics"
+  ],
+  "summary_markdown": "A discussion was held regarding a persistent bug related to box hashing on multiple devices, which is negatively impacting statistics in Lithuania. [me] shared an Atlassian ticket link (JCDEC-361) and emphasized the need for a fix.",
+  "decisions": [],
+  "action_items": [
+    "Investigate or apply the fix referenced in JCDEC-361."
+  ]
+}

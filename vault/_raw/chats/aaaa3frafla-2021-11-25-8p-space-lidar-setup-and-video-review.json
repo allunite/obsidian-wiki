@@ -1,0 +1,23 @@
+{
+  "chat_id": "AAAA3frAfLA",
+  "kind": "Space",
+  "space_name": "Lidar Tech",
+  "participants": 8,
+  "date_range": {
+    "start": "2021-11-25",
+    "end": "2021-11-25"
+  },
+  "message_count": 9,
+  "topic": "Lidar setup and video review",
+  "topic_slug": "lidar-setup-and-video-review",
+  "tags": [
+    "analytics"
+  ],
+  "summary_markdown": "A review of Lidar data collection was conducted using provided videos from a Dubai scene. Concerns were raised regarding poor visibility in the lower right section of the scene, possibly due to installation debris or improper handling (suggesting sterile gloves are needed for setup). Multiple videos showed visible dirt/debris obstructing the camera view.\n\nIt was agreed that video footage should be captured for general understanding and full scene context. A link was provided for downloading a high-quality version of the video, as Google Drive compression degraded the quality.",
+  "decisions": [
+    "The need for proper Lidar installation procedures (e.g., sterile gloves) was identified."
+  ],
+  "action_items": [
+    "Download and review the provided direct file link to ensure optimal video quality."
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "chat_id": "AAAAaK7z8KI",
+  "kind": "Space",
+  "space_name": "Group Chat",
+  "participants": 5,
+  "date_range": {
+    "start": "2024-12-17",
+    "end": "2024-12-17"
+  },
+  "message_count": 3,
+  "topic": "Adding company IDs to group chat",
+  "topic_slug": "adding-company-ids-to-group-chat",
+  "tags": [
+    "inventory"
+  ],
+  "summary_markdown": "Someone requested the addition of three specific company identifiers (7939, 7873, and 7855) to the current discussion/list. The request was subsequently completed.",
+  "decisions": [],
+  "action_items": []
+}

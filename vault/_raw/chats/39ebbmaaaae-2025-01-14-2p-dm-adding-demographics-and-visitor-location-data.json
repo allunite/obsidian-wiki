@@ -1,0 +1,26 @@
+{
+  "chat_id": "39eBBMAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 2,
+  "date_range": {
+    "start": "2025-01-14",
+    "end": "2025-01-14"
+  },
+  "message_count": 9,
+  "topic": "Adding demographics and visitor location data",
+  "topic_slug": "adding-demographics-and-visitor-location-data",
+  "tags": [
+    "analytics",
+    "facility"
+  ],
+  "summary_markdown": "The conversation focused on adding demographic information for Dona Lindu Park. [me] confirmed that the initial demographics would be available on staging within an hour. Subsequently, [p1] requested the inclusion of visitor place-of-living data provided by citydata, noting its importance to the client. [me] agreed to review and implement this additional data source in a later stage.",
+  "decisions": [
+    "Demographics for Dona Lindu Park will be available on staging shortly.",
+    "Visitor place-of-living data from citydata will be added in a subsequent development stage."
+  ],
+  "action_items": [
+    "[me] to update the demographics on staging.",
+    "[me] to review and plan for integrating citydata visitor location information."
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "chat_id": "i6YI1QAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 2,
+  "date_range": {
+    "start": "2022-05-12",
+    "end": "2022-05-12"
+  },
+  "message_count": 7,
+  "topic": "Excluding zero dwell time sessions from analytics",
+  "topic_slug": "excluding-zero-dwell-time-sessions-from-analytics",
+  "tags": [
+    "dwell-time",
+    "session",
+    "analytics"
+  ],
+  "summary_markdown": "A discussion occurred regarding the calculation of dwell time. It was confirmed that zero-duration sessions are excluded when calculating dwell time in 'molah' (a specific system/area). Furthermore, it was noted that on the main dashboard and in production analytics, these zero-duration sessions are already excluded after traffic fixation.",
+  "decisions": [
+    "Zero-duration sessions are excluded from dwell time calculations in 'molah'.",
+    "Zero-duration sessions are excluded from the main dashboard and production analytics."
+  ],
+  "action_items": []
+}

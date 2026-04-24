@@ -1,0 +1,19 @@
+{
+  "chat_id": "AAAA-gn4oPg",
+  "kind": "Space",
+  "space_name": "General and random",
+  "participants": 36,
+  "date_range": {
+    "start": "2023-10-06",
+    "end": "2023-10-06"
+  },
+  "message_count": 3,
+  "topic": "Industry news and general encouragement",
+  "topic_slug": "industry-news-and-general-encouragement",
+  "tags": [
+    "analytics"
+  ],
+  "summary_markdown": "A link to an article about audience measurement performance was shared. The conversation concluded with general positive remarks.",
+  "decisions": [],
+  "action_items": []
+}

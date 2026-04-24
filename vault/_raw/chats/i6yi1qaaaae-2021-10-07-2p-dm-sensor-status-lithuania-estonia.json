@@ -1,0 +1,21 @@
+{
+  "chat_id": "i6YI1QAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 2,
+  "date_range": {
+    "start": "2021-10-07",
+    "end": "2021-10-07"
+  },
+  "message_count": 9,
+  "topic": "Sensor status in Lithuania and Estonia",
+  "topic_slug": "sensor-status-lithuania-estonia",
+  "tags": [
+    "facility"
+  ],
+  "summary_markdown": "The conversation confirms that sensors are available on the map for Lithuania, and coverage is also confirmed for Estonia. A specific concern regarding a 'fix' (likely referring to stability or status) was addressed, with [me] confirming that everything has been okay since the previous evening.",
+  "decisions": [
+    "Sensor availability confirmed in Lithuania and Estonia."
+  ],
+  "action_items": []
+}

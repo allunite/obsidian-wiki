@@ -1,0 +1,26 @@
+{
+  "chat_id": "oCgFCIAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2022-05-02",
+    "end": "2022-05-02"
+  },
+  "message_count": 6,
+  "topic": "Data analysis and reporting setup",
+  "topic_slug": "data-analysis-and-reporting-setup",
+  "tags": [
+    "analytics",
+    "recalc-ch"
+  ],
+  "summary_markdown": "The session focused on setting up data analysis and reporting. [p1] scheduled a meeting for the next day to review demographic data, which someone (Galina) had compiled using formulas and loaded into the system. The remaining tasks involve filling out one daily table in the recalculation tool and extracting data from the website.\n\n[p1] noted that Galina simplified the formula structure, making it easier to implement while retaining flexibility for future adjustments. A specific data anomaly was discussed: an increase in visits observed for a certain area when ad units (боксов) were reduced, which [p1] plans to investigate further with a request.\n\n[me] confirmed availability for the next day's work.",
+  "decisions": [
+    "A meeting is scheduled for the next day to review demographic data and reporting setup."
+  ],
+  "action_items": [
+    "Fill out one daily table in the recalculation tool.",
+    "Extract required data from the website.",
+    "Investigate the anomaly of increased visits despite reduced ad units."
+  ]
+}

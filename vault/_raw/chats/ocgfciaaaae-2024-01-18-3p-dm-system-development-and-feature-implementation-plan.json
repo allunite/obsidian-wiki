@@ -1,0 +1,29 @@
+{
+  "chat_id": "oCgFCIAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2024-01-18",
+    "end": "2024-01-18"
+  },
+  "message_count": 28,
+  "topic": "System development and feature implementation plan",
+  "topic_slug": "system-development-and-feature-implementation-plan",
+  "tags": [
+    "analytics",
+    "campaign",
+    "inventory",
+    "facility"
+  ],
+  "summary_markdown": "The discussion focused on technical debt, system readiness (DOOH-444), and required data structure changes for the platform. Key points included:\n\n*   **System Readiness:** The DOOH-444 module is not fully ready, requiring work beyond just debugging logs and ID generation.\n*   **Feature Scope Reduction:** A major decision point was disabling 'mods' (modules) to simplify the system and improve performance, which will allow for better understanding of missing features. This effort aims to reduce resource consumption on the core-api.\n*   **Data Model Changes:** The `user_company` field needs updates in the editor. Regarding partner selection, it was discussed whether to use the user's company or a dedicated partner ID (GUID), noting that `partner_id` is distinct from `company_id`. For navigation, `parent_id` should be set to the partner's `company_id`.\n*   **UI/UX:** The team considered allowing clients to create and fill out data directly, but acknowledged potential restrictions from the sales department. It was also noted that the dropdown menu could display children of the user's company.\n\nOverall, there is a consensus on simplifying modules to stabilize performance.",
+  "decisions": [
+    "Disable 'mods' (modules) to simplify system functionality and reduce resource load.",
+    "The `user_company` field requires updates in the editor.",
+    "For partner selection, the logic needs clarification regarding whether to use user company data or a dedicated GUID/partner ID."
+  ],
+  "action_items": [
+    "Investigate old logic related to how partners were previously set up.",
+    "Implement changes to reduce resource consumption on core-api by disabling modules."
+  ]
+}

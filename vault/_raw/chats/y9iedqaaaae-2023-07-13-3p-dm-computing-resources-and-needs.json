@@ -1,0 +1,21 @@
+{
+  "chat_id": "y9IEDQAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2023-07-13",
+    "end": "2023-07-13"
+  },
+  "message_count": 11,
+  "topic": "Discussion about computing resources and needs",
+  "topic_slug": "computing-resources-and-needs",
+  "tags": [
+    "analytics"
+  ],
+  "summary_markdown": "The conversation revolves around the technical requirements for a 'computational machine' or specialized tooling. One participant expressed initial surprise regarding the perceived low specifications (two cores, 8GB) compared to expectations of something large and expensive. It was noted that the requirement for Google authorization, separated rights, and monitoring was discussed. Another participant mentioned that a colleague had already inquired about an independent 'computational machine,' suggesting powerful instances (like P or C with Nvidia). The current specifications were deemed acceptable by one participant.",
+  "decisions": [
+    "The need for specific tooling/authorization (Google auth, separated rights, monitoring) was discussed."
+  ],
+  "action_items": []
+}

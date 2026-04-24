@@ -1,0 +1,24 @@
+{
+  "chat_id": "oCgFCIAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2025-10-06",
+    "end": "2025-10-06"
+  },
+  "message_count": 6,
+  "topic": "Impact assessment of hotfix deployment",
+  "topic_slug": "impact-assessment-of-hotfix-deployment",
+  "tags": [
+    "campaign",
+    "analytics"
+  ],
+  "summary_markdown": "A bug was found and fixed related to how the ThirdPartController initializes user IDs, which previously caused incorrect parameter retrieval and default frequency formula usage. Deploying a hotfix could potentially alter reach and frequency metrics for many campaigns.\n\nDiscussion determined that the affected functionality is used in two ways: calculating metrics for other datasets (e.g., staging/beta when production data exists) and calculating metrics for the airing period of active campaigns.\n\nIt was concluded that the impact is limited, primarily affecting only those campaigns with an 'active' status and provided campaign dates. The majority of affected records are in the demo environment.",
+  "decisions": [
+    "A hotfix will be deployed after discussion with Ruslan."
+  ],
+  "action_items": [
+    "Assess the full scope of the bug's effect on metrics tomorrow."
+  ]
+}

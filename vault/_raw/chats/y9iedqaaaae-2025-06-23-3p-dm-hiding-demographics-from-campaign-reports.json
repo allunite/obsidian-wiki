@@ -1,0 +1,24 @@
+{
+  "chat_id": "y9IEDQAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2025-06-23",
+    "end": "2025-06-23"
+  },
+  "message_count": 30,
+  "topic": "Hiding demographics from campaign reports",
+  "topic_slug": "hiding-demographics-from-campaign-reports",
+  "tags": [
+    "analytics",
+    "campaign"
+  ],
+  "summary_markdown": "The conversation addressed a concern regarding the visibility of demographic data within Campaign reports for a specific client/area (referred to as 'Адани'). Initially, [me] checked and did not observe any demographics being displayed. However, after reviewing attachments in a task link provided by [p1], it was confirmed that the demographic block is visible in the campaign reports.\n\nThe consensus was reached that this entire demographic block should be hidden or suppressed entirely.",
+  "decisions": [
+    "The demographic data block must be hidden from Campaign reports."
+  ],
+  "action_items": [
+    "Someone needs to request that Sanya hide the demographics block in the campaign reports."
+  ]
+}

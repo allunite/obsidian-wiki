@@ -1,0 +1,24 @@
+{
+  "chat_id": "i6YI1QAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 2,
+  "date_range": {
+    "start": "2021-05-26",
+    "end": "2021-05-26"
+  },
+  "message_count": 15,
+  "topic": "Checking device calibration for Lithuania",
+  "topic_slug": "checking-device-calibration-for-lithuania",
+  "tags": [
+    "analytics",
+    "session"
+  ],
+  "summary_markdown": "The conversation focused on checking the device session calibration status for a specific region (Lithuania). A SQL query was provided and found to be empty, suggesting that partner calibration is working for jcdcaux hq. The participants discussed potential changes to an aggregation request and confirmed that the updated version of the request would be sent via Slack.",
+  "decisions": [
+    "The current device session calibration status for Lithuania needs verification."
+  ],
+  "action_items": [
+    "[me] will send the updated aggregation query via Slack."
+  ]
+}

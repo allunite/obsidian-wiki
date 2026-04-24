@@ -1,0 +1,25 @@
+{
+  "chat_id": "oCgFCIAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2022-08-16",
+    "end": "2022-08-16"
+  },
+  "message_count": 25,
+  "topic": "Data cleanup and database optimization strategies",
+  "topic_slug": "data-cleanup-database-optimization-strategies",
+  "tags": [
+    "analytics",
+    "session",
+    "facility"
+  ],
+  "summary_markdown": "The discussion focused on two main areas: calculating a new formula for 'ritch' (likely related to reach/impressions) and database maintenance.\n\n**Data Cleanup:** It was decided that sessions where `facility_num = 0` should be deleted from the `device_session_concept` table. This cleanup is considered safe because any potential sessions from non-facility bound boxes can be safely filtered using `company_num = 0`. The deletion process will proceed carefully, targeting months with `company_num = 0`.\n\n**Database Optimization:** Concerns were raised about the rapid growth of the database and running out of space. Potential future strategies discussed include:\n1. Deleting very old sessions.\n2. Compacting the table based on device IDs by updating IDs to ensure they are sequential, which would involve inserting new records for new device IDs.",
+  "decisions": [
+    "Delete sessions from `device_session_concept` where `facility_num = 0` and `company_num = 0`."
+  ],
+  "action_items": [
+    "Proceed with deleting the specified data in batches (by month)."
+  ]
+}

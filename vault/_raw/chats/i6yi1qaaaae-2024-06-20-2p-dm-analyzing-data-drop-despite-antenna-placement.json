@@ -1,0 +1,22 @@
+{
+  "chat_id": "i6YI1QAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 2,
+  "date_range": {
+    "start": "2024-06-20",
+    "end": "2024-06-20"
+  },
+  "message_count": 6,
+  "topic": "Analyzing data drop despite antenna placement",
+  "topic_slug": "analyzing-data-drop-despite-antenna-placement",
+  "tags": [
+    "analytics",
+    "session"
+  ],
+  "summary_markdown": "A discussion was held regarding a perceived decline in data over the course of a year, specifically questioning if the internal antenna placement could be responsible. It was noted that the average signal level does not decrease, but rather the number of packets is questioned. The consensus suggested that the antenna placement might not be the cause; instead, the relative amount of 'local not trusted' increased over time, leading to a reduction in sessions.",
+  "decisions": [],
+  "action_items": [
+    "Review data more closely and discuss findings further."
+  ]
+}

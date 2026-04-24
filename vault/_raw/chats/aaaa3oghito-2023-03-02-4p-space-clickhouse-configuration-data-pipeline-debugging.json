@@ -1,0 +1,30 @@
+{
+  "chat_id": "AAAA3oghITo",
+  "kind": "Space",
+  "space_name": "Кабаны",
+  "participants": 4,
+  "date_range": {
+    "start": "2023-03-02",
+    "end": "2023-03-03"
+  },
+  "message_count": 177,
+  "topic": "ClickHouse configuration and data pipeline debugging",
+  "topic_slug": "clickhouse-configuration-data-pipeline-debugging",
+  "tags": [
+    "analytics",
+    "campaign",
+    "impression",
+    "recalc-ch",
+    "session"
+  ],
+  "summary_markdown": "The session focused heavily on debugging and optimizing data processing pipelines, particularly involving ClickHouse. Initial issues included `Operation not permitted` errors when running services and a `DB::Exception: Our server id 4 not found in raft_configuration section` error, which was resolved by removing an incorrect configuration parameter.\n\nLater discussions covered performance tuning, including splitting the main processing into more smaller parts (from 5 to 8) to manage data load. A critical bug was identified in the mall analytics component where a type mismatch occurred (`cur.num` being a number while `trafficByZone` expected a string), requiring a change from strict equality (`===`) to loose equality (`==`).\n\nFinally, discussions addressed monitoring improvements, specifically enabling ClickHouse's native support for Prometheus metrics by including the necessary configuration parameters.",
+  "decisions": [
+    "The incorrect `allow_experimental_window_view` parameter was removed from the ClickHouse configuration.",
+    "The mall analytics bug requires changing the comparison operator from strict equality (===) to loose equality (==).",
+    "ClickHouse should be configured to expose Prometheus metrics using its built-in capabilities."
+  ],
+  "action_items": [
+    "Monitor the stability of the data pipeline and services during the next operational cycle.",
+    "Implement the change from `===` to `==` in the mall analytics component code."
+  ]
+}

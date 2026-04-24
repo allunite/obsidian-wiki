@@ -1,0 +1,21 @@
+{
+  "chat_id": "i6YI1QAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 2,
+  "date_range": {
+    "start": "2023-09-13",
+    "end": "2023-09-13"
+  },
+  "message_count": 5,
+  "topic": "Follow up on unit estimate for meeting",
+  "topic_slug": "follow-up-unit-estimate-meeting",
+  "tags": [
+    "analytics"
+  ],
+  "summary_markdown": "Someone requested an evaluation/estimate regarding 'yuniks fix' (юникам фиксу) in preparation for a DataCorp meeting. [me] stated they would try to complete it today but could only promise delivery by the next day.",
+  "decisions": [],
+  "action_items": [
+    "[me] to provide the estimate by the following day"
+  ]
+}

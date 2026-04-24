@@ -1,0 +1,26 @@
+{
+  "chat_id": "0m7UOUAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2025-08-11",
+    "end": "2025-08-11"
+  },
+  "message_count": 21,
+  "topic": "Identifying campaign versus frame parameters",
+  "topic_slug": "identifying-campaign-versus-frame-parameters",
+  "tags": [
+    "analytics",
+    "campaign",
+    "frame"
+  ],
+  "summary_markdown": "The discussion covered technical issues with data aggregation and database mutations, specifically repeated failures due to 'NOT_ENOUGH_SPACE' errors during `ds_copy` operations. The primary decision point was clarifying which parameters belong to campaigns versus frames.\n\n*   **Database Issues:** Multiple attempts were made to restart the process after encountering ClickHouse DB::Exception errors related to insufficient disk space when executing mutations and deletions (e.g., `mutation_50378.txt`, `mutation_50386.txt`). The issue was identified as heavy mutation activity.\n*   **Parameter Definition:** It was confirmed that parameters like `n_slots` and `n_loops` are existing campaign parameters, while `slot_duration` and `loop_duration` currently function as frame parameters but will be requested later to also be usable as campaign parameters.",
+  "decisions": [
+    "Confirmed that n_slots and n_loops are campaign parameters.",
+    "Confirmed that slot_duration and loop_duration are currently frame parameters."
+  ],
+  "action_items": [
+    "Continue troubleshooting database aggregation failures caused by mutations."
+  ]
+}

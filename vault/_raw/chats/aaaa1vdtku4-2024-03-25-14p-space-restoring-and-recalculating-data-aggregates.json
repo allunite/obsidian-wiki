@@ -1,0 +1,24 @@
+{
+  "chat_id": "AAAA1vdtku4",
+  "kind": "Space",
+  "space_name": "DataTeam+",
+  "participants": 14,
+  "date_range": {
+    "start": "2024-03-25",
+    "end": "2024-03-25"
+  },
+  "message_count": 14,
+  "topic": "Restoring and recalculating data aggregates",
+  "topic_slug": "restoring-and-recalculating-data-aggregates",
+  "tags": [
+    "analytics",
+    "recalc-ch"
+  ],
+  "summary_markdown": "A data issue was identified where a staging area (STAGE) had been partially cleared, leaving only AFA records. The discussion focused on restoring the lost data and recalculating the aggregates.\n\n*   The initial query provided showed the structure of the affected data set.\n*   It was determined that the best course of action was to restore the stage rather than attempting a direct recovery from production.\n*   A new field was added to the aggregates, which helped in the process.\n*   The final step involved restoring the aggregate stage using predictive staging data.",
+  "decisions": [
+    "The affected staging area (STAGE) will be restored and recalculated."
+  ],
+  "action_items": [
+    "None"
+  ]
+}

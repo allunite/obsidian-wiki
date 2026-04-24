@@ -1,0 +1,23 @@
+{
+  "chat_id": "nW_zkkAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2024-03-11",
+    "end": "2024-03-11"
+  },
+  "message_count": 10,
+  "topic": "Troubleshooting data aggregation query errors",
+  "topic_slug": "troubleshooting-data-aggregation-query-errors",
+  "tags": [
+    "analytics"
+  ],
+  "summary_markdown": "A user encountered a database error (Code: 341) while attempting to aggregate data, specifically noting the missing column `frame_num`. The initial attempt involved running a complex `DELETE` query on the `device_session_agg_sharded_4` table. It was discussed that instead of using a direct `DELETE`, the user should try wrapping the deletion logic within an `ALTER TABLE ... DELETE` structure to resolve the aggregation issues.",
+  "decisions": [
+    "The recommended method for deleting data from the `device_session_agg_sharded_4` table is to use `ALTER TABLE ... DELETE` instead of a direct `DELETE` statement."
+  ],
+  "action_items": [
+    "User needs to implement the suggested `ALTER TABLE...DELETE` structure into their aggregation process."
+  ]
+}

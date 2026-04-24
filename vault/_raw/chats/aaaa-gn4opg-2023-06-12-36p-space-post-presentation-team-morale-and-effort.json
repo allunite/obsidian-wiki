@@ -1,0 +1,19 @@
+{
+  "chat_id": "AAAA-gn4oPg",
+  "kind": "Space",
+  "space_name": "General and random",
+  "participants": 36,
+  "date_range": {
+    "start": "2023-06-12",
+    "end": "2023-06-12"
+  },
+  "message_count": 9,
+  "topic": "Post-presentation team morale and effort",
+  "topic_slug": "post-presentation-team-morale-and-effort",
+  "tags": [
+    "campaign"
+  ],
+  "summary_markdown": "The conversation revolves around congratulating the team following a presentation in London. Participants expressed pride and acknowledged the collective effort, noting that while they are considered underdogs, their efforts are focused on securing agreement from 15 large companies.",
+  "decisions": [],
+  "action_items": []
+}

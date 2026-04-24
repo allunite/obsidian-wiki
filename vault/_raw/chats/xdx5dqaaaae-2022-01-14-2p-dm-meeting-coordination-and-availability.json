@@ -1,0 +1,19 @@
+{
+  "chat_id": "xdx5dQAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 2,
+  "date_range": {
+    "start": "2022-01-14",
+    "end": "2022-01-14"
+  },
+  "message_count": 4,
+  "topic": "Meeting coordination and availability",
+  "topic_slug": "meeting-coordination-and-availability",
+  "tags": [],
+  "summary_markdown": "The conversation was used to coordinate a meeting time. The participants agreed to connect after the current task or call concluded.",
+  "decisions": [],
+  "action_items": [
+    "Wait for completion of current tasks before connecting."
+  ]
+}

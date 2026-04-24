@@ -1,0 +1,23 @@
+{
+  "chat_id": "AAAAOcKWvdA",
+  "kind": "Space",
+  "space_name": "Delivery Coordination",
+  "participants": 14,
+  "date_range": {
+    "start": "2023-12-12",
+    "end": "2023-12-12"
+  },
+  "message_count": 22,
+  "topic": "Campaign deletion functionality and visibility",
+  "topic_slug": "campaign-deletion-functionality-and-visibility",
+  "tags": [
+    "campaign",
+    "analytics"
+  ],
+  "summary_markdown": "The discussion covered system updates, including the deployment of a new version (p12). A key technical issue discussed was the ability to delete campaigns. It was noted that while deletion functionality exists, only the owner can remove their own campaign. Deleted campaigns remain in the database but are not visible on the front end. The team agreed that adding a new button for deletion is unnecessary, as the observed case of deleted campaigns was specific and required accessing data under a user with appropriate rights.",
+  "decisions": [
+    "Deletion functionality exists, restricted to the campaign owner",
+    "No new dedicated delete button is required for campaigns"
+  ],
+  "action_items": []
+}

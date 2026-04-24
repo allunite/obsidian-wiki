@@ -1,0 +1,23 @@
+{
+  "chat_id": "0m7UOUAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2023-12-13",
+    "end": "2023-12-13"
+  },
+  "message_count": 5,
+  "topic": "Querying device session dwell time by hour",
+  "topic_slug": "querying-device-session-dwell-time-by-hour",
+  "tags": [
+    "analytics",
+    "dwell-time",
+    "session"
+  ],
+  "summary_markdown": "The discussion focused on retrieving screen dwell time aggregated hourly for a specific sensor. [p1] initially inquired about accessing this data, suggesting the `device_session_agg_4` table and noting that `session_duration` did not seem equivalent to dwell time.\n\n[me] provided a SQL query designed to calculate the average session screen dwell time (`avgSessionScreen`) by grouping results by date (`sd`) and facility number. The query sums `session_duration` (aliased as `ad_s`) and counts distinct sessions (`ad_c_screen`), filtering for specific dates, aggregation versions, owners, periods, company numbers, and facility numbers.",
+  "decisions": [
+    "The calculation of average session screen dwell time using the provided SQL structure was confirmed."
+  ],
+  "action_items": []
+}

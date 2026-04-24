@@ -1,0 +1,24 @@
+{
+  "chat_id": "i6YI1QAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 2,
+  "date_range": {
+    "start": "2023-02-01",
+    "end": "2023-02-01"
+  },
+  "message_count": 16,
+  "topic": "Investigating dwell time discrepancy",
+  "topic_slug": "investigating-dwell-time-discrepancy",
+  "tags": [
+    "dwell-time",
+    "analytics"
+  ],
+  "summary_markdown": "The conversation initially involved adding assets to Figma, specifically mentioning an email address and a second design asset. Later, the focus shifted to technical analytics issues. Someone requested assistance in understanding why the recorded dwell time does not match the dashboard data. A meeting was scheduled for [me] and someone else (with Nina) to review the issue using SQL.",
+  "decisions": [
+    "A meeting was scheduled to investigate the discrepancy between reported dwell time and dashboard metrics."
+  ],
+  "action_items": [
+    "Reviewing the dwell time mismatch using SQL during a scheduled meeting."
+  ]
+}

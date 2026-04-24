@@ -1,0 +1,19 @@
+{
+  "chat_id": "sP4KJMAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 2,
+  "date_range": {
+    "start": "2024-04-08",
+    "end": "2024-04-08"
+  },
+  "message_count": 7,
+  "topic": "Meeting notes and AI service deployment",
+  "topic_slug": "meeting-notes-and-ai-service-deployment",
+  "tags": [
+    "analytics"
+  ],
+  "summary_markdown": "The participants discussed the availability of meeting conclusions from a team meeting. [p1] confirmed that the NoteTaker plan will publish these conclusions, accessible via the AllUnite email and the fireflies.ai website. The conversation concluded with thanks regarding the deployment of AI services.",
+  "decisions": [],
+  "action_items": []
+}

@@ -1,0 +1,27 @@
+{
+  "chat_id": "6ize28AAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2025-04-18",
+    "end": "2025-04-18"
+  },
+  "message_count": 43,
+  "topic": "Japan campaign setup and frequency deployment",
+  "topic_slug": "japan-campaign-setup-and-frequency-deployment",
+  "tags": [
+    "campaign",
+    "inventory",
+    "analytics",
+    "loop"
+  ],
+  "summary_markdown": "The discussion covered multiple technical deployments, including setting up frequency calculations for JCDecaux Mexico and deploying the `ml-api` branch to production. A key focus was establishing a campaign setup for Japan on production without demographic data, replicating previous successful methods.\n\nAfter initial issues with the Japanese campaign setup were resolved by someone (who confirmed functionality after an error message appeared), the team discussed future work. The next steps involve setting up forecasting for Japan, which is considered highly priority.",
+  "decisions": [
+    "The Japan campaign will be set up on production without demographic data.",
+    "The forecast setup for Japan should use a copy of the previous week's data."
+  ],
+  "action_items": [
+    "Complete and deploy the Japan forecasting setup by the end of the day."
+  ]
+}

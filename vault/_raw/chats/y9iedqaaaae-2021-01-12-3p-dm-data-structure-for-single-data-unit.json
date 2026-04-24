@@ -1,0 +1,24 @@
+{
+  "chat_id": "y9IEDQAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2021-01-12",
+    "end": "2021-01-12"
+  },
+  "message_count": 15,
+  "topic": "Data structure for single data unit",
+  "topic_slug": "data-structure-for-single-data-unit",
+  "tags": [
+    "analytics",
+    "facility"
+  ],
+  "summary_markdown": "The conversation focused on reviewing and refining the JSON code used to format a single data unit. The current structure includes hashed keys for `madid`, `zip`, `ct`, and `country`. It also captures `event_name` (either \"ViewContent\" or \"Lead\"), `event_time`, and custom data including `session_duration` and `facility_name`. Concerns were raised regarding the use of `unidecode.unidecode()` for encoding, with suggestions to test removing it entirely to see if the values are already correctly encoded upon arrival.",
+  "decisions": [
+    "The JSON structure for a single data unit was reviewed."
+  ],
+  "action_items": [
+    "Someone will review the code and test removing `unidecode.unidecode()` from the encoding process."
+  ]
+}

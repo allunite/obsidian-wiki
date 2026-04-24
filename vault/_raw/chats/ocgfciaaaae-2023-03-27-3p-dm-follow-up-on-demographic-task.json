@@ -1,0 +1,23 @@
+{
+  "chat_id": "oCgFCIAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2023-03-27",
+    "end": "2023-03-27"
+  },
+  "message_count": 12,
+  "topic": "Follow up on demographic task",
+  "topic_slug": "follow-up-on-demographic-task",
+  "tags": [
+    "analytics"
+  ],
+  "summary_markdown": "The conversation primarily revolves around a pending task concerning demographics. [p1] requested that someone look into the task and consider any missing elements. Someone confirmed seeing the task and noted that it requires deeper investigation than initially reviewed. The discussion concluded with [p1] asking someone to follow up on the demographic questions after speaking with Nastya.",
+  "decisions": [
+    "Someone will investigate the demographics task further."
+  ],
+  "action_items": [
+    "[me] needs to follow up on the demographics questions after talking with Nastya."
+  ]
+}

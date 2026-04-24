@@ -1,0 +1,19 @@
+{
+  "chat_id": "AAAA3frAfLA",
+  "kind": "Space",
+  "space_name": "Lidar Tech",
+  "participants": 8,
+  "date_range": {
+    "start": "2023-02-08",
+    "end": "2023-02-08"
+  },
+  "message_count": 4,
+  "topic": "Lidar technology capabilities and challenges",
+  "topic_slug": "lidar-technology-capabilities-and-challenges",
+  "tags": [
+    "analytics"
+  ],
+  "summary_markdown": "A link was shared detailing the Ouster Gemini platform, which provides highly accurate people counting. This platform can track single individuals continuously across multiple sensors, preventing double counting. The data delivered includes total visitors, unique visitors, time spent in an area, and the full path of travel for each visitor.\n\nSomeone noted that while the technology is progressing, a key challenge associated with lidar remains its expense.",
+  "decisions": [],
+  "action_items": []
+}

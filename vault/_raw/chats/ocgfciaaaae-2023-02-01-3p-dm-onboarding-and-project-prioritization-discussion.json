@@ -1,0 +1,26 @@
+{
+  "chat_id": "oCgFCIAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2023-02-01",
+    "end": "2023-02-01"
+  },
+  "message_count": 28,
+  "topic": "Onboarding and project prioritization discussion",
+  "topic_slug": "onboarding-and-project-prioritization-discussion",
+  "tags": [
+    "analytics",
+    "campaign",
+    "inventory"
+  ],
+  "summary_markdown": "The conversation covered the onboarding of a new employee, who was given an initial simple task (JCDEC-709). Discussion also focused on project prioritization: \n\n*   A low priority task (DOOH-33) was noted for later.\n*   A specific task related to demographics (JCDEC-714), which was previously handled by a freelancer, needs follow-up regarding its completion status and potential integration into the design process.\n*   The team discussed accelerating the release of designs and features, suggesting that the new employee should be given several weeks to work on various small tasks for proper onboarding.\n\nTechnical actions included deploying 'classification' to staging after a merge from develop.",
+  "decisions": [
+    "New employee was assigned an initial simple task (JCDEC-709).",
+    "The team agreed that the new employee should be given several weeks of varied tasks for onboarding."
+  ],
+  "action_items": [
+    "Follow up with Polina regarding the status and completion of the demographics task (JCDEC-714)."
+  ]
+}

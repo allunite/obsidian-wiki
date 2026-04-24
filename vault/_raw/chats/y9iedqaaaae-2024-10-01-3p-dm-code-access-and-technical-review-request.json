@@ -1,0 +1,21 @@
+{
+  "chat_id": "y9IEDQAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2024-10-01",
+    "end": "2024-10-01"
+  },
+  "message_count": 6,
+  "topic": "Code access and technical review request",
+  "topic_slug": "code-access-and-technical-review-request",
+  "tags": [
+    "analytics"
+  ],
+  "summary_markdown": "Someone reported that a colleague ([p2], referred to as 'жоба') was having trouble retrieving the necessary code for execution. Another person ([p3]) attempted to resolve this by accessing the system via SSH, but suggested that another participant might also need to review the issue if possible.",
+  "decisions": [],
+  "action_items": [
+    "Review code access issue"
+  ]
+}

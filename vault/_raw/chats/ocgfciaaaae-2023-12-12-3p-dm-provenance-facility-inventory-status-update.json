@@ -1,0 +1,22 @@
+{
+  "chat_id": "oCgFCIAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2023-12-12",
+    "end": "2023-12-12"
+  },
+  "message_count": 3,
+  "topic": "Provence facility inventory status update",
+  "topic_slug": "provenance-facility-inventory-status-update",
+  "tags": [
+    "facility",
+    "frame"
+  ],
+  "summary_markdown": "A discussion confirmed that all facilities for the Provence project have been added. One participant noted there are many facilities, totaling 1400 frames and representing about one and a half times fewer facilities than previously expected. Another participant mentioned that while no new facilities are currently known, four more might be connected later.",
+  "decisions": [
+    "All Provence facilities have been added."
+  ],
+  "action_items": []
+}

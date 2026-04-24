@@ -1,0 +1,21 @@
+{
+  "chat_id": "y9IEDQAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2021-11-16",
+    "end": "2021-11-16"
+  },
+  "message_count": 5,
+  "topic": "VPN key management and security concerns",
+  "topic_slug": "vpn-key-management-and-security-concerns",
+  "tags": [
+    "analytics"
+  ],
+  "summary_markdown": "The discussion revolves around the handling of VPN keys. [me] requested that [p1] destroy old VPN keys and provide new ones due to security concerns. The concern stems from [me]'s MacBook being sent for repair, resulting in source folders and configurations being potentially compromised or left unsecured on the device. Specifically, there is worry about openVPN client configuration files storing keys in plain text within a working directory.",
+  "decisions": [],
+  "action_items": [
+    "Receive new VPN keys from [p1]"
+  ]
+}

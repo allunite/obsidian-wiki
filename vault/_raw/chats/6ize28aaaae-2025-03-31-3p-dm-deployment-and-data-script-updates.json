@@ -1,0 +1,28 @@
+{
+  "chat_id": "6ize28AAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2025-03-31",
+    "end": "2025-03-31"
+  },
+  "message_count": 34,
+  "topic": "Deployment and data script updates",
+  "topic_slug": "deployment-and-data-script-updates",
+  "tags": [
+    "analytics",
+    "campaign",
+    "inventory"
+  ],
+  "summary_markdown": "The conversation focused on multiple deployments and database/SQL script modifications. [me] addressed a bug in the ml-api related to `cluster_num` failing during data frame insertion.\n\nMultiple updates were performed: The staging branch was updated, followed by a deployment from stage to staging. Additionally, a SQL query (`traffic_dashboard.sql`) was modified by moving `locations_data` into the SELECT statement.\n\nRegarding production data discrepancies (specifically for Estonia), it was noted that the current logic uses `uniques=traffic`. A new task (DOOH-1863) was created to track these specific parameters and ensure consistency across regions like Finland.",
+  "decisions": [
+    "The staging branch was updated by [p1].",
+    "Deployment occurred from stage to staging environment.",
+    "A new Jira task (DOOH-1863) was created to address data tracking for Estonia/Finland."
+  ],
+  "action_items": [
+    "Follow up on the ml-api fix deployment.",
+    "Review and confirm deployment process steps (source branch, target environment, parameters) in a future task."
+  ]
+}

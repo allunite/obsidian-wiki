@@ -1,0 +1,21 @@
+{
+  "chat_id": "AAAAeYTNPa4",
+  "kind": "Space",
+  "space_name": "Dashboard development",
+  "participants": 4,
+  "date_range": {
+    "start": "2021-10-21",
+    "end": "2021-10-21"
+  },
+  "message_count": 3,
+  "topic": "Dashboard version release and features",
+  "topic_slug": "dashboard-version-release-and-features",
+  "tags": [
+    "analytics"
+  ],
+  "summary_markdown": "The new dashboard, v0.8.12, was released to the analytics platform. Key updates include an Export Report feature, a Time Granulation selector for charts and reports, and cosmetic improvements/rearrangement of filter panel fields.",
+  "decisions": [
+    "Dashboard v0.8.12 is officially released."
+  ],
+  "action_items": []
+}

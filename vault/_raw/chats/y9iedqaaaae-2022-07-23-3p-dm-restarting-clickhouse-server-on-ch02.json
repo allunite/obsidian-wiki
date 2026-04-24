@@ -1,0 +1,21 @@
+{
+  "chat_id": "y9IEDQAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2022-07-23",
+    "end": "2022-07-23"
+  },
+  "message_count": 5,
+  "topic": "Restarting ClickHouse server on ch02",
+  "topic_slug": "restarting-clickhouse-server-on-ch02",
+  "tags": [
+    "analytics"
+  ],
+  "summary_markdown": "The user initiated a request to restart the ClickHouse service on the ch02 environment. They provided the command `sudo systemctl restart clickhouse-server` and sought confirmation that this action would not cause any issues. Later, the user confirmed they performed the restart themselves, and the service successfully came back online.",
+  "decisions": [
+    "ClickHouse server was restarted on ch02."
+  ],
+  "action_items": []
+}

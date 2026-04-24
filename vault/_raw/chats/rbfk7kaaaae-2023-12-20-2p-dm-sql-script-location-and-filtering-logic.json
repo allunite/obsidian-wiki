@@ -1,0 +1,21 @@
+{
+  "chat_id": "rBfK7kAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 2,
+  "date_range": {
+    "start": "2023-12-20",
+    "end": "2023-12-20"
+  },
+  "message_count": 7,
+  "topic": "SQL script location and filtering logic",
+  "topic_slug": "sql-script-location-and-filtering-logic",
+  "tags": [
+    "analytics"
+  ],
+  "summary_markdown": "The conversation confirms the location of the `ml_to_stage_aggregation` SQL script. It was noted that the script now centralizes filtering for company and date parameters, simplifying usage.",
+  "decisions": [
+    "The centralized filtering logic in the `ml_to_stage_aggregation` script is confirmed to be functional."
+  ],
+  "action_items": []
+}

@@ -1,0 +1,22 @@
+{
+  "chat_id": "oCgFCIAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2023-09-12",
+    "end": "2023-09-12"
+  },
+  "message_count": 17,
+  "topic": "Database structure and data update issues",
+  "topic_slug": "database-structure-and-data-update-issues",
+  "tags": [
+    "analytics",
+    "campaign"
+  ],
+  "summary_markdown": "The discussion focused on technical limitations regarding updating partitioned tables, specifically concerning the `is_calibrated` field. It was noted that because `is_calibrated` is part of the partitioning key, direct updates are problematic and time-consuming (e.g., deletion takes a long time).\n\nPotential solutions discussed included:\n*   Changing the table structure slightly, similar to aggregates.\n*   Using 'lightweight delete' in newer versions, which would still trigger significant background merging.\n\nThe current partitioning key is identified as `PARTITION BY (toYYYYMM(session_start_hour), is_calibrated, is_local)`.\n\nIt was decided to prioritize an upgrade first and address structural changes later.",
+  "decisions": [
+    "Prioritize executing a database upgrade before addressing structural schema changes."
+  ],
+  "action_items": []
+}

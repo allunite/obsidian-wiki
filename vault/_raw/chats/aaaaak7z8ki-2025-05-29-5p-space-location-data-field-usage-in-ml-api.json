@@ -1,0 +1,21 @@
+{
+  "chat_id": "AAAAaK7z8KI",
+  "kind": "Space",
+  "space_name": "Group Chat",
+  "participants": 5,
+  "date_range": {
+    "start": "2025-05-29",
+    "end": "2025-05-29"
+  },
+  "message_count": 3,
+  "topic": "location data field usage in ml-api",
+  "topic_slug": "location-data-field-usage-in-ml-api",
+  "tags": [
+    "facility"
+  ],
+  "summary_markdown": "A suggestion was made to remove the `facility_num` field from location data because it appears unused in the ml-api code. Another participant stated that while they do not use it, the facility number is necessary for testing and validation purposes and should therefore be kept.",
+  "decisions": [],
+  "action_items": [
+    "p3 to check/validate usage of `facility_num` field"
+  ]
+}

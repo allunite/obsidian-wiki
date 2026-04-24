@@ -1,0 +1,29 @@
+{
+  "chat_id": "3ZMBmwAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 2,
+  "date_range": {
+    "start": "2021-05-14",
+    "end": "2021-05-14"
+  },
+  "message_count": 74,
+  "topic": "Finalizing privacy policy pages and links",
+  "topic_slug": "finalizing-privacy-policy-pages-and-links",
+  "tags": [
+    "analytics",
+    "campaign"
+  ],
+  "summary_markdown": "The session focused on reviewing, refining, and deploying the company's privacy policy documentation for multiple regions. Initial work involved updating a Latvian (LV) privacy page, which was confirmed to be ready for release via a direct link.\n\nSeveral structural decisions were made regarding the main corporate privacy policy (`/privacy/privacy-policy`):\n*   The standard text and links in the footer and on the Privacy page must revert to the original, approved version.\n*   The Latvian page should remain separate and only be accessible via a direct link (e.g., for QR code generation).\n\nStylistic changes included:\n*   Replacing arrow symbols (`🡪`) with standard dots or dashes.\n*   Adjusting text formatting to 'tighten' the spacing across all sections, making it consistent with list styles.\n*   Changing the main title from \"Privacy policy\" to \"Privacy Notice\".\n\nThe final approved version of the corporate privacy policy was confirmed for release.",
+  "decisions": [
+    "The Latvian privacy page should be released as a standalone document accessible only via direct link.",
+    "The standard corporate Privacy Policy (`/privacy/privacy-policy`) must revert to its original, approved text and links.",
+    "All instances of the main policy title in the footer and on the Privacy page must use 'Privacy Notice'.",
+    "Styling changes include replacing arrow symbols with dots/dashes and tightening general text spacing."
+  ],
+  "action_items": [
+    "Deploy the Latvian privacy page to production.",
+    "Ensure the corporate Privacy Policy uses the approved standard text.",
+    "Update physical address on the policy page to 'Tobaksvejen 25'."
+  ]
+}

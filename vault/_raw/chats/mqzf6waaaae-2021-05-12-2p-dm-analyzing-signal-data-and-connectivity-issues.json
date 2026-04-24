@@ -1,0 +1,21 @@
+{
+  "chat_id": "mQzF6wAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 2,
+  "date_range": {
+    "start": "2021-05-12",
+    "end": "2021-05-12"
+  },
+  "message_count": 15,
+  "topic": "Analyzing signal data and connectivity issues",
+  "topic_slug": "analyzing-signal-data-and-connectivity-issues",
+  "tags": [
+    "analytics"
+  ],
+  "summary_markdown": "The conversation focused on interpreting low signal data. It was noted that a reading of 89 is considered very low, especially compared to a default calibration value of 66 at one point.\n\nRegarding the source of the data, it was suggested that the location might be problematic and that comparison with other sources would be necessary for an accurate assessment. The discussion also briefly touched upon potential connectivity issues when using DBeaver.",
+  "decisions": [],
+  "action_items": [
+    "Someone needs to check the antenna connection."
+  ]
+}

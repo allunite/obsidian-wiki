@@ -1,0 +1,28 @@
+{
+  "chat_id": "AAAA3oghITo",
+  "kind": "Space",
+  "space_name": "Кабаны",
+  "participants": 4,
+  "date_range": {
+    "start": "2022-01-06",
+    "end": "2022-01-06"
+  },
+  "message_count": 25,
+  "topic": "Testing API and data pipelines",
+  "topic_slug": "testing-api-and-data-pipelines",
+  "tags": [
+    "analytics",
+    "campaign",
+    "inventory",
+    "recalc-ch"
+  ],
+  "summary_markdown": "The discussion focused on testing various internal systems, including job runs (like `ml_traffc_prediction` and `recalc`), API reporting pipelines, and data sources.\n\n*   **Job Testing:** It was noted that some boxes are constantly updated by Android Box updates, making old firmware units difficult to track. Several jobs were identified for testing: `ml_traffc_prediction`, a simple `recalc` query (ClickHouse), and API reports running in ClickHouse.\n*   **API/Lambda Testing:** The team discussed the need to test report APIs that feed into ClickHouse, noting that these often run via Lambda functions (`kpi-lambda` project).\n*   **Environment Setup:** There was confusion regarding staging environments. It was confirmed that the `develop` branch should be used for development work, and it was noted that the staging environment might need redeployment or cleanup.",
+  "decisions": [
+    "Test API reporting queries feeding into ClickHouse.",
+    "Use the 'develop' branch for current development efforts."
+  ],
+  "action_items": [
+    "Review and test existing report APIs/queries in a development environment.",
+    "Investigate API usage statistics to identify deprecated services."
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "chat_id": "8GgAuwAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 2,
+  "date_range": {
+    "start": "2022-12-16",
+    "end": "2022-12-16"
+  },
+  "message_count": 28,
+  "topic": "User management and connectivity details",
+  "topic_slug": "user-management-and-connectivity-details",
+  "tags": [
+    "analytics",
+    "inventory"
+  ],
+  "summary_markdown": "The conversation covered the development of a contact management feature within analytics. This process involved updating user creation/update procedures, which were aided by previous iterations and required only UI completion.\n\nSeparately, discussions addressed connectivity details. When asked about mobile communication capabilities (GSM), someone confirmed having standard cellular service (Kyivstar) and tested the *111# code.",
+  "decisions": [
+    "The contact management feature in analytics needs UI development."
+  ],
+  "action_items": []
+}

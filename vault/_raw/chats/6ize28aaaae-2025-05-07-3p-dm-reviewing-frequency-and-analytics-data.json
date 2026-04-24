@@ -1,0 +1,24 @@
+{
+  "chat_id": "6ize28AAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2025-05-07",
+    "end": "2025-05-07"
+  },
+  "message_count": 7,
+  "topic": "Reviewing frequency and analytics data",
+  "topic_slug": "reviewing-frequency-and-analytics-data",
+  "tags": [
+    "analytics",
+    "campaign"
+  ],
+  "summary_markdown": "The discussion focused on technical checks related to a specific company (7963) and its associated data. [p1] provided code snippets for deploying frequency logic on the staging environment, referencing `Estonia_7963`. Later, [p1] requested a re-check of the forecast due to perceived issues after a fix, pointing to an analytics link. The conversation concluded with confirmation that the forecast data was present.",
+  "decisions": [
+    "Frequency deployment for company 7963 confirmed on stage."
+  ],
+  "action_items": [
+    "Review and verify the forecast data in the specified analytics location."
+  ]
+}

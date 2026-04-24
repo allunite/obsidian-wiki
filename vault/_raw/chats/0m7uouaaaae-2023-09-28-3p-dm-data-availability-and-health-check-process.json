@@ -1,0 +1,22 @@
+{
+  "chat_id": "0m7UOUAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2023-09-28",
+    "end": "2023-09-28"
+  },
+  "message_count": 11,
+  "topic": "Data availability and health check process",
+  "topic_slug": "data-availability-and-health-check-process",
+  "tags": [
+    "analytics",
+    "session"
+  ],
+  "summary_markdown": "The discussion focused on the data retention period for the `raw_devices_seen_2` table. Initially, it was noted that only the current month's data is retained in this specific table, although two months of data were previously agreed upon and are available as CSV exports on S3.\n\nRegarding historical checks (like sensor health checks), [p1] stated they could manage with the current month's data for now. It was suggested that if a specific time or day is needed, accessing the ClickHouse archive directly might be possible.\n\nFinally, the conversation touched upon an anomaly: whether raw data can exist without corresponding session records. This topic was raised by [me], and [p1] admitted to having previously checked this but not confirming such a scenario.",
+  "decisions": [
+    "The `raw_devices_seen_2` table currently only retains the current month's data, despite prior agreement for two months."
+  ],
+  "action_items": []
+}

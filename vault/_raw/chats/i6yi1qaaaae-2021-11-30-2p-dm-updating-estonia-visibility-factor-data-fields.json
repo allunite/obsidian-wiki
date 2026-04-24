@@ -1,0 +1,27 @@
+{
+  "chat_id": "i6YI1QAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 2,
+  "date_range": {
+    "start": "2021-11-30",
+    "end": "2021-11-30"
+  },
+  "message_count": 14,
+  "topic": "Updating Estonia's visibility factor and data fields",
+  "topic_slug": "updating-estonia-visibility-factor-data-fields",
+  "tags": [
+    "analytics",
+    "impression",
+    "dwell-time",
+    "facility"
+  ],
+  "summary_markdown": "The conversation focused on adjusting the historical visibility factor for Estonia to 15.7. A key discussion point was whether this change required recalculating and reaggregating the model results using the new factor.\n\nLater, [me] updated the data view by adding several nullable fields related to impressions and dwell time:\n* `viewable_flow_impressions` (UInt32)\n* `viewable_dwell_impressions` (UInt32)\n* `viewed_flow_impressions` (UInt32)\n* `viewed_dwell_impressions` (UInt32)\n* `visibility_factor` (Float32)",
+  "decisions": [
+    "The visibility factor for Estonia was set to 15.7.",
+    "[me] added five new nullable fields related to impressions and dwell time to the data view."
+  ],
+  "action_items": [
+    "Confirm if the model has been recalculated and reaggregated using the updated Estonian factor (This appears to have been completed)."
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "chat_id": "AAAAy7Yj6Xo",
+  "kind": "Space",
+  "space_name": "IT",
+  "participants": 12,
+  "date_range": {
+    "start": "2022-06-15",
+    "end": "2022-06-15"
+  },
+  "message_count": 11,
+  "topic": "Android MAC randomization behavior investigation",
+  "topic_slug": "android-mac-randomization-behavior-investigation",
+  "tags": [
+    "analytics"
+  ],
+  "summary_markdown": "The discussion focused on the technical challenges presented by modern Android Wi-Fi MAC address randomization. It was noted that current implementations, such as 'random random locals,' are difficult to differentiate from persistent or real MAC addresses without detailed knowledge of the connected router's configuration. The complexity requires significant resources to analyze and distinguish between different types of randomized local identifiers.",
+  "decisions": [
+    "The technical discussion regarding Android Wi-Fi MAC randomization will be continued on a later date."
+  ],
+  "action_items": [
+    "Discuss the findings and next steps for investigating Android MAC randomization behavior tomorrow."
+  ]
+}

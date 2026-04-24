@@ -1,0 +1,29 @@
+{
+  "chat_id": "i6YI1QAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 2,
+  "date_range": {
+    "start": "2020-12-09",
+    "end": "2020-12-09"
+  },
+  "message_count": 104,
+  "topic": "Improving dwell time and screen count metrics",
+  "topic_slug": "improving-dwell-time-and-screen-count-metrics",
+  "tags": [
+    "analytics",
+    "dwell-time",
+    "session",
+    "recalc-ch"
+  ],
+  "summary_markdown": "The discussion focused on refining key analytics metrics, specifically average visit time (dwell-time) and the count of unique screens viewed.\n\n*   **Dwell Time:** It was noted that previous calculations for dwell-time (e.g., for Kantar data) differed significantly from current dashboard methods, suggesting a need to standardize or recalculate this metric for malls.\n*   **Screen Count/Intersections:** The difficulty of calculating the average number of screens viewed simultaneously by one person was discussed. It was determined that while an exact calculation is complex (requiring advanced SQL like those used in ClickHouse), a preliminary, approximate solution could be attempted, perhaps focusing on short time intervals (e.g., 5 seconds).\n*   **Data Filtering:** A decision was made to exclude sessions with zero duration when calculating parameters like average screen count.\n*   **Technical Implementation:** The complexity of the required calculations for overlapping time intervals suggests that a specialized database structure (like ClickHouse) is necessary, potentially requiring custom template solutions.",
+  "decisions": [
+    "The calculation method for average visit time needs review and potential recalculation for mall data.",
+    "Sessions with zero duration must be excluded from the calculation of key parameters on the dashboard.",
+    "An approximate calculation for the average number of screens viewed by one person was agreed upon, to be attempted over a short time interval (e.g., 5 seconds)."
+  ],
+  "action_items": [
+    "The user will attempt an ad-hoc calculation for screen intersections/overlap count, focusing on a short time window.",
+    "A ticket needs to be created and marked as urgent to implement the necessary data filtering (excluding zero-duration sessions) and potentially the new screen count metric."
+  ]
+}

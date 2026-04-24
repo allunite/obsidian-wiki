@@ -1,0 +1,19 @@
+{
+  "chat_id": "y9IEDQAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2021-12-10",
+    "end": "2021-12-10"
+  },
+  "message_count": 7,
+  "topic": "Technical setup and connectivity issues",
+  "topic_slug": "technical-setup-and-connectivity-issues",
+  "tags": [
+    "analytics"
+  ],
+  "summary_markdown": "The conversation primarily concerns technical difficulties. [me] reported that a deployment was successful after encountering temporary VPN issues, which were resolved by [me]. [p1] stated they would address the VPN connection, suggesting it needs to be completely replaced and reconfigured.",
+  "decisions": [],
+  "action_items": []
+}

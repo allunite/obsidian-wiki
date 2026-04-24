@@ -1,0 +1,24 @@
+{
+  "chat_id": "AAAA3frAfLA",
+  "kind": "Space",
+  "space_name": "Lidar Tech",
+  "participants": 8,
+  "date_range": {
+    "start": "2023-03-27",
+    "end": "2023-03-27"
+  },
+  "message_count": 10,
+  "topic": "Evaluating sensor technology for new client",
+  "topic_slug": "evaluating-sensor-technology-for-new-client",
+  "tags": [
+    "analytics",
+    "inventory"
+  ],
+  "summary_markdown": "The discussion centered on assessing suitable sensing technologies (Lidar, Radar) for a potential client in Lithuania. Initial concerns were raised regarding whether the existing 2D Lidar capabilities met the client's needs. Alternatives discussed included radar technology, but limitations concerning required range (specifically 80 meters) were noted.\n\nLater, a specific datasheet was reviewed, which indicated a maximum distance of 70m for cars. A participant questioned the feasibility of achieving distances greater than 30-40m using the current 2D Lidar setup.",
+  "decisions": [
+    "The suitability of existing 2D Lidar technology for the new client was questioned."
+  ],
+  "action_items": [
+    "Further investigation into alternative sensor technologies (e.g., radar) is required to meet specified range requirements."
+  ]
+}

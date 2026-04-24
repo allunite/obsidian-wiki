@@ -1,0 +1,30 @@
+{
+  "chat_id": "oCgFCIAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2022-03-24",
+    "end": "2022-03-24"
+  },
+  "message_count": 26,
+  "topic": "Mall data integration and role management",
+  "topic_slug": "mall-data-integration-and-role-management",
+  "tags": [
+    "facility",
+    "analytics",
+    "inventory",
+    "campaign"
+  ],
+  "summary_markdown": "The discussion focused on integrating mall-specific data and implementing robust user role controls. \n\n**Data Scope & Filtering:**\n*   It was decided that the real-time data feed should be filtered to include only relevant mall data, rather than loading all company data.\n*   A filter needs to be implemented in the `facility` logic to specifically target facilities categorized as \"Mall\", preventing unnecessary data loads.\n*   The system's current conversion calculation is relative to all malls and requires refinement.\n\n**User Roles & Access:**\n*   New roles (e.g., admin, user, partner) need to be added for the 'malls' section.\n*   A critical requirement is implementing role-based access control (RBAC) on the menu structure, ensuring that users can only see features appropriate for their assigned role. This check must be performed both client-side and server-side.\n\n**Data Synchronization:**\n*   The team addressed data inconsistencies related to facility IDs, noting that some external facilities used auto-generated sequential IDs (1, 2, 3) which needed updating to match production values. The necessary tables for synchronization include `facility`, `asset`, and `facility_master`.",
+  "decisions": [
+    "Real-time data will be filtered to focus only on mall-specific information.",
+    "A filter must be added to the facility logic to target 'Mall' category facilities.",
+    "Role-based access control (RBAC) must be implemented for menu visibility, checking roles both client and server side."
+  ],
+  "action_items": [
+    "Implement new user roles (admin, user, partner) for the mall section.",
+    "Find and implement logic to check the current user's role when rendering the menu structure.",
+    "Update facility data synchronization scripts using `facility`, `asset`, and `facility_master` tables."
+  ]
+}

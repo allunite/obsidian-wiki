@@ -1,0 +1,24 @@
+{
+  "chat_id": "AAAAFPbiAdE",
+  "kind": "Space",
+  "space_name": "Group Chat",
+  "participants": 3,
+  "date_range": {
+    "start": "2024-02-14",
+    "end": "2024-02-14"
+  },
+  "message_count": 4,
+  "topic": "Dashboard network bug fix and performance",
+  "topic_slug": "dashboard-network-bug-fix-and-performance",
+  "tags": [
+    "analytics",
+    "facility"
+  ],
+  "summary_markdown": "The clusterization frequency formula for dashboards was deployed to staging, but it is running slower due to complex query requirements and the disabling of certain optimizations. A plan is in place to address this performance issue using caching later.\n\nSeparately, a network bug affecting the dashboards was identified. While [me] initially stated the bug was on the dashboards, they confirmed fixing it in version 9.02 within the develop environment. A hotfix for production deployment is scheduled for Friday.",
+  "decisions": [
+    "A hotfix for the dashboard network issue will be deployed to production this Friday."
+  ],
+  "action_items": [
+    "Implement caching to improve performance of the clusterization frequency formula on dashboards."
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "chat_id": "uJ8JA8AAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2025-08-15",
+    "end": "2025-08-15"
+  },
+  "message_count": 10,
+  "topic": "Campaign analysis and reach calculation issues",
+  "topic_slug": "campaign-analysis-and-reach-calculation-issues",
+  "tags": [
+    "analytics",
+    "frame",
+    "campaign",
+    "reach"
+  ],
+  "summary_markdown": "The discussion covered discrepancies in campaign analytics, specifically regarding reach calculation and data scope. It was noted that when analyzing a new campaign, if the 'accumulated reach' for day N+1 is less than day N due to curve dynamics (rich curve), the accumulated reach from day N should be used.\n\nRegarding specific client issues:\n*   One client's frames were all set to 'changed' status, preventing them from participating in a campaign and thus showing no data on the map.\n*   A second issue involved an analytics graph for the last month that was intentionally created. The formula for frequency was identified as being on the left side (incorrect), with the implementation of a normal reach calculation planned for a future release.\n\nConcerns were raised about inconsistent date ranges (e.g., showing 30 days from the previous month when analyzing only 7 days) and discrepancies between calculated reach values (e.g., reaching 2 million vs. an overall campaign reach of 177,065).\n\nAction was taken to escalate a specific issue regarding frequency calculation to Galina.",
+  "decisions": [
+    "The accumulated reach from day N should be used if the calculated accumulated reach for day N+1 is less than that of day N."
+  ],
+  "action_items": [
+    "Escalate the frequency formula implementation issue to Galina."
+  ]
+}

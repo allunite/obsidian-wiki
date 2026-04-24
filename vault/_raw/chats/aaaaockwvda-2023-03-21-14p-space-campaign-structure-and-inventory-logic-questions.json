@@ -1,0 +1,24 @@
+{
+  "chat_id": "AAAAOcKWvdA",
+  "kind": "Space",
+  "space_name": "Delivery Coordination",
+  "participants": 14,
+  "date_range": {
+    "start": "2023-03-21",
+    "end": "2023-03-21"
+  },
+  "message_count": 9,
+  "topic": "Campaign structure and inventory logic questions",
+  "topic_slug": "campaign-structure-and-inventory-logic-questions",
+  "tags": [
+    "analytics",
+    "frame",
+    "campaign",
+    "inventory"
+  ],
+  "summary_markdown": "Participants discussed several structural and logical questions regarding campaign setup and inventory management. Key points included:\n\n*   **File ID Logic:** Understanding how file IDs are generated, why campaigns are created based on these files, and clarifying the meaning of specific identifiers (e.g., 'xxxxxx') within a frame ID.\n*   **Inventory Packaging:** Determining if packages are sold by file or by frames, specifically regarding user choice for duration (e.g., time in minutes).\n*   **Sharing Logic:** The need to clarify the precise business purpose of campaign sharing. Questions arose about whether a link shared for a campaign allows the recipient to change the target or only add frames.\n*   **Campaign Splitting:** A decision point was raised regarding whether campaigns should be split by publishers, or if work should proceed with a single publisher view.",
+  "decisions": [],
+  "action_items": [
+    "Clarify the precise business purpose of campaign sharing logic."
+  ]
+}

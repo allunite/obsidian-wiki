@@ -1,0 +1,27 @@
+{
+  "chat_id": "oq-w0kAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2023-07-28",
+    "end": "2023-07-28"
+  },
+  "message_count": 17,
+  "topic": "Optimizing campaign metric retrieval and reporting",
+  "topic_slug": "optimizing-campaign-metric-retrieval-and-reporting",
+  "tags": [
+    "analytics",
+    "campaign",
+    "impression",
+    "facility"
+  ],
+  "summary_markdown": "The discussion focused on optimizing the process for retrieving metrics across multiple campaigns. Initially, a method of calling all campaign metrics sequentially was deemed too slow due to potential delays when handling 20-30+ campaigns.\n\nTo improve performance and user experience, it was proposed using a single `traffic-total` method call asynchronously. This approach would display the list immediately with placeholders (dashes or loading indicators) for metrics that populate one by one in the background, rather than waiting for all 30 records to load simultaneously.\n\nRegarding reporting, it was determined that simply embedding traffic charts into the existing campaign report is not feasible due to filtering limitations (specifically regarding demographics). Instead, a third, dedicated report displaying unique traffic data will be added and placed across the full width above the two current reports, fulfilling the requirement discussed by someone.",
+  "decisions": [
+    "The method for retrieving metrics from multiple campaigns must be asynchronous to prevent long loading times.",
+    "A new, dedicated report showing unique traffic data will be implemented."
+  ],
+  "action_items": [
+    "[me] will add the third report with traffic data."
+  ]
+}

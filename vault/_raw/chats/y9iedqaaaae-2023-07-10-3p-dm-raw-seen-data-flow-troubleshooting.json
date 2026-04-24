@@ -1,0 +1,21 @@
+{
+  "chat_id": "y9IEDQAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2023-07-10",
+    "end": "2023-07-10"
+  },
+  "message_count": 14,
+  "topic": "Raw seen data flow and troubleshooting",
+  "topic_slug": "raw-seen-data-flow-troubleshooting",
+  "tags": [
+    "analytics"
+  ],
+  "summary_markdown": "The session focused on diagnosing a failure in the raw seen data feed. Initially, the raw seen data stream had stopped populating due to an issue with the new flow, which was reportedly broken after a sandbox failure and caused errors when inserting raw seen data. After troubleshooting and restarting the system, the data began flowing again, albeit slowly. The rate stabilized at 65MB/s on ens5 during peak times.",
+  "decisions": [
+    "The raw seen data feed is confirmed to be operational."
+  ],
+  "action_items": []
+}

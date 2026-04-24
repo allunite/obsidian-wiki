@@ -1,0 +1,25 @@
+{
+  "chat_id": "oq-w0kAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2023-07-21",
+    "end": "2023-07-21"
+  },
+  "message_count": 22,
+  "topic": "Demographic reporting data structure and scope",
+  "topic_slug": "demographic-reporting-data-structure-and-scope",
+  "tags": [
+    "analytics",
+    "campaign"
+  ],
+  "summary_markdown": "The discussion focused on structuring demographic reports, specifically for traffic dashboards and campaign reports. \n\n**Data Scope Decisions:**\n*   For the main dashboard traffic report, it was decided that `totalTraffic` data should be pushed to the endpoint first, with the format applied later in campaign reports.\n*   Regarding education (`educ`) demographics, it was determined that this data is currently unavailable or not supported in Kido. Therefore, generating a relative factor for `educ` based on gender (`gend`) cannot proceed at this time.\n*   The demographic reporting scope will be limited to age group and gender (female, male, unknown) within the campaign reports.\n\n**Technical Status:**\n*   A campaign with data was identified on the sandbox environment under the user `test_mapa` (the top one in the list), which someone will use for debugging/testing.",
+  "decisions": [
+    "Total traffic data should be implemented first for the dashboard endpoint, followed by campaign reports.",
+    "Education demographics (`educ`) reporting is currently out of scope due to missing or unsupported relative factor calculation based on gender."
+  ],
+  "action_items": [
+    "Someone needs to continue developing the demographic report functionality incrementally and provide updates."
+  ]
+}

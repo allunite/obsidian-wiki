@@ -1,0 +1,19 @@
+{
+  "chat_id": "AAAA-gn4oPg",
+  "kind": "Space",
+  "space_name": "General and random",
+  "participants": 36,
+  "date_range": {
+    "start": "2026-04-14",
+    "end": "2026-04-14"
+  },
+  "message_count": 5,
+  "topic": "Confirming meeting time and link",
+  "topic_slug": "confirming-meeting-time-and-link",
+  "tags": [],
+  "summary_markdown": "A participant scheduled a company meet for 15:30. Another participant questioned the time, noting a discrepancy with their calendar (suggesting 15:00 or 16:00 Kyiv time). The scheduler corrected the time to 15 CET.",
+  "decisions": [
+    "The company meeting is confirmed for 15:30 CET."
+  ],
+  "action_items": []
+}

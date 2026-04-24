@@ -1,0 +1,27 @@
+{
+  "chat_id": "y9IEDQAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2024-11-04",
+    "end": "2024-11-04"
+  },
+  "message_count": 33,
+  "topic": "Checking device visibility and frequency data",
+  "topic_slug": "checking-device-visibility-and-frequency-data",
+  "tags": [
+    "analytics",
+    "session",
+    "device-id"
+  ],
+  "summary_markdown": "The conversation focused on retrieving historical location data for a specific phone using network logs. Initial queries were provided to check device presence (via `device_session_concept`) over the last 30 days, requiring filtering by `device_id` and `box_mac`. An alternative query was later provided to analyze raw packet data (`raw_devices_seen_2`), which is more resource-intensive. The discussion shifted to perceived issues with device frequency in high-density areas (malls) and specific locations like RZK, where people connect via captive portals. It was noted that the sample data comes from older devices and limited Wi-Fi connectivity.\n\n**Decision:** A plan was formed to investigate the reported frequency issues after a future release.",
+  "decisions": [
+    "Use `device_session_concept` for checking device presence over 30 days using `device_id` and `box_mac`.",
+    "An alternative query exists for raw packet data in `raw_devices_seen_2` (MAC must be upper case).",
+    "The frequency issue investigation will occur after the next release."
+  ],
+  "action_items": [
+    "Investigate device frequency issues at malls and RZK locations after the upcoming release."
+  ]
+}

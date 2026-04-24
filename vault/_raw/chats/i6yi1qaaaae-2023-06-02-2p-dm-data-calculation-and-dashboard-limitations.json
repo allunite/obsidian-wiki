@@ -1,0 +1,22 @@
+{
+  "chat_id": "i6YI1QAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 2,
+  "date_range": {
+    "start": "2023-06-02",
+    "end": "2023-06-02"
+  },
+  "message_count": 9,
+  "topic": "Data calculation and dashboard limitations",
+  "topic_slug": "data-calculation-and-dashboard-limitations",
+  "tags": [
+    "analytics",
+    "recalc-ch"
+  ],
+  "summary_markdown": "The discussion focused on adjusting data metrics using different calibration factors and multipliers. Someone suggested applying a factor for the 'Bel' center, requiring a specific calibration setting (74). [me] confirmed that while signal can be taken from sessions and applied in conditions—a method used in models—it is generally not possible to change the calibration directly on a dashboard. The process involves grouping data and then multiplying by the desired factor.",
+  "decisions": [],
+  "action_items": [
+    "Attend the meeting regarding priorities (link provided)."
+  ]
+}

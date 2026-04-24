@@ -1,0 +1,26 @@
+{
+  "chat_id": "AAAA9ybOLwM",
+  "kind": "Space",
+  "space_name": "ИТ",
+  "participants": 8,
+  "date_range": {
+    "start": "2022-11-03",
+    "end": "2022-11-03"
+  },
+  "message_count": 9,
+  "topic": "Analytics release and monitoring setup",
+  "topic_slug": "analytics-release-and-monitoring-setup",
+  "tags": [
+    "analytics",
+    "dwell-time",
+    "inventory"
+  ],
+  "summary_markdown": "One participant is releasing analytics in 15 minutes, noting a minor change: 2D lidar data will now display on the DS screen (where Wi-Fi traffic is absent). Another participant mentioned plans to set up full monitoring for printers and iPads at one of the locations. Discussion also covered existing inventory management and new dwell time tracking for malls. Regarding deployment, it was confirmed that only a master branch plus one commit from development will be released; the dwell time feature can be merged into master later.",
+  "decisions": [
+    "2D lidar data display location updated to DS screen (Wi-Fi traffic area)",
+    "Full monitoring setup for printers and iPads is planned",
+    "Dwell time tracking for malls is available/under discussion",
+    "The dwell time feature can be merged into the master branch later"
+  ],
+  "action_items": []
+}

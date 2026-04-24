@@ -1,0 +1,24 @@
+{
+  "chat_id": "AAAAl4SgH7c",
+  "kind": "Space",
+  "space_name": "Lithuania_old",
+  "participants": 6,
+  "date_range": {
+    "start": "2021-10-15",
+    "end": "2021-10-15"
+  },
+  "message_count": 23,
+  "topic": "Adjusting cost for bus shelter inventory",
+  "topic_slug": "adjusting-cost-for-bus-shelter-inventory",
+  "tags": [
+    "inventory",
+    "campaign"
+  ],
+  "summary_markdown": "The initial cost calculation for bus shelters in Vilnius and Klaipeda was deemed too high (€106K/year). It was agreed that reducing the number of screens by 50% would bring the estimated annual cost down to €70K, which was considered more reasonable. Later, final numbers were reviewed and confirmed as ready to be sent to Vadimas. The team also discussed the inclusion of a campaign module, but decided against it.\n\nSeparately, data from Lithuania (LT) was received via Esri portal after an offer had been submitted.",
+  "decisions": [
+    "Reduce bus shelter screens in Vilnius/Klaipeda by 50% to lower annual cost to €70K."
+  ],
+  "action_items": [
+    "Send final numbers and summary to Vadimas."
+  ]
+}

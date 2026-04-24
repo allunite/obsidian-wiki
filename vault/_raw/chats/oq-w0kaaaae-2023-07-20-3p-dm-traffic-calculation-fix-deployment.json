@@ -1,0 +1,21 @@
+{
+  "chat_id": "oq-w0kAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2023-07-20",
+    "end": "2023-07-20"
+  },
+  "message_count": 4,
+  "topic": "Traffic calculation fix deployment",
+  "topic_slug": "traffic-calculation-fix-deployment",
+  "tags": [
+    "analytics"
+  ],
+  "summary_markdown": "A technical issue regarding the target/total traffic calculation was discussed. [p1] reported an error despite previous efforts, and [me] deployed a fix. The fix was confirmed to be working by [p1].",
+  "decisions": [
+    "The fix for the target/total-traffic calculation was successfully deployed."
+  ],
+  "action_items": []
+}

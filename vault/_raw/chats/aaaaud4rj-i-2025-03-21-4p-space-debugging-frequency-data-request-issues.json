@@ -1,0 +1,24 @@
+{
+  "chat_id": "AAAAud4RJ_I",
+  "kind": "Space",
+  "space_name": "Group Chat",
+  "participants": 4,
+  "date_range": {
+    "start": "2025-03-21",
+    "end": "2025-03-21"
+  },
+  "message_count": 10,
+  "topic": "Debugging frequency data request issues",
+  "topic_slug": "debugging-frequency-data-request-issues",
+  "tags": [
+    "analytics",
+    "recalc-ch"
+  ],
+  "summary_markdown": "The discussion focused on debugging a failing data query, specifically related to city identification and frequency calculations. Initial concerns included the timeout duration for dashboard requests (suggesting 6 seconds instead of 60). The core issue identified was an error in `frequency_v2` due to receiving an 'Unknown city: ''' value, indicating missing or empty city data during the calculation process. A sample failing query was requested and subsequently provided to someone else.",
+  "decisions": [
+    "The timeout duration for dashboard requests should potentially be reduced from 60 seconds to 6 seconds."
+  ],
+  "action_items": [
+    "[me] is sending the failing data request example to someone (Ruslan)."
+  ]
+}

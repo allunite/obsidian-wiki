@@ -1,0 +1,28 @@
+{
+  "chat_id": "i6YI1QAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 2,
+  "date_range": {
+    "start": "2022-11-10",
+    "end": "2022-11-10"
+  },
+  "message_count": 54,
+  "topic": "Analyzing session duration and lidar data",
+  "topic_slug": "analyzing-session-duration-and-lidar-data",
+  "tags": [
+    "dwell-time",
+    "analytics",
+    "campaign",
+    "facility"
+  ],
+  "summary_markdown": "The discussion covered debugging SQL queries for calculating quantiles of session duration, specifically addressing why the first quantile (0.25) was showing unexpected results despite filtering for values greater than zero. It was clarified that the median is found at the 0.5 position in the query.\n\nSeparately, a plan was discussed to integrate 2D lidar data into the ML model for predictive anomaly detection and unifying different data sources. The initial approach will use historical hourly data from an existing table, while real-time lidar data will be handled as is, minimizing dashboard changes.\n\nFinally, follow-up actions included making necessary database changes (DB change done) and scheduling a meeting to reconcile discrepancies in mall analytics values.",
+  "decisions": [
+    "The ML model will incorporate 2D lidar data for predictive anomaly detection.",
+    "Historical hourly lidar data will be sourced from the existing 'ml' table, while real-time data will remain separate initially."
+  ],
+  "action_items": [
+    "Someone needs to schedule a meeting to reconcile mall analytics values.",
+    "The script/query for session duration quantiles was adjusted and corrected."
+  ]
+}

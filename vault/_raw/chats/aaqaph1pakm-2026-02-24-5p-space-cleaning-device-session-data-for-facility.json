@@ -1,0 +1,27 @@
+{
+  "chat_id": "AAQAPH1pAKM",
+  "kind": "Space",
+  "space_name": "Group Chat",
+  "participants": 5,
+  "date_range": {
+    "start": "2026-02-24",
+    "end": "2026-02-24"
+  },
+  "message_count": 19,
+  "topic": "Cleaning device session data for facility",
+  "topic_slug": "cleaning-device-session-data-for-facility",
+  "tags": [
+    "analytics",
+    "session",
+    "facility"
+  ],
+  "summary_markdown": "The discussion focused on reviewing and cleaning historical device session data for a specific facility (52760). Initial checks revealed that two boxes were linked to the facility at some point. The participants discussed filtering the dataset, specifically whether to restrict results using `box_mac in ('20972786c089')` or if general cleaning was required.\n\nIt was decided that sessions associated with a specific MAC address (`20972786c089`) should be filtered out, and the removal of certain device IDs (e.g., `209727841a6e`) needed confirmation regarding whether to delete all records or only those from after another device was added.\n\nFinally, a request was made to remove sessions that occurred during a period when two different sensors were linked to the same facility.",
+  "decisions": [
+    "Filter session data using `box_mac in ('20972786c089')`",
+    "Remove sessions associated with specific device IDs (e.g., 209727841a6e)",
+    "Remove sessions where two sensors were linked to the same facility during a specified period"
+  ],
+  "action_items": [
+    "[me] to perform data cleaning/filtering on the session table."
+  ]
+}

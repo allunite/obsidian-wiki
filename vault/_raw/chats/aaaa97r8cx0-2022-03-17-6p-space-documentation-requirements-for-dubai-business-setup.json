@@ -1,0 +1,23 @@
+{
+  "chat_id": "AAAA97r8Cx0",
+  "kind": "Space",
+  "space_name": "Dubai DF",
+  "participants": 6,
+  "date_range": {
+    "start": "2022-03-17",
+    "end": "2022-03-17"
+  },
+  "message_count": 14,
+  "topic": "Documentation requirements for Dubai business setup",
+  "topic_slug": "documentation-requirements-for-dubai-business-setup",
+  "tags": [
+    "analytics"
+  ],
+  "summary_markdown": "The conversation focused on required documentation for a business setup in Dubai. Initial requests included signing and stamping documents, followed by questions regarding the Trade License and Company Registration.\n\n[p2] stated that previously submitted Company Registration was insufficient. Regarding the Trade License, [p5] suggested checking if an export license was needed, though noting it is usually unnecessary. [p2] agreed to clarify the specific requirements with the requesting party.",
+  "decisions": [
+    "The documentation requirement for the Trade License needs clarification from the external party."
+  ],
+  "action_items": [
+    "[p2] will clarify the required documentation (specifically regarding the Trade License) with the concerned parties."
+  ]
+}

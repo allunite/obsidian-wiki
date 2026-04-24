@@ -1,0 +1,21 @@
+{
+  "chat_id": "mQzF6wAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 2,
+  "date_range": {
+    "start": "2023-06-20",
+    "end": "2023-06-20"
+  },
+  "message_count": 15,
+  "topic": "Device MAC address behavior for network probing",
+  "topic_slug": "device-mac-address-behavior-for-network-probing",
+  "tags": [
+    "analytics"
+  ],
+  "summary_markdown": "The discussion focused on the frequency and pattern of device MAC addresses when a device is not connected to a specific network (i.e., during probing). It was established that devices generally broadcast random MAC addresses every few minutes when active, but this frequency can vary depending on the operating system and its version. The behavior for Android specifically was noted as being unclear from previous sources.",
+  "decisions": [
+    "The general pattern of random MAC broadcasting is 'every few minutes' when active."
+  ],
+  "action_items": []
+}

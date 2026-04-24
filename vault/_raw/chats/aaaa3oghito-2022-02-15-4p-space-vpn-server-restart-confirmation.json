@@ -1,0 +1,21 @@
+{
+  "chat_id": "AAAA3oghITo",
+  "kind": "Space",
+  "space_name": "Кабаны",
+  "participants": 4,
+  "date_range": {
+    "start": "2022-02-15",
+    "end": "2022-02-15"
+  },
+  "message_count": 7,
+  "topic": "VPN server restart confirmation",
+  "topic_slug": "vpn-server-restart-confirmation",
+  "tags": [
+    "analytics"
+  ],
+  "summary_markdown": "A participant asked if restarting the VPN server on the sandbox environment would cause issues. Others confirmed that it was acceptable, with a specific caution made to ensure connectivity did not drop on clickhouse03. The restart was completed and connectivity was subsequently verified.",
+  "decisions": [
+    "VPN server restart is approved for the sandbox environment."
+  ],
+  "action_items": []
+}

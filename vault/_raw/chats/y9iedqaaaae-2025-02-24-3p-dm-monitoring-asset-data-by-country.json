@@ -1,0 +1,23 @@
+{
+  "chat_id": "y9IEDQAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2025-02-24",
+    "end": "2025-02-24"
+  },
+  "message_count": 8,
+  "topic": "Monitoring asset data by country",
+  "topic_slug": "monitoring-asset-data-by-country",
+  "tags": [
+    "analytics",
+    "facility",
+    "impression"
+  ],
+  "summary_markdown": "The conversation focused on retrieving current monitoring statistics for assets. The initial request was to obtain KPI data in a table format, specifically broken down by country. A detailed CSV export and the corresponding SQL query were provided, detailing metrics such as number of companies, locations, frames, registered sensors, and online sensors across various countries.",
+  "decisions": [
+    "KPI monitoring data will be provided/reviewed on a per-country basis."
+  ],
+  "action_items": []
+}

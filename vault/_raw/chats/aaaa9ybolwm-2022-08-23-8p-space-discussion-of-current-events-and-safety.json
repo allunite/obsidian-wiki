@@ -1,0 +1,17 @@
+{
+  "chat_id": "AAAA9ybOLwM",
+  "kind": "Space",
+  "space_name": "ИТ",
+  "participants": 8,
+  "date_range": {
+    "start": "2022-08-23",
+    "end": "2022-08-23"
+  },
+  "message_count": 11,
+  "topic": "Discussion of current events and safety",
+  "topic_slug": "discussion-of-current-events-and-safety",
+  "tags": [],
+  "summary_markdown": "The conversation consists entirely of participants sharing links and discussing geopolitical news regarding the situation in Ukraine. Topics covered include reports on strikes, requests for citizens to leave, and general commentary on safety concerns.",
+  "decisions": [],
+  "action_items": []
+}

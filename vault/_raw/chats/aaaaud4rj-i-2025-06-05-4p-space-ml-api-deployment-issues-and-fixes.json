@@ -1,0 +1,26 @@
+{
+  "chat_id": "AAAAud4RJ_I",
+  "kind": "Space",
+  "space_name": "Group Chat",
+  "participants": 4,
+  "date_range": {
+    "start": "2025-06-05",
+    "end": "2025-06-05"
+  },
+  "message_count": 13,
+  "topic": "ML API deployment issues and fixes",
+  "topic_slug": "ml-api-deployment-issues-and-fixes",
+  "tags": [
+    "analytics",
+    "campaign"
+  ],
+  "summary_markdown": "The session covered two main topics: database maintenance and ML API deployment. Initially, a large `DELETE` query was run on the `device_session_agg_ml_2_sharded` table, which caused concern regarding performance due to the volume of sessions being deleted. The user acknowledged this issue and committed to fixing it.\n\nSeparately, there were repeated issues with deploying the ML API. [p1] reported that the ML API was failing to deploy and needed immediate attention for staging deployment. Multiple participants discussed previous failures and troubleshooting steps related to the build process, indicating a recurring problem that required manual intervention and debugging.",
+  "decisions": [
+    "The large database deletion query needs correction/optimization (e.g., using lightweight delete).",
+    "The ML API must be deployed today, starting with staging."
+  ],
+  "action_items": [
+    "[me] will fix the database deletion process.",
+    "[p3] will work on fixing the ML API deployment issue."
+  ]
+}

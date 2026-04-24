@@ -1,0 +1,25 @@
+{
+  "chat_id": "i6YI1QAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 2,
+  "date_range": {
+    "start": "2021-12-10",
+    "end": "2021-12-10"
+  },
+  "message_count": 29,
+  "topic": "Analytics dashboard improvements and scheduling",
+  "topic_slug": "analytics-dashboard-improvements-and-scheduling",
+  "tags": [
+    "analytics",
+    "impression",
+    "campaign"
+  ],
+  "summary_markdown": "The participants discussed improvements to the staging analytics dashboard, specifically regarding impression metrics. It was decided that instead of two separate percentage calculations for SOT (Share of Time), the dashboard should display a total metric and a total percentage SOT metric. \n\nRegarding implementation, someone will check the data; if satisfactory, the metrics will be recalculated historically and scheduled in the scheduler.\n\nSeparately, there was discussion about control slider functionality, noting that Lithuania requested manual percentage input, which might suit the current design.",
+  "decisions": [
+    "Replace two SOT percentage calculations with a total metric and a total % SOT metric on the dashboard."
+  ],
+  "action_items": [
+    "Check data for impression metrics; if good, recalculate historically and set up in scheduler."
+  ]
+}

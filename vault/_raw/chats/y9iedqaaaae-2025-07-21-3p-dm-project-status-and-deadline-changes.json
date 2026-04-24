@@ -1,0 +1,21 @@
+{
+  "chat_id": "y9IEDQAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2025-07-21",
+    "end": "2025-07-21"
+  },
+  "message_count": 16,
+  "topic": "Project status and deadline changes",
+  "topic_slug": "project-status-and-deadline-changes",
+  "tags": [
+    "analytics"
+  ],
+  "summary_markdown": "The conversation covered the status of a project involving demographics and Reach data. It was confirmed that [p1] received all necessary information from 'Женя' (via 'Жека').\n\nRegarding timelines, an initial deadline shift to next Tuesday occurred due to changes by Galina. However, the current perceived deadline is tomorrow, requiring immediate focus on completion.\n\nDiscussion also touched upon staffing changes, with [p1] suggesting Marina might be the replacement for someone currently handling tasks.",
+  "decisions": [
+    "The project involving demographics and Reach data has received necessary input."
+  ],
+  "action_items": []
+}

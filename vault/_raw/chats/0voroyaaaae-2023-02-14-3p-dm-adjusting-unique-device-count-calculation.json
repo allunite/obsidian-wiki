@@ -1,0 +1,23 @@
+{
+  "chat_id": "0VorOYAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2023-02-14",
+    "end": "2023-02-14"
+  },
+  "message_count": 15,
+  "topic": "Adjusting unique device count calculation",
+  "topic_slug": "adjusting-unique-device-count-calculation",
+  "tags": [
+    "analytics",
+    "campaign",
+    "inventory"
+  ],
+  "summary_markdown": "The discussion focused on discrepancies between the calculated unique device counts (uniques) for a specific facility and what was displayed on a dashboard. It was determined that the dashboard figure is not a raw count of uniques but rather a model-adjusted number, estimated using the ratio of uniques to sessions (`model * (unique / real)`). The calculation method needs adjustment depending on the location type (e.g., malls are more complex than airports). For general unique device counting, the basic query structure counts unique devices from recorded sessions, with an added suggestion to include `is_calibrated` and exclude records where `is_excluded` is true.",
+  "decisions": [
+    "The dashboard figure for uniques should be interpreted as a model-adjusted estimate rather than a raw count."
+  ],
+  "action_items": []
+}

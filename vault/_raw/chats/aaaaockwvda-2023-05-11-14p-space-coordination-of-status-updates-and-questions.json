@@ -1,0 +1,19 @@
+{
+  "chat_id": "AAAAOcKWvdA",
+  "kind": "Space",
+  "space_name": "Delivery Coordination",
+  "participants": 14,
+  "date_range": {
+    "start": "2023-05-11",
+    "end": "2023-05-11"
+  },
+  "message_count": 3,
+  "topic": "Coordination of status updates and questions",
+  "topic_slug": "coordination-of-status-updates-and-questions",
+  "tags": [],
+  "summary_markdown": "Participants agreed to discuss current statuses and outstanding questions immediately.",
+  "decisions": [
+    "Discussing statuses and questions will happen now."
+  ],
+  "action_items": []
+}

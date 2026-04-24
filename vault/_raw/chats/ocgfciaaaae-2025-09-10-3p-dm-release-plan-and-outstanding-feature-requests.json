@@ -1,0 +1,28 @@
+{
+  "chat_id": "oCgFCIAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2025-09-10",
+    "end": "2025-09-10"
+  },
+  "message_count": 25,
+  "topic": "Release plan and outstanding feature requests",
+  "topic_slug": "release-plan-and-outstanding-feature-requests",
+  "tags": [
+    "campaign",
+    "analytics",
+    "impression",
+    "inventory"
+  ],
+  "summary_markdown": "The discussion centered on the readiness of a release, particularly regarding outstanding features and necessary fixes. \n\n*   **UX Improvements:** Several minor UX issues were noted, with suggestions that users should be asked to report these bugs for later implementation.\n*   **Campaign Functionality:** Specific functionality related to new campaigns was discussed, including implementing an 'apply filter' button to prevent errors during campaign creation.\n*   **Release Scope:** The immediate goal is to push fixes and updates. While the initial version could potentially be released, further additions are expected in the following days. A decision was made to proceed with a release (hotfix) while continuing to refine and add features, such as updating the screen report.",
+  "decisions": [
+    "Proceed with releasing the current build/fixes (hotfix)",
+    "Continue refining and adding features (e.g., screen report updates) post-release"
+  ],
+  "action_items": [
+    "The sender will continue to refine and supplement the screen report.",
+    "Fixes related to campaigns and other items promised to CC BR must be implemented."
+  ]
+}

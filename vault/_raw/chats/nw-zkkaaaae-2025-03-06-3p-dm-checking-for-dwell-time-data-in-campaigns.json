@@ -1,0 +1,22 @@
+{
+  "chat_id": "nW_zkkAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2025-03-06",
+    "end": "2025-03-06"
+  },
+  "message_count": 7,
+  "topic": "Checking for dwell time data in campaigns",
+  "topic_slug": "checking-for-dwell-time-data-in-campaigns",
+  "tags": [
+    "analytics",
+    "dwell-time"
+  ],
+  "summary_markdown": "The discussion focused on the availability of dwell time metrics within campaign data. Someone noted that they would attempt to check for this data today or tomorrow, but expressed concern about insufficient data being available.\n\nIt was questioned whether a lack of traffic from samples (samp) to live environments (real) could be the cause of missing dwell time. The consensus was that this is unlikely, as 'real' data can still be pulled without sample data. Someone agreed to continue reviewing the metrics.",
+  "decisions": [],
+  "action_items": [
+    "Review campaign data for dwell time availability"
+  ]
+}

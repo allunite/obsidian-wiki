@@ -1,0 +1,25 @@
+{
+  "chat_id": "oq-w0kAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2023-07-18",
+    "end": "2023-07-18"
+  },
+  "message_count": 5,
+  "topic": "Reviewing traffic and conversion endpoint data",
+  "topic_slug": "reviewing-traffic-and-conversion-endpoint-data",
+  "tags": [
+    "analytics",
+    "impression",
+    "campaign"
+  ],
+  "summary_markdown": "The conversation focused on reviewing analytics data, specifically a conversion endpoint. [me] provided the full URL for the conversion endpoint to be tested in the sandbox environment using user [email@test.com]. Later, [me] shared links to specific code sections and a staging analytics dashboard link for traffic review.",
+  "decisions": [
+    "The conversion endpoint was identified for testing in the sandbox."
+  ],
+  "action_items": [
+    "Someone needs to check the data on the develop branch (as confirmed by [p1])."
+  ]
+}

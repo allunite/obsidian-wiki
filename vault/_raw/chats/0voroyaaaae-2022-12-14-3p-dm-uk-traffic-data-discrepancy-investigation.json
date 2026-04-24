@@ -1,0 +1,25 @@
+{
+  "chat_id": "0VorOYAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2022-12-14",
+    "end": "2022-12-14"
+  },
+  "message_count": 15,
+  "topic": "UK traffic data discrepancy investigation",
+  "topic_slug": "uk-traffic-data-discrepancy-investigation",
+  "tags": [
+    "analytics",
+    "dwell-time",
+    "campaign"
+  ],
+  "summary_markdown": "A discrepancy was noted in the UK traffic dashboard where unique visitor counts for production and staging environments did not match, even after the recent recalculation. This issue was observed across different data views (e.g., mall analytics vs. specific sensors).\n\n[me] suggested that the new dwell time calculation might not have been deployed to the UK production environment yet, as a significant difference in dwell time minutes was noted between the two environments (19 minutes on prod vs. 1.5 hours on stage). \n\n[p1] stated they were unsure about the deployment status for the UK and suggested checking with someone else regarding the main discussion points.",
+  "decisions": [
+    "The discrepancy in unique visitor counts is considered acceptable given the recent changes to formulas and dataset rebuilding."
+  ],
+  "action_items": [
+    "Follow up on the deployment status of the new dwell time calculation for the UK production environment."
+  ]
+}

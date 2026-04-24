@@ -1,0 +1,29 @@
+{
+  "chat_id": "AAAAud4RJ_I",
+  "kind": "Space",
+  "space_name": "Group Chat",
+  "participants": 4,
+  "date_range": {
+    "start": "2026-02-13",
+    "end": "2026-02-13"
+  },
+  "message_count": 30,
+  "topic": "Troubleshooting impression calculation and data gaps",
+  "topic_slug": "troubleshooting-impression-calculation-and-data-gaps",
+  "tags": [
+    "analytics",
+    "impressions",
+    "dwell-time",
+    "campaign",
+    "recalc-ch"
+  ],
+  "summary_markdown": "The session began with troubleshooting a Python error (`IntCastingNaNError`) encountered during the calculation of impressions, specifically related to non-finite values (NA or inf) when casting to integers. Later, discussion focused on data gaps observed for JCDecaux India, where sensor data was missing entirely. It was determined that the lack of sensor data caused a corresponding drop in dwell-time metrics, as the system relied exclusively on sensor sessions and did not pull from forecast data (though the job failure related to this has been fixed).\n\nMultiple updates were provided regarding fixes: an update was applied to the master process to prevent future failures. The team agreed that the 'Traffic' step of the job could be skipped, but the 'Impressions' calculation must run.",
+  "decisions": [
+    "The 'Traffic' step of the data job can be skipped.",
+    "The 'Impressions' calculation step must be executed."
+  ],
+  "action_items": [
+    "Restart the recalculation (recalc) process after applying master updates.",
+    "Monitor the execution time and stability of the analytics jobs."
+  ]
+}

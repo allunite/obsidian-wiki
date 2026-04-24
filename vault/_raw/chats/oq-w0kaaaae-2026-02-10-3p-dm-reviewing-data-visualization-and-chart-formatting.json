@@ -1,0 +1,25 @@
+{
+  "chat_id": "oq-w0kAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2026-02-10",
+    "end": "2026-02-10"
+  },
+  "message_count": 23,
+  "topic": "Reviewing data visualization and chart formatting",
+  "topic_slug": "reviewing-data-visualization-and-chart-formatting",
+  "tags": [
+    "analytics",
+    "campaign"
+  ],
+  "summary_markdown": "The conversation focused on refining the presentation of data visualizations, specifically concerning labels and layout. Discussions included implementing translations for category labels in the system (on staging) and suggesting abbreviations for long text fields (e.g., House Wife and Chief Wage Earner = HW+CWE). Suggestions were made to adjust chart formatting, such as making the font smaller or widening the block/legend area to improve readability of pie charts.\n\nRegarding workflow status, [me] requested that the work be moved to 'in review' status. [p1] noted that this specific status does not exist and suggested moving it to 'Акшая'.",
+  "decisions": [
+    "The data visualization will be submitted for review."
+  ],
+  "action_items": [
+    "[p1] needs to investigate the feasibility of widening chart blocks/legends.",
+    "[p1] needs to confirm the correct workflow status for 'in review'."
+  ]
+}

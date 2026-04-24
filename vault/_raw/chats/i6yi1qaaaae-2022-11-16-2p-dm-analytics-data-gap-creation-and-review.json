@@ -1,0 +1,25 @@
+{
+  "chat_id": "i6YI1QAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 2,
+  "date_range": {
+    "start": "2022-11-16",
+    "end": "2022-11-16"
+  },
+  "message_count": 36,
+  "topic": "Analytics data gap creation and review",
+  "topic_slug": "analytics-data-gap-creation-and-review",
+  "tags": [
+    "analytics",
+    "session",
+    "dwell-time"
+  ],
+  "summary_markdown": "The conversation focused on reviewing analytics data, specifically the creation of 'gap' datasets for mall sessions. Multiple gap versions (gap 1 and gap 2) were generated using staging links and shared with [p1]. The criteria for these gaps included a minimum session duration (>= 60 seconds). Concerns were raised regarding unique traffic fluctuations and whether the model was correctly recalculated for a specific company number (7880).\n\n[me] confirmed that the correct formula for footfall calculation, based on unique users, had been implemented. The discussion concluded with [me] making the latest version of the data available for review.",
+  "decisions": [
+    "Multiple gap datasets were created and shared for analytics review."
+  ],
+  "action_items": [
+    "Review the newly generated analytics data gaps (gap X) on staging."
+  ]
+}

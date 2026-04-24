@@ -1,0 +1,34 @@
+{
+  "chat_id": "AAAA3oghITo",
+  "kind": "Space",
+  "space_name": "Кабаны",
+  "participants": 4,
+  "date_range": {
+    "start": "2022-04-07",
+    "end": "2022-04-07"
+  },
+  "message_count": 89,
+  "topic": "PostgreSQL database upgrade and cleanup plan",
+  "topic_slug": "postgresql-database-upgrade-and-cleanup-plan",
+  "tags": [
+    "analytics",
+    "campaign",
+    "inventory",
+    "loop",
+    "mops",
+    "pgcrypto",
+    "hll",
+    "ltree",
+    "postgis"
+  ],
+  "summary_markdown": "The discussion focused on upgrading an old PostgreSQL database instance and cleaning up unused extensions. \n\n**Upgrade Strategy:** The initial plan was to perform a staged upgrade, but the conversation shifted towards attempting a direct upgrade to version 14. It was noted that if the upgrade fails, a fallback strategy of updating one version at a time would be used.\n\n**Database Cleanup & Extensions:** Several extensions were identified for potential removal or update:\n*   `pg_repack`, `hll`, and various PostGIS components (like `postgis-2.4`) were discussed for dropping, as they appeared unused or incompatible with newer versions.\n*   The need to recreate user-defined objects (aggregates/operators) that reference deprecated array functions was highlighted due to version incompatibility issues during the upgrade process.\n\n**Next Steps:** The plan concluded with a commitment to attempt the data transfer and upgrade again on Friday evening.",
+  "decisions": [
+    "The PostgreSQL database will be upgraded, targeting version 14.",
+    "Several extensions (`pg_repack`, `hll`, old PostGIS versions) are slated for dropping due to lack of use or incompatibility.",
+    "A full data transfer and upgrade attempt is scheduled for Friday evening."
+  ],
+  "action_items": [
+    "Attempt the PostgreSQL database upgrade (to v14) on Friday evening.",
+    "Check if any critical components rely on dropped extensions before finalization."
+  ]
+}

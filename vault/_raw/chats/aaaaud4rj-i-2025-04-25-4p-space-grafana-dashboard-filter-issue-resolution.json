@@ -1,0 +1,21 @@
+{
+  "chat_id": "AAAAud4RJ_I",
+  "kind": "Space",
+  "space_name": "Group Chat",
+  "participants": 4,
+  "date_range": {
+    "start": "2025-04-25",
+    "end": "2025-04-25"
+  },
+  "message_count": 3,
+  "topic": "Grafana dashboard filter issue resolution",
+  "topic_slug": "grafana-dashboard-filter-issue-resolution",
+  "tags": [
+    "analytics"
+  ],
+  "summary_markdown": "A discussion regarding a Grafana dashboard created by [p3]. Initially, the filters were reported as not working. It was confirmed that the company filter functioned correctly, but the country filter was malfunctioning. [p3] acknowledged and corrected the issue with the country filter.",
+  "decisions": [
+    "The country filter on the Grafana dashboard is now functional."
+  ],
+  "action_items": []
+}

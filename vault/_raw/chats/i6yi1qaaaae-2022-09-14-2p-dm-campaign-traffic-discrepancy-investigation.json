@@ -1,0 +1,26 @@
+{
+  "chat_id": "i6YI1QAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 2,
+  "date_range": {
+    "start": "2022-09-14",
+    "end": "2022-09-14"
+  },
+  "message_count": 21,
+  "topic": "Campaign traffic discrepancy and investigation",
+  "topic_slug": "campaign-traffic-discrepancy-investigation",
+  "tags": [
+    "analytics",
+    "campaign",
+    "impression",
+    "inventory"
+  ],
+  "summary_markdown": "The discussion centered on a discrepancy between campaign traffic data reported in the dashboard versus the actual unique user counts (uniques). Initially, it was noted that the uniques did not match, leading to an investigation into how the right-hand side metrics were calculated.\n\nLater, it was determined that the campaign traffic included data from 'areas of living,' which significantly reduced the reported traffic. It was concluded that relying solely on area-based reporting is not ideal and requires further research. The core issue remains the inconsistent count of unique users across different sources, with one instance noting an unusually high number (3 million uniques in Finland for a week). Further investigation into the cause of this discrepancy is required.",
+  "decisions": [
+    "The current method of using 'areas of living' for campaign traffic is deemed incorrect and requires re-evaluation."
+  ],
+  "action_items": [
+    "Someone needs to further investigate the root cause of the unique user count discrepancies."
+  ]
+}

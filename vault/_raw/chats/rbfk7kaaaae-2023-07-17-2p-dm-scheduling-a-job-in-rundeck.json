@@ -1,0 +1,21 @@
+{
+  "chat_id": "rBfK7kAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 2,
+  "date_range": {
+    "start": "2023-07-17",
+    "end": "2023-07-17"
+  },
+  "message_count": 7,
+  "topic": "Scheduling a job in Rundeck",
+  "topic_slug": "scheduling-a-job-in-rundeck",
+  "tags": [
+    "analytics"
+  ],
+  "summary_markdown": "The conversation addressed an issue with scheduling a specific job via Rundeck. The initial query asked how to ensure a job runs daily immediately following another specified job ('ML Traffic prediction - staging'). [me] confirmed that the job was not scheduled and needed to be added to recalc, which [me] subsequently completed.",
+  "decisions": [
+    "The target job was successfully scheduled in Rundeck."
+  ],
+  "action_items": []
+}

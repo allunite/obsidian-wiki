@@ -1,0 +1,23 @@
+{
+  "chat_id": "AAAA3frAfLA",
+  "kind": "Space",
+  "space_name": "Lidar Tech",
+  "participants": 8,
+  "date_range": {
+    "start": "2021-11-22",
+    "end": "2021-11-22"
+  },
+  "message_count": 6,
+  "topic": "Lidar IP address setup procedure",
+  "topic_slug": "lidar-ip-address-setup-procedure",
+  "tags": [
+    "analytics"
+  ],
+  "summary_markdown": "The discussion focused on technical requirements for Lidar. It was decided that a procedure must be implemented to assign a static IP address to the Lidar device. Until this fix is available, manual assignment of IPs will be used.",
+  "decisions": [
+    "A procedure must be created for assigning a static IP address to Lidar."
+  ],
+  "action_items": [
+    "Manual IP assignments will be used in the interim period."
+  ]
+}

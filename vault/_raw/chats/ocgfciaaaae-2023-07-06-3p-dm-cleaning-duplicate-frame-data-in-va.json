@@ -1,0 +1,25 @@
+{
+  "chat_id": "oCgFCIAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2023-07-06",
+    "end": "2023-07-06"
+  },
+  "message_count": 18,
+  "topic": "Cleaning duplicate frame data in VA",
+  "topic_slug": "cleaning-duplicate-frame-data-in-va",
+  "tags": [
+    "analytics",
+    "frame",
+    "dwell-time"
+  ],
+  "summary_markdown": "The discussion centered on the cleaning and handling of new VA (Video Analytics) data provided by a team member. Initial attempts to remove duplicates from `frame_va` were made, but concerns were raised that different values for VA and dwell-time might exist even for the same road/frame combination. It was agreed that while the current sandbox data is clean and usable, there are underlying data quality issues regarding duplicate records.\n\nUltimately, despite initial resistance to cleaning, [me] decided to proceed with cleaning up the duplicates in the provided dataset.",
+  "decisions": [
+    "The team will continue working with the cleaned VA data available on the sandbox environment."
+  ],
+  "action_items": [
+    "[me] informed Marina about the data quality issues and proceeded to clean the duplicate records."
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "chat_id": "AAAACgwc0Mo",
+  "kind": "Space",
+  "space_name": "Group Chat",
+  "participants": 3,
+  "date_range": {
+    "start": "2025-03-28",
+    "end": "2025-03-28"
+  },
+  "message_count": 16,
+  "topic": "Handling data from non-reporting routers",
+  "topic_slug": "handling-data-from-non-reporting-routers",
+  "tags": [
+    "analytics",
+    "inventory"
+  ],
+  "summary_markdown": "The discussion focused on identifying and managing data gaps from specific hardware, such as routers that fail to transmit data (e.g., JJ or lidar-equipped routers). [p1] inquired about an existing flag to filter out alerts for these non-reporting devices.\n\n[me] confirmed the existence of a relevant flag within the `stat_ping` table and also noted its availability on the new schema. Although initially discussing general flags, [me] clarified that the intended mechanism relates specifically to ping data.\n\nLater, [p1] expressed concern about integrating this filtering logic into the inventory view used for monitoring purposes.",
+  "decisions": [
+    "A flag related to device reporting status (ping) exists and can be utilized."
+  ],
+  "action_items": [
+    "[me] will implement the necessary changes today to incorporate the non-reporting router filter into the relevant inventory view."
+  ]
+}

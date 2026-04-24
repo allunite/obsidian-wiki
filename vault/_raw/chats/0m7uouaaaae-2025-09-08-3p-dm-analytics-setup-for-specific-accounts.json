@@ -1,0 +1,22 @@
+{
+  "chat_id": "0m7UOUAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2025-09-08",
+    "end": "2025-09-08"
+  },
+  "message_count": 10,
+  "topic": "Analytics setup for specific accounts",
+  "topic_slug": "analytics-setup-for-specific-accounts",
+  "tags": [
+    "analytics",
+    "facility"
+  ],
+  "summary_markdown": "The discussion centered on enabling new reporting features (rich data) within the staging analytics environment. Initially, [p1] requested that the new rich data be activated for two specific accounts: 7885,[redacted],JCDecaux Brazil and 7950,[redacted],Neooh.\n\nLater, it was noted that the new rich data had not been successfully included. [p1] asked someone to check the status of the rich data inclusion for both Neooh (the primary focus) and JCDecaux Brazil.\n\nUltimately, someone confirmed that all issues were fixed.",
+  "decisions": [
+    "New rich data was enabled/fixed for 7885,[redacted],JCDecaux Brazil and 7950,[redacted],Neooh."
+  ],
+  "action_items": []
+}

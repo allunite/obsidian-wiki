@@ -1,0 +1,24 @@
+{
+  "chat_id": "i6YI1QAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 2,
+  "date_range": {
+    "start": "2021-04-12",
+    "end": "2021-04-12"
+  },
+  "message_count": 39,
+  "topic": "Reviewing dwell time and analytics differences",
+  "topic_slug": "reviewing-dwell-time-and-analytics-differences",
+  "tags": [
+    "dwell-time",
+    "analytics"
+  ],
+  "summary_markdown": "The participants discussed discrepancies in data viewing, specifically regarding 'dwell time' metrics. They reviewed the analytics dashboard using both `analytics.allunite.com` and `staging-analytics.allunite.com`. It was noted that while the data appeared largely similar for a specific date range (April 3 to April 10), there were technical differences in how the dashboards loaded, requiring users to click the AllUnite icon to reset tracking installations.\n\nLater, one participant confirmed deleting a task related to dwell time.",
+  "decisions": [
+    "The participants agreed on reviewing dwell time metrics using the analytics platform."
+  ],
+  "action_items": [
+    "None"
+  ]
+}

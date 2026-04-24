@@ -1,0 +1,28 @@
+{
+  "chat_id": "i6YI1QAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 2,
+  "date_range": {
+    "start": "2023-08-01",
+    "end": "2023-08-01"
+  },
+  "message_count": 39,
+  "topic": "Analytics data release and debugging",
+  "topic_slug": "analytics-data-release-and-debugging",
+  "tags": [
+    "analytics",
+    "campaign",
+    "frame",
+    "facility"
+  ],
+  "summary_markdown": "The discussion centered on the planned release of analytics metrics, specifically addressing issues with unique identifiers (yuniki) and data visualization across different platforms.\n\n**Key Issues & Decisions:**\n*   **Unique IDs:** The current implementation of unique IDs is problematic. It was decided that the system should be released without these unique IDs initially, but efforts were made to fix them by the following Wednesday for a demo.\n*   **Data Scope:** Metrics are needed for both the traffic dashboard and campaign details. Initial concerns were raised about data discrepancies between Brazil's STAGE environment on the traffic dashboard versus campaigns.\n*   **Performance & Testing:** The campaign page was preferred over the traffic page due to performance issues. Several staging URLs were shared for testing purposes, allowing comparison of metrics across different facilities.\n*   **Release Status:** A final decision was made to proceed with the release after troubleshooting and data synchronization efforts.",
+  "decisions": [
+    "The system will be released without unique identifiers (yuniki) initially.",
+    "A fix for unique IDs is planned for completion by the following Wednesday's demo."
+  ],
+  "action_items": [
+    "Someone needs to help with data synchronization and deployment with a colleague.",
+    "A bug regarding cumulative sum calculation in manual frame selection needs reproduction and investigation."
+  ]
+}

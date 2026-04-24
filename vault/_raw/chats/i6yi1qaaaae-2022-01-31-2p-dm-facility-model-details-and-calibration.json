@@ -1,0 +1,22 @@
+{
+  "chat_id": "i6YI1QAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 2,
+  "date_range": {
+    "start": "2022-01-31",
+    "end": "2022-01-31"
+  },
+  "message_count": 13,
+  "topic": "Facility model details and calibration",
+  "topic_slug": "facility-model-details-and-calibration",
+  "tags": [
+    "facility",
+    "analytics"
+  ],
+  "summary_markdown": "Discussion centered on the modeling approach for facilities. Specifically, participants confirmed whether a single model was used across two different areas/types of facility data. The conversation noted that while one location's calibration included a 'category,' there was confusion regarding where another associated model might be located or referenced.",
+  "decisions": [
+    "The model used for facilities is consistent."
+  ],
+  "action_items": []
+}

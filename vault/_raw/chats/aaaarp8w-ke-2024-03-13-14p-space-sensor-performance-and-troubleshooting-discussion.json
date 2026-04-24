@@ -1,0 +1,27 @@
+{
+  "chat_id": "AAAARP8w-KE",
+  "kind": "Space",
+  "space_name": "Problematic sensors",
+  "participants": 14,
+  "date_range": {
+    "start": "2024-03-13",
+    "end": "2024-03-13"
+  },
+  "message_count": 27,
+  "topic": "Sensor performance and troubleshooting discussion",
+  "topic_slug": "sensor-performance-and-troubleshooting-discussion",
+  "tags": [
+    "facility",
+    "inventory",
+    "analytics",
+    "session"
+  ],
+  "summary_markdown": "The conversation primarily revolves around the functionality and data provided by various sensors installed at different facilities. One participant confirmed that a specific sensor is now working normally, sharing its capability with others.\n\nLater, the discussion focused on troubleshooting multiple sensors across several locations (CM_Kronen Vanløse, CM_Fisketorvet-DT07, CM_Herlev_VH02). The participants reviewed MAC addresses and facility details for these units. A key concern was raised regarding several listed sensors that appear to be non-operational or not recording data since specific dates, leading to questions about the cause of failure and whether this is normal.\n\nOne participant provided a resource link containing comprehensive sensor information.",
+  "decisions": [
+    "Reviewed MAC addresses and facility details for multiple outdoor totems/sensors."
+  ],
+  "action_items": [
+    "Determine the root cause for non-operational sensors at CM_Kronen Vanløse, CM_Fisketorvet-DT07, and CM_Herlev_VH02.",
+    "Confirm if the observed sensor downtime is normal or requires intervention."
+  ]
+}

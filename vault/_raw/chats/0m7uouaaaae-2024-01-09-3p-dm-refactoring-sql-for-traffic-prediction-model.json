@@ -1,0 +1,21 @@
+{
+  "chat_id": "0m7UOUAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2024-01-09",
+    "end": "2024-01-09"
+  },
+  "message_count": 6,
+  "topic": "Refactoring SQL for traffic prediction model",
+  "topic_slug": "refactoring-sql-for-traffic-prediction-model",
+  "tags": [
+    "analytics"
+  ],
+  "summary_markdown": "The conversation focused on a Pull Request (PR) submitted by [p1] containing refactored SQL code intended to speed up the `ml_traffic_predictions` process. [p1] confirmed that these changes do not affect results, as they were tested on staging. After review and minor adjustments, [me] approved merging the PR. Later, [p1] mentioned a separate plan to clean up unnecessary elements from `ml_traffic_predictions`, which will result in another PR. Additionally, [p1] proposed splitting the `ml_predictions` into multiple stages and moving linear model coefficients from AWS into ClickHouse tables.",
+  "decisions": [
+    "The refactored SQL code for `ml_traffic_predictions` was approved for merging."
+  ],
+  "action_items": []
+}

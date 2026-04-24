@@ -1,0 +1,19 @@
+{
+  "chat_id": "AAAA9O38bU4",
+  "kind": "Space",
+  "space_name": "Group Chat",
+  "participants": 6,
+  "date_range": {
+    "start": "2024-05-02",
+    "end": "2024-05-02"
+  },
+  "message_count": 14,
+  "topic": "Social gathering plans and contributions",
+  "topic_slug": "social-gathering-plans-and-contributions",
+  "tags": [],
+  "summary_markdown": "The conversation revolves around planning a social gathering scheduled for Saturday afternoon in Dnipro. Discussion points include the location, necessary items to bring (food/drinks), and specific contributions from participants.\n\n*   **Food:** One participant offered to provide meat/vegetables, beer, and 0.5-0.7 bottles of whiskey. Another suggested making pancakes with fillings, which was accepted.",
+  "decisions": [
+    "The gathering is planned for Saturday afternoon in Dnipro."
+  ],
+  "action_items": []
+}

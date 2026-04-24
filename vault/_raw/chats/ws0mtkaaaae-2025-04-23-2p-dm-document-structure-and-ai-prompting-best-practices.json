@@ -1,0 +1,21 @@
+{
+  "chat_id": "ws0mTkAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 2,
+  "date_range": {
+    "start": "2025-04-23",
+    "end": "2025-04-23"
+  },
+  "message_count": 8,
+  "topic": "Document structure and AI prompting best practices",
+  "topic_slug": "document-structure-and-ai-prompting-best-practices",
+  "tags": [
+    "analytics"
+  ],
+  "summary_markdown": "The conversation discusses the importance of providing comprehensive data when interacting with large language models (LLMs). It was noted that LLMs often hallucinate or generate incorrect information if not explicitly constrained to use only provided context or index data. Therefore, it is crucial to include all necessary details in the prompt, even seemingly simple facts.\n\n[p1] shared a Google Docs link, suggesting it relates to the topic being discussed.",
+  "decisions": [],
+  "action_items": [
+    "Review the provided document linked by [p1]."
+  ]
+}

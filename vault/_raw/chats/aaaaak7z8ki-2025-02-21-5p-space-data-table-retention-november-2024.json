@@ -1,0 +1,23 @@
+{
+  "chat_id": "AAAAaK7z8KI",
+  "kind": "Space",
+  "space_name": "Group Chat",
+  "participants": 5,
+  "date_range": {
+    "start": "2025-02-21",
+    "end": "2025-02-21"
+  },
+  "message_count": 3,
+  "topic": "Data table retention for November 2024",
+  "topic_slug": "data-table-retention-november-2024",
+  "tags": [
+    "analytics"
+  ],
+  "summary_markdown": "A discussion occurred regarding the necessity of retaining a specific data table, `maid_jp_track_local`, containing November 2024 data. [p3] advised keeping the table for now and promised follow-up instructions on when it could be deleted. [me] and [p1] confirmed that the table is required.",
+  "decisions": [
+    "The data table `maid_jp_track_local` with November 2024 data must be retained."
+  ],
+  "action_items": [
+    "[p3] to follow up regarding the deletion of the data table."
+  ]
+}

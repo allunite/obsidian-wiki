@@ -1,0 +1,27 @@
+{
+  "chat_id": "nW_zkkAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2023-09-19",
+    "end": "2023-09-19"
+  },
+  "message_count": 22,
+  "topic": "Data recalculation for multiple sensors and sessions",
+  "topic_slug": "data-recalculation-for-multiple-sensors-and-sessions",
+  "tags": [
+    "analytics",
+    "session",
+    "facility"
+  ],
+  "summary_markdown": "The conversation covered two major data recalculations. First, a request was made to recalculate historical unique user counts for Gabon (Габон) and fix session data. The second task involved changing the calibration settings for three specific sensors at different facilities (Bite_LV_Riga Plaza, Bite_LV_Origo 4, Bite_LV_Alfa) and recalculating their history.\n\n[me] confirmed that both tasks could be handled immediately to avoid performance degradation later in the day. The session data for Gabon was completed by [me], allowing [p1] to initiate the recalculation.",
+  "decisions": [
+    "Recalculate historical unique user counts for Gabon.",
+    "Fix and recalculate session data.",
+    "Change calibration settings and recalculate history for three specified sensors (Bite_LV_Riga Plaza, Bite_LV_Origo 4, Bite_LV_Alfa)."
+  ],
+  "action_items": [
+    "[p1] to initiate the Gabon recalculation after confirmation."
+  ]
+}

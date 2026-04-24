@@ -1,0 +1,21 @@
+{
+  "chat_id": "AAAAOcKWvdA",
+  "kind": "Space",
+  "space_name": "Delivery Coordination",
+  "participants": 14,
+  "date_range": {
+    "start": "2023-10-09",
+    "end": "2023-10-09"
+  },
+  "message_count": 4,
+  "topic": "Scheduling discussion about Brazil",
+  "topic_slug": "scheduling-discussion-about-brazil",
+  "tags": [
+    "analytics"
+  ],
+  "summary_markdown": "The participants agreed to schedule a conversation regarding the Brazilian market. The preferred time slot was suggested for after lunch, around 13:00 Danish time, or slightly later.",
+  "decisions": [
+    "Meeting scheduled for the afternoon (around 13:00 Danish time) to discuss Brazil."
+  ],
+  "action_items": []
+}

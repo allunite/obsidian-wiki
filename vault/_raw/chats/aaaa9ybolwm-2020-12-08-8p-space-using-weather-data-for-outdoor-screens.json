@@ -1,0 +1,21 @@
+{
+  "chat_id": "AAAA9ybOLwM",
+  "kind": "Space",
+  "space_name": "ИТ",
+  "participants": 8,
+  "date_range": {
+    "start": "2020-12-08",
+    "end": "2020-12-09"
+  },
+  "message_count": 12,
+  "topic": "Using weather data for outdoor screens",
+  "topic_slug": "using-weather-data-for-outdoor-screens",
+  "tags": [
+    "analytics"
+  ],
+  "summary_markdown": "The discussion focused on leveraging external data, specifically weather forecasts, for digital out-of-home (DOOH) screen content. One participant shared links to AWS resources detailing improved forecasting models and data preparation tools (Amazon Forecast Weather Index, Amazon SageMaker Data Wrangler). It was noted that the forecast could be used for prediction purposes, a topic previously discussed with someone.",
+  "decisions": [
+    "Use weather forecasts for predicting outdoor screen content."
+  ],
+  "action_items": []
+}

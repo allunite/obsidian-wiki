@@ -1,0 +1,19 @@
+{
+  "chat_id": "AAAA-gn4oPg",
+  "kind": "Space",
+  "space_name": "General and random",
+  "participants": 36,
+  "date_range": {
+    "start": "2023-12-20",
+    "end": "2023-12-20"
+  },
+  "message_count": 8,
+  "topic": "Team gathering and logistics reminder",
+  "topic_slug": "team-gathering-and-logistics-reminder",
+  "tags": [
+    "session"
+  ],
+  "summary_markdown": "The conversation consisted primarily of social greetings regarding a team gathering. One participant reminded the group that for optimal experience, attendees should join using a desktop or laptop with a camera and microphone.",
+  "decisions": [],
+  "action_items": []
+}

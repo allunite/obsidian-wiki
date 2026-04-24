@@ -1,0 +1,24 @@
+{
+  "chat_id": "y9IEDQAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2024-10-21",
+    "end": "2024-10-21"
+  },
+  "message_count": 13,
+  "topic": "Database maintenance and capacity increase",
+  "topic_slug": "database-maintenance-and-capacity-increase",
+  "tags": [
+    "analytics"
+  ],
+  "summary_markdown": "The conversation focused on database infrastructure changes. It was confirmed that the temporary data storage (temp) on clickhouse03 and clickhouse04 is no longer necessary, as core tables could be copied in parts without it.\n\nRegarding capacity, [p1] initially outlined plans to delete temp and increase hot storage on both clickhouse03 and clickhouse04 by 100 GB. While [p1] noted difficulty reducing disk space later, the consensus was reached to proceed with increasing the allocated storage.",
+  "decisions": [
+    "Delete temporary data storage (temp) on clickhouse03 and clickhouse04",
+    "Increase hot storage capacity on clickhouse03 and clickhouse04 by 100 GB"
+  ],
+  "action_items": [
+    "[p1] executed the database changes."
+  ]
+}

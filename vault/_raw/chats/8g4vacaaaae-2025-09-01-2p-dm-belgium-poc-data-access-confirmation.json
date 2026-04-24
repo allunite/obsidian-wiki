@@ -1,0 +1,22 @@
+{
+  "chat_id": "8G4VaCAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 2,
+  "date_range": {
+    "start": "2025-09-01",
+    "end": "2025-09-01"
+  },
+  "message_count": 3,
+  "topic": "Belgium POC data access confirmation",
+  "topic_slug": "belgium-poc-data-access-confirmation",
+  "tags": [
+    "analytics",
+    "api"
+  ],
+  "summary_markdown": "A discussion was held regarding a question from Belgium concerning the Proof of Concept (POC). The core query asked for clarification on which outputs would be accessible via the dashboard versus the API, and what data could be extracted through the API. [me] provided links to documentation: one link detailing the AllUnite Analytics intuitive traffic dashboard, and another providing Swagger documentation for the DataAPI.",
+  "decisions": [
+    "Documentation links were shared confirming access methods for Dashboard and DataAPI."
+  ],
+  "action_items": []
+}

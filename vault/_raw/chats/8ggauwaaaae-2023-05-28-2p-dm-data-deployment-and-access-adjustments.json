@@ -1,0 +1,26 @@
+{
+  "chat_id": "8GgAuwAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 2,
+  "date_range": {
+    "start": "2023-05-28",
+    "end": "2023-05-28"
+  },
+  "message_count": 5,
+  "topic": "Data deployment and access adjustments",
+  "topic_slug": "data-deployment-and-access-adjustments",
+  "tags": [
+    "analytics",
+    "inventory"
+  ],
+  "summary_markdown": "The user confirmed that data had been uploaded. The conversation focused on necessary platform adjustments, including moving 'JCD Finland' under the 'JCDecaux' partner and granting limited access to 'mediateko' regarding 'JCD Finland' information. A specific issue with an export button not functioning after deployment to production was noted. Finally, the user confirmed moving 'Finnish' entities under the main headquarters (HQ) and stated that user access could be managed granularly based on roles.",
+  "decisions": [
+    "JCD Finland will be placed under the JCDecaux partner account.",
+    "mediateko will receive limited informational access to JCD Finland data.",
+    "The deployment of the export button functionality needs follow-up."
+  ],
+  "action_items": [
+    "User to deploy the site/feature with working export button functionality."
+  ]
+}

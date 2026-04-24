@@ -1,0 +1,28 @@
+{
+  "chat_id": "nW_zkkAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2023-11-06",
+    "end": "2023-11-06"
+  },
+  "message_count": 18,
+  "topic": "Transit analytics data correction and calibration",
+  "topic_slug": "transit-analytics-data-correction-and-calibration",
+  "tags": [
+    "analytics",
+    "facility",
+    "campaign"
+  ],
+  "summary_markdown": "The conversation focused on correcting issues found in the transit analytics data, specifically concerning discrepancies in unique counts (unique) when comparing `model1` and `model2` datasets for a given facility. The initial issue was attributed to potential problems with Brazil's formula for calculating uniques.\n\nLater, a request was made to change the calibration setting to 72 for company 7880 at facility 4349 and recalculate history starting from 2022-08-15. This was completed by someone, who advised against unnecessary historical recalculations, emphasizing that scripts should rely on the `isCalibrated()` function rather than the `is_calibrated` field.\n\nFinally, a review of code logic identified an overly restrictive condition in a countIf statement concerning calibration status and signal level, which was subsequently agreed to be removed.",
+  "decisions": [
+    "The transit analytics data models (model1 and model2) require correction due to unique count discrepancies.",
+    "Calibration for company 7880 at facility 4349 was changed to 72.",
+    "Scripts must use the `isCalibrated()` function instead of the `is_calibrated` field.",
+    "An overly restrictive condition in a countIf statement regarding calibration and signal level will be removed."
+  ],
+  "action_items": [
+    "Someone needs to merge the corrected ml_traffic_prediction/main.py file after review."
+  ]
+}

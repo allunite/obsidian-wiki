@@ -1,0 +1,24 @@
+{
+  "chat_id": "0VorOYAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2024-09-11",
+    "end": "2024-09-11"
+  },
+  "message_count": 11,
+  "topic": "Calculating historical session data",
+  "topic_slug": "calculating-historical-session-data",
+  "tags": [
+    "analytics",
+    "session"
+  ],
+  "summary_markdown": "The conversation focused on calculating historical session data for a second tab/report. It was determined that while conceptually possible (using `device_session_concept` unioned with `device_session_archive`), this calculation could not be completed within the current week.\n\nFor reporting, the data needs to be re-aggregated into the dashboard, and this process should ideally happen after the session data has been fully uploaded.",
+  "decisions": [
+    "Historical session data calculation is possible but cannot be done this week."
+  ],
+  "action_items": [
+    "Wait until session data upload is complete before aggregating historical data for the dashboard."
+  ]
+}

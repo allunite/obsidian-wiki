@@ -1,0 +1,23 @@
+{
+  "chat_id": "nW_zkkAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2023-09-08",
+    "end": "2023-09-08"
+  },
+  "message_count": 11,
+  "topic": "Moving stage assets to production",
+  "topic_slug": "moving-stage-assets-to-production",
+  "tags": [
+    "campaign",
+    "inventory"
+  ],
+  "summary_markdown": "The conversation focused on migrating specific stage assets from a staging environment to the production environment. Initially, [p1] requested moving the Gabon stage asset (ID 7878) and later added the Côte d’Ivoire stage asset (ID 7881). These moves were scheduled for September 22nd. The assets were subsequently moved by [me].",
+  "decisions": [
+    "The Gabon stage asset (ID 7878) will be moved to production.",
+    "The Côte d’Ivoire stage asset (ID 7881) will be moved to production."
+  ],
+  "action_items": []
+}

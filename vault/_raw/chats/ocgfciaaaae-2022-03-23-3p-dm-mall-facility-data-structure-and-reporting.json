@@ -1,0 +1,28 @@
+{
+  "chat_id": "oCgFCIAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2022-03-23",
+    "end": "2022-03-23"
+  },
+  "message_count": 38,
+  "topic": "Mall facility data structure and reporting",
+  "topic_slug": "mall-facility-data-structure-and-reporting",
+  "tags": [
+    "facility",
+    "analytics",
+    "inventory",
+    "campaign"
+  ],
+  "summary_markdown": "The discussion focused on data structure issues related to mall facilities. It was noted that the master facility for two malls in CityMedia is not correctly marked as 'Mall', while child facilities are. The team discussed how this discrepancy might affect calculations and reporting.\n\nSeveral technical points were addressed:\n*   **Data Integration:** A method was required to pass `master_facility_id` into data queries, which was identified as a task for someone to implement.\n*   **Reporting Scope:** It was determined that existing mall statistics queries do not account for the current mall. The solution proposed is either modifying the list of facilities to only include those belonging to the current mall or updating the query logic.\n*   **Updates and Deployment:** Updates were needed for dictionaries on the CH sandbox environment, which required administrative access. Additionally, a facility associated with Joe&TheJuice was confirmed as added and deployed to the sandbox.",
+  "decisions": [
+    "Implement passing `master_facility_id` into data queries.",
+    "Update mall statistics queries to correctly account for the current mall's scope."
+  ],
+  "action_items": [
+    "Someone needs to update dictionaries on the CH sandbox environment.",
+    "Review and implement changes regarding master facility marking in CityMedia."
+  ]
+}

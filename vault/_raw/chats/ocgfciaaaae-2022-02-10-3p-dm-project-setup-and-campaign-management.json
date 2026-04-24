@@ -1,0 +1,21 @@
+{
+  "chat_id": "oCgFCIAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2022-02-10",
+    "end": "2022-02-10"
+  },
+  "message_count": 15,
+  "topic": "Project setup and campaign management",
+  "topic_slug": "project-setup-and-campaign-management",
+  "tags": [
+    "campaign"
+  ],
+  "summary_markdown": "The conversation briefly touched upon project logistics, including the need to involve 'Oleg' in a demonstration planned by someone else. There was discussion regarding whether to set up separate accounts or combine them. Separately, [me] acknowledged needing to complete the campaign manager tasks and stated they would do so soon.\n\nThe remainder of the chat consisted of personal anecdotes about household repairs (plumbing/welding work) and general life difficulties.",
+  "decisions": [],
+  "action_items": [
+    "Complete campaign manager tasks today"
+  ]
+}

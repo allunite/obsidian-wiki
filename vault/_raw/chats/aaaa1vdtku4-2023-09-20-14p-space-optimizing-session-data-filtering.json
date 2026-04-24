@@ -1,0 +1,22 @@
+{
+  "chat_id": "AAAA1vdtku4",
+  "kind": "Space",
+  "space_name": "DataTeam+",
+  "participants": 14,
+  "date_range": {
+    "start": "2023-09-20",
+    "end": "2023-09-20"
+  },
+  "message_count": 7,
+  "topic": "Optimizing session data filtering",
+  "topic_slug": "optimizing-session-data-filtering",
+  "tags": [
+    "analytics",
+    "session"
+  ],
+  "summary_markdown": "The discussion focused on optimizing queries for device session concepts. Specifically, the use of `box_mac` as a filter was questioned. It was noted that using `company_num` and `session_start_hour` in filters would be acceptable alternatives. Regarding `box_mac`, it will remain for major clients but will be removed for facilities where more than one box is present on the same facility, primarily affecting J&J.",
+  "decisions": [
+    "The use of `box_mac` as a filter will be restricted to major clients."
+  ],
+  "action_items": []
+}

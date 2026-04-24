@@ -1,0 +1,26 @@
+{
+  "chat_id": "AAAAhwJEAs0",
+  "kind": "Space",
+  "space_name": "Group Chat",
+  "participants": 4,
+  "date_range": {
+    "start": "2022-04-29",
+    "end": "2022-04-29"
+  },
+  "message_count": 44,
+  "topic": "Data analysis and sensor maintenance updates",
+  "topic_slug": "data-analysis-and-sensor-maintenance-updates",
+  "tags": [
+    "analytics",
+    "impression",
+    "inventory",
+    "campaign"
+  ],
+  "summary_markdown": "The discussion covered several data points and technical issues. Initially, [p1] presented demographic analysis showing high traffic in Vesterbro/Kongens Enghave compared to other areas, noting that the initial dataset was limited (180 out of 600 zip codes). Later, [p1] reported a critical sensor failure (since March 23rd) and the need to update sensors via MQTT protocol. Technical discussions focused on handling demographic data structures in queries, specifically converting string arrays into integer types for accurate calculation.\n\nRegarding traffic patterns, it was noted that high traffic counts near the terrace area might be due to external outdoor flow or a passing train/event, which accounts for cumulative spikes. Finally, [p1] confirmed that access would be granted following a deployment.",
+  "decisions": [
+    "Access will be granted after the deployment is complete."
+  ],
+  "action_items": [
+    "Develop and implement formulas using proper demographic data to improve analysis."
+  ]
+}

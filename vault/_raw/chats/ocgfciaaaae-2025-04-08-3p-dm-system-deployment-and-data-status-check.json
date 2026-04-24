@@ -1,0 +1,22 @@
+{
+  "chat_id": "oCgFCIAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2025-04-08",
+    "end": "2025-04-08"
+  },
+  "message_count": 18,
+  "topic": "System deployment and data status check",
+  "topic_slug": "system-deployment-and-data-status-check",
+  "tags": [
+    "analytics",
+    "campaign"
+  ],
+  "summary_markdown": "The participants discussed the successful deployment of a system component. It was noted that resources are currently idle, which may contribute to fast deployment times. Data checks confirmed that various metrics (including 'Фины' and 'ситимедиа') appear normal, with no visible errors in logs or data totals.\n\nOne participant advised against modifying the development environment until the production ML-API dictates are stable.",
+  "decisions": [
+    "The system component was successfully deployed."
+  ],
+  "action_items": []
+}

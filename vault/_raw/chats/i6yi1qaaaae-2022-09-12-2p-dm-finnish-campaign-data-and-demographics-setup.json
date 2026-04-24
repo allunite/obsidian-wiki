@@ -1,0 +1,28 @@
+{
+  "chat_id": "i6YI1QAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 2,
+  "date_range": {
+    "start": "2022-09-12",
+    "end": "2022-09-12"
+  },
+  "message_count": 56,
+  "topic": "Finnish campaign data and demographics setup",
+  "topic_slug": "finnish-campaign-data-and-demographics-setup",
+  "tags": [
+    "analytics",
+    "campaign",
+    "facility",
+    "impression"
+  ],
+  "summary_markdown": "The discussion focused on retrieving accurate Finnish campaign data, particularly regarding impressions. It was noted that the necessary data might reside in a STAGE dataset rather than PROD.\n\nRegarding demographics, it was determined that the current setup for the Finnish campaigns is failing because demographic information is missing or incorrectly configured (currently set to Danish demographics). The plan involves:\n1. Loading demographic distribution data into the database.\n2. Recalculating the demographics based on this new data.\n3. Updating code so that metadata are sourced from the database.\n4. Ensuring specific districts are also entered for Finnish facilities.",
+  "decisions": [
+    "Finnish campaign data needs to be checked in STAGE dataset due to missing impressions in PROD.",
+    "The demographic setup requires loading distribution data and recalculating demographics."
+  ],
+  "action_items": [
+    "Someone must update the code to pull metadata from the database (scheduled for tomorrow).",
+    "Finnish facilities need specific districts entered into the system."
+  ]
+}

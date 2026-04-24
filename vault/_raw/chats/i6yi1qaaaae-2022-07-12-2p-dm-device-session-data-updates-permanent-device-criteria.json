@@ -1,0 +1,25 @@
+{
+  "chat_id": "i6YI1QAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 2,
+  "date_range": {
+    "start": "2022-07-12",
+    "end": "2022-07-12"
+  },
+  "message_count": 18,
+  "topic": "Device session data updates and permanent device criteria",
+  "topic_slug": "device-session-data-updates-permanent-device-criteria",
+  "tags": [
+    "analytics",
+    "facility",
+    "session"
+  ],
+  "summary_markdown": "The conversation focused on updating the available device session data. Initially, a request was made regarding retrieving the installed language from phone data, which was stated as not possible.\n\nLater, details were provided concerning Hong Kong package data in the `temp_device_session_concept` table, which now includes updated permanents and `facility_master_num`. The speaker noted that merging this into the main `device_session_concept` table is possible if preferred.\n\nSignificant changes to the permanent device criteria were detailed:\n*   The selection was broadened to include all calibrated sessions, not just those meeting the previous 'NOT is_local OR is_trusted' condition.\n*   The candidate criteria for permanents now includes devices that had zero session duration but were seen at more than three unique facilities within a day (indicating they are not merely passing by an airport entrance), provided this occurred on three or more days in a week.",
+  "decisions": [
+    "The Hong Kong package data will be merged into the `device_session_concept` table."
+  ],
+  "action_items": [
+    "Someone needs to review which devices qualify under the second permanent device condition (zero session duration but seen at >3 facilities)."
+  ]
+}

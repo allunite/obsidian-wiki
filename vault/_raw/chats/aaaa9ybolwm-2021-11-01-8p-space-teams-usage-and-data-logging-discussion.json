@@ -1,0 +1,23 @@
+{
+  "chat_id": "AAAA9ybOLwM",
+  "kind": "Space",
+  "space_name": "ИТ",
+  "participants": 8,
+  "date_range": {
+    "start": "2021-11-01",
+    "end": "2021-11-01"
+  },
+  "message_count": 18,
+  "topic": "Teams usage and data logging discussion",
+  "topic_slug": "teams-usage-and-data-logging-discussion",
+  "tags": [
+    "analytics"
+  ],
+  "summary_markdown": "The conversation began with difficulties accessing Microsoft Teams, particularly when required for meetings with external parties (e.g., Dutch colleagues). Several participants advised using the browser version of Teams instead of relying on the desktop application due to login and startup issues.\n\nSeparately, a discussion occurred regarding data logging from 2D lidar. It was decided that data should be logged locally with rotation, only transmitting specific data when necessary to conserve bandwidth/traffic.",
+  "decisions": [
+    "Use browser version of Teams for meetings instead of the desktop client."
+  ],
+  "action_items": [
+    "Someone needs to research the lifespan and write cycles of the specific memory cards being used for lidar logging."
+  ]
+}

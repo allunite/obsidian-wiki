@@ -1,0 +1,27 @@
+{
+  "chat_id": "rBfK7kAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 2,
+  "date_range": {
+    "start": "2023-09-13",
+    "end": "2023-09-13"
+  },
+  "message_count": 30,
+  "topic": "Optimizing session data queries for Brazil",
+  "topic_slug": "optimizing-session-data-queries-for-brazil",
+  "tags": [
+    "analytics",
+    "facility",
+    "session"
+  ],
+  "summary_markdown": "The conversation focused on refining SQL queries to accurately count sessions per facility in Brazil. Initial query issues included counting facilities that did not have installed sensors and using incorrect date fields.\n\n**Data Query Improvements:**\n*   It was advised to use `session_start_hour` instead of `session_start` for time grouping.\n*   The WHERE clause should include `not is_virtual` to filter only facilities with physical sensors.\n*   An additional condition using `company_num in (7885, 7887, 7895)` was added to limit the scope of data processing by company.\n\n**Frequency Calculation:**\nLater, a complex formula for calculating frequency based on sensor data was shared. While this calculation is useful for large numbers of facilities, it was determined that integration into current systems was not necessary at this time.",
+  "decisions": [
+    "The session count query must use `session_start_hour` instead of `session_start`.",
+    "The query must filter using `not is_virtual` to include only facilities with physical sensors.",
+    "The query must restrict results by specific company numbers: 7885, 7887, and 7895."
+  ],
+  "action_items": [
+    "None"
+  ]
+}

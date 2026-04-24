@@ -1,0 +1,28 @@
+{
+  "chat_id": "AAAAOcKWvdA",
+  "kind": "Space",
+  "space_name": "Delivery Coordination",
+  "participants": 14,
+  "date_range": {
+    "start": "2023-04-27",
+    "end": "2023-04-27"
+  },
+  "message_count": 28,
+  "topic": "Discussion on campaign data and process improvements",
+  "topic_slug": "campaign-data-and-process-improvements",
+  "tags": [
+    "analytics",
+    "inventory",
+    "campaign",
+    "facility"
+  ],
+  "summary_markdown": "The participants discussed necessary information for upcoming meetings, including campaign statuses and permissions. Key areas of confusion include: \n\n*   **Campaign Statuses:** It was noted that the current process for tracking campaign statuses is unclear, as teams are just starting to implement it, and a definitive list or source is missing.\n*   **Data Sources:** Questions arose regarding where specific data points (like figures) should be sourced from.\n*   **Roadside Identification:** A consensus point was reached that the current data cannot definitively determine if an inventory unit is roadside or not, requiring external information sources.\n\nSeparately, there was a discussion about improving internal knowledge management by creating a centralized wiki page to store links and copies of various Excel files, reducing time spent searching for scattered documentation.",
+  "decisions": [
+    "Schedule follow-up discussions on campaign statuses and data sourcing (to be held the next day).",
+    "Create a central wiki repository for all project documentation and spreadsheets."
+  ],
+  "action_items": [
+    "Determine who will prepare the list of questions for the upcoming meeting.",
+    "Someone needs to implement an algorithm/system to manage knowledge transfer (mentioned in relation to 'Леша')."
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "chat_id": "AAAAOcKWvdA",
+  "kind": "Space",
+  "space_name": "Delivery Coordination",
+  "participants": 14,
+  "date_range": {
+    "start": "2023-07-11",
+    "end": "2023-07-11"
+  },
+  "message_count": 25,
+  "topic": "Report and Inventory Manager feature enhancements",
+  "topic_slug": "report-and-inventory-manager-feature-enhancements",
+  "tags": [
+    "analytics",
+    "campaign",
+    "facility",
+    "frame",
+    "dwell-time",
+    "impression",
+    "metrics",
+    "traffic"
+  ],
+  "summary_markdown": "The discussion focused on a comprehensive list of required enhancements for campaign reporting and the Inventory Manager tool. Key additions include:\n\n*   **Campaign Reporting:** Adding various charts and metrics to the Campaign Report page, such as traffic, uniques, ROTS, VAC, demographics (integrating data from Kido), frequency, dwell time, and traffic by frames.\n*   **Inventory Manager Enhancements:** Implementing directional movement indicators (arrows) for segments, showing VA based on direction of movement, adding average speed and segment length details to segment views, and displaying the percentage of traffic per segment with VA.\n*   **Data & System Updates:** Several data team tasks were assigned, including recalculating virtual sensor traffic from June 1st, providing a structure for Brazil data (using fake data initially), ensuring metrics use real data, and expanding VA coverage to all transportation modes. Furthermore, the system needs improvements like filtering by Cluster -> facility -> frame.\n\nMultiple items were listed as action points for the Data team.",
+  "decisions": [
+    "Campaign reports must include traffic, uniques, ROTS, VAC, demographics, frequency, and dwell time metrics.",
+    "Inventory Manager must display directional movement arrows, VA by direction, average speed, and segment length.",
+    "Demographics data needs to be integrated from Kido into the reporting system.",
+    "Virtual sensor traffic recalculation is required starting from June 1st."
+  ],
+  "action_items": [
+    "Data team to add percentage of traffic per segment with VA in Inventory Manager.",
+    "Data team to provide structure for Brazil data using fake data.",
+    "Data team to ensure all metrics use real data sources.",
+    "Develop a real-time chart incorporating virtual sensor data after model validation."
+  ]
+}

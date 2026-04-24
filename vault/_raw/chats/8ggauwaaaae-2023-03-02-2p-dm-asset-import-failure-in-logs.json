@@ -1,0 +1,21 @@
+{
+  "chat_id": "8GgAuwAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 2,
+  "date_range": {
+    "start": "2023-03-02",
+    "end": "2023-03-02"
+  },
+  "message_count": 5,
+  "topic": "Asset import failure in logs",
+  "topic_slug": "asset-import-failure-in-logs",
+  "tags": [
+    "analytics"
+  ],
+  "summary_markdown": "The conversation addresses a reported issue regarding asset imports visible in the system logs. It is noted that the import process sometimes fails, particularly when the uploaded file format does not meet the system's requirements.",
+  "decisions": [],
+  "action_items": [
+    "Someone will follow up with the individual handling the asset import."
+  ]
+}

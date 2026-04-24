@@ -1,0 +1,25 @@
+{
+  "chat_id": "AAAAOcKWvdA",
+  "kind": "Space",
+  "space_name": "Delivery Coordination",
+  "participants": 14,
+  "date_range": {
+    "start": "2023-05-17",
+    "end": "2023-05-17"
+  },
+  "message_count": 13,
+  "topic": "Campaign versioning and data structure discussion",
+  "topic_slug": "campaign-versioning-and-data-structure-discussion",
+  "tags": [
+    "analytics",
+    "campaign",
+    "inventory"
+  ],
+  "summary_markdown": "The conversation focused on the complexities of campaign versioning, particularly when dealing with combined or split components. Participants discussed whether to treat versions as distinct entities requiring unique IDs and direct links, or if they should be viewed simply as copies linked to a parent/sibling structure.\n\nConcerns were raised about potential confusion in the database when versions are very similar to their parents or siblings. The need for a clear process was emphasized, especially given upcoming questions from guests.",
+  "decisions": [
+    "No concrete technical decisions were finalized during this session."
+  ],
+  "action_items": [
+    "A recording of the presentation/discussion will be shared for review."
+  ]
+}

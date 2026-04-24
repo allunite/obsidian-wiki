@@ -1,0 +1,21 @@
+{
+  "chat_id": "y9IEDQAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2023-09-01",
+    "end": "2023-09-01"
+  },
+  "message_count": 11,
+  "topic": "Duet AI activation and access",
+  "topic_slug": "duet-ai-activation-and-access",
+  "tags": [
+    "analytics"
+  ],
+  "summary_markdown": "The conversation focused on the activation of Duet AI. [p1] informed [me] that they had activated it, providing a 13-day free trial for testing. When [me] asked about an invitation link in email, [p1] clarified that the process only required selecting users to activate licenses, not sending an invite.\n[p1] later noted that a 'Help write' button appeared in Gmail.",
+  "decisions": [],
+  "action_items": [
+    "Someone will investigate Duet AI access later today."
+  ]
+}

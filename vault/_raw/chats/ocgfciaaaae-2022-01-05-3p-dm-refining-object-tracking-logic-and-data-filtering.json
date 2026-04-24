@@ -1,0 +1,28 @@
+{
+  "chat_id": "oCgFCIAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2022-01-05",
+    "end": "2022-01-05"
+  },
+  "message_count": 53,
+  "topic": "Refining object tracking logic and data filtering",
+  "topic_slug": "refining-object-tracking-logic-and-data-filtering",
+  "tags": [
+    "analytics",
+    "dwell-time",
+    "session",
+    "impression"
+  ],
+  "summary_markdown": "The discussion focused on refining the logic for tracking objects (vehicles/people) in a specific location, particularly addressing data quality and edge cases.\n\n**Data Filtering:** Several criteria were proposed to filter out unreliable tracks:\n*   Objects with entry or exit points less than one meter apart (or failing to cross both boundaries).\n*   Filtering based on session time (e.g., discarding sessions shorter than 100ms).\n*   Addressing issues like parallel objects and potential data duplication.\n\n**Technical Implementation:** The team discussed the use of coordinate systems in meters for tracking, including setting conditions where entry and exit points must be within a certain distance (e.g., 5 meters) of each other.\n\n**System Limitations:** Concerns were raised regarding high-speed objects passing through quickly and potential discrepancies due to sensor sampling rates (e.g., 20 frames per second vs. standard 10 fps).\n\n**Tracking Metrics:** The discussion clarified the need for two types of session time: time spent within a zone, and total object duration even when the zone is empty.",
+  "decisions": [
+    "Entry/exit points should be filtered if they are less than one meter apart or fail to cross both boundaries.",
+    "Sessions shorter than 100ms should be discarded."
+  ],
+  "action_items": [
+    "Further testing is needed on high-speed object detection and tracking accuracy.",
+    "The team needs to confirm the appropriate metrics for session time (time in zone vs. total duration)."
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "chat_id": "1er37EAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 2,
+  "date_range": {
+    "start": "2022-12-22",
+    "end": "2022-12-22"
+  },
+  "message_count": 5,
+  "topic": "Viewing campaign graph data",
+  "topic_slug": "viewing-campaign-graph-data",
+  "tags": [
+    "analytics",
+    "campaign"
+  ],
+  "summary_markdown": "Someone was working on creating graphs for the campaigns list page and noted that while the structure is planned, there is currently no content available to display on the specified local URL. Attempts were made to view data using previously provided user accounts, but all lacked necessary information.",
+  "decisions": [],
+  "action_items": [
+    "Determine a suitable test user account with existing campaign data for testing graph visualization."
+  ]
+}

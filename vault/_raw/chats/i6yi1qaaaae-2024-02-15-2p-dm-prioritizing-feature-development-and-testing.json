@@ -1,0 +1,26 @@
+{
+  "chat_id": "i6YI1QAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 2,
+  "date_range": {
+    "start": "2024-02-15",
+    "end": "2024-02-15"
+  },
+  "message_count": 6,
+  "topic": "Prioritizing feature development and testing",
+  "topic_slug": "prioritizing-feature-development-and-testing",
+  "tags": [
+    "campaign",
+    "analytics"
+  ],
+  "summary_markdown": "The discussion focused on prioritizing the implementation of new features. The 'Frequency based on clusterization' was deemed too advanced for a hotfix release, and its development is scheduled for a future release.\n\nInstead, the immediate focus will be on fixing existing issues and implementing 'Demography proвантаже'.",
+  "decisions": [
+    "The 'Frequency based on clusterization' feature will be deferred to a subsequent release."
+  ],
+  "action_items": [
+    "[me] will deploy the clusterization feature (remaining work is integrating it with campaigns).",
+    "[p1] will test the deployed clusterization feature.",
+    "[me] will return focus to working on Demography."
+  ]
+}

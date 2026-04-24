@@ -1,0 +1,21 @@
+{
+  "chat_id": "39eBBMAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 2,
+  "date_range": {
+    "start": "2025-08-29",
+    "end": "2025-08-29"
+  },
+  "message_count": 8,
+  "topic": "Discussion regarding blocked sales revenue",
+  "topic_slug": "discussion-regarding-blocked-sales-revenue",
+  "tags": [
+    "analytics"
+  ],
+  "summary_markdown": "The conversation was initiated to discuss an important topic related to a blockage preventing $20k in Brazil sales. The discussion was scheduled for 15 minutes later.",
+  "decisions": [],
+  "action_items": [
+    "Follow up with [p1] regarding the blocking issue affecting Brazil sales."
+  ]
+}

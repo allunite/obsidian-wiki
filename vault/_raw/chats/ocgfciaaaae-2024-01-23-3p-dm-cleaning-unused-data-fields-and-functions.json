@@ -1,0 +1,25 @@
+{
+  "chat_id": "oCgFCIAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2024-01-23",
+    "end": "2024-01-23"
+  },
+  "message_count": 26,
+  "topic": "Cleaning up unused data fields and functions",
+  "topic_slug": "cleaning-unused-data-fields-and-functions",
+  "tags": [
+    "analytics",
+    "session"
+  ],
+  "summary_markdown": "The discussion focused on cleaning up redundant code and database columns within the AllUnite system. Specifically, several unused fields (like `device_number_predicted`) were identified in the `allunite.device_session_agg_ml_2` table and agreed to be removed from insertion logic.\n\nAdditionally, multiple unused functions, including `get_facility_data` and others within `main.py`, were reviewed and scheduled for removal.",
+  "decisions": [
+    "Remove the redundant field `device_number_predicted` from the data insertion process into `allunite.device_session_agg_ml_2`.",
+    "Remove unused functions, specifically mentioning `get_facility_data`, from the codebase."
+  ],
+  "action_items": [
+    "Implement the removal of redundant fields and functions to ensure clean data insertion for tonight's run."
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "chat_id": "AAAA3frAfLA",
+  "kind": "Space",
+  "space_name": "Lidar Tech",
+  "participants": 8,
+  "date_range": {
+    "start": "2021-12-06",
+    "end": "2021-12-06"
+  },
+  "message_count": 10,
+  "topic": "Lidar video recording requirements and duration",
+  "topic_slug": "lidar-video-recording-requirements-and-duration",
+  "tags": [
+    "analytics",
+    "campaign"
+  ],
+  "summary_markdown": "The discussion focused on the technical specifications for required video footage related to Lidar observation. Initial confusion regarding installation vs. visit was clarified, noting that participants will visit an established location.\n\nRegarding the calibration video: \n*   It is not necessary to film for 5 minutes; a duration of 2 minutes is sufficient.\n*   The data package size is approximately 3 GB.\n*   A key requirement mentioned is capturing a full 360-degree view within one minute to provide context of the surrounding area.\n\nSomeone agreed to communicate that the recording should be done from a point offering a full view of the Lidar observation.",
+  "decisions": [
+    "Lidar calibration video duration reduced from 5 minutes to 2 minutes."
+  ],
+  "action_items": [
+    "Send message confirming recording must capture a full view of the lidar observation area."
+  ]
+}

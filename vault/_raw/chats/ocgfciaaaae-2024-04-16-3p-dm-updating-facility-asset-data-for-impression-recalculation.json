@@ -1,0 +1,25 @@
+{
+  "chat_id": "oCgFCIAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2024-04-16",
+    "end": "2024-04-16"
+  },
+  "message_count": 8,
+  "topic": "Updating facility asset data for impression recalculation",
+  "topic_slug": "updating-facility-asset-data-for-impression-recalculation",
+  "tags": [
+    "analytics",
+    "facility",
+    "impression"
+  ],
+  "summary_markdown": "The discussion centered on updating virtual facility assets to fix historical impression calculation errors. The required fields for the `_v_facility_asset` table include `network`, `surface`, `traffic_type`, and `facing_direction`. Data is currently compiled in a Google Sheet, with progress noted for specific companies (e.g., CC Finland). Someone agreed to generate SQL scripts directly from the Google Sheet to transfer these updates into the database, allowing another party to run staging recalculations before production deployment.",
+  "decisions": [
+    "The data collected in the Google Sheet will be used to update virtual facility assets in the database."
+  ],
+  "action_items": [
+    "Generate SQL scripts from the Google Sheet to transfer updated facility parameters into the database."
+  ]
+}

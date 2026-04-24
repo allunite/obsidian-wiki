@@ -1,0 +1,22 @@
+{
+  "chat_id": "nW_zkkAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2025-11-24",
+    "end": "2025-11-24"
+  },
+  "message_count": 11,
+  "topic": "Updating device session calibration records",
+  "topic_slug": "updating-device-session-calibration-records",
+  "tags": [
+    "analytics",
+    "recalc-ch"
+  ],
+  "summary_markdown": "The conversation focused on SQL scripts for managing `device_session_calibration_3` data. Initially, a script was provided to insert new calibration records using `ON CONFLICT DO UPDATE`. A second, explicit `UPDATE` statement was then reviewed and confirmed as the correct method for updating existing calibration data.",
+  "decisions": [
+    "The initial insertion/update script (`INSERT... ON CONFLICT DO UPDATE`) is acceptable for creating or updating records."
+  ],
+  "action_items": []
+}

@@ -1,0 +1,27 @@
+{
+  "chat_id": "y9IEDQAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2025-06-12",
+    "end": "2025-06-12"
+  },
+  "message_count": 33,
+  "topic": "Analyzing competitor data infrastructure and costs",
+  "topic_slug": "analyzing-competitor-data-infrastructure-and-costs",
+  "tags": [
+    "analytics",
+    "inventory",
+    "campaign",
+    "impression",
+    "dwell-time"
+  ],
+  "summary_markdown": "The discussion focused on the technical feasibility and cost of replicating a competitor's demographic data engine. The initial plan involved two parts: combining disparate provider data (low value) and addressing inefficient storage structures.\n\nRegarding the core infrastructure, [p1] questioned whether the costs associated with Snowflake could be significantly reduced by migrating to alternatives like ClickHouse or Apache Iceberg. \n\n[me] suggested that while a direct database swap is unlikely, processing the competitor's raw data using internal flows and implementing their methodologies would be feasible. It was noted that the competitor might not be as deeply tied to Snowflake as assumed, potentially using it merely as a warehouse while running core processes on other systems (e.g., Hadoop).\n\nTo gather necessary information for preliminary negotiations, [me] compiled a list of questions regarding the competitor's data architecture, including: \n*   Snowflake usage details (warehouse sizes/count, disk size).\n*   Data pipeline components (Kafka, files, connectors).\n*   Data volume metrics (compressed and uncompressed daily volumes).\n*   The degree of dependency on Snowflake (SQL vs. iterative code ratio).",
+  "decisions": [
+    "Focus efforts on processing competitor raw data internally rather than attempting a direct infrastructure migration."
+  ],
+  "action_items": [
+    "Draft questions for the competitor regarding their data retention, archiving process, daily/monthly data volume, and specific technical architecture (warehouse sizes, pipeline components)."
+  ]
+}

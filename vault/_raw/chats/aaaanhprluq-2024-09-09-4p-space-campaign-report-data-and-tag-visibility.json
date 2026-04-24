@@ -1,0 +1,22 @@
+{
+  "chat_id": "AAAAnhPRLUQ",
+  "kind": "Space",
+  "space_name": "Campaign reports improvements",
+  "participants": 4,
+  "date_range": {
+    "start": "2024-09-09",
+    "end": "2024-09-09"
+  },
+  "message_count": 3,
+  "topic": "Campaign report data and tag visibility",
+  "topic_slug": "campaign-report-data-and-tag-visibility",
+  "tags": [
+    "campaign",
+    "analytics"
+  ],
+  "summary_markdown": "The conversation confirmed that the current campaign setup, including airing period details, addresses, and specific points (4 and 7) being removed, is correct. A discussion point regarding tag visibility was addressed: planners should not see tags; they are intended only for exhibitors.",
+  "decisions": [
+    "Confirmed removal of points 4 and 7 from the campaign report."
+  ],
+  "action_items": []
+}

@@ -1,0 +1,25 @@
+{
+  "chat_id": "ws0mTkAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 2,
+  "date_range": {
+    "start": "2025-05-13",
+    "end": "2025-05-13"
+  },
+  "message_count": 19,
+  "topic": "Disabling modeling for specific inventory frames",
+  "topic_slug": "disabling-modeling-for-specific-inventory-frames",
+  "tags": [
+    "frame",
+    "analytics",
+    "campaign"
+  ],
+  "summary_markdown": "The discussion focused on preventing data modeling (forecasting) for certain inventory frames, particularly based on seasonal changes. Initially, it was suggested that setting `Is Active = false` and the frame status to `Suspended` would prevent data modeling. However, it was determined that even with these settings, the system might continue to model traffic as if a sensor were dead.\n\nTo address this, [p1] proposed implementing logic so that the combination of `Is Active = False` AND `frame status id = Suspended` explicitly prevents forecasting. [me] initially thought only `isActive = False` was sufficient but agreed that creating a ticket for this specific rule change is necessary.",
+  "decisions": [
+    "The system needs to be modified so that the combination of Is Active = False and frame status ID = Suspended prevents data modeling/forecasting."
+  ],
+  "action_items": [
+    "A ticket must be created to implement the logic preventing forecasting when a frame is inactive and suspended."
+  ]
+}

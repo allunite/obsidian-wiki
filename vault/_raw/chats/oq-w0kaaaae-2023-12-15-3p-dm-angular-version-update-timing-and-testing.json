@@ -1,0 +1,23 @@
+{
+  "chat_id": "oq-w0kAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2023-12-15",
+    "end": "2023-12-15"
+  },
+  "message_count": 6,
+  "topic": "Angular version update timing and testing",
+  "topic_slug": "angular-version-update-timing-and-testing",
+  "tags": [
+    "analytics"
+  ],
+  "summary_markdown": "A discussion occurred regarding updating to Angular 17. Someone advised waiting until a tester is available to write tests, as previous updates caused issues, and current bug injection was sufficient for testing. [me] agreed to send the Vex documentation/details for Angular 16+.",
+  "decisions": [
+    "Vex details (Angular 16+) will be sent."
+  ],
+  "action_items": [
+    "Wait until a tester is available before attempting major framework updates."
+  ]
+}

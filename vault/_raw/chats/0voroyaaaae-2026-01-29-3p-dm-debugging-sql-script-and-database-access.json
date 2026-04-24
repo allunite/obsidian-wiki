@@ -1,0 +1,21 @@
+{
+  "chat_id": "0VorOYAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2026-01-29",
+    "end": "2026-01-29"
+  },
+  "message_count": 15,
+  "topic": "Debugging SQL script and database access",
+  "topic_slug": "debugging-sql-script-and-database-access",
+  "tags": [
+    "analytics"
+  ],
+  "summary_markdown": "The conversation focused on debugging a provided SQL calibration script. Initial errors included `relation \"allunite_cluster\" does not exist` and later, an access denied error (`Not enough privileges`) requiring specific system grants to execute the query.\n\nSomeone confirmed that the issue was resolved by [me].",
+  "decisions": [
+    "The SQL script required debugging due to database relation and privilege errors."
+  ],
+  "action_items": []
+}

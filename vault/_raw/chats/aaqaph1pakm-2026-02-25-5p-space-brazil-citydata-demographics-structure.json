@@ -1,0 +1,21 @@
+{
+  "chat_id": "AAQAPH1pAKM",
+  "kind": "Space",
+  "space_name": "Group Chat",
+  "participants": 5,
+  "date_range": {
+    "start": "2026-02-25",
+    "end": "2026-02-25"
+  },
+  "message_count": 4,
+  "topic": "Brazil CityData demographics structure",
+  "topic_slug": "brazil-citydata-demographics-structure",
+  "tags": [
+    "analytics",
+    "facility",
+    "frame"
+  ],
+  "summary_markdown": "A discussion occurred regarding the format of demographic data from CityData for Brazil. The initial response indicated that the data is stored using `facility_master_num` and was loaded in a frame-based manner, referencing a join between `frame_dict` and `zone_id`. Another participant provided documentation suggesting the demographics are structured by zones around frames, specifically mentioning 'Aggregation by zone'.",
+  "decisions": [],
+  "action_items": []
+}

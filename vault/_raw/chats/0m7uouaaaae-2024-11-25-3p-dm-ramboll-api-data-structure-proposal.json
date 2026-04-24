@@ -1,0 +1,24 @@
+{
+  "chat_id": "0m7UOUAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2024-11-25",
+    "end": "2024-11-25"
+  },
+  "message_count": 3,
+  "topic": "Ramboll API data structure proposal",
+  "topic_slug": "ramboll-api-data-structure-proposal",
+  "tags": [
+    "analytics",
+    "inventory"
+  ],
+  "summary_markdown": "A proposal was made for structuring the Ramboll API ticket. The proposed structure includes two main components:\n\n1. **Traffic by link:** Collecting data per link and storing it in ClickHouse, with versioning capability based on the loading date.\n2. **Aggregated traffic:** Storing aggregated traffic and demographics across links that complete a full circle around the frame's visibility cone. AllUnite will provide the specific links for this aggregation. This component also requires versioning by loading date.",
+  "decisions": [
+    "The proposed data structure for the Ramboll API ticket was agreed upon."
+  ],
+  "action_items": [
+    "Someone needs to write up the detailed specification (ticket) based on the agreed-upon structure."
+  ]
+}

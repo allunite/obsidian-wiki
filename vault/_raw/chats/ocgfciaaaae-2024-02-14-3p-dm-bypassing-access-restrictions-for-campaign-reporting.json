@@ -1,0 +1,29 @@
+{
+  "chat_id": "oCgFCIAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2024-02-14",
+    "end": "2024-02-14"
+  },
+  "message_count": 20,
+  "topic": "Bypassing access restrictions for campaign reporting",
+  "topic_slug": "bypassing-access-restrictions-for-campaign-reporting",
+  "tags": [
+    "analytics",
+    "frame",
+    "impression",
+    "inventory",
+    "campaign"
+  ],
+  "summary_markdown": "The discussion focused on modifying the reporting logic to calculate statistics for frames that a user might not have direct access to (i.e., those visible through a public campaign view). The current security restrictions prevent this calculation, requiring a method to bypass or manage these rights within the data query.\n\n**Proposed Solution:** Instead of relying on complex and fragile workarounds, it was suggested to implement the logic change within existing company restriction classes (like `SqlCompanyRestriction`). This would involve creating methods such as `getWhereCompanyAll(isCompanyFilterDisabled)` to control whether access rights are considered during data retrieval.\n\nThe goal is to simplify the security implementation by consolidating rules and potentially utilizing parameterized views or aggregating on a specific date/time granularity (`agg_5`).",
+  "decisions": [
+    "The reporting logic will be modified to bypass standard user access restrictions for calculating total traffic statistics in public campaign reports.",
+    "The technical implementation should focus on modifying company restriction classes rather than using global workarounds."
+  ],
+  "action_items": [
+    "Rebuild the feature/branch using the Company Restriction logic.",
+    "Simplify and consolidate security rules, potentially by utilizing parameterized views or aggregating data to `agg_5`."
+  ]
+}

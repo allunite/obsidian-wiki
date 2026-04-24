@@ -1,0 +1,19 @@
+{
+  "chat_id": "kRmJN4AAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 2,
+  "date_range": {
+    "start": "2022-08-10",
+    "end": "2022-08-10"
+  },
+  "message_count": 7,
+  "topic": "Review of recent project work hours",
+  "topic_slug": "review-recent-project-work-hours",
+  "tags": [
+    "analytics"
+  ],
+  "summary_markdown": "The conversation involved the submission of a detailed log summarizing work performed across multiple projects and dates. The logged time includes: 16 hours on corporate web and AllUnite; 8 hours on the Allunite project (May 15 - May 26); 42 hours on the Allunite project for chart migration, bug fixes, and optimization (June 10 - June 24); and additional time logged in July/August related to image management, airport page development (routes, components, sunkey diagram), and general work.\n\nThe total billed amounts mentioned are $1,320.00 for a period ending July 22, 2022, and $200.00 for a period starting August 2, 2022.",
+  "decisions": [],
+  "action_items": []
+}

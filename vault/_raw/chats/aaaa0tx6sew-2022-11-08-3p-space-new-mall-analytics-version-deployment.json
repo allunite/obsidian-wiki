@@ -1,0 +1,24 @@
+{
+  "chat_id": "AAAA0tx6sew",
+  "kind": "Space",
+  "space_name": "Group Chat",
+  "participants": 3,
+  "date_range": {
+    "start": "2022-11-08",
+    "end": "2022-11-08"
+  },
+  "message_count": 5,
+  "topic": "New mall analytics version deployment",
+  "topic_slug": "new-mall-analytics-version-deployment",
+  "tags": [
+    "analytics",
+    "facility"
+  ],
+  "summary_markdown": "The speaker shared a staging link for the 0.14.10 version of the mall analytics dashboard, noting that it provides a newly recalculated total for malls using a cluster sample basis.\n\nLater, the speaker confirmed that the version was deployed and asked others to check the footer for verification.",
+  "decisions": [
+    "The new mall analytics version (0.14.10) is available on staging."
+  ],
+  "action_items": [
+    "Participants should visit the provided staging link and verify the version number in the dashboard footer."
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "chat_id": "i6YI1QAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 2,
+  "date_range": {
+    "start": "2024-01-25",
+    "end": "2024-01-25"
+  },
+  "message_count": 5,
+  "topic": "Discussing sensor traffic forecast issue",
+  "topic_slug": "discussing-sensor-traffic-forecast-issue",
+  "tags": [
+    "analytics"
+  ],
+  "summary_markdown": "The conversation initiated by [me] concerns an error in the forecast, noting that offline sensor traffic has grown significantly over the past month. A call is needed to discuss how to fix this issue.",
+  "decisions": [
+    "A meeting was scheduled before lunch to discuss the forecasting discrepancy."
+  ],
+  "action_items": [
+    "Schedule a follow-up call to address the sensor traffic forecast error."
+  ]
+}

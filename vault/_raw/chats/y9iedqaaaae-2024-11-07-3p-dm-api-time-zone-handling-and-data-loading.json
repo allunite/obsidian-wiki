@@ -1,0 +1,25 @@
+{
+  "chat_id": "y9IEDQAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2024-11-07",
+    "end": "2024-11-07"
+  },
+  "message_count": 24,
+  "topic": "API time zone handling and data loading",
+  "topic_slug": "api-time-zone-handling-and-data-loading",
+  "tags": [
+    "analytics",
+    "impression"
+  ],
+  "summary_markdown": "The conversation addressed the standard practice of returning timestamps in UTC via the API. While an internal report uses analytics data that allows for time zone specification, the core API remains strictly set to UTC.\n\nSeparately, a large SQL script was shared and discussed for loading external traffic data into `allunite.raw_lam_input_null`. The initial proposed run time of 2:00 AM was adjusted by someone to 4:00 AM UTC for greater certainty. [p1] later confirmed attempts to run the load process for testing purposes, with discussions covering running tests for previous dates and entire months.",
+  "decisions": [
+    "API timestamps are standardized to UTC",
+    "The external data loading job will be scheduled for 4:00 AM UTC"
+  ],
+  "action_items": [
+    "[p1] to run the SQL script/data load process (for testing purposes)"
+  ]
+}

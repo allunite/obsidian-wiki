@@ -1,0 +1,25 @@
+{
+  "chat_id": "y9IEDQAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2024-06-20",
+    "end": "2024-06-20"
+  },
+  "message_count": 18,
+  "topic": "Disabling captive portal via core API",
+  "topic_slug": "disabling-captive-portal-via-core-api",
+  "tags": [
+    "analytics",
+    "campaign",
+    "inventory"
+  ],
+  "summary_markdown": "The discussion focused on how to disable a captive portal. It was determined that the functionality could be controlled via the core API, specifically using a PUT request to update the portal settings.\n\n[p1] requested assistance disabling the captive portal for Joe&TheJuice (JJ) because the core API returned captive portal data during a ping call. A sample cURL method was provided showing how to set `enabled=\"bool\"` to disable it.\n\nAfter attempting the process, [me] reported that the initial attempt using the provided ID failed with a 404 error but later confirmed that the feature appeared to be disabled.",
+  "decisions": [
+    "The captive portal was successfully disabled."
+  ],
+  "action_items": [
+    "[p1] will check if the captive portal is now disabled."
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "chat_id": "AAAA3oghITo",
+  "kind": "Space",
+  "space_name": "Кабаны",
+  "participants": 4,
+  "date_range": {
+    "start": "2022-02-21",
+    "end": "2022-02-21"
+  },
+  "message_count": 18,
+  "topic": "Bluetooth MAC address analysis and testing",
+  "topic_slug": "bluetooth-mac-address-analysis-and-testing",
+  "tags": [
+    "analytics",
+    "session",
+    "mops"
+  ],
+  "summary_markdown": "The discussion focused on the technical feasibility of analyzing Bluetooth data, specifically MAC addresses. Initial concerns were raised regarding the difficulty of extracting useful insights from raw Bluetooth signals due to potential randomization (MAC spoofing). It was suggested that placing a sensor in an empty area and monitoring phone activity over time could help understand how MAC addresses behave. Testing was conducted using a scanner, which successfully detected multiple nearby phones' MAC addresses. The conversation touched upon historical research (2017) regarding MAC address changes and the possibility of identifying real versus spoofed MACs based on algorithms. A specific test was proposed to check if MAC addresses change after physical separation (e.g., moving a phone 50 meters away).",
+  "decisions": [
+    "A test is needed to determine if Bluetooth MAC addresses change after significant distance or time."
+  ],
+  "action_items": [
+    "[p1] will attempt to scan phones at the HeroBayze location for further analysis."
+  ]
+}

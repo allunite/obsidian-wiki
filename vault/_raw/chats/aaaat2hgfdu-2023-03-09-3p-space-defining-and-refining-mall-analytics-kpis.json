@@ -1,0 +1,30 @@
+{
+  "chat_id": "AAAAt2hGfdU",
+  "kind": "Space",
+  "space_name": "Group Chat",
+  "participants": 3,
+  "date_range": {
+    "start": "2023-03-09",
+    "end": "2023-03-09"
+  },
+  "message_count": 53,
+  "topic": "Defining and refining mall analytics KPIs",
+  "topic_slug": "defining-and-refining-mall-analytics-kpis",
+  "tags": [
+    "analytics",
+    "dwell-time",
+    "session",
+    "impression",
+    "inventory"
+  ],
+  "summary_markdown": "The discussion focused on defining key performance indicators (KPIs) for mall analytics. Several metrics were refined:\n\n*   **Sensor Count:** The metric should be named 'Total number of sensors (mall)' to accurately reflect the total count of AllUnite sensors in the mall.\n*   **Traffic/Visits Frequency:** It was agreed that two frequency calculations should be retained, and the 2-hour gap calculation should be removed. For better value, metrics like 'total traffic / unique traffic' were suggested for analysis over a whole period (e.g., weekly basis).\n*   **Data Presentation:** The team decided to limit frequency reporting to two decimal places.\n\nThe discussion concluded with planning for the release of new mall analytics metrics.",
+  "decisions": [
+    "The metric name for sensor count will be 'Total number of sensors (mall)'.",
+    "Only two frequency calculations should be retained, and the 2-hour gap calculation must be removed.",
+    "Frequency reporting should be limited to two decimal places."
+  ],
+  "action_items": [
+    "Write to Klepierre regarding new data and metrics for Mall Analytics before release.",
+    "Plan the release of new mall analytics metrics, including showing graphs."
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "chat_id": "i6YI1QAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 2,
+  "date_range": {
+    "start": "2021-11-24",
+    "end": "2021-11-24"
+  },
+  "message_count": 27,
+  "topic": "SQL data source factor calculation bug",
+  "topic_slug": "sql-data-source-factor-calculation-bug",
+  "tags": [
+    "analytics",
+    "campaign",
+    "impression"
+  ],
+  "summary_markdown": "A bug was identified in the SQL data source model regarding how the partner factor is calculated. The current logic for calculating the session factor uses a `coalesce` statement that sequentially checks factors for facility, master, and company levels, but it misses the specific step for the 'partner' (HQ/JCD) level.\n\nThe proposed fix involves modifying the `coalesce` structure to include an additional check using `device_session_factor_company_3` specifically targeting the partner number (`company_partner_3`) before falling back to the default factor.",
+  "decisions": [
+    "The SQL logic for calculating the session factor needs modification to correctly account for the 'partner' level."
+  ],
+  "action_items": [
+    "Review and implement the corrected SQL code snippet for the data source model."
+  ]
+}

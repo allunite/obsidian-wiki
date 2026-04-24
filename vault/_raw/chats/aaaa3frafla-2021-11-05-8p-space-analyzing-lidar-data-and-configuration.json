@@ -1,0 +1,26 @@
+{
+  "chat_id": "AAAA3frAfLA",
+  "kind": "Space",
+  "space_name": "Lidar Tech",
+  "participants": 8,
+  "date_range": {
+    "start": "2021-11-05",
+    "end": "2021-11-05"
+  },
+  "message_count": 31,
+  "topic": "Analyzing 2D Lidar data and configuration",
+  "topic_slug": "analyzing-lidar-data-and-configuration",
+  "tags": [
+    "analytics",
+    "inventory",
+    "loop"
+  ],
+  "summary_markdown": "The discussion focused on analyzing the performance of a 2D Lidar unit, specifically noting discrepancies in its readings. Concerns were raised about potential issues with zone configuration and data recording methods (replaying old vs. re-recording). The team reviewed metrics like empty session distribution across columns and analyzed speed consistency across lanes.\n\nSpecific technical points included:\n*   Reviewing the `max_range` parameter (set to 16.0 meters) in the sensor configuration, which was questioned regarding its relevance for zones less than 20 meters.\n*   A suggestion was made that the Lidar performs well detecting dark objects at 10 meters and white objects up to 40 meters.\n\nRegarding data processing, a proposal was made to send object distance data to the server and apply a 'magic coefficient' based on the number of dark vehicles detected. This would allow for scaling the collected data proportionally to the density of dark cars at long distances.",
+  "decisions": [
+    "The team agreed that the Lidar unit needs further testing regarding its zone configuration and range parameters."
+  ],
+  "action_items": [
+    "Someone should test the device using provided credentials (8012) and analyze the zones/configs.",
+    "Implement sending object distance data to the server and applying a coefficient based on dark vehicle count for scaling long-distance data."
+  ]
+}

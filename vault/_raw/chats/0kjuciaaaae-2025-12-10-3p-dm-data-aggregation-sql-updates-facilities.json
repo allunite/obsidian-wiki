@@ -1,0 +1,25 @@
+{
+  "chat_id": "0kjuCiAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2025-12-10",
+    "end": "2025-12-10"
+  },
+  "message_count": 12,
+  "topic": "Data aggregation and SQL updates for facilities",
+  "topic_slug": "data-aggregation-sql-updates-facilities",
+  "tags": [
+    "analytics",
+    "facility"
+  ],
+  "summary_markdown": "The discussion focused on deploying two data tasks: 1) An aggregation script for `company_num = 7978` across specific facilities (`48080`, `48081`, `48083`) where the screen number is greater than 1, intended for staging. 2) Updating the `get_cluster_frequency.sql` query with specific multipliers (1.48 for facility 48080 and 1.53 for facility 48081). [me] confirmed that these tasks were not previously implemented for the stage environment.\n\n[p1] provided a link to an existing task in ClickUp, which was deemed helpful by [me].",
+  "decisions": [
+    "The aggregation script and SQL updates are intended for the staging environment.",
+    "A specific task/ticket needs to be created or referenced within ClickUp."
+  ],
+  "action_items": [
+    "[p1] will create a ticket in ClickUp, potentially referencing previous similar tasks if necessary."
+  ]
+}

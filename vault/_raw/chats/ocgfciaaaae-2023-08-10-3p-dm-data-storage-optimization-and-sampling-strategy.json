@@ -1,0 +1,27 @@
+{
+  "chat_id": "oCgFCIAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2023-08-10",
+    "end": "2023-08-10"
+  },
+  "message_count": 17,
+  "topic": "Data storage optimization and sampling strategy",
+  "topic_slug": "data-storage-optimization-and-sampling-strategy",
+  "tags": [
+    "analytics",
+    "inventory",
+    "session"
+  ],
+  "summary_markdown": "The discussion focused on optimizing data storage, specifically addressing the rapid growth of `device_number_uniq` fields and overall data volume in the sandbox environment. It was noted that removing full unique identifiers (`full uniques`) and other specified fields will significantly reduce storage load.\n\nRegarding sampling, it was confirmed that random data samples are currently applied across all areas except for aggregates. While using sample-based aggregates is possible, it would only be necessary if real-time recalculation becomes unmanageable.\n\nThe conversation also touched upon the use of `owner_type_upper` in primary keys and general query design, noting that while the field exists in key structures, its practical usage in standard queries was questioned.",
+  "decisions": [
+    "Full unique identifiers will be removed from storage soon.",
+    "Compression improvements are planned using a new Primary Key (PK)."
+  ],
+  "action_items": [
+    "Implement the removal of full uniques and other specified fields.",
+    "Address Brazil's unique identifier issue with an alternative vendor sample."
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "chat_id": "mc7V3MAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 2,
+  "date_range": {
+    "start": "2024-09-20",
+    "end": "2024-09-20"
+  },
+  "message_count": 5,
+  "topic": "Data format preference for data exchange",
+  "topic_slug": "data-format-preference-for-data-exchange",
+  "tags": [
+    "analytics"
+  ],
+  "summary_markdown": "The participants discussed preferred formats for exchanging data. Both JSON and CSV were deemed acceptable, with a slight preference noted for JSON due to its ability to support non-tabular data structures.",
+  "decisions": [
+    "Both JSON and CSV formats are acceptable for data exchange."
+  ],
+  "action_items": []
+}

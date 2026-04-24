@@ -1,0 +1,24 @@
+{
+  "chat_id": "nW_zkkAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2025-01-07",
+    "end": "2025-01-07"
+  },
+  "message_count": 17,
+  "topic": "Updating frequency formula for client",
+  "topic_slug": "updating-frequency-formula-for-client",
+  "tags": [
+    "analytics",
+    "campaign"
+  ],
+  "summary_markdown": "A specific frequency calculation formula was requested and implemented by [me] for a client (Tractor). The new formula is: 5.75 * (getFrequency_BR(facilityNumber, dayNumber) - 1) + 1. This change needs to be applied universally ('всюди').",
+  "decisions": [
+    "The frequency calculation formula was updated as requested."
+  ],
+  "action_items": [
+    "None"
+  ]
+}

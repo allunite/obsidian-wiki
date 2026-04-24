@@ -1,0 +1,31 @@
+{
+  "chat_id": "oCgFCIAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2022-12-08",
+    "end": "2022-12-08"
+  },
+  "message_count": 38,
+  "topic": "Data logging and component structure planning",
+  "topic_slug": "data-logging-and-component-structure-planning",
+  "tags": [
+    "analytics",
+    "inventory",
+    "facility",
+    "frame",
+    "status"
+  ],
+  "summary_markdown": "The discussion focused heavily on architectural decisions for data handling, component structure, and logging within the platform.\n\n**Component Structure:** A preference was established for implementing a general layout with separate JSON Forms embedded in tabs. Specifically, it was suggested having three main tabs (main, administration, frames), with dedicated forms for each frame to improve modularity and prevent excessive custom logic on the page.\n\n**Data Logging & Tracking:** The need to log changes (change tracking) for facility assets and frames was emphasized. It was decided that logging should capture granular differences between old and new data structures rather than just dumping raw values. To support this, it was agreed that change logs must include a unique ID for the frame (`id_h`) in addition to existing IDs.\n\n**Status Change Handling:** The method for tracking status changes (e.g., on frames) was reviewed. While initial plans involved real-time notifications upon status change, the requirement shifted to batch processing via daily tasks that send a list of changed frames/statuses. This makes robust logging critical.\n\n**Technical Implementation:** For configuration settings and data storage, it was noted that existing locations include Mops and KPI-Lambda. The team agreed on using explicit storage mechanisms (like dedicated fields in the inventory save) rather than relying solely on database triggers for change tracking.",
+  "decisions": [
+    "Implement a general layout with separate JSON Forms embedded in tabs for modularity.",
+    "Each frame should have its own dedicated form structure within the 'frames' tab.",
+    "Change logging must capture granular differences (diff) between old and new data structures, not just raw values.",
+    "The change log mechanism must include a unique ID for the frame (`id_h`) to facilitate tracking across different modules."
+  ],
+  "action_items": [
+    "Provide a JSON form breakdown if component splitting is approved.",
+    "Continue planning and implementing asset logging within the inventory system, ensuring granular diff capture for faces/frames."
+  ]
+}

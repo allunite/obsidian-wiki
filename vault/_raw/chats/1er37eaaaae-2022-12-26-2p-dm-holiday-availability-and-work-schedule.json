@@ -1,0 +1,17 @@
+{
+  "chat_id": "1er37EAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 2,
+  "date_range": {
+    "start": "2022-12-26",
+    "end": "2022-12-26"
+  },
+  "message_count": 11,
+  "topic": "Holiday availability and work schedule",
+  "topic_slug": "holiday-availability-and-work-schedule",
+  "tags": [],
+  "summary_markdown": "The conversation primarily concerns holiday schedules. It was confirmed that while many team members are on leave, the general working days remain active. [me] confirmed availability for questions and provided calendar updates regarding vacation time.",
+  "decisions": [],
+  "action_items": []
+}

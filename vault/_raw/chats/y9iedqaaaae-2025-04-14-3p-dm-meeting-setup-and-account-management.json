@@ -1,0 +1,26 @@
+{
+  "chat_id": "y9IEDQAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2025-04-14",
+    "end": "2025-04-14"
+  },
+  "message_count": 58,
+  "topic": "Meeting setup and account management",
+  "topic_slug": "meeting-setup-and-account-management",
+  "tags": [
+    "analytics",
+    "campaign",
+    "inventory"
+  ],
+  "summary_markdown": "The participants discussed technical tasks, including the completion of work for UK (presumably a campaign or inventory item) and managing data volumes/disks. A meeting was scheduled for the next day involving all three parties to review a bot's functionality and gather feedback from someone named Esben.\n\nSeparately, there was discussion regarding professional development: \n*   The participants reviewed an online course on creative thinking techniques (Coursera). Someone offered to pay for the course or provide a year of paid access.\n*   A detailed invoice was discussed for JetBrains tools (PyCharm and AI Pro), totaling $327.60 annually, which someone agreed to process.",
+  "decisions": [
+    "A meeting was scheduled for the next day involving all three participants to review a bot and gather feedback from Esben."
+  ],
+  "action_items": [
+    "Someone needs to send an invoice to Sveta for the Coursera course or JetBrains tools.",
+    "The data volumes/disks should be detached and deleted at the end of the day."
+  ]
+}

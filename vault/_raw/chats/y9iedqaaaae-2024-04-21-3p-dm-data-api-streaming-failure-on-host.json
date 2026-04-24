@@ -1,0 +1,22 @@
+{
+  "chat_id": "y9IEDQAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2024-04-21",
+    "end": "2024-04-21"
+  },
+  "message_count": 3,
+  "topic": "Data API streaming failure on host",
+  "topic_slug": "data-api-streaming-failure-on-host",
+  "tags": [
+    "analytics",
+    "impression"
+  ],
+  "summary_markdown": "The data API is failing when streaming large reports to the production host. Locally, the endpoint successfully streamed approximately 4 GB over about 10 minutes. However, on the host, the service restarts after serving only about 6 MB.\n\nThe issue appears related to memory consumption (observed at around 260 MB) leading to a crash. The problem was replicated using both local `curl` and from another machine (`ch04`).\n\nIt is suspected that the API might be buffering the streamed data for slow clients, raising questions about client speed or potential network shaping/throttling.",
+  "decisions": [],
+  "action_items": [
+    "Investigate memory consumption and streaming failure on the production host."
+  ]
+}

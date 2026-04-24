@@ -1,0 +1,25 @@
+{
+  "chat_id": "AAAAFPbiAdE",
+  "kind": "Space",
+  "space_name": "Group Chat",
+  "participants": 3,
+  "date_range": {
+    "start": "2023-06-09",
+    "end": "2023-06-09"
+  },
+  "message_count": 25,
+  "topic": "Mapping competitor data frame IDs",
+  "topic_slug": "mapping-competitor-data-frame-ids",
+  "tags": [
+    "analytics",
+    "inventory",
+    "campaign"
+  ],
+  "summary_markdown": "The discussion focused on how to map internal facility sensor data with competitor user frame IDs for comparative analytics. It was established that the necessary information is stored within `frame.data` in a JSON field.\n\nTechnical details were shared regarding accessing this data via SQL views (`v_frame`) and ODBC connections, confirming that both `user_frame_id` and `mapa_frame_id` are available fields.\n\nClarification was provided on the meaning of these IDs:\n*   **`user_frame_id`**: The ID used by a system (associated with 'Serjio's company') that generated data for the system being replaced/targeted.\n*   **`mapa_frame_id`**: An internal ID from the system being targeted/replaced.\n\nThe relationship between competitors was clarified: Ipsos is the parent company of MGE, and MapaOOH works with MGE data, serving as a Joint Industry Committee (JIC) for publishers in Brazil. Both `user_frame_id` and `mapa_frame_id` can be used for data matching.",
+  "decisions": [
+    "Both user_frame_id and mapa_frame_id can be used to map and compare competitor data."
+  ],
+  "action_items": [
+    "Someone needs to confirm the specific JSON field location within `frame.data` for accessing frame IDs."
+  ]
+}

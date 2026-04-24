@@ -1,0 +1,27 @@
+{
+  "chat_id": "y9IEDQAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2023-07-25",
+    "end": "2023-07-25"
+  },
+  "message_count": 29,
+  "topic": "Debugging data pipeline and monitoring issues",
+  "topic_slug": "debugging-data-pipeline-and-monitoring-issues",
+  "tags": [
+    "analytics",
+    "impression",
+    "session"
+  ],
+  "summary_markdown": "The conversation covered several technical issues. Initially, there was concern about the `raw seen` data not being available and monitoring systems failing to alert when box counts dropped significantly (more than 10% compared to the previous hour). It was suggested that a check should be implemented after recalculation (`recalc`) to ensure data exists for every past day's hours. Later, issues with Redis were discussed, specifically an `OOM command not allowed` error during login attempts involving 'mods'. The immediate action taken was restarting the `boxapi-workerdb` pods.",
+  "decisions": [
+    "Implement a check after recalculation to confirm data presence for all past hours",
+    "Restart the boxapi-workerdb pods"
+  ],
+  "action_items": [
+    "Investigate why raw seen data is unavailable and monitoring alerts failed",
+    "Write an email regarding project status (described as 'not completely messed up, just slightly underfilled')"
+  ]
+}

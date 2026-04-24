@@ -1,0 +1,22 @@
+{
+  "chat_id": "AAAAOcKWvdA",
+  "kind": "Space",
+  "space_name": "Delivery Coordination",
+  "participants": 14,
+  "date_range": {
+    "start": "2024-01-30",
+    "end": "2024-01-30"
+  },
+  "message_count": 13,
+  "topic": "Campaign zero values observed on production",
+  "topic_slug": "campaign-zero-values-observed-on-production",
+  "tags": [
+    "campaign",
+    "analytics"
+  ],
+  "summary_markdown": "Multiple participants reported observing 'zero' values within a campaign, initially causing concern. The issue was identified as being related to the 01 system component, specifically concerning the Tolina area. A colleague confirmed that the data stream had recovered and appeared operational.",
+  "decisions": [
+    "The zero value anomaly in the campaign data is resolved."
+  ],
+  "action_items": []
+}

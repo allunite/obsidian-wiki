@@ -1,0 +1,19 @@
+{
+  "chat_id": "wZDFB8AAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2026-04-01",
+    "end": "2026-04-01"
+  },
+  "message_count": 3,
+  "topic": "Data copy confirmation for Company 7966",
+  "topic_slug": "data-copy-confirmation-company-7966",
+  "tags": [
+    "analytics"
+  ],
+  "summary_markdown": "Someone asked [me] to confirm if data was copied from `device_session_fix` to `device_session` for Company 7966. [me] confirmed the action.",
+  "decisions": [],
+  "action_items": []
+}

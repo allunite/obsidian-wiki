@@ -1,0 +1,22 @@
+{
+  "chat_id": "AAAAy7Yj6Xo",
+  "kind": "Space",
+  "space_name": "IT",
+  "participants": 12,
+  "date_range": {
+    "start": "2021-08-20",
+    "end": "2021-08-20"
+  },
+  "message_count": 6,
+  "topic": "Sensor upgrades and firmware status",
+  "topic_slug": "sensor-upgrades-and-firmware-status",
+  "tags": [
+    "facility",
+    "analytics"
+  ],
+  "summary_markdown": "The conversation confirms that JCD upgraded their sensors. Specifically, 12 sensors in Germany and 1 sensor in Hong Kong were upgraded. As of the discussion date, all online sensors have been updated to firmware version 53. The upgrade was performed on July 28-29.",
+  "decisions": [
+    "JCD independently upgraded their sensors."
+  ],
+  "action_items": []
+}

@@ -1,0 +1,25 @@
+{
+  "chat_id": "rBfK7kAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 2,
+  "date_range": {
+    "start": "2023-11-28",
+    "end": "2023-11-28"
+  },
+  "message_count": 4,
+  "topic": "Sensor data and session processing status",
+  "topic_slug": "sensor-data-and-session-processing-status",
+  "tags": [
+    "analytics",
+    "session",
+    "frame"
+  ],
+  "summary_markdown": "Discussion regarding an issue where certain sensors displayed incorrect results due to session copying or linking. The process for resolving this issue was stalled in an unclear status (sometimes working, sometimes not working frame). [me] committed to prioritizing the fix today and expects progress within the day.",
+  "decisions": [
+    "The sensor data/session processing issue will be prioritized and addressed today."
+  ],
+  "action_items": [
+    "[me] will work on fixing the issue today."
+  ]
+}

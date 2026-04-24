@@ -1,0 +1,25 @@
+{
+  "chat_id": "y9IEDQAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2021-04-28",
+    "end": "2021-04-28"
+  },
+  "message_count": 8,
+  "topic": "Deployment plan for core services",
+  "topic_slug": "deployment-plan-for-core-services",
+  "tags": [
+    "campaign",
+    "analytics"
+  ],
+  "summary_markdown": "The discussion focused on the feasibility of redeploying the 'core' system. [p1] suggested this as a potential action, mentioning specific components like `sdk_`, `core-api`, and `ads-web`. It was decided that [p1] would prepare deployment scripts to facilitate a quick rebuild in the evening.",
+  "decisions": [
+    "Redeploying the core system is being considered.",
+    "[p1] will prepare deployment scripts for the core services."
+  ],
+  "action_items": [
+    "[p1] to prepare deployment scripts for core-api and ads-web."
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "chat_id": "AAAA7bIjfxQ",
+  "kind": "Space",
+  "space_name": "Ramboll data",
+  "participants": 5,
+  "date_range": {
+    "start": "2024-08-16",
+    "end": "2024-08-16"
+  },
+  "message_count": 5,
+  "topic": "Discussing next steps and planning",
+  "topic_slug": "discussing-next-steps-and-planning",
+  "tags": [],
+  "summary_markdown": "The participants agreed to discuss the next steps and draft a plan in 30 minutes, while the topic was still fresh.",
+  "decisions": [
+    "Schedule follow-up discussion for 30 minutes"
+  ],
+  "action_items": [
+    "Prepare initial plan/steps"
+  ]
+}

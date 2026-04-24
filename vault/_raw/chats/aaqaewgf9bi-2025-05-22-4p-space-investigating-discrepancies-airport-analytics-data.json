@@ -1,0 +1,27 @@
+{
+  "chat_id": "AAQAEWgF9BI",
+  "kind": "Space",
+  "space_name": "Group Chat",
+  "participants": 4,
+  "date_range": {
+    "start": "2025-05-22",
+    "end": "2025-05-22"
+  },
+  "message_count": 29,
+  "topic": "Investigating discrepancies in airport analytics data",
+  "topic_slug": "investigating-discrepancies-airport-analytics-data",
+  "tags": [
+    "analytics",
+    "impression",
+    "session",
+    "unique"
+  ],
+  "summary_markdown": "The team discussed discrepancies found in airport analytics data for Adani, specifically comparing the traffic dashboard to the dedicated airport analytics report for the period of April 22nd to April 26th. The initial concern was whether the difference indicated an IT issue.\n\nIt was determined that the discrepancy is likely due to how frequency and unique traffic are calculated:\n*   **Frequency Adjustment:** When the calculated frequency falls below 1, it is artificially set to 1 (as confirmed by [p3] and [p1]).\n*   **Cluster Traffic Logic:** To prevent cluster sessions from being lower than device counts, the system sets `cluster traffic = unique traffic` if the former is less than the latter. This logic was necessary because continuous growth in unique traffic could lead to a situation where the number of cluster sessions falls below the number of devices.\n*   **Data Growth:** While there are observed increases in unique traffic, the team noted that increasing footfall artificially would exceed actual passenger flow. The consensus was that the increase in daily frequency is justified by a real increase in traffic.\n\nGiven that the client will be closely monitoring the platform over the next week and this project has implications for 8 new airports, solving the data discrepancy is critical.",
+  "decisions": [
+    "The team agreed to investigate and resolve the discrepancies in airport analytics data before the client's review period."
+  ],
+  "action_items": [
+    "Determine a method (e.g., randomized frequency within limits like -1.05 to 1.1, or using previous day averages) to stabilize the reported frequency and unique traffic metrics.",
+    "Provide an explanation of the data methodology for the client meeting."
+  ]
+}

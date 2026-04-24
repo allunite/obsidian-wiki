@@ -1,0 +1,22 @@
+{
+  "chat_id": "AAAA1vdtku4",
+  "kind": "Space",
+  "space_name": "DataTeam+",
+  "participants": 14,
+  "date_range": {
+    "start": "2024-04-16",
+    "end": "2024-04-16"
+  },
+  "message_count": 8,
+  "topic": "Impressions staging data aggregation plan",
+  "topic_slug": "impressions-staging-data-aggregation-plan",
+  "tags": [
+    "impression",
+    "analytics"
+  ],
+  "summary_markdown": "The session discussed an issue with impressions staging data that failed overnight. Someone mentioned a previous logic where recalculation continued even if the staging environment was down, and asked if this functionality could be applied to impressions, noting it might not currently work.\n\nLater, someone announced planned downtime for 'ch' (presumably a system or service), followed by confirmation that 'ch' was back online.",
+  "decisions": [
+    "The plan is to aggregate the production data for impressions."
+  ],
+  "action_items": []
+}

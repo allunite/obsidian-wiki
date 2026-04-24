@@ -1,0 +1,21 @@
+{
+  "chat_id": "nW_zkkAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2026-02-04",
+    "end": "2026-02-04"
+  },
+  "message_count": 12,
+  "topic": "Client presentation data preparation",
+  "topic_slug": "client-presentation-data-preparation",
+  "tags": [
+    "analytics"
+  ],
+  "summary_markdown": "A participant needed assistance with a client presentation scheduled shortly. The main task was to move or adjust the demographic data within the platform's cache view. This adjustment was requested because the existing setup was causing difficulty for someone else.",
+  "decisions": [
+    "The demographic data was successfully adjusted/moved."
+  ],
+  "action_items": []
+}

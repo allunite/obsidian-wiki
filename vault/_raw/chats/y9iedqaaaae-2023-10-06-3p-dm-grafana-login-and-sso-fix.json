@@ -1,0 +1,23 @@
+{
+  "chat_id": "y9IEDQAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2023-10-06",
+    "end": "2023-10-06"
+  },
+  "message_count": 14,
+  "topic": "Grafana login and SSO fix",
+  "topic_slug": "grafana-login-and-sso-fix",
+  "tags": [
+    "analytics"
+  ],
+  "summary_markdown": "The initial issue was that Grafana could not log in, only showing the welcome screen. One participant confirmed they caused the issue while implementing Single Sign-On (SSO) and subsequently fixed it.\n\nA separate discussion point was whether Aerospike could be removed from use, as one participant noted its usage for caching within 'core'.",
+  "decisions": [
+    "Grafana login issue resolved by p1"
+  ],
+  "action_items": [
+    "p1 to implement Google SSO login over the weekend"
+  ]
+}

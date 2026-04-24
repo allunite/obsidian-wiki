@@ -1,0 +1,29 @@
+{
+  "chat_id": "y9IEDQAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2024-03-18",
+    "end": "2024-03-18"
+  },
+  "message_count": 175,
+  "topic": "Database storage and data retrieval optimization",
+  "topic_slug": "database-storage-and-data-retrieval-optimization",
+  "tags": [
+    "analytics",
+    "inventory",
+    "loop",
+    "dwell-time",
+    "recalc-ch"
+  ],
+  "summary_markdown": "The conversation focused heavily on optimizing database storage and performance for analytics workloads. Initial discussions covered upgrading temporary disk capacity, suggesting a 100GB io2 volume with 250 iops to boost speed for recalculations (recalc-ch). The team decided to implement a high-performance temp disk using a 100GB gp3 volume with 3000 iops and 750MBps, which was determined to be cost-effective. Furthermore, the strategy for data retention was updated: cold storage volumes were migrated from standard to sc1 class for significant cost savings (from $22/month to $7/volume). Finally, discussions addressed potential connection timeouts when retrieving large datasets over extended periods, suggesting manual exports or increasing socket timeouts.",
+  "decisions": [
+    "Implement a 100GB gp3 temp disk with 3000 iops and 750MBps on the designated node (04).",
+    "Migrate cold storage volumes from standard to sc1 class for cost reduction."
+  ],
+  "action_items": [
+    "Investigate potential connection timeouts when querying large, historical datasets via data API.",
+    "Review and potentially increase socket timeout settings in the IDE."
+  ]
+}

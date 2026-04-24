@@ -1,0 +1,25 @@
+{
+  "chat_id": "AAAAaK7z8KI",
+  "kind": "Space",
+  "space_name": "Group Chat",
+  "participants": 5,
+  "date_range": {
+    "start": "2025-10-09",
+    "end": "2025-10-09"
+  },
+  "message_count": 12,
+  "topic": "Analytics query timeout and data retrieval issues",
+  "topic_slug": "analytics-query-timeout-data-retrieval-issues",
+  "tags": [
+    "analytics",
+    "impression",
+    "campaign"
+  ],
+  "summary_markdown": "The discussion centered on debugging an analytics query that is failing with a `ClickHouseError: Dictionary... timeout exceeded` when retrieving data for an entire month across all locations. It was noted that the error seems related to timeouts or memory limits during large report generation, particularly when querying frequency logs.\n\nParticipants discussed scenarios where requests might contain empty subqueries (e.g., in frequency queries) and observed inconsistencies, such as a successful monthly calculation on staging despite potential underlying data issues.\n\nIt was speculated that the failure occurs due to timeouts or memory constraints during large report generation, rather than being related to specific chart components.",
+  "decisions": [
+    "The root cause of the ClickHouse timeout error needs further investigation (suspected timeout/memory issue)."
+  ],
+  "action_items": [
+    "Investigate why the monthly data retrieval query is timing out in ClickHouse."
+  ]
+}

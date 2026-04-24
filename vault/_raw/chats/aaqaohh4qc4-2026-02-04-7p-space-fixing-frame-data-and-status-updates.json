@@ -1,0 +1,26 @@
+{
+  "chat_id": "AAQAohh4qc4",
+  "kind": "Space",
+  "space_name": "Bus Finland",
+  "participants": 7,
+  "date_range": {
+    "start": "2026-02-04",
+    "end": "2026-02-04"
+  },
+  "message_count": 9,
+  "topic": "Fixing frame data and status updates",
+  "topic_slug": "fixing-frame-data-and-status-updates",
+  "tags": [
+    "frame",
+    "analytics"
+  ],
+  "summary_markdown": "The conversation focused on technical issues related to retrieving specific frame numbers (num) for assets within the Bus Finland facility. Initially, [p1] noted that the frame data was missing the required number field despite having slot information.\n\n[p4] confirmed fixing the issue but identified a structural flaw: the frame number is only added during the second save operation, not the initial insertion. This bug will be logged and addressed.\n\nFurther discussions included ensuring that formal edits and platform rebuilds correctly update the data, as previous methods failed in this instance. Finally, [p1] requested setting the status of these frames to 'Ready' because they were currently null, preventing updates from the platform.",
+  "decisions": [
+    "A bug will be logged to ensure frame numbers are available upon initial insertion, not just subsequent saves.",
+    "The status for the affected frames will be updated to 'Ready'."
+  ],
+  "action_items": [
+    "[p4] needs time to implement and test the fix for the frame number data structure.",
+    "[p4] will also investigate displaying a zone ID (айдишник зоны) in the relevant view."
+  ]
+}

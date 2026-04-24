@@ -1,0 +1,22 @@
+{
+  "chat_id": "AAAAud4RJ_I",
+  "kind": "Space",
+  "space_name": "Group Chat",
+  "participants": 4,
+  "date_range": {
+    "start": "2024-04-19",
+    "end": "2024-04-19"
+  },
+  "message_count": 7,
+  "topic": "Data script readiness and new structure",
+  "topic_slug": "data-script-readiness-and-new-structure",
+  "tags": [
+    "analytics",
+    "campaign"
+  ],
+  "summary_markdown": "The conversation focused on the readiness of a SQL script designed to copy 1.5 years of data into production. It was confirmed that the script is ready and supports a new structure, specifically mentioning `agg_5`. A specific technical detail noted was the use of `ENGINE = Memory` during table creation.\n\nSomeone confirmed they had finalized and tested the script on the same day.",
+  "decisions": [
+    "The SQL script for data copying is approved to run."
+  ],
+  "action_items": []
+}

@@ -1,0 +1,28 @@
+{
+  "chat_id": "8GgAuwAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 2,
+  "date_range": {
+    "start": "2023-06-12",
+    "end": "2023-06-12"
+  },
+  "message_count": 40,
+  "topic": "WoCo facility data and reporting issues",
+  "topic_slug": "woco-facility-data-and-reporting-issues",
+  "tags": [
+    "facility",
+    "analytics",
+    "impression",
+    "dwell-time"
+  ],
+  "summary_markdown": "The conversation addressed several technical issues related to facility data for WoCo and general platform functionality. \n\n**WoCo Data:** Initial difficulty was reported finding specific facilities (Botanic Garden, Nyhaven) within the system.\n\n**Platform Bugs/Limitations:**\n*   A bug was noted where asset linking now connects to the Facility instead of the Box, which is a change from previous versions. The process for ensuring correct data linkage involves manually entering MAC addresses into assets for compatibility.\n*   The platform has a limit of 1000 elements when loading facility lists; this limit needs to be raised to accommodate all facilities (over 1254) for the involved companies, requiring a deployment update.\n\n**Reporting/Analytics:** Discussion covered discrepancies in unique visitor traffic reporting. The reported unique traffic was significantly higher than previous years' estimates and expectations, leading to questions about model reliability and raw data review.",
+  "decisions": [
+    "The platform limit for loading facility lists will be raised from 1000 elements to 10,000 (pending deployment).",
+    "A follow-up check was required on the WoCo child facilities/data."
+  ],
+  "action_items": [
+    "Investigate and fix the reported bug regarding facility data linkage.",
+    "Create a ticket detailing missing features in 'Modse' compared to Analytics, with suggested prioritization."
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "chat_id": "oq-w0kAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2024-01-09",
+    "end": "2024-01-09"
+  },
+  "message_count": 10,
+  "topic": "Equipment exchange and setup details",
+  "topic_slug": "equipment-exchange-and-setup-details",
+  "tags": [
+    "facility"
+  ],
+  "summary_markdown": "The conversation concerns the physical status of equipment at a location. [p1] inquired about retrieving items, specifically mentioning a monitor. Someone clarified that they had visited previously to exchange a monitor and router. They stated that the new monitor would be brought next time, and also needed the correct patch cord for the switch because the previous one did not work.",
+  "decisions": [],
+  "action_items": [
+    "Someone needs to bring the new monitor and the correct patch cord for the switch next time."
+  ]
+}

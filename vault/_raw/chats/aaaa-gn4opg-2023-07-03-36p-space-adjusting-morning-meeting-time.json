@@ -1,0 +1,21 @@
+{
+  "chat_id": "AAAA-gn4oPg",
+  "kind": "Space",
+  "space_name": "General and random",
+  "participants": 36,
+  "date_range": {
+    "start": "2023-07-03",
+    "end": "2023-07-03"
+  },
+  "message_count": 5,
+  "topic": "Adjusting morning meeting time",
+  "topic_slug": "adjusting-morning-meeting-time",
+  "tags": [
+    "analytics"
+  ],
+  "summary_markdown": "Due to conflicting schedules, including a meeting with Australia and the absence of Galina (who is on vacation), it was suggested that the morning meeting be rescheduled to 9:30 CET.",
+  "decisions": [
+    "Morning meeting time set for 9:30 CET."
+  ],
+  "action_items": []
+}

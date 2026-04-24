@@ -1,0 +1,20 @@
+{
+  "chat_id": "y9IEDQAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2023-06-01",
+    "end": "2023-06-01"
+  },
+  "message_count": 3,
+  "topic": "Session data removal feasibility check",
+  "topic_slug": "session-data-removal-feasibility-check",
+  "tags": [
+    "analytics",
+    "session"
+  ],
+  "summary_markdown": "A query was raised regarding the immediate deletion of session data and its potential impact on system stability. The discussion concluded with a decision to wait and assess the situation before taking any action.",
+  "decisions": [],
+  "action_items": []
+}

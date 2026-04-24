@@ -1,0 +1,25 @@
+{
+  "chat_id": "AAAA3oghITo",
+  "kind": "Space",
+  "space_name": "Кабаны",
+  "participants": 4,
+  "date_range": {
+    "start": "2022-01-24",
+    "end": "2022-01-24"
+  },
+  "message_count": 16,
+  "topic": "Data integrity and raw data handling",
+  "topic_slug": "data-integrity-and-raw-data-handling",
+  "tags": [
+    "analytics",
+    "inventory",
+    "campaign"
+  ],
+  "summary_markdown": "A discussion occurred regarding the completeness of historical raw device data stored in S3. One participant noted finding approximately 970 missing files for 2021 and provided a script to identify gaps in `raw_devices_seen`. The data appears complete for 2021, except for a small period where data loss is suspected.\n\nRegarding data processing, it was suggested that the raw seen data should not be cleaned up until disk space issues are resolved (potentially by another team member). Furthermore, there was a proposal to move the loading of ClickHouse data into S3 into a separate task, which would allow for easier error detection and isolation.\n\nSeparately, participants discussed repository management, with one agreeing to update the default repository settings in GitHub.",
+  "decisions": [
+    "The process for loading ClickHouse data into S3 should be separated into its own dedicated task."
+  ],
+  "action_items": [
+    "Update the default repository settings on GitHub (assigned to p3)."
+  ]
+}

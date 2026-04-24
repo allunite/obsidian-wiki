@@ -1,0 +1,26 @@
+{
+  "chat_id": "nW_zkkAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2024-08-23",
+    "end": "2024-08-23"
+  },
+  "message_count": 55,
+  "topic": "Analytics data discrepancies and fixes",
+  "topic_slug": "analytics-data-discrepancies-and-fixes",
+  "tags": [
+    "analytics",
+    "dwell-time",
+    "session"
+  ],
+  "summary_markdown": "The conversation covered several technical topics related to analytics reporting. Initially, the discussion focused on defining and implementing 'dwell time' metrics, ensuring consistency with impression calculations in reports and dashboards.\n\nLater, a specific issue was raised regarding discrepancies in unique counts for mall analytics across multiple clusters (2 out of 3).\n\n[me] provided a complex SQL query to calculate average dwell time per screen, which [p1] reviewed. The discussion then shifted back to the data integrity issue, where it was noted that the total unique count did not match expectations. It was agreed that this discrepancy needed investigation and potential fixing.",
+  "decisions": [
+    "The calculation method for 'dwell time' must be consistent with impression calculations in reports/dashboards."
+  ],
+  "action_items": [
+    "Investigate the unique count discrepancies observed in mall analytics across multiple clusters (2 out of 3).",
+    "Load data for companies 7600 and 7847 into the DS staging environment starting from 2024-01-01."
+  ]
+}

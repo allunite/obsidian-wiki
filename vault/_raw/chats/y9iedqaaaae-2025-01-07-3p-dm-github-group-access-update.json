@@ -1,0 +1,19 @@
+{
+  "chat_id": "y9IEDQAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2025-01-07",
+    "end": "2025-01-07"
+  },
+  "message_count": 4,
+  "topic": "GitHub group access update",
+  "topic_slug": "github-group-access-update",
+  "tags": [
+    "analytics"
+  ],
+  "summary_markdown": "The conversation concerns adding a user (Oksansem) to the data-scientists GitHub group. [me] informed others that Oksansem was added to the group. [p1] clarified that he had previously added her and she simply needed to accept an invitation, which she eventually did.",
+  "decisions": [],
+  "action_items": []
+}

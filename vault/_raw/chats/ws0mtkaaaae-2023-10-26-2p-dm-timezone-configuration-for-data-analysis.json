@@ -1,0 +1,23 @@
+{
+  "chat_id": "ws0mTkAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 2,
+  "date_range": {
+    "start": "2023-10-26",
+    "end": "2023-10-26"
+  },
+  "message_count": 5,
+  "topic": "Timezone configuration for data analysis",
+  "topic_slug": "timezone-configuration-for-data-analysis",
+  "tags": [
+    "analytics"
+  ],
+  "summary_markdown": "The conversation focused on correcting a timezone setting within ClickHouse. [me] provided a list of supported timezones and noted that the current SAST configuration was incorrect for South Africa (ЮАР). It was suggested that `Africa/Johannesburg` should be used instead. Later, [p1] confirmed reviewing the settings and stated they would fix the issue.",
+  "decisions": [
+    "The timezone setting needs to be corrected using a supported format like `Africa/Johannesburg`."
+  ],
+  "action_items": [
+    "[p1] will fix the SAST timezone configuration."
+  ]
+}

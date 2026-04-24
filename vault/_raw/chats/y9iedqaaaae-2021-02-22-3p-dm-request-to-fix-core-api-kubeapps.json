@@ -1,0 +1,21 @@
+{
+  "chat_id": "y9IEDQAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2021-02-22",
+    "end": "2021-02-22"
+  },
+  "message_count": 5,
+  "topic": "Request to fix core API kubeapps",
+  "topic_slug": "request-to-fix-core-api-kubeapps",
+  "tags": [
+    "analytics"
+  ],
+  "summary_markdown": "Someone asked [p1] to fix the kubeapps for the core API on the production namespace. The request included a specific URL.",
+  "decisions": [],
+  "action_items": [
+    "Fix the kubeapps for the core API."
+  ]
+}

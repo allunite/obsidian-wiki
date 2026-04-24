@@ -1,0 +1,27 @@
+{
+  "chat_id": "nW_zkkAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2024-08-02",
+    "end": "2024-08-02"
+  },
+  "message_count": 15,
+  "topic": "Data model and frequency formula updates",
+  "topic_slug": "data-model-and-frequency-formula-updates",
+  "tags": [
+    "analytics",
+    "session",
+    "campaign",
+    "loop"
+  ],
+  "summary_markdown": "Multiple data issues were addressed. First, for company 7932 in Malaysia, the session aggregation issue was resolved and confirmed as fixed.\nSecond, a new frequency formula was deployed to production (prod) and later updated on staging. The model build status was discussed; it was clarified that the `device_session_concept` model is used, not necessarily requiring a full rebuild if only session data was copied from `device_session_trusted`. \nFinally, the deployment of the frequency formula to staging was confirmed for the relevant campaign (7894).",
+  "decisions": [
+    "Session aggregation issue for company 7932 is fixed.",
+    "New frequency formula deployed to production and updated on staging."
+  ],
+  "action_items": [
+    "None specified."
+  ]
+}

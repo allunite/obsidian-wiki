@@ -1,0 +1,19 @@
+{
+  "chat_id": "y9IEDQAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2026-03-30",
+    "end": "2026-03-30"
+  },
+  "message_count": 19,
+  "topic": "Discussion of personal development projects",
+  "topic_slug": "discussion-of-personal-development-projects",
+  "tags": [
+    "analytics"
+  ],
+  "summary_markdown": "The conversation focused on a shared interest in technical projects. [me] reviewed a project link provided by [p1], which was identified as [p1]'s personal weekend project. The discussion concluded with general remarks about future development plans, including writing a JavaScript framework in Rust and the need for landing page promotion.",
+  "decisions": [],
+  "action_items": []
+}

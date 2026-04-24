@@ -1,0 +1,27 @@
+{
+  "chat_id": "nW_zkkAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2025-11-21",
+    "end": "2025-11-21"
+  },
+  "message_count": 59,
+  "topic": "Facility data structure and cluster changes",
+  "topic_slug": "facility-data-structure-and-cluster-changes",
+  "tags": [
+    "analytics",
+    "campaign",
+    "inventory",
+    "facility"
+  ],
+  "summary_markdown": "The discussion focused on discrepancies in facility data, specifically concerning how clusters were assigned to companies. It was noted that some cluster assignments may have been manually changed directly in the database rather than through the standard system process.\n\n*   **Data Discrepancy:** A potential issue was identified regarding a cluster's company ID being updated at different times (e.g., 10.10).\n*   **Session Data:** It was confirmed that while facility data may have been manually altered, the session records might not have been updated correspondingly during those changes.\n*   **Next Steps:** The participants agreed to review the scope of these manual database changes and determine if a full rewrite or update of the 2025 session data is necessary.",
+  "decisions": [
+    "The team will investigate the extent of cluster assignments that were manually changed in the database.",
+    "A meeting was scheduled to discuss category-specific details for an hour."
+  ],
+  "action_items": [
+    "Someone needs to create a list detailing which clusters were affected by manual changes."
+  ]
+}

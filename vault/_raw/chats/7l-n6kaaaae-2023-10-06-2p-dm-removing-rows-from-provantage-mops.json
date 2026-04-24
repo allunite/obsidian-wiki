@@ -1,0 +1,21 @@
+{
+  "chat_id": "7l_n6kAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 2,
+  "date_range": {
+    "start": "2023-10-06",
+    "end": "2023-10-06"
+  },
+  "message_count": 4,
+  "topic": "Removing rows from Provantage MOPs",
+  "topic_slug": "removing-rows-from-provantage-mops",
+  "tags": [
+    "mops"
+  ],
+  "summary_markdown": "Someone requested the removal of 8 specific rows within the Provantage system's mops data. [me] confirmed that this action would be taken.",
+  "decisions": [
+    "The 8 specified rows in Provantage MOPs will be deleted."
+  ],
+  "action_items": []
+}

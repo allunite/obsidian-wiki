@@ -1,0 +1,19 @@
+{
+  "chat_id": "oq-w0kAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2023-03-22",
+    "end": "2023-03-22"
+  },
+  "message_count": 5,
+  "topic": "Location details and office visit",
+  "topic_slug": "location-details-and-office-visit",
+  "tags": [
+    "facility"
+  ],
+  "summary_markdown": "One participant mentioned being in Kyiv until the end of the month, specifically at the Gulliver creative state location. The conversation included general discussion about office locations and views, noting that the 29th floor view from Gulliver was described as having a 'semi-rural' feel compared to the center.\n\nAnother participant mentioned visiting an office where they did not see [p1].",
+  "decisions": [],
+  "action_items": []
+}

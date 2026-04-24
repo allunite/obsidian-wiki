@@ -1,0 +1,24 @@
+{
+  "chat_id": "39eBBMAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 2,
+  "date_range": {
+    "start": "2025-01-13",
+    "end": "2025-01-13"
+  },
+  "message_count": 10,
+  "topic": "Adding demographics data for Viva Parks",
+  "topic_slug": "adding-demographics-data-for-viva-parks",
+  "tags": [
+    "analytics",
+    "facility"
+  ],
+  "summary_markdown": "The conversation concerns adding demographic information from Citydata to the platform specifically for Viva Parks. [p1] requested that this data, including details for Dona Lindu, be added by 10 am BRT the following day, as a training session was scheduled for 11 am BRT.\n[me] confirmed receiving the task and stated they would review it first, promising an update later. They subsequently confirmed that the provided data was excellent and committed to completing the work either that day or the next morning.",
+  "decisions": [
+    "Demographic data from Citydata will be added to the platform for Viva Parks."
+  ],
+  "action_items": [
+    "[me] to add demographics data (including Dona Lindu info) by tomorrow morning."
+  ]
+}

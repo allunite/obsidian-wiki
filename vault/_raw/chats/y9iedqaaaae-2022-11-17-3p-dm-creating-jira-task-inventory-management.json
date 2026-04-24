@@ -1,0 +1,23 @@
+{
+  "chat_id": "y9IEDQAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2022-11-17",
+    "end": "2022-11-17"
+  },
+  "message_count": 18,
+  "topic": "Creating Jira task for inventory management",
+  "topic_slug": "creating-jira-task-inventory-management",
+  "tags": [
+    "inventory"
+  ],
+  "summary_markdown": "The conversation focused on the proper location within Jira to create a task. It was determined that tasks related to 'JJ' (Joe&TheJuice) Macs and monitoring tokens should be placed in the 'Todo' section under the Inventory Management project, rather than the backlog.\n\nLater, [p1] offered to create an endpoint on boxdataapi.",
+  "decisions": [
+    "Tasks for JJ Macs and monitoring tokens will be created in the Todo section of the Inventory Management Jira project."
+  ],
+  "action_items": [
+    "None"
+  ]
+}

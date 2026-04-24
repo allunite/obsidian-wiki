@@ -1,0 +1,27 @@
+{
+  "chat_id": "0VorOYAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2024-09-13",
+    "end": "2024-09-13"
+  },
+  "message_count": 13,
+  "topic": "Forecasting data requirements and system details",
+  "topic_slug": "forecasting-data-requirements-and-system-details",
+  "tags": [
+    "analytics",
+    "facility",
+    "session"
+  ],
+  "summary_markdown": "The discussion covered the need for historical data beyond the initial recording period (e.g., needing data from August 2023 instead of October 2023). It was agreed that an inverted forecast should be generated retroactively if possible, or a clear explanation must be provided if it is not feasible.\n\nA detailed discussion occurred regarding the forecasting algorithm for offline facilities. The system was noted to have been released in Brazil on September 4, 2023, and expanded to all locations by December 21, 2023. It automatically provides continuous predictions but only applies to locations that were offline for 30 days or less at the time of introduction.\n\nRegarding data gaps, it was clarified that while a retroactive forecast can be generated, alignment is needed on whether these missing periods should be recreated on the dashboard or simply uploaded to Datacorp. \n\nFinally, sessions for the first two tabs were prepared and will be aggregated into a separate dataset (7885), including `device_session_archive`.",
+  "decisions": [
+    "An inverted forecast is required retroactively for facilities needing historical data from August 2023.",
+    "The forecasting algorithm's application to offline locations requires confirmation on whether missing periods should be recreated on the dashboard or uploaded directly to Datacorp."
+  ],
+  "action_items": [
+    "Generate sessions for the first two tabs and aggregate them into a separate dataset (7885), including device_session_archive.",
+    "Follow up with stakeholders regarding the required scope and period of data restoration for locations offline for more than 30 days."
+  ]
+}

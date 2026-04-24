@@ -1,0 +1,19 @@
+{
+  "chat_id": "nW_zkkAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2024-11-05",
+    "end": "2024-11-05"
+  },
+  "message_count": 6,
+  "topic": "Footfall data availability update",
+  "topic_slug": "footfall-data-availability-update",
+  "tags": [
+    "analytics"
+  ],
+  "summary_markdown": "Someone informed [p1] that footfall data for the network is available in the production dataset starting from 2024-07-01. This was acknowledged by [p1].",
+  "decisions": [],
+  "action_items": []
+}

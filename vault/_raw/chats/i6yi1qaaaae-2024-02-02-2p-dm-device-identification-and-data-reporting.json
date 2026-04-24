@@ -1,0 +1,25 @@
+{
+  "chat_id": "i6YI1QAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 2,
+  "date_range": {
+    "start": "2024-02-02",
+    "end": "2024-02-02"
+  },
+  "message_count": 9,
+  "topic": "Device identification and data reporting",
+  "topic_slug": "device-identification-and-data-reporting",
+  "tags": [
+    "analytics",
+    "impression"
+  ],
+  "summary_markdown": "The conversation focused on technical details regarding device tracking and data completeness. Specifically, [p1] requested clarification on how 'trusted' MAC addresses are determined and asked for a detailed breakdown of the MAC addresses associated with specific locations (localities). This was prompted because external parties questioned the scope of visible devices, suggesting only 5% were accounted for. Additionally, someone reviewed their ML model responses concerning feature engineering from various data sources to ensure consistency with [p1]'s findings and avoid contradictions.",
+  "decisions": [
+    "A detailed list/description of MAC addresses linked to specific localities will be provided."
+  ],
+  "action_items": [
+    "Clarify the technical method for determining 'trusted' MAC addresses.",
+    "Review ML model responses regarding feature engineering for consistency with device data reporting."
+  ]
+}

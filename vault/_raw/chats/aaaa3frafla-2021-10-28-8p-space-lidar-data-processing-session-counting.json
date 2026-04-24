@@ -1,0 +1,29 @@
+{
+  "chat_id": "AAAA3frAfLA",
+  "kind": "Space",
+  "space_name": "Lidar Tech",
+  "participants": 8,
+  "date_range": {
+    "start": "2021-10-28",
+    "end": "2021-10-28"
+  },
+  "message_count": 121,
+  "topic": "Lidar data processing and session counting",
+  "topic_slug": "lidar-data-processing-session-counting",
+  "tags": [
+    "analytics",
+    "campaign",
+    "inventory",
+    "session"
+  ],
+  "summary_markdown": "The discussion focused heavily on the methodology for calculating traffic metrics, specifically session counts and speed.\n\n**Data Processing:** The team reviewed Lidar data streams, noting issues with consistent traffic visibility and required mapping of facility IDs. Several scripts were shared and discussed (e.g., `Process-LidarData.ps1`), focusing on processing historical or incomplete data sets.\n\n**Metrics Calculation:** A key area of discussion was the calculation of session duration and vehicle density. It was determined that speed calculations should use a formula involving average duration frames and frequency (`floor(avg(3.0/((duration_frames+0.5)/freq))*3.6)`). The team also discussed calculating frame percentages (1-frame, 2-frame, etc.) to estimate traffic flow density.\n\n**Discrepancies:** Multiple instances were noted where manually counted sessions differed from automated processing counts, leading to a review of the underlying logic and data completeness (e.g., missing minutes in video files).\n\n**Improvements/Next Steps:** Suggestions included improving the naming convention for sensors (using city/number instead of GUIDs) and adjusting zone boundaries, particularly at intersections, to improve accuracy.",
+  "decisions": [
+    "The speed calculation formula was standardized using `floor(avg(3.0/((duration_frames+0.5)/freq))*3.6)`.",
+    "Frame percentages (1-frame, 2-frame, etc.) will be calculated and provided in a separate tab for clearer analysis."
+  ],
+  "action_items": [
+    "Review and potentially adjust zone boundaries, especially at intersections, to improve session counting accuracy.",
+    "Investigate the possibility of running data processing scripts with `min_points` set to 1 instead of 2.",
+    "Provide a clearer format for frame percentages (e.g., adding 'duration in frames' column)."
+  ]
+}

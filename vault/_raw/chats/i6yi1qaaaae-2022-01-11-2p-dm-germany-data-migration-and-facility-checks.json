@@ -1,0 +1,26 @@
+{
+  "chat_id": "i6YI1QAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 2,
+  "date_range": {
+    "start": "2022-01-11",
+    "end": "2022-01-11"
+  },
+  "message_count": 48,
+  "topic": "Germany data migration and facility checks",
+  "topic_slug": "germany-data-migration-and-facility-checks",
+  "tags": [
+    "analytics",
+    "facility",
+    "session"
+  ],
+  "summary_markdown": "The discussion covered several data updates for Germany. First, the signal level was set to 81 by default for all of Germany and for a new sensor (JCD_DE_120417). It was agreed that conceptually, the sensor should not be assigned a value since the default is already 81.\n\nLater, there were discussions regarding data availability for a specific facility. A query showed no data for January 8th, despite someone stating it was online. The issue of empty staging data for Germany was discussed, leading to confirmation that the location had been switched to a new channel (ch).\n\nThe final action involved migrating the German data from staging to production.",
+  "decisions": [
+    "Signal level for all of Germany and the new sensor is set to 81.",
+    "The German data must be migrated from staging to production."
+  ],
+  "action_items": [
+    "Someone needs to provide a script that allows them to run company-specific data pulls on staging without needing assistance, while [me] handles the production push."
+  ]
+}

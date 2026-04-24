@@ -1,0 +1,24 @@
+{
+  "chat_id": "mQzF6wAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 2,
+  "date_range": {
+    "start": "2021-11-11",
+    "end": "2021-11-11"
+  },
+  "message_count": 18,
+  "topic": "Sensor data ingestion after firmware update",
+  "topic_slug": "sensor-data-ingestion-after-firmware-update",
+  "tags": [
+    "analytics",
+    "facility"
+  ],
+  "summary_markdown": "The discussion focused on the procedure for sensor data to appear in the analytics/MOPs database following a firmware update. It was clarified that data appears when the sensors come online. [me] explained that manual intervention is required when a list of unlisted boxes (e.g., 100,500 units) is available. In such cases, running a script to register the entire list is necessary; typically, 80-90% of the boxes are already registered.\n\n[me] provided a Python script for this process.",
+  "decisions": [
+    "Data appears in the database when sensors come online."
+  ],
+  "action_items": [
+    "Attempt to run the provided Python script using available credentials and VPN access."
+  ]
+}

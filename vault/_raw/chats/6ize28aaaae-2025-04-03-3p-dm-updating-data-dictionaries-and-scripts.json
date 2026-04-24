@@ -1,0 +1,25 @@
+{
+  "chat_id": "6ize28AAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2025-04-03",
+    "end": "2025-04-03"
+  },
+  "message_count": 19,
+  "topic": "Updating data dictionaries and scripts",
+  "topic_slug": "updating-data-dictionaries-and-scripts",
+  "tags": [
+    "analytics",
+    "facility"
+  ],
+  "summary_markdown": "The conversation focused on technical updates required for data processing. [p1] initially inquired about updating the `locations_data` script after modifying the `ml_cluster_frequency_coeff` table, asking if a manual update was needed.\n\n[me] provided instructions regarding system dictionary reloading, specifically mentioning that refreshing the `facility_ml_cluster_frequency_dict` or waiting for its natural lifecycle (3600-7200 minutes) might be necessary. [me] also listed several other dictionaries (`ml_frequency_clust_http_dict`, etc.) that could potentially need reloading, advising against reloading them all at once.\n\nLater, [p1] added a task to Jira (DOOH-1874), which was related to filtering unnecessary facilities.",
+  "decisions": [
+    "The process for updating `locations_data` after modifying cluster frequency coefficients requires specific dictionary reloads or waiting periods."
+  ],
+  "action_items": [
+    "[p1] added task DOOH-1874 regarding facility filtering.",
+    "[me] shared a GitHub link (commit) with [p1]."
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "chat_id": "i6YI1QAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 2,
+  "date_range": {
+    "start": "2023-07-20",
+    "end": "2023-07-20"
+  },
+  "message_count": 3,
+  "topic": "Scheduling a quick meeting",
+  "topic_slug": "scheduling-a-quick-meeting",
+  "tags": [],
+  "summary_markdown": "Someone initiated contact to schedule a 5-minute call with [me] and Kristina.",
+  "decisions": [],
+  "action_items": [
+    "Join the scheduled Google Meet link."
+  ]
+}

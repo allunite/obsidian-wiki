@@ -1,0 +1,23 @@
+{
+  "chat_id": "0m7UOUAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2024-10-23",
+    "end": "2024-10-23"
+  },
+  "message_count": 4,
+  "topic": "Discussing LAM data collection for Finland",
+  "topic_slug": "discussing-lam-data-collection-for-finland",
+  "tags": [
+    "analytics",
+    "impression",
+    "session"
+  ],
+  "summary_markdown": "The conversation focused on the need to discuss collecting LAM (Location Activity Metrics) data specifically for Finland. Someone provided a basic ClickHouse query structure and shared several links related to Finnish traffic data sources, including an API endpoint and a UI history page.",
+  "decisions": [],
+  "action_items": [
+    "Reviewing the feasibility of gathering LAM data using the provided external Finnish traffic APIs/sources."
+  ]
+}

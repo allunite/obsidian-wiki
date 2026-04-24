@@ -1,0 +1,26 @@
+{
+  "chat_id": "oCgFCIAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2024-08-15",
+    "end": "2024-08-15"
+  },
+  "message_count": 18,
+  "topic": "Re-running data aggregation jobs",
+  "topic_slug": "re-running-data-aggregation-jobs",
+  "tags": [
+    "analytics",
+    "impression",
+    "campaign",
+    "loop"
+  ],
+  "summary_markdown": "The discussion focused on the safety and procedure for re-running data aggregation jobs after an issue with impression counting. It was noted that a specific task (run by Vlada) accesses view data related to frames, which may be affected if views are recreated.\n\nSomeone advised that general aggregations can be safely rerun because the process cleans up old aggregates and temporary tables usually expire.\n\nTo ensure proper re-aggregation, a specialized SQL script was recommended for use. The date parameters for running this script were clarified: 'yesterday' for one parameter and NULL for the second.",
+  "decisions": [
+    "A specific SQL script was identified and shared for controlled data re-aggregation."
+  ],
+  "action_items": [
+    "Run the recommended aggregation script using yesterday's date for the first parameter and NULL for the second."
+  ]
+}

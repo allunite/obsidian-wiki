@@ -1,0 +1,23 @@
+{
+  "chat_id": "xdx5dQAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 2,
+  "date_range": {
+    "start": "2021-01-13",
+    "end": "2021-01-13"
+  },
+  "message_count": 25,
+  "topic": "Laptop availability and specifications for staff",
+  "topic_slug": "laptop-availability-and-specifications-for-staff",
+  "tags": [
+    "inventory"
+  ],
+  "summary_markdown": "The conversation focused on identifying available, unused laptops for a colleague in the .NET department. [me] offered an Asus laptop with specifications including Intel Core i7 7500U, 16 GB LPDDR3 RAM, 256 GB SSD, and FHD screen. The recipient requested the specs and inquired about other options. [me] also mentioned having several other machines available, such as two iMacs and two classic computers with large amounts of RAM and powerful processors, but noted that a MacBook Pro (Middle 2014) was not available for transfer.",
+  "decisions": [
+    "The Asus laptop specifications were provided to the recipient."
+  ],
+  "action_items": [
+    "Someone needs to purchase a camera for the offered Asus laptop."
+  ]
+}

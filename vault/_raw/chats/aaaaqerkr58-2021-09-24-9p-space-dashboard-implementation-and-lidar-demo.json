@@ -1,0 +1,25 @@
+{
+  "chat_id": "AAAAqeRkR58",
+  "kind": "Space",
+  "space_name": "Estonia",
+  "participants": 9,
+  "date_range": {
+    "start": "2021-09-24",
+    "end": "2021-09-24"
+  },
+  "message_count": 11,
+  "topic": "Dashboard implementation and lidar demo",
+  "topic_slug": "dashboard-implementation-and-lidar-demo",
+  "tags": [
+    "analytics",
+    "dashboard",
+    "campaign"
+  ],
+  "summary_markdown": "A successful demonstration of Lidar technology was given to a client. The Lidar unit will be fixed next week and installed shortly thereafter.\n\nRegarding the dashboard, someone requested that [me] get in touch with Maria to draft how the new features will look within the current demo dashboard, which is scheduled for production soon. Mockups provided by [p5] and their designer friend were highly praised for their perfect correlation with the site theme, making implementation straightforward.",
+  "decisions": [
+    "The Lidar unit will be fixed next week and installed shortly."
+  ],
+  "action_items": [
+    "[me] needs to contact Maria to draft the appearance of new features in the current demo dashboard."
+  ]
+}

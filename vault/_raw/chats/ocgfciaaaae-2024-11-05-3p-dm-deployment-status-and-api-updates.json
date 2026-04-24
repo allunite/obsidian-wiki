@@ -1,0 +1,24 @@
+{
+  "chat_id": "oCgFCIAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2024-11-05",
+    "end": "2024-11-05"
+  },
+  "message_count": 12,
+  "topic": "Deployment status and API updates",
+  "topic_slug": "deployment-status-and-api-updates",
+  "tags": [
+    "analytics",
+    "campaign"
+  ],
+  "summary_markdown": "The session focused on verifying the readiness for a release. [me] performed a smoke test, confirming that everything was functional and cleared the path for deployment.\n\nDiscussion then shifted to updating the `data-api` on the staging environment. It was determined that no changes were expected since October 18th, leading to the general principle of not touching what is working.\n\nHowever, deploying to production requires specific personnel (Toля) due to a different deployment system.",
+  "decisions": [
+    "The release can proceed after smoke testing confirmed functionality."
+  ],
+  "action_items": [
+    "Confirm if the `data-api` needs updating on staging or if it is safe to skip until further notice."
+  ]
+}

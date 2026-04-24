@@ -1,0 +1,26 @@
+{
+  "chat_id": "AAAAiJVWHNs",
+  "kind": "Space",
+  "space_name": "Group Chat",
+  "participants": 2,
+  "date_range": {
+    "start": "2023-04-18",
+    "end": "2023-04-18"
+  },
+  "message_count": 41,
+  "topic": "Mockup feedback for BITE ad analytics",
+  "topic_slug": "mockup-feedback-for-bite-ad-analytics",
+  "tags": [
+    "campaign",
+    "inventory",
+    "analytics",
+    "conversion"
+  ],
+  "summary_markdown": "The discussion focused on reviewing a mockup designed to track advertising performance for a Latvian phone retailer (BITE). Key points of confusion centered around how conversion data is displayed and filtered.\n\n*   **Conversion Logic:** The system should calculate the conversion rate from viewing an ad screen (script) to visiting a physical store location. The table must display conversions across *all* stores, based on selected advertising scripts.\n*   **Filtering Confusion:** Participants struggled with how to filter for the conversion of a single store or multiple specific scripts. It was clarified that users select scripts first, and then the table shows results for all locations.\n*   **Proposed Improvement:** A suggestion was made to replace the current bottom table/date filter with two dedicated columns in the main top table. These columns would display conversions for a secondary, user-selectable date range (defaulting to previous days), allowing for easy comparison of performance across two distinct periods.",
+  "decisions": [
+    "The mockup needs refinement regarding how conversion data is displayed and filtered."
+  ],
+  "action_items": [
+    "Review the current display logic for comparing two date ranges in the analytics table."
+  ]
+}

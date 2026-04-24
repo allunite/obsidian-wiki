@@ -1,0 +1,29 @@
+{
+  "chat_id": "y9IEDQAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2024-04-08",
+    "end": "2024-04-08"
+  },
+  "message_count": 37,
+  "topic": "Data API impression value discrepancies and fixes",
+  "topic_slug": "data-api-impression-value-discrepancies-and-fixes",
+  "tags": [
+    "analytics",
+    "impression",
+    "campaign",
+    "facility"
+  ],
+  "summary_markdown": "The conversation addressed two main topics: staffing changes and data reporting issues.\n\n**Staffing:** It was confirmed that the contract with 'Свято' is canceled, effective April 1st. \n\n**Data Reporting:** A query arose regarding impression values in the data API for periods before February 2024, where values were reported as zero. The consensus was that these impressions should match those recorded in the campaign data.\n\nIt was noted that the process of consolidating and copying historical impression data into a new dataset is complex and time-consuming. A plan was established to perform this fix late at night when operations are less active, ensuring continuity for Brazil's data.",
+  "decisions": [
+    "The contract with 'Свято' is officially canceled, effective April 1st.",
+    "Historical impression data discrepancies (pre-Feb 2024) must be fixed to match campaign records.",
+    "The fix for the historical data will be deployed late at night."
+  ],
+  "action_items": [
+    "Prepare and deploy the fix for the historical impression data tonight.",
+    "Inform external parties (friends pulling data via data-api) that work is underway on the data issue, and provide an update once complete."
+  ]
+}

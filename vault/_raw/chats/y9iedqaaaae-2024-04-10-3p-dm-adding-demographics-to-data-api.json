@@ -1,0 +1,24 @@
+{
+  "chat_id": "y9IEDQAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2024-04-10",
+    "end": "2024-04-10"
+  },
+  "message_count": 17,
+  "topic": "Adding demographics to data API",
+  "topic_slug": "adding-demographics-to-data-api",
+  "tags": [
+    "analytics",
+    "campaign"
+  ],
+  "summary_markdown": "The discussion covered the feasibility of adding demographic data to the data API. It was determined that if demographics are needed, they should be provided as percentages across different groups rather than simple filters. The implementation requires creating a separate endpoint and is estimated to take one week for proper development.\n\nSeparately, issues with `viewableImpressions` were addressed. While the field will not be available everywhere (especially historical data from 2023), an issue causing `viewedImpressions = 0` in some cases was found and fixed. The dataset was updated.",
+  "decisions": [
+    "Demographics for API should be provided as percentages, not filters."
+  ],
+  "action_items": [
+    "Develop a separate endpoint for demographic data (estimated one week)."
+  ]
+}

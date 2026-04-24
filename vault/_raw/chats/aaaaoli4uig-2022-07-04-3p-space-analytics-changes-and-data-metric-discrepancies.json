@@ -1,0 +1,29 @@
+{
+  "chat_id": "AAAAOLI4UIg",
+  "kind": "Space",
+  "space_name": "Release July 2022",
+  "participants": 3,
+  "date_range": {
+    "start": "2022-07-04",
+    "end": "2022-07-04"
+  },
+  "message_count": 104,
+  "topic": "Analytics changes and data metric discrepancies",
+  "topic_slug": "analytics-changes-and-data-metric-discrepancies",
+  "tags": [
+    "dwell-time",
+    "impression",
+    "campaign",
+    "inventory",
+    "analytics"
+  ],
+  "summary_markdown": "The discussion covered several analytics updates and inconsistencies. Initially, concerns were raised regarding the loss of 'mall' level dwell time metrics for specific regions (e.g., Austria, Lithuania) due to data API limitations, which was noted as non-critical.\n\nLater, a major issue arose concerning significant discrepancies in calculated dwell time (up to three times smaller) when comparing cluster-based vs. screen-based calculations, especially after incorporating zero sessions. This change was deemed problematic because it would require extensive explanation to clients and led to a decision to revert the calculation method.\n\nSeparately, old impression data appearing on staging/production dashboards was identified and subsequently removed by someone.\n\nFinally, access rights were managed: roles for 'malls' were restricted to specific external users (e.g., from CityMedia, AFJ Decaux) to prevent unauthorized access.",
+  "decisions": [
+    "The dwell time calculation method will be reverted to the previous production logic and re-tested before release.",
+    "Old impression data appearing on staging/production dashboards was removed."
+  ],
+  "action_items": [
+    "Re-test and confirm the revert of the dwell time calculation method for release.",
+    "Someone needs to follow up with an expert regarding the dwelling time discrepancy."
+  ]
+}

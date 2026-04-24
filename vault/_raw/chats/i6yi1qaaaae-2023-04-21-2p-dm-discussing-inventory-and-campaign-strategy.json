@@ -1,0 +1,23 @@
+{
+  "chat_id": "i6YI1QAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 2,
+  "date_range": {
+    "start": "2023-04-21",
+    "end": "2023-04-21"
+  },
+  "message_count": 10,
+  "topic": "Discussing inventory and campaign strategy",
+  "topic_slug": "discussing-inventory-and-campaign-strategy",
+  "tags": [
+    "inventory",
+    "campaign"
+  ],
+  "summary_markdown": "The conversation focused on scheduling a discussion regarding inventory management and reviewing an ongoing campaign. The participants confirmed availability to discuss these topics.",
+  "decisions": [],
+  "action_items": [
+    "Schedule time to discuss inventory strategy with someone (Marina)",
+    "Schedule time to discuss the campaign details"
+  ]
+}

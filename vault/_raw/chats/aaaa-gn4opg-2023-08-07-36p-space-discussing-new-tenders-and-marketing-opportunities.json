@@ -1,0 +1,24 @@
+{
+  "chat_id": "AAAA-gn4oPg",
+  "kind": "Space",
+  "space_name": "General and random",
+  "participants": 36,
+  "date_range": {
+    "start": "2023-08-07",
+    "end": "2023-08-07"
+  },
+  "message_count": 16,
+  "topic": "Discussing new tenders and marketing opportunities",
+  "topic_slug": "discussing-new-tenders-and-marketing-opportunities",
+  "tags": [
+    "campaign",
+    "inventory"
+  ],
+  "summary_markdown": "A participant shared positive news regarding being selected as a main supplier for a Malaysian tender, which is expected to finalize the contract within 2-3 months and involves a local company.\n\nSeparately, participants discussed an industry example involving sensor placement at Paulista Avenue. It was noted that any public relations (PR) content, such as a LinkedIn post, could not yet be created because the PR with JCD had not been finalized, but it would be done soon.",
+  "decisions": [
+    "The contract for the Malaysian tender is expected to finalize within 2-3 months."
+  ],
+  "action_items": [
+    "Create a LinkedIn post about the Paulista Avenue sensor placement once PR with JCD is complete."
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "chat_id": "0VorOYAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2023-01-10",
+    "end": "2023-01-10"
+  },
+  "message_count": 5,
+  "topic": "Migrating Mexico data from staging to production",
+  "topic_slug": "migrating-mexico-data-staging-to-production",
+  "tags": [
+    "analytics",
+    "campaign"
+  ],
+  "summary_markdown": "Someone requested the migration of Mexico data from a staging environment to production. The data was confirmed to look acceptable on staging (from Friday's run). [me] stated they would handle the process within an hour and subsequently confirmed completion.",
+  "decisions": [
+    "Mexico data will be moved from staging to production."
+  ],
+  "action_items": []
+}

@@ -1,0 +1,22 @@
+{
+  "chat_id": "nW_zkkAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2025-10-17",
+    "end": "2025-10-17"
+  },
+  "message_count": 20,
+  "topic": "Report data discrepancies in clusters",
+  "topic_slug": "report-data-discrepancies-in-clusters",
+  "tags": [
+    "analytics",
+    "recalc-ch"
+  ],
+  "summary_markdown": "A discussion occurred regarding inconsistencies in report data when pulling information for clusters. Initially, [p1] questioned whether the analytics platform or direct extraction from agg5 provided more accurate data for footfalls. [me] suggested that both methods should yield similar results, emphasizing the importance of correct dates and time zones.\n\n[p1] later shared examples showing significant discrepancies, which were noted to be large differences in shared clusters. However, by a later time, [p1] reported that the data appeared normal, suggesting the initial issues might have been due to viewing the reports late or timing related to a recent release.",
+  "decisions": [
+    "The immediate concern regarding major report discrepancies was resolved/mitigated."
+  ],
+  "action_items": []
+}

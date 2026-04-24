@@ -1,0 +1,27 @@
+{
+  "chat_id": "y9IEDQAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2026-02-20",
+    "end": "2026-02-20"
+  },
+  "message_count": 62,
+  "topic": "API development and data discrepancies",
+  "topic_slug": "api-development-and-data-discrepancies",
+  "tags": [
+    "analytics",
+    "campaign",
+    "frame",
+    "inventory"
+  ],
+  "summary_markdown": "The conversation focused heavily on API development, specifically regarding the `groupBy` parameter and data consistency across environments (DEV, STAGING, PROD).\n\n*   **API Scope:** It was noted that the current implementation of `groupBy` is hardcoded to 'network' in the code. A discussion arose about handling combinations of networks, which was a requirement from an earlier stage.\n*   **Inventory Data Issue:** An issue was identified where two expected networks (HER_City & ODE_City) were missing from the latest inventory upload/data pull, suggesting that someone may have incorrectly configured the inventory data. The participants confirmed that while these networks might exist in previous records or be mentioned by clients, they are currently absent from the core dataset.\n*   **Deployment:** A decision was made to deploy certain changes (including those related to Japanese client reporting) to production.\n*   **Debugging:** Participants reviewed API calls and data payloads for 'by-frame' reports. Discrepancies were noted in the number of records returned when testing against staging versus production environments.",
+  "decisions": [
+    "Deploy specific changes (including those needed for Japanese client reporting) to production."
+  ],
+  "action_items": [
+    "Review and address discrepancies found between staging and production data counts for 'by-frame' reports.",
+    "Investigate the handling of network combinations in API logic."
+  ]
+}

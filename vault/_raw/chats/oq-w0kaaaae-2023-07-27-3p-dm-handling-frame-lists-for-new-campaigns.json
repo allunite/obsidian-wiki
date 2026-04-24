@@ -1,0 +1,24 @@
+{
+  "chat_id": "oq-w0kAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2023-07-27",
+    "end": "2023-07-27"
+  },
+  "message_count": 11,
+  "topic": "Handling frame lists for new campaigns",
+  "topic_slug": "handling-frame-lists-for-new-campaigns",
+  "tags": [
+    "frame",
+    "inventory"
+  ],
+  "summary_markdown": "The discussion focused on how to handle the list of available frames when a new campaign is created. It was decided that if no specific filters are applied, the system should not pass a list of frames. Instead, the endpoint must be called without passing frame parameters, even though the general audience data needs to be displayed.",
+  "decisions": [
+    "When creating a new campaign with no filters, do not pass a list of frames to the API."
+  ],
+  "action_items": [
+    "[p1] will start implementing the change regarding frame parameters."
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "chat_id": "qF2Fa0AAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 2,
+  "date_range": {
+    "start": "2024-01-03",
+    "end": "2024-01-03"
+  },
+  "message_count": 3,
+  "topic": "Data API endpoint updates and changes",
+  "topic_slug": "data-api-endpoint-updates-and-changes",
+  "tags": [
+    "analytics"
+  ],
+  "summary_markdown": "Changes were pushed to the data-api endpoints. The primary version update is from /v4 to /v5. Specific new versions include: \n\n*   `/v4` now incorporates `impressions` and `frequency` (previously `/v3` functionality).\n*   `jcd/v4` now incorporates `impressions` and `frequency` (for Joe&TheJuice data).",
+  "decisions": [],
+  "action_items": [
+    "Users must update endpoints from /v4 to /v5."
+  ]
+}

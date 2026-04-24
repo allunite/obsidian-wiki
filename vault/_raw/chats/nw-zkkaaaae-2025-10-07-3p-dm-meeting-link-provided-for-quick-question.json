@@ -1,0 +1,19 @@
+{
+  "chat_id": "nW_zkkAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2025-10-07",
+    "end": "2025-10-07"
+  },
+  "message_count": 4,
+  "topic": "Meeting link provided for quick question",
+  "topic_slug": "meeting-link-provided-for-quick-question",
+  "tags": [],
+  "summary_markdown": "A meeting link was shared by [p1] to discuss a very quick question.",
+  "decisions": [],
+  "action_items": [
+    "Join the provided Google Meet link."
+  ]
+}

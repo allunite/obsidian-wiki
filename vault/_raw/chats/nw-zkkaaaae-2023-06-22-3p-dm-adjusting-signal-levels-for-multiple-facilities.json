@@ -1,0 +1,24 @@
+{
+  "chat_id": "nW_zkkAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2023-06-22",
+    "end": "2023-06-22"
+  },
+  "message_count": 7,
+  "topic": "Adjusting signal levels for multiple facilities",
+  "topic_slug": "adjusting-signal-levels-for-multiple-facilities",
+  "tags": [
+    "facility",
+    "analytics"
+  ],
+  "summary_markdown": "A request was made to change the signal level (from 7897 to 78) for a specific list of facilities. The adjustment must include recalculation of historical data, not just starting from today.\n\nTimeline and follow-up:\n*   The recipient confirmed they could not complete the task on that day but aimed to finish by 2 PM the next day, or alternatively, over the weekend.",
+  "decisions": [
+    "Signal level for specified facilities will be changed from 7897 to 78."
+  ],
+  "action_items": [
+    "[me] to complete the signal level adjustment by tomorrow (14:00) or over the weekend."
+  ]
+}

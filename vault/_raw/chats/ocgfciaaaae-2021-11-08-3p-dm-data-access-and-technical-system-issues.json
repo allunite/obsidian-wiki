@@ -1,0 +1,25 @@
+{
+  "chat_id": "oCgFCIAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2021-11-08",
+    "end": "2021-11-08"
+  },
+  "message_count": 33,
+  "topic": "Data access and technical system issues",
+  "topic_slug": "data-access-and-technical-system-issues",
+  "tags": [
+    "analytics",
+    "facility"
+  ],
+  "summary_markdown": "The conversation focused on resolving data visibility issues, specifically concerning a user's inability to view certain data sets. It was determined that the issue stemmed from an outdated 'projection' setting within the system.\n\nLater discussion covered technical work related to 2D lidar data and 3D modeling. The participants discussed implementing complex filters (like Kalman) and challenges with background scene cleanup, suggesting potential performance improvements by moving calculations to GPU.",
+  "decisions": [
+    "The user was able to access previously unavailable data after updating the system's projection."
+  ],
+  "action_items": [
+    "Continue work on refining 2D lidar data and 3D modeling components",
+    "Investigate alternative solutions for complex background scene cleanup, potentially utilizing GPU processing."
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "chat_id": "AAAA9ybOLwM",
+  "kind": "Space",
+  "space_name": "ИТ",
+  "participants": 8,
+  "date_range": {
+    "start": "2021-04-08",
+    "end": "2021-04-08"
+  },
+  "message_count": 18,
+  "topic": "Version control and deployment issues",
+  "topic_slug": "version-control-deployment-issues",
+  "tags": [
+    "analytics"
+  ],
+  "summary_markdown": "The conversation revolves around discrepancies in software versioning, specifically regarding the latest validated version (v52.1) versus what is visible or deployed in systems like RMS. Multiple participants discussed uploading and deploying specific firmware versions, including one with proxy support. One participant confirmed deleting files from RMS and placing them into a different location, followed by re-uploading v52.1 to the relevant system.",
+  "decisions": [
+    "The latest validated version is v52.1."
+  ],
+  "action_items": [
+    "Follow up on whether WiFi + lidar mapping was completed in DXB (addressed to 'Tolya').",
+    "Discuss router placement frequency with Galina."
+  ]
+}

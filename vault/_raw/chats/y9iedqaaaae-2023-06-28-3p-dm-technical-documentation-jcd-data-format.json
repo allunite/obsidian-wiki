@@ -1,0 +1,27 @@
+{
+  "chat_id": "y9IEDQAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2023-06-28",
+    "end": "2023-06-28"
+  },
+  "message_count": 36,
+  "topic": "Technical documentation for JCD data format",
+  "topic_slug": "technical-documentation-jcd-data-format",
+  "tags": [
+    "analytics",
+    "inventory",
+    "facility"
+  ],
+  "summary_markdown": "The conversation focused on locating and finalizing the technical specification for submitting data to the jcd bucket. The required format involves using `item-v3` structure, but the overall payload must be an array containing objects structured by facility location.\n\nThe correct format requires a root object that contains a list of facilities (locations). Each facility entry must include its unique Facility ID (`id`) and a nested array (`data`) containing hourly items for that specific location. The `facilityId` within the nested items should duplicate the top-level facility identifier.\n\nA Swagger document was updated to reflect this structure, and a corresponding internal documentation link was shared and confirmed.",
+  "decisions": [
+    "The technical specification for jcd data submission has been finalized.",
+    "The format requires an array root containing objects keyed by Facility ID."
+  ],
+  "action_items": [
+    "Review the updated Swagger document at github.[redacted].",
+    "Use the provided internal documentation link (http://docs.allunite.local/dataflow/uploading_jcdecaux) as the official guide for data submission."
+  ]
+}

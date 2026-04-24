@@ -1,0 +1,22 @@
+{
+  "chat_id": "AAAA-gn4oPg",
+  "kind": "Space",
+  "space_name": "General and random",
+  "participants": 36,
+  "date_range": {
+    "start": "2025-09-09",
+    "end": "2025-09-09"
+  },
+  "message_count": 4,
+  "topic": "Boosting visibility of internal thought leadership",
+  "topic_slug": "boosting-visibility-of-internal-thought-leadership",
+  "tags": [
+    "analytics"
+  ],
+  "summary_markdown": "A team member requested internal support (reactions/comments) for two new LinkedIn posts to boost visibility and reinforce AllUnite's industry positioning. The posts were: 1) An OOH Glossary post, which is performing well organically; and 2) A post about [p26] being a guest on Beyond the Billboard podcast. Suggested engagement templates were provided for both topics.",
+  "decisions": [],
+  "action_items": [
+    "Team members should engage with the OOH Glossary LinkedIn post to maintain momentum.",
+    "Team members should engage with the Podcast post about [p26] to increase reach and strengthen industry positioning."
+  ]
+}

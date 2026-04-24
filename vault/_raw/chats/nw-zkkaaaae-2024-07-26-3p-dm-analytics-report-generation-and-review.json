@@ -1,0 +1,24 @@
+{
+  "chat_id": "nW_zkkAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2024-07-26",
+    "end": "2024-07-26"
+  },
+  "message_count": 18,
+  "topic": "Analytics report generation and review",
+  "topic_slug": "analytics-report-generation-and-review",
+  "tags": [
+    "analytics",
+    "impression"
+  ],
+  "summary_markdown": "The conversation covered two main areas: campaign setup requirements and analytics reporting.\n\n1. **Campaign Setup:** [p1] requested assistance with setting the signal level for campaigns 7919, 7922, and 7923 on both the product and stage 89 platforms. It was confirmed that high impression volume is critical for these campaigns across all networks.\n\n2. **Analytics Reporting:** [me] provided access to a test dataset (`aka_test` for 2024) and shared specific links/instructions for generating a Cluster report using the `dev-analytics.allunite.com` dashboard, focusing on June 2024 data for the TRANSIT XL network.",
+  "decisions": [
+    "Signal level needs to be set for campaigns 7919, 7922, and 7923 on product and stage 89."
+  ],
+  "action_items": [
+    "Review analytics reports using the provided links/instructions; CH was noted as not refreshing but updating automatically by tomorrow."
+  ]
+}

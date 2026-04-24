@@ -1,0 +1,21 @@
+{
+  "chat_id": "nW_zkkAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2025-05-21",
+    "end": "2025-05-21"
+  },
+  "message_count": 3,
+  "topic": "Bug found in product development",
+  "topic_slug": "bug-found-in-product-development",
+  "tags": [
+    "analytics"
+  ],
+  "summary_markdown": "Someone shared a link to an Atlassian ticket (DOOH-2083) detailing a bug found in the product. The sender noted that this task is pending discussion but will require work.",
+  "decisions": [],
+  "action_items": [
+    "Review and address bug detailed in DOOH-2083"
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "chat_id": "nW_zkkAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2025-04-25",
+    "end": "2025-04-25"
+  },
+  "message_count": 71,
+  "topic": "Session data discrepancies and cluster calculation",
+  "topic_slug": "session-data-discrepancies-and-cluster-calculation",
+  "tags": [
+    "analytics",
+    "session",
+    "recalc-ch",
+    "campaign"
+  ],
+  "summary_markdown": "The discussion covered two main areas: session data discrepancies for a specific facility and methodology for calculating total screen sessions across multiple networks within a single cluster.\n\n**Session Data Issues:**\n*   [p1] noted that while package data existed for one facility (associated with MAC '2097274da446') between 2025-02-01 and 2025-03-18, no corresponding session data was found.\n*   The investigation revealed that the box was only officially linked to a facility on 2025-03-19. Furthermore, historical data for this MAC address showed sessions recorded even when the associated facility number was zero (before 2025-03-19).\n*   It was determined that session recovery efforts were needed for specific periods.\n\n**Cluster Session Calculation:**\n*   A potential issue was identified regarding calculating total screen sessions when a cluster contains multiple networks. Simply summing the footfalls across all networks in the cluster leads to an inflated number (e.g., 513,957 vs. 309,272).\n*   It was agreed that the current method of aggregation is flawed because one user can pass through multiple networks within a single cluster session.\n*   The proposed solution was to abandon aggregate calculations and instead calculate footfalls 'on the fly' based on actual cluster sessions.",
+  "decisions": [
+    "Session data for MAC '2097274da446' will be recovered/restored.",
+    "For calculating total screen sessions in a multi-network cluster, aggregation must stop; footfalls should be calculated dynamically ('on the fly') based on individual cluster sessions."
+  ],
+  "action_items": [
+    "The session data recovery needs to be completed (status: done)."
+  ]
+}

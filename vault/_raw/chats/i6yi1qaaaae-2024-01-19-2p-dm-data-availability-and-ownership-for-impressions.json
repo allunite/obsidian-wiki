@@ -1,0 +1,24 @@
+{
+  "chat_id": "i6YI1QAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 2,
+  "date_range": {
+    "start": "2024-01-19",
+    "end": "2024-01-19"
+  },
+  "message_count": 14,
+  "topic": "Data availability and ownership for impressions",
+  "topic_slug": "data-availability-and-ownership-for-impressions",
+  "tags": [
+    "impression",
+    "analytics"
+  ],
+  "summary_markdown": "The conversation focused on the historical data availability for 'Vlad's impressions'. It was noted that current impression data is only available from December 1, 2023, up to the day before. The speaker confirmed they would add today's data and adjust the nightly job.\n\nIt was clarified that determining the full history (back to October) requires checking both Vlad and Marina regarding data integrity in `*_ml_staging` or `*_ml` environments, as over-aggregation pulls from both sources. It was established that Vlad manages impressions while Marina handles prediction models.",
+  "decisions": [
+    "The speaker will add today's impression data and adjust the nightly job."
+  ],
+  "action_items": [
+    "Determine historical data integrity (back to October) for both impressions and predictions from Vlad and Marina, respectively."
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "chat_id": "i6YI1QAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 2,
+  "date_range": {
+    "start": "2021-04-29",
+    "end": "2021-04-29"
+  },
+  "message_count": 61,
+  "topic": "Data retrieval and facility setup for Lithuania",
+  "topic_slug": "data-retrieval-facility-setup-lithuania",
+  "tags": [
+    "analytics",
+    "session",
+    "facility",
+    "campaign"
+  ],
+  "summary_markdown": "The conversation covered data retrieval issues, specifically concerning 'trusted' data and session formation. It was confirmed that sessions are formed even without a facility setup.\n\nRegarding Lithuania (LT) data, several MAC addresses were provided for facility naming/setup: LT 15, LT 05, LT 16, LT 07, LT 06, LT 41, LT 40, and LT 37. It was decided that the setup should use 'master' naming conventions and include the 'Mall' category.\n\nLater discussion focused on viewing Lithuania data in the dashboard. The correct country name ('Lietuva') was identified for searching. Concerns were raised about historical data appearing (dating back to February) from boxes that only recently started deployment, suggesting potential data source issues or test deployments.",
+  "decisions": [
+    "Facility setup for LT MAC addresses should use 'master' naming and include the 'Mall' category."
+  ],
+  "action_items": [
+    "Investigate why historical session data (dating to February) is appearing from recently deployed boxes in Lithuania."
+  ]
+}

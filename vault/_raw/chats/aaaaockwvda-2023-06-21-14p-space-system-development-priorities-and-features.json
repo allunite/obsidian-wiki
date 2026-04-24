@@ -1,0 +1,24 @@
+{
+  "chat_id": "AAAAOcKWvdA",
+  "kind": "Space",
+  "space_name": "Delivery Coordination",
+  "participants": 14,
+  "date_range": {
+    "start": "2023-06-21",
+    "end": "2023-06-21"
+  },
+  "message_count": 10,
+  "topic": "System development priorities and features",
+  "topic_slug": "system-development-priorities-and-features",
+  "tags": [
+    "analytics",
+    "campaign",
+    "inventory"
+  ],
+  "summary_markdown": "The discussion covered several technical feature implementations for the system, including:\n\n*   **VA+Speed of Movement:** Requires creating a CSV containing `facility_id`, `frame_id`, `road_link`, VA, and dwell-time. This data must be integrated into the main system (Alexey [me]) to display VA and dwell-time in the Inventory Manager interface. A Traffic variable/chart based on data from Vlad/[p6] is also planned.\n*   **Virtual Sensors:** For locations without physical sensors, a list of nearest sensors needs preparation. Sessions must be copied from these nearest sensors to the virtual sensor location. This involves calculating Dwell-time and Uniques by frame based on facility. Furthermore, an ML prediction table (adding `frame_id`, ROTS) is required, leading to a Traffic page using data from this ML prediction.\n*   **Demographics:** Static Demography from Kido needs integration into the system. Demographic segments from Kido must also be added to Campaign management.\n*   **Campaign Manager:** Updates include campaign reports based on frames, and agreement on statuses and roles with Sergio.\n\nRegarding language support (multi-language), it was agreed that while menu items and a few UI labels should be supported initially, the priority for this feature must not be raised until core functionality is stable.",
+  "decisions": [
+    "Language support will initially focus only on menus and a few UI labels.",
+    "Core system functionality development takes precedence over language localization."
+  ],
+  "action_items": []
+}

@@ -1,0 +1,21 @@
+{
+  "chat_id": "i6YI1QAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 2,
+  "date_range": {
+    "start": "2022-08-18",
+    "end": "2022-08-18"
+  },
+  "message_count": 6,
+  "topic": "Data retention period for device sessions",
+  "topic_slug": "data-retention-period-device-sessions",
+  "tags": [
+    "analytics"
+  ],
+  "summary_markdown": "The discussion centered on cleaning up the `device_session_concept` table by removing old session data. The current data spans back to January 1, 2020. Someone asked if it was safe to limit the retention period to one year. [p1] confirmed that they do not look at data from 2020 and confirmed that aggregated data will remain available.",
+  "decisions": [
+    "The `device_session_concept` table can be cleaned up by removing data older than one year."
+  ],
+  "action_items": []
+}

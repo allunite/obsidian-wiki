@@ -1,0 +1,27 @@
+{
+  "chat_id": "nW_zkkAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2023-06-21",
+    "end": "2023-06-21"
+  },
+  "message_count": 46,
+  "topic": "Data discrepancies and model calibration for facility",
+  "topic_slug": "data-discrepancies-and-model-calibration-for-facility",
+  "tags": [
+    "analytics",
+    "facility",
+    "dwell-time",
+    "session"
+  ],
+  "summary_markdown": "The discussion addressed data inconsistencies regarding the Bella Center facility. Initially, issues were noted concerning missing data for the facility before May 17th and discrepancies between Average Visit Time (AVT) and Dwell Time Distribution.\n\nIt was clarified that AVT is a custom metric calculated separately for this client, based on average maximum sessions within specific time windows (08:00-20:00 Copenhagen).\n\nA technical review revealed that while session data exists since April 21st, the aggregated and ML model data (`device_session_agg_ml`) only started from May 17th. The discrepancy was traced to a previous calibration change request which required rewriting the session history; however, the subsequent re-aggregation step for the ML model was missed.\n\nThe following actions were taken: an aggregation covering April 21st to May 16th was performed using data from `ml_staging`, and the dashboard view for Bella Center was updated in both STAGE and PROD environments.",
+  "decisions": [
+    "Aggregation for Bella Center was run for the period 2023-04-21 to 2023-05-16 using `ml_staging` data.",
+    "The dashboard view for Bella Center was updated in both STAGE and PROD environments."
+  ],
+  "action_items": [
+    "Someone will provide the CSV file containing Visit Average (VA) data tomorrow morning."
+  ]
+}

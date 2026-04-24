@@ -1,0 +1,26 @@
+{
+  "chat_id": "i6YI1QAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 2,
+  "date_range": {
+    "start": "2023-08-21",
+    "end": "2023-08-21"
+  },
+  "message_count": 44,
+  "topic": "Adjusting frequency calculation methodology",
+  "topic_slug": "adjusting-frequency-calculation-methodology",
+  "tags": [
+    "analytics",
+    "campaign",
+    "facility"
+  ],
+  "summary_markdown": "The discussion focused on refining the calculation of 'frequency' metrics, particularly addressing high frequencies observed in certain locations (e.g., Rio).\n\nInitial concerns were raised about frequency being too high due to virtual copies originating from a single real source.\n\nSeveral adjustments were proposed and tested:\n1. **Distinct Facility Source:** Using `distinct faciity_source` was suggested to lower the calculated frequency where multiple virtual sources mapped to one physical location.\n2. **Adjustment Coefficient:** A method involving an adjustment coefficient based on the proportion of 'real' sensors versus total locations was discussed (e.g., dividing frequency by 5 if many virtual copies were tied to one real source).\n3. **Formula Refinement:** A specific formula was developed and tested to adjust `session_number_sample` by grouping against the original facility count, thereby adjusting for an overestimation of sessions due to multiple virtual copies.\n\nTesting showed that adjustments (e.g., using a coefficient or the refined formula) resulted in significantly lower frequency counts compared to initial calculations, leading to consensus on the adjusted approach.",
+  "decisions": [
+    "The calculation methodology for frequency needs adjustment to account for overcounting due to virtual copies from single real sources.",
+    "A specific formula was agreed upon to adjust `session_number_sample` based on facility target count (dividing by 5 if the count is five or greater, otherwise keeping it as is)."
+  ],
+  "action_items": [
+    "The speaker will provide the full SQL query used for the adjusted frequency calculation so that others can experiment with it."
+  ]
+}

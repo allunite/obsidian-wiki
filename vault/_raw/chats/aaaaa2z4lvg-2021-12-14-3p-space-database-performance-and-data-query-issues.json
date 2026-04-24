@@ -1,0 +1,25 @@
+{
+  "chat_id": "AAAAA2Z4lvg",
+  "kind": "Space",
+  "space_name": "Group Chat",
+  "participants": 3,
+  "date_range": {
+    "start": "2021-12-14",
+    "end": "2021-12-14"
+  },
+  "message_count": 62,
+  "topic": "Database performance and data query issues",
+  "topic_slug": "database-performance-and-data-query-issues",
+  "tags": [
+    "analytics",
+    "campaign"
+  ],
+  "summary_markdown": "The discussion focused heavily on database setup, optimization, and querying. Initial efforts involved configuring multiple paths (e.g., `path`, `tmp_path`, `user_files_path`) for the data cluster.\n\nLater issues included slow query performance and incorrect date filtering in queries (e.g., returning 2020 data when targeting 2021).\n\nSolutions discussed included:\n*   Using database optimization methods (like rebuilding tables) to improve efficiency.\n*   Correcting date formats in SQL queries, specifically ensuring the year is correctly specified (e.g., using '2021-12' instead of an invalid format like '2021-21').\n*   Testing complex queries on both development and production environments to assess overall system stability and performance.\n\nOne participant committed to deploying a fix on the production environment to ensure future backups can be restored successfully.",
+  "decisions": [
+    "Multiple data paths were configured for the cluster (hot, tmp, user_files).",
+    "The date format issue in queries was identified and corrected."
+  ],
+  "action_items": [
+    "A fix will be deployed on the production environment to ensure successful restoration of future backups."
+  ]
+}

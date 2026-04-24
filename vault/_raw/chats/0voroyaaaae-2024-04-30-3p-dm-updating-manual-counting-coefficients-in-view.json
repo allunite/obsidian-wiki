@@ -1,0 +1,25 @@
+{
+  "chat_id": "0VorOYAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2024-04-30",
+    "end": "2024-04-30"
+  },
+  "message_count": 20,
+  "topic": "Updating manual counting coefficients in view",
+  "topic_slug": "updating-manual-counting-coefficients-in-view",
+  "tags": [
+    "analytics",
+    "recalc-ch"
+  ],
+  "summary_markdown": "The conversation focused on accessing and refining data from the `manual_counting` table. It was confirmed that the data is accessible via a PostgreSQL prefix (`pg.`). A specific SQL query structure for retrieving manual counting details, including facility information and JSONB array elements, was reviewed and refined.\n\nRegarding default coefficients for categories in the manuals, it was decided that while the field exists within an extended view, setting these values is not urgent. The responsibility for defining which coefficient to use will be agreed upon internally by the team, and [me] offered to input the required data (ID/name and category) when instructed.",
+  "decisions": [
+    "The manual counting table data can be accessed via `pg.` prefix.",
+    "Default coefficients for categories in the manuals are not urgent and can wait until later."
+  ],
+  "action_items": [
+    "Someone needs to provide specific ID/name and category details so [me] can write the default coefficient values."
+  ]
+}

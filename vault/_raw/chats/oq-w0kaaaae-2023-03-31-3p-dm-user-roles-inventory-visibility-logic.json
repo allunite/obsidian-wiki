@@ -1,0 +1,23 @@
+{
+  "chat_id": "oq-w0kAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2023-03-31",
+    "end": "2023-03-31"
+  },
+  "message_count": 17,
+  "topic": "User roles and inventory visibility logic",
+  "topic_slug": "user-roles-inventory-visibility-logic",
+  "tags": [
+    "analytics"
+  ],
+  "summary_markdown": "The discussion covered two main technical topics: session aggregation/calculation and user role permissions.\n\n**Session Data Handling:**\n*   Real-time sessions are currently written to ClickHouse, although they are not yet available in the system for real-time use.\n*   Nightly recalculations of sessions are handled by ClickHouse.\n\n**User Roles/Permissions:**\n*   It was confirmed that an 'admin' role is a super role encompassing all other roles.\n*   The current logic, where users with admin rights cannot see the 'inventory' section if it is not explicitly granted, was questioned. It was determined that an administrator should inherently have visibility across all sections, including inventory.",
+  "decisions": [
+    "Admin role must grant full visibility to all modules/sections."
+  ],
+  "action_items": [
+    "The user will modify both the menu structure and new guards to ensure admin roles have comprehensive access."
+  ]
+}

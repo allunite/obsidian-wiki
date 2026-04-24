@@ -1,0 +1,21 @@
+{
+  "chat_id": "oq-w0kAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2026-04-15",
+    "end": "2026-04-15"
+  },
+  "message_count": 4,
+  "topic": "Invoice follow-up and reminders",
+  "topic_slug": "invoice-follow-up-and-reminders",
+  "tags": [
+    "analytics"
+  ],
+  "summary_markdown": "The conversation revolves around a reminder regarding an invoice detail (333) that needs to be added. [p1] notes that someone else forgot this detail, leading to the exchange of thanks and light banter about needing constant reminders.",
+  "decisions": [],
+  "action_items": [
+    "Ensure 333 is included in the invoice."
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "chat_id": "7l_n6kAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 2,
+  "date_range": {
+    "start": "2023-11-28",
+    "end": "2023-11-28"
+  },
+  "message_count": 10,
+  "topic": "Asset data migration process discussion",
+  "topic_slug": "asset-data-migration-process-discussion",
+  "tags": [
+    "facility",
+    "analytics",
+    "inventory"
+  ],
+  "summary_markdown": "The conversation focused on the technical challenge of migrating existing MAC addresses and location data to new facilities. One participant described a process where client-provided geo data for a new, unlisted location required creating a new facility ID record, transferring MAC/geo data, and noting that this was also happening with another sensor (001E422E6572). The core technical discussion revolved around the best method for moving existing MACs to newly created facilities. A multi-step approach was proposed: 1) Exporting the file; 2) Adding a new facility row without a MAC; 3) Deleting the MAC from the old facility; 4) Importing; 5) Inserting the MAC into the new facility row; and 6) Importing again. This process was acknowledged as complex, with participants agreeing that further review was needed.",
+  "decisions": [
+    "The multi-step approach for migrating existing MACs to new facilities (export -> add facility -> delete mac -> import -> insert mac -> import) is the proposed method."
+  ],
+  "action_items": [
+    "Participants will review the detailed asset migration process tomorrow morning."
+  ]
+}

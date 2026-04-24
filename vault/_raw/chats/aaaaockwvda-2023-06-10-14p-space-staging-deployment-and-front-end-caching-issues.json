@@ -1,0 +1,25 @@
+{
+  "chat_id": "AAAAOcKWvdA",
+  "kind": "Space",
+  "space_name": "Delivery Coordination",
+  "participants": 14,
+  "date_range": {
+    "start": "2023-06-10",
+    "end": "2023-06-10"
+  },
+  "message_count": 13,
+  "topic": "Staging deployment and front-end caching issues",
+  "topic_slug": "staging-deployment-and-front-end-caching-issues",
+  "tags": [
+    "analytics",
+    "campaign"
+  ],
+  "summary_markdown": "The discussion focused on deploying changes to the staging environment. Initial concerns included a bug related to segments remaining visible when changing visibility angles in the sandbox, and whether this glitch would persist upon deployment.\n\nLater, it was noted that after deployment, the front end remained cached in the browser, preventing new versions from loading unless site data was cleared or incognito mode was used. It was suggested that a build check might be needed to verify if minification caused the issue.\n\nUltimately, the necessary changes were confirmed as complete and deployed to the staging environment using the `develop` branch.",
+  "decisions": [
+    "The required changes are ready for deployment to the staging environment.",
+    "Deployment will proceed using the 'develop' branch."
+  ],
+  "action_items": [
+    "Check the build process, specifically minification, to address front-end caching issues after deployment."
+  ]
+}

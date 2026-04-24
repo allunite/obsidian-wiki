@@ -1,0 +1,25 @@
+{
+  "chat_id": "AAAAOcKWvdA",
+  "kind": "Space",
+  "space_name": "Delivery Coordination",
+  "participants": 14,
+  "date_range": {
+    "start": "2024-10-10",
+    "end": "2024-10-10"
+  },
+  "message_count": 9,
+  "topic": "Facility and frame data cleanup requirements",
+  "topic_slug": "facility-and-frame-data-cleanup-requirements",
+  "tags": [
+    "facility",
+    "frame",
+    "analytics"
+  ],
+  "summary_markdown": "The discussion focused on updating client data, specifically regarding facilities and frames. One participant noted that the initial version of a client card was created on staging with static data, lacking filter tables, and is currently only accessible to administrators.\n\nA key point raised was the need for significant work to reconcile the number of facilities and frames, including marking unused ones as inactive. This cleanup effort would allow for the removal of stock checks from names, improving overall functionality, as the current 'Stock' check is causing issues.",
+  "decisions": [
+    "The initial client card version was deployed on staging with static data."
+  ],
+  "action_items": [
+    "Reconcile and mark unused facilities and frames as inactive to improve system functionality."
+  ]
+}

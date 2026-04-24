@@ -1,0 +1,25 @@
+{
+  "chat_id": "oq-w0kAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2024-11-22",
+    "end": "2024-11-22"
+  },
+  "message_count": 8,
+  "topic": "Debugging missing impressions in campaign report",
+  "topic_slug": "debugging-missing-impressions-in-campaign-report",
+  "tags": [
+    "impression",
+    "frame",
+    "analytics"
+  ],
+  "summary_markdown": "A client reported a discrepancy where a campaign showed traffic and frames but zero impressions, which the client believed was incorrect. The issue was investigated using SQL queries against `device_session_agg_5` to check for impression data associated with specific user frames (`RJ001821_E`). It was determined that the session data indeed lacked impressions.\n\n**Decision:** The investigation and debugging process were assigned to be documented in a bug comment and then transferred to 'Саша' (Sasha) for follow-up.",
+  "decisions": [
+    "The missing impression issue needs to be logged as a bug."
+  ],
+  "action_items": [
+    "Log the bug details in a comment and transfer it to Sasha."
+  ]
+}

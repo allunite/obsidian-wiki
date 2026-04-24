@@ -1,0 +1,25 @@
+{
+  "chat_id": "8GgAuwAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 2,
+  "date_range": {
+    "start": "2023-07-20",
+    "end": "2023-07-20"
+  },
+  "message_count": 13,
+  "topic": "Reviewing Brazil inventory coordinates and data",
+  "topic_slug": "reviewing-brazil-inventory-coordinates-and-data",
+  "tags": [
+    "analytics",
+    "frame",
+    "inventory"
+  ],
+  "summary_markdown": "A specific issue was raised regarding the coordinate mapping for attached frames in the Brazil market. The client reported a discrepancy where the coordinates used for the attached frames did not match the coordinates shown on the screen location, despite the file containing the correct data. A request was made to check if the 'screen location' consistently matches the 'frame attributes' across all inventory items, or if any discrepancies exceed 5 meters. The recipient stated they would review this later, possibly that evening or the next day.",
+  "decisions": [
+    "The coordinate discrepancy issue for Brazil inventory needs investigation."
+  ],
+  "action_items": [
+    "Review and verify frame coordinates against screen location data for all Brazilian inventory to check for consistency and distance deviations (max 5m)."
+  ]
+}

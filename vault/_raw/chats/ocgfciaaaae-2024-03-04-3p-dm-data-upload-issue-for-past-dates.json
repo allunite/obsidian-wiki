@@ -1,0 +1,23 @@
+{
+  "chat_id": "oCgFCIAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2024-03-04",
+    "end": "2024-03-04"
+  },
+  "message_count": 5,
+  "topic": "Data upload issue for past dates",
+  "topic_slug": "data-upload-issue-for-past-dates",
+  "tags": [
+    "analytics"
+  ],
+  "summary_markdown": "The session addressed a data ingestion failure, noting that data failed to upload starting from February 28th. [me] fixed the `data-api` and ran the `recalc - upload only` job. However, it was determined that a script was needed to backfill the missing data for previous days across all relevant countries.",
+  "decisions": [
+    "A dedicated script is required to run the historical data upload process for all countries."
+  ],
+  "action_items": [
+    "[p1] will run the necessary script and upload the historical data in the morning."
+  ]
+}

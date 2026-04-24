@@ -1,0 +1,23 @@
+{
+  "chat_id": "oCgFCIAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2026-03-03",
+    "end": "2026-03-03"
+  },
+  "message_count": 3,
+  "topic": "Data query for session analytics",
+  "topic_slug": "data-query-for-session-analytics",
+  "tags": [
+    "analytics",
+    "impression",
+    "facility"
+  ],
+  "summary_markdown": "A discussion occurred regarding the feasibility of running a data task using specific SQL parameters. The initial query provided by [p1] focused on aggregating session and impression data, including metrics like `viewable_flow_impressions`, `viewed_dwell_impressions`, and various session counts, for a specified facility master number (44332) starting after March 1st, 2026. It was confirmed that the task could be executed.",
+  "decisions": [
+    "The data query can be run."
+  ],
+  "action_items": []
+}

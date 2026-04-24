@@ -1,0 +1,31 @@
+{
+  "chat_id": "AAAAud4RJ_I",
+  "kind": "Space",
+  "space_name": "Group Chat",
+  "participants": 4,
+  "date_range": {
+    "start": "2025-09-05",
+    "end": "2025-09-05"
+  },
+  "message_count": 115,
+  "topic": "Troubleshooting data pipeline and recalculation issues",
+  "topic_slug": "troubleshooting-data-pipeline-and-recalculation-issues",
+  "tags": [
+    "analytics",
+    "campaign",
+    "impression",
+    "loop",
+    "mutation",
+    "recalc-ch",
+    "session"
+  ],
+  "summary_markdown": "The conversation focused on diagnosing and resolving failures in the data pipeline, specifically related to recalculation (recalc) jobs.\n\n**Key Issues & Diagnoses:**\n*   **Mutation Failures:** Initial issues involved mutations failing due to resource constraints or complex execution logic. One specific failure was traced back to `Cannot reserve X MiB, not enough space` during a mutation process on one cluster node (clickhouse04).\n*   **Data Cleanup & Optimization:** It was determined that the current deletion method (`DELETE WHERE...`) heavily loads ClickHouse and is inefficient for large-scale data cleanup. Suggestions included optimizing the job to use `SELECT COUNT()` before issuing deletions, or restructuring the process entirely.\n*   **Pipeline Execution:** The team successfully restarted multiple jobs (including those related to ML prediction) across different environments (dev, beta, stage, prod). The recalculation process was observed to be faster after implementing changes that allowed for bulk deletion rather than incremental updates.\n*   **Technical Debt/Maintenance:** Several technical issues were noted, including: \n    *   The need to optimize the job logging to reduce overhead. \n    *   A potential issue with a `TTL` query (`ALTER TABLE... MODIFY TTL`) causing slow performance or blocking subsequent operations.\n    *   An incident where a frame generated infinite impressions due to a zero `loop_duration` in a specific region.\n\n**Decisions:**\n*   The ML traffic prediction job was successfully run on the production and staging environments without immediate errors.\n*   A pull request (PR) for improving data deletion logic was merged into the master branch for deployment.\n*   It was decided to proceed with running subsequent steps of the recalculation process (impressions, aggregates, etc.) after resolving initial failures.",
+  "decisions": [
+    "The ML traffic prediction job was run on production and staging environments.",
+    "A PR improving data deletion logic was merged into master for deployment."
+  ],
+  "action_items": [
+    "Redeploy the ml-api service from the main branch to production.",
+    "Investigate optimizing the job logging overhead in the ML prediction job."
+  ]
+}

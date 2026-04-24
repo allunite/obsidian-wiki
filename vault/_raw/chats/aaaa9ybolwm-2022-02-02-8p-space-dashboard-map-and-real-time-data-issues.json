@@ -1,0 +1,25 @@
+{
+  "chat_id": "AAAA9ybOLwM",
+  "kind": "Space",
+  "space_name": "ИТ",
+  "participants": 8,
+  "date_range": {
+    "start": "2022-02-02",
+    "end": "2022-02-02"
+  },
+  "message_count": 37,
+  "topic": "Dashboard map and real-time data issues",
+  "topic_slug": "dashboard-map-and-real-time-data-issues",
+  "tags": [
+    "analytics",
+    "session",
+    "facility"
+  ],
+  "summary_markdown": "The discussion focused on missing Map & Live stats for a location (Lithuania). It was determined that the map should appear automatically once data is available. Multiple participants confirmed issues with real-time session data; initially, only 'F' data was flowing, not current sessions.\n\nLater, it was identified that there were factor issues with new tenants. The system failed to use a general default when factors were missing for companies, which needs fixing for the future.",
+  "decisions": [
+    "The map display is dependent on the availability of data."
+  ],
+  "action_items": [
+    "Fix the process so that the system automatically uses a general default when tenant-specific factors are missing."
+  ]
+}

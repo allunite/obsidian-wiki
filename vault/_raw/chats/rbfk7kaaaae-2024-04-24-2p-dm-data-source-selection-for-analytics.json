@@ -1,0 +1,22 @@
+{
+  "chat_id": "rBfK7kAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 2,
+  "date_range": {
+    "start": "2024-04-24",
+    "end": "2024-04-24"
+  },
+  "message_count": 4,
+  "topic": "Data source selection for analytics",
+  "topic_slug": "data-source-selection-for-analytics",
+  "tags": [
+    "analytics"
+  ],
+  "summary_markdown": "A discussion occurred regarding the correct data environment and start date for an analysis. The decision was made to use the 'stage' environment from the `ml_2` source, starting on 2023-08-01.",
+  "decisions": [
+    "Use the 'stage' environment from `ml_2` for the data pull.",
+    "The required start date is 2023-08-01."
+  ],
+  "action_items": []
+}

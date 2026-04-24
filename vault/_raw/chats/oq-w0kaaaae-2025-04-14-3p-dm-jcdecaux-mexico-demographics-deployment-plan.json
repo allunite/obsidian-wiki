@@ -1,0 +1,26 @@
+{
+  "chat_id": "oq-w0kAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2025-04-14",
+    "end": "2025-04-14"
+  },
+  "message_count": 13,
+  "topic": "JCDecaux Mexico demographics deployment plan",
+  "topic_slug": "jcdecaux-mexico-demographics-deployment-plan",
+  "tags": [
+    "analytics",
+    "campaign"
+  ],
+  "summary_markdown": "The discussion focused on the deployment and handling of demographic data for JCDecaux Mexico. Initially, there was concern about including religious demographics, but this was clarified to be age ranges (15-64). It was decided that while full demographic reporting is desired, if the current citydata cannot provide adequate breakdowns by age, alternative categories (e.g., children/adults/seniors or affluent/non-affluent) should be considered for better usability.\n\nRegarding deployment, [me] confirmed that demographics could remain enabled for this client only in the 'stage' environment. The final plan was to merge the current branch with the release branch and deploy it to production (prod). A specific note was made that `citydata_mx` should be used on staging, while a default setting is used elsewhere, and age ranges will wait until a solution for them is devised.",
+  "decisions": [
+    "Demographics can remain enabled for this client only in the 'stage' environment.",
+    "The current branch will be merged with the release branch and deployed to production (prod).",
+    "On staging, `citydata_mx` will be used; on other environments, a default setting will apply."
+  ],
+  "action_items": [
+    "Deploy the updated version to production (prod) in the evening."
+  ]
+}

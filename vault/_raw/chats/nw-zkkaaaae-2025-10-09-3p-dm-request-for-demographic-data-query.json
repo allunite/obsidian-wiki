@@ -1,0 +1,21 @@
+{
+  "chat_id": "nW_zkkAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2025-10-09",
+    "end": "2025-10-09"
+  },
+  "message_count": 9,
+  "topic": "Request for demographic data query",
+  "topic_slug": "request-for-demographic-data-query",
+  "tags": [
+    "analytics"
+  ],
+  "summary_markdown": "The conversation began with a request regarding the demographics available for RZK Digital Media 7894. A SQL query was provided to retrieve company name, country, and ID sequence from user settings, joining it with the company table, filtered by specific paths (providers.demographics, dashboard.useModelledDwellTime11, campaign.useNewReach11) and a specific `id_seq` (7894). The discussion concluded with scheduling time to discuss the query further.",
+  "decisions": [],
+  "action_items": [
+    "Discuss the provided SQL query in 10-15 minutes."
+  ]
+}

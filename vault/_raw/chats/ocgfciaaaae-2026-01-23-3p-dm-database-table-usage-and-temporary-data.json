@@ -1,0 +1,21 @@
+{
+  "chat_id": "oCgFCIAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2026-01-23",
+    "end": "2026-01-23"
+  },
+  "message_count": 5,
+  "topic": "Database table usage and temporary data",
+  "topic_slug": "database-table-usage-and-temporary-data",
+  "tags": [
+    "analytics"
+  ],
+  "summary_markdown": "Discussion focused on the proper use of a database column/table, specifically `device_raw_temp`. [p1] questioned its usage and how to bypass it. The conversation involved reviewing SQL syntax for creating temporary tables (`dev.device_raw_temp`).",
+  "decisions": [
+    "A temporary table name was pushed."
+  ],
+  "action_items": []
+}

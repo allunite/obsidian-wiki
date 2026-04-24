@@ -1,0 +1,27 @@
+{
+  "chat_id": "i6YI1QAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 2,
+  "date_range": {
+    "start": "2021-11-15",
+    "end": "2021-11-15"
+  },
+  "message_count": 86,
+  "topic": "Data recalculation and model updates",
+  "topic_slug": "data-recalculation-and-model-updates",
+  "tags": [
+    "analytics",
+    "facility",
+    "session"
+  ],
+  "summary_markdown": "The conversation focused heavily on data pipeline maintenance, specifically involving the `device_session_agg_ml` table.\n\n*   **Data Gap Fix:** A request was made to recalculate session data for November 11, 2021, which was missing (a date gap fix).\n*   **Model Adjustments:** Multiple instances were discussed where the `ml_model= low` setting needed removal or adjustment for specific facilities (e.g., removing the model for a facility in Germany and later for facility 3901). The process involved updating both staging and production tables.\n*   **Data Source Changes:** Discussion included shifting data source references from ClickHouse to PostgreSQL, noting that `facility_id` might need replacement with `box_mac` for certain assets.\n*   **Recalculation Cycle:** Several recalculations were performed for specific facilities (e.g., facility 3901) using the staging environment before updating production.",
+  "decisions": [
+    "The missing session data for November 11, 2021, was recalculated and updated in the system.",
+    "The `ml_model= low` setting was removed or adjusted for specific facilities as requested.",
+    "Data updates were performed on both staging and production environments for various facilities."
+  ],
+  "action_items": [
+    "Continue monitoring data integrity, especially regarding facility ID mapping (facility_id vs. box_mac)."
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "chat_id": "0m7UOUAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2023-12-06",
+    "end": "2023-12-06"
+  },
+  "message_count": 14,
+  "topic": "Syncing master and staging branch for jobs",
+  "topic_slug": "syncing-master-and-staging-branch-for-jobs",
+  "tags": [
+    "analytics",
+    "campaign"
+  ],
+  "summary_markdown": "The discussion focused on the correct procedure for synchronizing changes between the `master` and `stage` branches, particularly concerning nightly recalculation jobs. It was established that the staging job uses the `stage` branch while the production job uses the `master` branch.\n\n**Decision:** The consensus was reached that merging `master` into `stage` should be done continuously. This ensures that if a feature is stable enough for production, it will also be present in staging, allowing testing to accurately reflect the production environment and ensuring consistency when no changes are being tested.",
+  "decisions": [
+    "Master branch should be merged into stage continuously."
+  ],
+  "action_items": []
+}

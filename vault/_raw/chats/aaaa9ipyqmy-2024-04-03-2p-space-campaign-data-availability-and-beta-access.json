@@ -1,0 +1,25 @@
+{
+  "chat_id": "AAAA9IpyQmY",
+  "kind": "Space",
+  "space_name": "Group Chat",
+  "participants": 2,
+  "date_range": {
+    "start": "2024-04-03",
+    "end": "2024-04-03"
+  },
+  "message_count": 13,
+  "topic": "Campaign data availability and beta access",
+  "topic_slug": "campaign-data-availability-and-beta-access",
+  "tags": [
+    "campaign",
+    "analytics"
+  ],
+  "summary_markdown": "The discussion focused on the availability of campaign data for Denmark, specifically requesting historical data for the full year (24). The need to present this data to clients was highlighted.\n\nRegarding demographic data for 'Afa', someone confirmed that while no demographics were needed initially, they had to be calculated historically. This calculation was completed and shared.\n\nFinally, a request was made to open or calculate the campaign on the beta environment, which was subsequently completed.",
+  "decisions": [
+    "Historical data for the full year (24) is required for the Denmark campaign.",
+    "Demographic data for 'Afa' was calculated and provided."
+  ],
+  "action_items": [
+    "Open/calculate the campaign on the beta environment."
+  ]
+}

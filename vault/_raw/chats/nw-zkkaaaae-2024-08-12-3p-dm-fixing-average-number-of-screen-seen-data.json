@@ -1,0 +1,23 @@
+{
+  "chat_id": "nW_zkkAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2024-08-12",
+    "end": "2024-08-12"
+  },
+  "message_count": 15,
+  "topic": "Fixing Average Number of Screen Seen data",
+  "topic_slug": "fixing-average-number-of-screen-seen-data",
+  "tags": [
+    "analytics",
+    "dwell-time",
+    "recalc-ch"
+  ],
+  "summary_markdown": "The conversation focused on debugging and resolving discrepancies in the 'Average Number of Screen Seen (Cluster)' metric. Initially, a data issue was observed where cluster metrics varied significantly across different sensor counts (e.g., 7.5 vs 8.2 vs 1.4). [me] confirmed that a previous fix related to `dwell-time` had been implemented. Subsequently, [me] provided specific instructions regarding the 'Average Number of Screen Seen (Cluster)' metric, and later confirmed that the necessary fix was applied within the STAGE dataset.",
+  "decisions": [
+    "The data issue for Average Number of Screen Seen (Cluster) was resolved."
+  ],
+  "action_items": []
+}

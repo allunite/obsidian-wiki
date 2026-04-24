@@ -1,0 +1,27 @@
+{
+  "chat_id": "AAAAsuLcSkw",
+  "kind": "Space",
+  "space_name": "Group Chat",
+  "participants": 4,
+  "date_range": {
+    "start": "2022-12-05",
+    "end": "2022-12-05"
+  },
+  "message_count": 13,
+  "topic": "Analytics data source and dashboard status",
+  "topic_slug": "analytics-data-source-dashboard-status",
+  "tags": [
+    "analytics",
+    "facility",
+    "dwell-time"
+  ],
+  "summary_markdown": "The conversation focused on checking the correct dataset (stage vs. prod) for analytics reporting, specifically regarding dwell time metrics (avgSession).\n\n*   [p1] provided a link to the staging environment dashboard and clarified that there are two tabs: 'stage' and 'prod'.\n*   Someone confirmed they added `&ds=stage` to the dataset link.\n*   The main concern was determining how involved someone (Nastya) was in recent changes and what adjustments were necessary. Someone requested a daily export of data to accurately track day-by-day dynamics, as the dashboard did not show expected changes.",
+  "decisions": [
+    "Use the staging environment for analytics viewing.",
+    "A daily data export is required to check dynamic trends."
+  ],
+  "action_items": [
+    "Someone will write back regarding their involvement in recent changes.",
+    "[p2] will check the data."
+  ]
+}

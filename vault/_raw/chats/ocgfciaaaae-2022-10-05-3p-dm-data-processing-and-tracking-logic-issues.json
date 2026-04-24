@@ -1,0 +1,29 @@
+{
+  "chat_id": "oCgFCIAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2022-10-05",
+    "end": "2022-10-05"
+  },
+  "message_count": 22,
+  "topic": "Data processing and tracking logic issues",
+  "topic_slug": "data-processing-and-tracking-logic-issues",
+  "tags": [
+    "analytics",
+    "inventory",
+    "session",
+    "loop",
+    "dwell-time"
+  ],
+  "summary_markdown": "The discussion covered several technical issues related to data processing and tracking. Initial work included implementing correct lidar IDs, adding new zones, and cleaning up duplicate records (which was done by grouping all fields with a different lidar ID for old entries).\n\nMajor challenges include:\n1. **Duplicate Handling:** The mechanism for preventing duplicates is complex due to the system's 'send exactly once' logic combined with network timeouts/retries, leading to frequent timeout errors and making it unclear why duplicates suddenly disappeared after a recent release.\n2. **Zone Tracking Logic:** A specific issue was identified regarding nested zones (internal within external). If a user enters both, the current method generates two separate events (one for each zone), requiring a more sophisticated summation or aggregation logic than simple summing to accurately track the session.\n3. **Technical Fixes:** Several minor technical fixes were implemented during the session, including resolving CORS issues and addressing general error logs.",
+  "decisions": [
+    "The team will investigate the root cause of duplicate data generation despite current cleanup methods.",
+    "A more complex aggregation or summation logic is required to accurately track user sessions that traverse nested zones (e.g., internal zone within an external zone)."
+  ],
+  "action_items": [
+    "Someone needs to handle scaling images for inventory based on width, as requested by Galina.",
+    "The team will gather all requirements from Galina regarding Open Street data classification for Brazil."
+  ]
+}

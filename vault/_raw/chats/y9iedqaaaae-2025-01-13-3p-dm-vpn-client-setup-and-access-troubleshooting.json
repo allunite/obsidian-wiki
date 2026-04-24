@@ -1,0 +1,25 @@
+{
+  "chat_id": "y9IEDQAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2025-01-13",
+    "end": "2025-01-13"
+  },
+  "message_count": 45,
+  "topic": "VPN client setup and access troubleshooting",
+  "topic_slug": "vpn-client-setup-and-access-troubleshooting",
+  "tags": [
+    "analytics",
+    "session"
+  ],
+  "summary_markdown": "The conversation focused heavily on technical support for setting up a new VPN client. Initial attempts to connect failed due to incorrect setup instructions and configuration issues (e.g., forgetting to disable OpenVPN). The connection was eventually established after multiple troubleshooting steps, including verifying DNS resolution (`nslookup db.allunite.local 100.100.111.1`) and restarting the client.\n\nFinally, access to an admin portal was granted by [p1] after initial difficulties with authentication.",
+  "decisions": [
+    "VPN client setup instructions were provided (Auth URL: https://firezone.allunite.com; API URL: wss://firezone-api.allunite.com).",
+    "Full Access to the admin portal was granted by [p1]."
+  ],
+  "action_items": [
+    "None."
+  ]
+}

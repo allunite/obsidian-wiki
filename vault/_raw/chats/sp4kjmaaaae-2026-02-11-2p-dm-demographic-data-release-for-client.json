@@ -1,0 +1,23 @@
+{
+  "chat_id": "sP4KJMAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 2,
+  "date_range": {
+    "start": "2026-02-11",
+    "end": "2026-02-11"
+  },
+  "message_count": 15,
+  "topic": "Demographic data release for client",
+  "topic_slug": "demographic-data-release-for-client",
+  "tags": [
+    "analytics",
+    "campaign"
+  ],
+  "summary_markdown": "The discussion focused on the urgent need to move demographic data from Staging to analytics for a client presentation. The process was expedited, with the demography feature scheduled for release within half an hour.\n\nInitial deployment revealed inconsistencies in several labels, specifically 'Household Composition -> Family Role' and 'Transport Modes -> Car Quantity'. These issues required a final commit to fix them.\n\nThe immediate plan involved releasing the data despite minor label inconsistencies so that someone could activate campaigns for the client in the interim.",
+  "decisions": [
+    "Demographic data was released from Staging to analytics for the client.",
+    "The task related to this release was closed."
+  ],
+  "action_items": []
+}

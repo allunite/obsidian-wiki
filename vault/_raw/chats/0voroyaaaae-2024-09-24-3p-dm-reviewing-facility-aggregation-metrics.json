@@ -1,0 +1,22 @@
+{
+  "chat_id": "0VorOYAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2024-09-24",
+    "end": "2024-09-24"
+  },
+  "message_count": 9,
+  "topic": "Reviewing facility aggregation metrics",
+  "topic_slug": "reviewing-facility-aggregation-metrics",
+  "tags": [
+    "analytics",
+    "facility"
+  ],
+  "summary_markdown": "The conversation focused on discrepancies found during the review of aggregated metrics related to a specific facility. [p1] noted that not all metrics aligned correctly after reviewing the data, and requested assistance in identifying where the issue lay.",
+  "decisions": [],
+  "action_items": [
+    "Schedule a follow-up discussion for tomorrow morning to review metric discrepancies."
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "chat_id": "nW_zkkAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2026-02-03",
+    "end": "2026-02-03"
+  },
+  "message_count": 12,
+  "topic": "Request for Cyprus demographic data",
+  "topic_slug": "request-for-cyprus-demographic-data",
+  "tags": [
+    "analytics"
+  ],
+  "summary_markdown": "The conversation centered on the need for demographic data specifically for Cyprus. [me] confirmed that this data was requested, noting that it involved questions regarding frequency and related metrics. The participants discussed the source of this data, with [p1] stating that a provider would share an open resource link. Later, [me] shared a staging analytics URL and noted that no ticket existed for the work completed.\n\n[p1] questioned why work was done without an associated task/ticket, providing a ClickUp link as reference.",
+  "decisions": [],
+  "action_items": [
+    "A data provider needs to share the open resource containing Cyprus demographic information."
+  ]
+}

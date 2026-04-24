@@ -1,0 +1,19 @@
+{
+  "chat_id": "AAAAqeRkR58",
+  "kind": "Space",
+  "space_name": "Estonia",
+  "participants": 9,
+  "date_range": {
+    "start": "2021-08-13",
+    "end": "2021-08-13"
+  },
+  "message_count": 3,
+  "topic": "Hardware shipment and product readiness",
+  "topic_slug": "hardware-shipment-and-product-readiness",
+  "tags": [
+    "facility"
+  ],
+  "summary_markdown": "Four lidars are scheduled to arrive via DHL and will be shipped from the office next week. The remaining ordered items will be sent once the product is ready.",
+  "decisions": [],
+  "action_items": []
+}

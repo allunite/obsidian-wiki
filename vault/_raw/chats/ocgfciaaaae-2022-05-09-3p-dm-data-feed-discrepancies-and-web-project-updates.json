@@ -1,0 +1,27 @@
+{
+  "chat_id": "oCgFCIAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2022-05-09",
+    "end": "2022-05-09"
+  },
+  "message_count": 45,
+  "topic": "Data feed discrepancies and web project updates",
+  "topic_slug": "data-feed-discrepancies-and-web-project-updates",
+  "tags": [
+    "analytics",
+    "campaign",
+    "inventory",
+    "mops"
+  ],
+  "summary_markdown": "The discussion covered two main topics: data feed discrepancies in Germany and updates to the corporate website. Regarding the German feeds, it was noted that some facilities with zero traffic (e.g., \"JCD_DE_111675_moved\" or \"JCD_DE_not installed\") were present. It was determined that a dataset had been moved from STAGE to PROD on April 28th by WallDecaux, which likely caused the data size increase and confusion among team members regarding new vs. old facilities.\n\nSeparately, the participants discussed updating the corporate website using Angular 12. A decision was made to merge the changes into the main branch if functional. Furthermore, it was agreed that `package-lock.json` should be removed from the repository because it causes synchronization issues and is unnecessary for this small project.",
+  "decisions": [
+    "Merge the corporate website Angular 12 updates into the main branch.",
+    "Remove package-lock.json from the repository."
+  ],
+  "action_items": [
+    "Investigate data feed discrepancies in Germany, specifically regarding facilities with zero traffic and potential dataset movements."
+  ]
+}

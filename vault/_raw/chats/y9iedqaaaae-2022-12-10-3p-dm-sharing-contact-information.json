@@ -1,0 +1,19 @@
+{
+  "chat_id": "y9IEDQAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2022-12-10",
+    "end": "2022-12-10"
+  },
+  "message_count": 12,
+  "topic": "Sharing contact information",
+  "topic_slug": "sharing-contact-information",
+  "tags": [],
+  "summary_markdown": "The conversation was primarily focused on exchanging and confirming email addresses. [p1] requested an email address, which [me] provided. Later, [p1] confirmed the account setup process with some minor technical difficulties.",
+  "decisions": [
+    "Email addresses were exchanged."
+  ],
+  "action_items": []
+}

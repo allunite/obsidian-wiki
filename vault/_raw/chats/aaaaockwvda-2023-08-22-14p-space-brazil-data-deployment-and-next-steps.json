@@ -1,0 +1,28 @@
+{
+  "chat_id": "AAAAOcKWvdA",
+  "kind": "Space",
+  "space_name": "Delivery Coordination",
+  "participants": 14,
+  "date_range": {
+    "start": "2023-08-22",
+    "end": "2023-08-22"
+  },
+  "message_count": 46,
+  "topic": "Brazil data deployment and next steps",
+  "topic_slug": "brazil-data-deployment-and-next-steps",
+  "tags": [
+    "analytics",
+    "campaign",
+    "impression",
+    "inventory"
+  ],
+  "summary_markdown": "The team discussed the deployment plan for Brazil data, prioritizing this over other companies until completion. The process involves running a recalculation script (using an updated version) on staged data, reviewing it, and then deploying to production.\n\nInitial concerns were raised regarding missing or inconsistent data for specific dates (e.g., August 17th). It was confirmed that the necessary data for 'Company' level aggregation is available starting from August 17th.\n\nA decision was made to deploy only the August data set, as aggregating July data proved difficult and time-consuming. The deployment of analytics requiring fixes (from someone named Sasha) must also be included with the release.\n\nThe final steps involved deploying the updated Brazil data and associated analytics to production, which was completed by [p5]. A minor issue regarding translation cache updates remained unresolved.",
+  "decisions": [
+    "Prioritize completing the Brazil data deployment before working on other companies.",
+    "Deploy only the August data set for Brazil due to complexity in aggregating July data.",
+    "Include analytics with fixes (from Sasha) in the production release."
+  ],
+  "action_items": [
+    "Check and resolve the translation cache update issue."
+  ]
+}

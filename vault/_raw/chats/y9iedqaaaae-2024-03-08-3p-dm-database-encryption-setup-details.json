@@ -1,0 +1,21 @@
+{
+  "chat_id": "y9IEDQAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2024-03-08",
+    "end": "2024-03-08"
+  },
+  "message_count": 5,
+  "topic": "Database encryption and setup details",
+  "topic_slug": "database-encryption-setup-details",
+  "tags": [
+    "analytics"
+  ],
+  "summary_markdown": "The conversation discusses technical work related to database management. [p1] mentioned working on PostgreSQL, specifically implementing EBS encryption/decryption.\n[me] inquired whether the hardware or the instance itself handles the encryption/decryption process.\n[p1] confirmed that AWS handles this process and no changes are required in the PostgreSQL or operating system settings.",
+  "decisions": [
+    "AWS will handle the necessary EBS encryption for PostgreSQL."
+  ],
+  "action_items": []
+}

@@ -1,0 +1,23 @@
+{
+  "chat_id": "xdx5dQAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 2,
+  "date_range": {
+    "start": "2021-02-03",
+    "end": "2021-02-03"
+  },
+  "message_count": 6,
+  "topic": "Task completion timeline for Jira ticket",
+  "topic_slug": "task-completion-timeline-jira-ticket",
+  "tags": [
+    "analytics"
+  ],
+  "summary_markdown": "The conversation primarily involved logistical coordination. [me] provided a link to a specific Jira ticket (JCDEC-271) and stated that the task would be completed by the next morning.",
+  "decisions": [
+    "Task JCDEC-271 will be completed by tomorrow morning."
+  ],
+  "action_items": [
+    "None"
+  ]
+}

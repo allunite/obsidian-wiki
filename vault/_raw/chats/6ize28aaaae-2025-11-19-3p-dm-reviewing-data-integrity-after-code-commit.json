@@ -1,0 +1,21 @@
+{
+  "chat_id": "6ize28AAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2025-11-19",
+    "end": "2025-11-19"
+  },
+  "message_count": 4,
+  "topic": "Reviewing data integrity after code commit",
+  "topic_slug": "reviewing-data-integrity-after-code-commit",
+  "tags": [
+    "analytics"
+  ],
+  "summary_markdown": "The participants discussed a recent code commit that caused minor discrepancies in the analyzed data. It was hypothesized that the issue stemmed from the return of non-numeric values (NaN, Infinite, or None) instead of zero. One participant acknowledged not fully investigating the root cause at the time.",
+  "decisions": [
+    "No concrete decisions were made."
+  ],
+  "action_items": []
+}

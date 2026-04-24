@@ -1,0 +1,21 @@
+{
+  "chat_id": "i6YI1QAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 2,
+  "date_range": {
+    "start": "2023-04-14",
+    "end": "2023-04-14"
+  },
+  "message_count": 4,
+  "topic": "Demographic data granularity change",
+  "topic_slug": "demographic-data-granularity-change",
+  "tags": [
+    "analytics"
+  ],
+  "summary_markdown": "The demographic reporting method was discussed. The data now uses zip codes instead of districts, which caused minor changes in numbers for Denmark, Finland, and Latvia. If this new granularity is unsatisfactory, the option to import ESRI data with district-level (or nearest) granularity was proposed.",
+  "decisions": [
+    "Zip code granularity is acceptable."
+  ],
+  "action_items": []
+}

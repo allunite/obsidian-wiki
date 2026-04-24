@@ -1,0 +1,19 @@
+{
+  "chat_id": "nW_zkkAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2026-03-24",
+    "end": "2026-03-24"
+  },
+  "message_count": 3,
+  "topic": "Traffic check and general confirmation",
+  "topic_slug": "traffic-check-and-general-confirmation",
+  "tags": [
+    "analytics"
+  ],
+  "summary_markdown": "Someone confirmed that everything is working. A minor difference in traffic was noted but dismissed as insignificant.",
+  "decisions": [],
+  "action_items": []
+}

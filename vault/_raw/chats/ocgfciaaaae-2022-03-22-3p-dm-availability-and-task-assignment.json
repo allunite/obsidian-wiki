@@ -1,0 +1,21 @@
+{
+  "chat_id": "oCgFCIAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2022-03-22",
+    "end": "2022-03-22"
+  },
+  "message_count": 7,
+  "topic": "Availability and task assignment",
+  "topic_slug": "availability-and-task-assignment",
+  "tags": [
+    "analytics"
+  ],
+  "summary_markdown": "The conversation revolves around assigning tasks to [me]. [p1] mentions that someone (Sanya) plans to free up [me] for work at the mall or in the Netherlands. [me] confirms readiness, stating they will be available within one to two hours.",
+  "decisions": [
+    "[me] confirmed availability within 1-2 hours."
+  ],
+  "action_items": []
+}

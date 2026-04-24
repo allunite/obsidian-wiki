@@ -1,0 +1,21 @@
+{
+  "chat_id": "nW_zkkAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2023-11-21",
+    "end": "2023-11-21"
+  },
+  "message_count": 5,
+  "topic": "RZK Brazil models and analytics setup",
+  "topic_slug": "rzk-brazil-models-analytics-setup",
+  "tags": [
+    "analytics"
+  ],
+  "summary_markdown": "A participant inquired about uploading new models for RZK Brazil, specifically noting that the terminal was previously difficult due to transit analytics. They asked if standard procedures could be followed or if aggregation scripts had changed.\n[me] confirmed that the latest version of the templates includes a fix and instructed [p1] to update and proceed as usual.",
+  "decisions": [
+    "Standard procedure can be followed for uploading models."
+  ],
+  "action_items": []
+}

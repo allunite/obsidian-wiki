@@ -1,0 +1,22 @@
+{
+  "chat_id": "0VorOYAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2023-03-24",
+    "end": "2023-03-24"
+  },
+  "message_count": 4,
+  "topic": "Data migration for JCD Brazil stage to prod",
+  "topic_slug": "data-migration-jcd-brazil-stage-to-prod",
+  "tags": [
+    "analytics",
+    "campaign"
+  ],
+  "summary_markdown": "Someone requested the transfer of data for JCD Brazil from a staging environment to production. The scope was defined as starting from February 20th up to the current date. [me] confirmed that this action would be completed within half an hour and subsequently reported that it had been done.",
+  "decisions": [
+    "JCD Brazil data migrated from stage to prod, covering the period from Feb 20th to present."
+  ],
+  "action_items": []
+}

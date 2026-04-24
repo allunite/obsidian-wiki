@@ -1,0 +1,22 @@
+{
+  "chat_id": "AAAAYqebSvs",
+  "kind": "Space",
+  "space_name": "Netherlands",
+  "participants": 5,
+  "date_range": {
+    "start": "2021-10-01",
+    "end": "2021-10-01"
+  },
+  "message_count": 8,
+  "topic": "Reviewing Netherlands location data and metrics",
+  "topic_slug": "reviewing-netherlands-location-data-and-metrics",
+  "tags": [
+    "analytics",
+    "inventory"
+  ],
+  "summary_markdown": "The session focused on reviewing a list of potential locations in the Netherlands. Concerns were raised regarding potential blind spots, specifically near bicycle lanes. Later, the discussion shifted to data sources for provided metrics (Impressions, Total Visits, Visits/Impressions). It was determined that the metrics likely originated from GPS data, potentially sourced from the client's current GIC system.",
+  "decisions": [
+    "The list of locations in the Netherlands is considered acceptable despite minor blind spots."
+  ],
+  "action_items": []
+}

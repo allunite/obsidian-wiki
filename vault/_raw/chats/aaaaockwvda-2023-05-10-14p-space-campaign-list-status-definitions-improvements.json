@@ -1,0 +1,24 @@
+{
+  "chat_id": "AAAAOcKWvdA",
+  "kind": "Space",
+  "space_name": "Delivery Coordination",
+  "participants": 14,
+  "date_range": {
+    "start": "2023-05-10",
+    "end": "2023-05-10"
+  },
+  "message_count": 7,
+  "topic": "Campaign list status definitions and improvements",
+  "topic_slug": "campaign-list-status-definitions-improvements",
+  "tags": [
+    "campaign",
+    "analytics"
+  ],
+  "summary_markdown": "The discussion focused on refining the structure and functionality of the Campaign List view. Key points included:\n\n*   **Required Enhancements:** Implementing automated statuses (Active, Delivered), combining campaigns, adding additional tabs to the campaign list, adding new columns, and creating a test campaign that includes frames with sensors and traffic data.\n*   **Status Clarification:** The status definitions were reviewed. The Campaign List has four tabs: Active, Delivered, Upcoming, and Open.\n    *   Active: Indicates the period is currently running.\n    *   Delivered: Indicates the campaign has concluded.\n    *   Open/Upcoming Distinction: It was clarified that 'Upcoming' and 'Open' are functionally similar (both representing readiness before start). The consensus reached was to treat 'Upcoming' as synonymous with 'Ready', suggesting a potential consolidation or clearer definition is needed.",
+  "decisions": [
+    "The status definitions for Open and Upcoming need further clarification/consolidation."
+  ],
+  "action_items": [
+    "Schedule a call to finalize the campaign list structure and status logic."
+  ]
+}

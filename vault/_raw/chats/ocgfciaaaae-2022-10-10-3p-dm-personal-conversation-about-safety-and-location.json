@@ -1,0 +1,17 @@
+{
+  "chat_id": "oCgFCIAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2022-10-10",
+    "end": "2022-10-10"
+  },
+  "message_count": 9,
+  "topic": "Personal conversation about safety and location",
+  "topic_slug": "personal-conversation-about-safety-and-location",
+  "tags": [],
+  "summary_markdown": "The conversation focused on the general atmosphere of noise and perceived danger in various locations. [p1] mentioned loud noises (explosions) in multiple areas, noting that while their own situation was fine, they would prefer to move people elsewhere. [me] confirmed that the location was far from the source but still audible. The discussion concluded with a general sentiment about safety concerns across different Ukrainian cities.",
+  "decisions": [],
+  "action_items": []
+}

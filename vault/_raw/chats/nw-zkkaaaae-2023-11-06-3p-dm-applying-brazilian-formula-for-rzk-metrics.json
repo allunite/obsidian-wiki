@@ -1,0 +1,22 @@
+{
+  "chat_id": "nW_zkkAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2023-11-06",
+    "end": "2023-11-06"
+  },
+  "message_count": 10,
+  "topic": "Applying Brazilian formula for RZK metrics",
+  "topic_slug": "applying-brazilian-formula-for-rzk-metrics",
+  "tags": [
+    "analytics",
+    "campaign"
+  ],
+  "summary_markdown": "The participants discussed applying a specific 'Brazilian formula' to calculate metrics for RZK Digital Media. Initially, [p1] provided a sample function call using fixed parameters: `getFrequency_3C(1, 1, 'São Paulo', 7885, 0)`. Later, [me] clarified that the first two parameters (facilityNumber and dayNumber) are variables, meaning the frequency calculation will vary significantly over long periods or across many locations. The process was completed and reviewed.",
+  "decisions": [
+    "The Brazilian formula for RZK metrics is to be applied using variable facility and day numbers."
+  ],
+  "action_items": []
+}

@@ -1,0 +1,27 @@
+{
+  "chat_id": "y9IEDQAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2025-12-02",
+    "end": "2025-12-02"
+  },
+  "message_count": 60,
+  "topic": "API access and data security improvements",
+  "topic_slug": "api-access-and-data-security-improvements",
+  "tags": [
+    "analytics",
+    "inventory",
+    "campaign",
+    "facility"
+  ],
+  "summary_markdown": "The discussion covered several technical requirements for improving API logging, user permissions, and data handling.\n\n**Logging & Permissions:**\n*   It was determined that the `mops` user needs write access to the ClickHouse log database (`log.data_api_log`). This required granting specific `INSERT` privileges.\n*   The process of testing connectivity revealed initial issues with the `aka` user accessing the `log` database, which were resolved by switching users.\n*   **Data Security:** There was a strong recommendation to stop storing API keys and tokens in plain text within the database. The proposed solution involved replacing token storage with nullable columns for `company_id` and `user_id`, potentially using existing access token IDs.\n\n**Feature Development:**\n*   The team discussed adding fields like an error/exception field or a success flag (`is_success`) to the logging mechanism, though this was later simplified as event type tracking is handled elsewhere (in Tower).\n*   A key requirement identified was creating endpoints that allow companies to determine which demographic filters are available for specific API endpoints.",
+  "decisions": [
+    "The `mops` user will be granted write access (INSERT privileges) to the ClickHouse log database.",
+    "API keys and tokens should no longer be stored in plain text; instead, nullable columns for company ID and user ID are preferred."
+  ],
+  "action_items": [
+    "Implement endpoints allowing companies to discover available demographic filters for various API endpoints."
+  ]
+}

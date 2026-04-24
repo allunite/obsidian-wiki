@@ -1,0 +1,21 @@
+{
+  "chat_id": "6ize28AAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2025-06-17",
+    "end": "2025-06-17"
+  },
+  "message_count": 5,
+  "topic": "Campaign frequency model confirmation",
+  "topic_slug": "campaign-frequency-model-confirmation",
+  "tags": [
+    "campaign"
+  ],
+  "summary_markdown": "Someone confirmed that the current campaign frequency model is consistent with the one used for the Citrus 7949 traffic board. The implementation was rolled out to production following a commit on June 5th.",
+  "decisions": [
+    "Campaign frequency model matches the Citrus 7949 traffic board."
+  ],
+  "action_items": []
+}

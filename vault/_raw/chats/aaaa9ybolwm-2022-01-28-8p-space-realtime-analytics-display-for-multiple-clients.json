@@ -1,0 +1,21 @@
+{
+  "chat_id": "AAAA9ybOLwM",
+  "kind": "Space",
+  "space_name": "ИТ",
+  "participants": 8,
+  "date_range": {
+    "start": "2022-01-28",
+    "end": "2022-01-28"
+  },
+  "message_count": 4,
+  "topic": "Realtime analytics display for multiple clients",
+  "topic_slug": "realtime-analytics-display-for-multiple-clients",
+  "tags": [
+    "analytics"
+  ],
+  "summary_markdown": "Someone requested the ability to display real-time data (maps and metrics) for all clients, specifically listing ClearChannel and Mediateko, rather than being limited only to JCDecaux. [p2] responded by requesting the necessary `tenantId` information needed to determine which entities should be displayed.",
+  "decisions": [],
+  "action_items": [
+    "Someone needs to provide the required tenant IDs."
+  ]
+}

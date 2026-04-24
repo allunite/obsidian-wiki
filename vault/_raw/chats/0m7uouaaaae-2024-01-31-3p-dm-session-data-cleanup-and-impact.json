@@ -1,0 +1,20 @@
+{
+  "chat_id": "0m7UOUAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2024-01-31",
+    "end": "2024-01-31"
+  },
+  "message_count": 5,
+  "topic": "Session data cleanup and impact",
+  "topic_slug": "session-data-cleanup-and-impact",
+  "tags": [
+    "analytics",
+    "session"
+  ],
+  "summary_markdown": "The conversation addressed recent changes to session tracking on the production environment. It was confirmed that fake sessions were removed starting December 18th, and the data was reloaded correctly. This change impacted all regions, including India.",
+  "decisions": [],
+  "action_items": []
+}

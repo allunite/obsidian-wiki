@@ -1,0 +1,19 @@
+{
+  "chat_id": "AAAAOcKWvdA",
+  "kind": "Space",
+  "space_name": "Delivery Coordination",
+  "participants": 14,
+  "date_range": {
+    "start": "2024-01-26",
+    "end": "2024-01-26"
+  },
+  "message_count": 3,
+  "topic": "Discussion on data import limitations",
+  "topic_slug": "discussion-on-data-import-limitations",
+  "tags": [
+    "analytics"
+  ],
+  "summary_markdown": "The participants discussed potential issues with importing a large volume of data, specifically noting that the current system might not be able to handle the required amount of information.",
+  "decisions": [],
+  "action_items": []
+}

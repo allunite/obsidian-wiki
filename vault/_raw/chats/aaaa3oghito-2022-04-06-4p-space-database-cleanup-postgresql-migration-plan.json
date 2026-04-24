@@ -1,0 +1,30 @@
+{
+  "chat_id": "AAAA3oghITo",
+  "kind": "Space",
+  "space_name": "Кабаны",
+  "participants": 4,
+  "date_range": {
+    "start": "2022-04-06",
+    "end": "2022-04-06"
+  },
+  "message_count": 127,
+  "topic": "Database cleanup and PostgreSQL migration plan",
+  "topic_slug": "database-cleanup-postgresql-migration-plan",
+  "tags": [
+    "analytics",
+    "inventory",
+    "facility",
+    "loop",
+    "campaign"
+  ],
+  "summary_markdown": "The discussion focused on cleaning up and migrating the PostgreSQL database instance. Several large, old, or unnecessary data directories (including those related to tracking, device IDs, and various internal systems like `stats`, `druid`, and `icinga`) were identified for deletion.\n\n**Key Actions:**\n*   The `device` table was successfully truncated, significantly reducing the database size. This action required confirmation from multiple participants.\n*   A new PostgreSQL instance (version 9.6) will be set up on a fresh machine with dedicated storage.\n*   It was noted that simply truncating tables does not return space to the OS; `VACUUM FULL` is necessary for full disk cleanup.\n\n**Future Planning:**\n*   The migration of PostgreSQL is tentatively scheduled for after 9 PM (21:00) on the same day, or by the following evening if preparation time is needed.\n*   A plan was proposed to overhaul the backup system from storing numerous snapshots to a more manageable schedule (e.g., monthly full backups and bi-daily snapshots).",
+  "decisions": [
+    "The `device` table was truncated.",
+    "A new PostgreSQL 9.6 instance will be set up on a fresh machine with dedicated storage.",
+    "Database cleanup efforts included deleting multiple identified old/unnecessary data directories (e.g., tracking, stats, druid, icinga)."
+  ],
+  "action_items": [
+    "Prepare the new PostgreSQL 9.6 server and dedicated disk space for the migration.",
+    "Overhaul the current backup system to reduce snapshot storage from numerous daily snapshots to monthly full backups and bi-daily snapshots."
+  ]
+}

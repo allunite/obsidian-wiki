@@ -1,0 +1,27 @@
+{
+  "chat_id": "0VorOYAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2024-04-16",
+    "end": "2024-04-16"
+  },
+  "message_count": 5,
+  "topic": "Updating virtual facility asset parameters for impression recalculation",
+  "topic_slug": "updating-virtual-facility-asset-parameters-for-impression-recalculation",
+  "tags": [
+    "analytics",
+    "impression",
+    "facility"
+  ],
+  "summary_markdown": "A data correction is required for historical impression calculations. To fix the issue, specific columns (network, surface, traffic_type, facing_direction) must be populated for virtual facilities in the `_v_facility_asset` table. Progress has been made on this task by someone, with an example provided for CC Finland (company_num=7864) in a Google Sheet.\n\nThe plan is to transfer these updated parameters into the main database table so that a recalculation can be run on staging. If successful, the changes will be promoted to production. This process will be repeated iteratively for all companies with virtual locations that currently calculate impressions using the old method.",
+  "decisions": [
+    "Updated facility asset parameters must be transferred from Google Sheets into the `_v_facility_asset` table."
+  ],
+  "action_items": [
+    "[me] to review and process the updates in the database.",
+    "Run impression recalculation on staging environment after data transfer.",
+    "Promote successful changes to production for all relevant companies."
+  ]
+}

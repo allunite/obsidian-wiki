@@ -1,0 +1,21 @@
+{
+  "chat_id": "oq-w0kAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2024-06-10",
+    "end": "2024-06-10"
+  },
+  "message_count": 6,
+  "topic": "Scheduling a call to discuss user profiles",
+  "topic_slug": "scheduling-call-user-profiles",
+  "tags": [
+    "session"
+  ],
+  "summary_markdown": "The participants scheduled a brief meeting to discuss the topic of 'user profile roles'. The initial exchange was purely logistical, confirming availability and setting up a time for the discussion.",
+  "decisions": [
+    "A call was scheduled to discuss user profiles/roles."
+  ],
+  "action_items": []
+}

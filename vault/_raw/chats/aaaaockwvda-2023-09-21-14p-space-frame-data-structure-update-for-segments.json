@@ -1,0 +1,22 @@
+{
+  "chat_id": "AAAAOcKWvdA",
+  "kind": "Space",
+  "space_name": "Delivery Coordination",
+  "participants": 14,
+  "date_range": {
+    "start": "2023-09-21",
+    "end": "2023-09-21"
+  },
+  "message_count": 5,
+  "topic": "Frame data structure update for segments",
+  "topic_slug": "frame-data-structure-update-for-segments",
+  "tags": [
+    "analytics",
+    "frame"
+  ],
+  "summary_markdown": "A user noted that the `data->'segments'` field has been moved to a dedicated `segments` field within the frame table structure. This change is primarily expected to affect calculations related to VA (Value Added), but it was observed being used by other processes.\n\nA backup query for the frame data was provided.",
+  "decisions": [
+    "The location of segment data in the frame table has been updated."
+  ],
+  "action_items": []
+}

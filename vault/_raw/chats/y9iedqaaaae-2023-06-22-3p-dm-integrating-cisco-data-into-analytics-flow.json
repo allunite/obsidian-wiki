@@ -1,0 +1,28 @@
+{
+  "chat_id": "y9IEDQAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2023-06-22",
+    "end": "2023-06-22"
+  },
+  "message_count": 77,
+  "topic": "Integrating Cisco data into existing analytics flow",
+  "topic_slug": "integrating-cisco-data-into-analytics-flow",
+  "tags": [
+    "inventory",
+    "campaign",
+    "analytics",
+    "session"
+  ],
+  "summary_markdown": "The discussion focused on integrating raw device data from a Cisco source (raw_devices_cisco_buffer) into the existing analytics flow. It was noted that while the data is rich, it requires careful processing to distinguish relevant signals.\n\n**Data Processing:**\n*   It was suggested that hashing MAC addresses might be necessary for consistency with current internal data.\n*   The team discussed methods for running complex calculations (like triangulation) within ClickHouse, concluding that using built-in functions or a material view/trigger mechanism would be more efficient than calling external processes for every record.\n\n**Integration Strategy:**\n*   A key decision was made to accept the Cisco data stream as an alternative source, especially since client partners are hesitant to install multiple devices (Cisco and Teltonika) in certain locations. The data will be ingested via a standard adapter into the regular flow.\n*   The team agreed that adding this external data source provides strong justification for data quality discussions with clients.\n\n**Future Capabilities:**\n*   Discussion covered advanced location tracking, including triangulation (which Cisco can perform if a device is seen by three access points) and potential future modeling of moving sources (like an Apple AirTag).\n*   The team also discussed standardizing the source identifier field (`raw_device_seen`) to accommodate multiple vendors (e.g., 'WA' for AllUnite, 'WM' for Meraki, 'WT' for Teltonika/TP-Link).",
+  "decisions": [
+    "Cisco device data will be integrated into the existing analytics flow via a standard adapter.",
+    "The external Cisco data source provides justification for discussing data quality with clients."
+  ],
+  "action_items": [
+    "Implement hashing of MAC addresses to ensure consistency with internal data records.",
+    "Standardize the device source identifier field (e.g., 'WA', 'WM', 'WT') in raw data ingestion."
+  ]
+}

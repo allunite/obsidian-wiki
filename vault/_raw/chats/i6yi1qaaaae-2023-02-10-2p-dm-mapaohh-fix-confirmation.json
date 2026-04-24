@@ -1,0 +1,19 @@
+{
+  "chat_id": "i6YI1QAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 2,
+  "date_range": {
+    "start": "2023-02-10",
+    "end": "2023-02-10"
+  },
+  "message_count": 3,
+  "topic": "MapaOOH fix confirmation",
+  "topic_slug": "mapaohh-fix-confirmation",
+  "tags": [
+    "analytics"
+  ],
+  "summary_markdown": "The conversation confirms that the MapaOOH system has been fixed.",
+  "decisions": [],
+  "action_items": []
+}

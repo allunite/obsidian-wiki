@@ -1,0 +1,19 @@
+{
+  "chat_id": "AAAA3oghITo",
+  "kind": "Space",
+  "space_name": "Кабаны",
+  "participants": 4,
+  "date_range": {
+    "start": "2022-11-25",
+    "end": "2022-11-25"
+  },
+  "message_count": 5,
+  "topic": "Reviewing low-code development tools",
+  "topic_slug": "reviewing-low-code-development-tools",
+  "tags": [
+    "analytics"
+  ],
+  "summary_markdown": "The conversation revolves around a link to Appsmith (https://www.appsmith.com/), which is identified as a 'zero code' or 'no code' tool. The general sentiment suggests that this type of tool could be used for building forms and dashboards, though the concept itself is noted as recurring.",
+  "decisions": [],
+  "action_items": []
+}

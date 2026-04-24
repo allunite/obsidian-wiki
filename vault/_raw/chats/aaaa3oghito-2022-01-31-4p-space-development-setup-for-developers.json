@@ -1,0 +1,26 @@
+{
+  "chat_id": "AAAA3oghITo",
+  "kind": "Space",
+  "space_name": "Кабаны",
+  "participants": 4,
+  "date_range": {
+    "start": "2022-01-31",
+    "end": "2022-01-31"
+  },
+  "message_count": 10,
+  "topic": "Development setup for developers",
+  "topic_slug": "development-setup-for-developers",
+  "tags": [
+    "analytics",
+    "campaign"
+  ],
+  "summary_markdown": "The discussion focused on the readiness of the development environment, specifically regarding PostgreSQL and ClickHouse access for front-end developers. It was confirmed that the setup is mostly complete, requiring only routing implementation and a placeholder page, which [me] committed to completing that day.\n\nRegarding repository management, it was decided that the developers should be responsible for creating necessary branches and granting appropriate access. Additional tasks include providing test data and ensuring they receive GitHub and design access credentials.",
+  "decisions": [
+    "The development environment (PostgreSQL/ClickHouse) is nearly ready; only routing and a placeholder page remain.",
+    "Developers will create required feature branches and manage access permissions."
+  ],
+  "action_items": [
+    "[me] to implement the remaining routing and placeholder page today.",
+    "Someone needs to find the developers' emails, grant GitHub and design access, and provide test data."
+  ]
+}

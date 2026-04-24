@@ -1,0 +1,25 @@
+{
+  "chat_id": "AAAA3oghITo",
+  "kind": "Space",
+  "space_name": "Кабаны",
+  "participants": 4,
+  "date_range": {
+    "start": "2022-05-21",
+    "end": "2022-05-21"
+  },
+  "message_count": 10,
+  "topic": "Database memory limits and processing strategy",
+  "topic_slug": "database-memory-limits-and-processing-strategy",
+  "tags": [
+    "analytics",
+    "impression",
+    "recalc-ch"
+  ],
+  "summary_markdown": "The discussion centered on encountering `MEMORY_LIMIT_EXCEEDED` errors during data loading/querying, particularly when dealing with large datasets. It was noted that the memory limit for queries should ideally be much higher (e.g., 20 GiB) given the size of the requests.\n\nConcerns were raised about the current processing architecture and potential future improvements, including implementing a separate cluster for ad-hoc processing and regional local instances dedicated only to aggregation.\n\nRegarding data jobs, one participant temporarily enabled job deletion rights to perform necessary actions (e.g., running a specific query/job) but later deleted multiple related jobs.",
+  "decisions": [
+    "A temporary increase in memory allocation or optimization of the querying process is needed to handle large datasets."
+  ],
+  "action_items": [
+    "One participant will refine the real-time data query logic, which currently retrieves data for the last two minutes, to address intermittent memory issues."
+  ]
+}

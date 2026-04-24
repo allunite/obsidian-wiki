@@ -1,0 +1,25 @@
+{
+  "chat_id": "oCgFCIAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2025-05-15",
+    "end": "2025-05-15"
+  },
+  "message_count": 19,
+  "topic": "Report generation and unique traffic data",
+  "topic_slug": "report-generation-unique-traffic-data",
+  "tags": [
+    "analytics",
+    "impression",
+    "loop"
+  ],
+  "summary_markdown": "The discussion centered on the behavior of 'unique traffic' metrics when generating reports, particularly at hourly granularity. Initially, the report consistently returned N/A values for unique traffic when no filters were applied.\n\nIt was noted that historically, a decision was made to stop counting uniques for hourly reporting because it caused discrepancies with session data (showing overlapping passersby within an hour). This led to the initial implementation of displaying N/A or a message indicating limitations on charts.\n\nAlthough there was a temporary exception made for clusters (e.g., airports) at one point, this was later reversed, returning the metric to N/A status.\n\nParticipants discussed that the issue might be related to how data is processed by an API or system limitation.",
+  "decisions": [
+    "The default report generation behavior for unique traffic at hourly granularity results in N/A values."
+  ],
+  "action_items": [
+    "Investigate potential root cause of the N/A value for unique traffic reports, possibly involving API or system constraints."
+  ]
+}

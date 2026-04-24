@@ -1,0 +1,22 @@
+{
+  "chat_id": "nW_zkkAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2023-09-21",
+    "end": "2023-09-21"
+  },
+  "message_count": 7,
+  "topic": "Calibration changes and session migration status",
+  "topic_slug": "calibration-changes-session-migration-status",
+  "tags": [
+    "analytics",
+    "session"
+  ],
+  "summary_markdown": "The conversation concerns the progress of migrating sessions to a new calibration structure. Initially, [me] reported that only 2022 data was successfully migrated overnight. [p1] suggested waiting until all sessions were ready for migration. [me] confirmed that if delaying until tomorrow is acceptable, they plan to proceed with the conversion using the new scheme.",
+  "decisions": [
+    "Delay session migration until the next day (tomorrow)."
+  ],
+  "action_items": []
+}

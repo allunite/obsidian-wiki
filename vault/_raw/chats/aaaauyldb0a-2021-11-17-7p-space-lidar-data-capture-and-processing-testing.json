@@ -1,0 +1,28 @@
+{
+  "chat_id": "AAAAuyldb0A",
+  "kind": "Space",
+  "space_name": "Lidar development",
+  "participants": 7,
+  "date_range": {
+    "start": "2021-11-17",
+    "end": "2021-11-17"
+  },
+  "message_count": 71,
+  "topic": "Lidar data capture and processing testing",
+  "topic_slug": "lidar-data-capture-and-processing-testing",
+  "tags": [
+    "lidar",
+    "analytics",
+    "campaign",
+    "session"
+  ],
+  "summary_markdown": "The session focused on testing the capture and processing of Lidar data in a live event setting (Dubai). Initial discussions covered hardware setup, including checking USB ports and ensuring the Jetson device was operational.\n\nParticipants successfully ran tests using a specific package (`lidar3d-counter`) on the Jetson. The focus shifted to capturing video footage and analyzing scene geometry. Concerns were raised regarding potential blind spots or changes in the venue layout (e.g., Hugo Boss moving).\n\nLater, performance testing was conducted on a large stage setup. It was noted that the system processes frames quickly, with object extraction taking approximately 15ms per frame.\n\nThe team confirmed that real-scene data from Dubai was processed quite fast.",
+  "decisions": [
+    "The Lidar package (`lidar3d-counter`) was installed and tested on the Jetson device.",
+    "Video recording of the scene using a timestamped camera app was recommended for documentation."
+  ],
+  "action_items": [
+    "Create directory `/opt/lidar3d-counter` to manage data storage.",
+    "Capture full video footage and photos of both old and new event zones for historical records."
+  ]
+}

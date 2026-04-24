@@ -1,0 +1,22 @@
+{
+  "chat_id": "wZDFB8AAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2025-06-20",
+    "end": "2025-06-20"
+  },
+  "message_count": 4,
+  "topic": "Reach vs viewed impressions calculation logic",
+  "topic_slug": "reach-vs-viewed-impressions-calculation-logic",
+  "tags": [
+    "analytics",
+    "impression"
+  ],
+  "summary_markdown": "A question was raised regarding whether a value lock exists in campaigns to prevent the calculated reach from exceeding the number of viewed impressions. It was confirmed that no such value lock is implemented; the calculations are based on formulas provided by the data team.",
+  "decisions": [
+    "No value lock prevents reach from being higher than viewed impressions."
+  ],
+  "action_items": []
+}

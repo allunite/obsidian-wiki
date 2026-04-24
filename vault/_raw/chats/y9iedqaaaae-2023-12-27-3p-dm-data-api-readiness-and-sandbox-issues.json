@@ -1,0 +1,24 @@
+{
+  "chat_id": "y9IEDQAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2023-12-27",
+    "end": "2023-12-27"
+  },
+  "message_count": 21,
+  "topic": "Data API readiness and sandbox issues",
+  "topic_slug": "data-api-readiness-and-sandbox-issues",
+  "tags": [
+    "analytics",
+    "inventory"
+  ],
+  "summary_markdown": "The data API is ready, but the new fields are currently added to existing v3 reports and JCD, not a new endpoint. The fields have not been deployed yet. A discussion occurred regarding writing new data into these existing reports. Separately, [p1] accidentally deleted sandbox ClickHouse data volumes after running 'gravitron' machines, which was noted as being recoverable and even useful for schema testing.",
+  "decisions": [
+    "New fields will be added to existing v3 reports and JCD (pending confirmation)."
+  ],
+  "action_items": [
+    "None."
+  ]
+}

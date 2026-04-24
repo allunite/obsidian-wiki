@@ -1,0 +1,17 @@
+{
+  "chat_id": "AAAAy7Yj6Xo",
+  "kind": "Space",
+  "space_name": "IT",
+  "participants": 12,
+  "date_range": {
+    "start": "2021-09-20",
+    "end": "2021-09-20"
+  },
+  "message_count": 3,
+  "topic": "Sharing a blog link",
+  "topic_slug": "sharing-a-blog-link",
+  "tags": [],
+  "summary_markdown": "The conversation consisted of sharing an external blog link regarding ClickHouse, followed by a brief comment about the company's founders.",
+  "decisions": [],
+  "action_items": []
+}

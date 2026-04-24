@@ -1,0 +1,25 @@
+{
+  "chat_id": "6ize28AAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2025-10-08",
+    "end": "2025-10-08"
+  },
+  "message_count": 27,
+  "topic": "Improving traffic dashboard metrics and data sources",
+  "topic_slug": "improving-traffic-dashboard-metrics-and-data-sources",
+  "tags": [
+    "analytics",
+    "facility",
+    "cluster-traffic"
+  ],
+  "summary_markdown": "The discussion focused on improving the `traffic_dashboard.sql` script to include additional metrics like average screen seen and accurate cluster traffic data. It was established that 'footfall' is generally considered equivalent to cluster traffic, though discrepancies with platform data were noted. For calculating 'average screen seen', `avgCoverageFactor` was suggested.\n\n[me] requested the parameters used when running the SQL query because the existing script produced inaccurate footfall and NaN values. The conversation concluded with concerns about the reliability of the current dashboard logic, especially regarding multiple companies within a single cluster.",
+  "decisions": [
+    "The team needs to investigate discrepancies between calculated footfall/cluster traffic and platform data."
+  ],
+  "action_items": [
+    "Someone needs to provide the parameters used for running the `traffic_dashboard.sql` query for review."
+  ]
+}

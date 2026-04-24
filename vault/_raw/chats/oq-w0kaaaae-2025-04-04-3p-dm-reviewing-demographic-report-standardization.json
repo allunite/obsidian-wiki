@@ -1,0 +1,25 @@
+{
+  "chat_id": "oq-w0kAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2025-04-04",
+    "end": "2025-04-04"
+  },
+  "message_count": 7,
+  "topic": "Reviewing demographic report standardization",
+  "topic_slug": "reviewing-demographic-report-standardization",
+  "tags": [
+    "analytics",
+    "campaign"
+  ],
+  "summary_markdown": "A discussion occurred regarding the demographics distribution report, specifically whether its age range classifications are universal or specific to Brazil. It was noted that the current labels appear to be Brazilian in origin.\n\nSomeone suggested replacing the hardcoded age ranges with variables corresponding to the current provider's demographic data. Regarding a second report ('target composition'), it is suspected to also be universal, but further investigation is required.",
+  "decisions": [
+    "The demographics distribution report may need modification to use variable-based age ranges instead of fixed Brazilian classifications."
+  ],
+  "action_items": [
+    "Investigate the universality of the 'target composition' report.",
+    "Confirm the correct demographic classification standards for various providers (e.g., by checking with Galina)."
+  ]
+}

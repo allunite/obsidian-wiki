@@ -1,0 +1,19 @@
+{
+  "chat_id": "oq-w0kAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2024-05-03",
+    "end": "2024-05-03"
+  },
+  "message_count": 7,
+  "topic": "Login issue troubleshooting",
+  "topic_slug": "login-issue-troubleshooting",
+  "tags": [
+    "analytics"
+  ],
+  "summary_markdown": "The conversation focused on a technical difficulty where someone was unable to log in. The user reported that they could not log in using one instance of Chrome, but were able to do so using another instance. It was determined that the issue was local to the user's machine and related to the browser/frontend setup.",
+  "decisions": [],
+  "action_items": []
+}

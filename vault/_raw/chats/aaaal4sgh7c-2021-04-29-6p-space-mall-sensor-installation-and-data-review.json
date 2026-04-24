@@ -1,0 +1,28 @@
+{
+  "chat_id": "AAAAl4SgH7c",
+  "kind": "Space",
+  "space_name": "Lithuania_old",
+  "participants": 6,
+  "date_range": {
+    "start": "2021-04-29",
+    "end": "2021-04-29"
+  },
+  "message_count": 11,
+  "topic": "Mall sensor installation and data review",
+  "topic_slug": "mall-sensor-installation-and-data-review",
+  "tags": [
+    "facility",
+    "impression",
+    "analytics",
+    "session"
+  ],
+  "summary_markdown": "Sensors were installed at the Mall, with 9 units deployed. Two sensors showed deviations, which may be due to the installation timing when the mall was closed; antenna contacts were checked.\n\nRegarding data analysis, [p1] provided initial session data for the Mall (night time only). The data is considered small and potentially uninformative, possibly due to location factors. Multiple participants agreed that waiting one more day before drawing conclusions on the data is advisable.",
+  "decisions": [
+    "Wait one additional day to collect sufficient sensor data from the Mall."
+  ],
+  "action_items": [
+    "Check the collected sensor data for deviations and confirm functionality.",
+    "Someone needs to add the new sensors' map/locations into MODs.",
+    "Monitor power cable delivery timeline for future screen installations."
+  ]
+}

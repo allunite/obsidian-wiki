@@ -1,0 +1,22 @@
+{
+  "chat_id": "AAAA-gn4oPg",
+  "kind": "Space",
+  "space_name": "General and random",
+  "participants": 36,
+  "date_range": {
+    "start": "2023-10-18",
+    "end": "2023-10-18"
+  },
+  "message_count": 14,
+  "topic": "UK tender partial win and future strategy",
+  "topic_slug": "uk-tender-partial-win-and-future-strategy",
+  "tags": [
+    "campaign",
+    "analytics"
+  ],
+  "summary_markdown": "A project update was shared regarding the UK tender. Although the full tender was not won, a significant positive outcome was achieved: securing participation in a part of the route tender for the next five years. This partial win is viewed as highly positive and an opportunity to improve the audience measurement platform step-by-step.\n\nThe participants acknowledged that while the full project was missed, gaining entry into this specific segment is still considered great news.",
+  "decisions": [
+    "The company secured participation in a part of the UK route tender for five years."
+  ],
+  "action_items": []
+}

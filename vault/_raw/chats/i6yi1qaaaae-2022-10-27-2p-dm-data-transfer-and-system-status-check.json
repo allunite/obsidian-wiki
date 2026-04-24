@@ -1,0 +1,22 @@
+{
+  "chat_id": "i6YI1QAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 2,
+  "date_range": {
+    "start": "2022-10-27",
+    "end": "2022-10-27"
+  },
+  "message_count": 20,
+  "topic": "Data transfer and system status check",
+  "topic_slug": "data-transfer-and-system-status-check",
+  "tags": [
+    "analytics",
+    "impression"
+  ],
+  "summary_markdown": "The conversation focused on transferring data related to a specific region (ЮК) due to reported data issues. The transfer was requested urgently because a client meeting had just occurred, and the model needed to be enabled in production for reporting purposes. [me] completed the task and confirmed its completion, which was then verified by [p1].",
+  "decisions": [
+    "Data related to ЮК was successfully transferred/updated."
+  ],
+  "action_items": []
+}

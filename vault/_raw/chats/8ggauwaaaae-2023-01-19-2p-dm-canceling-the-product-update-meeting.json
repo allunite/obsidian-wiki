@@ -1,0 +1,22 @@
+{
+  "chat_id": "8GgAuwAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 2,
+  "date_range": {
+    "start": "2023-01-19",
+    "end": "2023-01-19"
+  },
+  "message_count": 12,
+  "topic": "Canceling the product update meeting",
+  "topic_slug": "canceling-the-product-update-meeting",
+  "tags": [
+    "analytics",
+    "inventory"
+  ],
+  "summary_markdown": "The discussion centered on rescheduling or canceling the 'AllUnite product update' meeting. Initially, it was suggested that the presentation would cover inventory details and general analytics features. [me] expressed concern about holding a mandatory, disruptive meeting when the UI and functionality are still undergoing rapid changes. After some back-and-forth, the status of the meeting was confirmed as being rescheduled.",
+  "decisions": [
+    "The 'AllUnite product update' meeting is postponed/rescheduled."
+  ],
+  "action_items": []
+}

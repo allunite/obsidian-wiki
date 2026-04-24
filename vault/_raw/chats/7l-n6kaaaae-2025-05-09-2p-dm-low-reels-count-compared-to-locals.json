@@ -1,0 +1,25 @@
+{
+  "chat_id": "7l_n6kAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 2,
+  "date_range": {
+    "start": "2025-05-09",
+    "end": "2025-05-09"
+  },
+  "message_count": 15,
+  "topic": "Low 'reels' count compared to 'locals'",
+  "topic_slug": "low-reels-count-compared-to-locals",
+  "tags": [
+    "analytics",
+    "inventory",
+    "facility"
+  ],
+  "summary_markdown": "The discussion centered on an anomaly observed during a health check of Teltonika Route 200 sensors using SISR antennas, where the sum of 'reels' was significantly lower than expected compared to the sum of 'locals'. The data showed a ratio of locals to reals of 781.6.\n\nInitial theories explored potential causes, including significant iOS updates (specifically iOS 18.4.1 on April 28th) affecting device randomization and signal transmission from Apple phones. However, the participants concluded that the issue was likely related to the hardware installation itself.",
+  "decisions": [
+    "The cause of the low 'reels' count is suspected to be related to the physical hardware installation."
+  ],
+  "action_items": [
+    "Discuss and plan a check of the antenna installation."
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "chat_id": "y9IEDQAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2021-09-02",
+    "end": "2021-09-02"
+  },
+  "message_count": 21,
+  "topic": "ClickHouse logging and disk space issues",
+  "topic_slug": "clickhouse-logging-disk-space-issues",
+  "tags": [
+    "analytics",
+    "facility"
+  ],
+  "summary_markdown": "The conversation focused on diagnosing severe disk space limitations affecting the ClickHouse instance. [me] noted that while one partition had sufficient free space, another was critically low. The primary concern was excessive logging activity in `/var/log/clickhouse-server/` and general system logs (`/var/log/messages`). It was discussed whether it was possible to limit or control the amount of data logged by ClickHouse.",
+  "decisions": [
+    "No concrete decisions were made regarding disk space allocation."
+  ],
+  "action_items": [
+    "Investigate methods to reduce logging volume for ClickHouse."
+  ]
+}

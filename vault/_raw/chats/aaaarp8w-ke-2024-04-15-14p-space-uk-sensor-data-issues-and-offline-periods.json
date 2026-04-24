@@ -1,0 +1,23 @@
+{
+  "chat_id": "AAAARP8w-KE",
+  "kind": "Space",
+  "space_name": "Problematic sensors",
+  "participants": 14,
+  "date_range": {
+    "start": "2024-04-15",
+    "end": "2024-04-15"
+  },
+  "message_count": 4,
+  "topic": "UK sensor data issues and offline periods",
+  "topic_slug": "uk-sensor-data-issues-and-offline-periods",
+  "tags": [
+    "facility",
+    "analytics"
+  ],
+  "summary_markdown": "A query was raised regarding multiple sensors in the UK experiencing low data volume (fewer packets than expected) over the last month. The specific problematic sensors listed are: `JCD_UK_BCD2002DG` (`001E423153EF`), `JCD_UK_BCD2011DG` (`001E422E7657`), `JCD_UK_BCD2012DG` (`001E42359EE5`), and `JCD_UK_TRN8016DG` (`001E42297BA2`).\n\nAdditionally, data gaps were noted for specific sensors on particular dates:\n*   **April 11-12:** `JCD_UK_BCD2005DG` (`001E422BB14A`)\n*   **April 8:** `JCD_UK_BCD8010DG` (`001E4230748D`) and `JCD_UK_BCD8012DG` (`001E42344BCD`)\n*   **April 8-9:** `JCD_UK_BCD8128DG` (`001E422B4B3C`)\n*   **April 9-10:** `JCD_UK_BCD8024DG` (`001E42291C08`)\n\nOne participant suggested that the issue with the first three sensors might be related to memory capacity.",
+  "decisions": [],
+  "action_items": [
+    "Investigate the online status and potential issues for the listed UK sensors.",
+    "Determine if the noted offline periods are expected behavior."
+  ]
+}

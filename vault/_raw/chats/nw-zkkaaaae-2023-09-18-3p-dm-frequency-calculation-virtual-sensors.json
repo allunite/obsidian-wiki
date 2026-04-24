@@ -1,0 +1,24 @@
+{
+  "chat_id": "nW_zkkAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2023-09-18",
+    "end": "2023-09-18"
+  },
+  "message_count": 4,
+  "topic": "Frequency calculation for virtual sensors",
+  "topic_slug": "frequency-calculation-virtual-sensors",
+  "tags": [
+    "analytics",
+    "impression"
+  ],
+  "summary_markdown": "The conversation addressed updates to frequency calculations across different client accounts. It was confirmed that while the Kot'divuar account was updated, the Gabon account was not changed; however, a bug fix affected its data. The Brazililiya formula remains unaffected because it is currently decoupled from real-time data sources.",
+  "decisions": [
+    "The Gabon frequency calculation was affected by a recent bug fix."
+  ],
+  "action_items": [
+    "[p1] will speak with Halyna regarding historical recalculation for the Gabon account."
+  ]
+}

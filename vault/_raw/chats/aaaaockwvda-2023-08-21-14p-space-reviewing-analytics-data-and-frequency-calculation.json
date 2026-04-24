@@ -1,0 +1,28 @@
+{
+  "chat_id": "AAAAOcKWvdA",
+  "kind": "Space",
+  "space_name": "Delivery Coordination",
+  "participants": 14,
+  "date_range": {
+    "start": "2023-08-21",
+    "end": "2023-08-21"
+  },
+  "message_count": 48,
+  "topic": "Reviewing analytics data and frequency calculation",
+  "topic_slug": "reviewing-analytics-data-and-frequency-calculation",
+  "tags": [
+    "analytics",
+    "impression",
+    "campaign",
+    "frequency"
+  ],
+  "summary_markdown": "The discussion focused on discrepancies in campaign performance metrics, particularly concerning unique users (yunics) and frequency calculations.\n\n*   **Data Integrity:** Concerns were raised about the data displayed on the staging environment for Brazil, noting that the traffic dashboard and charts appeared incorrectly aggregated. It was determined that new frequency metrics require updated scripts and cannot be migrated to production yet.\n*   **Unique Users (Yunics):** Multiple participants discussed unique user counts, noting discrepancies between current staging data and previous performance. One participant suggested that ",
+  "decisions": [
+    "Add Viewable impressions as a metric for tracking.",
+    "Plan the release of updated analytics data for tomorrow."
+  ],
+  "action_items": [
+    "Run recalculation scripts to re-aggregate data and review time series performance.",
+    "Update frequency calculation logic to handle hourly charts correctly (currently using daily aggregation)."
+  ]
+}

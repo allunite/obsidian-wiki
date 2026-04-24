@@ -1,0 +1,23 @@
+{
+  "chat_id": "AAAA3frAfLA",
+  "kind": "Space",
+  "space_name": "Lidar Tech",
+  "participants": 8,
+  "date_range": {
+    "start": "2021-11-22",
+    "end": "2021-11-22"
+  },
+  "message_count": 10,
+  "topic": "Dubai presentation preparation and video assets",
+  "topic_slug": "dubai-presentation-video-assets",
+  "tags": [
+    "analytics"
+  ],
+  "summary_markdown": "A meeting was held to prepare a presentation for Dubai, scheduled for Wednesday. Specific tasks were assigned: one participant was asked to create a video, and another was tasked with counting people in the filmed scene. One participant provided an update on the video creation, stating that the footage needed cleanup using code (point cloud collection followed by conversion to voxel grid). The cleaned-up version would be sent tomorrow morning.",
+  "decisions": [
+    "Video assets for Dubai presentation will be delivered tomorrow morning."
+  ],
+  "action_items": [
+    "Participant [p1] needs time to clean up and finalize the video footage."
+  ]
+}

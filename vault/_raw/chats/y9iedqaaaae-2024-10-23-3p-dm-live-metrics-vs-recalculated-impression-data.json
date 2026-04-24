@@ -1,0 +1,27 @@
+{
+  "chat_id": "y9IEDQAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2024-10-23",
+    "end": "2024-10-23"
+  },
+  "message_count": 53,
+  "topic": "Live metrics vs. Recalculated impression data",
+  "topic_slug": "live-metrics-vs-recalculated-impression-data",
+  "tags": [
+    "analytics",
+    "impression",
+    "dwell-time",
+    "campaign"
+  ],
+  "summary_markdown": "The discussion covered the feasibility of displaying live metrics, specifically viewed impressions and dwell time, on a screen. It was determined that while truly live data is difficult due to potential discrepancies with recalculated totals (recalc), presenting an updated total for a shorter period (e.g., last hour) is possible.\n\nRegarding data accuracy, the difference between live views and recalculation will be minimal after implementing changes when transitioning to `agg_6`. The discussion concluded by addressing technical issues related to MAC address verification.",
+  "decisions": [
+    "Live metrics (viewed impressions/dwell time) can be displayed as an updated total for a limited period, though it may cause freezing if the full day is attempted."
+  ],
+  "action_items": [
+    "Investigate displaying live viewed impression data via an endpoint provided by Broadsign.",
+    "Verify MAC address existence in the trusted database."
+  ]
+}

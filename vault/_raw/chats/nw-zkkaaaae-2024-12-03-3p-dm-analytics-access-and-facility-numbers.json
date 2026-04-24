@@ -1,0 +1,22 @@
+{
+  "chat_id": "nW_zkkAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2024-12-03",
+    "end": "2024-12-03"
+  },
+  "message_count": 8,
+  "topic": "Analytics access and facility numbers",
+  "topic_slug": "analytics-access-and-facility-numbers",
+  "tags": [
+    "analytics",
+    "facility"
+  ],
+  "summary_markdown": "Someone shared links to AllUnite analytics dashboards and provided a list of facility numbers (27963, 27964, 27965, 27962). They noted that the data/issue applies across all networks, not just those previously discussed.",
+  "decisions": [],
+  "action_items": [
+    "Review analytics dashboards using provided facility numbers and scope."
+  ]
+}

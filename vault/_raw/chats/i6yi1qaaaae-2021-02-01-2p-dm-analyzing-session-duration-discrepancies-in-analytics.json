@@ -1,0 +1,23 @@
+{
+  "chat_id": "i6YI1QAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 2,
+  "date_range": {
+    "start": "2021-02-01",
+    "end": "2021-02-01"
+  },
+  "message_count": 27,
+  "topic": "Analyzing session duration discrepancies in analytics",
+  "topic_slug": "analyzing-session-duration-discrepancies-in-analytics",
+  "tags": [
+    "session",
+    "dwell-time",
+    "analytics"
+  ],
+  "summary_markdown": "The discussion focused on discrepancies found when calculating average session durations. The initial formulas used were compared, specifically regarding the inclusion criteria for `is_calibrated=1` and filtering by signal level (`signal_level<=89`) and vendor IDs. It was noted that the raw `session_duration` field is included in calculations but has a potentially large range.\n\nLater, specific parameters related to session length were reviewed: opening hours start/end, duration start/end, signal limit (set at 89), and a maximum session length of 7200 seconds (two hours).",
+  "decisions": [
+    "The maximum session duration is limited to 7200 seconds (two hours)."
+  ],
+  "action_items": []
+}

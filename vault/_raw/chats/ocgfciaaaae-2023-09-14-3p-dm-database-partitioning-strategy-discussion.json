@@ -1,0 +1,25 @@
+{
+  "chat_id": "oCgFCIAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2023-09-14",
+    "end": "2023-09-14"
+  },
+  "message_count": 24,
+  "topic": "Database partitioning strategy discussion",
+  "topic_slug": "database-partitioning-strategy-discussion",
+  "tags": [
+    "analytics",
+    "campaign"
+  ],
+  "summary_markdown": "The conversation focused on optimizing data storage and retrieval efficiency in ClickHouse, specifically regarding table partitioning keys. Initially, the difficulty of changing a partition key was discussed (requiring large insertions). The idea of using `sipHash64(company_num) % 16` as a partition key was raised but later advised against due to potential size imbalance across partitions. It was suggested that instead of changing the key, efforts should focus on making data deletion/re-insertion less necessary. To determine the best strategy, it was recommended to analyze core queries (e.g., those using `device_session_concept`) and test performance by migrating historical monthly data into a staging environment.",
+  "decisions": [
+    "The idea of changing the partition key is difficult and requires significant effort."
+  ],
+  "action_items": [
+    "Analyze primary queries that use device_session_concept to inform partitioning strategy.",
+    "Allocate time in the future to test query execution speeds after migrating monthly partitions."
+  ]
+}

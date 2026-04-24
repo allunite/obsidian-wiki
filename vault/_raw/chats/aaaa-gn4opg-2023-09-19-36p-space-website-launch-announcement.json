@@ -1,0 +1,19 @@
+{
+  "chat_id": "AAAA-gn4oPg",
+  "kind": "Space",
+  "space_name": "General and random",
+  "participants": 36,
+  "date_range": {
+    "start": "2023-09-19",
+    "end": "2023-09-19"
+  },
+  "message_count": 5,
+  "topic": "Website launch announcement",
+  "topic_slug": "website-launch-announcement",
+  "tags": [
+    "analytics"
+  ],
+  "summary_markdown": "A participant announced that the AllUnite website is officially live.",
+  "decisions": [],
+  "action_items": []
+}

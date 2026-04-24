@@ -1,0 +1,25 @@
+{
+  "chat_id": "nW_zkkAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2023-09-14",
+    "end": "2023-09-14"
+  },
+  "message_count": 7,
+  "topic": "Adjusting unit calculation parameters for Gabon",
+  "topic_slug": "adjusting-unit-calculation-parameters-for-gabon",
+  "tags": [
+    "analytics",
+    "facility",
+    "recalc-ch"
+  ],
+  "summary_markdown": "The discussion focused on recalculating metrics for a client (Gabon). The specific requirements included limiting the calculation to vendors 1, 41, 3, and 18, and initially restricting facility usage to only those with sensors. It was confirmed that the historical data needs to be recalculated. A limitation was noted regarding the sensor requirement, as all facilities must be used for the current scope.",
+  "decisions": [
+    "Recalculation of Gabon's history is required using specific vendor IDs (1, 41, 3, 18)."
+  ],
+  "action_items": [
+    "The calculation/dataset update has been completed."
+  ]
+}

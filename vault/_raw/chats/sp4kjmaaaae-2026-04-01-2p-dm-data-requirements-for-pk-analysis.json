@@ -1,0 +1,25 @@
+{
+  "chat_id": "sP4KJMAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 2,
+  "date_range": {
+    "start": "2026-04-01",
+    "end": "2026-04-01"
+  },
+  "message_count": 18,
+  "topic": "Data requirements for PK analysis",
+  "topic_slug": "data-requirements-for-pk-analysis",
+  "tags": [
+    "analytics",
+    "inventory",
+    "raw-data"
+  ],
+  "summary_markdown": "The discussion centered on data formatting and input requirements for an analysis. Initially, there was concern regarding raw data provided for POIs (Points of Interest) in Brazil, specifically whether the data could be processed without being divided by road segments. It was later clarified that sufficient information was available via existing tickets (NZ ticket included bucket info and short descriptions; PK ticket required assumptions). The need for comprehensive input details was emphasized to ensure future analyses are successful.",
+  "decisions": [
+    "The analysis can proceed using the information provided in the NZ ticket."
+  ],
+  "action_items": [
+    "Ensure all necessary data and detailed information are included in future tickets/requests."
+  ]
+}

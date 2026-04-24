@@ -1,0 +1,25 @@
+{
+  "chat_id": "oq-w0kAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2023-02-06",
+    "end": "2023-02-06"
+  },
+  "message_count": 21,
+  "topic": "Technical issues with frame generation and binding",
+  "topic_slug": "technical-issues-frame-generation-binding",
+  "tags": [
+    "frame",
+    "analytics"
+  ],
+  "summary_markdown": "The conversation covered several technical points regarding implementation. It was determined that `frame.id` cannot be generated in the storage layer and must be handled client-side. A bug was identified in 'dual binding' where clicking a tile after hiding a chart does not register immediately, requiring multiple clicks to function.\n\nSeparately, there is an issue with card charts: if a graph is hidden from a card chart, the first click (or hover) on the same metric within the card value area may not correctly pass the value to `@Input`.\n\nRegarding campaigns, it was suggested that [me], [p1], and someone else should meet to align understanding before connecting to future meetings with Serjio. Status meetings for Brazil are tentatively scheduled weekly.",
+  "decisions": [
+    "frame.id generation must occur on the client side.",
+    "A meeting is needed involving three parties (including [me] and [p1]) to synchronize understanding of campaigns."
+  ],
+  "action_items": [
+    "[p1] will visit [me]'s location in the co-working space."
+  ]
+}

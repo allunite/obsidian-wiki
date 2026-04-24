@@ -1,0 +1,23 @@
+{
+  "chat_id": "y9IEDQAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2024-04-04",
+    "end": "2024-04-04"
+  },
+  "message_count": 6,
+  "topic": "API asset type and multi-threading status",
+  "topic_slug": "api-asset-type-and-multi-threading-status",
+  "tags": [
+    "analytics",
+    "inventory",
+    "data-api"
+  ],
+  "summary_markdown": "A question was raised regarding the assets available via the data API, specifically whether they are limited to digital formats or if they include static assets. It was confirmed that the API provides data for all asset types (static and digital). While the `/locations` endpoint lists all facilities, it lacks a specific field differentiating between static and digital content. Separately, confirmation was provided that multi-threading the API is working correctly with no standing issues.",
+  "decisions": [
+    "The API provides data for both static and digital assets."
+  ],
+  "action_items": []
+}

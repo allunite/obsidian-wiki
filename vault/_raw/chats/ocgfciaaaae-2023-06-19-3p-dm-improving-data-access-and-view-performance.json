@@ -1,0 +1,28 @@
+{
+  "chat_id": "oCgFCIAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2023-06-19",
+    "end": "2023-06-19"
+  },
+  "message_count": 56,
+  "topic": "Improving data access and view performance",
+  "topic_slug": "improving-data-access-and-view-performance",
+  "tags": [
+    "analytics",
+    "inventory",
+    "frame",
+    "impression"
+  ],
+  "summary_markdown": "The discussion covered two main areas: user role management and inventory data retrieval optimization.\n\n**User Roles/Permissions:** A significant portion of the conversation focused on standardizing user access checks across various stored procedures (e.g., `contacts_update`, `inventory_update`). It was determined that a standardized check, referencing `user_access` or similar views, is necessary to correctly manage permissions for users and facilities.\n\n**Inventory Data:** Issues were identified regarding the performance of retrieving comprehensive inventory data, particularly when displaying map views. The current view structure is inefficient due to large JSON payloads and slow loading times. It was proposed that separate dedicated views be created for different display needs: `inventory_map`, `inventory_list`, and `inventory_details`.\n\n**Data Import:** Separately, a plan was established to handle data imports into frames by iterating through fields individually using CSV inputs, rather than relying on complex updates.",
+  "decisions": [
+    "Implement standardized user role checks across stored procedures (e.g., `contacts_update`, `inventory_update`) using user access tables/views.",
+    "Create separate dedicated views (`inventory_map`, `inventory_list`, `inventory_details`) to optimize inventory data retrieval and performance."
+  ],
+  "action_items": [
+    "Develop a standardized function or mechanism for checking user permissions across stored procedures.",
+    "Implement the new dedicated views for inventory display."
+  ]
+}

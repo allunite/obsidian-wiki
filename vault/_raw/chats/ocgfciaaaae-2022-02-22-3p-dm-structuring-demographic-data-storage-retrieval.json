@@ -1,0 +1,28 @@
+{
+  "chat_id": "oCgFCIAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2022-02-22",
+    "end": "2022-02-22"
+  },
+  "message_count": 63,
+  "topic": "Structuring demographic data storage and retrieval",
+  "topic_slug": "structuring-demographic-data-storage-retrieval",
+  "tags": [
+    "analytics",
+    "facility",
+    "json",
+    "view"
+  ],
+  "summary_markdown": "The discussion focused on the optimal structure for storing demographic data (e.g., by age group and gender) within PostgreSQL. Initially, there was debate between storing raw numbers versus percentages. The consensus leaned towards using JSON format to store complex variables like demographics, which allows for flexibility in querying via views.\n\nSpecific technical points included:\n*   **Data Structure:** Using a `json` field (or similar structure) is preferred over rigid columns or simple percentage storage because it accommodates varied data types and future changes. The suggested schema includes fields for `id`, `company_id`, `facility_id`, `data` (JSON), and `created` timestamp.\n*   **Data Retrieval:** Methods were discussed for extracting specific values from the JSON field within PostgreSQL views, such as using `data ->> 'age_group2_female'`.\n*   **Cross-Platform Consistency:** The need to ensure consistency in demographic age groups (e.g., 5 groups vs. 7 displayed on a dashboard) was noted, suggesting that standardizing the source system for these demographics is crucial.\n*   **Calculation Logic:** When moving from percentage views to absolute values, calculations must account for current traffic volume.",
+  "decisions": [
+    "Demographic data should be stored using JSON format in PostgreSQL for flexibility.",
+    "Data retrieval and presentation logic (e.g., calculating absolute numbers) will be handled via database views."
+  ],
+  "action_items": [
+    "Standardize the age group definitions used across all reporting systems to ensure consistency.",
+    "Implement necessary code changes in the front-end framework using `*ngIf` syntax for conditional image display based on asset availability."
+  ]
+}

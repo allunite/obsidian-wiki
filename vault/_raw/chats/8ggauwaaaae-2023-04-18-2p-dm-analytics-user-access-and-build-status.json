@@ -1,0 +1,24 @@
+{
+  "chat_id": "8GgAuwAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 2,
+  "date_range": {
+    "start": "2023-04-18",
+    "end": "2023-04-18"
+  },
+  "message_count": 9,
+  "topic": "Analytics user access and build status",
+  "topic_slug": "analytics-user-access-and-build-status",
+  "tags": [
+    "analytics",
+    "session"
+  ],
+  "summary_markdown": "The conversation focused on providing access to a staging analytics environment. [me] confirmed that the user was ready, providing a link to the staging analytics platform. This version is intended to allow for adding and building various components.",
+  "decisions": [
+    "A staging analytics user link was provided."
+  ],
+  "action_items": [
+    "The analytics build will be published to staging later."
+  ]
+}

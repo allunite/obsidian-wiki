@@ -1,0 +1,25 @@
+{
+  "chat_id": "6ize28AAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2025-04-24",
+    "end": "2025-04-24"
+  },
+  "message_count": 7,
+  "topic": "Model changes and session mirroring impact",
+  "topic_slug": "model-changes-and-session-mirroring-impact",
+  "tags": [
+    "analytics",
+    "facility",
+    "session"
+  ],
+  "summary_markdown": "The discussion centered on the implications of changing a model (including signal level) for Facility A, which mirrors to Facility B. It was clarified that modifying the calibration for Facility A affects both facilities because sessions from A are copied to B with the new calibration.\n\nRegarding the data source, it was confirmed that raw sessions are not mirrored to B. Instead, using functions like `isCalibratedStatic` or `isCalibrated` is recommended in model scripts to calculate calibration on the fly during queries.\n\nIf only the model for A is changed (without changing its calibration), this affects only Facility A, as predictions for B use their own models.",
+  "decisions": [
+    "Use functions like `isCalibratedStatic` or `isCalibrated` instead of the `is_calibrated` flag in aggregation scripts."
+  ],
+  "action_items": [
+    "[p1] to check model scripts for appropriate use of calibration functions."
+  ]
+}

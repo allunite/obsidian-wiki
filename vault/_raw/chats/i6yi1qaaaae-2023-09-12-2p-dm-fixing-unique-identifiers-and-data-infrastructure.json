@@ -1,0 +1,25 @@
+{
+  "chat_id": "i6YI1QAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 2,
+  "date_range": {
+    "start": "2023-09-12",
+    "end": "2023-09-12"
+  },
+  "message_count": 16,
+  "topic": "Fixing unique identifiers and data infrastructure",
+  "topic_slug": "fixing-unique-identifiers-and-data-infrastructure",
+  "tags": [
+    "analytics",
+    "recalc-ch"
+  ],
+  "summary_markdown": "The discussion focused on two technical issues: fixing unique identifiers (unics) and improving the real-time data infrastructure. Initially, it was determined that promising a real-time fix for the next day is not feasible due to current limitations.\n\nA quick workaround fix for the unics issue is estimated to take 2–4 hours of focused work. However, a preferred long-term solution involves refactoring the real-time data pipeline to eliminate the need for multiple `UNION ALL` statements pulling from separate data sources, which would require up to a week.\n\nIt was agreed that the quick fix could be implemented if dedicated time is allocated.",
+  "decisions": [
+    "A short-term workaround fix for unique identifiers will be implemented.",
+    "The long-term goal of refactoring the real-time data pipeline remains, but requires significant time."
+  ],
+  "action_items": [
+    "Allocate dedicated time to implement the quick fix for unics."
+  ]
+}

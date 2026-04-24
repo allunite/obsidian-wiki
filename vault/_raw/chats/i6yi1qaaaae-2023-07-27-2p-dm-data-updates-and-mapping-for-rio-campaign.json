@@ -1,0 +1,30 @@
+{
+  "chat_id": "i6YI1QAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 2,
+  "date_range": {
+    "start": "2023-07-27",
+    "end": "2023-07-27"
+  },
+  "message_count": 85,
+  "topic": "Data updates and mapping for Rio campaign",
+  "topic_slug": "data-updates-and-mapping-for-rio-campaign",
+  "tags": [
+    "analytics",
+    "facility",
+    "inventory",
+    "campaign"
+  ],
+  "summary_markdown": "The conversation focused on updating data metrics, particularly concerning facility targeting and mapping for Rio.\n\n*   **Data Updates:** Data was updated with new information from a source (Vlad), requiring optimization of queries to ensure metric accuracy. The aggregation process for June-July data in STAGE will be completed to enable campaign testing.\n*   **Age Targeting:** While the standard age range is 20-30, the decision was made not to immediately filter out older data but to plan for future segmentation.\n*   **Facility Mapping/Uniques (Юники):** Significant discussion occurred regarding facility mapping. The current process involves linking virtual sensors to real ones. It was agreed that Vlad would recalculate the sensor linkage for Rio, focusing on updating the unique identifiers (юники) and general data structure simultaneously to avoid redundant resource-intensive operations.\n*   **Query Improvements:** Suggestions were made to improve query performance by simplifying data type casting (`toUInt64` is no longer necessary). A method was proposed to calculate session predictions based on a ratio of sessions to non-virtual devices, which can be applied to campaigns and potentially the traffic dashboard.\n*   **Release Planning:** The team planned to test the updated metrics and mapping structure, with follow-up testing scheduled for Monday.",
+  "decisions": [
+    "Vlad will recalculate the sensor linkage and update unique identifiers (юники) for Rio, combining this effort with other data corrections.",
+    "The aggregation of June-July data in STAGE will be completed to allow campaign testing.",
+    "The team agreed on a plan to test the updated metrics and mapping structure starting Monday."
+  ],
+  "action_items": [
+    "Optimize queries for better performance, especially regarding metric loading into lists.",
+    "Implement the proposed session prediction calculation method (ratio of sessions to non-virtual devices).",
+    "Coordinate with Sania on the status of metrics in the list format."
+  ]
+}

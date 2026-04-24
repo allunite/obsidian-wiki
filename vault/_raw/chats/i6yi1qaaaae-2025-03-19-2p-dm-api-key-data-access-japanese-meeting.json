@@ -1,0 +1,25 @@
+{
+  "chat_id": "i6YI1QAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 2,
+  "date_range": {
+    "start": "2025-03-19",
+    "end": "2025-03-19"
+  },
+  "message_count": 18,
+  "topic": "API key and data access for Japanese meeting",
+  "topic_slug": "api-key-data-access-japanese-meeting",
+  "tags": [
+    "analytics",
+    "campaign"
+  ],
+  "summary_markdown": "The conversation focused on obtaining an API key to retrieve analytics data, specifically in preparation for a 9 AM meeting with Japanese participants. [p1] initially requested the Analytics API key and company ID. [me] provided the necessary credentials (API key and sample cURL request) and documentation link. It was noted that [p1] would include someone else (Tolik) in the conversation, as he intends to issue keys himself.",
+  "decisions": [
+    "The API key and data access methods were shared with [p1].",
+    "[p1] will involve another team member for future key issuance."
+  ],
+  "action_items": [
+    "None explicitly defined, but follow-up on the Japanese meeting preparation is implied."
+  ]
+}

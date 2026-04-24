@@ -1,0 +1,28 @@
+{
+  "chat_id": "nW_zkkAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2023-09-05",
+    "end": "2023-09-05"
+  },
+  "message_count": 18,
+  "topic": "Updating virtual sensor categories and coefficients",
+  "topic_slug": "updating-virtual-sensor-categories-and-coefficients",
+  "tags": [
+    "facility",
+    "analytics",
+    "campaign"
+  ],
+  "summary_markdown": "The conversation focused on correcting the asset categories for virtual sensors within the `facility_dict` database. Initially, [p1] noted that multiple facilities were incorrectly categorized as 'Modelling' instead of their correct operational category (e.g., 'Traffic'). It was confirmed that this issue was not related to a specific system module (MODS). Later, [p1] provided a file containing coefficients for virtual sensors in Côte d'Ivoire and requested that these data points be added to the database by [me]. Finally, after the data update, [p1] was able to run a recalculation script.",
+  "decisions": [
+    "The asset categories for virtual sensors in `facility_dict` need correction from 'Modelling' to the correct operational category (e.g., 'Traffic').",
+    "Coefficients for virtual sensors in Côte d'Ivoire were provided and agreed to be added to the database.",
+    "[p1] was granted permission to run a recalculation script after data updates."
+  ],
+  "action_items": [
+    "[me] to update the facility sensor categories in the `facility_dict` database.",
+    "[me] to add the provided virtual sensor coefficients for Côte d'Ivoire into the database."
+  ]
+}

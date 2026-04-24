@@ -1,0 +1,23 @@
+{
+  "chat_id": "i6YI1QAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 2,
+  "date_range": {
+    "start": "2023-05-15",
+    "end": "2023-05-15"
+  },
+  "message_count": 13,
+  "topic": "Onboarding setup for new team member",
+  "topic_slug": "onboarding-setup-for-new-team-member",
+  "tags": [
+    "analytics"
+  ],
+  "summary_markdown": "The conversation focused on setting up an onboarding process for a new team member. [p1] requested that [me] conduct the onboarding, covering both database access and overall structure, suggesting multiple meetings over the next two days.\n\n[me] confirmed availability to lead the onboarding but noted a prerequisite: someone needed to ensure VPN access was set up for the new hire first.",
+  "decisions": [
+    "Onboarding sessions will cover databases and company structure."
+  ],
+  "action_items": [
+    "[p1] or someone needs to arrange VPN setup for the new team member before onboarding can proceed."
+  ]
+}

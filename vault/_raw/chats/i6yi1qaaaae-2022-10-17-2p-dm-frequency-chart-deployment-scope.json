@@ -1,0 +1,23 @@
+{
+  "chat_id": "i6YI1QAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 2,
+  "date_range": {
+    "start": "2022-10-17",
+    "end": "2022-10-17"
+  },
+  "message_count": 8,
+  "topic": "Frequency chart deployment and scope",
+  "topic_slug": "frequency-chart-deployment-scope",
+  "tags": [
+    "analytics"
+  ],
+  "summary_markdown": "The discussion focused on deploying the frequency chart to production. It was confirmed that the chart has not yet been deployed. The plan is to deploy it soon, but [me] noted that due to multiple changes, a release note might be necessary.",
+  "decisions": [
+    "Deployment of the frequency chart to production will happen soon."
+  ],
+  "action_items": [
+    "[me] needs to prepare a list of changes and potentially write a release note for deployment."
+  ]
+}

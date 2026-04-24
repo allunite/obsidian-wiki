@@ -1,0 +1,19 @@
+{
+  "chat_id": "AAAA3oghITo",
+  "kind": "Space",
+  "space_name": "Кабаны",
+  "participants": 4,
+  "date_range": {
+    "start": "2025-05-29",
+    "end": "2025-05-29"
+  },
+  "message_count": 3,
+  "topic": "Jira status updates discussion",
+  "topic_slug": "jira-status-updates-discussion",
+  "tags": [
+    "analytics"
+  ],
+  "summary_markdown": "The conversation briefly touched upon the need for Jira statuses. One participant expressed frustration regarding the perceived repetition or excessive number of required statuses.",
+  "decisions": [],
+  "action_items": []
+}

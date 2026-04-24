@@ -1,0 +1,24 @@
+{
+  "chat_id": "nW_zkkAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2024-09-10",
+    "end": "2024-09-10"
+  },
+  "message_count": 21,
+  "topic": "Issues with production campaign setup",
+  "topic_slug": "issues-with-production-campaign-setup",
+  "tags": [
+    "campaign",
+    "analytics"
+  ],
+  "summary_markdown": "A discussion occurred regarding recent issues found in the production environment's campaign setup. Specifically, someone noted that the 'duo-design' was broken, and general customization and filters were malfunctioning on the live site.\n\n[me] mentioned deploying version 5.09 to production most recently but stated that the issue likely needed clarification from another team member (Жена/Zhena).\n\n[p1] expressed skepticism about a hotfix causing such widespread damage.",
+  "decisions": [
+    "No concrete decisions were made regarding the cause or fix for the broken campaign setup."
+  ],
+  "action_items": [
+    "Follow up with someone (Жена/Zhena) regarding the specific issues found in the production environment's campaign customization and filters."
+  ]
+}

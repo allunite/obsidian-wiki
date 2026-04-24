@@ -1,0 +1,22 @@
+{
+  "chat_id": "nW_zkkAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2023-08-02",
+    "end": "2023-08-02"
+  },
+  "message_count": 4,
+  "topic": "Virtual frame data upload request",
+  "topic_slug": "virtual-frame-data-upload-request",
+  "tags": [
+    "analytics",
+    "frame"
+  ],
+  "summary_markdown": "Someone requested assistance with uploading a table for Gabon. This table must contain virtual frames, the nearest real frames to them, and a factor for the real frame. The data will be sent by [p1] tomorrow.",
+  "decisions": [],
+  "action_items": [
+    "Receive and process the table containing virtual frame data from [p1] tomorrow."
+  ]
+}

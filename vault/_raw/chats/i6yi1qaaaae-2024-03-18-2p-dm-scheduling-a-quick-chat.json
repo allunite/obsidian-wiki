@@ -1,0 +1,19 @@
+{
+  "chat_id": "i6YI1QAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 2,
+  "date_range": {
+    "start": "2024-03-18",
+    "end": "2024-03-18"
+  },
+  "message_count": 11,
+  "topic": "Scheduling a quick chat",
+  "topic_slug": "scheduling-a-quick-chat",
+  "tags": [],
+  "summary_markdown": "The conversation was focused entirely on scheduling a brief discussion. The participants confirmed availability to talk later.",
+  "decisions": [
+    "A meeting time was tentatively set for 15 minutes from the last message."
+  ],
+  "action_items": []
+}

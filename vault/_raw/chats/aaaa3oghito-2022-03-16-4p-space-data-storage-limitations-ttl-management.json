@@ -1,0 +1,24 @@
+{
+  "chat_id": "AAAA3oghITo",
+  "kind": "Space",
+  "space_name": "Кабаны",
+  "participants": 4,
+  "date_range": {
+    "start": "2022-03-16",
+    "end": "2022-03-16"
+  },
+  "message_count": 6,
+  "topic": "Data storage limitations and TTL management",
+  "topic_slug": "data-storage-limitations-ttl-management",
+  "tags": [
+    "analytics",
+    "inventory"
+  ],
+  "summary_markdown": "The session discussed issues with data retention and file system capacity. Specifically, the current Time To Live (TTL) mechanism is not functioning reliably, leading to excessive storage usage in the `/data/cold` directory. Due to limited space, storing all raw seen data (`raw_seen`) is deemed unsustainable.\n\nIt was decided that connecting a third level of S3 storage is necessary to manage the growing volume of data.",
+  "decisions": [
+    "Implement a third-level S3 connection for data management."
+  ],
+  "action_items": [
+    "Find a command to force TTL functionality in the system."
+  ]
+}

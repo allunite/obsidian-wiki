@@ -1,0 +1,24 @@
+{
+  "chat_id": "i6YI1QAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 2,
+  "date_range": {
+    "start": "2022-03-24",
+    "end": "2022-03-24"
+  },
+  "message_count": 6,
+  "topic": "Updating facility categories in analytics",
+  "topic_slug": "updating-facility-categories-in-analytics",
+  "tags": [
+    "facility",
+    "analytics"
+  ],
+  "summary_markdown": "Someone updated the Mall category for all master facilities that were previously uncategorized. The sender noted that three facilities already had this categorization, while the rest did not. They also mentioned that, based on their understanding of the ML engine, this change should not affect the results, but suggested checking it at a higher level tomorrow.",
+  "decisions": [
+    "Mall category applied to all master facilities"
+  ],
+  "action_items": [
+    "Check facility data at a high level tomorrow"
+  ]
+}

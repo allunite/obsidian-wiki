@@ -1,0 +1,28 @@
+{
+  "chat_id": "y9IEDQAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2024-10-30",
+    "end": "2024-10-30"
+  },
+  "message_count": 43,
+  "topic": "Integrating device status into analytics",
+  "topic_slug": "integrating-device-status-into-analytics",
+  "tags": [
+    "inventory",
+    "campaign",
+    "analytics",
+    "impression"
+  ],
+  "summary_markdown": "The discussion focused on integrating device online/offline status into the monitoring system and analytics.\n\n*   **Data Source:** A new PostgreSQL table, `box_status`, was created to collect online/offline statuses from a new monitoring setup. This data will populate when routers reconnect using updated firmware.\n*   **Status Logic:** The status is determined by session tracking (when devices come online and go offline). If the `offline_since` field is null, the device is currently online.\n*   **Technical Implementation:** It was confirmed that MQTT's Last Will Message feature can be used to determine connectivity: if the connection drops, the router is considered offline; otherwise, it is online (eliminating the need for constant pings).\n*   **API Updates:** The `/api/boxes` endpoint needs to be updated to include `online_since` and `offline_since` fields. Additionally, a new table must be used in the client card section.\n*   **Future Planning:** A review of previous meeting notes (from September 9th) highlighted several future projects and technical discussions regarding impressions tracking, including Broadsign API integration, Play-log data handling, and campaign management within AllUnite.",
+  "decisions": [
+    "The `/api/boxes` endpoint will be updated to include `online_since` and `offline_since` fields in the analytics section.",
+    "A new table must be utilized for the client card functionality."
+  ],
+  "action_items": [
+    "[me] to implement status retrieval from the new `box_status` table into the UI/analytics.",
+    "[p1] will request that a new table be used in the client card section."
+  ]
+}

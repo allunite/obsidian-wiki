@@ -1,0 +1,21 @@
+{
+  "chat_id": "i6YI1QAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 2,
+  "date_range": {
+    "start": "2022-11-02",
+    "end": "2022-11-02"
+  },
+  "message_count": 4,
+  "topic": "Fixing screen display issues at mall",
+  "topic_slug": "fixing-screen-display-issues-at-mall",
+  "tags": [
+    "facility"
+  ],
+  "summary_markdown": "Someone noted that the screens were displayed incorrectly, affecting some areas. However, viewing in the mall area was confirmed to be possible. An effort will be made today to fix the screen issues.",
+  "decisions": [],
+  "action_items": [
+    "Fixing screen display issues."
+  ]
+}

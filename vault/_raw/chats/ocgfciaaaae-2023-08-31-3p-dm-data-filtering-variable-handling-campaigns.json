@@ -1,0 +1,27 @@
+{
+  "chat_id": "oCgFCIAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2023-08-31",
+    "end": "2023-08-31"
+  },
+  "message_count": 36,
+  "topic": "Data filtering and variable handling in campaigns",
+  "topic_slug": "data-filtering-variable-handling-campaigns",
+  "tags": [
+    "analytics",
+    "frame",
+    "variables"
+  ],
+  "summary_markdown": "The discussion focused on optimizing how demographic filters are handled when generating data queries. Currently, campaign filtering uses a mix of string variables (for demographics) and binary arrays (for server requests). A key concern was the complexity of maintaining this logic if it were to be replicated client-side.\n\nIt was suggested that passing explicit variables along with a `provider` field would simplify the process. The team agreed on exploring methods to map strings back into boolean arrays, potentially using a dedicated channel (CH) or within the query's variable call (`WITH`).",
+  "decisions": [
+    "The current method of handling demographic filters (string variables vs. binary arrays) needs review for simplification.",
+    "Passing explicit variables and a `provider` field is preferred to simplify data generation."
+  ],
+  "action_items": [
+    "Review the implementation details for passing provider information.",
+    "Investigate methods for mapping strings back into boolean arrays, potentially using CH or query variables."
+  ]
+}

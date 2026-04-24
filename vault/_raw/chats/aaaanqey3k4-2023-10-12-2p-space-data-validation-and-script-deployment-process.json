@@ -1,0 +1,30 @@
+{
+  "chat_id": "AAAANqEY3K4",
+  "kind": "Space",
+  "space_name": "Group Chat",
+  "participants": 2,
+  "date_range": {
+    "start": "2023-10-12",
+    "end": "2023-10-12"
+  },
+  "message_count": 193,
+  "topic": "Data validation and script deployment process",
+  "topic_slug": "data-validation-and-script-deployment-process",
+  "tags": [
+    "analytics",
+    "impression",
+    "campaign",
+    "inventory"
+  ],
+  "summary_markdown": "The discussion focused on validating data for multiple campaigns (SP 75, SP 120) and coordinating the deployment of an analytics script. Key actions included:\n\n*   **Data Scope:** The team confirmed that data needed to be pulled for specific date ranges, including periods before and after October 3rd, and historical dates like September 5th, 12th, and 26th, as well as August 17th.\n*   **Validation:** Impressions data was reviewed for SP 75 and SP 120 across multiple dates. The team noted that the current figures were slightly lower than expected but deemed acceptable enough to proceed with testing.\n*   **System Access/Testing:** A request was made to temporarily modify the UI settings to allow testing of date ranges starting from today, bypassing geographical filters (e.g., Brazil).\n*   **Deployment Plan:** The process involves first ensuring data is correctly transferred and validated for production (prod) before deploying the analytics script. The final step requires a comprehensive check of all migrated data on prod.\n\n[unknown] confirmed that the necessary changes were made, leading to the deployment/release of the updated analytics version.",
+  "decisions": [
+    "Data validation was performed for SP 75 and SP 120 impressions across multiple historical dates (e.g., Sept 5th, Oct 3rd, Aug 17th).",
+    "The data transfer/migration of the analytics version is scheduled to proceed after successful testing.",
+    "A temporary UI fix was requested to allow date range selection starting from the current day for testing purposes."
+  ],
+  "action_items": [
+    "Validate all migrated campaign data on production (prod).",
+    "Test the newly deployed analytics script/version.",
+    "Follow up with 'Esben' regarding necessary next steps or confirmation."
+  ]
+}

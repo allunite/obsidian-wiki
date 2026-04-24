@@ -1,0 +1,25 @@
+{
+  "chat_id": "oCgFCIAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2022-11-25",
+    "end": "2022-11-25"
+  },
+  "message_count": 41,
+  "topic": "Deployment plan for new analytics formula",
+  "topic_slug": "deployment-plan-for-new-analytics-formula",
+  "tags": [
+    "analytics",
+    "campaign"
+  ],
+  "summary_markdown": "The discussion focused on deploying a complex new formula for UK data, which was initially developed to improve reporting accuracy. A fix was pushed to address cases where the check for `isNull(clusterFrequency)` failed in certain scenarios.\n\n**Deployment Decisions:**\n*   It was agreed that the final deployment would occur on Monday morning.\n*   The process involves pushing the master branch build to staging first, followed by a production push on Monday.",
+  "decisions": [
+    "Final deployment of the new formula and changes will happen on Monday."
+  ],
+  "action_items": [
+    "Push the current master branch version to staging immediately.",
+    "Deploy the master branch to production on Monday morning."
+  ]
+}

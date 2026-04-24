@@ -1,0 +1,22 @@
+{
+  "chat_id": "AAAA-gn4oPg",
+  "kind": "Space",
+  "space_name": "General and random",
+  "participants": 36,
+  "date_range": {
+    "start": "2023-05-15",
+    "end": "2023-05-15"
+  },
+  "message_count": 12,
+  "topic": "Preparing for the Route tender finale presentation",
+  "topic_slug": "preparing-for-the-route-tender-finale-presentation",
+  "tags": [
+    "campaign",
+    "analytics"
+  ],
+  "summary_markdown": "A participant noted that their company has been shortlisted for a final presentation for the Route tender, scheduled for June 12th. Discussion followed regarding potential competitors (specifically Ipsos) and how to structure the winning pitch. The general consensus was that the presentation should focus on demonstrating superior value and performance without naming specific rivals.",
+  "decisions": [
+    "The company is shortlisted for a final presentation for the Route tender on June 12th."
+  ],
+  "action_items": []
+}

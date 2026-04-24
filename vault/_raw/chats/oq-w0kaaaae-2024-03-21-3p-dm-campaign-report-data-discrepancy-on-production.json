@@ -1,0 +1,24 @@
+{
+  "chat_id": "oq-w0kAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2024-03-21",
+    "end": "2024-03-21"
+  },
+  "message_count": 4,
+  "topic": "Campaign report data discrepancy on production",
+  "topic_slug": "campaign-report-data-discrepancy-on-production",
+  "tags": [
+    "analytics",
+    "campaign"
+  ],
+  "summary_markdown": "A user reported an issue with campaign reports, noting that the endpoint `/api/campaigns/report/charts` returns no data for 'Chart1' on production, even though the data exists locally (using the prod database). [me] confirmed this was a known error previously discussed in development and stated it was fixed yesterday in develop but did not seem to have deployed to production.",
+  "decisions": [
+    "The campaign report endpoint needs deployment verification from develop to production."
+  ],
+  "action_items": [
+    "Verify deployment of the fix for the campaign report endpoint to production."
+  ]
+}

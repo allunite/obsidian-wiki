@@ -1,0 +1,22 @@
+{
+  "chat_id": "oCgFCIAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2026-01-26",
+    "end": "2026-01-26"
+  },
+  "message_count": 5,
+  "topic": "Campaign reach setting default value",
+  "topic_slug": "campaign-reach-setting-default-value",
+  "tags": [
+    "analytics",
+    "campaign"
+  ],
+  "summary_markdown": "A query was made regarding the default status of `campaign.useNewReach`. It was confirmed that new records are set to `true` by default, following a request made previously. The current setting for this parameter across all companies (where `company_id` is null) was verified via a database query.",
+  "decisions": [
+    "Confirmed that the default value for campaign reach (`campaign.useNewReach`) is currently set to true."
+  ],
+  "action_items": []
+}

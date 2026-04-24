@@ -1,0 +1,24 @@
+{
+  "chat_id": "oCgFCIAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2024-10-24",
+    "end": "2024-10-24"
+  },
+  "message_count": 17,
+  "topic": "Facility data structure and schema review",
+  "topic_slug": "facility-data-structure-schema-review",
+  "tags": [
+    "facility",
+    "analytics"
+  ],
+  "summary_markdown": "The conversation focused on reviewing the complex structure of facility asset data, specifically addressing how `v_facility_asset` populates fields using DDL. It was noted that understanding the necessary scope and cleaning up deprecated elements is important.\n\nMultiple tables/views for facilities were discussed: `facility_dict`, `facility_mapping_dict`, `facility`, and `v_facility_asset`. The current core structure uses `facility_dict` (keyed by `num`) and `facility_mapping_dict` (keyed by `id`).\n\nIt was decided that a comparison is needed to identify any necessary fields present in `v_facility_asset` but missing from the primary `facility_dict`, with the potential to add them.",
+  "decisions": [
+    "Compare fields between v_facility_asset and facility_dict"
+  ],
+  "action_items": [
+    "Check for required fields in v_facility_asset that should be added to facility_dict"
+  ]
+}

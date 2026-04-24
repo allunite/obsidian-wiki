@@ -1,0 +1,26 @@
+{
+  "chat_id": "y9IEDQAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2025-12-04",
+    "end": "2025-12-04"
+  },
+  "message_count": 37,
+  "topic": "Unique traffic data sharing and API structure",
+  "topic_slug": "unique-traffic-data-sharing-api-structure",
+  "tags": [
+    "analytics",
+    "inventory",
+    "session"
+  ],
+  "summary_markdown": "The discussion centered on the method for sharing 'Unique traffic' data points via API between AllUnite and DataCorp. It was confirmed that while a dedicated field exists in the reports, the unique traffic count is represented by `totalTraffic` when data is uploaded to the DataCorp S3 Bucket. The total number of sessions/traffic is tracked using `trafficTotalBulk`. Although the initial implementation for AFA was correct because it hadn't been moved to the ML-API yet, a review confirmed that `totalTraffic` correctly represents unique traffic.\n\nSeparately, there were brief discussions regarding proximity modeling (which aims to detach from session data) and API key access procedures.",
+  "decisions": [
+    "The field `totalTraffic` uploaded to the DataCorp S3 Bucket is confirmed to represent unique traffic.",
+    "The field `trafficTotalBulk` represents the total number of sessions/traffic."
+  ],
+  "action_items": [
+    "Review and confirm the naming convention for traffic data fields (unique vs. bulk) with the external party."
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "chat_id": "mQzF6wAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 2,
+  "date_range": {
+    "start": "2023-11-13",
+    "end": "2023-11-13"
+  },
+  "message_count": 8,
+  "topic": "Sharing list of client data",
+  "topic_slug": "sharing-list-of-client-data",
+  "tags": [
+    "analytics"
+  ],
+  "summary_markdown": "The conversation involved the exchange of a list containing names, MAC addresses, and hashes. [p1] stated that they were sending a sheet with this information.",
+  "decisions": [],
+  "action_items": []
+}

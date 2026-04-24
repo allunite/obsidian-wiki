@@ -1,0 +1,23 @@
+{
+  "chat_id": "0m7UOUAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2026-01-26",
+    "end": "2026-01-26"
+  },
+  "message_count": 3,
+  "topic": "Facility traffic changes based on frame status",
+  "topic_slug": "facility-traffic-changes-based-on-frame-status",
+  "tags": [
+    "facility",
+    "frame",
+    "analytics"
+  ],
+  "summary_markdown": "A user noted that they found a specific facility where the traffic changed due to `is_enabled` status changes across frames. They provided a link describing the problem in comments, noting that the core issue is tracking traffic fluctuations when a facility's enabled status changes over a period. This situation was compared to a previous demonstration given by someone.",
+  "decisions": [],
+  "action_items": [
+    "Review the described issue and proposed aggregation script."
+  ]
+}

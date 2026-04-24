@@ -1,0 +1,28 @@
+{
+  "chat_id": "i6YI1QAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 2,
+  "date_range": {
+    "start": "2023-05-17",
+    "end": "2023-05-17"
+  },
+  "message_count": 71,
+  "topic": "Analytics dashboard updates and data review",
+  "topic_slug": "analytics-dashboard-updates-data-review",
+  "tags": [
+    "analytics",
+    "session",
+    "facility"
+  ],
+  "summary_markdown": "The conversation focused on reviewing and updating an analytics dashboard for a specific facility. Initial discussions covered two models available on the staging environment, with one participant estimating a quick turnaround time (potentially 30 minutes) to review or adjust them.\n\nKey decisions involved deploying a fix and reviewing data sources. A dataset was shared that had been pre-aggregated by someone else, starting from January 1, 2022. The dashboard's display issues were noted, including an extra, possibly invisible column and the removal of a funnel visualization.\n\nRegarding metrics, it was clarified that the '% vs Total' metric represents percentages based on total sessions, not unique users (uniks).\n\nThe final shared dataset link provided updated data for the facility using a broader date range.",
+  "decisions": [
+    "A fix was deployed to the production environment.",
+    "The dashboard utilized pre-aggregated data starting from 2022-01-01.",
+    "It was confirmed that '% vs Total' represents percentages based on total sessions."
+  ],
+  "action_items": [
+    "Someone needs to investigate and fix the layout issues (extra columns, missing funnel) on the dashboard.",
+    "A screenshot of the analytics data for 'Krone' covering January 1st to three months is required."
+  ]
+}

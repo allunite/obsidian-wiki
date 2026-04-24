@@ -1,0 +1,21 @@
+{
+  "chat_id": "AAAAmx12dWs",
+  "kind": "Space",
+  "space_name": "Group Chat",
+  "participants": 4,
+  "date_range": {
+    "start": "2023-05-05",
+    "end": "2023-05-05"
+  },
+  "message_count": 47,
+  "topic": "Social plans and location visit",
+  "topic_slug": "social-plans-and-location-visit",
+  "tags": [
+    "session"
+  ],
+  "summary_markdown": "The conversation primarily revolves around social plans, including a potential gathering on Sunday. One participant mentioned being able to attend on Sunday, while another noted having commitments. The discussion also touched upon the location 'Creative States,' with one person suggesting it is a cultural visit if participants are unfamiliar with it.\n\nRegarding food/refreshments, one participant was surprised that three of their four allocated meal vouchers were for alcohol.",
+  "decisions": [
+    "A potential gathering date discussed is Sunday."
+  ],
+  "action_items": []
+}

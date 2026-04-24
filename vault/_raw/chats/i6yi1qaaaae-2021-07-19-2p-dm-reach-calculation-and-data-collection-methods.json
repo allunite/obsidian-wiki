@@ -1,0 +1,29 @@
+{
+  "chat_id": "i6YI1QAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 2,
+  "date_range": {
+    "start": "2021-07-19",
+    "end": "2021-07-19"
+  },
+  "message_count": 86,
+  "topic": "Reach calculation and data collection methods",
+  "topic_slug": "reach-calculation-and-data-collection-methods",
+  "tags": [
+    "analytics",
+    "dwell-time",
+    "impression",
+    "session"
+  ],
+  "summary_markdown": "The conversation covered several technical points regarding analytics methodology. First, a clarification was made on calculating session duration: if separate sessions occur at two locations, the time between `session start` times should be used, and `session end` is irrelevant.\n\nRegarding data types, it was decided that using 'trusted data' (rather than 'trusted Mac addresses') is clearer. The concept of MAC addresses being both real/local and trusted was discussed, confirming that a 'vendor zero' prefix can indicate a potentially non-real address.\n\nA major discussion point involved calculating reach based on the `area of living`. It was established that to prevent daily fluctuations in reported reach (which could be drastic with absolute numbers), the calculation should be recalibrated and reported weekly or monthly. The participants noted that while existing industry models might use historical, volatile data, a calibration model could be built if the calculated reach fluctuates significantly.\n\nFinally, methods for demographic tracking were discussed, noting that captive portals using Facebook logins provide valuable data. It was also mentioned that active Wi-Fi access increases the number of trusted MAC addresses available for demographic collection.",
+  "decisions": [
+    "When calculating session duration between two locations, use the time difference between 'session start' times; 'session end' is not relevant.",
+    "Use the term 'trusted data' instead of 'trusted Mac addresses'.",
+    "Reach calculations based on area of living should be recalibrated and reported weekly or monthly to avoid daily fluctuations."
+  ],
+  "action_items": [
+    "Follow up on documentation/screenshots regarding demographic tracking via captive portals.",
+    "Develop a calibration model for reach if the calculated metrics fluctuate significantly."
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "chat_id": "nW_zkkAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2025-04-10",
+    "end": "2025-04-10"
+  },
+  "message_count": 73,
+  "topic": "Reviewing campaign analytics and frequency changes",
+  "topic_slug": "reviewing-campaign-analytics-and-frequency-changes",
+  "tags": [
+    "analytics",
+    "campaign",
+    "inventory",
+    "visits-frequency"
+  ],
+  "summary_markdown": "The discussion centered on discrepancies found in client reporting, specifically regarding the 'Visits Frequency' metric. Concerns were raised because the calculation appeared to change after modifications to how Location Traffic was accounted for (shifting from cluster-wide to facility-specific tracking). It was noted that while the number of frames increased, the data changes seemed specific to each individual frame.\n\nTechnical discussions covered potential changes in the `filter_factor` and its dependency on demographics or dwell time. The participants reviewed old client reports and new campaign reports, leading to a realization regarding how Location Traffic is calculated (it can be selected at either the cluster or facility level).\n\nThe session concluded with an agreement that further investigation into these complex campaigns was required.",
+  "decisions": [
+    "A ticket (DOOH-1910) was opened and addressed concerning data issues.",
+    "The need for a deeper technical review of campaign analytics, particularly Visits Frequency calculation changes, was established."
+  ],
+  "action_items": [
+    "Create a new Jira ticket (DOOH-1919) to track the investigation into the reported discrepancies."
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "chat_id": "i6YI1QAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 2,
+  "date_range": {
+    "start": "2021-02-24",
+    "end": "2021-02-24"
+  },
+  "message_count": 19,
+  "topic": "Data requirements for core service updates",
+  "topic_slug": "data-requirements-core-service-updates",
+  "tags": [
+    "analytics",
+    "inventory",
+    "session"
+  ],
+  "summary_markdown": "The discussion focused on providing specific data sets required due to an update affecting core services. The request included sensor IDs `d1e0b670-b308-4de8-8d25-5d172ac21c00` and `35e737db-53f0-47dd-9779-a8bd529d377a` for the period of February 15-21. It was confirmed that the data needed should mirror what is currently in the `staging-analytics` dataset within the `PROD` data set, which is also the planned source from the data API to S3. For locations lacking predictive data (e.g., 'AFA 68: John F. Kennedys Plads 3'), raw session data should be provided, consistent with how it is displayed on the dashboard.",
+  "decisions": [
+    "Data for core service updates must come from `staging-analytics` in the `PROD` dataset.",
+    "Raw session data must be provided for locations where predictive data is unavailable."
+  ],
+  "action_items": [
+    "The data needs to be placed on S3, as instructed by someone (Sasha)."
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "chat_id": "i6YI1QAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 2,
+  "date_range": {
+    "start": "2023-08-28",
+    "end": "2023-08-28"
+  },
+  "message_count": 18,
+  "topic": "Reviewing team member performance and project updates",
+  "topic_slug": "reviewing-team-member-performance-and-project-updates",
+  "tags": [
+    "analytics",
+    "campaign"
+  ],
+  "summary_markdown": "The conversation covered feedback on a team member's (Vlad) performance, noting concerns regarding discipline and proactive task completion. Later, the discussion shifted to project timelines, specifically needing to accelerate decisions for 'uniques' due to an expected release with Sergio by the next day.\n\nRegarding data modeling, it was noted that a specific formula currently replicates existing frequency data, and adjustments are needed to align expectations.",
+  "decisions": [
+    "The team member's performance issues (discipline, proactivity) will be addressed/corrected.",
+    "Action is required to accelerate the decision process for 'uniques'.",
+    "Expectations regarding a specific formula need adjustment."
+  ],
+  "action_items": [
+    "[p1] to speak with the team member about performance and project needs.",
+    "Adjust expected values/expectations in the data model."
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "chat_id": "nW_zkkAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2024-09-23",
+    "end": "2024-09-23"
+  },
+  "message_count": 13,
+  "topic": "Reviewing dwell time cluster report",
+  "topic_slug": "reviewing-dwell-time-cluster-report",
+  "tags": [
+    "dwell-time",
+    "analytics"
+  ],
+  "summary_markdown": "The discussion focused on generating a specific report for 'Провантажу' concerning the dwell time cluster. [p1] requested that this be prioritized. [me] acknowledged the request, noting that determining if the dwell time is genuinely long will be difficult given the level of detail required, but agreed to attempt it as a contingency plan.",
+  "decisions": [
+    "The report on the dwell time cluster for Провантажу needs to be generated."
+  ],
+  "action_items": [
+    "[me] needs to work on generating the requested dwell time cluster report."
+  ]
+}

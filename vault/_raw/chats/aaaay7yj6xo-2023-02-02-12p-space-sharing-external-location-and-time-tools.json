@@ -1,0 +1,19 @@
+{
+  "chat_id": "AAAAy7Yj6Xo",
+  "kind": "Space",
+  "space_name": "IT",
+  "participants": 12,
+  "date_range": {
+    "start": "2023-02-02",
+    "end": "2023-02-02"
+  },
+  "message_count": 3,
+  "topic": "Sharing external location and time tools",
+  "topic_slug": "sharing-external-location-and-time-tools",
+  "tags": [
+    "analytics"
+  ],
+  "summary_markdown": "One participant shared two external links related to location data and timing: one for best time scheduling and another from Foursquare regarding product visits.",
+  "decisions": [],
+  "action_items": []
+}

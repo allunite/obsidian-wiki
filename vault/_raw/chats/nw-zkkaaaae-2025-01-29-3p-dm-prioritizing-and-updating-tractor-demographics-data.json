@@ -1,0 +1,23 @@
+{
+  "chat_id": "nW_zkkAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2025-01-29",
+    "end": "2025-01-29"
+  },
+  "message_count": 6,
+  "topic": "Prioritizing and updating tractor demographics data",
+  "topic_slug": "prioritizing-and-updating-tractor-demographics-data",
+  "tags": [
+    "analytics"
+  ],
+  "summary_markdown": "Someone requested that the demographic analysis for 'tractor' be prioritized and completed due to delays. [me] agreed to work on it, aiming to deliver it by the next day. Someone also provided a Jira link (DOOH-1639) and asked [me] to add their version/update to the existing task documentation to prevent loss of information while working on it.",
+  "decisions": [
+    "The demographic analysis for 'tractor' will be prioritized and delivered tomorrow."
+  ],
+  "action_items": [
+    "[me] needs to update the Jira ticket (DOOH-1639) with provided variations/updates."
+  ]
+}

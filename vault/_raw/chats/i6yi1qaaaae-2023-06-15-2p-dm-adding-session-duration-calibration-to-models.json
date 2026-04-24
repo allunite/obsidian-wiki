@@ -1,0 +1,25 @@
+{
+  "chat_id": "i6YI1QAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 2,
+  "date_range": {
+    "start": "2023-06-15",
+    "end": "2023-06-15"
+  },
+  "message_count": 15,
+  "topic": "Adding session duration calibration to models",
+  "topic_slug": "adding-session-duration-calibration-to-models",
+  "tags": [
+    "analytics",
+    "dwell-time",
+    "session"
+  ],
+  "summary_markdown": "The discussion focused on adding a calibration for `session_duration` alongside signal level, company, and category. It was determined that this feature is valuable for model training but might differ from calibrations used in non-model queries (e.g., frequency or conversion).\n\nRegarding technical implementation, it was noted that there is no existing flag to distinguish between online and offline sensor data. A solution requires creating a subquery based on sessions or pings within the last 5 minutes or half an hour.",
+  "decisions": [
+    "Implement calibration for session duration alongside signal level, company, and category."
+  ],
+  "action_items": [
+    "Develop a subquery to determine if sensor data is online or offline (based on recent sessions/pings)."
+  ]
+}

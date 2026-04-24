@@ -1,0 +1,21 @@
+{
+  "chat_id": "oq-w0kAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2025-07-23",
+    "end": "2025-07-23"
+  },
+  "message_count": 4,
+  "topic": "Meeting logistics and task distribution",
+  "topic_slug": "meeting-logistics-and-task-distribution",
+  "tags": [
+    "analytics"
+  ],
+  "summary_markdown": "The participants confirmed attendance at a meeting. A plan was established for the team's workload: half of the team is on vacation, [p1] will cover planned tasks, and [me] will handle outstanding items while both respond to urgent issues.",
+  "decisions": [
+    "Task distribution agreed upon (p1 handles planned tasks; me handles outstanding items)."
+  ],
+  "action_items": []
+}

@@ -1,0 +1,26 @@
+{
+  "chat_id": "oq-w0kAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2023-06-20",
+    "end": "2023-06-20"
+  },
+  "message_count": 26,
+  "topic": "Dashboard conversion data display and logic",
+  "topic_slug": "dashboard-conversion-data-display-logic",
+  "tags": [
+    "analytics",
+    "campaign",
+    "facility"
+  ],
+  "summary_markdown": "The discussion focused on displaying conversion data within the traffic dashboard. Initially, a need was raised to check if facilities could be grouped by master facilities for conversions. It was decided that this specific grouping feature would be deferred or reviewed later.\n\nThe immediate plan is to display a table of controls and conversion data directly on the main traffic dashboard. The 'Apply' button functionality will trigger a re-query of the conversion data based on selected facilities, rather than calling a separate dedicated endpoint for conversions.\n[me] confirmed that the conversion data querying logic should reside within the existing traffic dashboard structure.",
+  "decisions": [
+    "Conversion data display and controls will be integrated into the main traffic dashboard.",
+    "The 'Apply' button will trigger a re-query of conversion metrics based on selected facilities."
+  ],
+  "action_items": [
+    "[me] to investigate/confirm the feasibility of grouping facilities by master facilities for conversions (though this may be deferred)."
+  ]
+}

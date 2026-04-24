@@ -1,0 +1,19 @@
+{
+  "chat_id": "0m7UOUAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2024-06-10",
+    "end": "2024-06-10"
+  },
+  "message_count": 3,
+  "topic": "Scheduling a data monitoring discussion",
+  "topic_slug": "scheduling-data-monitoring-discussion",
+  "tags": [
+    "analytics"
+  ],
+  "summary_markdown": "The conversation was focused on scheduling time to discuss data monitoring. [p1] requested 10 minutes of time, which [me] initially declined due to being in a meeting but later confirmed availability for the discussion.",
+  "decisions": [],
+  "action_items": []
+}

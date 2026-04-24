@@ -1,0 +1,22 @@
+{
+  "chat_id": "oCgFCIAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2024-09-25",
+    "end": "2024-09-25"
+  },
+  "message_count": 13,
+  "topic": "Impressions tracking on traffic pages",
+  "topic_slug": "impressions-tracking-on-traffic-pages",
+  "tags": [
+    "impression",
+    "analytics"
+  ],
+  "summary_markdown": "The conversation addressed the display of impressions for a specific entity (Vlada) on traffic pages, particularly in Brazil. It was confirmed that while these metrics are generally available on traffic pages, they might currently be disabled or functioning differently than expected.\n\nSomeone noted that comparing production data with beta data is difficult due to potential logical differences and discrepancies in tracking methods.",
+  "decisions": [
+    "Impressions for Vlada are tracked on traffic pages."
+  ],
+  "action_items": []
+}

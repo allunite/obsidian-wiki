@@ -1,0 +1,21 @@
+{
+  "chat_id": "AAAAud4RJ_I",
+  "kind": "Space",
+  "space_name": "Group Chat",
+  "participants": 4,
+  "date_range": {
+    "start": "2025-04-02",
+    "end": "2025-04-02"
+  },
+  "message_count": 4,
+  "topic": "Redeploying the ML API staging environment",
+  "topic_slug": "redeploying-ml-api-staging-environment",
+  "tags": [
+    "analytics"
+  ],
+  "summary_markdown": "The conversation revolves around multiple requests to redeploy the `ml-api` from the stage to the stage environment. [p1] requested this action twice, and [p2] confirmed performing the redeployment in response to both requests.",
+  "decisions": [],
+  "action_items": [
+    "[p2] to perform the redeployment of ml-api staging"
+  ]
+}

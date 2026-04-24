@@ -1,0 +1,28 @@
+{
+  "chat_id": "AAAA7lJKPlc",
+  "kind": "Space",
+  "space_name": "Frontend",
+  "participants": 5,
+  "date_range": {
+    "start": "2022-11-10",
+    "end": "2022-11-10"
+  },
+  "message_count": 20,
+  "topic": "Calculating and displaying visible viewing sectors",
+  "topic_slug": "calculating-visible-viewing-sectors",
+  "tags": [
+    "analytics",
+    "campaign",
+    "inventory"
+  ],
+  "summary_markdown": "The discussion focused on the technical requirements for defining a 'sector'—the potential visible area from which an advertisement board can be seen. A sector is defined by several parameters: latitude/longitude of the board, visibility distance (radius), and orientation (angle to North).\n\n**Sector Parameters:**\n*   `innerRadius`: Not needed; should always be 0.\n*   `outerRadius`: Corresponds to the visibility distance.\n*   `startBearing`: Calculated as `(Angle to North - (120 degrees / 2))`.\n*   `endBearing`: Calculated as `(Angle to North + (120 degrees / 2))`.\n*   Color/Opacity: Should match design values, with colors sourced from Figma.\n\nThe initial constant sector angle is set at 120 degrees. The visibility radius must be updated if the map's visible distance changes.\n\n**Implementation Decisions:**\n*   The formula for start and end bearings was confirmed as correct.\n*   It was agreed that the sector should be editable both on the map interface (e.g., via double-click) and through the form inputs.\n*   A Google Maps API key was provided for sandbox use, with a separate production key planned.\n\n**Action Items:**\n*   The developer will implement the changes and schedule a call to demonstrate the functionality.",
+  "decisions": [
+    "Sector calculation requires visibility distance (radius), board location (lat/long), and orientation (angle to North).",
+    "Inner radius should be set to 0 for normal sector display.",
+    "The start bearing is calculated as Angle to North minus 60 degrees, and the end bearing is Angle to North plus 60 degrees.",
+    "Sector parameters must be editable both on the map interface and via the form."
+  ],
+  "action_items": [
+    "Developer to implement sector changes and schedule a follow-up call for demonstration."
+  ]
+}

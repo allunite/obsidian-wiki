@@ -1,0 +1,28 @@
+{
+  "chat_id": "AAAA3frAfLA",
+  "kind": "Space",
+  "space_name": "Lidar Tech",
+  "participants": 8,
+  "date_range": {
+    "start": "2021-10-27",
+    "end": "2021-10-27"
+  },
+  "message_count": 109,
+  "topic": "Lidar data collection and streaming issues",
+  "topic_slug": "lidar-data-collection-and-streaming-issues",
+  "tags": [
+    "analytics",
+    "session",
+    "inventory"
+  ],
+  "summary_markdown": "The discussion focused on diagnosing intermittent or missing lidar session data. Initial concerns included potential provider traffic throttling and inconsistent session logging.\n\n**Data Retrieval:** It was noted that historical sessions for specific dates were difficult to locate in the database, suggesting a need for raw data checks (S3).\n\n**Streaming/Config Issues:** The team reviewed the configuration of the `lidar-counter` service. Key actions included:\n*   Changing the MQTT host and restarting the service.\n*   Setting the `send_interval` parameter in the config file to 300 seconds (5 minutes).\n\n**Troubleshooting:** To diagnose data flow, a temporary debug run of the lidar-counter was suggested using the `-v` flag. The team confirmed that checking the MQTT topic and payload size is necessary to verify data transmission.\n\n**Data Viewing:** A specific SQL query was provided for viewing session data within the last 7 days or only for the current day.",
+  "decisions": [
+    "The `send_interval` parameter in the lidar-counter configuration should be set to 300 seconds (5 minutes).",
+    "The MQTT host needs verification and potential change/restart of the service was performed."
+  ],
+  "action_items": [
+    "Monitor traffic flow after updating the lidar-counter interval.",
+    "Check raw data sources (S3) for historical sessions when database records are missing.",
+    "Verify the payload size and transmission method via MQTT debugging."
+  ]
+}

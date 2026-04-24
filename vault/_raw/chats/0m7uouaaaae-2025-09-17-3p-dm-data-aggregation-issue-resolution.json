@@ -1,0 +1,19 @@
+{
+  "chat_id": "0m7UOUAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2025-09-17",
+    "end": "2025-09-17"
+  },
+  "message_count": 3,
+  "topic": "Data aggregation issue resolution",
+  "topic_slug": "data-aggregation-issue-resolution",
+  "tags": [
+    "analytics"
+  ],
+  "summary_markdown": "A user reported a significant delay (5 minutes) in the data aggregation process for a single day on the `agg_5` table, which was related to data deletion. The issue resolved itself shortly after reporting.",
+  "decisions": [],
+  "action_items": []
+}

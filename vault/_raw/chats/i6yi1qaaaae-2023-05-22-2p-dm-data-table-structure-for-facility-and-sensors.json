@@ -1,0 +1,24 @@
+{
+  "chat_id": "i6YI1QAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 2,
+  "date_range": {
+    "start": "2023-05-22",
+    "end": "2023-05-22"
+  },
+  "message_count": 11,
+  "topic": "Data table structure for facility and sensors",
+  "topic_slug": "data-table-structure-for-facility-and-sensors",
+  "tags": [
+    "analytics",
+    "facility"
+  ],
+  "summary_markdown": "The discussion focused on the required data format. Initially, a request was made for a table containing connections, coefficients, virtual facilities, and sensors. It was clarified that the coefficients are not needed; instead, someone should simply send [me] the name of the table to establish the correct format.",
+  "decisions": [
+    "The required data structure needs to include connections, virtual facilities, and sensors."
+  ],
+  "action_items": [
+    "[p1] needs to send [me] the name/format of the required data table."
+  ]
+}

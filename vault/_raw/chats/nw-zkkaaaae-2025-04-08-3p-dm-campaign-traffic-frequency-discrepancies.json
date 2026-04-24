@@ -1,0 +1,25 @@
+{
+  "chat_id": "nW_zkkAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2025-04-08",
+    "end": "2025-04-08"
+  },
+  "message_count": 27,
+  "topic": "Campaign traffic and frequency calculation discrepancies",
+  "topic_slug": "campaign-traffic-frequency-discrepancies",
+  "tags": [
+    "analytics",
+    "campaign",
+    "impression"
+  ],
+  "summary_markdown": "The discussion centered on the definition and calculation of unique traffic (unique users) within campaigns. [p1] questioned how unique traffic is calculated, noting discrepancies between the reported figures and those shown in the traffic dashboard.\n\nIt was established that frequency formulas differ between general campaign reporting and specific client implementations. While efforts are made to unify metrics, older clients often require maintaining legacy calculation methods.\n\n[me] provided a SQL link detailing the frequency formula used for campaigns, noting that different environments (production vs. staging) currently use varying formulas.",
+  "decisions": [
+    "The frequency formula needs to be updated in the tracker/reporting tool to match the production environment's calculation."
+  ],
+  "action_items": [
+    "[me] confirmed completion of the required update for both production and staging environments."
+  ]
+}

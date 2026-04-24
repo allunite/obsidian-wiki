@@ -1,0 +1,23 @@
+{
+  "chat_id": "AAAA9IpyQmY",
+  "kind": "Space",
+  "space_name": "Group Chat",
+  "participants": 2,
+  "date_range": {
+    "start": "2024-04-15",
+    "end": "2024-04-15"
+  },
+  "message_count": 18,
+  "topic": "CC Denmark impression data discrepancy fix",
+  "topic_slug": "cc-denmark-impression-data-discrepancy-fix",
+  "tags": [
+    "analytics",
+    "campaign",
+    "impression"
+  ],
+  "summary_markdown": "The conversation addressed a discrepancy in the reported impressions for CC Denmark. Initially, [p1] noted that there were no impressions recorded on the production environment (prod), but some existed on staging.\n\n[me] investigated and confirmed that impressions did exist in the database and on the website. However, [p1] pointed out that nothing was showing up within the campaign view.\n\nAfter further investigation, [me] determined that while campaigns were running, demographic data for CC Denmark was missing on the production environment (prod), although it was present on beta and staging environments. At the request of [p1], [me] updated the system to set the demographic status to EMPTY on prod.",
+  "decisions": [
+    "The demographic data for CC Denmark was set to EMPTY on the production environment."
+  ],
+  "action_items": []
+}

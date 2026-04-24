@@ -1,0 +1,28 @@
+{
+  "chat_id": "8GgAuwAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 2,
+  "date_range": {
+    "start": "2023-09-19",
+    "end": "2023-09-19"
+  },
+  "message_count": 29,
+  "topic": "Standardizing dwell time calculation methodology",
+  "topic_slug": "standardizing-dwell-time-calculation-methodology",
+  "tags": [
+    "dwell-time",
+    "analytics",
+    "session",
+    "inventory"
+  ],
+  "summary_markdown": "The discussion centered on the client's concern regarding unusually high dwell time metrics during nighttime hours, particularly when combined with low unique traffic. It was determined that the current calculation of dwell time is complex, utilizing three different session durations to meet various client expectations, making a simple average unsuitable.\n\n**Decision:** A task needs to be created to ",
+  "decisions": [
+    "Create a task to standardize and simplify the dwell time calculation methodology.",
+    "Discuss with Esben whether to change the average screen time calculation for all locations or implement an add-on/addendum approach (like the existing one for WoCo)."
+  ],
+  "action_items": [
+    "Someone needs to create a task regarding the standardization of dwell time.",
+    "Follow up with Esben on the best approach for calculating average screen time."
+  ]
+}

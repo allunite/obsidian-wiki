@@ -1,0 +1,22 @@
+{
+  "chat_id": "6ize28AAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2025-05-14",
+    "end": "2025-05-14"
+  },
+  "message_count": 7,
+  "topic": "Deployment and data validation for new client",
+  "topic_slug": "deployment-and-data-validation-for-new-client",
+  "tags": [
+    "campaign",
+    "analytics"
+  ],
+  "summary_markdown": "The conversation focused on technical deployment tasks. [p1] initiated the discussion by providing instructions to deploy frequency data for a new company (7964) and re-deploying the ml-api stage on staging-analytics. A Jira ticket was referenced for tracking (DOOH-2060). Later, [me] noted an issue with copied content from a ticket, specifically identifying that the city name appeared to be duplicated or incorrect when checking the data, which required validation.",
+  "decisions": [
+    "Frequency data deployment initiated for company 7964."
+  ],
+  "action_items": []
+}

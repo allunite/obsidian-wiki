@@ -1,0 +1,20 @@
+{
+  "chat_id": "AAAAFPbiAdE",
+  "kind": "Space",
+  "space_name": "Group Chat",
+  "participants": 3,
+  "date_range": {
+    "start": "2024-02-19",
+    "end": "2024-02-19"
+  },
+  "message_count": 4,
+  "topic": "Report fix for impressions on beta",
+  "topic_slug": "report-fix-for-impressions-on-beta",
+  "tags": [
+    "impression",
+    "analytics"
+  ],
+  "summary_markdown": "Someone provided an update that a fix for report impressions has been deployed to the beta environment.",
+  "decisions": [],
+  "action_items": []
+}

@@ -1,0 +1,24 @@
+{
+  "chat_id": "i6YI1QAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 2,
+  "date_range": {
+    "start": "2023-07-24",
+    "end": "2023-07-24"
+  },
+  "message_count": 7,
+  "topic": "Brazilian data presentation timeline",
+  "topic_slug": "brazilian-data-presentation-timeline",
+  "tags": [
+    "analytics",
+    "campaign"
+  ],
+  "summary_markdown": "Discussion regarding the required data for Brazil. The goal is to present audience and reach metrics based on Kido, which will be visible in both the campaign editor and report. A timeline was established for presenting these initial assessments.",
+  "decisions": [
+    "The target metric for presentation is audience & reach using Kido data."
+  ],
+  "action_items": [
+    "Present preliminary data/assessments by Thursday."
+  ]
+}

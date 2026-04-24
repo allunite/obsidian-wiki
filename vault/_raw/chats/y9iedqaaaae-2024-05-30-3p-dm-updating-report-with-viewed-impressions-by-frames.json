@@ -1,0 +1,23 @@
+{
+  "chat_id": "y9IEDQAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2024-05-30",
+    "end": "2024-05-30"
+  },
+  "message_count": 16,
+  "topic": "Updating report with viewed impressions by frames",
+  "topic_slug": "updating-report-with-viewed-impressions-by-frames",
+  "tags": [
+    "analytics",
+    "impression",
+    "facility"
+  ],
+  "summary_markdown": "The team discussed adding a new field, `viewedImpressionsByFrames`, to the `/report/demographics/short` endpoint. Initially, [me] provided an example of the data structure using an array of mixed arrays. After discussion regarding whether an array or dictionary format was better, it was decided that the final implementation would use an array of objects (map), where each object uses a frame ID as its key and holds the impression count as its value. This field tracks viewed impressions broken down by specific frames within a facility.\n\n[me] confirmed that the updated endpoint structure has been deployed.",
+  "decisions": [
+    "The `viewedImpressionsByFrames` field will be implemented using an array of objects (map) format."
+  ],
+  "action_items": []
+}

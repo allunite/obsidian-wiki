@@ -1,0 +1,24 @@
+{
+  "chat_id": "oCgFCIAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2023-01-02",
+    "end": "2023-01-02"
+  },
+  "message_count": 10,
+  "topic": "Frame saving and Angular object references",
+  "topic_slug": "frame-saving-angular-object-references",
+  "tags": [
+    "analytics",
+    "facility"
+  ],
+  "summary_markdown": "The discussion covered technical issues related to the staging environment deployment and data handling. Specific points included:\n\n*   **Staging Deployment:** [p1] confirmed that changes were deployed to the staging environment, including a classification change for someone.\n*   **Technical Issues (Frames):** A major concern was identified regarding how frame edits are saved. It was discovered that instead of saving copies of objects, the system appears to be passing references across multiple services and `BehaviorSubject`s when changes are made. This needs careful review during the save process.",
+  "decisions": [
+    "Changes were deployed to staging environment."
+  ],
+  "action_items": [
+    "Review and fix frame saving logic to handle object copying instead of passing references."
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "chat_id": "y9IEDQAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2024-09-11",
+    "end": "2024-09-11"
+  },
+  "message_count": 31,
+  "topic": "Data API usage and local site deployment",
+  "topic_slug": "data-api-usage-and-local-site-deployment",
+  "tags": [
+    "analytics",
+    "inventory"
+  ],
+  "summary_markdown": "The conversation covered several technical topics, including the status of data processing (sessions, model aggregation, and subsequent distribution). A discussion arose regarding high i/o wait and utilization on a specific system (02) while other systems were normal. Later, [me] shared an API call using `curl` to access location data. Finally, there was a discussion about deploying a local instance of the old opt-out site for privacy pages needed by someone for Lithuania and Latvia.",
+  "decisions": [
+    "The use of the provided `curl` command for accessing location data via the AllUnite API was reviewed."
+  ],
+  "action_items": [
+    "[p1] will inform the relevant team about the API usage/data access method."
+  ]
+}

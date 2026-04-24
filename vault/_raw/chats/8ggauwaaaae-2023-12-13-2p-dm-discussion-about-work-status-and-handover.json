@@ -1,0 +1,17 @@
+{
+  "chat_id": "8GgAuwAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 2,
+  "date_range": {
+    "start": "2023-12-13",
+    "end": "2023-12-13"
+  },
+  "message_count": 4,
+  "topic": "Discussion about work status and handover",
+  "topic_slug": "discussion-about-work-status-and-handover",
+  "tags": [],
+  "summary_markdown": "The conversation started with a mention of a client inquiry regarding '3 minutes' on a chart. The sender stated they forwarded an email to someone named Fishman. Later, the sender updated [me] that their official last day was tomorrow, and per agreement with Esben, they are only handling handover duties and answering questions, but not participating in general meetings or tasks.",
+  "decisions": [],
+  "action_items": []
+}

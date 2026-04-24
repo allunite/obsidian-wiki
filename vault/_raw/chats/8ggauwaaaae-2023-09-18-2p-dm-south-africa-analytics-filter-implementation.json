@@ -1,0 +1,24 @@
+{
+  "chat_id": "8GgAuwAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 2,
+  "date_range": {
+    "start": "2023-09-18",
+    "end": "2023-09-18"
+  },
+  "message_count": 8,
+  "topic": "South Africa analytics filter implementation",
+  "topic_slug": "south-africa-analytics-filter-implementation",
+  "tags": [
+    "analytics",
+    "campaign"
+  ],
+  "summary_markdown": "The conversation discusses the status of an analytics report for Ivory Coast and a new feature implemented for South Africa (ЮАР). The current implementation includes a Weekend/Weekday filter on the staging site, which displays all hours/days but shows empty metrics for periods without data. This approach was deemed conceptually correct by [me]. However, [unknown] suggested that providing a more granular filtering option—allowing users to select specific days (e.g., only Mondays or a full week excluding Sundays)—would be significantly more informative and beneficial for clients. [me] noted that this feature was requested by the client, but implementing it would require an additional week's delay until the next release cycle. Ultimately, they agreed to proceed with the current implementation first, anticipating feedback from the African team before making further changes.",
+  "decisions": [
+    "The initial Weekend/Weekday filter for South Africa will be used as implemented, despite suggestions for more granular control."
+  ],
+  "action_items": [
+    "Coordinate with the African team regarding the current analytics filter implementation status and potential feedback."
+  ]
+}

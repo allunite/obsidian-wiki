@@ -1,0 +1,22 @@
+{
+  "chat_id": "nW_zkkAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2024-02-28",
+    "end": "2024-02-28"
+  },
+  "message_count": 5,
+  "topic": "Reviewing unit discrepancies in cluster data",
+  "topic_slug": "reviewing-unit-discrepancies-in-cluster-data",
+  "tags": [
+    "analytics",
+    "facility"
+  ],
+  "summary_markdown": "Someone requested a review of unit calculations for a specific cluster, noting that while previous adjustments were made (for instances where units were lower than traffic), discrepancies still exist where the calculated units and actual traffic do not align. A link to an analytics dashboard was provided for review.",
+  "decisions": [],
+  "action_items": [
+    "Review unit calculations and address remaining discrepancies between units and traffic in the specified cluster data."
+  ]
+}

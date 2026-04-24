@@ -1,0 +1,25 @@
+{
+  "chat_id": "sP4KJMAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 2,
+  "date_range": {
+    "start": "2025-10-07",
+    "end": "2025-10-07"
+  },
+  "message_count": 23,
+  "topic": "Fixing campaign reporting bug for clients",
+  "topic_slug": "fixing-campaign-reporting-bug-for-clients",
+  "tags": [
+    "analytics",
+    "campaign"
+  ],
+  "summary_markdown": "A critical bug was identified that affected over 50 active and finished campaigns, primarily impacting Citrusmedia due to their high volume of campaign usage. Initially, the fix was deployed to address current issues across all clients. However, [p1] noted that the same issue persisted in older campaigns. A decision was made to recalculate data for all historical/older affected campaigns, which was estimated to take about an hour. The process was completed and confirmed by [me], resolving the reporting discrepancy for the client.",
+  "decisions": [
+    "The initial fix was applied to the system to correct campaign reporting issues.",
+    "Recalculation of data for all older affected campaigns was performed upon request."
+  ],
+  "action_items": [
+    "Client will be notified that the issue is resolved and the task can be closed."
+  ]
+}

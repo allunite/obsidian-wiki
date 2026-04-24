@@ -1,0 +1,25 @@
+{
+  "chat_id": "0kjuCiAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2026-04-09",
+    "end": "2026-04-09"
+  },
+  "message_count": 12,
+  "topic": "Database coefficient updates and deprecation",
+  "topic_slug": "database-coefficient-updates-and-deprecation",
+  "tags": [
+    "analytics",
+    "campaign"
+  ],
+  "summary_markdown": "The discussion focused on updating coefficients within the `get_frequency.sql` function. [p1] confirmed that direct commits are possible but should be done via a pull request into the staging environment (`stage`). Regarding specific records for campaign 7965, two entries were identified: `getFrequency_3CC` (line 308) and `getFrequency_internal_` (line 118). It was confirmed that both lines are deprecated. While these lines do not currently cause issues, it is recommended they be removed for cleanup purposes.\n\nRegarding the handling of campaign 7965 on the ml-api, [p1] decided to keep the current implementation in the database rather than migrating it to the ml-api at this time.",
+  "decisions": [
+    "Coefficient changes must be submitted via a pull request into the staging environment.",
+    "The deprecated lines (308 and 118) for campaign 7965 should be removed from both locations."
+  ],
+  "action_items": [
+    "Remove the two identified deprecated lines of code."
+  ]
+}

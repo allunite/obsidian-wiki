@@ -1,0 +1,24 @@
+{
+  "chat_id": "oCgFCIAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2023-06-29",
+    "end": "2023-06-29"
+  },
+  "message_count": 15,
+  "topic": "Fixing sandbox data synchronization issue",
+  "topic_slug": "fixing-sandbox-data-synchronization-issue",
+  "tags": [
+    "analytics",
+    "session"
+  ],
+  "summary_markdown": "The session began with a report of a broken data synchronization process from the sandbox environment, which had been down for three days. The issue was traced to an error: \"Cannot execute query in readonly mode.\" A specific SQL script was provided for running the `device_session_agg_4` table data into a remote function.\n\n[me] took ownership of fixing the synchronization and confirmed it was resolved later that morning, including updating the Randex system and re-enabling real-time data flow. The user [p1] acknowledged the fix, emphasizing the necessity of continuous data updates for reporting purposes.",
+  "decisions": [
+    "The sandbox data synchronization issue was fixed by [me]."
+  ],
+  "action_items": [
+    "None"
+  ]
+}

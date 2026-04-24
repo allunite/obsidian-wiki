@@ -1,0 +1,22 @@
+{
+  "chat_id": "y9IEDQAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2021-09-29",
+    "end": "2021-09-29"
+  },
+  "message_count": 19,
+  "topic": "Database maintenance and usage",
+  "topic_slug": "database-maintenance-and-usage",
+  "tags": [
+    "analytics"
+  ],
+  "summary_markdown": "The conversation focused on database maintenance, specifically PostgreSQL. It was discussed that the database needed cleaning up and upgrading. The participants confirmed temporary disabling of notifications/services; [p1] stated they had disabled it for a period (up to a week), which [me] requested be kept off for a week. Regarding usage limits, [me] noted that the current 20% free allowance would last another year.",
+  "decisions": [
+    "Notifications/services were temporarily disabled by [p1]",
+    "[me] confirmed the temporary disabling of notifications was sufficient for one week"
+  ],
+  "action_items": []
+}

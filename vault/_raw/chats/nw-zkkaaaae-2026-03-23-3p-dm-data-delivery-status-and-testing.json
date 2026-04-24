@@ -1,0 +1,23 @@
+{
+  "chat_id": "nW_zkkAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2026-03-23",
+    "end": "2026-03-23"
+  },
+  "message_count": 6,
+  "topic": "Data delivery status and testing",
+  "topic_slug": "data-delivery-status-and-testing",
+  "tags": [
+    "analytics"
+  ],
+  "summary_markdown": "The conversation revolves around the completion and review of data in a specific location (ml_2). [p1] inquired about the approximate timing for the data. [me] initially estimated half an hour, then confirmed completion later that day, specifying the test area as aka_test. [p1] stated they would check the data the following day.",
+  "decisions": [
+    "Data in ml_2 is complete and available for testing."
+  ],
+  "action_items": [
+    "Someone will check the data (aka_test) tomorrow."
+  ]
+}

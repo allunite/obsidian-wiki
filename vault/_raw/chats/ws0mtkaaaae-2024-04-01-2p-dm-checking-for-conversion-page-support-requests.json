@@ -1,0 +1,21 @@
+{
+  "chat_id": "ws0mTkAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 2,
+  "date_range": {
+    "start": "2024-04-01",
+    "end": "2024-04-01"
+  },
+  "message_count": 10,
+  "topic": "Checking for conversion page support requests",
+  "topic_slug": "checking-for-conversion-page-support-requests",
+  "tags": [
+    "analytics"
+  ],
+  "summary_markdown": "Someone inquired whether clients had ever mentioned the conversion page (https://analytics.allunite.com/dashboard/conversion) in support requests. [p1] stated that they did not recall any client mentions, suggesting it was only built for a demo and never released. [me] agreed to check access to the page.",
+  "decisions": [],
+  "action_items": [
+    "Check access to the conversion dashboard page."
+  ]
+}

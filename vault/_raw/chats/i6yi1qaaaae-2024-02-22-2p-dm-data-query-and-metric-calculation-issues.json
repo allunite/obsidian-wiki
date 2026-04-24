@@ -1,0 +1,27 @@
+{
+  "chat_id": "i6YI1QAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 2,
+  "date_range": {
+    "start": "2024-02-22",
+    "end": "2024-02-22"
+  },
+  "message_count": 17,
+  "topic": "Data query and metric calculation issues",
+  "topic_slug": "data-query-and-metric-calculation-issues",
+  "tags": [
+    "analytics",
+    "impression",
+    "session",
+    "dwell-time"
+  ],
+  "summary_markdown": "The discussion centered on data accuracy, specifically regarding dwell time and unique users (юников), which need a global solution. It was noted that the current traffic in 'the box' has been low for some time.\n\n[me] stated they would write two queries: one matching the dashboard requirements and another based on a more accurate model.\n\n[p1] provided an example SQL query structure using `device_session_agg_ml_2` to calculate sums of impressions, predicted session numbers, ROTs, and VAC for specific company numbers and date ranges.",
+  "decisions": [
+    "The queries will address the need for global solutions regarding dwell time and unique users."
+  ],
+  "action_items": [
+    "[me] will write a query matching the dashboard requirements.",
+    "[me] will write a second query based on a more accurate model."
+  ]
+}

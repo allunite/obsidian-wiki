@@ -1,0 +1,24 @@
+{
+  "chat_id": "nW_zkkAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2024-03-04",
+    "end": "2024-03-04"
+  },
+  "message_count": 25,
+  "topic": "Data mirroring for new terminals",
+  "topic_slug": "data-mirroring-for-new-terminals",
+  "tags": [
+    "analytics",
+    "session"
+  ],
+  "summary_markdown": "The discussion focused on the process of data mirroring for new terminals at RZK. The required scope involves mirroring data from specific company IDs and date ranges, starting from the launch dates of these terminals.\n\nQuestions were raised regarding whether the necessary location sessions had already been created for this mirroring process. It was confirmed that they should be available, but further investigation into the status of the locations was planned.",
+  "decisions": [
+    "Mirroring data is required for new terminals at RZK using provided company IDs and start dates."
+  ],
+  "action_items": [
+    "Investigate the creation status of location sessions needed for the mirroring process."
+  ]
+}

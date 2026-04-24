@@ -1,0 +1,22 @@
+{
+  "chat_id": "wZDFB8AAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2025-09-26",
+    "end": "2025-09-26"
+  },
+  "message_count": 10,
+  "topic": "Enabling new reach for Publiex",
+  "topic_slug": "enabling-new-reach-for-publix",
+  "tags": [
+    "inventory",
+    "analytics"
+  ],
+  "summary_markdown": "The discussion focused on enabling a new advertising reach to Publiex in the production environment. [p1] confirmed testing was completed on stage and requested activation for both demographics and general reach. [me] confirmed that the feature was enabled, noting a potential delay of up to 5 minutes due to settings cache.",
+  "decisions": [
+    "New reach for Publiex (including demographics) is enabled in production."
+  ],
+  "action_items": []
+}

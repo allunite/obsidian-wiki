@@ -1,0 +1,23 @@
+{
+  "chat_id": "0m7UOUAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2024-01-18",
+    "end": "2024-01-18"
+  },
+  "message_count": 4,
+  "topic": "Calculating minimum session time for location analytics",
+  "topic_slug": "calculating-minimum-session-time-for-location-analytics",
+  "tags": [
+    "analytics",
+    "session"
+  ],
+  "summary_markdown": "A discussion occurred regarding the required minimum time interval for calculating total traffic across different types of locations (Mall, Airport, Taxi_Rank). It was confirmed that the standard minimum session duration is 8 hours for Malls and Airports in South Africa. An exception was noted: for 'Transport Hub' locations, the minimum session duration is two hours.",
+  "decisions": [
+    "Minimum session time for Mall/Airport/Taxi_Rank in South Africa is 8 hours.",
+    "Minimum session time for Transport Hub is 2 hours."
+  ],
+  "action_items": []
+}

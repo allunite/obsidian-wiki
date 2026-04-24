@@ -1,0 +1,23 @@
+{
+  "chat_id": "oq-w0kAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2025-03-24",
+    "end": "2025-03-24"
+  },
+  "message_count": 4,
+  "topic": "Implementing tag filters for traffic dashboard",
+  "topic_slug": "implementing-tag-filters-for-traffic-dashboard",
+  "tags": [
+    "analytics",
+    "frame",
+    "inventory"
+  ],
+  "summary_markdown": "The discussion focused on implementing a tag filter feature for the traffic dashboard. This task was deemed urgent and required deployment to beta before production.\n\n**Technical Details:**\n*   Tags are stored in `frame.data->'tags'`.\n*   New parameters for filtering include:\n    *   `tag`: A comma-separated string of selected tags (must be applied as is, without case conversion).\n    *   `tagOption`: Specifies the filter logic, either `'include'` or `'exclude'`.\n\nThe functionality was initially delivered by [p1] on the front end, and subsequent work involved refining the UI/UX until it was completed.",
+  "decisions": [
+    "The tag filtering feature must be deployed to beta before production."
+  ],
+  "action_items": []
+}

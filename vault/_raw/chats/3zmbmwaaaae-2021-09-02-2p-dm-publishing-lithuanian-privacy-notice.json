@@ -1,0 +1,23 @@
+{
+  "chat_id": "3ZMBmwAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 2,
+  "date_range": {
+    "start": "2021-09-02",
+    "end": "2021-09-02"
+  },
+  "message_count": 10,
+  "topic": "Publishing Lithuanian privacy notice",
+  "topic_slug": "publishing-lithuanian-privacy-notice",
+  "tags": [
+    "analytics"
+  ],
+  "summary_markdown": "The conversation focused on the deployment of a localized version of the privacy notice. [p1] requested that the Lithuanian version, based on feedback received from Lithuania, be set as the default setting. [me] confirmed this and provided links to both the staging environment and the live site for review and publication.",
+  "decisions": [
+    "The Lithuanian version of the privacy notice will be published/set as default."
+  ],
+  "action_items": [
+    "Publish the Lithuanian privacy notice on the main site."
+  ]
+}

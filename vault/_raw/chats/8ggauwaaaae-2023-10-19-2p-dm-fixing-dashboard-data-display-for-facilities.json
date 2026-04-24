@@ -1,0 +1,24 @@
+{
+  "chat_id": "8GgAuwAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 2,
+  "date_range": {
+    "start": "2023-10-19",
+    "end": "2023-10-19"
+  },
+  "message_count": 15,
+  "topic": "Fixing dashboard data display for facilities",
+  "topic_slug": "fixing-dashboard-data-display-for-facilities",
+  "tags": [
+    "analytics",
+    "facility"
+  ],
+  "summary_markdown": "The conversation addressed a recurring bug where the analytics dashboard incorrectly displayed company-wide information when a specific facility was selected, especially if that facility lacked data. The issue was demonstrated using two facilities (Dscreens_LV_Zolitūdes 34_Large DOOH and Dscreens_LV_Zolitudes 34) with differing category structures (one lacking a category, the other having 'City'). It was determined that for accurate virtual reporting, the facility categories must match those used by the sources. The user confirmed they would update the missing categories across all relevant facilities.",
+  "decisions": [
+    "Facility categories need to be standardized to ensure accurate 1:1 display and proper model calculation for virtual data."
+  ],
+  "action_items": [
+    "The user will manually input the necessary categories into the UI for the affected facilities."
+  ]
+}

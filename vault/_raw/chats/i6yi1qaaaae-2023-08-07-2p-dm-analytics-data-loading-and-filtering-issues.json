@@ -1,0 +1,24 @@
+{
+  "chat_id": "i6YI1QAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 2,
+  "date_range": {
+    "start": "2023-08-07",
+    "end": "2023-08-07"
+  },
+  "message_count": 18,
+  "topic": "Analytics data loading and filtering issues",
+  "topic_slug": "analytics-data-loading-and-filtering-issues",
+  "tags": [
+    "analytics",
+    "facility"
+  ],
+  "summary_markdown": "The conversation focused on discrepancies in traffic data loaded from AFA. The core issue is that the displayed traffic for a single facility appears excessively high, but it actually represents total traffic for the entire AFA network. It was noted that the filtering mechanism may be failing or loading incorrectly, leading to inaccurate spikes and dips in the analytics dashboard.",
+  "decisions": [
+    "The data needs to be fixed/corrected by someone (Sanya) to ensure old data is reliably overwritten."
+  ],
+  "action_items": [
+    "Someone needs to investigate and fix the traffic filtering logic for AFA data in the analytics dashboard."
+  ]
+}

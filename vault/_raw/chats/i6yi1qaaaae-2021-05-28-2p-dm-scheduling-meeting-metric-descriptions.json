@@ -1,0 +1,21 @@
+{
+  "chat_id": "i6YI1QAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 2,
+  "date_range": {
+    "start": "2021-05-28",
+    "end": "2021-05-28"
+  },
+  "message_count": 11,
+  "topic": "Scheduling a meeting on metric descriptions",
+  "topic_slug": "scheduling-meeting-metric-descriptions",
+  "tags": [
+    "analytics"
+  ],
+  "summary_markdown": "The conversation revolves around scheduling a discussion regarding the description of metrics. [p1] initiated contact to discuss this topic with someone else (Kристина). [me] confirmed availability but later inquired about the meeting location, noting it was not in their calendar. The participants agreed that they could schedule a call if time permitted.",
+  "decisions": [],
+  "action_items": [
+    "Determine a suitable time for a follow-up call regarding metric descriptions."
+  ]
+}

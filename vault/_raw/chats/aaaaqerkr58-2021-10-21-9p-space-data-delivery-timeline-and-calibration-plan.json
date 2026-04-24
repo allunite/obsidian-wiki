@@ -1,0 +1,28 @@
+{
+  "chat_id": "AAAAqeRkR58",
+  "kind": "Space",
+  "space_name": "Estonia",
+  "participants": 9,
+  "date_range": {
+    "start": "2021-10-21",
+    "end": "2021-10-21"
+  },
+  "message_count": 15,
+  "topic": "Data delivery timeline and calibration plan",
+  "topic_slug": "data-delivery-timeline-and-calibration-plan",
+  "tags": [
+    "analytics",
+    "dashboard",
+    "loop"
+  ],
+  "summary_markdown": "The discussion focused on setting deadlines for data delivery, specifically involving lidar and Wi-Fi sensor data. Concerns were raised regarding the current fluctuation of Wi-Fi data and the required calibration time frame.\n\n**Key Deliverables & Deadlines:**\n*   Lidar session-based data is planned for the dashboard by Wednesday (this week).\n*   A meeting/check (MC) to validate lidar and calibrate Wi-Fi sensors is needed next week.\n*   The model for Wi-Fi data is tentatively scheduled for November 5th, assuming no higher priorities arise.\n\nThe team agreed that a preliminary Excel version of the data could be provided this week.",
+  "decisions": [
+    "Lidar dashboard data release set for Wednesday (this week).",
+    "A follow-up meeting/check (MC) to validate lidar and calibrate Wi-Fi is scheduled for next week.",
+    "The Wi-Fi model development deadline is tentatively set for November 5th."
+  ],
+  "action_items": [
+    "Provide preliminary Excel data this week.",
+    "Finalize the timeline for sensor calibration and dashboard updates."
+  ]
+}

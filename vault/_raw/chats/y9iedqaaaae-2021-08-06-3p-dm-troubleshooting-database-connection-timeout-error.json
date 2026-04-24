@@ -1,0 +1,21 @@
+{
+  "chat_id": "y9IEDQAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2021-08-06",
+    "end": "2021-08-06"
+  },
+  "message_count": 3,
+  "topic": "Troubleshooting database connection timeout error",
+  "topic_slug": "troubleshooting-database-connection-timeout-error",
+  "tags": [
+    "analytics"
+  ],
+  "summary_markdown": "The session contains technical logs and questions regarding a `DB::NetException: Timeout` error originating from the ClickHouse server. The user asks for clarification on the specific IP/port (`10.0.90.226:9000`) mentioned in the error log. Later, the user inquires if an upgrade of servers requires updating configuration files to reflect increased memory capacity.",
+  "decisions": [],
+  "action_items": [
+    "Investigate the source and meaning of the `10.0.90.226:9000` connection timeout error."
+  ]
+}

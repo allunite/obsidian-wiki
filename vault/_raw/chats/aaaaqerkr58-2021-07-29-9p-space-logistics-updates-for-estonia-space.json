@@ -1,0 +1,23 @@
+{
+  "chat_id": "AAAAqeRkR58",
+  "kind": "Space",
+  "space_name": "Estonia",
+  "participants": 9,
+  "date_range": {
+    "start": "2021-07-29",
+    "end": "2021-07-29"
+  },
+  "message_count": 6,
+  "topic": "Logistics updates for Estonia space",
+  "topic_slug": "logistics-updates-for-estonia-space",
+  "tags": [
+    "facility"
+  ],
+  "summary_markdown": "The conversation covered logistical updates related to the 'Estonia' space. Specific details included confirming a number (53) and noting that DHL was ordered, requiring labels to be printed.",
+  "decisions": [
+    "DHL order placed; labels need printing."
+  ],
+  "action_items": [
+    "Print labels for DHL shipment."
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "chat_id": "rBfK7kAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 2,
+  "date_range": {
+    "start": "2023-10-16",
+    "end": "2023-10-16"
+  },
+  "message_count": 47,
+  "topic": "Analytics issues with predicted traffic and reach",
+  "topic_slug": "analytics-issues-predicted-traffic-and-reach",
+  "tags": [
+    "analytics",
+    "impression",
+    "campaign",
+    "facility"
+  ],
+  "summary_markdown": "The discussion focused on discrepancies in analytics data, specifically concerning 'reach' and predicted traffic metrics for a campaign.\n\n*   **Reach Calculation:** The correct formula for reach was clarified. It involves `vac` (total traffic * percentage_facility * va_weighted) and the ratio of sessions to devices (`sessions/devices`).\n*   **Data Discrepancies:** Multiple issues were identified regarding data from October 3rd onwards, including:\n    *   A significant drop in predicted traffic (by a factor of six).\n    *   The number of impressions dropped drastically.\n    *   Visit frequency was reported as less than one, and sometimes negative, indicating a potential systemic issue that has occurred since September.\n*   **Frame Data:** It was determined that only a limited subset of listed frame IDs have predictions available in the `device_session_agg_ml` table. The lack of prediction for other frames might be due to them being new or having been calculated using different logic prior to October 2nd.",
+  "decisions": [
+    "The correct formula for reach was confirmed.",
+    "It was noted that only a limited set of frame IDs have predicted data in the `device_session_agg_ml` table."
+  ],
+  "action_items": [
+    "Someone will write an update to prevent confusion in the general chat."
+  ]
+}

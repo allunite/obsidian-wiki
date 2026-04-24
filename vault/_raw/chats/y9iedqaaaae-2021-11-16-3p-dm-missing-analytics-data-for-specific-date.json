@@ -1,0 +1,22 @@
+{
+  "chat_id": "y9IEDQAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2021-11-16",
+    "end": "2021-11-16"
+  },
+  "message_count": 12,
+  "topic": "Missing analytics data for specific date",
+  "topic_slug": "missing-analytics-data-for-specific-date",
+  "tags": [
+    "analytics",
+    "recalc-ch"
+  ],
+  "summary_markdown": "The discussion concerns missing analytics data observed on October 7th (23:00–24:00 UTC). Initially, the `seen_ch` metric was absent during the archive/recalculation process. This absence caused related data to fail appearing on the dashboard. It was suggested that a potential failure or drop in the datagrinder system might explain this discrepancy.",
+  "decisions": [],
+  "action_items": [
+    "Investigate if the datagrinder system experienced an outage during the specified time frame."
+  ]
+}

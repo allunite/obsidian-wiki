@@ -1,0 +1,29 @@
+{
+  "chat_id": "8GgAuwAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 2,
+  "date_range": {
+    "start": "2022-02-17",
+    "end": "2022-02-17"
+  },
+  "message_count": 75,
+  "topic": "Analytics data discrepancies and fixes",
+  "topic_slug": "analytics-data-discrepancies-and-fixes",
+  "tags": [
+    "analytics",
+    "recalc-ch",
+    "facility"
+  ],
+  "summary_markdown": "The conversation focused on debugging analytics data issues, specifically concerning traffic drops and aggregation mismatches. Initial work involved fixing remaining elements in the cluster setup for access provision. Later, discrepancies were noted regarding total traffic not matching partner totals, particularly around February 13th (a Sunday). It was determined that a recalculation of WoCo metrics for those specific dates is necessary due to potential raw data backlogs or structural issues. The immediate technical fixes implemented included updating the visit time calculation method and deploying the updated version to staging.\n\nRegarding logistics, one participant confirmed they would bring their laptop the next day.",
+  "decisions": [
+    "The WoCo metrics need recalculation for specific dates (e.g., around February 13th).",
+    "The visit time calculation method was updated from simple to complex/session-based.",
+    "The updated analytics version will be deployed to staging and then potentially to production after the next day's meeting."
+  ],
+  "action_items": [
+    "Recalculate WoCo metrics for specific historical dates (e.g., February 13th).",
+    "Review data discrepancies between facility totals and master/partner totals.",
+    "Bring laptop to the office tomorrow."
+  ]
+}

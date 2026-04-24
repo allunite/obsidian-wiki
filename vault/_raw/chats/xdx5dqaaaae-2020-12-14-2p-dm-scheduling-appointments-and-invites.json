@@ -1,0 +1,23 @@
+{
+  "chat_id": "xdx5dQAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 2,
+  "date_range": {
+    "start": "2020-12-14",
+    "end": "2020-12-14"
+  },
+  "message_count": 10,
+  "topic": "Scheduling appointments and invites",
+  "topic_slug": "scheduling-appointments-and-invites",
+  "tags": [
+    "analytics"
+  ],
+  "summary_markdown": "The conversation focused on scheduling future meetings. It was determined that creating an 'appointment slot' is the preferred method for booking time, rather than other methods.\n\nSomeone advised inviting a specific person (Инна) to this slot so they could handle the subsequent bookings.",
+  "decisions": [
+    "Use the 'appointment slot' function for scheduling."
+  ],
+  "action_items": [
+    "[me] needs to recreate or adjust the appointment booking process."
+  ]
+}

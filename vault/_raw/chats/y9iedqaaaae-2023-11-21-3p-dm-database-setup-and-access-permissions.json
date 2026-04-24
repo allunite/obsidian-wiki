@@ -1,0 +1,23 @@
+{
+  "chat_id": "y9IEDQAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2023-11-21",
+    "end": "2023-11-21"
+  },
+  "message_count": 18,
+  "topic": "Database setup and access permissions",
+  "topic_slug": "database-setup-and-access-permissions",
+  "tags": [
+    "analytics"
+  ],
+  "summary_markdown": "The conversation covered several technical topics. Initially, a discussion occurred regarding the deployment of data APIs using `server-[redacted]-api.yml` and versioning via `helmfile/production.yml`. Later, [p1] proposed creating a dedicated database structure for staging environments, including necessary migrations. Regarding access control, it was noted that while experience with sandboxes exists, proper permission separation is key. Finally, the participants discussed changing a password for 'Esben' and confirming whether credentials are stored in plain text within the database.",
+  "decisions": [
+    "A dedicated database structure (including migrations) needs to be built for staging environments."
+  ],
+  "action_items": [
+    "[me] will research how permission separation is handled in 'ch'."
+  ]
+}

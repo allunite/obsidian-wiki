@@ -1,0 +1,21 @@
+{
+  "chat_id": "i6YI1QAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 2,
+  "date_range": {
+    "start": "2021-09-02",
+    "end": "2021-09-02"
+  },
+  "message_count": 5,
+  "topic": "Discussing frequency management",
+  "topic_slug": "discussing-frequency-management",
+  "tags": [
+    "analytics"
+  ],
+  "summary_markdown": "The conversation initiated a discussion about managing 'Frequency'. The participants agreed to postpone the detailed discussion until later, potentially the next day, after [me] completes some necessary setup tasks (like creating a user account).",
+  "decisions": [],
+  "action_items": [
+    "[me] to complete initial setup/user creation before discussing frequency"
+  ]
+}

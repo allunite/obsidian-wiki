@@ -1,0 +1,25 @@
+{
+  "chat_id": "nW_zkkAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2024-02-21",
+    "end": "2024-02-21"
+  },
+  "message_count": 9,
+  "topic": "Report update and deployment",
+  "topic_slug": "report-update-and-deployment",
+  "tags": [
+    "impression",
+    "analytics"
+  ],
+  "summary_markdown": "The conversation focused on updating a report. Someone requested the removal of the impression column from the report and its subsequent deployment to production (prod).\n\n[me] confirmed that the changes were deployed to both prod and beta environments.",
+  "decisions": [
+    "Remove impression column from the report.",
+    "Deploy updated report to production."
+  ],
+  "action_items": [
+    "Someone needs to inform the client that the reports have been fixed/updated."
+  ]
+}

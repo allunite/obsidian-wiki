@@ -1,0 +1,30 @@
+{
+  "chat_id": "oCgFCIAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2023-07-13",
+    "end": "2023-07-13"
+  },
+  "message_count": 32,
+  "topic": "Structuring data for physical locations",
+  "topic_slug": "structuring-data-for-physical-locations",
+  "tags": [
+    "facility",
+    "inventory",
+    "poi",
+    "analytics"
+  ],
+  "summary_markdown": "The discussion focused on the proper data structure for recording physical points of interest (POIs) and constructions associated with facilities. Initially, there was concern about creating a dedicated table for 'Construction' details (ID, name, coordinates), as it seemed like minor, isolated data.\n\nIt was determined that POI data should be structured using two tables: `poi` and `facility_poi`, linking the construction/POI to its parent facility. The specific integer ID from the construction needs to be stored in the `num` field of the `poi` table.\n\nWhile there were initial debates over whether to use 'Construction' or 'POI' as the primary entity name, it was agreed that a dedicated API and table would be created for this data, acknowledging its complexity and potential variations. The implementation of adding these POIs/Constructions to the inventory system was deferred to a later version.",
+  "decisions": [
+    "A two-table structure (`poi` and `facility_poi`) will be used to manage physical location data (POI/Construction).",
+    "The construction's integer ID should be stored in the `num` field of the `poi` table.",
+    "A dedicated API and table will be created for handling the complex variations of construction data.",
+    "Adding these POIs/Constructions to the inventory system is postponed until version 2."
+  ],
+  "action_items": [
+    "Implement the two-table structure (`poi` and `facility_poi`).",
+    "Develop a dedicated API and table for handling construction variations."
+  ]
+}

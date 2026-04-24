@@ -1,0 +1,22 @@
+{
+  "chat_id": "AAAA1vdtku4",
+  "kind": "Space",
+  "space_name": "DataTeam+",
+  "participants": 14,
+  "date_range": {
+    "start": "2026-03-01",
+    "end": "2026-03-01"
+  },
+  "message_count": 4,
+  "topic": "Adjusting traffic coefficients for production",
+  "topic_slug": "adjusting-traffic-coefficients-for-production",
+  "tags": [
+    "analytics",
+    "recalc-ch"
+  ],
+  "summary_markdown": "The discussion focused on adjusting overlapping coefficients in the `ml_traffic_adjustment_coeffs` table for the production environment. The initial set of facility IDs and the category 'Airport_telt200' were listed. It was noted that overlaps existed, and changes were implemented to remove them. Finally, the data structure was updated so that only the `to_date` column changed, matching the staging environment.",
+  "decisions": [
+    "Overlapping coefficients in `ml_traffic_adjustment_coeffs` for production will be modified to remove overlap."
+  ],
+  "action_items": []
+}

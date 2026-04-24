@@ -1,0 +1,21 @@
+{
+  "chat_id": "8GgAuwAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 2,
+  "date_range": {
+    "start": "2022-08-16",
+    "end": "2022-08-16"
+  },
+  "message_count": 3,
+  "topic": "Scheduling discussion on inventory management",
+  "topic_slug": "scheduling-discussion-inventory-management",
+  "tags": [
+    "inventory"
+  ],
+  "summary_markdown": "Someone initiated a request to discuss inventory management. [me] responded, suggesting the afternoon of the current day for the discussion.",
+  "decisions": [],
+  "action_items": [
+    "Schedule meeting regarding inventory management in the afternoon."
+  ]
+}

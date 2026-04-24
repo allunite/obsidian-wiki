@@ -1,0 +1,24 @@
+{
+  "chat_id": "AAAAmK7VEsI",
+  "kind": "Space",
+  "space_name": "Group Chat",
+  "participants": 2,
+  "date_range": {
+    "start": "2022-01-21",
+    "end": "2022-01-21"
+  },
+  "message_count": 20,
+  "topic": "Data export status and deployment plan",
+  "topic_slug": "data-export-status-and-deployment-plan",
+  "tags": [
+    "analytics",
+    "impression"
+  ],
+  "summary_markdown": "The conversation focused on data availability, specifically for the period of January 10th to January 16th. Initial concerns were raised regarding export functionality from staging and missing data points for specific dates (January 17th and 18th).\n\nIt was confirmed that the export function is working correctly. The decision was made to deploy the data to production using only the corrected period (Jan 10 - Jan 16), excluding pre- and post-period fixes, as this specific range was required for an upcoming meeting.",
+  "decisions": [
+    "The data will be deployed to production using only the period from January 10th to January 16th."
+  ],
+  "action_items": [
+    "[me] completed the deployment of the specified data set."
+  ]
+}

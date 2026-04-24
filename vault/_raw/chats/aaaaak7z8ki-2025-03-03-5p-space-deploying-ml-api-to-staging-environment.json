@@ -1,0 +1,21 @@
+{
+  "chat_id": "AAAAaK7z8KI",
+  "kind": "Space",
+  "space_name": "Group Chat",
+  "participants": 5,
+  "date_range": {
+    "start": "2025-03-03",
+    "end": "2025-03-03"
+  },
+  "message_count": 4,
+  "topic": "Deploying ml_api to staging environment",
+  "topic_slug": "deploying-ml-api-to-staging-environment",
+  "tags": [
+    "analytics"
+  ],
+  "summary_markdown": "A request was made to redeploy the `ml_api` stage branch to the staging environment. This task was completed by [p2]. It was noted that the previous deployment had been active for nine days, suggesting a slowdown in release frequency or updates.",
+  "decisions": [
+    "The ml_api stage branch will be deployed to staging."
+  ],
+  "action_items": []
+}

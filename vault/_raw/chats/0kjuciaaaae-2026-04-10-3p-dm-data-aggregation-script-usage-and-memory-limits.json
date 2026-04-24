@@ -1,0 +1,22 @@
+{
+  "chat_id": "0kjuCiAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2026-04-10",
+    "end": "2026-04-10"
+  },
+  "message_count": 15,
+  "topic": "Data aggregation script usage and memory limits",
+  "topic_slug": "data-aggregation-script-usage-and-memory-limits",
+  "tags": [
+    "analytics",
+    "campaign"
+  ],
+  "summary_markdown": "The conversation began with a technical issue where someone was unable to copy production data into their dataset due to a 'memory limit exceeded' error when querying from 2025-01-01. The immediate focus shifted to modifying the SQL query by removing the `FINAL` clause from the `FROM` statement.\n\nLater, the discussion addressed the usage of a new aggregation script. Someone advised using an existing aggregation script located at a specific GitHub repository link for now.",
+  "decisions": [
+    "The SQL query should be modified by removing the `FINAL` keyword from the `FROM` clause."
+  ],
+  "action_items": []
+}

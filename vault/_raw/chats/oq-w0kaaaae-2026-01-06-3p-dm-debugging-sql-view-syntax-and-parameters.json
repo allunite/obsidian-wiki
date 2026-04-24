@@ -1,0 +1,24 @@
+{
+  "chat_id": "oq-w0kAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2026-01-06",
+    "end": "2026-01-06"
+  },
+  "message_count": 20,
+  "topic": "Debugging SQL view syntax and parameters",
+  "topic_slug": "debugging-sql-view-syntax-and-parameters",
+  "tags": [
+    "analytics",
+    "inventory"
+  ],
+  "summary_markdown": "The discussion focused on debugging a `CREATE VIEW` statement (`v_test`) that failed due to a syntax error when using the function `dictGetUInt16`. The issue was observed in DataGrip, but worked correctly elsewhere. It was determined that the IDE might not be passing parameter placeholders correctly into the query.\n\nLater, discussions covered complex SQL logic for group campaigns and multi-level filtering within views. An AI assistant provided code examples and basic view usage ideas, though many necessary filter parameters were missing.",
+  "decisions": [
+    "The syntax error in `v_test` is likely due to the IDE failing to pass parameter placeholders correctly."
+  ],
+  "action_items": [
+    "Someone will continue working on the complex task related to group campaign metrics and views."
+  ]
+}

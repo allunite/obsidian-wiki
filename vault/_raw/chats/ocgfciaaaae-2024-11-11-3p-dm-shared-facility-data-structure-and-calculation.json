@@ -1,0 +1,27 @@
+{
+  "chat_id": "oCgFCIAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2024-11-11",
+    "end": "2024-11-11"
+  },
+  "message_count": 21,
+  "topic": "Shared facility data structure and calculation",
+  "topic_slug": "shared-facility-data-structure-and-calculation",
+  "tags": [
+    "facility",
+    "analytics",
+    "session",
+    "m2m"
+  ],
+  "summary_markdown": "The discussion focused on structuring data for shared facilities, particularly in multi-company or mall environments where multiple companies contribute to a single physical location (master). \n\nInitial proposed solutions included creating a dedicated 'Finland Common/Core/Shared' company entity or using facility references. Concerns were raised about calculation complexity and potential issues with centralized data.\n\nIt was determined that the system needs to handle shared facilities where multiple companies contribute to a single master location (cluster/group). The current structure is expected to fail under this scenario, but a proposed fix involves modifying grouping logic by replacing `company_num` with `facility_master_num` in relevant groupings.\n\nTo support shared facilities efficiently, the implementation of an M2M relationship was recommended for both Company $\\leftrightarrow$ Facility and Facility $\\leftrightarrow$ Session. This approach minimizes data duplication and maintains compatibility through views or a designated 'main company' for facilities.",
+  "decisions": [
+    "Implement an M2M relationship between companies and facilities.",
+    "Implement an M2M relationship between facilities and sessions."
+  ],
+  "action_items": [
+    "Schedule a call to clarify implementation details."
+  ]
+}

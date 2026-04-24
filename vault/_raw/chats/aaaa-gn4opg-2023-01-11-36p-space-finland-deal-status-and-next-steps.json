@@ -1,0 +1,21 @@
+{
+  "chat_id": "AAAA-gn4oPg",
+  "kind": "Space",
+  "space_name": "General and random",
+  "participants": 36,
+  "date_range": {
+    "start": "2023-01-11",
+    "end": "2023-01-11"
+  },
+  "message_count": 7,
+  "topic": "Finland deal status and next steps",
+  "topic_slug": "finland-deal-status-and-next-steps",
+  "tags": [
+    "campaign"
+  ],
+  "summary_markdown": "A participant reported a very positive meeting with Finland, indicating the company is close to signing a major contract. While not 100% finalized, final contracts are expected within the next one to two months. The scope of work includes currency for JCD, Clear, and Mediateko.",
+  "decisions": [],
+  "action_items": [
+    "Monitor progress toward finalizing Finland contracts over the next 1-2 months."
+  ]
+}

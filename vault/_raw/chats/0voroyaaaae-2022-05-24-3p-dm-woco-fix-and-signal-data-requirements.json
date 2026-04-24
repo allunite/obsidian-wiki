@@ -1,0 +1,25 @@
+{
+  "chat_id": "0VorOYAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2022-05-24",
+    "end": "2022-05-24"
+  },
+  "message_count": 13,
+  "topic": "WoCo fix and signal data requirements",
+  "topic_slug": "woco-fix-and-signal-data-requirements",
+  "tags": [
+    "analytics",
+    "recalc-ch"
+  ],
+  "summary_markdown": "The conversation revolves around a required fix for WoCo. A specific request was made by someone (Galina) to write down level signals in the database, using a provided Google Sheet as a reference. This model data will be placed on S3 so that calculations can run overnight.\n\nIt was confirmed that the necessary changes are ready and that new data will be available overnight.",
+  "decisions": [
+    "WoCo fix needs to be implemented (preferably directly to production)."
+  ],
+  "action_items": [
+    "Implement WoCo fix",
+    "Write level signals into the database using the provided spreadsheet structure."
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "chat_id": "xdx5dQAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 2,
+  "date_range": {
+    "start": "2021-11-12",
+    "end": "2021-11-12"
+  },
+  "message_count": 33,
+  "topic": "Data aggregation and gap filling process",
+  "topic_slug": "data-aggregation-and-gap-filling-process",
+  "tags": [
+    "analytics",
+    "session",
+    "loop"
+  ],
+  "summary_markdown": "The conversation focused on data collection, specifically retrieving data from both boxes and lidar sources. A discussion arose regarding a potential gap in the overall hourly data. It was decided that while the original script for smoothing/filling gaps was lost, a new one would be created and coordinated. For immediate visualization purposes, it was noted that session frequency distribution and duration by ranges are currently available on the dashboard and in the data API.",
+  "decisions": [
+    "A new script will be developed to address data gaps.",
+    "For current reporting needs, session frequency distribution and durationByRanges can be used."
+  ],
+  "action_items": [
+    "[me] to develop and coordinate a new gap-filling script."
+  ]
+}

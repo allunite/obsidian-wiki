@@ -1,0 +1,25 @@
+{
+  "chat_id": "i6YI1QAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 2,
+  "date_range": {
+    "start": "2022-06-29",
+    "end": "2022-06-29"
+  },
+  "message_count": 13,
+  "topic": "Adding custom fields for inventory impressions",
+  "topic_slug": "adding-custom-fields-for-inventory-impressions",
+  "tags": [
+    "inventory",
+    "impression",
+    "facility"
+  ],
+  "summary_markdown": "The discussion focused on adding additional custom fields to inventory records used for impressions. It was confirmed that these new parameters should be available not only for physical facilities but also for virtual ones. The functionality needs a company-level flag to activate the impression parameter block, which will then control visibility and usage across different markets (currently Finland and Lithuania). A list of proposed fields with default values and selection lists was shared.",
+  "decisions": [
+    "A ticket will be created to implement the custom inventory fields."
+  ],
+  "action_items": [
+    "[p1] to create a ticket for the implementation."
+  ]
+}

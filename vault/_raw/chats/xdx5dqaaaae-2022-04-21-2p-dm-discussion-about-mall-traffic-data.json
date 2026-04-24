@@ -1,0 +1,19 @@
+{
+  "chat_id": "xdx5dQAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 2,
+  "date_range": {
+    "start": "2022-04-21",
+    "end": "2022-04-21"
+  },
+  "message_count": 3,
+  "topic": "Discussion about mall traffic data",
+  "topic_slug": "discussion-about-mall-traffic-data",
+  "tags": [
+    "analytics"
+  ],
+  "summary_markdown": "Someone initiated a discussion regarding the fixation of mall traffic data.",
+  "decisions": [],
+  "action_items": []
+}

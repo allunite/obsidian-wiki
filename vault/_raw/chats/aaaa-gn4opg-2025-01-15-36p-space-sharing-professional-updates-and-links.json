@@ -1,0 +1,21 @@
+{
+  "chat_id": "AAAA-gn4oPg",
+  "kind": "Space",
+  "space_name": "General and random",
+  "participants": 36,
+  "date_range": {
+    "start": "2025-01-15",
+    "end": "2025-01-15"
+  },
+  "message_count": 7,
+  "topic": "Sharing professional updates and links",
+  "topic_slug": "sharing-professional-updates-and-links",
+  "tags": [
+    "campaign"
+  ],
+  "summary_markdown": "The conversation involved sharing various external links, including a LinkedIn post about an event involving multiple advertising companies (JCDecaux, Clearchannel, Outshine, Mediateko). Other updates included general announcements regarding room membership and company profile information.",
+  "decisions": [],
+  "action_items": [
+    "None"
+  ]
+}

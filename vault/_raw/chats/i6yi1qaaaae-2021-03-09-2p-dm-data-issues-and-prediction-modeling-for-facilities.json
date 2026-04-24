@@ -1,0 +1,29 @@
+{
+  "chat_id": "i6YI1QAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 2,
+  "date_range": {
+    "start": "2021-03-09",
+    "end": "2021-03-09"
+  },
+  "message_count": 110,
+  "topic": "Data issues and prediction modeling for facilities",
+  "topic_slug": "data-issues-and-prediction-modeling-for-facilities",
+  "tags": [
+    "analytics",
+    "facility",
+    "campaign",
+    "recalc-ch"
+  ],
+  "summary_markdown": "The conversation focused on data discrepancies, particularly the loss of raw seen data for March 6th. The participants discussed cleaning and re-uploading prediction data into `ml_staging` or `ml_staging`. \n\nRegarding historical data gaps (e.g., March 6th), it was noted that only partial data was available (e.g., starting at 9 AM on March 4th). The plan for handling missing data involved using predictive methods, such as reducing the expected value by a percentage (e.g., 10% reduction for Saturday relative to Friday) or calculating proportions based on known dates.\n\nSpecific facility performance was reviewed: Metro looked normal, but Rail and CityMedia required attention. For CityMedia, adjustments were discussed regarding the weighting of data from different days (e.g., using a combination of March 27th and March 28th data).",
+  "decisions": [
+    "Prediction data will be cleaned and uploaded to `ml_staging`.",
+    "Missing historical data gaps will be addressed using predictive methods or proportional adjustments."
+  ],
+  "action_items": [
+    "The participant needs to perform the aggregation for the production dataset (p1).",
+    "Review CityMedia's performance and apply necessary weighting/adjustments for specific dates.",
+    "Confirm readiness of data for facilities like CityMedia and Belgium."
+  ]
+}

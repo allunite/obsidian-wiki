@@ -1,0 +1,27 @@
+{
+  "chat_id": "oq-w0kAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2023-06-02",
+    "end": "2023-06-02"
+  },
+  "message_count": 31,
+  "topic": "Debugging MOPs development environment errors",
+  "topic_slug": "debugging-mops-development-environment-errors",
+  "tags": [
+    "analytics",
+    "campaign",
+    "inventory"
+  ],
+  "summary_markdown": "The conversation focused on debugging recurring `TypeError: constants_1.sqlCHUAWith.replaceAll is not a function` errors encountered in the MOPs development environment, specifically when running against the sandbox and develop branches.\n\nIt was determined that the issue likely stems from JavaScript compiler/bundling problems rather than the specific branch or sandbox setup. The error suggests that a variable expected to have the `replaceAll` method does not support it.\n\nRegarding data reporting for campaigns, [me] confirmed that Display Metrics (Total Traffic by Frames), ROTS, and VAC are not currently available but will be a priority next week.",
+  "decisions": [
+    "The MOPs development environment errors require investigation into JavaScript compiler settings (e.g., ensuring `replaceAll` method compatibility across frontend/backend configurations).",
+    "Display Metrics (Total Traffic by Frames), ROTS, and VAC data for campaigns are not available but will be prioritized next week."
+  ],
+  "action_items": [
+    "[p1] to investigate the MOPs development environment errors.",
+    "[me] to prioritize implementing Display Metrics, ROTS, and VAC reporting for campaigns next week."
+  ]
+}

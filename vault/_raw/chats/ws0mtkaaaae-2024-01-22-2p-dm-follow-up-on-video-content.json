@@ -1,0 +1,19 @@
+{
+  "chat_id": "ws0mTkAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 2,
+  "date_range": {
+    "start": "2024-01-22",
+    "end": "2024-01-22"
+  },
+  "message_count": 6,
+  "topic": "Follow up on video content",
+  "topic_slug": "follow-up-on-video-content",
+  "tags": [
+    "campaign"
+  ],
+  "summary_markdown": "The conversation was a brief exchange to schedule time and discuss follow-up work related to a specific video, mentioning 'Svyata' (Святу) and continuing the discussion within the same video context.",
+  "decisions": [],
+  "action_items": []
+}

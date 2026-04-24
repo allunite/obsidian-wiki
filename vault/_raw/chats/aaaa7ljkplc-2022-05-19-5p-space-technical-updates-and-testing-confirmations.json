@@ -1,0 +1,19 @@
+{
+  "chat_id": "AAAA7lJKPlc",
+  "kind": "Space",
+  "space_name": "Frontend",
+  "participants": 5,
+  "date_range": {
+    "start": "2022-05-19",
+    "end": "2022-05-19"
+  },
+  "message_count": 8,
+  "topic": "Technical updates and testing confirmations",
+  "topic_slug": "technical-updates-and-testing-confirmations",
+  "tags": [
+    "analytics"
+  ],
+  "summary_markdown": "The conversation primarily consisted of repeated status updates regarding 'room membership' updates, followed by brief technical test messages. [p1] repeatedly posted 'Updated room membership.' and later posted 'Updated room membership.' again.",
+  "decisions": [],
+  "action_items": []
+}

@@ -1,0 +1,26 @@
+{
+  "chat_id": "i6YI1QAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 2,
+  "date_range": {
+    "start": "2023-01-30",
+    "end": "2023-01-30"
+  },
+  "message_count": 13,
+  "topic": "Dashboard visualization based on Share of Time",
+  "topic_slug": "dashboard-visualization-share-of-time",
+  "tags": [
+    "analytics",
+    "impression",
+    "dwell-time",
+    "session"
+  ],
+  "summary_markdown": "The discussion focused on the technical feasibility of modifying a dashboard graph for impressions so that it dynamically changes based on the assigned Share of Time. The complexity was noted as manageable but requiring effort to implement correctly.\n\nAdditionally, [me] clarified that when analyzing multiple devices (e.g., body/wearable), the absolute number of sessions in the database is irrelevant. Instead, the critical metric is the ratio of sessions to unique users, which remains constant regardless of how many devices are associated with a single user.",
+  "decisions": [
+    "The dashboard graph for impressions needs modification to reflect Share of Time."
+  ],
+  "action_items": [
+    "Reviewing the implementation details for the dynamic dashboard visualization."
+  ]
+}

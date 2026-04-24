@@ -1,0 +1,28 @@
+{
+  "chat_id": "rBfK7kAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 2,
+  "date_range": {
+    "start": "2024-04-01",
+    "end": "2024-04-01"
+  },
+  "message_count": 30,
+  "topic": "Debugging session data and metrics",
+  "topic_slug": "debugging-session-data-and-metrics",
+  "tags": [
+    "analytics",
+    "impression",
+    "campaign"
+  ],
+  "summary_markdown": "The conversation focused on debugging discrepancies in calculated advertising metrics, specifically impressions and related viewable/dwell metrics. The initial issue involved zero values appearing on the dashboard despite running aggregation scripts for a specific company (AFA). \n\nIt was noted that there are multiple columns for impression types (`impressions`, `viewed_flow_impressions`, etc.), leading to confusion regarding which source data should populate the dashboards. A discrepancy was identified where the content of `impressions` for frames in one system matched `viewed_flow_impressions` for facilities in another, suggesting a need for clearer data mapping.\n\nUltimately, the conversation concluded with an agreement to address the underlying data structure issues and schedule a follow-up call to review the recording process and find the root cause of the metric discrepancies.",
+  "decisions": [
+    "The current implementation needs refinement to ensure correct population of impression metrics across different systems/data sources.",
+    "A follow-up meeting is scheduled to debug the data flow, focusing on what is being recorded in the system."
+  ],
+  "action_items": [
+    "Review and fix the underlying data structure issue regarding metric columns (e.g., `impressions`, `viewed_flow_impressions`).",
+    "The speaker will push changes related to the metrics calculation.",
+    "Someone needs to re-aggregate the data after the code deployment."
+  ]
+}

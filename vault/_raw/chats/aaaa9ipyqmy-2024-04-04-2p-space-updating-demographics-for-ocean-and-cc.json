@@ -1,0 +1,28 @@
+{
+  "chat_id": "AAAA9IpyQmY",
+  "kind": "Space",
+  "space_name": "Group Chat",
+  "participants": 2,
+  "date_range": {
+    "start": "2024-04-04",
+    "end": "2024-04-04"
+  },
+  "message_count": 32,
+  "topic": "Updating demographics for Ocean and CC",
+  "topic_slug": "updating-demographics-for-ocean-and-cc",
+  "tags": [
+    "analytics",
+    "campaign",
+    "demography",
+    "staging",
+    "summary_markdowns**: The conversation focused on updating demographic data for Ocean and CC Denmark. Initially, a request was made to include real demographics for both entities. Later, the discussion centered on whether the demographics should be limited to staging environments or if they were necessary in production. It was confirmed that while the standard demographics (based on areas of living) had been restored to production, testing revealed issues with demographic data appearing in campaigns on staging and beta environments. The final status involved setting empty demographics for experimentation on staging/beta while maintaining default demographics on production.**",
+    "decisionss-madessssionsssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss-made",
+    "action_itemss-to-be-takens-nexts-stepssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss-to-be-taken"
+  ],
+  "summary_markdown": "The conversation focused on updating demographic data for Ocean and CC Denmark. Initially, a request was made to include real demographics for both entities. Later, the discussion centered on whether the demographics should be limited to staging environments or if they were necessary in production. It was confirmed that while the standard demographics (based on areas of living) had been restored to production, testing revealed issues with demographic data appearing in campaigns on staging and beta environments. The final status involved setting empty demographics for experimentation on staging/beta while maintaining default demographics on production.",
+  "decisions": [
+    "Standard demographics were restored to the production environment (Area of Living).",
+    "Empty demographics will be used on staging and beta environments for experimentation."
+  ],
+  "action_items": []
+}

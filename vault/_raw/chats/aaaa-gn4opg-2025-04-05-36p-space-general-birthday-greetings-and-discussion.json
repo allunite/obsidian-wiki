@@ -1,0 +1,19 @@
+{
+  "chat_id": "AAAA-gn4oPg",
+  "kind": "Space",
+  "space_name": "General and random",
+  "participants": 36,
+  "date_range": {
+    "start": "2025-04-05",
+    "end": "2025-04-05"
+  },
+  "message_count": 18,
+  "topic": "General birthday greetings and discussion",
+  "topic_slug": "general-birthday-greetings-and-discussion",
+  "tags": [
+    "none"
+  ],
+  "summary_markdown": "The majority of the conversation consisted of multiple participants sending general birthday greetings to [p8]. Later, a discussion arose regarding spam messages, noting that one participant's personal number was used by spammers, leading to a discussion about how AI will make it increasingly difficult to distinguish between legitimate and spam communications.",
+  "decisions": [],
+  "action_items": []
+}

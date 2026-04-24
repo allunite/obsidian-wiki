@@ -1,0 +1,27 @@
+{
+  "chat_id": "AAAA1vdtku4",
+  "kind": "Space",
+  "space_name": "DataTeam+",
+  "participants": 14,
+  "date_range": {
+    "start": "2023-11-10",
+    "end": "2023-11-10"
+  },
+  "message_count": 24,
+  "topic": "Analytics issues and next steps for RZK",
+  "topic_slug": "analytics-issues-and-next-steps-for-rzk",
+  "tags": [
+    "analytics",
+    "facility",
+    "session",
+    "dwell-time"
+  ],
+  "summary_markdown": "The discussion focused on data discrepancies within the RZK analytics dashboard, particularly concerning frequency and unique user counts (uniques) after mirroring. Issues noted included:\n*   Frequency growth post-mirroring, which was unexpected.\n*   Unique user count drops observed across the entire RZK area due to an empty facility entry.\n*   Dashboard data on staging showed issues with uniques and dwell-time, particularly noting that unique counts doubled after mirroring, and daily graphs were inconsistent (uniques higher than totals).\n\nIt was determined that current fixes are temporary 'band-aids' or 'hacks.' The team agreed to postpone a full discussion about RZK until Monday, pending the release of a new model. A more systemic approach is required for both the mirroring functionality and its application across different locations (e.g., Provintage).",
+  "decisions": [
+    "Postpone detailed discussion on RZK analytics issues until Monday.",
+    "Implement the new model to production first, addressing remaining issues thoughtfully."
+  ],
+  "action_items": [
+    "Someone needs to explain the physical meaning and client expectations for mirroring functionality on Monday."
+  ]
+}

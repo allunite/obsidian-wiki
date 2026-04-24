@@ -1,0 +1,29 @@
+{
+  "chat_id": "AAAAhwJEAs0",
+  "kind": "Space",
+  "space_name": "Group Chat",
+  "participants": 4,
+  "date_range": {
+    "start": "2022-04-28",
+    "end": "2022-04-28"
+  },
+  "message_count": 33,
+  "topic": "Integrating demographic data into facility analysis",
+  "topic_slug": "integrating-demographic-data-facility-analysis",
+  "tags": [
+    "analytics",
+    "campaign",
+    "facility",
+    "impression",
+    "session"
+  ],
+  "summary_markdown": "The discussion focused on integrating demographic data into facility performance analysis. Initial challenges included mapping variables, particularly concerning zip codes and the structure of demographic tables.\n\n**Key Data Requirements:**\n*   Data is needed for specific demographic variables (e.g., age groups, income levels, marital status) across multiple pages/segments (PAGE01_CY through FAGE05_CY).\n*   The ideal data structure requires four arrays of numbers (male, female, income, family status) calculated for each region.\n\n**Technical Progress & Decisions:**\n*   [me] proposed mapping demographic variables to the district level in PostgreSQL (`v_ch_demographic_by_district`).\n*   The team agreed that sample size should be calculated based on the current facility, not the broader catchment area (region).\n*   A plan was established to calculate a probability for a specific facility (e.g., 3624) using demographic data and then applying this structure across all facilities.\n*   The next steps involve determining the final formula and deciding where to store the calculated demographic arrays.",
+  "decisions": [
+    "Demographic variables should be mapped to the district level in PostgreSQL.",
+    "Sample size calculation must use data specific to the current facility, not the entire region/catchment area."
+  ],
+  "action_items": [
+    "Determine the final formula for calculating probability based on demographic inputs.",
+    "Decide on the storage location for the calculated demographic arrays."
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "chat_id": "AAAACcq6L1I",
+  "kind": "Space",
+  "space_name": "Group Chat",
+  "participants": 2,
+  "date_range": {
+    "start": "2023-08-07",
+    "end": "2023-08-07"
+  },
+  "message_count": 17,
+  "topic": "Updating asset and frame data for client",
+  "topic_slug": "updating-asset-and-frame-data-for-client",
+  "tags": [
+    "analytics",
+    "facility",
+    "frame",
+    "inventory"
+  ],
+  "summary_markdown": "The discussion focused on updating asset and frame data for a client, specifically involving assets related to JCD_SP and JCD_Rio. The process requires reloading all column data because the client provided missing or corrected information.\n\nSpecific tasks include:\n*   Creating new assets using a list of `[unknown] asset ID`s in the 'need to create' section, linking them with facilities and frames from the \"JCD_RIO\" tab.\n*   Updating all fields for existing frames across both JCD_SP and JCD_Rio tabs.\n\nTo streamline this process, it was suggested that a script be developed to merge data from CSV into `frame.data`, `asset.data`, and `facility` without overwriting added data.",
+  "decisions": [
+    "All frame columns must be reloaded due to client updates/corrections."
+  ],
+  "action_items": [
+    "Develop a script to merge CSV data into frame, asset, and facility data structures.",
+    "Update all fields for frames in JCD_SP and JCD_Rio tabs using the provided documentation link."
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "chat_id": "oq-w0kAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2024-02-29",
+    "end": "2024-02-29"
+  },
+  "message_count": 19,
+  "topic": "Demographic data handling and display logic",
+  "topic_slug": "demographic-data-handling-and-display-logic",
+  "tags": [
+    "analytics",
+    "campaign"
+  ],
+  "summary_markdown": "The conversation focused on debugging demographic data endpoints. It was confirmed that the staging environment should provide the correct output for the demographics API calls, specifically noting that the `environment` variable must be set to `production: false`. Regarding specific variables (By Marital Status and By Education), it was determined that since these fields are not available in ProVantage (TGI) but might appear in other contexts, the front-end logic should be updated. The decision was made to rely solely on data retrieved from the `/demographics/variables` endpoint for display purposes, ignoring any potential data received from other sources if they conflict or are unnecessary.",
+  "decisions": [
+    "The staging environment must provide correct demographic API output.",
+    "Displaying By Marital Status and By Education should only use data from the /demographics/variables endpoint."
+  ],
+  "action_items": [
+    "Update front-end logic to rely exclusively on `/demographics/variables` for displaying specific demographic fields."
+  ]
+}

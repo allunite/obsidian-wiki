@@ -1,0 +1,23 @@
+{
+  "chat_id": "i6YI1QAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 2,
+  "date_range": {
+    "start": "2021-01-14",
+    "end": "2021-01-14"
+  },
+  "message_count": 8,
+  "topic": "Data aggregation and metro location status",
+  "topic_slug": "data-aggregation-and-metro-location-status",
+  "tags": [
+    "analytics",
+    "recalc-ch"
+  ],
+  "summary_markdown": "The discussion focused on recalculating data for various locations. It was determined that the subway (metro) data would not be changed, as it is functioning correctly. Aggregation of current data for the malls was confirmed as acceptable.",
+  "decisions": [
+    "Metro location data will remain unchanged.",
+    "Current mall data can be aggregated."
+  ],
+  "action_items": []
+}

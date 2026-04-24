@@ -1,0 +1,21 @@
+{
+  "chat_id": "y9IEDQAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2021-03-11",
+    "end": "2021-03-11"
+  },
+  "message_count": 12,
+  "topic": "Optimizing complex database queries",
+  "topic_slug": "optimizing-complex-database-queries",
+  "tags": [
+    "analytics"
+  ],
+  "summary_markdown": "A discussion occurred regarding the performance and optimization of a complex SQL query run against the `allunite.raw_devices_seen_buffer` table. It was confirmed that running the provided query every five minutes is acceptable and will not cause issues.\n\nOptimization suggestions included:\n*   Reducing the time window from 3600 seconds to 1800 seconds, which noticeably improves performance.\n*   Attempting to filter by specific partitions (e.g., `shard_id` and date) was discussed but deemed not significantly beneficial due to added complexity.",
+  "decisions": [
+    "Running the complex query every five minutes is acceptable."
+  ],
+  "action_items": []
+}

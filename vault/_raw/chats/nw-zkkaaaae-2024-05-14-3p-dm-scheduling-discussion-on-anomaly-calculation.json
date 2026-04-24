@@ -1,0 +1,19 @@
+{
+  "chat_id": "nW_zkkAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2024-05-14",
+    "end": "2024-05-14"
+  },
+  "message_count": 4,
+  "topic": "Scheduling discussion on anomaly calculation",
+  "topic_slug": "scheduling-discussion-on-anomaly-calculation",
+  "tags": [
+    "analytics"
+  ],
+  "summary_markdown": "The conversation was primarily logistical, involving a request to discuss calculations related to anomalies and excluded sessions. A time slot for the detailed discussion was agreed upon.",
+  "decisions": [],
+  "action_items": []
+}

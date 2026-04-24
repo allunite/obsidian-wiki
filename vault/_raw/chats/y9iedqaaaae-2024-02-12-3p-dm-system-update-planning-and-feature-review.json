@@ -1,0 +1,28 @@
+{
+  "chat_id": "y9IEDQAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2024-02-12",
+    "end": "2024-02-12"
+  },
+  "message_count": 48,
+  "topic": "System update planning and feature review",
+  "topic_slug": "system-update-planning-and-feature-review",
+  "tags": [
+    "analytics",
+    "campaign",
+    "inventory"
+  ],
+  "summary_markdown": "The discussion covered the technical plan for updating the production system. It was decided that a full update is too risky due to excessive downtime, and instead, the cluster needs reconfiguring from 4 shards to 2 shards plus 2 replicas to allow for zero-downtime updates.\n\nRegarding deployment logistics, adding a visible maintenance page (plashka) was discussed but ultimately dismissed as unnecessary given the planned replication setup. The conversation also touched upon reviewing developer commits and feature readiness, noting that several functions were only placeholders (stubs).\n\nFinally, the focus shifted to completing work on demographic reporting/analytics.",
+  "decisions": [
+    "The system update will be postponed until the evening due to technical risks associated with immediate deployment.",
+    "The cluster must be reconfigured from 4 shards to 2 shards + 2 replicas to enable zero-downtime updates.",
+    "A visible maintenance page is not required for the upcoming update."
+  ],
+  "action_items": [
+    "Someone will create a playbook to facilitate the planned system update deployment in the evening.",
+    "The user needs to focus on completing the demographic analytics/reporting feature."
+  ]
+}

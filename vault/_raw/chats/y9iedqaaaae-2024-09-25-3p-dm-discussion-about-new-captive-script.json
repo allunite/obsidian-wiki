@@ -1,0 +1,21 @@
+{
+  "chat_id": "y9IEDQAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2024-09-25",
+    "end": "2024-09-25"
+  },
+  "message_count": 4,
+  "topic": "Discussion about new captive script",
+  "topic_slug": "discussion-about-new-captive-script",
+  "tags": [
+    "analytics"
+  ],
+  "summary_markdown": "A discussion took place regarding a newly written captive script in Rust. The sender ([p1]) offered to share the code and suggested areas for improvement, such as refactoring `handlers.rs` into more logical sections. [p1] expressed a preference for Rust over Go.",
+  "decisions": [],
+  "action_items": [
+    "None"
+  ]
+}

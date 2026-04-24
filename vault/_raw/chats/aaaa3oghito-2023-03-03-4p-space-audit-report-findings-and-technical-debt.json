@@ -1,0 +1,25 @@
+{
+  "chat_id": "AAAA3oghITo",
+  "kind": "Space",
+  "space_name": "Кабаны",
+  "participants": 4,
+  "date_range": {
+    "start": "2023-03-03",
+    "end": "2023-03-03"
+  },
+  "message_count": 87,
+  "topic": "Audit report findings and technical debt",
+  "topic_slug": "audit-report-findings-and-technical-debt",
+  "tags": [
+    "analytics",
+    "documentation",
+    "credentials"
+  ],
+  "summary_markdown": "The discussion covered the results of an audit report, which highlighted several areas for improvement. Key findings included a lack of documentation and deprecated code, which hinders new developer onboarding and reduces system reliability.\n\nRegarding technical debt, participants noted that credentials and secrets must be purged from repositories, even if obsolete or internal-only. The team acknowledged the difficulty of creating comprehensive documentation but agreed on the value of README files for various repository folders (e.g., `stuff`, `job`, `server-configs`).\n\nSeparately, technical discussions addressed data handling issues, including potential data loss over short periods and the retention policy for Kinaxis data (which was confirmed to be 7 days).\n\nIn terms of development process improvements, there was a general consensus that automated testing is needed, though implementing it presents challenges.",
+  "decisions": [
+    "The team will address technical debt by purging credentials and secrets from repositories."
+  ],
+  "action_items": [
+    "Create README files for various repository folders (e.g., stuff, job, server-configs)."
+  ]
+}

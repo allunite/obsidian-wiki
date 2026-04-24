@@ -1,0 +1,25 @@
+{
+  "chat_id": "nW_zkkAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2024-04-15",
+    "end": "2024-04-15"
+  },
+  "message_count": 28,
+  "topic": "Correcting facility number calculation for dashboards",
+  "topic_slug": "correcting-facility-number-calculation-for-dashboards",
+  "tags": [
+    "analytics",
+    "frame"
+  ],
+  "summary_markdown": "The conversation focused on data preparation and dashboard calculations. Initially, the goal was to ensure that campaign demographics for company 7912 (CC Denmark) were correctly populated using historical demographic data, specifically requiring data only from March 1, 2024, onwards.\n\nLater, a specific calculation error was identified in the frequency calculation on stage dashboards for companies 7878 and 7881. The formula used for `facilityNumber` incorrectly defaulted to 1 regardless of the actual number of facilities present. A fix was implemented and deployed to staging for review.",
+  "decisions": [
+    "Demographic data for company 7912 must be limited to records created on or after March 1, 2024.",
+    "The calculation logic for `facilityNumber` in the frequency calculation on stage dashboards for companies 7878 and 7881 was corrected."
+  ],
+  "action_items": [
+    "Review the deployed fix for facility number calculation on staging (by someone)."
+  ]
+}

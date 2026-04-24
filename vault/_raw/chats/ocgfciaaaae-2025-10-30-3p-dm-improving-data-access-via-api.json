@@ -1,0 +1,25 @@
+{
+  "chat_id": "oCgFCIAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2025-10-30",
+    "end": "2025-10-30"
+  },
+  "message_count": 5,
+  "topic": "Improving data access via API",
+  "topic_slug": "improving-data-access-via-api",
+  "tags": [
+    "analytics",
+    "campaign",
+    "inventory"
+  ],
+  "summary_markdown": "The conversation focused on optimizing data retrieval from the data API, specifically concerning company filtering. It was noted that when pulling data for Brazil, the current setup might grant access to too many companies, potentially exposing half of the internal database.\n\nTo improve accuracy and restrict scope, it was suggested that `companyFilter` should be explicitly populated with a list of `company_num`s.\n\n[me] mentioned plans to build dashboards based on these views, which will help in understanding the data API structure.",
+  "decisions": [
+    "Implement explicit company filtering using `companyFilter` array."
+  ],
+  "action_items": [
+    "[me] to continue working on integrating data API into future dashboards."
+  ]
+}

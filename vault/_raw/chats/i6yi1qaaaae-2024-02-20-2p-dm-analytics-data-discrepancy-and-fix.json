@@ -1,0 +1,29 @@
+{
+  "chat_id": "i6YI1QAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 2,
+  "date_range": {
+    "start": "2024-02-20",
+    "end": "2024-02-20"
+  },
+  "message_count": 93,
+  "topic": "Analytics data discrepancy and fix",
+  "topic_slug": "analytics-data-discrepancy-and-fix",
+  "tags": [
+    "analytics",
+    "campaign",
+    "facility",
+    "dwell-time",
+    "session"
+  ],
+  "summary_markdown": "The session involved troubleshooting discrepancies in analytics data, particularly concerning reach and frequency metrics across different campaign scopes (5 million vs. 13 million audience). Initial issues included incorrect calculation of metrics when running campaigns across multiple facilities.\n\nMultiple technical issues were identified:\n1. **Data Inconsistency:** The primary issue was found to be a timing problem in the data pipeline where ClickHouse did not instantly distribute data across all shards after model prediction runs, causing aggregation (AGG) to miss predicted session numbers (`session_number_predicted`) for certain facilities.\n2. **Solution Implementation:** A temporary fix is to re-aggregate `model4`. The long-term solution involves modifying the Python scripts to enforce a delay/wait period during data ingestion to ensure all shards have received the prediction data before aggregation occurs.\n3. **Facility Data Gap:** Another issue was identified where certain master facilities lacked session data, which prevented related virtual facilities from receiving predicted metrics in the aggregated view.",
+  "decisions": [
+    "The immediate fix is to re-aggregate model4.",
+    "A long-term technical solution will be implemented by modifying Python scripts to enforce a wait period during data ingestion."
+  ],
+  "action_items": [
+    "Re-aggregate model4 (to be done by the speaker).",
+    "Modify Python scripts to ensure proper shard synchronization after data inserts."
+  ]
+}

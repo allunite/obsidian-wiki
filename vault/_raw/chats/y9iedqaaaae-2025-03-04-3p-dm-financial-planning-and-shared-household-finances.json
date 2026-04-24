@@ -1,0 +1,19 @@
+{
+  "chat_id": "y9IEDQAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2025-03-04",
+    "end": "2025-03-04"
+  },
+  "message_count": 17,
+  "topic": "Financial planning and shared household finances",
+  "topic_slug": "financial-planning-and-shared-household-finances",
+  "tags": [
+    "analytics"
+  ],
+  "summary_markdown": "The conversation discusses financial transparency, specifically the necessity of sharing bank statements in a joint household. One participant noted that while they maintain separate accounts, an overall shared account is used for mandatory expenses (mortgage, utilities, subscriptions). Another participant recounted an incident where their spouse insisted on reviewing personal bank statements because the family budget is considered collective, and they contribute all salary income to it. The discussion highlighted a lesson in financial literacy taught to a son regarding fixed deposits; the son realized that funds placed in a standard annual deposit are inaccessible until the maturity date (February 2026), regardless of potential losses or interest rates.",
+  "decisions": [],
+  "action_items": []
+}

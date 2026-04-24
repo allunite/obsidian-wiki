@@ -1,0 +1,22 @@
+{
+  "chat_id": "nW_zkkAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2025-10-31",
+    "end": "2025-10-31"
+  },
+  "message_count": 9,
+  "topic": "Facility demographics data handling",
+  "topic_slug": "facility-demographics-data-handling",
+  "tags": [
+    "analytics",
+    "facility"
+  ],
+  "summary_markdown": "The discussion focused on retrieving demographic data for a specific facility. It was noted that the target facility does not inherently contain demographic information, suggesting that the data should be sourced from the nearest facility that does possess it. Someone mentioned they were previously responsible for managing these linking connections.",
+  "decisions": [],
+  "action_items": [
+    "Clarify the process for sourcing demographics from a nearby facility."
+  ]
+}

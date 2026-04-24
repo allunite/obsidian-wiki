@@ -1,0 +1,25 @@
+{
+  "chat_id": "i6YI1QAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 2,
+  "date_range": {
+    "start": "2021-05-14",
+    "end": "2021-05-14"
+  },
+  "message_count": 35,
+  "topic": "Analyzing trusted data and MAC addresses",
+  "topic_slug": "analyzing-trusted-data-and-mac-addresses",
+  "tags": [
+    "analytics",
+    "device-id",
+    "session"
+  ],
+  "summary_markdown": "The conversation focused on analyzing the accuracy of 'trusted' device data, specifically concerning randomized MAC addresses and Wi-Fi connectivity. A query was shared to analyze session metrics (total sessions, trusted sessions, real devices) grouped by date and MAC address for a specific period.\n\nDiscussion points included:\n*   Clarifying whether the 2% figure represented trusted random MACs relative to all available data or only manual/real data sources.\n*   Confirming that the analysis covers four locations with new firmware, not just two.\n*   The overall conclusion was that the small increase in trusted data is contextually correct for outdoor locations.",
+  "decisions": [
+    "A draft of content will be completed by Monday."
+  ],
+  "action_items": [
+    "Review the provided query and analysis results."
+  ]
+}

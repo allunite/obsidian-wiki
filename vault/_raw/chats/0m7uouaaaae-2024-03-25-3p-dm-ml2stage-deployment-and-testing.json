@@ -1,0 +1,21 @@
+{
+  "chat_id": "0m7UOUAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2024-03-25",
+    "end": "2024-03-25"
+  },
+  "message_count": 6,
+  "topic": "ml2stage deployment and testing",
+  "topic_slug": "ml2stage-deployment-and-testing",
+  "tags": [
+    "analytics"
+  ],
+  "summary_markdown": "The user successfully ran a process (involving an insertion/process that took place from 15:22 to 15:45) after initial difficulties, including temporary disk space issues and session variable loss. The updated `ml2stage` will be deployed today. Discussion confirmed the deployment time is approximately 20 hours over three months of staging.",
+  "decisions": [
+    "The updated ml2stage process will be run today."
+  ],
+  "action_items": []
+}

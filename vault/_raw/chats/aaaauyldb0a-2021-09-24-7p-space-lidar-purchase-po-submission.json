@@ -1,0 +1,24 @@
+{
+  "chat_id": "AAAAuyldb0A",
+  "kind": "Space",
+  "space_name": "Lidar development",
+  "participants": 7,
+  "date_range": {
+    "start": "2021-09-24",
+    "end": "2021-09-24"
+  },
+  "message_count": 9,
+  "topic": "Lidar purchase and PO submission",
+  "topic_slug": "lidar-purchase-po-submission",
+  "tags": [
+    "inventory",
+    "campaign"
+  ],
+  "summary_markdown": "The discussion centers on securing a Purchase Order (PO) for two Lidars intended for NL to maintain special pricing. It was confirmed that the mounting details could be finalized in the following week. An invoice was generated and sent to 'eco'. Multiple reminders were issued regarding the urgent submission of the PO to Chris.",
+  "decisions": [
+    "A PO must be submitted today for 2 Lidars (NL) to secure special prices."
+  ],
+  "action_items": [
+    "Anastasiya Pyatnitsa needs to send the PO to Chris ASAP."
+  ]
+}

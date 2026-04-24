@@ -1,0 +1,25 @@
+{
+  "chat_id": "y9IEDQAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2026-03-18",
+    "end": "2026-03-18"
+  },
+  "message_count": 83,
+  "topic": "Clarifying impression multiplier matrix requirements",
+  "topic_slug": "clarifying-impression-multiplier-matrix-requirements",
+  "tags": [
+    "analytics",
+    "campaign",
+    "impression"
+  ],
+  "summary_markdown": "The conversation focused on technical data integration issues, specifically how to calculate and submit an \"Impression Multiplier Matrix\" for a third party (Hivestack). The matrix is required to represent impression values between 0 and 1. Initial confusion arose regarding whether the absolute hourly impressions available from AllUnite's platform should be normalized by the daily total, the maximum hourly value, or some other base value.\n\n[me] drafted a detailed clarification email to Hivestack Support outlining these ambiguities, asking for precise definitions of the multiplier, its relative basis (e.g., per play vs. baseline), and recommended conversion methods from absolute data.",
+  "decisions": [
+    "A detailed technical inquiry regarding the Impression Multiplier Matrix was drafted and sent to Hivestack Support."
+  ],
+  "action_items": [
+    "Wait for clarification from Hivestack Support on multiplier calculation methodology."
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "chat_id": "1er37EAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 2,
+  "date_range": {
+    "start": "2023-01-05",
+    "end": "2023-01-05"
+  },
+  "message_count": 3,
+  "topic": "Discussion about JSON schema",
+  "topic_slug": "discussion-about-json-schema",
+  "tags": [],
+  "summary_markdown": "Someone initiated a chat to discuss the use of json-schema. [me] agreed to connect for a call.",
+  "decisions": [],
+  "action_items": []
+}

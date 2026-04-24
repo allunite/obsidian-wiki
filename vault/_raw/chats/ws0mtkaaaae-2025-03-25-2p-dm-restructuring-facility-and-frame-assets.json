@@ -1,0 +1,27 @@
+{
+  "chat_id": "ws0mTkAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 2,
+  "date_range": {
+    "start": "2025-03-25",
+    "end": "2025-03-25"
+  },
+  "message_count": 42,
+  "topic": "Restructuring facility and frame assets",
+  "topic_slug": "restructuring-facility-and-frame-assets",
+  "tags": [
+    "facility",
+    "frame",
+    "inventory"
+  ],
+  "summary_markdown": "The discussion focused on restructuring digital Out-of-Home (DOOH) inventory. The goal is to separate one frame from an existing facility and move it into a newly created, virtual facility.\n\n**Key actions discussed:**\n*   A new facility must be created in the system.\n*   One specific frame needs to be detached from the original facility and linked to this new facility.\n*   The names of the frames can initially be kept identical for simplicity, with name updates planned later.\n*   No traffic data should be copied into the new virtual facility, as it is assumed to lack sensors and therefore no historical traffic data.",
+  "decisions": [
+    "Create a new facility record in the system.",
+    "Relocate one frame from the original facility to the newly created facility."
+  ],
+  "action_items": [
+    "Update frame names later (p1).",
+    "Ensure no traffic data is copied into the virtual facility."
+  ]
+}

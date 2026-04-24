@@ -1,0 +1,27 @@
+{
+  "chat_id": "qF2Fa0AAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 2,
+  "date_range": {
+    "start": "2024-01-15",
+    "end": "2024-01-15"
+  },
+  "message_count": 24,
+  "topic": "Developing UDF scripts and OAuth integration",
+  "topic_slug": "developing-udf-scripts-and-oauth-integration",
+  "tags": [
+    "analytics",
+    "mops",
+    "campaign",
+    "facility"
+  ],
+  "summary_markdown": "The discussion focused on developing User Defined Functions (UDFs) for job execution. It was noted that the UDF implementation environment is challenging, with issues related to Python version compatibility and deployment location (sandbox vs. local). \n\nFor practical examples, it was suggested that the developer create a real-world case study detailing specific nuances encountered during development, rather than relying solely on documentation.\n\nA separate discussion point involved integrating OAuth functionality with mops, which is seen as a relevant project given client requests (e.g., Brazilian clients requesting LinkedIn integration). This idea was proposed in relation to existing ticket DOOH-502.",
+  "decisions": [
+    "The developer will create a real-world case study detailing UDF development nuances and challenges."
+  ],
+  "action_items": [
+    "Create a folder named 'udf' in the /ch directory within the repository, containing scripts and a README.md with detailed instructions and encountered pitfalls.",
+    "Review existing ticket DOOH-501 before proceeding with the OAuth integration proposal (DOOH-502)."
+  ]
+}

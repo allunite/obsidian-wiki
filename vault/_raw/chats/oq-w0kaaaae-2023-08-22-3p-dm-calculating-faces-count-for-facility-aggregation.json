@@ -1,0 +1,25 @@
+{
+  "chat_id": "oq-w0kAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2023-08-22",
+    "end": "2023-08-22"
+  },
+  "message_count": 31,
+  "topic": "Calculating faces count for facility aggregation",
+  "topic_slug": "calculating-faces-count-for-facility-aggregation",
+  "tags": [
+    "analytics",
+    "impression",
+    "campaign"
+  ],
+  "summary_markdown": "The discussion focused on correctly calculating the `faces_count` when aggregating metrics at the `facility_master` level. Initially, there was confusion regarding whether to divide aggregated metrics by the sum of faces across all frames or by a fixed count representing the total number of faces for the entire facility master.\n\nIt was determined that the initial approach (dividing metrics by the face count within each frame and then summing) might be incorrect due to aggregation levels. The proposed solution involved recalculating `faces_count` in the `v_ch_frame` view using a window function (`SUM(faces.length) OVER (PARTITION BY facility_id)`) to represent the total faces for the entire facility master, rather than just the count per frame.\n\nUltimately, the conversation concluded with the developer deciding to revert to the original method of dividing metrics by the face count within each frame and then summing those results.",
+  "decisions": [
+    "The calculation logic for `faces_count` in `v_ch_frame` will be recalculated to represent the total faces for the facility master."
+  ],
+  "action_items": [
+    "Review the code structure later, as the context was frequently switched between data and frontend requirements."
+  ]
+}

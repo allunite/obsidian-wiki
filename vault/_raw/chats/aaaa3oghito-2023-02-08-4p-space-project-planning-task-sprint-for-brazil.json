@@ -1,0 +1,25 @@
+{
+  "chat_id": "AAAA3oghITo",
+  "kind": "Space",
+  "space_name": "Кабаны",
+  "participants": 4,
+  "date_range": {
+    "start": "2023-02-08",
+    "end": "2023-02-08"
+  },
+  "message_count": 54,
+  "topic": "Project planning and task sprint for Brazil",
+  "topic_slug": "project-planning-task-sprint-for-brazil",
+  "tags": [
+    "campaign",
+    "analytics",
+    "inventory"
+  ],
+  "summary_markdown": "The discussion focused on organizing upcoming work, specifically for the Brazilian market. It was determined that a development sprint should be created within the DOOH project to manage tasks and prioritize efforts.\n\nKey topics covered:\n*   **Feature Implementation:** A new feature developed by Ouster for people counting was discussed, noting similarities to existing ideas.\n*   **Project Scope:** The team agreed to focus on creating a dedicated sprint structure. [p1] offered to compile a list of tasks from colleagues (including Sasha and Lesha) to prevent time waste during prioritization meetings.\n*   **DOOH Definition:** DOOH was clarified as Digital Out-of-Home.\n*   **Work Status Update:** A summary of completed work for Brazil was provided, including importing frame data, defining separate frame positions, implementing visibility areas (inner buffer), splitting roads by segments, and importing demography data from Esri.\n\nThe conversation concluded with general discussion unrelated to project management.",
+  "decisions": [
+    "A development sprint will be created within the DOOH project for managing tasks related to Brazil."
+  ],
+  "action_items": [
+    "[p1] to compile and share a list of tasks with colleagues (Sasha, Lesha) to populate the new sprint structure."
+  ]
+}

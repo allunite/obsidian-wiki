@@ -1,0 +1,25 @@
+{
+  "chat_id": "oCgFCIAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2024-03-20",
+    "end": "2024-03-20"
+  },
+  "message_count": 17,
+  "topic": "Data query issues and performance optimization",
+  "topic_slug": "data-query-issues-and-performance-optimization",
+  "tags": [
+    "analytics",
+    "impression",
+    "session"
+  ],
+  "summary_markdown": "The conversation focused on technical issues related to data querying, specifically concerning the use of `WITH` clauses in ClickHouse. Issues included unexpected recursion problems and general query structure complexity.\n\nPerformance optimization was discussed regarding memory usage for various dashboard components: \n*   A specific query found to be memory-intensive (real-time).\n*   The 'frequency bar' on the traffic dashboard, which also consumes memory, along with conversion calculation.\n\nDiscussion points included improving data retention policies and handling historical session data. A link was shared regarding model integration for future development.",
+  "decisions": [
+    "A query consuming excessive memory in real-time was fixed by [me]."
+  ],
+  "action_items": [
+    "[me] will continue optimizing the frequency bar and conversion calculation on the traffic dashboard."
+  ]
+}

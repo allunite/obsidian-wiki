@@ -1,0 +1,25 @@
+{
+  "chat_id": "nW_zkkAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2023-07-13",
+    "end": "2023-07-13"
+  },
+  "message_count": 21,
+  "topic": "Recalculating anomaly detection for device sessions",
+  "topic_slug": "recalculating-anomaly-detection-device-sessions",
+  "tags": [
+    "analytics",
+    "campaign"
+  ],
+  "summary_markdown": "The discussion focused on refining the script used for recalculating models and detecting anomalies in `allunite.device_session_concept`. Initially, a filter was proposed to exclude new sensors (those containing 'stock%' or 'New facility %') from the model calculation due to potential NaN values. A specific query applying the three-sigma rule for calculating the `is_anomaly` column was provided.\n\nLater, it was clarified that data from these excluded sensors would still enter the aggregate, but instead of using `sessionPredicted`, the value derived from `count real calibrated` (multiplied by a factor from `device_session_factor`) would be used. This clarification led to an agreement that the sensor exclusion mechanism needed adjustment.\n\nThe final action involved adding a specific condition to four different SQL files within the aggregation process.",
+  "decisions": [
+    "The calculation of the `is_anomaly` column in `allunite.device_session_concept` requires applying the three-sigma rule.",
+    "Data from newly added sensors (which were initially proposed for exclusion) will still enter the aggregate, using a calibrated count multiplied by a factor."
+  ],
+  "action_items": [
+    "Someone needs to add a specific condition to four different SQL files in the aggregation process."
+  ]
+}

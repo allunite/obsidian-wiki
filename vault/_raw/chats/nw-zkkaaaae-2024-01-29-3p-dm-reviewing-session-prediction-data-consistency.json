@@ -1,0 +1,36 @@
+{
+  "chat_id": "nW_zkkAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2024-01-29",
+    "end": "2024-01-29"
+  },
+  "message_count": 108,
+  "topic": "Reviewing session prediction data consistency",
+  "topic_slug": "reviewing-session-prediction-data-consistency",
+  "tags": [
+    "analytics",
+    "campaign",
+    "impression",
+    "session",
+    "],  ",
+    "summary_markdown",
+    "decisions",
+    "action_items",
+    "skip",
+    "skip_reason"
+  ],
+  "summary_markdown": "The discussion focused on validating and reconciling predicted session data across different versions (prod, stage, model1) for various facilities. Multiple SQL queries were run to compare `session_number_predicted` counts using the `device_session_agg_4` table.\n\nKey issues identified included:\n*   **Data Discrepancies:** Initial comparisons showed significant differences in predicted session numbers between versions and historical data, particularly for 'Mall_telt200' assets.\n*   **Version Alignment:** The team worked to ensure that the production (prod), staging (stage), and model1 datasets were consistent. It was determined that all three datasets should be aligned for comparison.\n*   **Data Integrity Concern:** A major concern arose regarding potential data overwriting, specifically related to mall data being incorrectly updated in prod. This was addressed by confirming that the production dataset had not been overwritten.\n*   **Forecasting Error:** The session prediction process revealed a historical error where an incorrect operator (`=`) was used instead of (`>=`) when calculating forecasts, leading to sessions potentially duplicating or inflating unique counts for past weeks.\n\nIt was decided that while the data appeared consistent in January after manual checks, the forecasting script needed correction and re-running.",
+  "decisions": [
+    "The three dataset versions (prod, stage, model1) must be aligned for comparison to ensure consistency of predicted session numbers.",
+    "A historical error in the forecast calculation logic (using '=' instead of '>=') was identified and needs correction.",
+    "Forecasting recalculations will be run starting from December 1st."
+  ],
+  "action_items": [
+    "The forecasting script must be corrected to use the appropriate comparison operator ('>=').",
+    "A full recalculation of forecasts for all facilities is required, starting from December 1st.",
+    "Do not run the aggregation job or `main.py` until further notice."
+  ]
+}

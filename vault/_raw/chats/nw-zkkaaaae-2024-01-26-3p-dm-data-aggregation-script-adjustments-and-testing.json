@@ -1,0 +1,24 @@
+{
+  "chat_id": "nW_zkkAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2024-01-26",
+    "end": "2024-01-26"
+  },
+  "message_count": 15,
+  "topic": "Data aggregation script adjustments and testing",
+  "topic_slug": "data-aggregation-script-adjustments-and-testing",
+  "tags": [
+    "analytics"
+  ],
+  "summary_markdown": "The conversation focused on reviewing an existing data aggregation script. [p1] questioned a specific condition regarding 'is_fake' within the script, noting that the aggregation logic did not explicitly include `not is_fake`. [me] confirmed that the current limitation was related to a maximum of six companies. Later, [p1] sought confirmation on how to correctly filter and test data for a specific company (7897) in the staging environment. [me] provided guidance, confirming the upper row structure for `company_num` but advising that the second line needed to be commented out.",
+  "decisions": [
+    "The aggregation script condition regarding 'is_fake' was deemed acceptable as is.",
+    "Guidance was provided on correctly filtering and testing data for company 7897 in staging."
+  ],
+  "action_items": [
+    "None"
+  ]
+}

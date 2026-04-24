@@ -1,0 +1,21 @@
+{
+  "chat_id": "8GgAuwAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 2,
+  "date_range": {
+    "start": "2022-02-11",
+    "end": "2022-02-11"
+  },
+  "message_count": 3,
+  "topic": "Discussion about Wonderful Cop",
+  "topic_slug": "discussion-about-wonderful-cop",
+  "tags": [
+    "campaign"
+  ],
+  "summary_markdown": "Someone initiated a conversation regarding the 'Wonderful Cop' campaign and requested a call on Skype.",
+  "decisions": [],
+  "action_items": [
+    "Schedule a Skype call to discuss Wonderful Cop."
+  ]
+}

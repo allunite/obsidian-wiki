@@ -1,0 +1,25 @@
+{
+  "chat_id": "AAAAl4SgH7c",
+  "kind": "Space",
+  "space_name": "Lithuania_old",
+  "participants": 6,
+  "date_range": {
+    "start": "2021-05-21",
+    "end": "2021-05-21"
+  },
+  "message_count": 9,
+  "topic": "Analytics tool improvements and data calibration",
+  "topic_slug": "analytics-tool-improvements-data-calibration",
+  "tags": [
+    "analytics",
+    "dwell-time",
+    "impression"
+  ],
+  "summary_markdown": "The team discussed updates to the analytics tool. Tooltips were completely reimplemented, and subsequent requests led to adding info icons/tooltips for charts displaying metrics like Frequency and Dwell time.\n\nSeparately, a meeting with Lithuania was reported as productive regarding data calibration. The client plans to finalize installations by the first week of June. They have decided to review the data dynamics internally before presenting findings to their customer, estimating this presentation will occur in August or September.",
+  "decisions": [
+    "Tooltips were added to charts displaying Frequency and Dwell time metrics."
+  ],
+  "action_items": [
+    "Review the updated analytics tool with chart tooltips (link provided)."
+  ]
+}

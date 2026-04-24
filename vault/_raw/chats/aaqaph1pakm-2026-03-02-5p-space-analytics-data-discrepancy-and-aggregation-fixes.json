@@ -1,0 +1,23 @@
+{
+  "chat_id": "AAQAPH1pAKM",
+  "kind": "Space",
+  "space_name": "Group Chat",
+  "participants": 5,
+  "date_range": {
+    "start": "2026-03-02",
+    "end": "2026-03-02"
+  },
+  "message_count": 22,
+  "topic": "Analytics data discrepancy and aggregation fixes",
+  "topic_slug": "analytics-data-discrepancy-and-aggregation-fixes",
+  "tags": [
+    "analytics",
+    "facility",
+    "impression"
+  ],
+  "summary_markdown": "The conversation focused on discrepancies in traffic reporting within the analytics platform. Initially, a mismatch was noted where the sum of traffic reported by facility did not match the total traffic displayed on the main platform report (e.g., expected 67,182,658 vs. actual 66,706,534). The issue stemmed from how data was being updated; specifically, updating only individual facility rows rather than performing a full re-aggregation across all facilities using `param_facilityMasterNums`. It was determined that the correct approach required re-aggregating the data in the staging area. Multiple follow-up issues were addressed, including discrepancies between exported viewed impressions and those shown on the platform, and zero values appearing on graphs despite existing numbers in tables.",
+  "decisions": [
+    "The process for updating facility traffic must involve a full re-aggregation using `param_facilityMasterNums` to ensure the overall company aggregate is updated correctly."
+  ],
+  "action_items": []
+}

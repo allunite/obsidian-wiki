@@ -1,0 +1,29 @@
+{
+  "chat_id": "AAAAOcKWvdA",
+  "kind": "Space",
+  "space_name": "Delivery Coordination",
+  "participants": 14,
+  "date_range": {
+    "start": "2024-01-22",
+    "end": "2024-01-22"
+  },
+  "message_count": 25,
+  "topic": "Reviewing Provantage reporting requirements and beta deployment",
+  "topic_slug": "reviewing-provantage-reporting-requirements-and-beta-deployment",
+  "tags": [
+    "analytics",
+    "campaign",
+    "inventory",
+    "dwell-time",
+    "impression"
+  ],
+  "summary_markdown": "A discussion occurred regarding required enhancements for Provantage reporting, noting several limitations in the current filters and functions (TRAFFIC function lacks total traffic calculation; REPORT function is inaccessible). Specific data requirements include monthly breakdowns of total traffic/unique/dwell/frequency per environment and per location.\n\nRegarding beta deployment, it was decided that if the beta site uses a beta dataset, the modeling should be specific to the beta environment rather than relying on production models. The fallback mechanism (using production models when beta data is missing) was deemed unnecessary for simplicity and speed, meaning no model will be generated unless explicitly defined for the beta.\n\nFinally, it was noted that Provantage reporting visibility for management will be available on the beta environment.",
+  "decisions": [
+    "Beta site modeling must use beta-specific models rather than production models.",
+    "The fallback mechanism (using prod model if beta is missing) was dropped for simplicity."
+  ],
+  "action_items": [
+    "Follow up on Provantage reporting requirements and limitations.",
+    "Wait for feedback from the IT team regarding UI/UX/data."
+  ]
+}

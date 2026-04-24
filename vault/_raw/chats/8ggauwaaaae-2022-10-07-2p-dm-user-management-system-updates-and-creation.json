@@ -1,0 +1,22 @@
+{
+  "chat_id": "8GgAuwAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 2,
+  "date_range": {
+    "start": "2022-10-07",
+    "end": "2022-10-07"
+  },
+  "message_count": 16,
+  "topic": "User management system updates and creation",
+  "topic_slug": "user-management-system-updates-and-creation",
+  "tags": [
+    "analytics",
+    "campaign"
+  ],
+  "summary_markdown": "The conversation focused on the process of creating or updating a user management component. [me] advised that it would be better to create the necessary structure first, similar to two previous instances. This was framed as an initial step toward an updated user management system.\n\n[me] later confirmed completion of the task.",
+  "decisions": [
+    "The process for creating/updating the user management component will start with a fresh creation."
+  ],
+  "action_items": []
+}

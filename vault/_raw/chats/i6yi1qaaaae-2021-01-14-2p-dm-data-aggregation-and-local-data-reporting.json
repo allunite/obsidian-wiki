@@ -1,0 +1,24 @@
+{
+  "chat_id": "i6YI1QAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 2,
+  "date_range": {
+    "start": "2021-01-14",
+    "end": "2021-01-14"
+  },
+  "message_count": 7,
+  "topic": "Data aggregation and local data reporting",
+  "topic_slug": "data-aggregation-and-local-data-reporting",
+  "tags": [
+    "analytics",
+    "recalc-ch"
+  ],
+  "summary_markdown": "The conversation focused on data availability and recalculation. [p1] initially requested that the recipient wait with aggregation until more accurate figures were available, as they planned to recalculate 'moly' (units/metrics). It was confirmed that local data had not been written to the database for a period of time. The specific start date for this data flow was deemed unnecessary; [p1] noted that their model only showed zeros for local data. [p1] stated they would provide an update after uploading the revised data.",
+  "decisions": [
+    "The recipient should wait on aggregation until more accurate metrics are available."
+  ],
+  "action_items": [
+    "[p1] will upload the revised data and provide an update."
+  ]
+}

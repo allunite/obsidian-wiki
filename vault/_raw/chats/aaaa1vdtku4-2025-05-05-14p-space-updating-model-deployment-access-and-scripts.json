@@ -1,0 +1,21 @@
+{
+  "chat_id": "AAAA1vdtku4",
+  "kind": "Space",
+  "space_name": "DataTeam+",
+  "participants": 14,
+  "date_range": {
+    "start": "2025-05-05",
+    "end": "2025-05-05"
+  },
+  "message_count": 4,
+  "topic": "Updating model deployment access and scripts",
+  "topic_slug": "updating-model-deployment-access-and-scripts",
+  "tags": [
+    "analytics"
+  ],
+  "summary_markdown": "The team discussed updates regarding accessing resources for deploying models. Specifically, it was noted that AWS access is no longer required to upload models to the S3 Bucket; users should now log in via a specific internal URL using AllUnite credentials. Additionally, local job runs (for traffic and impression jobs) no longer require `aws-mfa` when running locally. The necessary updates have been merged into both staging and master branches.",
+  "decisions": [
+    "AWS access is no longer required for S3 model uploads; use the internal login portal instead."
+  ],
+  "action_items": []
+}

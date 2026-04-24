@@ -1,0 +1,24 @@
+{
+  "chat_id": "7l_n6kAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 2,
+  "date_range": {
+    "start": "2023-07-04",
+    "end": "2023-07-04"
+  },
+  "message_count": 17,
+  "topic": "Map functionality and full screen view",
+  "topic_slug": "map-functionality-and-full-screen-view",
+  "tags": [
+    "analytics",
+    "facility"
+  ],
+  "summary_markdown": "The discussion addressed the technical limitations of map display size. Initially, it was clarified that a specific button is for centering and scaling the map to fit all client sensors, not for increasing the overall map size. Later, [me] noted that clients frequently request a full-screen view for maps within dashboards, which requires follow-up with the frontend developer.",
+  "decisions": [
+    "The current map functionality does not allow for arbitrary enlargement beyond its designated space."
+  ],
+  "action_items": [
+    "[me] is writing to the frontend developer regarding implementing a full-screen button for maps in dashboards."
+  ]
+}

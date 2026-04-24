@@ -1,0 +1,23 @@
+{
+  "chat_id": "oCgFCIAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2023-04-26",
+    "end": "2023-04-26"
+  },
+  "message_count": 22,
+  "topic": "SQL geospatial distance calculation methods",
+  "topic_slug": "sql-geospatial-distance-calculation-methods",
+  "tags": [
+    "analytics"
+  ],
+  "summary_markdown": "The conversation discussed technical aspects of generating data and performing strategic analysis, specifically focusing on using AI tools (like ChatGPT) for market research. A key technical point covered was calculating geographical distance in SQL/PostGIS. It was noted that simply using `ST_Distance(ST_MakePoint(lat, lng), ST_MakePoint(lat, lng))` is insufficient because the resulting unit of measurement is unknown or incorrect. The recommended method involves using `st_transform` to project coordinates into a specific spatial reference system (like 3857) which returns the distance in meters.",
+  "decisions": [
+    "The preferred method for calculating geographical distance requires using st_transform and projecting to SRID 3857."
+  ],
+  "action_items": [
+    "Someone needs to provide a geo expression example for PostGIS that accurately calculates the difference between latitude/longitude coordinates."
+  ]
+}

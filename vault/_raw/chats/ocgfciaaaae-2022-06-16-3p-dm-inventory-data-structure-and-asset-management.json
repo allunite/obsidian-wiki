@@ -1,0 +1,28 @@
+{
+  "chat_id": "oCgFCIAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2022-06-16",
+    "end": "2022-06-16"
+  },
+  "message_count": 33,
+  "topic": "Inventory data structure and asset management",
+  "topic_slug": "inventory-data-structure-and-asset-management",
+  "tags": [
+    "facility",
+    "asset",
+    "analytics",
+    "inventory"
+  ],
+  "summary_markdown": "The discussion focused on the technical challenges of managing inventory data, specifically how `facility` and `asset` information are stored and edited. It was noted that assets/facilities are currently scattered across different types in the system, making unified editing difficult.\n\n**Key Decisions:**\n*   It was agreed that the core data structure should ideally combine facility and asset data into a single object, both logically and potentially in the database.\n*   For immediate development purposes, it was decided to provide [me] with an API method that returns only asset data, allowing him to proceed with image handling/editing while the underlying data model is unified later.\n\n**Other Technical Points:**\n*   The participants reviewed the need to potentially reduce or refine the storage of `raw_device_seen` data in ClickHouse due to volume concerns.\n*   Regarding the corporate website, it was noted that styling issues (e.g., bold text rendering) persist on staging and require cleanup.",
+  "decisions": [
+    "Provide an API method returning asset data for immediate development work on image handling.",
+    "The facility and asset data structure should be unified into a single object/database model."
+  ],
+  "action_items": [
+    "Clean up styling issues (especially bold text) on the corporate website staging environment.",
+    "Review and potentially reduce the volume of `raw_device_seen` data stored in ClickHouse."
+  ]
+}

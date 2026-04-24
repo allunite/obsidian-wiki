@@ -1,0 +1,22 @@
+{
+  "chat_id": "3ZMBmwAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 2,
+  "date_range": {
+    "start": "2023-02-27",
+    "end": "2023-02-27"
+  },
+  "message_count": 8,
+  "topic": "Reviewing frequency metric for Spain",
+  "topic_slug": "reviewing-frequency-metric-for-spain",
+  "tags": [
+    "analytics",
+    "impression"
+  ],
+  "summary_markdown": "The conversation focused on the 'frequency' metric, specifically regarding screen visits in Spain. The current calculated average screen visited by device is approximately 2 to 2.2, which falls short of client expectations (which were around 6-7 screens). It was decided that further investigation is needed, potentially involving adding a coefficient to adjust the final figure.",
+  "decisions": [
+    "Further investigation into the frequency metric for Spain is required."
+  ],
+  "action_items": []
+}

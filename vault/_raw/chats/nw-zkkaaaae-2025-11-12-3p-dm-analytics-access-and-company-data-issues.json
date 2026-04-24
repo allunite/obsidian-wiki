@@ -1,0 +1,24 @@
+{
+  "chat_id": "nW_zkkAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2025-11-12",
+    "end": "2025-11-12"
+  },
+  "message_count": 9,
+  "topic": "Analytics access and company data issues",
+  "topic_slug": "analytics-access-and-company-data-issues",
+  "tags": [
+    "analytics",
+    "inventory"
+  ],
+  "summary_markdown": "The discussion focused on user permissions within the staging analytics environment. It was noted that one participant ([p1]) shared links to the staging analytics platform, detailing specific viewing capabilities for different users (e.g., 'emma' can see everyone; 'juho' can only see JCD). A key issue raised was why Bauer Media Outdoor Suomi Oy lacked a shared company ID (7962) in the listed companies, and it was noted that another user ('ilpo') could only view data for Bauer Media Outdoor Suomi Oy.",
+  "decisions": [
+    "No concrete decisions were made."
+  ],
+  "action_items": [
+    "Investigate why Bauer Media Outdoor Suomi Oy is missing shared company ID 7962 from the list of companies in the staging analytics environment."
+  ]
+}

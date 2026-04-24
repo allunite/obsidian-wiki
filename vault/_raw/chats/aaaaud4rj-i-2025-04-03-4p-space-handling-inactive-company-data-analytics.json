@@ -1,0 +1,27 @@
+{
+  "chat_id": "AAAAud4RJ_I",
+  "kind": "Space",
+  "space_name": "Group Chat",
+  "participants": 4,
+  "date_range": {
+    "start": "2025-04-03",
+    "end": "2025-04-03"
+  },
+  "message_count": 26,
+  "topic": "Handling of inactive company data in analytics",
+  "topic_slug": "handling-inactive-company-data-analytics",
+  "tags": [
+    "campaign",
+    "inventory",
+    "analytics",
+    "facility"
+  ],
+  "summary_markdown": "The discussion centered on the status of inactive companies, specifically WallDecaux, which was found to be missing from `company_dict` despite existing in the primary company database. The core issue is whether historical or currently non-operational entities should remain accessible and processed by analytics systems.\n\n*   **Data Access:** It was noted that while filtering on `is_active` works for basic traffic reporting, including inactive companies in data dictionaries (`company_dict`) could prevent system failures when querying historical data associated with these entities.\n*   **System Design Conflict:** There is a conceptual conflict between maintaining comprehensive historical records (including non-operational companies) and the principle of keeping active systems clean by removing deprecated or inactive entries.\n*   **Proposed Solution:** A proposal was made to modify the main query (`v_ch_company`) to allow for inactive companies, provided no technical issues are identified. This change would ensure that metrics calculations can utilize data from all historical companies in a region (e.g., Germany).\n*   **Data Clean-up:** It was confirmed that Operations had initiated cleaning up records of long-inactive companies to prevent monitoring alerts.",
+  "decisions": [
+    "The main query (`v_ch_company`) should be modified to allow for inactive companies in the dataset."
+  ],
+  "action_items": [
+    "Someone needs to implement the change allowing inactive companies in `v_ch_company` and confirm no issues arise.",
+    "Review the necessity of including inactive entities in data dictionaries versus relying on primary database filtering."
+  ]
+}

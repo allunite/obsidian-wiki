@@ -1,0 +1,25 @@
+{
+  "chat_id": "AAAAXJaVjNY",
+  "kind": "Space",
+  "space_name": "Group Chat",
+  "participants": 3,
+  "date_range": {
+    "start": "2024-11-12",
+    "end": "2024-11-12"
+  },
+  "message_count": 23,
+  "topic": "Panel location changes and data communication",
+  "topic_slug": "panel-location-changes-data-communication",
+  "tags": [
+    "inventory",
+    "analytics",
+    "facility"
+  ],
+  "summary_markdown": "The discussion addressed how frequently panel locations change and how this information should be communicated to Ramboll. It was noted that panels are currently being filled and corrected, with most data checked, but some may change location due to corrections or additions.\n\nRegarding the frequency of changes, one participant mentioned that verification changes are rare (typically less than 100 meters). They provided examples of locations where panel types vary significantly (e.g., Mall, Supermarket, Golf resort, Ski resort).\n\nA proposed response suggested that recipients should always use the latest available data from the API at the time of model recalculation.",
+  "decisions": [
+    "Use the latest available API data for calculations."
+  ],
+  "action_items": [
+    "Drafting a communication regarding panel location stability and API usage."
+  ]
+}

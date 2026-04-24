@@ -1,0 +1,19 @@
+{
+  "chat_id": "AAAA3oghITo",
+  "kind": "Space",
+  "space_name": "Кабаны",
+  "participants": 4,
+  "date_range": {
+    "start": "2022-02-11",
+    "end": "2022-02-11"
+  },
+  "message_count": 14,
+  "topic": "Technical deployment and error troubleshooting",
+  "topic_slug": "technical-deployment-and-error-troubleshooting",
+  "tags": [
+    "analytics"
+  ],
+  "summary_markdown": "The conversation primarily revolves around technical deployments. One participant reported an 'Internal server error' (statusCode: 500) when testing the system. Another participant confirmed running a deployment process, noting that it was building successfully within two minutes. The discussion shifted to general banter regarding past activities and physical labor.",
+  "decisions": [],
+  "action_items": []
+}

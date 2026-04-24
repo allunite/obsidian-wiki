@@ -1,0 +1,27 @@
+{
+  "chat_id": "8GgAuwAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 2,
+  "date_range": {
+    "start": "2023-05-09",
+    "end": "2023-05-09"
+  },
+  "message_count": 20,
+  "topic": "Asset import issues and filtering strategy",
+  "topic_slug": "asset-import-issues-and-filtering-strategy",
+  "tags": [
+    "analytics",
+    "inventory",
+    "campaign"
+  ],
+  "summary_markdown": "The primary discussion focused on technical difficulties related to asset management and data import. Initially, assets were reviewed, with instructions given to remove unnecessary assets under MAPA, retaining only frames for specific clients (CC Brazil and JCD Brazil).\n\nMajor issues encountered included:\n1. Asset import failure when attempting to upload an exported file without changes.\n2. Extremely slow loading times for asset lists.\n3. Duplication of assets for JCDEcaux Brazil, specifically noting that 921 and 1000 were duplicated instead of merged.\n\nTo address the massive volume of assets (over 105,000), a workaround was established: breaking the data into smaller chunks or sheets for import. It was also suggested that when migrating to analytics, a filter should be implemented.",
+  "decisions": [
+    "Assets under MAPA must only include frames for CC Brazil and JCD Brazil.",
+    "The large asset file must be split into multiple sheets/chunks for successful import."
+  ],
+  "action_items": [
+    "Attempt to export the data by splitting it into chunks.",
+    "Implement filtering in analytics when migrating assets."
+  ]
+}

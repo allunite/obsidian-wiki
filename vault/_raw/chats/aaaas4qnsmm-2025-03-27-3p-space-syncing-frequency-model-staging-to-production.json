@@ -1,0 +1,27 @@
+{
+  "chat_id": "AAAAS4QnsmM",
+  "kind": "Space",
+  "space_name": "Group Chat",
+  "participants": 3,
+  "date_range": {
+    "start": "2025-03-27",
+    "end": "2025-03-27"
+  },
+  "message_count": 40,
+  "topic": "Syncing frequency model from staging to production",
+  "topic_slug": "syncing-frequency-model-staging-to-production",
+  "tags": [
+    "analytics",
+    "campaign",
+    "inventory"
+  ],
+  "summary_markdown": "The discussion focused on applying the current default frequency model used in staging for Finland (including specific company numbers: 7863, 7864, 7906, 7865, 7905, 7872) to production.\n\nIt was decided that the staging version of the `ml-api frequency` model should be deployed to production temporarily so that it displays the same frequency data as staging. This temporary deployment is necessary because adding new categories or making changes requires testing.\n\n[me] proceeded with deploying the model from staging, and [p1] confirmed this action, noting that a reminder must be set to revert the change later.",
+  "decisions": [
+    "The default frequency model currently in staging for Finland will be temporarily deployed to production.",
+    "New categories should not be added until after testing is completed."
+  ],
+  "action_items": [
+    "[p1] to merge and test the changes after tomorrow's demo.",
+    "Someone must remember to revert the frequency model back to its original state later."
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "chat_id": "y9IEDQAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2021-06-29",
+    "end": "2021-06-29"
+  },
+  "message_count": 6,
+  "topic": "Troubleshooting database connection issues",
+  "topic_slug": "troubleshooting-database-connection-issues",
+  "tags": [
+    "analytics"
+  ],
+  "summary_markdown": "The conversation focused on technical troubleshooting. [me] reported an issue where the clickhouse-client could not connect to the server. It was suggested that this might be due to DNS resolution issues for localhost. To potentially resolve this, [me] added the `--host 127.0.0.1` option to the command line and requested assistance viewing logs for 'ch04' from the console.",
+  "decisions": [],
+  "action_items": [
+    "Check if adding --host 127.0.0.1 resolves clickhouse-client connection issues."
+  ]
+}

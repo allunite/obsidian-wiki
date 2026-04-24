@@ -1,0 +1,28 @@
+{
+  "chat_id": "nW_zkkAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2024-05-17",
+    "end": "2024-05-17"
+  },
+  "message_count": 53,
+  "topic": "Analytics data structure and reporting updates",
+  "topic_slug": "analytics-data-structure-and-reporting-updates",
+  "tags": [
+    "analytics",
+    "session",
+    "facility",
+    "dwell-time"
+  ],
+  "summary_markdown": "The conversation covered several technical points regarding analytics data structures. Initially, a bug concerning session drops for AFI was discussed, noting discrepancies in historical data between Rail/Mall and City segments.\n\nLater, the calculation of `session_duration` from the `device_session_agg_5` table was clarified: it is calculated by simple summation of session durations, with additional calculations (like average dwell time) applied to sub-subqueries based on non-local and calibrated sessions.\n\nA discussion followed regarding reporting updates for OnWorld data. It was noted that while province grouping exists on the product environment, facility grouping does not. The team confirmed that facility grouping is always available, but province grouping will be released in a future update (Tuesday), which will also include network grouping.",
+  "decisions": [
+    "The calculation method for session duration from `device_session_agg_5` was clarified as simple summation of sessions.",
+    "Facility grouping is confirmed to always exist, and province/network grouping will be released on Tuesday."
+  ],
+  "action_items": [
+    "Review the AFI session drop bug in City data (p1)",
+    "Merge the pull request for `ses_real_calibrated_wo_0_avg3s` (me)"
+  ]
+}

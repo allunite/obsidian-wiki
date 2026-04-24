@@ -1,0 +1,22 @@
+{
+  "chat_id": "0m7UOUAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2025-05-15",
+    "end": "2025-05-15"
+  },
+  "message_count": 10,
+  "topic": "Analytics data migration and troubleshooting",
+  "topic_slug": "analytics-data-migration-and-troubleshooting",
+  "tags": [
+    "analytics",
+    "facility"
+  ],
+  "summary_markdown": "The conversation focused on migrating staging analytics demographics to the production environment for a client meeting scheduled the next day. Initially, [p1] reported that the data was missing in production despite being available in staging. After initial attempts by [me] to push the data and refresh the cache, the issue persisted. Later, [me] confirmed that after restarting production (without downtime), no data appeared, and the server returned empty results. The root cause was identified as a dependency on an exclusive lock on `agg_5`. [me] implemented a fix which successfully resolved the data display issue.",
+  "decisions": [
+    "The analytics demographics were migrated from staging to production."
+  ],
+  "action_items": []
+}

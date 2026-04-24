@@ -1,0 +1,25 @@
+{
+  "chat_id": "y9IEDQAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2023-06-06",
+    "end": "2023-06-06"
+  },
+  "message_count": 44,
+  "topic": "Improving real-time session data transfer",
+  "topic_slug": "improving-real-time-session-data-transfer",
+  "tags": [
+    "analytics",
+    "session",
+    "loop"
+  ],
+  "summary_markdown": "The discussion focused on optimizing the process of transferring session data. Currently, one participant sends a format detailing the count of sessions by duration (e.g., >60 seconds, >120 seconds) rather than the raw session data itself.\n\nTo improve this, it was suggested that the system should only push truly updated or 'entering' sessions in real-time, which would be more efficient and less redundant. The goal is to provide incremental updates based on live data.\n\nTechnical details included discussing how to handle new sessions (`qty_new`), defined as `device_id`s not present in the previous batch.",
+  "decisions": [
+    "Implement a simple daemon service to extract and push open/updated session data in real-time format."
+  ],
+  "action_items": [
+    "The participant needs to provide an example of the current data format for review."
+  ]
+}

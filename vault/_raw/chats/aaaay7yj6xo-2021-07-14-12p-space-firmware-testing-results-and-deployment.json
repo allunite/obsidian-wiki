@@ -1,0 +1,24 @@
+{
+  "chat_id": "AAAAy7Yj6Xo",
+  "kind": "Space",
+  "space_name": "IT",
+  "participants": 12,
+  "date_range": {
+    "start": "2021-07-14",
+    "end": "2021-07-14"
+  },
+  "message_count": 17,
+  "topic": "Firmware testing results and deployment",
+  "topic_slug": "firmware-testing-results-and-deployment",
+  "tags": [
+    "analytics",
+    "campaign"
+  ],
+  "summary_markdown": "Testing was conducted comparing two firmware versions (v52.1 and v53) with consumption optimization, using 2 sensors over a limited period.\n\nInitial results showed differences in real and local measurements: +11% for new firmware (real diff) and -9.3% / +8% (local diff).\n\nIt was concluded that the observed differences were within the margin of error given the limited test scope (2 days, 2 sensors, non-crowded environment).\n\nA subsequent discussion confirmed that the uploaded firmware version is intended for Germany only.",
+  "decisions": [
+    "The comparison between v52.1 and v53 was deemed acceptable despite minor discrepancies."
+  ],
+  "action_items": [
+    "Upload the approved firmware to JCD RMS (completed by [p2])."
+  ]
+}

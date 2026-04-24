@@ -1,0 +1,27 @@
+{
+  "chat_id": "0VorOYAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2022-05-12",
+    "end": "2022-05-12"
+  },
+  "message_count": 15,
+  "topic": "Modeling traffic for sensor-less locations",
+  "topic_slug": "modeling-traffic-for-sensor-less-locations",
+  "tags": [
+    "analytics",
+    "facility",
+    "inventory"
+  ],
+  "summary_markdown": "The discussion focused on modeling traffic coefficients for physical locations in Finland that lack sensors. The plan involves creating these facilities within the database, potentially using a test company structure. Someone suggested a workflow: [p1] and Galina will develop the model and populate the necessary table, while [me] will integrate this data into aggregates visible on the dashboard.",
+  "decisions": [
+    "Facilities for sensor-less locations need to be created in the database.",
+    "The proposed workflow is that p1/Galina models the traffic and populates a table, and [me] handles aggregation/dashboard integration."
+  ],
+  "action_items": [
+    "p1 needs to follow up with Nastya regarding facility creation.",
+    "[me] will integrate the modeled data into aggregates for dashboard visibility."
+  ]
+}

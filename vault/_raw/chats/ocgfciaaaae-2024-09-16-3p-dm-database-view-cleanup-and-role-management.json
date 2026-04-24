@@ -1,0 +1,23 @@
+{
+  "chat_id": "oCgFCIAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2024-09-16",
+    "end": "2024-09-16"
+  },
+  "message_count": 6,
+  "topic": "Database view cleanup and role management",
+  "topic_slug": "database-view-cleanup-and-role-management",
+  "tags": [
+    "analytics",
+    "recalc-ch"
+  ],
+  "summary_markdown": "A discussion occurred regarding maintenance of database views, specifically `v_ch_user` and `v_ch_user_access`. It was decided that inactive users should be removed from the `v_ch_user_access` view to ensure correct functionality. Regarding user roles, it was confirmed that roles are not needed in the ClickHouse environment for the `user_dict` table, which is only used within KPI calculations.",
+  "decisions": [
+    "Remove inactive users from the v_ch_user_access view.",
+    "Roles are unnecessary in the ClickHouse environment for user_dict."
+  ],
+  "action_items": []
+}

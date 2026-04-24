@@ -1,0 +1,24 @@
+{
+  "chat_id": "AAAAM2qr3Sc",
+  "kind": "Space",
+  "space_name": "Captive Portal Field Test",
+  "participants": 7,
+  "date_range": {
+    "start": "2024-08-28",
+    "end": "2024-08-28"
+  },
+  "message_count": 9,
+  "topic": "Captive portal field test setup details",
+  "topic_slug": "captive-portal-field-test-setup-details",
+  "tags": [
+    "facility",
+    "session"
+  ],
+  "summary_markdown": "The team discussed the next steps for a captive portal field test at the Pirituba terminal, following a firmware update that changed the Wi-Fi channel. The plan is to have someone visit the terminal four consecutive days. For the test to work, the person should simply arrive and remain near the terminal for 10 minutes using the same phone. This duration and action are necessary for the captive portal to capture the device and for the sensors to detect activity.",
+  "decisions": [
+    "The field test requires someone to visit the Pirituba terminal daily for four consecutive days."
+  ],
+  "action_items": [
+    "Ensure the person visiting the terminal remains on site for 10 minutes using a single device to trigger captive portal and sensor data capture."
+  ]
+}

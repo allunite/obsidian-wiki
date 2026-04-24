@@ -1,0 +1,21 @@
+{
+  "chat_id": "AAAAy7Yj6Xo",
+  "kind": "Space",
+  "space_name": "IT",
+  "participants": 12,
+  "date_range": {
+    "start": "2021-11-22",
+    "end": "2021-11-22"
+  },
+  "message_count": 10,
+  "topic": "Scheduling an installation visit",
+  "topic_slug": "scheduling-an-installation-visit",
+  "tags": [
+    "facility"
+  ],
+  "summary_markdown": "The conversation revolves around coordinating a time for someone from AllUnite to join an installation on Tuesday. Multiple messages were exchanged attempting to define the exact timing, with one participant suggesting availability between 10:00 and 14:00.",
+  "decisions": [],
+  "action_items": [
+    "Determine a specific time for the AllUnite representative to join the installation."
+  ]
+}

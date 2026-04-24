@@ -1,0 +1,29 @@
+{
+  "chat_id": "i6YI1QAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 2,
+  "date_range": {
+    "start": "2021-11-18",
+    "end": "2021-11-18"
+  },
+  "message_count": 96,
+  "topic": "Recalculating session data for specific facilities",
+  "topic_slug": "recalculating-session-data-for-specific-facilities",
+  "tags": [
+    "analytics",
+    "facility",
+    "campaign",
+    "impression",
+    "session"
+  ],
+  "summary_markdown": "The session focused on recalculating historical session data for three specific facilities (3809, 3797, 3800) for the date of October 7th. Initial attempts to query empty categories or models failed because these facilities lack `asset_data`. The conversation resulted in refining SQL queries to pull aggregated session counts from `allunite.device_session_agg_ml_staging` using specific start and end time boundaries (October 7th).\n\nA key issue identified was the loss of two hours of session data, which were determined to have been displaced or logged against new facilities due to sensor relocation/recalibration processes. The team concluded that this manual recalculation process, while successful for now, highlighted a systemic weakness in handling sensor movements and asset changes.\n\nThe final steps involved running updated scripts to ensure accurate historical reporting.",
+  "decisions": [
+    "Session data must be recalculated specifically for three facilities (3809, 3797, 3800) for October 7th.",
+    "The query source was finalized as `allunite.device_session_agg_ml_staging` using specific date ranges and facility IDs."
+  ],
+  "action_items": [
+    "Run updated scripts to recalculate historical session data for the specified facilities.",
+    "Clean up the ML staging area (assigned to p1)."
+  ]
+}

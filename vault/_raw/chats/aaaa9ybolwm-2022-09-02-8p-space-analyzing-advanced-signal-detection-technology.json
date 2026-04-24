@@ -1,0 +1,21 @@
+{
+  "chat_id": "AAAA9ybOLwM",
+  "kind": "Space",
+  "space_name": "ИТ",
+  "participants": 8,
+  "date_range": {
+    "start": "2022-09-02",
+    "end": "2022-09-03"
+  },
+  "message_count": 9,
+  "topic": "Analyzing advanced signal detection technology",
+  "topic_slug": "analyzing-advanced-signal-detection-technology",
+  "tags": [
+    "analytics"
+  ],
+  "summary_markdown": "The discussion focused on various technologies for advanced signal and location analysis, including Lidar, beacons, CCTV, and USRP locators in the WiFi range. Several external links were shared detailing hardware options (e.g., Ettus/LimeSDR Mini) suitable for developing prototypes. Specific technical discussions included using directional antennas for TX/RX to detect signals from vehicles or environmental conditions (snow, rain). The conversation also covered passive radar concepts, noting that some devices operate up to 1.7GHz and are intended for analyzing background TV signals rather than standard router emissions. A suggestion was made regarding the use of heavy metal stations as a source of high variability content, approximating white noise.",
+  "decisions": [],
+  "action_items": [
+    "Review hardware options linked (Ettus/LimeSDR Mini) for signal analysis prototyping."
+  ]
+}

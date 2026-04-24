@@ -1,0 +1,25 @@
+{
+  "chat_id": "AAAAw0BHFwc",
+  "kind": "Space",
+  "space_name": "Group Chat",
+  "participants": 4,
+  "date_range": {
+    "start": "2024-02-14",
+    "end": "2024-02-14"
+  },
+  "message_count": 11,
+  "topic": "Adding cluster metrics to campaign planner",
+  "topic_slug": "adding-cluster-metrics-to-campaign-planner",
+  "tags": [
+    "analytics",
+    "inventory",
+    "campaign"
+  ],
+  "summary_markdown": "A requirement was raised to add Cluster metrics to the Campaign Planner. The specific metric defined is *Total footfall*, calculated as the sum of TotalTraffic across all clusters. This feature, along with additional cluster filters, needs to be released by the end of the week due to an upcoming conference where data will be presented.",
+  "decisions": [
+    "The calculation for *Total footfall* is defined as Sum of TotalTraffic(cluster)."
+  ],
+  "action_items": [
+    "Implement and release Cluster metrics (including additional filters) in the Campaign Planner by the end of the week."
+  ]
+}

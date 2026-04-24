@@ -1,0 +1,28 @@
+{
+  "chat_id": "i6YI1QAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 2,
+  "date_range": {
+    "start": "2021-07-22",
+    "end": "2021-07-22"
+  },
+  "message_count": 56,
+  "topic": "Cleaning and querying staging session data",
+  "topic_slug": "cleaning-and-querying-staging-session-data",
+  "tags": [
+    "analytics",
+    "dwell-time",
+    "session",
+    "facility"
+  ],
+  "summary_markdown": "The conversation focused on technical issues related to data manipulation and querying the `device_session_agg_ml_staging` table. Initial attempts by someone to delete large amounts of historical data using an `ALTER TABLE... DELETE WHERE` query failed repeatedly, suggesting potential system instability or load issues.\n\nLater, it was established that when querying the staging table, one must select from the specific sharded table (`device_session_agg_ml_staging`) rather than just selecting from a single shard to ensure all data is retrieved. For mutations (like `ALTER TABLE`), explicit addressing of shards on the cluster level is required.\n\nAdditionally, two new files containing dwell time data were uploaded to S3 dev: `dk-20210720-hourly5mins-dwell.json` and `dk-20210721-hourly5mins-dwell.json`. These files provide hourly granularity with 5-minute dwelling breakdowns, representing a change from the standard 1-hour granularity.",
+  "decisions": [
+    "The staging table (`device_session_agg_ml_staging`) was temporarily killed and needs to be recreated.",
+    "When querying the staging data, one must select from the full sharded table name to retrieve all records."
+  ],
+  "action_items": [
+    "Someone needs to address the instability/failure when attempting large-scale deletions on the staging table.",
+    "The new dwell time files uploaded to S3 dev should be reviewed and potentially processed for data ingestion."
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "chat_id": "8GgAuwAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 2,
+  "date_range": {
+    "start": "2023-03-01",
+    "end": "2023-03-01"
+  },
+  "message_count": 7,
+  "topic": "Missing assets related to facility",
+  "topic_slug": "missing-assets-related-to-facility",
+  "tags": [
+    "facility"
+  ],
+  "summary_markdown": "The conversation briefly shifts from personal apologies to a work topic. Someone asks if [me] deleted the assets they had requested, specifically those associated with the facility. [me] confirms that the assets were indeed deleted.",
+  "decisions": [
+    "Assets related to the facility were confirmed as deleted."
+  ],
+  "action_items": []
+}

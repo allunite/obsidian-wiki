@@ -1,0 +1,25 @@
+{
+  "chat_id": "y9IEDQAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2021-06-10",
+    "end": "2021-06-10"
+  },
+  "message_count": 29,
+  "topic": "Data file updates and processing status",
+  "topic_slug": "data-file-updates-and-processing-status",
+  "tags": [
+    "analytics",
+    "campaign",
+    "inventory"
+  ],
+  "summary_markdown": "The conversation focused on debugging a data reporting process. [me] tested an updated `curl` command to submit report data, confirming the script appeared functional. After identifying and pushing a fix for a second issue, the team agreed to run the job/jobbook.\n\n[p1] suggested notifying external parties that the data files had been corrected and should no longer be processed by them, to prevent potential errors from their handling of the updated files.",
+  "decisions": [
+    "Run the reporting job after implementing the fix."
+  ],
+  "action_items": [
+    "[p1] to notify external parties that data files have been corrected and should stop processing them."
+  ]
+}

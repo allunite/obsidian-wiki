@@ -1,0 +1,23 @@
+{
+  "chat_id": "-CTy84AAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 2,
+  "date_range": {
+    "start": "2022-03-18",
+    "end": "2022-03-18"
+  },
+  "message_count": 6,
+  "topic": "Website section implementation plan",
+  "topic_slug": "website-section-implementation-plan",
+  "tags": [
+    "analytics"
+  ],
+  "summary_markdown": "A discussion occurred regarding adding a new customer testimonial/case study section to the AllUnite website. [me] confirmed responsibility for technical support and website implementation. The proposed workflow is that someone provides the design and all necessary text content, which [me] will then implement or delegate to an Upwork contractor.",
+  "decisions": [
+    "The plan requires receiving design assets and finalized text content before implementation can begin."
+  ],
+  "action_items": [
+    "Someone will contact [me] in a few weeks once the required content is available."
+  ]
+}

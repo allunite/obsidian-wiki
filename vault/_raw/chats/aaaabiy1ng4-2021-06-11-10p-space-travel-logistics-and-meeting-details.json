@@ -1,0 +1,23 @@
+{
+  "chat_id": "AAAAbIy1nG4",
+  "kind": "Space",
+  "space_name": "AllUnite Workshop 2021",
+  "participants": 10,
+  "date_range": {
+    "start": "2021-06-11",
+    "end": "2021-06-11"
+  },
+  "message_count": 13,
+  "topic": "Travel logistics and meeting details",
+  "topic_slug": "travel-logistics-and-meeting-details",
+  "tags": [
+    "analytics"
+  ],
+  "summary_markdown": "The conversation focused on travel requirements for an upcoming event, including entry rules for Ukraine and Italy. Specific information was provided regarding testing procedures at both Bergamo Airport (for Denmark travelers) and Malpensa Airport (for Ukraine travelers). The intended destination hotel was identified as Hotel Ritter in Milan, with a link to the Grand Hotel Arenzano also shared.\n\nA meeting agenda was circulated via a Google Docs link.",
+  "decisions": [
+    "The group confirmed the location of the destination hotel is Hotel Ritter in Milan."
+  ],
+  "action_items": [
+    "Anastasiya needs to confirm the details regarding the destination hotel's address."
+  ]
+}

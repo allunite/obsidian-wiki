@@ -1,0 +1,26 @@
+{
+  "chat_id": "i6YI1QAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 2,
+  "date_range": {
+    "start": "2022-06-20",
+    "end": "2022-06-20"
+  },
+  "message_count": 42,
+  "topic": "Analyzing traffic discrepancies between stages",
+  "topic_slug": "analyzing-traffic-discrepancies-between-stages",
+  "tags": [
+    "analytics",
+    "dwell-time",
+    "session"
+  ],
+  "summary_markdown": "The discussion focused on resolving discrepancies in total traffic metrics (specifically `session_duration` and overall traffic) when comparing data between the staging (`ml_stage`) and production environments. Initial hypotheses for the discrepancy included differences in how `ml_stage` calculates factors, calibration, or if `ml_stage` differs from the live/production environment.\n\nTo resolve this, several adjustments were tested:\n*   **Dwell Time Fix:** It was decided to test removing a specific dwell time fix (related to two vendors) to see if the total metrics would align. This adjustment was implemented and reviewed.\n*   **Data Source Consistency:** The conversation noted that discrepancies might arise because `ml_stage` models were adjusted or recalculated, while production data might have remained untouched. It was suggested that for cleaner testing, only sample fields from a new dataset should be copied to PROD.\n\nThe overall goal is ensuring the metrics (like dwell time) are consistent across both environments.",
+  "decisions": [
+    "Test removing the specific dwell time fix related to two vendors to check for metric alignment."
+  ],
+  "action_items": [
+    "Review the impact of removing the dwell time fix on total traffic metrics.",
+    "Consider copying only sample fields from a new dataset into PROD for testing consistency."
+  ]
+}

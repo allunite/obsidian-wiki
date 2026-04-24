@@ -1,0 +1,27 @@
+{
+  "chat_id": "i6YI1QAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 2,
+  "date_range": {
+    "start": "2022-08-30",
+    "end": "2022-08-30"
+  },
+  "message_count": 16,
+  "topic": "Campaign metrics and inventory planning",
+  "topic_slug": "campaign-metrics-and-inventory-planning",
+  "tags": [
+    "campaign",
+    "impression",
+    "inventory",
+    "analytics"
+  ],
+  "summary_markdown": "The discussion focused on the timing of campaign metric analysis versus inventory work. [p1] initially inquired about when metrics (impressions and others) were needed for a specific campaign, noting that impressions were planned to be active the next day.\n\n[me] stated that current data was sufficient and confirmed they would start working on the request/metrics tomorrow. They noted that today was dedicated entirely to inventory work. [p1] suggested postponing inventory tasks to prioritize the campaign metrics analysis, as a client (Finland) required seeing the campaign results.",
+  "decisions": [
+    "The focus will shift from inventory work to campaign metric analysis starting tomorrow."
+  ],
+  "action_items": [
+    "[me] will start working on the requested campaign metrics tomorrow.",
+    "[p1] will continue refining the list of required metrics and will inform [me] if anything is needed from their side."
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "chat_id": "AAAAqeRkR58",
+  "kind": "Space",
+  "space_name": "Estonia",
+  "participants": 9,
+  "date_range": {
+    "start": "2021-09-22",
+    "end": "2021-09-22"
+  },
+  "message_count": 7,
+  "topic": "Reviewing installation data and videos",
+  "topic_slug": "reviewing-installation-data-and-videos",
+  "tags": [
+    "analytics",
+    "facility"
+  ],
+  "summary_markdown": "Information regarding a recent installation, including photos and two calibration videos, was shared. This material is intended for the IT or DATA team to review and provide feedback. The goal of this review is to identify potential changes or improvements needed for three future installations.",
+  "decisions": [],
+  "action_items": [
+    "IT/DATA team to review provided data and video for feedback on future installations."
+  ]
+}

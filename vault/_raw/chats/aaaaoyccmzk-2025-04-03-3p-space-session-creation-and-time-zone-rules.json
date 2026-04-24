@@ -1,0 +1,21 @@
+{
+  "chat_id": "AAAAoyCCmZk",
+  "kind": "Space",
+  "space_name": "Group Chat",
+  "participants": 3,
+  "date_range": {
+    "start": "2025-04-03",
+    "end": "2025-04-03"
+  },
+  "message_count": 3,
+  "topic": "Session creation and time zone rules",
+  "topic_slug": "session-creation-and-time-zone-rules",
+  "tags": [
+    "analytics"
+  ],
+  "summary_markdown": "The group discussed the mechanics of session tracking. It was confirmed that a new day always initiates a new session in production, or alternatively, sessions can be prevented from being created by looking at previous days. However, it was clarified that extending an existing session into a previous day is not possible. When referencing previous days for session analysis, the time zone standard must be UTC.",
+  "decisions": [
+    "Previous day's data must be referenced using UTC."
+  ],
+  "action_items": []
+}

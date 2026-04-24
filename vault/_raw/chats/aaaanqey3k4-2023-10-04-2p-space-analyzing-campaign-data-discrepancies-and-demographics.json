@@ -1,0 +1,27 @@
+{
+  "chat_id": "AAAANqEY3K4",
+  "kind": "Space",
+  "space_name": "Group Chat",
+  "participants": 2,
+  "date_range": {
+    "start": "2023-10-04",
+    "end": "2023-10-04"
+  },
+  "message_count": 37,
+  "topic": "Analyzing campaign data discrepancies and demographics",
+  "topic_slug": "analyzing-campaign-data-discrepancies-and-demographics",
+  "tags": [
+    "analytics",
+    "frame",
+    "inventory"
+  ],
+  "summary_markdown": "The discussion began with an investigation into a campaign dashboard showing zero metrics, despite data existing in the staging environment. It was suspected that the `stage_to_prod` script might be at fault.\n\nLater, the focus shifted to data structure issues where different files used conflicting frame IDs (`user_frame_id` vs. `mapa_frame_id`), suggesting a potential incomplete migration or update of the selection criteria.\n\nFinally, it was noted that current location selections lack demographic data. The proposed solutions included either generating temporary demographics by copying from neighboring sensors or implementing a default/average demographic value for future use.",
+  "decisions": [
+    "The team agreed to investigate the discrepancy between staging and production metrics, possibly related to the `stage_to_prod` script.",
+    "A plan was discussed to address missing demographic data by either copying from neighboring sensors or using a default/average value."
+  ],
+  "action_items": [
+    "Someone needs to investigate the data discrepancies in the campaign dashboard metrics (staging vs. production).",
+    "The team will explore generating temporary demographics for locations lacking data, potentially assigning this task to 'Zheka' or adding it to the PLMZ task list."
+  ]
+}

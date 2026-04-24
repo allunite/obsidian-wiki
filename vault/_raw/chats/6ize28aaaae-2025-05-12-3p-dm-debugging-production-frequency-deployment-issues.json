@@ -1,0 +1,25 @@
+{
+  "chat_id": "6ize28AAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2025-05-12",
+    "end": "2025-05-12"
+  },
+  "message_count": 16,
+  "topic": "Debugging production frequency deployment issues",
+  "topic_slug": "debugging-production-frequency-deployment-issues",
+  "tags": [
+    "analytics",
+    "campaign"
+  ],
+  "summary_markdown": "The conversation focused on debugging a deployed feature, specifically the frequency calculation for Citrus. Initial checks involved verifying the deployment of the frequency logic to production and confirming the correct mail endpoint. Later, discrepancies were noted between unique counts in analytics and staging environments, which was dismissed as minor floating-point differences. Finally, a critical error was identified in the ML API on production: `ValueError: A value (7837.0) in x_new is above the interpolation range's maximum value (5913)`, causing the service to reload. The issue was fixed by someone and deployed.",
+  "decisions": [
+    "The frequency deployment logic for Citrus was checked on production.",
+    "A fix for a small JSON error was implemented and deployed."
+  ],
+  "action_items": [
+    "Someone needs to investigate the `ValueError` in the ML API related to interpolation bounds (7837.0 vs 5913) to prevent service reloading."
+  ]
+}

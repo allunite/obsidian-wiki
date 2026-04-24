@@ -1,0 +1,22 @@
+{
+  "chat_id": "mQzF6wAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 2,
+  "date_range": {
+    "start": "2021-04-29",
+    "end": "2021-04-29"
+  },
+  "message_count": 17,
+  "topic": "Device data and connectivity troubleshooting",
+  "topic_slug": "device-data-and-connectivity-troubleshooting",
+  "tags": [
+    "analytics",
+    "impression"
+  ],
+  "summary_markdown": "The conversation focused on analyzing device data, noting that initial data was only available from two specific identifiers (001E423258BE and 001E4227115E), which both had new firmware versions. The participants discussed troubleshooting connectivity issues. A plan was established to switch the connection method if the current data flow remained problematic. Later, [p1] provided pings for two other identifiers (001E422C9BED and 001E422E9FA9), noting they were running firmware version 52.2 on LTE with a specific date.\n\nOverall, the data flow improved, with subsequent devices showing activity.",
+  "decisions": [
+    "A contingency plan was made to switch connection methods if initial device data remained unavailable."
+  ],
+  "action_items": []
+}

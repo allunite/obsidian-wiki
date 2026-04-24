@@ -1,0 +1,22 @@
+{
+  "chat_id": "ws0mTkAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 2,
+  "date_range": {
+    "start": "2023-10-19",
+    "end": "2023-10-19"
+  },
+  "message_count": 30,
+  "topic": "Weekend plans and sensor list discussion",
+  "topic_slug": "weekend-plans-and-sensor-list-discussion",
+  "tags": [
+    "analytics"
+  ],
+  "summary_markdown": "The conversation began with making weekend social plans (grilling meat and drinking). A secondary topic was the list of 60 sensors from JDS Brazil that had been discussed in the previous week.\n\nRegarding logistics, [me] confirmed available sleeping arrangements (a single bed, an old sofa for a couple, and two beanbag chairs).\n\nAfter initial attempts to confirm attendance failed due to scheduling conflicts, plans were solidified for Saturday. The final agreement was that both parties would contribute the meat and whiskey.",
+  "decisions": [
+    "The social gathering is confirmed for Saturday.",
+    "Both participants will bring the meat and whiskey."
+  ],
+  "action_items": []
+}

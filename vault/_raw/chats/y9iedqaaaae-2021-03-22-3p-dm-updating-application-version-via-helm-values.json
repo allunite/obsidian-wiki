@@ -1,0 +1,23 @@
+{
+  "chat_id": "y9IEDQAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2021-03-22",
+    "end": "2021-03-22"
+  },
+  "message_count": 22,
+  "topic": "Updating application version via helm values",
+  "topic_slug": "updating-application-version-via-helm-values",
+  "tags": [
+    "analytics"
+  ],
+  "summary_markdown": "The discussion focused on resolving an issue where the deployed application (mops) was running an outdated version (0.7.8 instead of 0.7.10). The root cause was identified as kubeapps overriding the container version specified in the values file.\n\nTo correctly update the deployment, a specific procedure was outlined:\n1. Export the current configuration using `helm get values mops-staging -n staging > staging-mods-values.yaml`.\n2. Edit the exported YAML file by removing the `USER-SUPPLIED VALUES:` header and the hardcoded image repository/tag details (e.g., `repository: ...`, `tag: ...`).\n3. Apply the update using `helm upgrade mods-staging allunite/mods -n staging --version <VERSION> --values staging-mods-values.yaml`.",
+  "decisions": [
+    "The application version must be updated using a specific helm workflow to ensure kubeapps does not override the desired image tag."
+  ],
+  "action_items": [
+    "Follow the prescribed steps: export current values, clean the file by removing user-supplied value headers and hardcoded image tags, then run `helm upgrade` with the new version and cleaned values file."
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "chat_id": "8GgAuwAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 2,
+  "date_range": {
+    "start": "2023-10-23",
+    "end": "2023-10-23"
+  },
+  "message_count": 7,
+  "topic": "Data model requirements for new location",
+  "topic_slug": "data-model-requirements-for-new-location",
+  "tags": [
+    "analytics",
+    "campaign"
+  ],
+  "summary_markdown": "The conversation focused on data modeling and requirements for a specific task. It was noted that the data model for the current company might differ from the original source's data. A requirement for exact, 1:1 copying of data was confirmed. To address this, someone suggested contacting Galina to request using the same Bus Shelter model used previously for two other locations/clients.",
+  "decisions": [
+    "The required data copy must be exactly 1:1."
+  ],
+  "action_items": [
+    "Contact Galina regarding the use of the existing Bus Shelter model for the new location(s)."
+  ]
+}

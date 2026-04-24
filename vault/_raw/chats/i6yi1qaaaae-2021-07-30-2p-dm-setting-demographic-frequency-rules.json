@@ -1,0 +1,21 @@
+{
+  "chat_id": "i6YI1QAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 2,
+  "date_range": {
+    "start": "2021-07-30",
+    "end": "2021-07-30"
+  },
+  "message_count": 10,
+  "topic": "Setting demographic frequency rules",
+  "topic_slug": "setting-demographic-frequency-rules",
+  "tags": [
+    "analytics"
+  ],
+  "summary_markdown": "The conversation focused on establishing the appropriate frequency and timing for applying demographic data rules. Initially, [p1] inquired about current best practices regarding weekly scheduling (e.g., morning/evening). [me] advised that any rule could be implemented, but suggested testing parameters such as '3 times within 30 or 60 days.' [p1] decided to proceed with a temporary rule of '2+ days within the week' while further testing is considered.",
+  "decisions": [
+    "Implement a temporary demographic frequency rule of 2+ days within the week."
+  ],
+  "action_items": []
+}

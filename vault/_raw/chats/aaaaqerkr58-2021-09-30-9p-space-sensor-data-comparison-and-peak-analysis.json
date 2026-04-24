@@ -1,0 +1,21 @@
+{
+  "chat_id": "AAAAqeRkR58",
+  "kind": "Space",
+  "space_name": "Estonia",
+  "participants": 9,
+  "date_range": {
+    "start": "2021-09-30",
+    "end": "2021-09-30"
+  },
+  "message_count": 12,
+  "topic": "Sensor data comparison and peak analysis",
+  "topic_slug": "sensor-data-comparison-and-peak-analysis",
+  "tags": [
+    "analytics"
+  ],
+  "summary_markdown": "The discussion focused on comparing sensor data (Lidar vs. general sensor readings). Initially, a difference in observed peaks was noted, specifically that the morning peak appeared lower. It was later determined that this perceived difference in peaks was due to time zone discrepancies (UTC vs. local time), and when both were standardized to UTC, the peaks were found to be consistent.\n\nAnother participant confirmed the accuracy of the technology stack by cross-checking 2D Lidar and Wi-Fi data.",
+  "decisions": [
+    "The difference in observed sensor peaks was attributed to time zone differences (UTC vs. local)."
+  ],
+  "action_items": []
+}

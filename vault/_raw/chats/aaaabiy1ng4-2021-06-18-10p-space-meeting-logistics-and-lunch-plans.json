@@ -1,0 +1,19 @@
+{
+  "chat_id": "AAAAbIy1nG4",
+  "kind": "Space",
+  "space_name": "AllUnite Workshop 2021",
+  "participants": 10,
+  "date_range": {
+    "start": "2021-06-18",
+    "end": "2021-06-18"
+  },
+  "message_count": 6,
+  "topic": "Meeting logistics and lunch plans",
+  "topic_slug": "meeting-logistics-and-lunch-plans",
+  "tags": [
+    "facility"
+  ],
+  "summary_markdown": "The session covered general meeting coordination. One participant noted that another was scheduled to give a presentation, followed by coordinating a group lunch outing.",
+  "decisions": [],
+  "action_items": []
+}

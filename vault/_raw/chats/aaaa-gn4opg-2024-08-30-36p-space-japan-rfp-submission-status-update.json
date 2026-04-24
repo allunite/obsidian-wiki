@@ -1,0 +1,19 @@
+{
+  "chat_id": "AAAA-gn4oPg",
+  "kind": "Space",
+  "space_name": "General and random",
+  "participants": 36,
+  "date_range": {
+    "start": "2024-08-30",
+    "end": "2024-08-30"
+  },
+  "message_count": 3,
+  "topic": "Japan RFP submission status update",
+  "topic_slug": "japan-rfp-submission-status-update",
+  "tags": [
+    "campaign"
+  ],
+  "summary_markdown": "A participant confirmed that the Japan Request for Proposal (RFP) has been submitted. Other participants offered congratulations and expressed hope for advancing to the next stages of the process.",
+  "decisions": [],
+  "action_items": []
+}

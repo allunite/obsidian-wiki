@@ -1,0 +1,24 @@
+{
+  "chat_id": "xdx5dQAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 2,
+  "date_range": {
+    "start": "2021-03-15",
+    "end": "2021-03-15"
+  },
+  "message_count": 17,
+  "topic": "Monitoring vendor additions in OUI data",
+  "topic_slug": "monitoring-vendor-additions-oui-data",
+  "tags": [
+    "analytics",
+    "inventory"
+  ],
+  "summary_markdown": "The conversation focused on monitoring the updates and changes within a specific OUI (Organizationally Unique Identifier) table. It was confirmed that new vendor names can be tracked, but tracking subnet changes or historical data beyond what is visible in the 'created' field is not possible.\n\nAs a solution, someone agreed to add the `created` date column to the OUI data for better tracking of when vendors were added.",
+  "decisions": [
+    "The `created` date will be added to the OUI table."
+  ],
+  "action_items": [
+    "Add 'created' date field to the OUI table."
+  ]
+}

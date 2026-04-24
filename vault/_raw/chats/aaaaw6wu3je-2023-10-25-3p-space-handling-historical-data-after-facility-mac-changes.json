@@ -1,0 +1,24 @@
+{
+  "chat_id": "AAAAw6wu3JE",
+  "kind": "Space",
+  "space_name": "Group Chat",
+  "participants": 3,
+  "date_range": {
+    "start": "2023-10-25",
+    "end": "2023-10-25"
+  },
+  "message_count": 10,
+  "topic": "Handling historical data after facility MAC changes",
+  "topic_slug": "handling-historical-data-after-facility-mac-changes",
+  "tags": [
+    "analytics",
+    "facility"
+  ],
+  "summary_markdown": "A discussion arose regarding the integrity of historical data in India following a change in MAC addresses between two facilities. The concern was how historical data remains linked when facility MAC addresses are modified. Someone noted that their team incorrectly changed the MACs, which disrupted the link between historical data (which was tied to one facility across different devices). They stated that the changes are being reverted, and instead, only the name and attributes will be updated.\n\nIt was advised not to consider today's or yesterday's data, as someone offered to recalculate those two days later.",
+  "decisions": [
+    "Historical data linkage is maintained by facility ID when MAC addresses change."
+  ],
+  "action_items": [
+    "Someone will recalculate the analytics for today and yesterday."
+  ]
+}

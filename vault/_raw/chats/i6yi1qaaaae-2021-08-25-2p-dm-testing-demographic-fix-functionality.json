@@ -1,0 +1,23 @@
+{
+  "chat_id": "i6YI1QAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 2,
+  "date_range": {
+    "start": "2021-08-25",
+    "end": "2021-08-25"
+  },
+  "message_count": 11,
+  "topic": "Testing demographic fix functionality",
+  "topic_slug": "testing-demographic-fix-functionality",
+  "tags": [
+    "analytics"
+  ],
+  "summary_markdown": "The conversation revolves around a recent commit by [p1] addressing demographics. [p1] asked if the fix could be tested, but [me] stated that only a small part is currently available for testing. [me] committed to deploying what can be tested today and promised immediate notification once it is ready.",
+  "decisions": [
+    "N/A"
+  ],
+  "action_items": [
+    "[me] to deploy testable portion of the demographic fix today."
+  ]
+}

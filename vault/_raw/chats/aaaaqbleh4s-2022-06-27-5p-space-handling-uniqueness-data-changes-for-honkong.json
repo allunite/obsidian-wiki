@@ -1,0 +1,24 @@
+{
+  "chat_id": "AAAAQbleh4s",
+  "kind": "Space",
+  "space_name": "Uniqueness methodology and R&F with hashing",
+  "participants": 5,
+  "date_range": {
+    "start": "2022-06-27",
+    "end": "2022-06-27"
+  },
+  "message_count": 3,
+  "topic": "Handling uniqueness data changes for HonKong",
+  "topic_slug": "handling-uniqueness-data-changes-for-honkong",
+  "tags": [
+    "analytics",
+    "impression"
+  ],
+  "summary_markdown": "The discussion focused on calculating and presenting unique path counts for the HonKong market. [p1] noted that while current data can be used, the numbers will change after the dashboard release. The immediate action was taken by [me] to recreate a `uniqOnSample` dataset for [p1]. A key concern raised was how to explain the discrepancy in unique path counts shown on the new dashboard versus the currently calculated figures.",
+  "decisions": [
+    "[me] will recreate the uniqOnSample dataset within half an hour."
+  ],
+  "action_items": [
+    "Determine how to communicate the change in unique path count methodology from current calculations to the new dashboard display for HonKong."
+  ]
+}

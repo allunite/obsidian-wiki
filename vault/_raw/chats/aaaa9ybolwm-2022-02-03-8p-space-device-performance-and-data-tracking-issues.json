@@ -1,0 +1,24 @@
+{
+  "chat_id": "AAAA9ybOLwM",
+  "kind": "Space",
+  "space_name": "ИТ",
+  "participants": 8,
+  "date_range": {
+    "start": "2022-02-03",
+    "end": "2022-02-03"
+  },
+  "message_count": 8,
+  "topic": "Device performance and data tracking issues",
+  "topic_slug": "device-performance-and-data-tracking-issues",
+  "tags": [
+    "analytics",
+    "impression"
+  ],
+  "summary_markdown": "Discussion covered the status of several device firmware updates. Specifically, *DP_2* was noted as problematic due to uneven packet counts (though this smooths out daily) and local failures/real data drops relative to other devices. *DP_5*'s packet count stabilized after updating, but traffic (both real and local) is slightly declining compared to others.\n\nSeparately, an issue was raised regarding the lack of real-time map data for Mediateco. The conversation concluded with a note that coordinates were forgotten/missing.",
+  "decisions": [
+    "The firmware version for DP_02 needs correction in the documentation."
+  ],
+  "action_items": [
+    "Someone needs to provide the missing coordinates."
+  ]
+}

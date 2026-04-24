@@ -1,0 +1,21 @@
+{
+  "chat_id": "y9IEDQAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2024-01-24",
+    "end": "2024-01-24"
+  },
+  "message_count": 8,
+  "topic": "Access and development scope clarification",
+  "topic_slug": "access-and-development-scope-clarification",
+  "tags": [
+    "analytics"
+  ],
+  "summary_markdown": "A discussion occurred regarding data access limitations, specifically concerning the sandbox-clickhouse environment. Later in the conversation, a specific development task related to VIOOH was discussed and subsequently canceled or deemed unnecessary.",
+  "decisions": [
+    "The VIOOH development task is no longer required."
+  ],
+  "action_items": []
+}

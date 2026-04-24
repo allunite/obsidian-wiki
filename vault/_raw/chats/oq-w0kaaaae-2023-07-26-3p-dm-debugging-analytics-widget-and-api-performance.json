@@ -1,0 +1,29 @@
+{
+  "chat_id": "oq-w0kAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2023-07-26",
+    "end": "2023-07-26"
+  },
+  "message_count": 67,
+  "topic": "Debugging analytics widget and API performance",
+  "topic_slug": "debugging-analytics-widget-and-api-performance",
+  "tags": [
+    "analytics",
+    "campaign",
+    "frame",
+    "facility"
+  ],
+  "summary_markdown": "The discussion covered multiple technical issues related to the analytics dashboard and associated APIs. Initially, a widget displaying demographics was found to be incorrectly showing data when it should not have been active, requiring an urgent hotfix.\n\nLater discussions focused on optimizing API endpoints, specifically `/api/campaigns/target/total-traffic`. Issues included:\n*   **Frame Count Discrepancy:** A discrepancy was noted where the payload contained multiple frames (e.g., \"10985,13436\"), but the response only returned a single frame count (`frames: 1`). It was determined that the `frames` field should be zero because it is derived from an aggregate with traffic data, which may not exist for all facilities.\n*   **Memory Limits:** Attempts to create campaigns using this API endpoint failed with a `DB::Exception: Memory limit (total) exceeded`, suspected to be due to an excessive number of frames in the payload. The need for query optimization was identified.\n\nAdditionally, issues were noted regarding data integrity on staging and sandbox environments, including unexpected population of records and general instability following recent deployments.",
+  "decisions": [
+    "The demographic widget logic should check if 'total from demographics' > 0 instead of checking if 'overall total' > 0 to determine visibility.",
+    "The `frames` field in the response for `/api/campaigns/target/total-traffic` must be set to 0, as it is derived from an aggregate that may not apply universally."
+  ],
+  "action_items": [
+    "Implement logic change for demographic widget visibility.",
+    "Optimize queries and data handling related to frames in the API endpoints (sandbox and production).",
+    "Investigate memory limit errors when creating campaigns via `/api/campaigns/target/total-traffic`."
+  ]
+}

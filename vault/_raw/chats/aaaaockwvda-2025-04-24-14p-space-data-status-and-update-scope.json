@@ -1,0 +1,21 @@
+{
+  "chat_id": "AAAAOcKWvdA",
+  "kind": "Space",
+  "space_name": "Delivery Coordination",
+  "participants": 14,
+  "date_range": {
+    "start": "2025-04-24",
+    "end": "2025-04-24"
+  },
+  "message_count": 4,
+  "topic": "Data status and update scope",
+  "topic_slug": "data-status-and-update-scope",
+  "tags": [
+    "analytics"
+  ],
+  "summary_markdown": "The data was confirmed to be okay, with no issues regarding timing. A request was made for an update/rollout of the information. When asked if the update covered all areas (PAR and Finiv), it was stated that testing was only done on PAR, and the status for Finiv could not be confirmed.",
+  "decisions": [],
+  "action_items": [
+    "Determine the scope of the required data update (all locations or specific ones)."
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "chat_id": "i6YI1QAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 2,
+  "date_range": {
+    "start": "2022-02-07",
+    "end": "2022-02-07"
+  },
+  "message_count": 4,
+  "topic": "Analyzing Finland morning session data",
+  "topic_slug": "analyzing-finland-morning-session-data",
+  "tags": [
+    "analytics",
+    "session"
+  ],
+  "summary_markdown": "Someone requested an investigation into Finnish data peaks observed around 6 AM. The concern is that these peaks are not visible in real-time analytics but only appear later within session reports, and the goal is to ensure this discrepancy does not cause issues for AllUnite.",
+  "decisions": [],
+  "action_items": [
+    "Investigate why Finland's 6 AM data peaks appear in sessions but not in real-time."
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "chat_id": "0m7UOUAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2025-04-29",
+    "end": "2025-04-29"
+  },
+  "message_count": 7,
+  "topic": "Understanding data packet fields and types",
+  "topic_slug": "understanding-data-packet-fields-and-types",
+  "tags": [
+    "analytics"
+  ],
+  "summary_markdown": "The conversation clarified the meaning of the `is_data` field within a dataset. It was established that if `is_data` is set, it indicates a data packet (not a probe). Specifically, when `is_data=0`, the packets are primarily probes, though they might also include handshakes or beacons.",
+  "decisions": [
+    "Confirmed that `is_data=0` signifies mostly probe-type packets."
+  ],
+  "action_items": []
+}

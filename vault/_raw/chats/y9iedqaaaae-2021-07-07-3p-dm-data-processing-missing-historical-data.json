@@ -1,0 +1,26 @@
+{
+  "chat_id": "y9IEDQAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2021-07-07",
+    "end": "2021-07-07"
+  },
+  "message_count": 42,
+  "topic": "Data processing and missing historical data",
+  "topic_slug": "data-processing-missing-historical-data",
+  "tags": [
+    "analytics",
+    "campaign",
+    "impression"
+  ],
+  "summary_markdown": "The conversation focused on a data pipeline issue where the `seen_ch` data was not being written to S3 for June 2021. The process involves an MQTT to Kinesis flow, which is confirmed to handle reduced traffic from ad units (боксов). It was noted that while the raw data was missing in S3, it still exists within the database structure (ClickHouse).\n\nRegarding the code fix, one participant committed an updated job and found references to the required logic primarily in SQL files rather than Python files. A manual reprocessing of data from June 7th to July 6th is necessary. The participants discussed potential improvements to the script's date handling, noting that the original code checked for the earliest date in the database.",
+  "decisions": [
+    "The updated job was committed to address the data pipeline issue.",
+    "Manual reprocessing of data from June 7th to July 6th is required."
+  ],
+  "action_items": [
+    "Someone needs to manually process and backfill the missing `seen_ch` data for the specified date range (07.06 to 06.07)."
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "chat_id": "0VorOYAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2024-07-25",
+    "end": "2024-07-25"
+  },
+  "message_count": 24,
+  "topic": "Forecasting data for offline sensor facilities",
+  "topic_slug": "forecasting-data-for-offline-sensor-facilities",
+  "tags": [
+    "analytics",
+    "facility",
+    "session",
+    "forecast"
+  ],
+  "summary_markdown": "The discussion focused on discrepancies and gaps in session data for specific virtual and physical facilities (e.g., 20000, 20042) belonging to JCD Brazil 7885. The issue is that the recorded sensor sessions stop at a certain date, after which only synthetic/predicted data (`is_syntetic=1`, `is_fake=1`) appears for a limited time before ceasing entirely in the concept tables.\n\nA key decision was made regarding the need to re-run or correct the forecasting process. It was determined that the current forecast needs to be regenerated for all facilities that went offline, covering the entire period of missing data.\n\nIt was noted that client permission is required before making any changes to the data, and this will likely need to happen in August.",
+  "decisions": [
+    "The forecasting process must be re-run/corrected for all facilities that have gone offline.",
+    "Client approval is needed before implementing any data changes or forecasts."
+  ],
+  "action_items": [
+    "[me] needs a list of facilities and their corresponding start dates for the forecast run.",
+    "The team will check with Galina regarding client consent requirements."
+  ]
+}

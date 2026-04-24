@@ -1,0 +1,25 @@
+{
+  "chat_id": "AAAAl4SgH7c",
+  "kind": "Space",
+  "space_name": "Lithuania_old",
+  "participants": 6,
+  "date_range": {
+    "start": "2021-06-08",
+    "end": "2021-06-08"
+  },
+  "message_count": 11,
+  "topic": "Mall data release and client notification",
+  "topic_slug": "mall-data-release-and-client-notification",
+  "tags": [
+    "analytics",
+    "campaign"
+  ],
+  "summary_markdown": "The Mall data was reviewed and confirmed as acceptable for release. The team proceeded with the release of this data. Following the release, confirmation was sought regarding when to send the client notification email. It was decided that the client should be informed about the calibration and validation of the Mall data.",
+  "decisions": [
+    "The Mall data is cleared for release.",
+    "The client will be notified about the calibration and validation of the Mall data."
+  ],
+  "action_items": [
+    "Someone needs to send the email notification to the customer regarding the released Mall data."
+  ]
+}

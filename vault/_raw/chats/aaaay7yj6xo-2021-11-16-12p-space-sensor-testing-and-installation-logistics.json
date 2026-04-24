@@ -1,0 +1,25 @@
+{
+  "chat_id": "AAAAy7Yj6Xo",
+  "kind": "Space",
+  "space_name": "IT",
+  "participants": 12,
+  "date_range": {
+    "start": "2021-11-16",
+    "end": "2021-11-16"
+  },
+  "message_count": 8,
+  "topic": "Sensor testing and installation logistics",
+  "topic_slug": "sensor-testing-and-installation-logistics",
+  "tags": [
+    "facility",
+    "analytics"
+  ],
+  "summary_markdown": "A discussion regarding the feasibility of installing sensors in Fisketorvet to capture internet data from a specific Wi-Fi network (SCTVNET). The plan involves testing the equipment, potentially at the office or directly at Fisketorvet. Concerns were raised about necessary firewalls for the Mall location.",
+  "decisions": [
+    "The team will set up and test a sensor either in the office or at Fisketorvet tomorrow."
+  ],
+  "action_items": [
+    "Determine if the equipment needs to be delivered to Gamel Mont this week.",
+    "Address firewall requirements for the Mall location during testing."
+  ]
+}

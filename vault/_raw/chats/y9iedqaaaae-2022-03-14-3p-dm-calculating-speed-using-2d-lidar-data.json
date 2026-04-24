@@ -1,0 +1,23 @@
+{
+  "chat_id": "y9IEDQAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2022-03-14",
+    "end": "2022-03-14"
+  },
+  "message_count": 9,
+  "topic": "Calculating speed using 2D lidar data",
+  "topic_slug": "calculating-speed-using-2d-lidar-data",
+  "tags": [
+    "analytics"
+  ],
+  "summary_markdown": "The discussion focused on the methodology for calculating speed from 2D lidar data. Someone was asked to modify a formula to include height, as requested by another party. [me] provided a link to a materialized view and advised [p1] to use the underlying query separately for testing before updating the main view.",
+  "decisions": [
+    "The calculation of speed using 2D lidar data needs modification to incorporate height."
+  ],
+  "action_items": [
+    "[p1] will test and modify the provided SQL query today."
+  ]
+}

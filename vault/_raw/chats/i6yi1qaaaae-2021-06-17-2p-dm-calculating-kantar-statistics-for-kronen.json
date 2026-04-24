@@ -1,0 +1,22 @@
+{
+  "chat_id": "i6YI1QAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 2,
+  "date_range": {
+    "start": "2021-06-17",
+    "end": "2021-06-17"
+  },
+  "message_count": 28,
+  "topic": "Calculating Kantar statistics for Kronen",
+  "topic_slug": "calculating-kantar-statistics-for-kronen",
+  "tags": [
+    "analytics",
+    "campaign"
+  ],
+  "summary_markdown": "The conversation focused on retrieving and updating statistical data for Kantar related to Kronen. The initial request was for scripts used in October to calculate statistics for a specific week in 2021. [me] provided the necessary SQL script link and confirmed that the calculation is intended for weekly data, not monthly.\n\nLater, [me] executed the queries and shared the results/scripting logic, confirming the scope was indeed limited to one week (March 7-13, 2021).",
+  "decisions": [
+    "The statistical calculations are confined to a single week's data."
+  ],
+  "action_items": []
+}

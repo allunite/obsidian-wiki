@@ -1,0 +1,25 @@
+{
+  "chat_id": "i6YI1QAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 2,
+  "date_range": {
+    "start": "2021-03-04",
+    "end": "2021-03-04"
+  },
+  "message_count": 41,
+  "topic": "Comparing local vs real data models",
+  "topic_slug": "comparing-local-vs-real-data-models",
+  "tags": [
+    "analytics",
+    "campaign",
+    "inventory"
+  ],
+  "summary_markdown": "The discussion covered the technical requirements for creating a dataset capable of comparing two predictive models: one based on local data and another incorporating both local and real-world data. Specific dataset structures were outlined, including using `Prod dataset ml data` (current model/raw total) and `ml_staging` (local-only model), while ensuring the integrity of the main production dataset.\n\nA separate discussion focused on historical data collection practices regarding vendor ID 0. It was noted that Vendor=0 records were present in the `device_session_concept` table, particularly for sessions before 2020. The field `is_old_vendor` was identified as a key indicator: a value of '1' signifies that the vendor was included in older samples, while '0' means the record was excluded.",
+  "decisions": [
+    "The structure for comparing local and real data models requires maintaining the integrity of the main production dataset."
+  ],
+  "action_items": [
+    "Review historical data collection practices regarding Vendor=0 records using the `is_old_vendor` field in `device_session_concept`."
+  ]
+}

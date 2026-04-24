@@ -1,0 +1,23 @@
+{
+  "chat_id": "oq-w0kAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2024-04-08",
+    "end": "2024-04-08"
+  },
+  "message_count": 9,
+  "topic": "Screen report endpoint parameters confirmation",
+  "topic_slug": "screen-report-endpoint-parameters-confirmation",
+  "tags": [
+    "analytics"
+  ],
+  "summary_markdown": "A new screen report endpoint was shared in a separate branch. The conversation confirmed that the `report/screens` endpoint accepts the exact same parameters used for metric calculations.",
+  "decisions": [
+    "The screen report endpoint is confirmed to use the same parameters as existing metric calculation endpoints."
+  ],
+  "action_items": [
+    "Someone plans to merge the new screen report endpoint into the develop branch today."
+  ]
+}

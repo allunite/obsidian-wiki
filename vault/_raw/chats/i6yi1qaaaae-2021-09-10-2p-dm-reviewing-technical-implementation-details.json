@@ -1,0 +1,21 @@
+{
+  "chat_id": "i6YI1QAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 2,
+  "date_range": {
+    "start": "2021-09-10",
+    "end": "2021-09-10"
+  },
+  "message_count": 14,
+  "topic": "Reviewing technical implementation details",
+  "topic_slug": "reviewing-technical-implementation-details",
+  "tags": [
+    "analytics"
+  ],
+  "summary_markdown": "The conversation focused on reviewing the technical feasibility and requirements for a project. [p1] shared an updated document detailing ideas, including a real-time implementation concept modeled after Google's approach. This involved changing the categorization from 'Desktop and Mobile/Pedestrians and Vehicles' to new color-coded categories.",
+  "decisions": [],
+  "action_items": [
+    "Schedule a follow-up call to discuss technical questions and implementation speed."
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "chat_id": "i6YI1QAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 2,
+  "date_range": {
+    "start": "2021-06-12",
+    "end": "2021-06-12"
+  },
+  "message_count": 8,
+  "topic": "Data script execution and model building",
+  "topic_slug": "data-script-execution-and-model-building",
+  "tags": [
+    "analytics",
+    "session"
+  ],
+  "summary_markdown": "The conversation revolves around data availability and the need to run a SQL query against `allunite.device_session_concept`. [p1] noted that metrics (ML) were unavailable due to missing data. Later, [p1] requested that someone rerun the script to ensure model data was built for June 11th. This request was confirmed and executed.",
+  "decisions": [
+    "The script will be rerun to build model data for June 11th."
+  ],
+  "action_items": []
+}

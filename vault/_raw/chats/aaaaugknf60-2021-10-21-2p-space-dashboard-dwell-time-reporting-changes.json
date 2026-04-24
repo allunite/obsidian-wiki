@@ -1,0 +1,27 @@
+{
+  "chat_id": "AAAAUgkNf60",
+  "kind": "Space",
+  "space_name": "Group Chat",
+  "participants": 2,
+  "date_range": {
+    "start": "2021-10-21",
+    "end": "2021-10-21"
+  },
+  "message_count": 25,
+  "topic": "Dashboard dwell time reporting changes",
+  "topic_slug": "dashboard-dwell-time-reporting-changes",
+  "tags": [
+    "analytics",
+    "dwell-time",
+    "report"
+  ],
+  "summary_markdown": "The discussion focused on the inclusion and presentation of dwell time data in reports. It was noted that including high night-time dwell times (e.g., for a specific German location) could lead to unnecessary questions from clients.\n\n**Decisions/Changes:**\n*   Dwell time will be removed from the main report dashboard to prevent confusion and avoid unnecessary client inquiries.\n*   The data is available on the product side but must be exported separately from a dedicated chart, as it is not included in the primary report view.",
+  "decisions": [
+    "Remove dwell time from the main report dashboard",
+    "Dwell time should be extracted via separate charting/export rather than being part of the core report"
+  ],
+  "action_items": [
+    "[me] deployed the updated report (with dwell time removed) to staging.",
+    "[me] deployed the updated report to production."
+  ]
+}

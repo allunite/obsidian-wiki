@@ -1,0 +1,28 @@
+{
+  "chat_id": "0VorOYAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2022-07-22",
+    "end": "2022-07-22"
+  },
+  "message_count": 46,
+  "topic": "Sensor signal levels and data recalculation",
+  "topic_slug": "sensor-signal-levels-and-data-recalculation",
+  "tags": [
+    "analytics",
+    "facility",
+    "campaign",
+    "session"
+  ],
+  "summary_markdown": "The discussion covered setting default signal levels for new sensors in Germany (company 7856). Initially, the required signals were specified for bus shelters and city train stations. It was noted that while a company-level default level of 81 exists on production, it is missing on staging. The team agreed to proceed with testing the category defaults on staging first; if successful, they may be applied to all categories.\n\nA second major topic was recalculating historical data (ml_traffic_prediction). It was discussed whether the calculation could be limited to specific new locations installed in July instead of running for the entire company. The consensus leaned towards using `WHERE` clauses based on facility numbers when querying or deleting records, which was confirmed as feasible if the facilities are not clustered.\n\nThe session concluded with a request to correct default signal levels for two specific devices (JCD_DE_119146 and JCD_DE_21333) in Germany.",
+  "decisions": [
+    "The team will test applying category-specific default signals on staging before rolling out company-wide changes.",
+    "Historical data recalculations should utilize `WHERE` clauses filtering by specific facility numbers to limit the scope of changes."
+  ],
+  "action_items": [
+    "Update default signal levels for JCD_DE_119146 (should be 81) and JCD_DE_21333 (should be 89) in Germany.",
+    "Review proposed SQL queries/scripts for data recalculation."
+  ]
+}

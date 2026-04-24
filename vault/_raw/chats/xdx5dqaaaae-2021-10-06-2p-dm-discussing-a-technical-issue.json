@@ -1,0 +1,21 @@
+{
+  "chat_id": "xdx5dQAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 2,
+  "date_range": {
+    "start": "2021-10-06",
+    "end": "2021-10-06"
+  },
+  "message_count": 3,
+  "topic": "Discussing a technical issue",
+  "topic_slug": "discussing-a-technical-issue",
+  "tags": [
+    "analytics"
+  ],
+  "summary_markdown": "The conversation initiated by [me] suggests that a system or process has encountered an unexpected problem, described as 'broken while fixing' or similar. The purpose of the chat is to discuss this issue.",
+  "decisions": [],
+  "action_items": [
+    "Discuss the technical issue."
+  ]
+}

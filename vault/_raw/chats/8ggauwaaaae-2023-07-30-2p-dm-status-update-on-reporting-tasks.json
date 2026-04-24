@@ -1,0 +1,19 @@
+{
+  "chat_id": "8GgAuwAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 2,
+  "date_range": {
+    "start": "2023-07-30",
+    "end": "2023-07-30"
+  },
+  "message_count": 4,
+  "topic": "Status update on reporting tasks",
+  "topic_slug": "status-update-on-reporting-tasks",
+  "tags": [
+    "analytics"
+  ],
+  "summary_markdown": "Someone reminded [me] about outstanding reports. [me] provided a status update, confirming completion for task 1 and 3, and noting that task 2 requires only the FrameID.",
+  "decisions": [],
+  "action_items": []
+}

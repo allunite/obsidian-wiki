@@ -1,0 +1,26 @@
+{
+  "chat_id": "8GgAuwAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 2,
+  "date_range": {
+    "start": "2023-05-17",
+    "end": "2023-05-17"
+  },
+  "message_count": 16,
+  "topic": "Facility clustering and inventory updates",
+  "topic_slug": "facility-clustering-and-inventory-updates",
+  "tags": [
+    "facility",
+    "inventory"
+  ],
+  "summary_markdown": "The discussion covered several data structure adjustments. First, a potential issue regarding multi-company users was raised: if one company has demographic data, that percentage might be applied to all traffic for the entire group. This needs checking using OOHothers as an example.\n\nRegarding facility management, instructions were given to cluster three specific facilities (related to Belle) into a single inventory cluster within the system. It was confirmed that this task could be performed directly in the inventory section. Later, updates included placing JCD Brazil under the main JCD partner account and moving the fake JCD clocks away from MAPA, making them independent of any partner structure.\n\nFinally, one participant confirmed successfully clustering the Belle facilities.",
+  "decisions": [
+    "JCDecaux Finland should be associated with a different partner.",
+    "JCD Brazil must be entered under the main JCD partner account (HQ).",
+    "The three specified Belle facilities were clustered into an inventory cluster."
+  ],
+  "action_items": [
+    "Check multi-company user demographic data application using OOHothers as a test case."
+  ]
+}

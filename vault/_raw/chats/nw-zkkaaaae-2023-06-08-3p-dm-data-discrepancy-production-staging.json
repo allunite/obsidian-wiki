@@ -1,0 +1,24 @@
+{
+  "chat_id": "nW_zkkAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2023-06-08",
+    "end": "2023-06-08"
+  },
+  "message_count": 9,
+  "topic": "Data discrepancy between production and staging environments",
+  "topic_slug": "data-discrepancy-production-staging",
+  "tags": [
+    "analytics",
+    "session"
+  ],
+  "summary_markdown": "A data query was shared highlighting a potential discrepancy: the dataset appears to have records for 'prod' but not for 'stage', or vice versa, specifically regarding session data. The user noted that running queries against `device_session_agg_ml` (presumably production) showed missing data starting from 2023-05-11 23:00:00, while querying `device_session_agg_ml_staging` showed available stage data.\n\nThe user clarified that in the context of the query parameters used (`agg_version`), version 7 corresponds to 'stage' and version 8 corresponds to 'prod'. The discrepancy was attributed by [me] to a possible lack of records or a disabled status within the `ml_table` (production) at the time of checking, suggesting it may have only recently become active.",
+  "decisions": [
+    "The data source for staging is confirmed to be version 7, and production is version 8."
+  ],
+  "action_items": [
+    "Participants agreed that a phone call might be easier than continuing the discussion via chat."
+  ]
+}

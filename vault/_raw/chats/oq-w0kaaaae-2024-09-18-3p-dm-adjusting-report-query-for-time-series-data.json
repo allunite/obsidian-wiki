@@ -1,0 +1,22 @@
+{
+  "chat_id": "oq-w0kAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2024-09-18",
+    "end": "2024-09-18"
+  },
+  "message_count": 8,
+  "topic": "Adjusting report query for time series data",
+  "topic_slug": "adjusting-report-query-for-time-series-data",
+  "tags": [
+    "analytics",
+    "recalc-ch"
+  ],
+  "summary_markdown": "The discussion focused on modifying a specific API endpoint (`/api/dashboard/traffic/report-xlsx`) to correctly handle time series data for comparative reporting. The goal is to allow users to select any arbitrary period and compare it against an identical preceding period, which requires making the underlying query less granular.\n\nInitially, the report was generating unnecessary granularity (time series) when only a single total number for the selected period was needed. A temporary solution suggested adding `no granulation` or setting the granularity to 'century' (`gran: c`). The technical discussion confirmed that PostgreSQL has functions like `toStartOfInterval(t, INTERVAL 100 YEAR)` which can be used to manage time intervals and reduce required data granularity for accurate comparison reporting.",
+  "decisions": [
+    "The report query needs modification to suppress unnecessary time series granularity when calculating period comparisons."
+  ],
+  "action_items": []
+}

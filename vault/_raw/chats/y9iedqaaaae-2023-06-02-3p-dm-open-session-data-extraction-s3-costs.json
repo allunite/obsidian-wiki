@@ -1,0 +1,25 @@
+{
+  "chat_id": "y9IEDQAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2023-06-02",
+    "end": "2023-06-02"
+  },
+  "message_count": 67,
+  "topic": "Open session data extraction and S3 costs",
+  "topic_slug": "open-session-data-extraction-s3-costs",
+  "tags": [
+    "analytics",
+    "session",
+    "inventory"
+  ],
+  "summary_markdown": "The discussion focused on the technical implementation for extracting open session data. Initially, it was noted that real-time functionality is no longer active due to changes in boxdatagrinder, and the current daily traffic growth suggests continued monitoring.\n\nRegarding open sessions, [p1] suggested creating a service to periodically extract unclosed sessions from ClickHouse (CH) and send them elsewhere. The conversation confirmed that sending data every 5 seconds is unnecessary because chunks of data are flushed from the buffer every one to two minutes.\n\nSeparately, there was concern over a significant spike in S3 costs observed on May 31st. It was estimated that while the current cost ($30) is high for a short period, the total annual cost would be manageable (around $100).\n\n[me] suggested an alternative approach to handling session data by mapping packed CSV files directly to tables, which might be slower but could bypass complex engine requirements like MergeTree.",
+  "decisions": [
+    "A dedicated service will be created to periodically extract unclosed sessions from ClickHouse and send them out."
+  ],
+  "action_items": [
+    "Someone needs to confirm if the external system actually utilizes the open session data being extracted."
+  ]
+}

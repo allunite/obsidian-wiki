@@ -1,0 +1,24 @@
+{
+  "chat_id": "oCgFCIAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2022-10-11",
+    "end": "2022-10-11"
+  },
+  "message_count": 44,
+  "topic": "Time zone handling and display issues",
+  "topic_slug": "time-zone-handling-and-display-issues",
+  "tags": [
+    "analytics",
+    "session"
+  ],
+  "summary_markdown": "The discussion focused on persistent time zone errors observed in the analytics dashboard, particularly concerning how the system determines the correct timezone for data visualization. Initial suspicion was placed on database settings or code changes, but it was determined that the issue stemmed from client-side JavaScript libraries (moment.js) and browser updates (specifically Chrome). The core problem is that the library's `timeZone` detection function (`Intl.DateTimeFormat().resolvedOptions().timeZone`) now defaults to `Europe/Kyiv`, even when other timezones are expected or required, causing inconsistencies across different pages and facilities.\n\nThe team confirmed that while some parts of the system (like production) handled zone changes gracefully, others were failing or defaulting incorrectly. The discussion concluded that the issue is related to how modern browsers report local time zones, rather than a systemic backend failure.",
+  "decisions": [
+    "The root cause of the timezone inconsistency was identified as client-side JavaScript library behavior influenced by browser updates (Chrome)."
+  ],
+  "action_items": [
+    "Investigate if ClickHouse has been updated to support `Europe/Kyiv` or similar modern zone names."
+  ]
+}

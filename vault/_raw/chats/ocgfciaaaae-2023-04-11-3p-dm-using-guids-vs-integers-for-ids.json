@@ -1,0 +1,22 @@
+{
+  "chat_id": "oCgFCIAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2023-04-11",
+    "end": "2023-04-11"
+  },
+  "message_count": 33,
+  "topic": "Using GUIDs vs Integers for IDs",
+  "topic_slug": "using-guids-vs-integers-for-ids",
+  "tags": [
+    "analytics",
+    "inventory"
+  ],
+  "summary_markdown": "The discussion centered on the best practice for using unique identifiers (GUIDs vs. integers) when developing campaign and asset structures.\n\n*   **Initial Concern:** One participant questioned the necessity of GUIDs, suggesting that serial integers might suffice for new entities like campaigns and campaign packages.\n*   **Technical Discussion:** The use of GUIDs was discussed in relation to preventing accidental data mixing (e.g., using a user ID instead of a facility ID) and maintaining system integrity across different components (campaigns, assets, frames).\n*   **Conclusion on Best Practice:** Both participants agreed that for core entities—specifically campaigns, facilities, and assets—retaining GUIDs is the preferred best practice due to established system architecture and overall data consistency. However, it was noted that for certain areas, like frames, using integers might be more practical.\n*   **Rationale for GUIDs:** The primary arguments supporting GUIDs included preventing accidental cross-entity data linkage and maintaining compatibility with existing systems built on this standard.",
+  "decisions": [
+    "Core entities (campaigns, facilities, assets) will continue to use GUIDs as the primary identifier."
+  ],
+  "action_items": []
+}

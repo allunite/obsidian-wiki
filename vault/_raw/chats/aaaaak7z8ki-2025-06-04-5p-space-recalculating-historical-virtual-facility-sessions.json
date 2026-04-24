@@ -1,0 +1,26 @@
+{
+  "chat_id": "AAAAaK7z8KI",
+  "kind": "Space",
+  "space_name": "Group Chat",
+  "participants": 5,
+  "date_range": {
+    "start": "2025-06-04",
+    "end": "2025-06-04"
+  },
+  "message_count": 23,
+  "topic": "Recalculating historical virtual facility sessions",
+  "topic_slug": "recalculating-historical-virtual-facility-sessions",
+  "tags": [
+    "analytics",
+    "session",
+    "facility"
+  ],
+  "summary_markdown": "The discussion focused on recalculating session data for virtual facilities (using target IDs) starting from June 1, 2024. Initially, the process involved running a script to create historical virtual sessions.\n\nWhen the script failed due to memory limits after processing 92 facilities, it was determined that the existing inserted data needed to be cleared before re-running the calculation without validation checks.\n\nThe proposed cleanup included deleting records from `device_session_sharded` and `device_session_trusted_sharded`. The recommendation was to delete from both tables for robustness. A suggestion was also made to add a filter condition (`is_virtual=1`) during deletion, though this might be optional depending on the data.\n\nThe script owner committed to modifying the script to handle potential crashes during the process.",
+  "decisions": [
+    "The existing virtual session records must be cleared from `device_session_sharded` and `device_session_trusted_sharded` before re-running the calculation."
+  ],
+  "action_items": [
+    "Someone needs to run the modified script after clearing the specified tables.",
+    "The script owner will update the script to prevent crashes during execution."
+  ]
+}

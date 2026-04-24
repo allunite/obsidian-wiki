@@ -1,0 +1,23 @@
+{
+  "chat_id": "oCgFCIAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2022-12-07",
+    "end": "2022-12-07"
+  },
+  "message_count": 5,
+  "topic": "Component layout and status flow logic",
+  "topic_slug": "component-layout-and-status-flow-logic",
+  "tags": [
+    "analytics",
+    "frame",
+    "jsonforms"
+  ],
+  "summary_markdown": "The discussion focused on developing a component layout, specifically for location images and general page composition. It was suggested that the final design might involve a unified page layout with individual JSONForms placed within tabs.\n\nA separate technical point raised concerned status management within frames. The requirement is to implement a linked dropdown menu (dropdown) that dictates possible transitions between statuses. It was determined that standard dropdown functionality, listing permissible next steps from the current status, should suffice for this feature.",
+  "decisions": [
+    "The page layout may use a general composition with individual JSONForms placed in tabs."
+  ],
+  "action_items": []
+}

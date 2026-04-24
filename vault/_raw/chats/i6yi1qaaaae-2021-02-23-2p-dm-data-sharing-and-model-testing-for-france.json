@@ -1,0 +1,27 @@
+{
+  "chat_id": "i6YI1QAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 2,
+  "date_range": {
+    "start": "2021-02-23",
+    "end": "2021-02-23"
+  },
+  "message_count": 48,
+  "topic": "Data sharing and model testing for France",
+  "topic_slug": "data-sharing-and-model-testing-for-france",
+  "tags": [
+    "analytics",
+    "inventory",
+    "campaign"
+  ],
+  "summary_markdown": "The discussion covered two main topics: sensor data structure and external data requirements.\n\n1. **Sensor Data Structure:** [p1] noted that sensors are currently installed with various antennas, though only one type is planned for the future. A mechanism is needed to specify which antenna belongs to a given sensor for subsequent analysis (JCDEC-284).\n2. **External Model Testing (France):** The team confirmed plans to provide data for France to an external party so they can run their model and compare results using two different sensors and two models. Data sharing involves providing both new and old sensor data to assess impact. The required format was detailed, suggesting S3 buckets with a specific structure (`s3://jcd-XXX-datacorp-[redacted]-DATE.json`). It was noted that the external party might prefer using a data API rather than just receiving files.\n\n**Technical Issue:** [p1] reported difficulty retrieving `raw_devices_seen` data from PostgreSQL, which was resolved by noting that the new firmware writes this raw seen data to a different channel (CH) instead of directly into PG.",
+  "decisions": [
+    "The team will provide sensor data for France's external model testing.",
+    "Data sharing should consider providing both new and old sensor data to assess impact."
+  ],
+  "action_items": [
+    "Follow up on the specific date ranges and sensors required from the external party (awaiting confirmation).",
+    "Verify necessary access permissions for S3 datacorp."
+  ]
+}

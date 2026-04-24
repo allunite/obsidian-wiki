@@ -1,0 +1,23 @@
+{
+  "chat_id": "AAAAOcKWvdA",
+  "kind": "Space",
+  "space_name": "Delivery Coordination",
+  "participants": 14,
+  "date_range": {
+    "start": "2023-09-29",
+    "end": "2023-09-29"
+  },
+  "message_count": 12,
+  "topic": "Access control for personalization component",
+  "topic_slug": "access-control-for-personalization-component",
+  "tags": [
+    "analytics",
+    "campaign"
+  ],
+  "summary_markdown": "The discussion centered on restricting visibility of the personalization component. Initially, it was noted that this component is visible to all users. It was suggested that access should be limited to 'admin' roles only. Concerns were raised regarding potential data logging issues where an anonymized user might be logged instead of the primary user, especially when dealing with campaigns and inventory.\n\nIt was also discussed how a Planner role could easily switch to a Publisher role and change campaigns. The consensus leaned towards restricting access for now. A specific use case mentioned is the need for 'local admin' visibility, suggesting it should be shown both to local admins and other users, as its current lack of necessity makes the restriction necessary.",
+  "decisions": [
+    "Restrict personalization component visibility to administrators only",
+    "Review and improve logging to ensure the primary user is always logged"
+  ],
+  "action_items": []
+}

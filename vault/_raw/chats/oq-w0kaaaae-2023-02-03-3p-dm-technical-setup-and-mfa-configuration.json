@@ -1,0 +1,19 @@
+{
+  "chat_id": "oq-w0kAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2023-02-03",
+    "end": "2023-02-03"
+  },
+  "message_count": 11,
+  "topic": "Technical setup and MFA configuration",
+  "topic_slug": "technical-setup-and-mfa-configuration",
+  "tags": [
+    "analytics"
+  ],
+  "summary_markdown": "The conversation focused on technical access requirements. [p1] mentioned needing to configure Multi-Factor Authentication (MFA) for AWS access. [me] acknowledged the need for MFA and suggested they work together with a third party ('Tolya') to resolve it.",
+  "decisions": [],
+  "action_items": []
+}

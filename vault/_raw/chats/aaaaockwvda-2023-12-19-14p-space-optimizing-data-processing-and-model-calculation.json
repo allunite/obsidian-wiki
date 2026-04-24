@@ -1,0 +1,26 @@
+{
+  "chat_id": "AAAAOcKWvdA",
+  "kind": "Space",
+  "space_name": "Delivery Coordination",
+  "participants": 14,
+  "date_range": {
+    "start": "2023-12-19",
+    "end": "2023-12-19"
+  },
+  "message_count": 37,
+  "topic": "Optimizing data processing and model calculation",
+  "topic_slug": "optimizing-data-processing-and-model-calculation",
+  "tags": [
+    "analytics",
+    "campaign",
+    "impression"
+  ],
+  "summary_markdown": "The discussion focused heavily on optimizing the speed of data calculations, noting that current processes take several minutes to process data for single categories or entire locations (e.g., malls and golf clubs).\n\nTo address performance bottlenecks, a proposal was made to convert model calculation into an external user function (UDF). This would allow Python code to receive data directly as a DataFrame, enabling more frequent predictions on updated data.\n\nTechnical discussions covered advanced SQL techniques for efficient data handling in ClickHouse, including using window functions (like `LAG` or equivalent methods) for comparing current and previous rows, and optimizing complex aggregations via `GROUP BY` clauses.",
+  "decisions": [
+    "The team agreed that converting model calculation to a UDF is a viable solution for improving data processing speed."
+  ],
+  "action_items": [
+    "Someone should investigate the feasibility of using an app where installers take photos with geodata (including azimuth) at new frame installations, allowing text extraction and classification.",
+    "Testing the proposed photo-based installation process will require several days to account for potential data nuances (e.g., pre-filled coordinates, conflicting data)."
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "chat_id": "AAAAFPbiAdE",
+  "kind": "Space",
+  "space_name": "Group Chat",
+  "participants": 3,
+  "date_range": {
+    "start": "2024-05-10",
+    "end": "2024-05-10"
+  },
+  "message_count": 12,
+  "topic": "Dashboard filter changes and deployment plan",
+  "topic_slug": "dashboard-filter-changes-and-deployment-plan",
+  "tags": [
+    "facility",
+    "frame",
+    "analytics",
+    "staging"
+  ],
+  "summary_markdown": "The team discussed modifying the dashboard filters. Initially, a request was made to change filtering from master facility to individual facilities, which someone agreed to implement as it would be more logical for the default dashboard view.\n\nRegarding deployment, it was decided that this new filter functionality should first be deployed to staging rather than production (prod) to allow for internal demonstration before a full release. \n\nUpdates were provided on three specific features: 1) Province filtering is already available on staging. 2) Network grouping and the change of the network filter from master facility to frames are both estimated to be ready by Tuesday.\n\nFinally, regarding the 'Parfum' client/group, it was decided that they should only be shown a preview rather than having access to the staging environment, as this might confuse them with beta and production environments.",
+  "decisions": [
+    "The dashboard filter will be changed from master facility to individual facilities.",
+    "The new filtering functionality will first be deployed to staging for demonstration before going live in production."
+  ],
+  "action_items": [
+    "[me] to implement the facility-level filter change.",
+    "[p1] to inform the 'Parfum' group that updates will be available around Tuesday."
+  ]
+}

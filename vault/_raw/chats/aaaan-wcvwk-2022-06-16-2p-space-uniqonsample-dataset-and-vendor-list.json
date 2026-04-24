@@ -1,0 +1,25 @@
+{
+  "chat_id": "AAAAN-wcvwk",
+  "kind": "Space",
+  "space_name": "Group Chat",
+  "participants": 2,
+  "date_range": {
+    "start": "2022-06-16",
+    "end": "2022-06-16"
+  },
+  "message_count": 13,
+  "topic": "UniqOnSample dataset and vendor list",
+  "topic_slug": "uniqonsample-dataset-and-vendor-list",
+  "tags": [
+    "analytics",
+    "inventory"
+  ],
+  "summary_markdown": "The user provided a staging link for the `UniqOnSample` dataset, which calculates unique users based on a sample of vendors. The list includes several participating vendors (e.g., Samsung Electronics, Sony Mobile Communications, Huawei Device Co.). It was noted that Apple was removed because it is no longer present in most client setups.\n\nThe user explained that the data is generated using `ml_stage` and may differ from other figures, as historical aggregation is required for adjustments. While regeneration on `ml_prod` is possible, consistency cannot be guaranteed due to previous manual adjustments.\n\nWhen asked about the relevant period, the user specified 'since the beginning of the year'.",
+  "decisions": [
+    "The staging link for the UniqOnSample dataset was shared."
+  ],
+  "action_items": [
+    "[unknown] will review the data in the morning.",
+    "Data period required is from the start of the year."
+  ]
+}

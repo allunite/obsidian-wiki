@@ -1,0 +1,31 @@
+{
+  "chat_id": "AAAA3oghITo",
+  "kind": "Space",
+  "space_name": "Кабаны",
+  "participants": 4,
+  "date_range": {
+    "start": "2022-01-27",
+    "end": "2022-01-27"
+  },
+  "message_count": 104,
+  "topic": "Database migration and setup for analytics",
+  "topic_slug": "database-migration-setup-for-analytics",
+  "tags": [
+    "analytics",
+    "campaign",
+    "inventory",
+    "loop",
+    "mops",
+    "recalc-ch"
+  ],
+  "summary_markdown": "The discussion focused heavily on migrating and setting up the database structure for analytics, specifically involving PostgreSQL (pg) and ClickHouse (ch).\n\n**Database Structure & Migration:**\n*   There was a consensus to rebuild or re-create the necessary databases in a sandbox environment (specifically mentioning Postgres 14).\n*   [me] prepared scripts containing DDL/DML for creating and populating tables, views, and functions required by analytics and ClickHouse.\n*   The naming convention for the database was discussed (initially 'allunite', later suggesting 'analytics').\n*   Access credentials were established: A user named `allunite` with write privileges was created for both PostgreSQL and ClickHouse to facilitate data loading.\n*   **Data Flow & Process:** The process involves simplifying the recalculation (`recalc`) by potentially moving data ingestion to S3, thereby removing several steps (like file reading/importing from Postgres).\n\n**Technical Decisions:**\n*   The team agreed that [me] would create the database structure in PostgreSQL, and [p3] would adjust necessary configuration files (e.g., `odbc.ini`, `pg_hba.conf`) to point to the new setup.\n*   Connectivity was confirmed via VPN tunnels between machines like `clickhouse03` and the sandbox environment.",
+  "decisions": [
+    "The database structure will be rebuilt in a dedicated sandbox environment (Postgres 14).",
+    "A user account named 'allunite' with write privileges was created for both PostgreSQL and ClickHouse.",
+    "[me] is responsible for creating the necessary database structures/scripts, while [p3] will update configuration files."
+  ],
+  "action_items": [
+    "[me] to finalize and commit scripts for full creation and population of test data in Postgres.",
+    "[p3] to adjust `odbc.ini` and `pg_hba.conf` to reflect the new database setup."
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "chat_id": "3ZMBmwAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 2,
+  "date_range": {
+    "start": "2021-05-17",
+    "end": "2021-05-17"
+  },
+  "message_count": 3,
+  "topic": "Website privacy notice and opt-out links",
+  "topic_slug": "website-privacy-notice-and-opt-out-links",
+  "tags": [
+    "analytics"
+  ],
+  "summary_markdown": "The user provided proposed URLs for the AllUnite website, specifically detailing the structure for a required privacy notice link (`allunite.com/r/lv-p`) and an opt-out link (`allunite.com/r/lv-r`). The general structure was clarified as requiring `allunite.com/r/` as the mandatory base path.",
+  "decisions": [
+    "Proposed URLs for privacy notice and opt-out links were established."
+  ],
+  "action_items": [
+    "None"
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "chat_id": "i6YI1QAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 2,
+  "date_range": {
+    "start": "2022-06-22",
+    "end": "2022-06-22"
+  },
+  "message_count": 5,
+  "topic": "Code deployment issue and data processing",
+  "topic_slug": "code-deployment-issue-and-data-processing",
+  "tags": [
+    "analytics"
+  ],
+  "summary_markdown": "The conversation addresses a recent code deployment error where someone forgot to push the updated `main.py` file from staging. The sender confirmed that they processed the necessary data and everything is okay. [p1] inquired if only production was launched, without staging. They speculated that the staging environment failure might be due to the introduction of a new field for a model.",
+  "decisions": [],
+  "action_items": [
+    "None"
+  ]
+}

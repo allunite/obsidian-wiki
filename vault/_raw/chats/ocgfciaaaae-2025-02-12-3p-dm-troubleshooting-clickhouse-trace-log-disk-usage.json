@@ -1,0 +1,26 @@
+{
+  "chat_id": "oCgFCIAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2025-02-12",
+    "end": "2025-02-12"
+  },
+  "message_count": 28,
+  "topic": "Troubleshooting ClickHouse trace log disk usage",
+  "topic_slug": "troubleshooting-clickhouse-trace-log-disk-usage",
+  "tags": [
+    "analytics",
+    "inventory"
+  ],
+  "summary_markdown": "The discussion focused on excessive disk space consumption by the ClickHouse trace log, which is causing issues in the sandbox environment. The trace log can be disabled via configuration, but this requires updating the config and committing changes to prevent loss during future updates.\n\nAttempts to mitigate the issue included setting TTL (Time To Live) on tables, but this was reported as ineffective because the system occasionally recreates the tables.\n\nIt was noted that if the trace log is deployed to production, it will also consume significant disk space (estimated at 10 GB every four days per server).",
+  "decisions": [
+    "The issue of excessive trace log usage requires a configuration change.",
+    "A ticket (DOOH-1693) was referenced for tracking the required fix."
+  ],
+  "action_items": [
+    "Someone needs to coordinate with someone else (Tolya) to correctly apply the necessary configuration changes for the trace log.",
+    "The team should evaluate if the 'Arie' demographic data is still needed, as it may be redundant."
+  ]
+}

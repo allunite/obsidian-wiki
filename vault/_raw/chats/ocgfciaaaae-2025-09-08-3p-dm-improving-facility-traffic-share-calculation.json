@@ -1,0 +1,25 @@
+{
+  "chat_id": "oCgFCIAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2025-09-08",
+    "end": "2025-09-08"
+  },
+  "message_count": 19,
+  "topic": "Improving facility traffic share calculation",
+  "topic_slug": "improving-facility-traffic-share-calculation",
+  "tags": [
+    "analytics",
+    "frame"
+  ],
+  "summary_markdown": "The discussion focused on the correct method for calculating `facility_traffic_share` within the data view (`v_frame_approved`). Initially, it was noted that a static frame's movement status is stored in `frame.data->>'movement'`.\n\nIt was determined that the most accurate source for `facility_traffic_share` should be extracted from the array elements (va) within the frame data, specifically where `transport_type` equals 'all'. The current implementation sometimes incorrectly populates `frame.facility_traffic_share`, which is not ideal.\n\nThe proposed solution involves modifying the view definition to prioritize extracting this value directly from the structured JSONB array (`weighted_va_data`), as shown in the existing `facility_traffic_share_api` column, rather than relying on potentially outdated or incorrect fields.",
+  "decisions": [
+    "The primary source for calculating facility traffic share must be derived from the 'all' transport type within the frame data array (JSONB).",
+    "The view definition should prioritize using `facility_traffic_share_api` over other potential sources."
+  ],
+  "action_items": [
+    "Review and adjust the SQL view logic to ensure facility traffic share is consistently pulled from the 'all' transport type within the JSONB array element."
+  ]
+}

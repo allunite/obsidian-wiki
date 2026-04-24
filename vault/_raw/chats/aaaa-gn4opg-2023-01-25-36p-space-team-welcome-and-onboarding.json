@@ -1,0 +1,17 @@
+{
+  "chat_id": "AAAA-gn4oPg",
+  "kind": "Space",
+  "space_name": "General and random",
+  "participants": 36,
+  "date_range": {
+    "start": "2023-01-25",
+    "end": "2023-01-25"
+  },
+  "message_count": 6,
+  "topic": "Team welcome and onboarding",
+  "topic_slug": "team-welcome-and-onboarding",
+  "tags": [],
+  "summary_markdown": "The conversation consisted solely of welcoming messages for a new data scientist joining the team.",
+  "decisions": [],
+  "action_items": []
+}

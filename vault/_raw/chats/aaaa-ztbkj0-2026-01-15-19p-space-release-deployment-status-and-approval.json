@@ -1,0 +1,21 @@
+{
+  "chat_id": "AAAA_zTBKJ0",
+  "kind": "Space",
+  "space_name": "Releases and updates",
+  "participants": 19,
+  "date_range": {
+    "start": "2026-01-15",
+    "end": "2026-01-15"
+  },
+  "message_count": 3,
+  "topic": "Release deployment status and approval",
+  "topic_slug": "release-deployment-status-and-approval",
+  "tags": [
+    "campaign"
+  ],
+  "summary_markdown": "The discussion centered on the readiness to deploy a release. It was noted that the release notes were pending final approval from multiple parties ([p1], [p13], and [p11]) via a separate channel. Later, it was confirmed that the release notes had been sent out for client distribution.",
+  "decisions": [
+    "Release notes are distributed to clients."
+  ],
+  "action_items": []
+}

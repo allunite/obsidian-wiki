@@ -1,0 +1,23 @@
+{
+  "chat_id": "oCgFCIAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2022-09-02",
+    "end": "2022-09-02"
+  },
+  "message_count": 18,
+  "topic": "Correcting English deadline phrasing",
+  "topic_slug": "correcting-english-deadline-phrasing",
+  "tags": [
+    "analytics"
+  ],
+  "summary_markdown": "The conversation focused on the correct usage of English phrases for setting deadlines. Specifically, [p1] was correcting a message regarding due dates to ensure clarity (e.g., using 'this Monday' instead of 'next Monday'). It was noted that while 'this coming Monday' is universally understood, other phrasing options exist.",
+  "decisions": [
+    "Use clearer language when setting deadlines in English."
+  ],
+  "action_items": [
+    "[p1] will revise the message with corrected date phrasing."
+  ]
+}

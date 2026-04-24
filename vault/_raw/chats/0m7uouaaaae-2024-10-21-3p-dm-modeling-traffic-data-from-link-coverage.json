@@ -1,0 +1,26 @@
+{
+  "chat_id": "0m7UOUAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2024-10-21",
+    "end": "2024-10-21"
+  },
+  "message_count": 15,
+  "topic": "Modeling traffic data from link coverage",
+  "topic_slug": "modeling-traffic-data-from-link-coverage",
+  "tags": [
+    "analytics",
+    "inventory",
+    "facility"
+  ],
+  "summary_markdown": "The discussion focused on how to provide link IDs for modeling traffic flow, particularly as the client prepares to deliver a comprehensive map of links across Finland.\n\n**Data Provisioning:** [p1] proposed providing two lists of links for each frame:\n1. Links falling within a radius (all links).\n2. Links visible within the defined viewable zone (based on current inventory algorithms).\n\n**Traffic Modeling Concepts:** Detailed explanations were provided regarding traffic aggregation methods:\n* **`trafficTotal`**: Represents the total number of people passing by the facility across the ",
+  "decisions": [
+    "Provide two lists of links (radius vs. visible zone) for each frame.",
+    "The client will provide a comprehensive map of links covering Finland."
+  ],
+  "action_items": [
+    "[me] to send the traffic modeling explanation and forward it to [p1]."
+  ]
+}

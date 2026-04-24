@@ -1,0 +1,24 @@
+{
+  "chat_id": "nW_zkkAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2025-10-10",
+    "end": "2025-10-10"
+  },
+  "message_count": 15,
+  "topic": "Creating virtual session mapping and data cleanup",
+  "topic_slug": "creating-virtual-session-mapping-and-data-cleanup",
+  "tags": [
+    "analytics",
+    "session"
+  ],
+  "summary_markdown": "The discussion focused on creating a mapping of sessions based on existing linking data, followed by the deletion of previous session records. [me] provided an SQL script template for virtual insertions from the AllUnite data science repository but noted that direct deletion was problematic and suggested [p1] would handle it.\n\n[p1] requested parameters for the script, specifically mentioning a date (2025-09-01) and a number (7975).\n\n[p1] also inquired whether the `created` date in `facility_virtual` affects the provided SQL script, to which [me] confirmed it does not.",
+  "decisions": [
+    "The session mapping will be based on existing linking data."
+  ],
+  "action_items": [
+    "[me] needs to provide parameters for the virtual insertion script (SQL template) to [p1]."
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "chat_id": "y9IEDQAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2024-01-15",
+    "end": "2024-01-15"
+  },
+  "message_count": 48,
+  "topic": "User login and campaign reporting requirements",
+  "topic_slug": "user-login-and-campaign-reporting-requirements",
+  "tags": [
+    "analytics",
+    "impression",
+    "facility",
+    "campaign"
+  ],
+  "summary_markdown": "The discussion covered two main areas: user authentication development and campaign reporting requirements.\n\n**User Authentication:** The scope for the login screen (DOOH-503) was clarified. It should focus only on basic login functionality when a user already exists in the system, while tasks related to new user registration, assignment, and activation should be moved to DOOH-503's description/scope.\n\n**Campaign Reporting:** A discussion arose regarding the complexity of exporting campaign data into Excel, specifically adding metrics like impressions and frequency for each frame. The consensus was that this report is complex and time-consuming, requiring metadata extraction from PostgreSQL (pg). It was noted that a meeting with Galina would be held to discuss reporting needs and potential additions to existing reports.",
+  "decisions": [
+    "Tasks related to new user registration/activation should be moved into the scope description for DOOH-503 ticket.",
+    "The report requiring impressions/frequency metrics per frame is complex, involving metadata extraction from pg."
+  ],
+  "action_items": [
+    "Review reporting needs and potential additions with Galina.",
+    "Determine release timing (this week or next)."
+  ]
+}

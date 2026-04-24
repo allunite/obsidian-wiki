@@ -1,0 +1,21 @@
+{
+  "chat_id": "AAAAw8LFttQ",
+  "kind": "Space",
+  "space_name": "Data",
+  "participants": 5,
+  "date_range": {
+    "start": "2021-02-26",
+    "end": "2021-02-26"
+  },
+  "message_count": 6,
+  "topic": "Model focus for upcoming meeting",
+  "topic_slug": "model-focus-for-upcoming-meeting",
+  "tags": [
+    "analytics"
+  ],
+  "summary_markdown": "The discussion focused on which analytical model to prioritize for an upcoming meeting. Initially, [p1] asked whether the noise reduction algorithm or a new traffic model was needed. [p3] clarified that the focus should be on the new traffic model, though they suggested mentioning the noise reduction algorithm as well.",
+  "decisions": [
+    "Focus presentation primarily on the new traffic model."
+  ],
+  "action_items": []
+}

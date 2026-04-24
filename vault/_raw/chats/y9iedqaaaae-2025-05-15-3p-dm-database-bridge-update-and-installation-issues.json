@@ -1,0 +1,21 @@
+{
+  "chat_id": "y9IEDQAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2025-05-15",
+    "end": "2025-05-15"
+  },
+  "message_count": 12,
+  "topic": "Database bridge update and installation issues",
+  "topic_slug": "database-bridge-update-and-installation-issues",
+  "tags": [
+    "analytics"
+  ],
+  "summary_markdown": "The conversation focused on updating a system component, specifically the ClickHouse ODBC bridge. An initial attempt to install version 25.4.4.25 failed due to an unavailable installation candidate. It was noted that the `clickhouse-odbc-bridge` and `clickhouse-library-bridge` packages have been moved to a separate repository (https://github.com/ClickHouse/odbc-bridge/). This change means the versioning method for these bridges is different.",
+  "decisions": [],
+  "action_items": [
+    "Investigate installation of ClickHouse ODBC bridge from the new dedicated GitHub repository."
+  ]
+}

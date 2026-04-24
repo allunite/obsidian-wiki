@@ -1,0 +1,27 @@
+{
+  "chat_id": "AAAAblCnVGw",
+  "kind": "Space",
+  "space_name": "Group Chat",
+  "participants": 3,
+  "date_range": {
+    "start": "2023-09-15",
+    "end": "2023-09-15"
+  },
+  "message_count": 49,
+  "topic": "Using tags for filtering inventory and traffic",
+  "topic_slug": "using-tags-for-filtering-inventory-and-traffic",
+  "tags": [
+    "analytics",
+    "inventory",
+    "campaign"
+  ],
+  "summary_markdown": "The discussion focused on the functionality and implementation of using custom 'Tags' within the platform, particularly for filtering inventory and campaign data. It was confirmed that the Tags field is currently treated as a simple text area.\n\n**Key Points & Decisions:**\n*   **Tag Usage:** The tags feature is valuable because it acts as a client-side custom filter.\n*   **Implementation Scope:** While tagging can be used in the Campaign Manager and Inventory sections, implementing tag filtering on the main Traffic page was deemed too complex due to concerns about page performance/weighting. For traffic data, using existing 'Network' filters is recommended for now.\n*   **Technical Implementation:** The ability to use tags for filtering should be added to the Inventory section. Tags can be entered separated by semicolons (`;`).\n*   **Data Handling:** Discussions covered CSV import issues, noting that proper handling of delimiters (like using a semicolon instead of a comma) is necessary to prevent data corruption.\n*   **Future Scope:** The team acknowledged that while adding tag filtering to the Traffic page is desirable, it should be considered for future development due to complexity.",
+  "decisions": [
+    "Tags field will be implemented as a simple text area (no custom logic).",
+    "Tag filtering functionality will be added to the Inventory section.",
+    "For traffic data filtering, users should continue utilizing the existing 'Network' filter for now."
+  ],
+  "action_items": [
+    "The team needs to monitor and address CSV import/export issues related to delimiters (commas vs. semicolons) in future development cycles."
+  ]
+}

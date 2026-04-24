@@ -1,0 +1,21 @@
+{
+  "chat_id": "nW_zkkAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2024-12-30",
+    "end": "2024-12-30"
+  },
+  "message_count": 3,
+  "topic": "Demographic data for tractor model",
+  "topic_slug": "demographic-data-for-tractor-model",
+  "tags": [
+    "analytics"
+  ],
+  "summary_markdown": "Someone requested demographic data for the 'Tractor 7930' model. [me] estimated that this data would be available in early 2025.",
+  "decisions": [],
+  "action_items": [
+    "Provide demographic data for Tractor 7930 by early 2025"
+  ]
+}

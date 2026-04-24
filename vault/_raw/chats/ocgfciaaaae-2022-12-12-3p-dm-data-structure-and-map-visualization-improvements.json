@@ -1,0 +1,31 @@
+{
+  "chat_id": "oCgFCIAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2022-12-12",
+    "end": "2022-12-12"
+  },
+  "message_count": 34,
+  "topic": "Data structure and map visualization improvements",
+  "topic_slug": "data-structure-and-map-visualization-improvements",
+  "tags": [
+    "analytics",
+    "campaign",
+    "inventory",
+    "json",
+    "leaflet"
+  ],
+  "summary_markdown": "The primary focus was on restructuring data and improving map visualization. It was decided that the JSON structure needs to be significantly refactored, which will allow for better integration of data and features.\n\nSpecific tasks include:\n*   **Resolution Fix:** [p2] is tasked with resolving general resolution issues in the display.\n*   **Map Integration:** The map visualization requires improvements, including linking sectors to the map view. A method using `html2canvas` was discussed and confirmed as a useful feature for taking screenshots of Street View maps within an iframe.\n*   **Development Environment:** Discussion covered whether development should proceed in sandbox or production environment.\n*   **General UI/UX Fixes:** Additional fixes needed include addressing chart overflow when displayed on a page, and general font structure fixes.",
+  "decisions": [
+    "The JSON data structure must be refactored into one large format to facilitate data handling and integration.",
+    "[p2] will handle the initial resolution fix for the project.",
+    "The map visualization needs linking sectors to the map view, which requires further development."
+  ],
+  "action_items": [
+    "[me] will refactor the JSON structure today.",
+    "[p2] will work on general resolution fixes first.",
+    "Follow up with Svetlana regarding the invoice details and amount charged by the developer."
+  ]
+}

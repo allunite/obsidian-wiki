@@ -1,0 +1,28 @@
+{
+  "chat_id": "y9IEDQAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2025-01-24",
+    "end": "2025-01-24"
+  },
+  "message_count": 34,
+  "topic": "Real-time session data flow and AI implementation",
+  "topic_slug": "real-time-session-data-flow-and-ai-implementation",
+  "tags": [
+    "analytics",
+    "session",
+    "campaign",
+    "inventory",
+    "impression",
+    "loop"
+  ],
+  "summary_markdown": "The conversation covered two main topics: the implementation of AI features and the status of real-time session data reporting to JCD.\n\n**AI Implementation:** The participants discussed the need to accelerate AI development. One participant noted that initial attempts with AI were disappointing due to 'survivorship bias' (overconfidence in testing environments).\n\n**Real-Time Data Flow:** It was confirmed that real-time session data previously sent from `sessioner` to JCD's Kinesis stream is no longer being done. The current process for real-time sessions involves a table (`v_device_session_facility_realtime`) within ClickHouse, but the previous method of sending this data to JCD was discontinued.",
+  "decisions": [
+    "The real-time session data flow from `sessioner` to JCD's Kinesis stream is no longer active."
+  ],
+  "action_items": [
+    "None specified."
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "chat_id": "y9IEDQAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2021-02-09",
+    "end": "2021-02-09"
+  },
+  "message_count": 8,
+  "topic": "Recalculation and aggregate data handling",
+  "topic_slug": "recalculation-aggregate-data-handling",
+  "tags": [
+    "analytics"
+  ],
+  "summary_markdown": "The discussion addressed the safety of running recalculations (recalc) in ClickHouse. It was confirmed that if aggregates were run only once, it is fine. However, a concern was raised regarding how aggregate cleanup is integrated into the recalculation process. If the aggregates are run a second time without an intervening recalculation, there is a risk of duplication.",
+  "decisions": [
+    "It is safe to proceed with the current setup."
+  ],
+  "action_items": []
+}

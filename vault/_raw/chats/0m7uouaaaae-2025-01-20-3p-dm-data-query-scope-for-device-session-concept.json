@@ -1,0 +1,22 @@
+{
+  "chat_id": "0m7UOUAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2025-01-20",
+    "end": "2025-01-20"
+  },
+  "message_count": 6,
+  "topic": "Data query scope for device session concept",
+  "topic_slug": "data-query-scope-for-device-session-concept",
+  "tags": [
+    "analytics",
+    "impression"
+  ],
+  "summary_markdown": "A data issue was identified regarding a Python job that queries `device_session_concept` without company restrictions. It is suspected that this lack of restriction is an accidental copy/paste error that has become standard practice because it currently functions. The scope creep is noted, as the query is now being used for new companies.\n\nDiscussion highlighted that while this is technically an error, changing it would impact historical data (e.g., Brazil's data).",
+  "decisions": [
+    "No immediate decision was made regarding adding company restrictions to the `device_session_concept` query."
+  ],
+  "action_items": []
+}

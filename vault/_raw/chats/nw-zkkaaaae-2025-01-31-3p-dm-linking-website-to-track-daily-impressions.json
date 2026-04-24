@@ -1,0 +1,24 @@
+{
+  "chat_id": "nW_zkkAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2025-01-31",
+    "end": "2025-01-31"
+  },
+  "message_count": 10,
+  "topic": "Linking website to track daily impressions",
+  "topic_slug": "linking-website-to-track-daily-impressions",
+  "tags": [
+    "impression",
+    "analytics"
+  ],
+  "summary_markdown": "A request was made to find a plug-in or method to automatically update the number of daily impressions on a website for V&A. It was discussed that a data API exists and provides impression reports, but either the client must pull the data themselves or specify where/how the file should be pushed.",
+  "decisions": [
+    "The available solution involves using the existing data API for impression reports."
+  ],
+  "action_items": [
+    "Add Tolya to the chat thread to explain the details of the data API."
+  ]
+}

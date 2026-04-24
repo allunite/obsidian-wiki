@@ -1,0 +1,24 @@
+{
+  "chat_id": "oq-w0kAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2025-09-10",
+    "end": "2025-09-10"
+  },
+  "message_count": 10,
+  "topic": "Contract status and employment agreement",
+  "topic_slug": "contract-status-and-employment-agreement",
+  "tags": [
+    "campaign",
+    "analytics"
+  ],
+  "summary_markdown": "The conversation focused on the status of an employment contract. [p1] questioned whether they had signed a contract with AllUnite upon arrival. [me] stated that their own bank required a contract recently, noting the last one was from 2016. It was confirmed that [p1] had not discussed the contract directly with Esben or Tolya. Consequently, it was noted that [p1] might be working without an official contract.",
+  "decisions": [
+    "Confirming employment status regarding a formal contract."
+  ],
+  "action_items": [
+    "[p1] will ask Tolya about the contract situation."
+  ]
+}

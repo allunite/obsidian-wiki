@@ -1,0 +1,31 @@
+{
+  "chat_id": "oCgFCIAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2024-11-20",
+    "end": "2024-11-20"
+  },
+  "message_count": 23,
+  "topic": "Automated bus zone tracking and metrics",
+  "topic_slug": "automated-bus-zone-tracking-and-metrics",
+  "tags": [
+    "analytics",
+    "impression",
+    "dwell-time",
+    "session",
+    "stream-processor"
+  ],
+  "summary_markdown": "A new task (DOOH-1457) was assigned to process data related to bus movements and zones, which is necessary to unlock subsequent tasks (DOOH-1458) required for campaign analytics. The core requirement involves developing a stream processor to filter and store event data based on bus entry/exit from defined zones and arrival at stops.\n\nThe current asset data contains zone points, radii, and bus positions. While the zones are in the database (asset data), they need to be transferred into ClickHouse for use. The team needs to verify the existing sensors and ensure that events—specifically when a bus enters/exits a zone or approaches a stop—are mapped to the corresponding zone ID.\n\nThe conversation also noted that the raw stream from buses is very large, suggesting optimization by only storing entry/exit events rather than continuous data.",
+  "decisions": [
+    "The team agreed on prioritizing task DOOH-1457 before moving onto other tasks.",
+    "Zone data must be transferred from asset data into ClickHouse.",
+    "Event tracking needs to capture bus entry, exit, and stop approach events mapped to zone IDs."
+  ],
+  "action_items": [
+    "[me] will work on the zone data transfer and event processing.",
+    "Someone will check if existing zones are available for production use.",
+    "The team will investigate optimizing the bus stream by only storing entry/exit events."
+  ]
+}

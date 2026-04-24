@@ -1,0 +1,23 @@
+{
+  "chat_id": "AAAA-gn4oPg",
+  "kind": "Space",
+  "space_name": "General and random",
+  "participants": 36,
+  "date_range": {
+    "start": "2024-03-15",
+    "end": "2024-03-15"
+  },
+  "message_count": 11,
+  "topic": "SA media agency presentations and outcomes",
+  "topic_slug": "sa-media-agency-presentations-and-outcomes",
+  "tags": [
+    "analytics",
+    "campaign",
+    "inventory"
+  ],
+  "summary_markdown": "A participant reported a successful trip to South Africa (SA), where AllUnite presented its numbers and dashboard alongside Provantage to multiple global media agencies, including Dentsu, GroupM, Omnicom, and Publicis, as well as local agencies. The presentations introduced AllUnite's capabilities to an estimated 100-130 marketing professionals in SA.\n\nThis marks a strategic shift for the company from being solely an OOH supplier to also serving media agencies directly. Furthermore, one of the attending media agencies expressed interest in including advertisers directly, allowing them access to AllUnite's resources.",
+  "decisions": [
+    "The company is expanding its role beyond just an OOH supplier to include direct service provision to media agencies."
+  ],
+  "action_items": []
+}

@@ -1,0 +1,27 @@
+{
+  "chat_id": "AAAAaK7z8KI",
+  "kind": "Space",
+  "space_name": "Group Chat",
+  "participants": 5,
+  "date_range": {
+    "start": "2025-10-22",
+    "end": "2025-10-22"
+  },
+  "message_count": 21,
+  "topic": "Optimizing facility frequency calculation approach",
+  "topic_slug": "optimizing-facility-frequency-calculation-approach",
+  "tags": [
+    "analytics",
+    "facility",
+    "campaign",
+    "ml-api",
+    "sql"
+  ],
+  "summary_markdown": "The discussion focused on optimizing the calculation of facility frequency, particularly for malls and clusters.\n\n**Initial Concerns:** One participant raised concerns about system stability, noting that the campaign manager frequently crashed due to dictionary errors after multiple failures. A proposed fix involves modifying the city handling logic (PR review requested).\n\n**Frequency Calculation Optimization:** The core discussion centered on how to calculate facility frequency for clustered and non-clustered facilities using an ML API.\n*   The initial approach involved passing unique identifiers (uniques) from SQL to the ML API. \n*   A revised, more efficient strategy was proposed: Grouping data in the `data` facility table by cluster within SQL. For each cluster, uniques are generated and passed to the ML API. Non-cluster screens would be placed in a group with a null or empty unique identifier, signaling that cluster frequency calculation is not required for them.\n*   This approach also includes trimming unnecessary data ('water') from JSON payloads.",
+  "decisions": [
+    "The proposed optimized method of grouping facility data by cluster and passing uniques to the ML API was accepted in principle."
+  ],
+  "action_items": [
+    "Discuss the final implementation approach with Sasha and Galina."
+  ]
+}

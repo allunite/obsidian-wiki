@@ -1,0 +1,24 @@
+{
+  "chat_id": "i6YI1QAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 2,
+  "date_range": {
+    "start": "2021-10-06",
+    "end": "2021-10-06"
+  },
+  "message_count": 13,
+  "topic": "Coordination of communication and release planning",
+  "topic_slug": "coordination-of-communication-and-release-planning",
+  "tags": [
+    "analytics"
+  ],
+  "summary_markdown": "The conversation covered general workflow coordination, specifically discussing the preference for keeping technical feedback (like implementing a tooltip) within the main group chat rather than in private messages to ensure all participants are aware. It was also noted that major decisions should be made in the group chat while minor fixes can be handled separately.\n\nSeparately, it was mentioned that someone is planning a release and suggested Monday as a potential date.",
+  "decisions": [
+    "Major points should be agreed upon in the main chat",
+    "Minor fixes/details can be handled separately"
+  ],
+  "action_items": [
+    "Confirm release plan for Monday"
+  ]
+}

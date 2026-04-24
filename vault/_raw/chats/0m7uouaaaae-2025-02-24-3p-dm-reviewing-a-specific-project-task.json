@@ -1,0 +1,21 @@
+{
+  "chat_id": "0m7UOUAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2025-02-24",
+    "end": "2025-02-24"
+  },
+  "message_count": 3,
+  "topic": "Reviewing a specific project task",
+  "topic_slug": "reviewing-a-specific-project-task",
+  "tags": [
+    "analytics"
+  ],
+  "summary_markdown": "A meeting was scheduled to discuss a specific task (DOOH-1734) that is slated for discussion at the next release meeting. [p1] requested an assessment of the time required to address this task, and agreed to discuss it with [me].",
+  "decisions": [],
+  "action_items": [
+    "Discuss DOOH-1734 today to estimate required effort."
+  ]
+}

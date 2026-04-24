@@ -1,0 +1,25 @@
+{
+  "chat_id": "y9IEDQAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2024-03-26",
+    "end": "2024-03-26"
+  },
+  "message_count": 12,
+  "topic": "Cloud cluster storage optimization proposal",
+  "topic_slug": "cloud-cluster-storage-optimization-proposal",
+  "tags": [
+    "analytics",
+    "inventory"
+  ],
+  "summary_markdown": "The discussion covered optimizing the cloud cluster's I/O metrics and storage configuration. Initial thoughts focused on moving away from using hot SSD storage in the cluster, as these are limited by transfer rates and IOPS. A proposal was made to add warm storage on fast drives, migrate hot data to this new tier, and decommission the original hot storage.\n\nRegarding cost analysis, a previous transition from st1 to sc1 reportedly saved $13.28/month.\n\nA specific cluster configuration proposal was presented:\n*   **Current State (Memory):** 300 gp3 (125MB/s) + 400 st1 (16MB/s base to 100MB/s burst) = $46.40 total.\n*   **Current State (New):** 300 gp3 (250MB/s) + 400 ct1 (4.8MB/s base to 32MB/s burst) = $31.90 + $6.72 = $38.62 total.\n*   **Proposed State:** 800 st1 (32MB/s base to 200MB/s burst) for a total cost of $40.00.",
+  "decisions": [
+    "The feasibility of changing the storage type without downtime was confirmed."
+  ],
+  "action_items": [
+    "Investigate transfer rates and IOPS on standard hard drives compared to SSDs.",
+    "Review and finalize the proposed cluster storage configuration."
+  ]
+}

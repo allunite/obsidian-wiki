@@ -1,0 +1,22 @@
+{
+  "chat_id": "oCgFCIAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2025-01-28",
+    "end": "2025-01-28"
+  },
+  "message_count": 12,
+  "topic": "Troubleshooting analytics report data visibility",
+  "topic_slug": "troubleshooting-analytics-report-data-visibility",
+  "tags": [
+    "analytics",
+    "campaign"
+  ],
+  "summary_markdown": "The conversation focused on locating and interpreting specific data within the AllUnite staging analytics platform. Initially, [me] sought assistance with a colleague's questions from Brazil, which was redirected to [p1]. Later, [me] asked about finding the 'Screens (by airing period)' tab in the demo company report. [p1] provided guidance on locating this tab and also addressed a specific issue where the 'Screens (by airing period)' tab appeared empty in the campaign report. [p1] clarified that detailed data is available by downloading the full report for the campaign, which must be done after editing or triggering a recalculation of the report to ensure the latest data is saved to the database.",
+  "decisions": [
+    "Detailed analytics data for campaigns should be retrieved by downloading the full report."
+  ],
+  "action_items": []
+}

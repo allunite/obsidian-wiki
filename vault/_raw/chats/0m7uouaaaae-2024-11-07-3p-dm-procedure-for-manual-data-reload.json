@@ -1,0 +1,22 @@
+{
+  "chat_id": "0m7UOUAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2024-11-07",
+    "end": "2024-11-07"
+  },
+  "message_count": 13,
+  "topic": "Procedure for manual data reload",
+  "topic_slug": "procedure-for-manual-data-reload",
+  "tags": [
+    "analytics",
+    "recalc-ch"
+  ],
+  "summary_markdown": "The conversation focused on the technical process required to manually reload a day's worth of data. The steps involve: 1. Deleting existing records for the specified date from the `allunite.raw_lam_sharded` table using an `ALTER TABLE... DELETE WHERE date = 'YYYY-MM-DD'` query. 2. Inserting new data into the `raw_lam_input_null` table by querying a specific external API endpoint (digitraffic.fi) and passing the target date (`dt`) as a parameter in the URL construction.",
+  "decisions": [
+    "The process for manually reloading one day of LAM data was outlined."
+  ],
+  "action_items": []
+}

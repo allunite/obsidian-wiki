@@ -1,0 +1,19 @@
+{
+  "chat_id": "mQzF6wAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 2,
+  "date_range": {
+    "start": "2024-02-26",
+    "end": "2024-02-26"
+  },
+  "message_count": 7,
+  "topic": "Discussing old AllUnite equipment",
+  "topic_slug": "discussing-old-allunite-equipment",
+  "tags": [
+    "facility"
+  ],
+  "summary_markdown": "The conversation focused on [p1] asking if [me] had any old AllUnite technical equipment that might be for sale. [me] confirmed having previously distributed the gear but mentioned that a large router (possibly Ubiquiti) remained.",
+  "decisions": [],
+  "action_items": []
+}

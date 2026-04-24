@@ -1,0 +1,21 @@
+{
+  "chat_id": "AAAA-gn4oPg",
+  "kind": "Space",
+  "space_name": "General and random",
+  "participants": 36,
+  "date_range": {
+    "start": "2023-03-15",
+    "end": "2023-03-15"
+  },
+  "message_count": 4,
+  "topic": "Announcing OOH Measurement Webinar Participation",
+  "topic_slug": "announcing-ooh-measurement-webinar-participation",
+  "tags": [
+    "analytics"
+  ],
+  "summary_markdown": "The team announced participation in the World Out of Home Organization's webinar on March 30th, 2023, titled \"The Next Gen OOH Audience Measurement: How Digital Technology Can Transform the Industry.\" Support was requested from participants to like, share, and comment on a provided LinkedIn post. Further materials, including an email signature photo and content for direct stakeholder contact, will be distributed in the coming days.",
+  "decisions": [],
+  "action_items": [
+    "Participants are asked to support the announcement by liking/sharing/commenting on the specified LinkedIn post."
+  ]
+}

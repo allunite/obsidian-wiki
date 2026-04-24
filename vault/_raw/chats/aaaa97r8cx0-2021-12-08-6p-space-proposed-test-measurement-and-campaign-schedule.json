@@ -1,0 +1,22 @@
+{
+  "chat_id": "AAAA97r8Cx0",
+  "kind": "Space",
+  "space_name": "Dubai DF",
+  "participants": 6,
+  "date_range": {
+    "start": "2021-12-08",
+    "end": "2021-12-08"
+  },
+  "message_count": 10,
+  "topic": "Proposed test measurement and campaign schedule",
+  "topic_slug": "proposed-test-measurement-and-campaign-schedule",
+  "tags": [
+    "analytics",
+    "campaign"
+  ],
+  "summary_markdown": "A proposal was shared regarding a modified testing approach due to delays in Lidar installation. The plan involves:\n\n*   Conducting test measurements starting mid-December with several brands.\n*   Initiating a two-month license period (January and February) that coincides with running a digital campaign. This setup aims to measure the incremental consideration generated when a campaign is active.\n\nThe discussion confirmed this would be treated as a flexible 'test and learn' project for both JCD and AllUnite.",
+  "decisions": [
+    "The proposed test measurement schedule (mid-December start, Jan-Feb license/campaign) was approved."
+  ],
+  "action_items": []
+}

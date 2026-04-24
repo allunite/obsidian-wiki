@@ -1,0 +1,27 @@
+{
+  "chat_id": "y9IEDQAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2023-03-07",
+    "end": "2023-03-07"
+  },
+  "message_count": 32,
+  "topic": "Data flow from Kinesis to ClickHouse",
+  "topic_slug": "data-flow-kinesis-to-clickhouse",
+  "tags": [
+    "analytics",
+    "impression",
+    "session",
+    "dwell-time"
+  ],
+  "summary_markdown": "The discussion focused on the data pipeline flow from a physical box, through MQTT, and into Kinesis before reaching ClickHouse (CH). A key concern was ensuring that the data arrives in a strictly sequential order, rather than being flushed unpredictably.\n\nIt was noted that the current process involves `boxdatagrinder` which extracts data sequentially in batches from Kinesis and loads it into ClickHouse. The MQTT broker used is Mosquitto, and there are multiple MQTT servers/routers involved.\n\nThe conversation also covered various integration methods available for ClickHouse, including Kafka Connect (for Kafka), dedicated connectors for EMQX Cloud MQTT, and native integrations with RabbitMQ and PostgreSQL.",
+  "decisions": [
+    "The data flow from Kinesis to ClickHouse is currently handled by a single process (`boxdatagrinder`) that extracts batches sequentially."
+  ],
+  "action_items": [
+    "Review the timestamp handling in the data pipeline, specifically how Kinesis sorts and what time value is written into the `timestamp` field in ClickHouse.",
+    "Monitor the data flow for potential re-sorting issues over the next day."
+  ]
+}

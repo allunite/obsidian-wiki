@@ -1,0 +1,24 @@
+{
+  "chat_id": "AAAA3frAfLA",
+  "kind": "Space",
+  "space_name": "Lidar Tech",
+  "participants": 8,
+  "date_range": {
+    "start": "2021-11-10",
+    "end": "2021-11-10"
+  },
+  "message_count": 17,
+  "topic": "Lidar placement and coverage for intersections",
+  "topic_slug": "lidar-placement-and-coverage-for-intersections",
+  "tags": [
+    "facility",
+    "inventory"
+  ],
+  "summary_markdown": "The discussion centered on the feasibility of using 2D lidar sensors to map traffic movement at an intersection. It was determined that relying solely on 2D lidar data is insufficient for tracking vehicle movement.\n\nRegarding hardware, connecting two lidar units to a Jetson board was discussed. While technically possible, performance testing would be required to ensure the Jetson has sufficient processing power for two sensors.\n\nMultiple placement strategies were considered, including directing each lidar unit to cover only its designated road, or placing them perpendicular to one another and stacked vertically. The current location of the banner is noted as being much closer to the intersection than previously measured locations.\n\nKey concerns included ensuring that the coverage area does not overlap (e.g., 'пони будет цеплять друг друга') and confirming that critical areas, such as the 'Endle' zone, are covered despite changes in lidar placement or vehicle angles.",
+  "decisions": [
+    "The use of 2D lidar data alone is insufficient for determining complex traffic movement at an intersection."
+  ],
+  "action_items": [
+    "Someone needs to provide a clear diagram showing the proposed lidar location, the new coverage zones, and measuring the coverage distance for each zone."
+  ]
+}

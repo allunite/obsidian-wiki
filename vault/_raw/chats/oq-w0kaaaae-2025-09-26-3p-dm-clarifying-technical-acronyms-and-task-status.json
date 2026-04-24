@@ -1,0 +1,21 @@
+{
+  "chat_id": "oq-w0kAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2025-09-26",
+    "end": "2025-09-26"
+  },
+  "message_count": 7,
+  "topic": "Clarifying technical acronyms and task status",
+  "topic_slug": "clarifying-technical-acronyms-and-task-status",
+  "tags": [
+    "analytics"
+  ],
+  "summary_markdown": "A discussion occurred regarding the proper terminology for 'HCON' and 'HCOM'. [p1] also referenced a specific task via a ClickUp link, asking about its status or who to ask. The conversation ended with confirmation that the necessary information was available in a ticket comment.",
+  "decisions": [
+    "The location of required information (ticket comments) was confirmed."
+  ],
+  "action_items": []
+}

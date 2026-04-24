@@ -1,0 +1,28 @@
+{
+  "chat_id": "AAAAOcKWvdA",
+  "kind": "Space",
+  "space_name": "Delivery Coordination",
+  "participants": 14,
+  "date_range": {
+    "start": "2024-01-04",
+    "end": "2024-01-04"
+  },
+  "message_count": 37,
+  "topic": "Frame status and classification issues",
+  "topic_slug": "frame-status-and-classification-issues",
+  "tags": [
+    "frame",
+    "campaign",
+    "analytics",
+    "inventory"
+  ],
+  "summary_markdown": "The discussion focused on the status of digital frames within the campaign manager. A key issue is that many classified frames are appearing in a 'Changed' status and disappearing from the campaign manager, requiring them to be visible as 'Verified by AU'.\n\nIt was noted that while much work has been done (e.g., around 1000 verified), there remains a significant number of frames (around 124 facilities/243 frames) that are difficult or impossible to classify due to being damaged or unclear.\n\nParticipants discussed the need for better visibility and management of frame statuses, especially when classifying large batches of content. There was also discussion regarding new frames needing to be uploaded.",
+  "decisions": [
+    "The team will address the remaining problematic frames (124 facilities/243 frames) requiring detailed work.",
+    "A meeting is suggested to review specific frame issues, including those that are unclear or missing identifiers."
+  ],
+  "action_items": [
+    "Follow up on the status of newly uploaded frames.",
+    "Determine who is responsible for validating and managing the classification process while key personnel are out of office."
+  ]
+}

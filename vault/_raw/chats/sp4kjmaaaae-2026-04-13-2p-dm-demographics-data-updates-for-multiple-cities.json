@@ -1,0 +1,25 @@
+{
+  "chat_id": "sP4KJMAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 2,
+  "date_range": {
+    "start": "2026-04-13",
+    "end": "2026-04-13"
+  },
+  "message_count": 19,
+  "topic": "Demographics data updates for multiple cities",
+  "topic_slug": "demographics-data-updates-for-multiple-cities",
+  "tags": [
+    "analytics",
+    "campaign"
+  ],
+  "summary_markdown": "The discussion covered the inclusion and completeness of demographic data across various locations. Initially, [p1] confirmed that Islamabad data was included in a delivery, noting that 'Education' domain data was missing due to administrative level differences.\n\n[me] reviewed the data and found that while Islamabad metrics were present, they lacked basic gender and age breakdowns, which caused an issue with the importing system. [me] planned to restore these metrics using existing detailed population data (e.g., 'Female Population : Age 15 - 24 Enrolment Intermediate - Urban').\n\nSeparately, a task regarding demographics for Phantom billstickers was discussed, which needed completion.\n\n[me] later reported that age data could not be extracted from the current dataset for Islamabad. However, [me] updated the demography and added social levels. Finally, [p1] relayed information from Citydata, who stated that missing data points were simply unavailable, suggesting they had completed similar work in other cities. [me] subsequently finalized the updates and shared the link to the staged analytics.",
+  "decisions": [
+    "Demographics for Phantom billstickers needs to be closed out.",
+    "Social levels were added to the demography report."
+  ],
+  "action_items": [
+    "None"
+  ]
+}

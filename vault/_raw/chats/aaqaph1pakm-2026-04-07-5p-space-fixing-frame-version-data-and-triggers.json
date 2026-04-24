@@ -1,0 +1,25 @@
+{
+  "chat_id": "AAQAPH1pAKM",
+  "kind": "Space",
+  "space_name": "Group Chat",
+  "participants": 5,
+  "date_range": {
+    "start": "2026-04-07",
+    "end": "2026-04-07"
+  },
+  "message_count": 37,
+  "topic": "Fixing frame version data and triggers",
+  "topic_slug": "fixing-frame-version-data-and-triggers",
+  "tags": [
+    "analytics",
+    "campaign",
+    "impression",
+    "frame",
+    "inventory"
+  ],
+  "summary_markdown": "The discussion focused on diagnosing and resolving discrepancies in `va_approved` (VA) values for facility frames. Initial issues involved VA values being non-null when they should be null, particularly concerning the distinction between indoor and outdoor placements.\n\nKey technical points included:\n*   **Data Discrepancy:** Multiple instances were noted where `va_approved` was populated incorrectly or did not reflect expected NULL values.\n*   **Root Cause/Fix:** The issue was traced back to a temporary disabling of the frame trigger in March, which prevented version updates. The fix involved manually updating the 'updated' field for frames, allowing versions to regenerate correctly.\n*   **Scope:** Several specific `facility_master_num` lists were reviewed and confirmed to be treated as indoor placements.\n*   **Process Improvement:** A comprehensive SQL query was developed and shared to accurately retrieve VA values by joining multiple tables (`frame`, `company`, `facility`, etc.), providing a clear method for future debugging.",
+  "decisions": [
+    "The frame trigger issue has been fixed, and all known problems have been resolved and updated."
+  ],
+  "action_items": []
+}

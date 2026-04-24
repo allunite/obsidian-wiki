@@ -1,0 +1,19 @@
+{
+  "chat_id": "AAAA3oghITo",
+  "kind": "Space",
+  "space_name": "Кабаны",
+  "participants": 4,
+  "date_range": {
+    "start": "2024-10-02",
+    "end": "2024-10-02"
+  },
+  "message_count": 14,
+  "topic": "Discussion of military and civil defense topics",
+  "topic_slug": "discussion-of-military-and-civil-defense-topics",
+  "tags": [
+    "analytics"
+  ],
+  "summary_markdown": "The conversation focused on discussing various geopolitical and military events, including missile trajectories from different countries (Iran, China, North Korea) and the effectiveness of advanced weaponry. A significant portion of the discussion shifted to civil defense preparedness in Ukraine, noting the construction of numerous large bomb shelters across cities like Kyiv. Participants discussed strategies for survival during potential attacks, ranging from seeking established shelters to digging personal underground bunkers.",
+  "decisions": [],
+  "action_items": []
+}

@@ -1,0 +1,25 @@
+{
+  "chat_id": "y9IEDQAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2025-11-12",
+    "end": "2025-11-12"
+  },
+  "message_count": 18,
+  "topic": "Data granularity and reporting structure",
+  "topic_slug": "data-granularity-reporting-structure",
+  "tags": [
+    "analytics",
+    "facility",
+    "frame"
+  ],
+  "summary_markdown": "The conversation focused on the data extraction process for JCD, noting that current data is pulled from `/reports/jcd` with hourly granularity and facility level detail. A concern was raised regarding how Brazil's data might be handled or if there were specific requirements for it.\n\nIt was recalled that a recent fix for another client involved pulling frame-level population data from `/report/frames/population`, rather than facility-level data.\n\nThe participants agreed on the need to delay the release of `data-api` until these reporting structures are confirmed.",
+  "decisions": [
+    "Delay the release of data-api"
+  ],
+  "action_items": [
+    "Confirm if any special handling or requirements exist for Brazil's data extraction."
+  ]
+}

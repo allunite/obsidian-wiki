@@ -1,0 +1,25 @@
+{
+  "chat_id": "rBfK7kAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 2,
+  "date_range": {
+    "start": "2023-08-22",
+    "end": "2023-08-22"
+  },
+  "message_count": 10,
+  "topic": "Dashboard field and data aggregation status",
+  "topic_slug": "dashboard-field-and-data-aggregation-status",
+  "tags": [
+    "analytics",
+    "impression"
+  ],
+  "summary_markdown": "A request was made to add the `viewable_flow_impressions` field to the dashboard, which someone is currently updating. Later, a discussion occurred regarding whether STAGE data for August had been reaggregated. The person initiating the query asked for the script used for this aggregation, but it was determined that another individual ran the original script, leading the initiator to plan on asking the relevant person directly.",
+  "decisions": [
+    "The `viewable_flow_impressions` field needs to be added to the dashboard."
+  ],
+  "action_items": [
+    "Someone will add the requested field to the dashboard next week.",
+    "The initiating party will ask about the STAGE aggregation script themselves."
+  ]
+}

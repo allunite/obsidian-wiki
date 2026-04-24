@@ -1,0 +1,24 @@
+{
+  "chat_id": "AAAAqeRkR58",
+  "kind": "Space",
+  "space_name": "Estonia",
+  "participants": 9,
+  "date_range": {
+    "start": "2021-08-17",
+    "end": "2021-08-17"
+  },
+  "message_count": 9,
+  "topic": "Lidar cable connection and installation details",
+  "topic_slug": "lidar-cable-connection-and-installation-details",
+  "tags": [
+    "inventory",
+    "facility"
+  ],
+  "summary_markdown": "The conversation focused on the physical requirements for a Lidar cable connection. [p4] detailed that the connection consists of four parts: a 5m USB cable extender, a USB-MicroUSB connector, a UART Converter, and a UART Cable. It was noted that the first two components (the USB cable extender and connector) can be easily replaced with different lengths of cables. Later, [p4] provided marked pictures showing where the USB Cable Extender can be installed, addressing initial questions about the connection's appearance and potential modifications to its length.",
+  "decisions": [
+    "The Lidar cable connection consists of four specific parts (USB extender, connector, UART converter, UART cable)."
+  ],
+  "action_items": [
+    "[p4] will send a picture showing the location for the USB Cable Extender."
+  ]
+}

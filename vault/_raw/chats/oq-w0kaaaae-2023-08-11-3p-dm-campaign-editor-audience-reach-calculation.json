@@ -1,0 +1,26 @@
+{
+  "chat_id": "oq-w0kAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2023-08-11",
+    "end": "2023-08-11"
+  },
+  "message_count": 23,
+  "topic": "Campaign editor audience and reach calculation",
+  "topic_slug": "campaign-editor-audience-reach-calculation",
+  "tags": [
+    "analytics",
+    "inventory",
+    "campaign"
+  ],
+  "summary_markdown": "The discussion focused on debugging the campaign editor functionality, specifically regarding changes to target audience parameters (like gender/age) not triggering expected server requests or updates in the UI.\n\nRegarding data display, it was noted that the 'target audience' and 'reach %' metrics were either missing from the top-right corner of a live campaign view or needed verification. The correct endpoint for population data was identified, with one participant agreeing to use the population value returned by an existing two-field endpoint.\n\nThe calculation for reach percentage was confirmed as: (Global Population / Audience).\n\nIt was also mentioned that the population field had previously been removed because it incorrectly duplicated the total traffic figure.",
+  "decisions": [
+    "The population data for reach calculations should be sourced from an existing two-field endpoint.",
+    "Reach percentage is calculated by dividing Global Population by Audience."
+  ],
+  "action_items": [
+    "[me] to correct the population calculation using the specified endpoint."
+  ]
+}

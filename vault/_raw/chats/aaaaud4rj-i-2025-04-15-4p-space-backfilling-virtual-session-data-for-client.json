@@ -1,0 +1,24 @@
+{
+  "chat_id": "AAAAud4RJ_I",
+  "kind": "Space",
+  "space_name": "Group Chat",
+  "participants": 4,
+  "date_range": {
+    "start": "2025-04-15",
+    "end": "2025-04-15"
+  },
+  "message_count": 10,
+  "topic": "Backfilling virtual session data for client",
+  "topic_slug": "backfilling-virtual-session-data-for-client",
+  "tags": [
+    "analytics",
+    "campaign"
+  ],
+  "summary_markdown": "The discussion focused on backfilling 'virtual' device session data for a specific company (JCDecaux Mexico, company ID 7934). Currently, the virtual sessions are only linked to sensor data starting from March 28, 2025. The goal is to extend this linkage and data availability back to January 1, 2025.\n\nA user provided SQL scripts to perform two main tasks:\n1.  Populating `allunite.device_session` with virtual sessions for the specified company, covering the period from 2025-01-01 up to (but not including) 2025-03-28.\n2.  Updating `device_session_trusted` records for the same company and facility group, also covering the period from 2025-01-01 to 2025-03-28.",
+  "decisions": [
+    "Virtual session data will be backfilled for JCDecaux Mexico (7934) starting from 2025-01-01."
+  ],
+  "action_items": [
+    "The user provided the necessary SQL scripts to execute the backfilling of virtual and trusted session data."
+  ]
+}

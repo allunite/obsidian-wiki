@@ -1,0 +1,26 @@
+{
+  "chat_id": "0VorOYAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2024-04-23",
+    "end": "2024-04-23"
+  },
+  "message_count": 15,
+  "topic": "Analytics discrepancies and data validation",
+  "topic_slug": "analytics-discrepancies-and-data-validation",
+  "tags": [
+    "analytics",
+    "impression",
+    "campaign"
+  ],
+  "summary_markdown": "The discussion focused on discrepancies found when comparing total metrics (totals) with unit metrics (uniques) across various companies and time periods. Initially, the discrepancy was noted for 'Afi' where totals and impressions matched but uniques did not. The issue of impression drops at night on the stage environment was discussed and addressed.\n\nLater, data validation confirmed that for several active campaigns (including Provenance, Gabon, Ivory, UK), the metrics were ideal. Minor differences in total traffic and uniques were noted for Brazil over a six-month period when compared to other accounts, suggesting potential reasons related to account aggregation. The improved loading speed of new aggregates on the stage environment was also confirmed.",
+  "decisions": [
+    "The discrepancies found in unique metrics (uniques) are being investigated and addressed.",
+    "A corrected version of the data will be deployed to the stage environment for testing."
+  ],
+  "action_items": [
+    "Test the STAGE environment against both staging and production environments."
+  ]
+}

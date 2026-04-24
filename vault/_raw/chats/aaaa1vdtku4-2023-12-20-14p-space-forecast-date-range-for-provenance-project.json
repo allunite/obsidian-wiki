@@ -1,0 +1,21 @@
+{
+  "chat_id": "AAAA1vdtku4",
+  "kind": "Space",
+  "space_name": "DataTeam+",
+  "participants": 14,
+  "date_range": {
+    "start": "2023-12-20",
+    "end": "2023-12-20"
+  },
+  "message_count": 7,
+  "topic": "Forecast date range for Provence project",
+  "topic_slug": "forecast-date-range-for-provenance-project",
+  "tags": [
+    "analytics"
+  ],
+  "summary_markdown": "The discussion focused on determining the required start date for creating a forecast related to the 'Provence' project. Initially, one participant requested data starting from the very beginning. After some negotiation, it was agreed that the analysis would begin with the latter part of the available data.",
+  "decisions": [
+    "Forecast data for Provence will be started from a later period."
+  ],
+  "action_items": []
+}

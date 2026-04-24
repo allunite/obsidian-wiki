@@ -1,0 +1,25 @@
+{
+  "chat_id": "AAAAy7Yj6Xo",
+  "kind": "Space",
+  "space_name": "IT",
+  "participants": 12,
+  "date_range": {
+    "start": "2021-07-08",
+    "end": "2021-07-08"
+  },
+  "message_count": 16,
+  "topic": "Firmware update release notes and features",
+  "topic_slug": "firmware-update-release-notes-and-features",
+  "tags": [
+    "analytics",
+    "loop"
+  ],
+  "summary_markdown": "The discussion focused on preparing a release note for an upcoming firmware update. Key features of the v53 (based on 00.01.14) update from Teltonika were reviewed, including:\n\n*   Fixing a workaround for setting router time when NTP is unavailable.\n*   Updating devmon to store additional fields for improved data quality.\n*   Adding enhanced Wi-Fi channel scanning (disabled by default).\n*   Implementing MQTT over SSL as a data transport protocol for consumption optimization.\n\nIt was decided that the 'trusted' feature would not be announced, and overall impact on services is not expected to change.",
+  "decisions": [
+    "The release note must be prepared for the firmware update.",
+    "The 'trusted' feature will not be included in the announcement."
+  ],
+  "action_items": [
+    "Send the release note to Gabrielle."
+  ]
+}

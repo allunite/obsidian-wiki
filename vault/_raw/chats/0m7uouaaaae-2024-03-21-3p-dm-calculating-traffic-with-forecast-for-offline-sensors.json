@@ -1,0 +1,27 @@
+{
+  "chat_id": "0m7UOUAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2024-03-21",
+    "end": "2024-03-21"
+  },
+  "message_count": 37,
+  "topic": "Calculating traffic with forecast for offline sensors",
+  "topic_slug": "calculating-traffic-with-forecast-for-offline-sensors",
+  "tags": [
+    "analytics",
+    "campaign",
+    "impression",
+    "session",
+    "loop"
+  ],
+  "summary_markdown": "The discussion focused on calculating traffic data for periods when sensors were offline, requiring the use of forecasting models. It was determined that a process could be implemented to recalculate data for an extended period (e.g., 2023-11-01 to present) into a separate dataset while temporarily disabling the forecast feature.\n\nLater, questions arose regarding the behavior of the forecast function on session counts and total traffic. It was noted that:\n*   The initial forecast mechanism only worked for source sensors feeding data to virtual (synthetic) locations.\n*   Total traffic forecasting reportedly uses a simple comparison method (e.g., comparing the previous week's day to the current day).\n*   There are known discrepancies between model predictions and actual session counts, particularly concerning `is_fake` sessions, which were sometimes excluded during modeling even when forecast data was present.",
+  "decisions": [
+    "A method for recalculating traffic with forecasting into a separate dataset (model1) was agreed upon."
+  ],
+  "action_items": [
+    "Review the provided SQL script to implement the necessary changes for recalculation."
+  ]
+}

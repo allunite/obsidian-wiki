@@ -1,0 +1,24 @@
+{
+  "chat_id": "y9IEDQAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2024-03-03",
+    "end": "2024-03-03"
+  },
+  "message_count": 6,
+  "topic": "Scheduling and technical setup plan",
+  "topic_slug": "scheduling-and-technical-setup-plan",
+  "tags": [
+    "analytics"
+  ],
+  "summary_markdown": "The participants agreed to meet next Saturday. During the meeting, [me] outlined a technical workflow: someone should raise the vehicles (тачки) with the new system and connect ebs to them. Following this setup, [me] will proceed with further testing or adjustments, reserving the right to request a rollback if issues arise.",
+  "decisions": [
+    "Meeting scheduled for next Saturday",
+    "[me] will perform subsequent testing/adjustments after initial setup"
+  ],
+  "action_items": [
+    "Someone needs to raise the vehicles with the new system and connect ebs."
+  ]
+}

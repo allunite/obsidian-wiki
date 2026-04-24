@@ -1,0 +1,24 @@
+{
+  "chat_id": "y9IEDQAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2022-11-18",
+    "end": "2022-11-18"
+  },
+  "message_count": 4,
+  "topic": "Retrieving monitoring tokens and devices",
+  "topic_slug": "retrieving-monitoring-tokens-and-devices",
+  "tags": [
+    "analytics",
+    "facility"
+  ],
+  "summary_markdown": "The conversation focused on technical steps for retrieving specific data points (monitoring token and device list) from the staging environment. The initial plan involved deploying the latest mops develop to staging, making parameters available at a specified URL. A SQL query was provided to extract `monitoring_token` and `monitoring_devices` from the `asset` table using company and facility IDs. [p1] noted that only 'boxmac' data would be available, requiring the retrieval of the associated facility ID first. Consequently, a revised SQL join query was provided to link the `asset` table with the `box` table using the MAC address (`10feede5c0d0`) to correctly pull the required token and device information.",
+  "decisions": [
+    "The data extraction process requires joining the 'asset' and 'box' tables based on facility ID."
+  ],
+  "action_items": [
+    "Run the provided SQL join query to retrieve monitoring tokens and devices using a specific MAC address."
+  ]
+}

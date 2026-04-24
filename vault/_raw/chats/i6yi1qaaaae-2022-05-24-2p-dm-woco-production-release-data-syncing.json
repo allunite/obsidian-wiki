@@ -1,0 +1,24 @@
+{
+  "chat_id": "i6YI1QAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 2,
+  "date_range": {
+    "start": "2022-05-24",
+    "end": "2022-05-24"
+  },
+  "message_count": 6,
+  "topic": "Woco production release and data syncing",
+  "topic_slug": "woco-production-release-data-syncing",
+  "tags": [
+    "analytics",
+    "impression"
+  ],
+  "summary_markdown": "A discussion regarding the Woco production release. It was noted that the deployment to production was rushed. To ensure proper functionality, a new script needs to be merged into production tomorrow for testing. Furthermore, since data is currently being pulled from staging, the new Woco model will not calculate overnight in production. The plan is to pull today's date onto production tomorrow.",
+  "decisions": [
+    "A new script must be merged into production tomorrow for verification."
+  ],
+  "action_items": [
+    "Pull today's date onto production tomorrow."
+  ]
+}

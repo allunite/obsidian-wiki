@@ -1,0 +1,25 @@
+{
+  "chat_id": "nW_zkkAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2023-06-19",
+    "end": "2023-06-19"
+  },
+  "message_count": 29,
+  "topic": "Restoring missing analytics data for company",
+  "topic_slug": "restoring-missing-analytics-data-for-company",
+  "tags": [
+    "analytics",
+    "session",
+    "campaign"
+  ],
+  "summary_markdown": "The discussion centered on recovering missing session data for a specific company (7885) between April 10 and April 24, 2023. It was determined that the gap in production data was likely due to an accidental deletion during a model recalculation.\n\nTo restore the data, a SQL `INSERT` statement was provided to copy records from the staging table (`allunite.device_session_agg_ml_staging`) into the main analytics table (`allunite.device_session_agg_ml`), filtered by the correct company number and date range.\n\nFurthermore, it was identified that the current system permissions allow too much access (full rights for everyone), which is considered a major security vulnerability. A fix to restrict user privileges, such as assigning personal logins and implementing proper log backups, was proposed.",
+  "decisions": [
+    "The data gap for company 7885 between 2023-04-10 and 2023-04-24 will be addressed by copying staging data to production."
+  ],
+  "action_items": [
+    "Implement stricter user permissions (personal logins) and establish a process for backing up logs to prevent future accidental deletions."
+  ]
+}

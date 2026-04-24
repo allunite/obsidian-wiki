@@ -1,0 +1,21 @@
+{
+  "chat_id": "0m7UOUAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2025-04-11",
+    "end": "2025-04-11"
+  },
+  "message_count": 6,
+  "topic": "Device permanence definition query",
+  "topic_slug": "device-permanence-definition-query",
+  "tags": [
+    "session"
+  ],
+  "summary_markdown": "A participant ([p1]) inquired about the current accuracy of an old operational definition for classifying permanent devices. The old definition stated that a device was considered permanent if it recorded sessions lasting 6 hours or more on any three days within a seven-day period. Classification as permanent would then last for 90 days, calculated from the last day meeting this criteria.\n\nThe conversation did not confirm whether this historical definition is still accurate.",
+  "decisions": [],
+  "action_items": [
+    "Review and confirm current operational definition for permanent devices."
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "chat_id": "oCgFCIAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2021-11-29",
+    "end": "2021-11-29"
+  },
+  "message_count": 7,
+  "topic": "Data analysis task reassignment and timeline",
+  "topic_slug": "data-analysis-task-reassignment-timeline",
+  "tags": [
+    "analytics"
+  ],
+  "summary_markdown": "The conversation discusses the workload related to data analysis. [p1] suggests shifting focus from LiDAR analysis to demographics, noting that time was not spent on demographics last week but might be manageable this week. [me] stated plans to finish improving a report today before returning to the demographics work.",
+  "decisions": [],
+  "action_items": [
+    "Complete improvements for the current report",
+    "Return to demographics analysis after completing the report"
+  ]
+}

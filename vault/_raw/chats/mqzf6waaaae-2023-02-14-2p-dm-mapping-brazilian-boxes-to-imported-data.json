@@ -1,0 +1,24 @@
+{
+  "chat_id": "mQzF6wAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 2,
+  "date_range": {
+    "start": "2023-02-14",
+    "end": "2023-02-14"
+  },
+  "message_count": 10,
+  "topic": "Mapping Brazilian boxes to imported data",
+  "topic_slug": "mapping-brazilian-boxes-to-imported-data",
+  "tags": [
+    "analytics",
+    "frame"
+  ],
+  "summary_markdown": "The discussion centered on the task of mapping Brazilian box data onto existing imported location/frame data. The required action involves adding a 'Box Mac' column to a specific spreadsheet and populating it with the local boxes where they exist. [p1] confirmed that while this is a new task for them, they believe it is manageable if properly demonstrated.",
+  "decisions": [
+    "The mapping of Brazilian box data onto imported location/frame data needs to be completed."
+  ],
+  "action_items": [
+    "Someone needs to demonstrate the process of mapping the Box Mac data for [p1]."
+  ]
+}

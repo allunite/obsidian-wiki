@@ -1,0 +1,27 @@
+{
+  "chat_id": "nW_zkkAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2025-01-17",
+    "end": "2025-01-17"
+  },
+  "message_count": 27,
+  "topic": "Facility data updates for company 7944",
+  "topic_slug": "facility-data-updates-for-company-7944",
+  "tags": [
+    "facility",
+    "analytics"
+  ],
+  "summary_markdown": "The conversation focused on updating facility data and preparing virtual sessions for a specific client (Company 7944). [p1] provided two lists of facilities requiring updates: one list of 13 assets from the Mall network, and another list of 11 assets from the City/Street network. The work on 'Tractor' was postponed due to workload constraints.\n\nRegarding Company 7944, specific tasks include:\n*   Creating virtual sessions for the company starting from 2024-11-01 (pending a date change for the linkage).\n*   Linking all facilities belonging to Company 7944 to cluster 43772, covering the period from 2024-10-31 00:00:00 to 2024-11-15 00:00:00.",
+  "decisions": [
+    "The 'Tractor' project was postponed until Monday or later.",
+    "Virtual sessions for Company 7944 need to be created starting from 2024-11-01.",
+    "All facilities for Company 7944 must be linked to cluster 43772 between 2024-10-31 and 2024-11-15."
+  ],
+  "action_items": [
+    "Wait for the date change regarding linkage start date.",
+    "Provide confirmation after linking all facilities to cluster 43772."
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "chat_id": "y9IEDQAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2026-03-10",
+    "end": "2026-03-10"
+  },
+  "message_count": 30,
+  "topic": "Data granularity discrepancies in reporting",
+  "topic_slug": "data-granularity-discrepancies-in-reporting",
+  "tags": [
+    "analytics",
+    "impression"
+  ],
+  "summary_markdown": "A discussion arose regarding inconsistencies in data provided in reports, specifically concerning varying levels of granularity (e.g., aggregated vs. minute-by-minute). It was noted that the current discrepancy might be due to different calculation methods or initial requirements for specific reporting needs. A review is needed to ensure consistent data output across all reports and to verify which systems are pulling minute-level data.",
+  "decisions": [
+    "Review required to standardize data granularity in reports."
+  ],
+  "action_items": [
+    "Check the source responsible for retrieving minute-by-minute data."
+  ]
+}

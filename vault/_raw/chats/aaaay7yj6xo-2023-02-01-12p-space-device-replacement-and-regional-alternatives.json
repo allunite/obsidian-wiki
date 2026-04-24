@@ -1,0 +1,21 @@
+{
+  "chat_id": "AAAAy7Yj6Xo",
+  "kind": "Space",
+  "space_name": "IT",
+  "participants": 12,
+  "date_range": {
+    "start": "2023-02-01",
+    "end": "2023-02-01"
+  },
+  "message_count": 3,
+  "topic": "Device replacement and regional alternatives",
+  "topic_slug": "device-replacement-and-regional-alternatives",
+  "tags": [
+    "inventory"
+  ],
+  "summary_markdown": "The RUT240 device is officially discontinued starting today. It is being replaced by two devices: the RUT 241 and the RUT 200. The RUT 200 serves as an alternative to the RUT 241 for specific regions, including Asia, CIS, the Middle East, Africa, and South America. Due to this regional focus, the RUT 200 only holds certificates for dedicated regions and not for EU use.",
+  "decisions": [
+    "RUT240 is discontinued as of today."
+  ],
+  "action_items": []
+}

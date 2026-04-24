@@ -1,0 +1,22 @@
+{
+  "chat_id": "oCgFCIAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2024-11-15",
+    "end": "2024-11-15"
+  },
+  "message_count": 4,
+  "topic": "Mops environment variables and database setup",
+  "topic_slug": "mops-environment-variables-database-setup",
+  "tags": [
+    "analytics",
+    "mops"
+  ],
+  "summary_markdown": "The discussion centered on the availability of environment variables for deploying split DB mops. Initially, there was concern that someone (Tolya) had not configured these variables on the database server. However, [me] confirmed that those variables were already set up by someone yesterday. Consequently, it was established that a file containing all necessary variables was provided, allowing for straightforward additions.",
+  "decisions": [
+    "The environment variables for split DB mops are available and can be updated via a provided file."
+  ],
+  "action_items": []
+}

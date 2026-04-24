@@ -1,0 +1,22 @@
+{
+  "chat_id": "y9IEDQAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2025-06-19",
+    "end": "2025-06-19"
+  },
+  "message_count": 12,
+  "topic": "Installed router KPI metric definition",
+  "topic_slug": "installed-router-kpi-metric-definition",
+  "tags": [
+    "analytics",
+    "facility"
+  ],
+  "summary_markdown": "The discussion focused on clarifying the definition of the 'Installed Routers' metric within Management KPIs. It was determined that the counter for installed routers increases when a box is created (recorded in `pg.box`), but it does not decrease when the box is removed/decommissioned. Furthermore, this count tracks association with the company level, not the facility level.",
+  "decisions": [
+    "The 'Installed Routers' KPI metric counts boxes upon creation and does not decrement upon removal."
+  ],
+  "action_items": []
+}

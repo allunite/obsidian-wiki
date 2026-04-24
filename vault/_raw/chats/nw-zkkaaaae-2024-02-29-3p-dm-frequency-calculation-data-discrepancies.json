@@ -1,0 +1,25 @@
+{
+  "chat_id": "nW_zkkAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2024-02-29",
+    "end": "2024-02-29"
+  },
+  "message_count": 17,
+  "topic": "Frequency calculation and data discrepancies",
+  "topic_slug": "frequency-calculation-data-discrepancies",
+  "tags": [
+    "analytics",
+    "campaign",
+    "inventory"
+  ],
+  "summary_markdown": "The session covered two main technical issues. First, the frequency function was updated on staging for companies 7878 and 7881, applying a Brazilian model to campaigns in Gabon and Ivory Coast, and updating dashboards for both companies. It was noted that the function accepts 'country' on campaigns but uses 'company_num' on dashboards.\n\nSecond, regarding frequency issues for Ivory Coast, data tables were reviewed. A discrepancy was identified where frequency growth is outpacing traffic growth, leading to a problem with unique counts.",
+  "decisions": [
+    "Frequency function updated on staging for 7878 and 7881 campaigns/dashboards."
+  ],
+  "action_items": [
+    "Review data tables regarding frequency discrepancies for Ivory Coast."
+  ]
+}

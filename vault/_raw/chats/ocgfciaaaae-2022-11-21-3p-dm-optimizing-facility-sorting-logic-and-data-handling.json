@@ -1,0 +1,27 @@
+{
+  "chat_id": "oCgFCIAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2022-11-21",
+    "end": "2022-11-21"
+  },
+  "message_count": 51,
+  "topic": "Optimizing facility sorting logic and data handling",
+  "topic_slug": "optimizing-facility-sorting-logic-and-data-handling",
+  "tags": [
+    "analytics",
+    "facility",
+    "inventory"
+  ],
+  "summary_markdown": "The discussion focused on debugging and optimizing the sorting logic for facility data, which was causing client complaints. The initial complex `ORDER BY` clause was reviewed, leading to the decision to simplify it by removing redundant parameters like `ft.master_group_id`. It was determined that using `ft.facility_master_id` provided a significantly better result than `ft.master_group_id` for sorting.\n\nSeparately, discussions covered technical debt and system architecture improvements:\n*   **Data Source:** There is an effort to simplify data fetching by potentially replacing the need for JSON-DB on test pages, suggesting that static data could be stored in JSON format instead of relying on a server connection.\n*   **Deployment:** The team discussed deployment strategies, noting that hotfixes are necessary but ideally development should proceed with more frequent releases (e.g., every couple of weeks) to minimize them.\n*   **Development Workflow:** It was suggested that merging changes into the `develop` branch is generally acceptable practice.",
+  "decisions": [
+    "Simplify facility sorting logic by removing redundant parameters from the ORDER BY clause.",
+    "Use `ft.facility_master_id` for better facility grouping and sorting results."
+  ],
+  "action_items": [
+    "Implement simplified facility sorting logic in the view/query.",
+    "Investigate replacing JSON-DB usage with static JSON data storage to simplify test page data fetching."
+  ]
+}

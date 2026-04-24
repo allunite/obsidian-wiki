@@ -1,0 +1,26 @@
+{
+  "chat_id": "0m7UOUAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2024-01-05",
+    "end": "2024-01-05"
+  },
+  "message_count": 49,
+  "topic": "Optimizing ML traffic prediction calculation",
+  "topic_slug": "optimizing-ml-traffic-prediction-calculation",
+  "tags": [
+    "analytics",
+    "campaign",
+    "recalc-ch"
+  ],
+  "summary_markdown": "The discussion covered optimizing the `ml_traffic_prediction` recalculation process. Initially, a preference was stated for performing additional aggregation within ClickHouse SQL rather than in Python.\n\nLater, the focus shifted to debugging discrepancies between old and new staging data (comparing `device_session_agg_ml_staging` vs. `device_session_agg_ml_checking`). After running comparison queries, all results were confirmed to match across tested companies.\n\nThe final optimization involved refining the SQL query structure by filtering on facilities to reduce the overall volume of processed records, significantly speeding up the process without requiring complex date aggregations.",
+  "decisions": [
+    "The optimized `ml_traffic_prediction` code will be deployed to production (prod) on Friday.",
+    "If deployment fails, a rollback to the previous version is required."
+  ],
+  "action_items": [
+    "Merge and deploy the Pull Request for the accelerated `ml_traffic_prediction` calculation."
+  ]
+}

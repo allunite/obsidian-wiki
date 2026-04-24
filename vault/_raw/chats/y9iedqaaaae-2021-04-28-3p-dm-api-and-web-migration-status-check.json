@@ -1,0 +1,21 @@
+{
+  "chat_id": "y9IEDQAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2021-04-28",
+    "end": "2021-04-28"
+  },
+  "message_count": 17,
+  "topic": "API and web migration status check",
+  "topic_slug": "api-and-web-migration-status-check",
+  "tags": [
+    "analytics"
+  ],
+  "summary_markdown": "The conversation focused on [p1] migrating the core-api and ads-web to a new MongoDB instance. [me] reviewed the setup, confirming that the migration was successful after initial difficulties related to authorization failure. [p1] plans to keep the new MongoDB running in k8s as a secondary backup until stability is confirmed for the next day.",
+  "decisions": [
+    "The core-api and ads-web successfully migrated to the new MongoDB instance."
+  ],
+  "action_items": []
+}

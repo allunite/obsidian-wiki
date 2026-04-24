@@ -1,0 +1,25 @@
+{
+  "chat_id": "ws0mTkAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 2,
+  "date_range": {
+    "start": "2023-09-12",
+    "end": "2023-09-12"
+  },
+  "message_count": 17,
+  "topic": "Inventory updates and data integrity issues",
+  "topic_slug": "inventory-updates-and-data-integrity-issues",
+  "tags": [
+    "inventory",
+    "analytics"
+  ],
+  "summary_markdown": "The conversation addressed technical questions regarding inventory management for a client (JCD BR). Key points covered:\n\n*   **Inventory Updates:** Inventory can be updated at any time.\n*   **Bulk Uploads:** The ability to upload XLS or CSV lists is currently under development.\n*   **Metric Calculation:** Metrics calculated the day after an update will reflect new attributes, and hourly calculation based on these updates is currently being developed.\n\nSeparately, a concern was raised about data integrity. A recurring issue involves external parties providing unverified or incorrect base data (e.g., sensors and frames). This process overwrites manual work done by someone who spends significant time correcting the existing inventory.",
+  "decisions": [
+    "Inventory can be updated at any time."
+  ],
+  "action_items": [
+    "Continue working on implementing bulk upload functionality (XLS/CSV) for inventory updates.",
+    "Develop hourly metric calculation based on new inventory attributes."
+  ]
+}

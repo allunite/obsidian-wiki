@@ -1,0 +1,22 @@
+{
+  "chat_id": "AAAA1vdtku4",
+  "kind": "Space",
+  "space_name": "DataTeam+",
+  "participants": 14,
+  "date_range": {
+    "start": "2025-03-31",
+    "end": "2025-03-31"
+  },
+  "message_count": 4,
+  "topic": "Staging analytics deployment warning",
+  "topic_slug": "staging-analytics-deployment-warning",
+  "tags": [
+    "analytics",
+    "impression"
+  ],
+  "summary_markdown": "Someone plans to deploy new analytics on staging shortly. This deployment is expected to break the frequency formula for some customers until a new ML API is also deployed to staging.",
+  "decisions": [],
+  "action_items": [
+    "Monitor staging environment for issues after new analytics deployment."
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "chat_id": "AAAAaK7z8KI",
+  "kind": "Space",
+  "space_name": "Group Chat",
+  "participants": 5,
+  "date_range": {
+    "start": "2025-05-27",
+    "end": "2025-05-27"
+  },
+  "message_count": 93,
+  "topic": "Debugging ml-api stability and data issues",
+  "topic_slug": "debugging-ml-api-stability-and-data-issues",
+  "tags": [
+    "analytics",
+    "campaign",
+    "facility",
+    "impression"
+  ],
+  "summary_markdown": "The discussion focused heavily on debugging the `ml-api` service, particularly regarding stability and data calculation errors.\n\n**Key Technical Issues Identified:**\n*   **Data Calculation Logic:** Initial discussions centered on fixing how Value Added (VA) is calculated, noting that current logic requires segment data for all frames to calculate VA accurately. A proposed solution was to restructure the process so that zones are correctly populated per frame before calculating associated roads.\n*   **API Stability Issues:** The `ml-api` service experienced multiple failures on both staging and production environments, including 503 Service Temporarily Unavailable errors and frequent restarts (Unhealthy/BackOff events).\n*   **Root Cause Analysis:** Errors were traced to potential issues with data input, specifically the `dayNumber` being passed as 0.0 when it should be >= 1. The problem was suspected to stem from deserialization or how frequency data is retrieved.\n\n**Decisions & Actions:**\n*   The team decided on a plan to improve VA calculation by ensuring zone data is correctly populated per frame, independent of other frames.\n*   Multiple redeployments were performed for `ml-api` (staging and production) in an attempt to stabilize the service. The instability was attributed to potential issues with how frequency logs are processed or deserialized.",
+  "decisions": [
+    "The VA calculation process needs modification to ensure zone data is correctly populated per frame before calculating associated roads.",
+    "Multiple redeployments of ml-api were executed on staging and production environments."
+  ],
+  "action_items": [
+    "Investigate the root cause of `dayNumber` being passed as 0.0 in frequency log calculations.",
+    "Review changes related to VA calculation logic for implementation."
+  ]
+}

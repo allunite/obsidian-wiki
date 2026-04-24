@@ -1,0 +1,17 @@
+{
+  "chat_id": "oq-w0kAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2025-06-06",
+    "end": "2025-06-06"
+  },
+  "message_count": 7,
+  "topic": "Travel ticket booking coordination",
+  "topic_slug": "travel-ticket-booking-coordination",
+  "tags": [],
+  "summary_markdown": "The conversation revolves around coordinating the purchase of travel tickets for an upcoming date (July 3rd). [p1] is unsure about using a specific ticket intermediary because they are currently on vacation and advised waiting until closer to the purchase date. Both participants need tickets for July 3rd, with different routes ([p1]: Dnipro to Pshemyl; [me]: reverse route). They discuss past use of the intermediary but acknowledge that timing is uncertain.",
+  "decisions": [],
+  "action_items": []
+}

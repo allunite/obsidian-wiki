@@ -1,0 +1,23 @@
+{
+  "chat_id": "y9IEDQAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2024-04-17",
+    "end": "2024-04-17"
+  },
+  "message_count": 8,
+  "topic": "Request for demographic API access",
+  "topic_slug": "request-for-demographic-api-access",
+  "tags": [
+    "analytics"
+  ],
+  "summary_markdown": "A request was made regarding the need for a demographics API. The speaker agreed to provide an update or deliver the API within the next week, specifically mentioning Wednesday.",
+  "decisions": [
+    "The demographic API will be provided/updated by next Wednesday."
+  ],
+  "action_items": [
+    "Provide the demographics API access/update by next Wednesday."
+  ]
+}

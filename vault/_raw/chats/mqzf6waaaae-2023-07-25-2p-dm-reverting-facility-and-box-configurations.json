@@ -1,0 +1,25 @@
+{
+  "chat_id": "mQzF6wAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 2,
+  "date_range": {
+    "start": "2023-07-25",
+    "end": "2023-07-25"
+  },
+  "message_count": 63,
+  "topic": "Reverting facility and box configurations",
+  "topic_slug": "reverting-facility-and-box-configurations",
+  "tags": [
+    "facility",
+    "campaign"
+  ],
+  "summary_markdown": "The conversation focused on correcting technical errors made when duplicating work. [p1] had duplicated facilities created by someone else, leading to incorrect configurations.\n\nInitial attempts involved reattaching existing boxes (bind boxes) to the original facilities. However, subsequent changes resulted in the new facilities being incorrectly linked to the wrong assets.\n\nThe final decision was made that the best course of action is for [me] to inform someone else (presumably 'Nastya') and request that she re-upload the necessary files/assets.",
+  "decisions": [
+    "The configuration needs to be reverted to the state before 9 AM.",
+    "[me] will contact Nastya to have her re-upload the assets."
+  ],
+  "action_items": [
+    "[me] to inform Nastya and request asset re-uploading."
+  ]
+}

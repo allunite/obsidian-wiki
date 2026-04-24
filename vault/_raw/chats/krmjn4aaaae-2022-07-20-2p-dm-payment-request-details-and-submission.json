@@ -1,0 +1,25 @@
+{
+  "chat_id": "kRmJN4AAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 2,
+  "date_range": {
+    "start": "2022-07-20",
+    "end": "2022-07-20"
+  },
+  "message_count": 19,
+  "topic": "Payment request details and submission",
+  "topic_slug": "payment-request-details-and-submission",
+  "tags": [
+    "analytics"
+  ],
+  "summary_markdown": "The conversation initially addressed a payment issue where funds were returned due to an invalid account. The focus shifted to [p1] needing to create new payment requests for the accountant.\n\n[me] instructed [p1] to make a single, comprehensive request covering both existing work and additional hours (estimated at $480 plus around 40 more hours). This request must include a detailed description of all associated work.\n\nFinally, [me] provided specific company details for the payment submission: AllUnite A/S, website link, contact name (Esben), team name (Elmoe), and the designated email address ([email@allunite.com]).",
+  "decisions": [
+    "A single payment request should be created to cover all work."
+  ],
+  "action_items": [
+    "[p1] must create new payment requests for $480 plus approximately 40 hours of additional work.",
+    "[p1] must send the completed payment request details to [email@allunite.com].",
+    "[me] provided necessary company and contact information for the payment process."
+  ]
+}

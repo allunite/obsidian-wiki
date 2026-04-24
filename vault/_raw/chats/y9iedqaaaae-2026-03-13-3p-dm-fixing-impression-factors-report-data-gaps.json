@@ -1,0 +1,25 @@
+{
+  "chat_id": "y9IEDQAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2026-03-13",
+    "end": "2026-03-13"
+  },
+  "message_count": 25,
+  "topic": "Fixing impression factors report data gaps",
+  "topic_slug": "fixing-impression-factors-report-data-gaps",
+  "tags": [
+    "analytics",
+    "frame",
+    "facility"
+  ],
+  "summary_markdown": "The discussion focused on discrepancies in the Impression Factors Matrix Report, specifically regarding missing zero values. It was confirmed that empty cells (zeroes) should not be suppressed or left blank.\n\nRegarding data gaps for certain frames/facilities, it was noted that some records genuinely lack data for specific hours or days. The current aggregation query does not use `FILL` or `LEFT JOIN`, which is a known limitation.\n\n**Technical Review:** A sample of the JSON structure for the matrix was reviewed, confirming it represents an array of arrays corresponding to day-of-week and hour-of-day data points. The issue requires fixing the data handling process.\n\n**Resolution:** Someone committed to fixing the report generation logic.",
+  "decisions": [
+    "The Impression Factors Matrix Report must include zero values for missing data points."
+  ],
+  "action_items": [
+    "Fix the report generation logic (scheduled for deployment)."
+  ]
+}

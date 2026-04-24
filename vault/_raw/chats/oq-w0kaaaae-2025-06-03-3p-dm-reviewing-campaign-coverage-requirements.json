@@ -1,0 +1,22 @@
+{
+  "chat_id": "oq-w0kAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2025-06-03",
+    "end": "2025-06-03"
+  },
+  "message_count": 13,
+  "topic": "Reviewing campaign coverage requirements",
+  "topic_slug": "reviewing-campaign-coverage-requirements",
+  "tags": [
+    "frame",
+    "cluster"
+  ],
+  "summary_markdown": "The conversation addressed technical details regarding ad placement. It was confirmed that when checking for campaign coverage, only the cluster needs to be verified, and not the networks.\n\n**Topic/Decision:** Campaign requirements involve ensuring selected frames cover the necessary clusters.",
+  "decisions": [
+    "Only the cluster needs to be checked for campaign coverage, not the network."
+  ],
+  "action_items": []
+}

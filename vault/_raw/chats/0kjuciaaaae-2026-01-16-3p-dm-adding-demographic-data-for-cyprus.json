@@ -1,0 +1,25 @@
+{
+  "chat_id": "0kjuCiAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2026-01-16",
+    "end": "2026-01-16"
+  },
+  "message_count": 20,
+  "topic": "Adding demographic data for Cyprus",
+  "topic_slug": "adding-demographic-data-for-cyprus",
+  "tags": [
+    "analytics",
+    "demography",
+    "facility"
+  ],
+  "summary_markdown": "The conversation focused on integrating and structuring demographic data for Cyprus. The speaker provided a detailed schema using SQL examples, outlining various demographic variables available (e.g., gender, age, household income, education, race). \n\nKey points included:\n*   **Data Structure:** Demographic data is stored in an aggregate table (`demography_agg`) and variable definitions are in `demographic_variable`.\n*   **Provider Naming:** The system uses specific provider names (e.g., 'RAMBOLL', 'ESRI'). For Cyprus, the suggested provider name is 'ESRI_CY'.\n*   **Data Format:** The speaker advised providing the data in CSV or XLSX format.\n*   **Data Source Difficulty:** [p1] confirmed difficulty locating the raw demographic data for ESRI_CY, noting it was a new project and first time dealing with this specific dataset.",
+  "decisions": [
+    "The system will use 'ESRI_CY' as the provider name for Cyprus demographic data."
+  ],
+  "action_items": [
+    "Someone needs to locate or obtain the raw demographic data for ESRI_CY (Cyprus)."
+  ]
+}

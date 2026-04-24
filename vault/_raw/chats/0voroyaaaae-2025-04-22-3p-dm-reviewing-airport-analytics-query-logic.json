@@ -1,0 +1,24 @@
+{
+  "chat_id": "0VorOYAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2025-04-22",
+    "end": "2025-04-22"
+  },
+  "message_count": 13,
+  "topic": "Reviewing airport analytics query logic",
+  "topic_slug": "reviewing-airport-analytics-query-logic",
+  "tags": [
+    "analytics",
+    "facility"
+  ],
+  "summary_markdown": "The conversation focused on debugging and refining a complex SQL query designed for airport analytics. [p1] noted that the results from the provided airport analytics query were not reproducing correctly when run by someone else (Semen). It was determined that the current version uses `getFrequency_2` with different parameters, necessitating a rework of the entire request.\n\n[me] acknowledged the complexity and estimated that fixing the query would take significant time.",
+  "decisions": [
+    "The existing airport analytics SQL query needs to be rewritten due to changes in the frequency calculation function (`getFrequency_2`)."
+  ],
+  "action_items": [
+    "[me] will work on revising the complex analytics query later."
+  ]
+}

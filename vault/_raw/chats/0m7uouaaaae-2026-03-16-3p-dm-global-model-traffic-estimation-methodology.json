@@ -1,0 +1,23 @@
+{
+  "chat_id": "0m7UOUAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2026-03-16",
+    "end": "2026-03-16"
+  },
+  "message_count": 5,
+  "topic": "Global model traffic estimation methodology",
+  "topic_slug": "global-model-traffic-estimation-methodology",
+  "tags": [
+    "analytics",
+    "loop",
+    "impression"
+  ],
+  "summary_markdown": "The discussion confirmed the scope of the Global Model development. The model is designed to estimate traffic volume using data like street maps. Data from nearby sensors are used only for trend analysis, specifically by multiplying them by a coefficient determined by the global model's output.\n\nInitial work on the model (R&D, AI experiments) was previously led by someone else and has been ongoing. The current implementation focuses on minimizing effort while maintaining functionality.",
+  "decisions": [
+    "The Global Model estimates traffic volume using street map data."
+  ],
+  "action_items": []
+}

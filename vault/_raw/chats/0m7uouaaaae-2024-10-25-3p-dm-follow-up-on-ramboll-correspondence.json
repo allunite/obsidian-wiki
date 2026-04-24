@@ -1,0 +1,21 @@
+{
+  "chat_id": "0m7UOUAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2024-10-25",
+    "end": "2024-10-25"
+  },
+  "message_count": 3,
+  "topic": "Follow up on Ramboll correspondence",
+  "topic_slug": "follow-up-on-ramboll-correspondence",
+  "tags": [
+    "campaign"
+  ],
+  "summary_markdown": "Someone was reminded about adding a supplement to an email intended for Ramboll. [p1] acknowledged the reminder and stated they would send the follow-up immediately.",
+  "decisions": [],
+  "action_items": [
+    "p1 will send the supplementary information to Ramboll."
+  ]
+}

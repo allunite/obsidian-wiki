@@ -1,0 +1,25 @@
+{
+  "chat_id": "AAAAl4SgH7c",
+  "kind": "Space",
+  "space_name": "Lithuania_old",
+  "participants": 6,
+  "date_range": {
+    "start": "2021-05-31",
+    "end": "2021-05-31"
+  },
+  "message_count": 15,
+  "topic": "Reviewing bus shelter analytics for Lithuania",
+  "topic_slug": "reviewing-bus-shelter-analytics-for-lithuania",
+  "tags": [
+    "facility",
+    "inventory",
+    "analytics"
+  ],
+  "summary_markdown": "The conversation covered the installation status of sensors (8 needed).\n\nRegarding analytics, one participant noted that the current model shows 716k unique users for all Bus Shelter categories in Vilnius.\n\nA discussion ensued comparing population statistics and user counts, noting that large urban areas often include people who live outside the immediate Greater Area but travel there daily. This was compared to observations made in Denmark.\n\nFinally, a participant provided a direct link to check the final Bus Shelter data for Lithuania on the staging analytics dashboard.",
+  "decisions": [
+    "The location of bus shelter data for Lithuania needs verification using the provided staging analytics link."
+  ],
+  "action_items": [
+    "Check the Bus Shelter dataset for Lithuania at the specified staging URL."
+  ]
+}

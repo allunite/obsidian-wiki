@@ -1,0 +1,26 @@
+{
+  "chat_id": "AAAAud4RJ_I",
+  "kind": "Space",
+  "space_name": "Group Chat",
+  "participants": 4,
+  "date_range": {
+    "start": "2024-12-13",
+    "end": "2024-12-13"
+  },
+  "message_count": 18,
+  "topic": "Preparation for Rembol meeting and API status",
+  "topic_slug": "preparation-for-rembol-meeting-and-api-status",
+  "tags": [
+    "analytics",
+    "campaign",
+    "inventory",
+    "api"
+  ],
+  "summary_markdown": "The participants discussed preparation for an upcoming meeting with Rembol, which was scheduled to start after a specific date (2024-12-10).\n\nKey discussion points included:\n*   **API Status:** The API functionality will offer two modes: returning all data or returning only modified data since a specified date.\n*   **Frame Zones:** One participant noted that work on zones around frames was not yet started, as campaign completion was the priority. This task is tracked in an internal system (DOOH-1541).\n*   **Meeting Coordination:** The participants planned to discuss the API and frame zone plans internally before meeting with Rembol.",
+  "decisions": [
+    "The API will provide two data retrieval modes: all data or post-date modified data."
+  ],
+  "action_items": [
+    "Participants need to coordinate a call to align on the API and frame zone plans before the Rembol meeting."
+  ]
+}

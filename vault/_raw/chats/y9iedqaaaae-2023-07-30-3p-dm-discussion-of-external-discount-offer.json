@@ -1,0 +1,17 @@
+{
+  "chat_id": "y9IEDQAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2023-07-30",
+    "end": "2023-07-30"
+  },
+  "message_count": 6,
+  "topic": "Discussion of external discount offer",
+  "topic_slug": "discussion-of-external-discount-offer",
+  "tags": [],
+  "summary_markdown": "The conversation started with a shared message offering up to 35% discounts for AWS payments. The participants confirmed interest in the offer, but the discussion quickly shifted away from the topic of advertising analytics or technical implementation.",
+  "decisions": [],
+  "action_items": []
+}

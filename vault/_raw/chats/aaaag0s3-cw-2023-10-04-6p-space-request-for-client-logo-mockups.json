@@ -1,0 +1,22 @@
+{
+  "chat_id": "AAAAg0s3_Cw",
+  "kind": "Space",
+  "space_name": "Бразилия Дезигн",
+  "participants": 6,
+  "date_range": {
+    "start": "2023-10-04",
+    "end": "2023-10-04"
+  },
+  "message_count": 10,
+  "topic": "Request for client logo mockups",
+  "topic_slug": "request-for-client-logo-mockups",
+  "tags": [
+    "campaign",
+    "inventory"
+  ],
+  "summary_markdown": "A participant requested mockups containing a specific client's logo, possibly related to BigTree. Another participant noted that there is an existing branch where logos can be replaced, although they were previously replacing the company's own logo.\n[p2] shared two Figma links: one for a file and one for a prototype.\nParticipants confirmed the need to remove the AllUnite logo and display the client's specific branding instead.",
+  "decisions": [
+    "The existing mockups must be updated to use the client's logo instead of the company's own logo."
+  ],
+  "action_items": []
+}

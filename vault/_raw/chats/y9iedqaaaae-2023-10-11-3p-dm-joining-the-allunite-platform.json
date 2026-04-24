@@ -1,0 +1,19 @@
+{
+  "chat_id": "y9IEDQAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2023-10-11",
+    "end": "2023-10-11"
+  },
+  "message_count": 4,
+  "topic": "Joining the AllUnite platform",
+  "topic_slug": "joining-the-allunite-platform",
+  "tags": [
+    "analytics"
+  ],
+  "summary_markdown": "Someone sent a private invitation link to tower.allunite.com and requested that [me] log in using Google authentication.",
+  "decisions": [],
+  "action_items": []
+}

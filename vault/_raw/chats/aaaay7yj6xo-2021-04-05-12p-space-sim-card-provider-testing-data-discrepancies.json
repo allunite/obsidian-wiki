@@ -1,0 +1,25 @@
+{
+  "chat_id": "AAAAy7Yj6Xo",
+  "kind": "Space",
+  "space_name": "IT",
+  "participants": 12,
+  "date_range": {
+    "start": "2021-04-05",
+    "end": "2021-04-05"
+  },
+  "message_count": 17,
+  "topic": "SIM card provider testing and data discrepancies",
+  "topic_slug": "sim-card-provider-testing-data-discrepancies",
+  "tags": [
+    "analytics",
+    "campaign",
+    "inventory"
+  ],
+  "summary_markdown": "The discussion focused on analyzing data discrepancies related to SIM card providers, specifically comparing results from Vodafone versus other providers. It was noted that the number of TCP sessions between the sensor and the server should occur once every 5 seconds.\n\nObservations indicated that Vodafone showed lower performance compared to others (by 10-20%). The team discussed changing SIM cards in the boxes for testing purposes. A key point raised was that previous data comparisons showing significant differences were linked to Vodafone usage. However, it was concluded that testing with only two boxes is insufficient; a minimum of four boxes are required to draw reliable conclusions.",
+  "decisions": [
+    "A minimum of four boxes must be used for future testing to ensure reliable conclusions regarding SIM card performance."
+  ],
+  "action_items": [
+    "Test data needs to be collected using at least four physical boxes to compare different SIM card providers and firmware versions."
+  ]
+}

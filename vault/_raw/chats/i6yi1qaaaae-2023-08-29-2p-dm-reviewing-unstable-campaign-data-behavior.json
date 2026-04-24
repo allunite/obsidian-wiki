@@ -1,0 +1,22 @@
+{
+  "chat_id": "i6YI1QAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 2,
+  "date_range": {
+    "start": "2023-08-29",
+    "end": "2023-08-29"
+  },
+  "message_count": 9,
+  "topic": "Reviewing unstable campaign data behavior",
+  "topic_slug": "reviewing-unstable-campaign-data-behavior",
+  "tags": [
+    "campaign",
+    "analytics"
+  ],
+  "summary_markdown": "The conversation initiated with a request to review unusual and unstable data behavior observed within a specific campaign. The participants exchanged meeting links for the discussion.",
+  "decisions": [],
+  "action_items": [
+    "Review unstable campaign data at staging analytics link."
+  ]
+}

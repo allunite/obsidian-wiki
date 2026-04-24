@@ -1,0 +1,26 @@
+{
+  "chat_id": "y9IEDQAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2024-10-09",
+    "end": "2024-10-09"
+  },
+  "message_count": 30,
+  "topic": "Data API errors and Kubernetes connectivity issues",
+  "topic_slug": "data-api-errors-and-kubernetes-connectivity-issues",
+  "tags": [
+    "analytics",
+    "frame",
+    "inventory",
+    "campaign"
+  ],
+  "summary_markdown": "The session covered two main technical issues. First, the staging data API was reported to be failing with 500 errors when requesting data in CSV format, despite sending a JSON payload specifying parameters like `granularity` and `format`. The error logs showed repeated `ClickHouseError: Unknown table expression identifier 'tempFrames' in scope`, indicating an issue with the underlying database query structure.\n\nSecond, difficulty connecting to Kubernetes clusters was discussed. Initial attempts failed due to unauthorized access errors (`kubectl top pod`). It was determined that the local kubeconfig file contained outdated cluster information (e.g., `allunite` and `royal food`), requiring updates or replacement of the configuration.",
+  "decisions": [
+    "The staging data API needs investigation for 500 errors when requesting CSV format data."
+  ],
+  "action_items": [
+    "Update local Kubernetes cluster configurations to reflect current environments."
+  ]
+}

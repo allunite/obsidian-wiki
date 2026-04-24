@@ -1,0 +1,24 @@
+{
+  "chat_id": "i6YI1QAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 2,
+  "date_range": {
+    "start": "2022-05-27",
+    "end": "2022-05-27"
+  },
+  "message_count": 33,
+  "topic": "Reviewing presentation and data for Latvia",
+  "topic_slug": "reviewing-presentation-and-data-for-latvia",
+  "tags": [
+    "analytics",
+    "campaign"
+  ],
+  "summary_markdown": "The conversation involved reviewing a presentation, specifically regarding the data for Latvia. A technical discussion occurred concerning MAC address hashing and encryption methods used by AllUnite. The initial draft suggested changing the salt for all MAC address types, but this was later retracted after review.\n\n*   **Presentation Review:** [me] reviewed the presentation and praised its clarity (specifically page 4).\n*   **Data/Technical Discussion:** A point of confusion arose regarding the technical description of trusted MAC addresses versus general hashing practices for real MAC addresses.",
+  "decisions": [
+    "The initial plan to change the salt for all types of MAC addresses was abandoned."
+  ],
+  "action_items": [
+    "Review and finalize the presentation, including answers for Latvia, by [p1] (or someone) today."
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "chat_id": "nW_zkkAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2025-04-29",
+    "end": "2025-04-29"
+  },
+  "message_count": 12,
+  "topic": "Scheduling a follow-up discussion",
+  "topic_slug": "scheduling-a-follow-up-discussion",
+  "tags": [],
+  "summary_markdown": "The participants discussed scheduling time to talk. [p1] suggested booking time for the next morning, which [me] agreed to. They also briefly discussed workspace logistics (desktop and motorized table) as a potential reason for postponing the conversation.",
+  "decisions": [
+    "A follow-up discussion is tentatively scheduled for the next morning."
+  ],
+  "action_items": []
+}

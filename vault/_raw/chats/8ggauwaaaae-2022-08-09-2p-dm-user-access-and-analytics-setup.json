@@ -1,0 +1,24 @@
+{
+  "chat_id": "8GgAuwAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 2,
+  "date_range": {
+    "start": "2022-08-09",
+    "end": "2022-08-09"
+  },
+  "message_count": 19,
+  "topic": "User access and analytics setup",
+  "topic_slug": "user-access-and-analytics-setup",
+  "tags": [
+    "analytics",
+    "inventory"
+  ],
+  "summary_markdown": "The discussion centered on setting up a new user account for an external contact. The initial issue was that the newly created user could not be found in the contact list and required assistance with login credentials.\n\nIt was clarified that the user only requires access to analytics, not full access to the platform (Modus).\n\nThe conversation concluded with confirmation that user accounts would be integrated into the analytics system after inventory setup.",
+  "decisions": [
+    "The new user will only require analytics access."
+  ],
+  "action_items": [
+    "Someone needs to provide the password for the new user account."
+  ]
+}

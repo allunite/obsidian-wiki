@@ -1,0 +1,27 @@
+{
+  "chat_id": "AAAA7lJKPlc",
+  "kind": "Space",
+  "space_name": "Frontend",
+  "participants": 5,
+  "date_range": {
+    "start": "2022-11-09",
+    "end": "2022-11-09"
+  },
+  "message_count": 10,
+  "topic": "Implementing sector display and board direction",
+  "topic_slug": "implementing-sector-display-and-board-direction",
+  "tags": [
+    "facility",
+    "analytics"
+  ],
+  "summary_markdown": "The discussion focused on implementing the display of sectors and board directions on the map interface. \n\n*   **Sector Display:** It was confirmed that faces can now have sector data, which includes an angle to North and a visibility distance. This data should be used to show the defined sector area on the UI.\n*   **Sector Management:** Sector settings must be changeable via both admin settings and the main UI.\n*   **Design Constraint:** The inner radius for sectors should always be set to 0.\n*   **Board Direction Icon:** A specific icon is required on the map to indicate the board's direction. This icon needs to be visually distinct and functional, as it will be used frequently.\n*   **Side Boards:** The designer was engaged to provide appropriate icons for displaying two side boards on the map.",
+  "decisions": [
+    "Sector data (angle/visibility) must drive sector display on UI",
+    "Inner radius for sectors is fixed at 0",
+    "A dedicated icon showing board direction will be implemented"
+  ],
+  "action_items": [
+    "Designer to provide icons for two side boards",
+    "Implement logic for rotating and displaying the board direction icon on the map"
+  ]
+}

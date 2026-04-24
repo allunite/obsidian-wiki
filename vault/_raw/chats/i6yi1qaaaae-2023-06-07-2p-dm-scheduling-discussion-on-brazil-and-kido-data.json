@@ -1,0 +1,23 @@
+{
+  "chat_id": "i6YI1QAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 2,
+  "date_range": {
+    "start": "2023-06-07",
+    "end": "2023-06-07"
+  },
+  "message_count": 14,
+  "topic": "Scheduling discussion on Brazil and Kido data",
+  "topic_slug": "scheduling-discussion-on-brazil-and-kido-data",
+  "tags": [
+    "analytics"
+  ],
+  "summary_markdown": "The conversation focused on scheduling a meeting to discuss data related to Brazil and information received from Kido. The initial proposed time was 4 PM Ukraine time. Later, [p1] decided to reschedule an existing meeting to prevent distraction from preparation for a demo. A new tentative date of Friday was suggested.",
+  "decisions": [
+    "Reschedule the current meeting/miting to Friday."
+  ],
+  "action_items": [
+    "Confirm the rescheduled time on Friday."
+  ]
+}

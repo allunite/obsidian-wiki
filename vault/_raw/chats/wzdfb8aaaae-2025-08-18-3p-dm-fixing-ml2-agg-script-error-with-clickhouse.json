@@ -1,0 +1,23 @@
+{
+  "chat_id": "wZDFB8AAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2025-08-18",
+    "end": "2025-08-18"
+  },
+  "message_count": 8,
+  "topic": "Fixing ml2_agg script error with ClickHouse",
+  "topic_slug": "fixing-ml2-agg-script-error-with-clickhouse",
+  "tags": [
+    "analytics"
+  ],
+  "summary_markdown": "The conversation addressed an error encountered while running the `ml2_agg` script. The issue was identified as a change in how JetBrains updated the ClickHouse driver, causing queries to run in separate sessions by default. A workaround was provided: rolling back the driver version and restarting the IDE/reconnecting tabs.",
+  "decisions": [
+    "The error with `ml2_agg` is resolved by rolling back the ClickHouse driver version."
+  ],
+  "action_items": [
+    "[p1] will roll back the ClickHouse driver version and restart the IDE to confirm the fix."
+  ]
+}

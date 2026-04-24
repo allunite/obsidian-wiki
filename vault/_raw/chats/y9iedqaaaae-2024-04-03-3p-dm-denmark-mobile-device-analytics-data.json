@@ -1,0 +1,23 @@
+{
+  "chat_id": "y9IEDQAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2024-04-03",
+    "end": "2024-04-03"
+  },
+  "message_count": 33,
+  "topic": "Denmark mobile device analytics data",
+  "topic_slug": "denmark-mobile-device-analytics-data",
+  "tags": [
+    "analytics",
+    "impression",
+    "inventory"
+  ],
+  "summary_markdown": "A request was made for the number of mobile devices in Denmark, both daily and weekly, based on a presentation preparation for a tender. The following data points were provided for March 2024:\n\n*   **Average Real/Trusted Unique Devices (March 2024):**\n    *   Per Day: 578,915\n    *   Per Week: 2,486,359\n*   **Average Predicted (Modelled) Unique Devices (March 2024):**\n    *   Per Day: 867,241\n    *   Per Week: 3,399,344",
+  "decisions": [
+    "Provided mobile device analytics data for Denmark for March 2024."
+  ],
+  "action_items": []
+}

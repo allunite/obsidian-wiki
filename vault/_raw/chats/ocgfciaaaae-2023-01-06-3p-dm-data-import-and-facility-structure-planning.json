@@ -1,0 +1,28 @@
+{
+  "chat_id": "oCgFCIAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2023-01-06",
+    "end": "2023-01-06"
+  },
+  "message_count": 20,
+  "topic": "Data import and facility structure planning",
+  "topic_slug": "data-import-and-facility-structure-planning",
+  "tags": [
+    "analytics",
+    "inventory",
+    "campaign",
+    "facility"
+  ],
+  "summary_markdown": "The discussion focused on the necessary steps for data import and structuring facility inventory. Key points included:\n*   **Data Import:** A decision was made to proceed with creating a ticket for the data import process, as the current system relies heavily on Excel.\n*   **Inventory Structure:** The imported data must account for facilities and multiple frames, which need to be grouped by `construction id`.\n*   **Data Gaps & Strategy:** It was noted that not all required fields are available; some will require manual input or assumptions. For the initial import, only basic parameters like address, coordinates (lat/lng), size, and frame direction are needed.\n*   **Handling Ownership:** Since facilities belong to multiple companies (three in Brazil), it was suggested initially importing data into a sandbox environment before segmenting by owner.\n*   **Future Scope:** Future work includes integrating external data sources (like Passport and LinkedIn) for movement segments and calculating final traffic coefficients.",
+  "decisions": [
+    "Create a ticket to formalize the data import process.",
+    "Initial facility data should be imported into a sandbox environment before owner segmentation."
+  ],
+  "action_items": [
+    "Proceed with creating user accounts/user creation (scheduled for Monday).",
+    "Determine necessary fields and finalize data structure requirements with someone (Galina)."
+  ]
+}

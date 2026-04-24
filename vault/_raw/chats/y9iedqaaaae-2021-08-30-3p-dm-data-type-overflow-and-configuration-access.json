@@ -1,0 +1,26 @@
+{
+  "chat_id": "y9IEDQAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2021-08-30",
+    "end": "2021-08-30"
+  },
+  "message_count": 31,
+  "topic": "Data type overflow and configuration access",
+  "topic_slug": "data-type-overflow-and-configuration-access",
+  "tags": [
+    "analytics",
+    "campaign",
+    "inventory"
+  ],
+  "summary_markdown": "The conversation covered technical issues related to data logging, specifically potential integer overflows for counters (like empty frames) and duration fields. It was determined that using `UInt64` for these parameters is necessary to prevent overflow when tracking long periods of inactivity or extended sessions.\n\nSeparately, the participants discussed accessing application configurations. [me] requested assistance in viewing/modifying app configs (e.g., `staging-mods`) within the staging environment, noting that the usual internal tool was inaccessible. A command using `helm get values` was provided to retrieve current configuration values.",
+  "decisions": [
+    "Data logging counters and duration fields will be updated to use UInt64 data types to prevent overflow."
+  ],
+  "action_items": [
+    "Someone needs to check the live data stream from the lidar source for new sessions/activity.",
+    "The configuration values for staging applications (e.g., `staging-mods`) can be retrieved using `helm get values staging-mops -n staging`."
+  ]
+}

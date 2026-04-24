@@ -1,0 +1,25 @@
+{
+  "chat_id": "nW_zkkAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2026-01-30",
+    "end": "2026-01-30"
+  },
+  "message_count": 8,
+  "topic": "Facility master data aggregation issues",
+  "topic_slug": "facility-master-data-aggregation-issues",
+  "tags": [
+    "analytics",
+    "facility",
+    "recalc-ch"
+  ],
+  "summary_markdown": "The discussion focused on discrepancies and structural issues within the facility master data used for final aggregation reports. Specifically, it was noted that there are unnecessary clusters in the final report that need removal. A key concern is that deleting these clusters would affect production data linked to them. Furthermore, inconsistencies were identified between the `facility_master_version_dict` and the `facility_dict`.",
+  "decisions": [
+    "A meeting time was set for later in the day (around 18:42) to discuss the facility master data issues."
+  ],
+  "action_items": [
+    "Review the specific development ticket regarding the facility master data discrepancies."
+  ]
+}

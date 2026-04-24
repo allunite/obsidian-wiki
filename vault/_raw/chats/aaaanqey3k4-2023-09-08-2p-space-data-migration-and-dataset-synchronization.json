@@ -1,0 +1,28 @@
+{
+  "chat_id": "AAAANqEY3K4",
+  "kind": "Space",
+  "space_name": "Group Chat",
+  "participants": 2,
+  "date_range": {
+    "start": "2023-09-08",
+    "end": "2023-09-08"
+  },
+  "message_count": 34,
+  "topic": "Data migration and dataset synchronization",
+  "topic_slug": "data-migration-and-dataset-synchronization",
+  "tags": [
+    "analytics",
+    "campaign",
+    "facility"
+  ],
+  "summary_markdown": "The discussion focused on data preparation, including mapping from a specific source and copying sessions/demographics. Initial concerns were raised about potential breakage when migrating live production data (sessions) to test environments.\n\nLater, it was determined that the current version of the dataset should be frozen for immediate use, pending acquisition of approximately 300 missing frames of data.\n\nFinally, a critical task involved synchronizing datasets between staging and production environments. Specifically, the stage dataset needs to be moved to production for Brazil, with calculations needing to cover the period starting June 1st, rather than just August.",
+  "decisions": [
+    "Freeze the current version of the data for immediate use.",
+    "The stage dataset must be transferred to production for the Brazil region's release.",
+    "Data recalculations for Brazil must start from June 1st."
+  ],
+  "action_items": [
+    "Transfer the staging dataset to production for Brazil.",
+    "Recalculate data for Brazil starting from June 1st."
+  ]
+}

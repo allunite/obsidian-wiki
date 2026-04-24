@@ -1,0 +1,22 @@
+{
+  "chat_id": "0m7UOUAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2024-05-24",
+    "end": "2024-05-24"
+  },
+  "message_count": 5,
+  "topic": "Adjusting frequency calculation using session length",
+  "topic_slug": "adjusting-frequency-calculation-using-session-length",
+  "tags": [
+    "analytics",
+    "session"
+  ],
+  "summary_markdown": "A proposal was made to modify how frequency is calculated on the traffic page. The current method uses a ratio of unique counts to total counts. The suggested improvement involves applying filtering similar to sensor calibration, specifically by using minimum and maximum session lengths. It was proposed that adding 'minimum' and 'maximum' session length fields to the calibration table would allow the aggregation script to filter the `device_id` sample used for frequency calculation based on these values.",
+  "decisions": [
+    "No immediate changes are required; the proposal is for future consideration."
+  ],
+  "action_items": []
+}

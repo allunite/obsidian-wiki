@@ -1,0 +1,23 @@
+{
+  "chat_id": "AAAA7lJKPlc",
+  "kind": "Space",
+  "space_name": "Frontend",
+  "participants": 5,
+  "date_range": {
+    "start": "2022-06-08",
+    "end": "2022-06-08"
+  },
+  "message_count": 3,
+  "topic": "Prioritizing frontend development tasks",
+  "topic_slug": "prioritizing-frontend-development-tasks",
+  "tags": [
+    "analytics"
+  ],
+  "summary_markdown": "A discussion was held regarding the prioritization of outstanding frontend fixes. The immediate focus should be on implementing style fixes and pushing them to the develop branch. These are considered more important than the Chart.js migration or the Inventory management updates, although server-side changes for inventory management are still pending.",
+  "decisions": [
+    "Style fixes must be prioritized and pushed to the develop branch."
+  ],
+  "action_items": [
+    "Start working on style fixes immediately."
+  ]
+}

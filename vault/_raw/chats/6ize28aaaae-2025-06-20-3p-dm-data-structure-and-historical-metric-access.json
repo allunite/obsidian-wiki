@@ -1,0 +1,26 @@
+{
+  "chat_id": "6ize28AAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2025-06-20",
+    "end": "2025-06-20"
+  },
+  "message_count": 10,
+  "topic": "Data structure and historical metric access",
+  "topic_slug": "data-structure-and-historical-metric-access",
+  "tags": [
+    "analytics",
+    "impression",
+    "dwell-time",
+    "reach",
+    "frequency",
+    "api"
+  ],
+  "summary_markdown": "The conversation focused on the calculation methodology for metrics like Reach and the structure of stored data. \n\n**Metric Calculation:** The initial discussion confirmed that Reach is calculated at the facility level, not just per frame.\n\n**Data Structure & Storage:** The data used for metric calculation is structured as aggregated, timestamped records tied to specific screen, panel, or zone locations. Key fields include unique visits, impressions, dwell time, reach, and frequency. Sensor data (Wi-Fi) is enriched with mobility inputs (e.g., telco OD matrices, traffic flow data). Calculations are performed overnight (UTC).\n\n**Historical Data:** Historical data is stored in AllUnite’s central database and is accessible to clients via the Analytics dashboard or API. Clients can view daily, weekly, or monthly data, filtered by environment, location, or campaign. Data retention follows the contract duration, supporting long-term trend analysis.",
+  "decisions": [
+    "Historical metrics are available both as 'historical data' and 'historical aggregated data' via the API."
+  ],
+  "action_items": []
+}

@@ -1,0 +1,21 @@
+{
+  "chat_id": "y9IEDQAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2025-05-19",
+    "end": "2025-05-19"
+  },
+  "message_count": 9,
+  "topic": "Reviewing reported data discrepancies",
+  "topic_slug": "reviewing-reported-data-discrepancies",
+  "tags": [
+    "analytics"
+  ],
+  "summary_markdown": "The discussion revolves around a discrepancy in reported metrics, where someone noted that the current figures are not lower than expected. They pointed out that the metric remains consistent and that Excel rounding might be causing confusion, noting that many zeros now appear as decimals less than 0.5 when hovering over the data.\n\n[p1] suggested that the person complaining might be comparing the data against an incorrect report or source.",
+  "decisions": [],
+  "action_items": [
+    "Someone will attempt to verify which report the other party is using."
+  ]
+}

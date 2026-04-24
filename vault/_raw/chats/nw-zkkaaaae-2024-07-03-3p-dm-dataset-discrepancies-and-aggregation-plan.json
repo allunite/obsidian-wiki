@@ -1,0 +1,26 @@
+{
+  "chat_id": "nW_zkkAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2024-07-03",
+    "end": "2024-07-03"
+  },
+  "message_count": 21,
+  "topic": "Dataset discrepancies and aggregation plan",
+  "topic_slug": "dataset-discrepancies-and-aggregation-plan",
+  "tags": [
+    "analytics",
+    "impression",
+    "campaign"
+  ],
+  "summary_markdown": "The discussion centered on discrepancies found when comparing impression data between the 'beta' dataset (used by [p1]) and the production/stage datasets. It was noted that the current `prod` model primarily uses data built during a later period, causing differences from the historical analysis performed by [p1] starting in March.\n\n[me] provided two SQL queries (`ml_2` and `agg_5`) for review. After analyzing the data flow, it was observed that impressions from `ml_2.stage` are being incorrectly used within `agg_5.prod` when looking at dates before June 20th.\n\n**Decision:** To resolve the discrepancy, a new dataset must be constructed by aggregating ",
+  "decisions": [
+    "A correct dataset needs to be assembled from various sources (the 'patches') into `ml_2`.",
+    "Aggregation of fixed impressions will then be performed based on this newly compiled dataset."
+  ],
+  "action_items": [
+    "[me] completed the necessary data compilation and aggregation."
+  ]
+}

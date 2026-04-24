@@ -1,0 +1,28 @@
+{
+  "chat_id": "oq-w0kAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2025-04-11",
+    "end": "2025-04-11"
+  },
+  "message_count": 22,
+  "topic": "Demographic data reporting and deployment",
+  "topic_slug": "demographic-data-reporting-and-deployment",
+  "tags": [
+    "analytics",
+    "campaign",
+    "impression"
+  ],
+  "summary_markdown": "The discussion covered the implementation and testing of new demographic data features for campaigns. [p1] added a task to include 'socl' (social) and 'empl' (employment) demographics in campaign reports, specifically updating the payloads for `/api/campaigns/report/charts` and `/api/campaigns/target/charts-demography`. Initial testing was conducted on the beta environment but failed due to view changes. The deployment was subsequently moved to the staging environment for review by multiple team members (including Nina). Furthermore, two issues regarding demographic data presentation were addressed: 1) Removing the repeated word \"Trips\" from demographic terms. 2) Addressing confusion about the age range provided by citydata, confirming that the current breakdown is accurate as received.",
+  "decisions": [
+    "The new demographic features (socl & empl) for campaign reporting were deployed to the staging environment.",
+    "The word \"Trips\" was removed from the demographic data terms.",
+    "The age range provided by citydata in the demographic breakdown was confirmed as correct."
+  ],
+  "action_items": [
+    "Team members (Nina, etc.) need to test the new demographic features on staging.",
+    "[p1] will adjust names/labels related to the data presentation."
+  ]
+}

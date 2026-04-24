@@ -1,0 +1,21 @@
+{
+  "chat_id": "xdx5dQAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 2,
+  "date_range": {
+    "start": "2021-06-09",
+    "end": "2021-06-09"
+  },
+  "message_count": 11,
+  "topic": "Reviewing file structure and data integrity",
+  "topic_slug": "reviewing-file-structure-and-data-integrity",
+  "tags": [
+    "analytics"
+  ],
+  "summary_markdown": "The conversation focused on verifying the proper placement and format of files stored in S3. Initially, there were concerns about the file structure and data integrity. Later, [me] confirmed that the issue was resolved after testing with another party.",
+  "decisions": [],
+  "action_items": [
+    "Test the fix with Tolya."
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "chat_id": "oCgFCIAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2022-01-19",
+    "end": "2022-01-19"
+  },
+  "message_count": 8,
+  "topic": "Data structure for demographic and device data",
+  "topic_slug": "data-structure-for-demographic-and-device-data",
+  "tags": [
+    "analytics",
+    "facility"
+  ],
+  "summary_markdown": "The discussion focused on structuring the storage of demographic and device data. It was decided that for a given facility (e.g., 200 boxes in Denmark), the system should store pairs linking `facility_id` to a unique set of `device_id`s from other residential facilities.\n\nRegarding demographics, it was proposed that instead of calculating demographic variables based on all devices every time, pre-calculated numbers for each variable and demographic parameter should be stored directly. A separate discussion point addressed the storage method for reference data/dictionaries.",
+  "decisions": [
+    "For a facility, store pairs linking `facility_id` to unique device IDs from other residential facilities.",
+    "Pre-calculate and store demographic variables instead of calculating them on demand."
+  ],
+  "action_items": []
+}

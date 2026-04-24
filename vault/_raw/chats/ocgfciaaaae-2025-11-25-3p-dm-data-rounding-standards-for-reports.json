@@ -1,0 +1,21 @@
+{
+  "chat_id": "oCgFCIAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2025-11-25",
+    "end": "2025-11-25"
+  },
+  "message_count": 4,
+  "topic": "Data rounding standards for reports",
+  "topic_slug": "data-rounding-standards-for-reports",
+  "tags": [
+    "analytics"
+  ],
+  "summary_markdown": "The discussion focused on the appropriate level of data precision (rounding) for reporting metrics, specifically noting that frequency and other fields appeared unrounded in a report screenshot. It was suggested that rounding to two decimal places is generally standard practice when using SQL.",
+  "decisions": [
+    "Use two decimal places for general data rounding in reports."
+  ],
+  "action_items": []
+}

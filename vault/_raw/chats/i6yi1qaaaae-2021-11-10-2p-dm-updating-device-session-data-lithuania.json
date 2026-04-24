@@ -1,0 +1,24 @@
+{
+  "chat_id": "i6YI1QAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 2,
+  "date_range": {
+    "start": "2021-11-10",
+    "end": "2021-11-10"
+  },
+  "message_count": 18,
+  "topic": "Updating device session data for Lithuania",
+  "topic_slug": "updating-device-session-data-lithuania",
+  "tags": [
+    "analytics",
+    "inventory"
+  ],
+  "summary_markdown": "The conversation covered two main topics. First, a discussion occurred regarding potential discrepancies in calculating total metrics when dividing by intervals versus using session data, noting that the calculation factor's error might be a contributing variable. Second, [p1] requested an update to a specific table (`allunite._device_session_concept_Lithuanina_City_0823_0829`) used for selecting Lithuanian data and certain sensors. The request included adding two new MAC addresses/sensors: `mac = 001e42275f23` and `mac = 001e422c278e`.",
+  "decisions": [
+    "Update the specified table with additional sensors."
+  ],
+  "action_items": [
+    "[me] to update the table 'allunite._device_session_concept_Lithuanina_City_0823_0829' and add the two listed MAC addresses/sensors."
+  ]
+}

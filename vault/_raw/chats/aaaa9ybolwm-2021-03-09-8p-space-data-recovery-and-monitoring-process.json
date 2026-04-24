@@ -1,0 +1,30 @@
+{
+  "chat_id": "AAAA9ybOLwM",
+  "kind": "Space",
+  "space_name": "ИТ",
+  "participants": 8,
+  "date_range": {
+    "start": "2021-03-09",
+    "end": "2021-03-09"
+  },
+  "message_count": 86,
+  "topic": "Data recovery and monitoring process",
+  "topic_slug": "data-recovery-and-monitoring-process",
+  "tags": [
+    "analytics",
+    "recalc-ch",
+    "impression",
+    "campaign",
+    "loop"
+  ],
+  "summary_markdown": "The discussion focused heavily on data gaps and the process of recovering missing analytics data for multiple dates (specifically March 6th, 7th, and 8th). Initial issues included an ML model failing due to empty datasets and a lack of alerts when data was missing.\n\n**Data Recovery:** It was determined that historical data needed to be reconstructed using predictive modeling. The recovery process involved developing a modified moving average method for calculating metrics on the staging environment before deployment to production.\n\n**System Improvements:** Multiple improvements were discussed, including establishing separate communication channels for data errors/recalculations and technical logs. A monitoring system was implemented to query ClickHouse hourly for data presence.\n\n**Finalization:** The predictive model was finalized and deemed ready for use after checking for minor deviations in unique user metrics.",
+  "decisions": [
+    "Missing historical data (March 6th, 7th, 8th) must be recovered using a predictive model.",
+    "A modified moving average method will be used for the prediction calculation on staging before production deployment.",
+    "Monitoring alerts were implemented to detect missing data in ClickHouse."
+  ],
+  "action_items": [
+    "Ensure separate channels are established for data error notifications and technical logs.",
+    "The predictive model needs to be finalized and deployed for data recovery."
+  ]
+}

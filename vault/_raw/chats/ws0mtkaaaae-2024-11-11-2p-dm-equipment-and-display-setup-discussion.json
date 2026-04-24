@@ -1,0 +1,19 @@
+{
+  "chat_id": "ws0mTkAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 2,
+  "date_range": {
+    "start": "2024-11-11",
+    "end": "2024-11-11"
+  },
+  "message_count": 13,
+  "topic": "Equipment and display setup discussion",
+  "topic_slug": "equipment-and-display-setup-discussion",
+  "tags": [
+    "facility"
+  ],
+  "summary_markdown": "The conversation focused on the need for additional screens/monitors, particularly for debugging purposes. One participant mentioned needing a second computer or replacing their current MacBook to accommodate more displays (up to four). Alternatives discussed included purchasing a new Mac Mini or using a separate Linux machine with its own monitor. Another participant suggested using spacedesk as a potential solution.\n\nThe discussion concluded with light banter regarding monitors and lighting.",
+  "decisions": [],
+  "action_items": []
+}

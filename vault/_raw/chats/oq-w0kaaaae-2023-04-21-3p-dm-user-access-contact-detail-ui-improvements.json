@@ -1,0 +1,28 @@
+{
+  "chat_id": "oq-w0kAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2023-04-21",
+    "end": "2023-04-21"
+  },
+  "message_count": 34,
+  "topic": "User access and contact detail UI improvements",
+  "topic_slug": "user-access-contact-detail-ui-improvements",
+  "tags": [
+    "analytics",
+    "inventory",
+    "facility",
+    "campaign"
+  ],
+  "summary_markdown": "The discussion focused on improving user access controls, specifically for contact details. It was determined that implementing a UI enhancement in the Contact Details section is necessary to manage facility and company access permissions.\n\nInitial discussions covered how user access is currently managed (restricting visibility based on `company_id` or allowing full view).\n\nIt was decided to prioritize work related to DOOH-133, as it is considered simpler and more immediately useful than the initial proposed feature. The required UI functionality includes a search/autocomplete mechanism for selecting multiple facilities, rather than simple checkboxes.\n\nLater in the session, there were technical discussions regarding superadmin modes and ensuring correct deployment of user creation features.",
+  "decisions": [
+    "Prioritize implementing changes related to DOOH-133 for managing contact details access.",
+    "The UI for facility/company access restriction must include a search/autocomplete multiselect feature."
+  ],
+  "action_items": [
+    "Someone will review the problematic area of user access logic (DOOH-127).",
+    "Maintainer can update the storage when `facility_master_id` is available in JSON."
+  ]
+}

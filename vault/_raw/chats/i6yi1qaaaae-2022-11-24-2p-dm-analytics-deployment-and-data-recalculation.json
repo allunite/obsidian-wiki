@@ -1,0 +1,25 @@
+{
+  "chat_id": "i6YI1QAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 2,
+  "date_range": {
+    "start": "2022-11-24",
+    "end": "2022-11-24"
+  },
+  "message_count": 14,
+  "topic": "Analytics deployment and data recalculation",
+  "topic_slug": "analytics-deployment-and-data-recalculation",
+  "tags": [
+    "analytics",
+    "campaign"
+  ],
+  "summary_markdown": "The conversation focused on the status of a new analytics script and model deployment. [me] confirmed pushing a new script and planned to monitor its execution overnight.\n\nRegarding data, [p1] stated that the historical model had been recalculated on the staging environment. [me] requested recalculation because there was missing data for recent days. [p1] subsequently activated the new model for YK (presumably a client or region) on production.\n\nLater, due to issues with the new analytics version, [me] requested that [p1] temporarily roll back the deployment. It was decided that the new analytics version could not be deployed to production today and required further discussion and decision-making for the next day.",
+  "decisions": [
+    "The new analytics version will not be deployed to production today.",
+    "A rollback of the newly activated model/analytics is necessary."
+  ],
+  "action_items": [
+    "Discuss nuances regarding the new analytics deployment tomorrow."
+  ]
+}

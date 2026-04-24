@@ -1,0 +1,23 @@
+{
+  "chat_id": "nW_zkkAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2025-09-15",
+    "end": "2025-09-15"
+  },
+  "message_count": 26,
+  "topic": "Understanding unique visitor metrics in analytics",
+  "topic_slug": "understanding-unique-visitor-metrics-in-analytics",
+  "tags": [
+    "analytics",
+    "impression",
+    "session"
+  ],
+  "summary_markdown": "The conversation focused on clarifying how Unique Visitors and Total Visits are calculated within the airport analytics platform. Initially, [p1] questioned the definition of these metrics. Later, when presented with specific data points (356,028 Unique Traffic vs. 6,355,331 total), [p1] questioned whether simple summation was appropriate for 'Unique Visitors'. [me] confirmed that the current display method was agreed upon in a previous discussion involving someone named Nastya.",
+  "decisions": [
+    "The unique visitor metrics are displayed as shown, despite potential mathematical inconsistencies when summing specific data points."
+  ],
+  "action_items": []
+}

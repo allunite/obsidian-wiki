@@ -1,0 +1,19 @@
+{
+  "chat_id": "0VorOYAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2022-05-24",
+    "end": "2022-05-24"
+  },
+  "message_count": 7,
+  "topic": "Moving content from staging to production",
+  "topic_slug": "moving-content-staging-to-production",
+  "tags": [
+    "campaign"
+  ],
+  "summary_markdown": "The conversation briefly addressed the need to move some content from a STAGE environment to PROD. [p1] confirmed this process, mentioning 'woco'.",
+  "decisions": [],
+  "action_items": []
+}

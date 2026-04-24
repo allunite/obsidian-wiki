@@ -1,0 +1,25 @@
+{
+  "chat_id": "y9IEDQAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2024-06-04",
+    "end": "2024-06-04"
+  },
+  "message_count": 35,
+  "topic": "Exporting raw device data to parquet format",
+  "topic_slug": "exporting-raw-device-data-to-parquet-format",
+  "tags": [
+    "analytics",
+    "impression",
+    "campaign"
+  ],
+  "summary_markdown": "The conversation covered two main topics: DNS propagation and exporting raw device analytics data.\n\n**DNS Propagation:** The participants discussed the slow resolution of a newly registered domain (`nanay.dp.ua`). It was determined that for the domain to resolve correctly, the user must log into the registrar where it was purchased and manually update the Name Servers (NS) records to point to the correct authoritative servers.\n\n**Data Export:** A complex SQL query was developed to extract raw device data from `allunite.raw_devices_seen_2`. The initial query structure was refined, culminating in a final version that specifies the output format as Parquet and explicitly sets the compression method to 'zstd' for the export.",
+  "decisions": [
+    "The user must update the Name Servers (NS) records at the domain registrar for `nanay.dp.ua` to ensure proper DNS resolution."
+  ],
+  "action_items": [
+    "Someone needs to run the final SQL query, which exports raw device data from `allunite.raw_devices_seen_2` into a compressed Parquet format using 'zstd' compression."
+  ]
+}

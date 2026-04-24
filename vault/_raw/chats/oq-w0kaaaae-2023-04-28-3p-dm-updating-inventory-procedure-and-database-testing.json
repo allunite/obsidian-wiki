@@ -1,0 +1,28 @@
+{
+  "chat_id": "oq-w0kAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2023-04-28",
+    "end": "2023-04-28"
+  },
+  "message_count": 23,
+  "topic": "Updating inventory procedure and database testing",
+  "topic_slug": "updating-inventory-procedure-and-database-testing",
+  "tags": [
+    "facility",
+    "inventory",
+    "analytics"
+  ],
+  "summary_markdown": "The conversation covered technical changes to the `inventory_update` procedure required for maintaining the facility master ID. A discussion ensued regarding PostgreSQL's lack of a native MERGE operator, with suggestions provided on using `INSERT ... ON CONFLICT UPDATE SET`. \n\nRegarding data visualization, it was clarified that while some demographic data is not fake, percentage values displayed in bar charts (specifically on the inventory dashboard) need to be integrated into chatjs. It was also confirmed that facility master IDs should be allowed to be reset/deleted.\n\nFor testing purposes, [p1] asked about testing a procedure without deployment. The consensus was to make changes directly in the database, preferably on a sandbox environment, with backups taken before making write operations.",
+  "decisions": [
+    "The `inventory_update` procedure must be modified to preserve facility master ID functionality.",
+    "Facility master IDs should be allowed to be reset (deletion of records from `facility_master`).",
+    "Database changes should be tested directly on a sandbox environment."
+  ],
+  "action_items": [
+    "[p1] needs to update the inventory procedure logic for facility master ID preservation.",
+    "[me] advised taking backups before making write operations in the database."
+  ]
+}

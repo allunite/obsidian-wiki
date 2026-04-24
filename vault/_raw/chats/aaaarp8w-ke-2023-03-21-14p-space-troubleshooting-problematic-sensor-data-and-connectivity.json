@@ -1,0 +1,26 @@
+{
+  "chat_id": "AAAARP8w-KE",
+  "kind": "Space",
+  "space_name": "Problematic sensors",
+  "participants": 14,
+  "date_range": {
+    "start": "2023-03-21",
+    "end": "2023-03-21"
+  },
+  "message_count": 26,
+  "topic": "Troubleshooting problematic sensor data and connectivity",
+  "topic_slug": "troubleshooting-problematic-sensor-data-and-connectivity",
+  "tags": [
+    "facility",
+    "analytics",
+    "impression"
+  ],
+  "summary_markdown": "The discussion focused on multiple instances of sensors exhibiting poor performance, including reduced packet transmission rates (e.g., 50 packets every 5 minutes) and periods of lost connectivity.\n\nMultiple facilities were identified with issues: JCD_BR_845, JCD_BR_236, and JCD_BR_87 showed erratic data patterns.\n\nIt was noted that if connection loss lasts for a couple of hours, all data is eventually uploaded correctly. However, the inability to store data beyond two hours was mentioned.\n\nRegarding troubleshooting, manual box restarts were found helpful for specific units (e.g., 001e42377b23), suggesting that automatic daily restarts might not be sufficient or effective in all cases. A separate issue with a sensor at CC_BR_RD 10 was raised due to low correlation over two months, requiring a reboot.",
+  "decisions": [
+    "Manual box restart was confirmed as an effective troubleshooting step for certain units."
+  ],
+  "action_items": [
+    "Identify and provide examples of other sensors that have sharply dropped data transmission and have not recovered.",
+    "Reboot the sensor at CC_BR_RD 10 due to low correlation."
+  ]
+}

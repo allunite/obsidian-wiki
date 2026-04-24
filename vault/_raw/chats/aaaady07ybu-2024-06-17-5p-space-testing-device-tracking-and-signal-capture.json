@@ -1,0 +1,28 @@
+{
+  "chat_id": "AAAAdY07yBU",
+  "kind": "Space",
+  "space_name": "Group Chat",
+  "participants": 5,
+  "date_range": {
+    "start": "2024-06-17",
+    "end": "2024-06-17"
+  },
+  "message_count": 26,
+  "topic": "Testing device tracking and signal capture",
+  "topic_slug": "testing-device-tracking-and-signal-capture",
+  "tags": [
+    "analytics",
+    "session",
+    "impression",
+    "loop"
+  ],
+  "summary_markdown": "The discussion focused on planning an experiment to track a specific device (referred to as Charles's device) passing near sensors in São Paulo. To ensure successful data capture, several technical requirements were identified:\n\n*   **Testing Setup:** It was suggested that the test should be conducted using a dedicated hotspot with a fixed MAC address for the target device.\n*   **Signal Reliability Concerns:** A concern was raised regarding modern smartphones (like iPhones) potentially sending low-signal packets when close to a spot, which might bypass the sensors.\n*   **Technical Requirements:** The team discussed methods for capturing client/session IDs using local MAC addresses and correlating them with data stored in a database. This requires hashing capabilities to convert MAC addresses into searchable hashed strings.\n*   **Development Support:** It was noted that one participant (Tolya) has the capability to convert MAC addresses into client hashes, and another participant offered to build a web interface to facilitate conversions in both directions.",
+  "decisions": [
+    "The experiment requires simulating device presence using a hotspot with a fixed MAC address.",
+    "A web interface will be developed to handle two-way conversion of MAC addresses for tracking purposes."
+  ],
+  "action_items": [
+    "Test the sensor functionality in an office environment before conducting field tests in São Paulo.",
+    "Develop and test the hash conversion utility (MAC to client hash) via a web interface."
+  ]
+}

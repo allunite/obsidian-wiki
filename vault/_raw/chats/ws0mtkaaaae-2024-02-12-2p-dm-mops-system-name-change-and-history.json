@@ -1,0 +1,19 @@
+{
+  "chat_id": "ws0mTkAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 2,
+  "date_range": {
+    "start": "2024-02-12",
+    "end": "2024-02-12"
+  },
+  "message_count": 28,
+  "topic": "MOPs system name change and history",
+  "topic_slug": "mops-system-name-change-and-history",
+  "tags": [
+    "analytics"
+  ],
+  "summary_markdown": "The conversation focused on the MOPs tracking system. It was noted that MOPs is a successor to 'mods'. While it has been renamed in analytics systems, its internal name remains MOPs.",
+  "decisions": [],
+  "action_items": []
+}

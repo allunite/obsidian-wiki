@@ -1,0 +1,21 @@
+{
+  "chat_id": "oCgFCIAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2022-12-12",
+    "end": "2022-12-12"
+  },
+  "message_count": 7,
+  "topic": "API key and functionality review",
+  "topic_slug": "api-key-and-functionality-review",
+  "tags": [
+    "analytics"
+  ],
+  "summary_markdown": "The discussion centered on a technical issue regarding the implementation of an API key, noting that the current code uses an example from the internet rather than requiring a proper key. It was decided that instead of asking someone else (referred to as 'Диме') to fix it, the team should resolve the issue internally.\n\nAnother point discussed was the removal of Google watermarks; while effort was expended, the result was minimal.",
+  "decisions": [
+    "The team will handle the API key implementation and related functionality internally."
+  ],
+  "action_items": []
+}

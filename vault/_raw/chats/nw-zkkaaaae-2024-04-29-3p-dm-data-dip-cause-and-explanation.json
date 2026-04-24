@@ -1,0 +1,24 @@
+{
+  "chat_id": "nW_zkkAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2024-04-29",
+    "end": "2024-04-29"
+  },
+  "message_count": 8,
+  "topic": "Data dip cause and explanation",
+  "topic_slug": "data-dip-cause-and-explanation",
+  "tags": [
+    "analytics",
+    "recalc-ch"
+  ],
+  "summary_markdown": "The conversation addressed a recent data dip. [p1] stated that the dip was caused by a recalculation (recalc), which a new system/feature corrected. Someone questioned whether the cause was calibration or a crash, noting it was unclear.\n\n[me] agreed to investigate the history to understand the issue better, as the root cause remains unclear.",
+  "decisions": [
+    "The data dip was attributed to a recalculation (recalc)."
+  ],
+  "action_items": [
+    "[me] will investigate the historical data to determine the exact cause of the dip."
+  ]
+}

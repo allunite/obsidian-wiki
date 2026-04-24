@@ -1,0 +1,25 @@
+{
+  "chat_id": "AAAARP8w-KE",
+  "kind": "Space",
+  "space_name": "Problematic sensors",
+  "participants": 14,
+  "date_range": {
+    "start": "2023-11-23",
+    "end": "2023-11-23"
+  },
+  "message_count": 19,
+  "topic": "Sensor signal challenges and antenna placement",
+  "topic_slug": "sensor-signal-challenges-antenna-placement",
+  "tags": [
+    "analytics",
+    "inventory",
+    "session"
+  ],
+  "summary_markdown": "The discussion focused on the technical difficulties of achieving stable sensor sensitivity when antennas are installed near or inside large display screens. Key issues identified include: \n\n*   **Signal Obstruction:** Large LCD matrices, often mounted on metal plates, significantly interfere with signals, especially when the antenna is placed close to or between the screen and the metal backing. The signal received tends to be primarily side- or reflection-based, making it unstable.\n*   **Optimal Placement:** It was suggested that if internal installation is unavoidable, placing the antenna as close to the edge of the screen (preferably the bottom) would be better than central placement, while also considering ground reflections.\n*   **Measurement Needs:** A specialized signal wave measurer is recommended to accurately map field strengths and identify coverage gaps.\n\nRegarding physical setup, it was noted that antennas are sometimes placed outside or on the roof for large displays (2 meters high), which may mitigate some internal interference issues. However, external glass components might also block Wi-Fi signals.",
+  "decisions": [
+    "Test antenna placement at PMJ Deepslot when they change the location of the antenna."
+  ],
+  "action_items": [
+    "Use a signal wave measurer to map field strengths and identify coverage gaps."
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "chat_id": "AAAA9O38bU4",
+  "kind": "Space",
+  "space_name": "Group Chat",
+  "participants": 6,
+  "date_range": {
+    "start": "2023-10-17",
+    "end": "2023-10-17"
+  },
+  "message_count": 23,
+  "topic": "Social gathering plans and cancellations",
+  "topic_slug": "social-gathering-plans-and-cancellations",
+  "tags": [],
+  "summary_markdown": "The conversation revolves around planning a social gathering at [me]'s 'dacha' (country house) for the upcoming Saturday, capitalizing on predicted warm weather. Several participants declined or indicated they could not attend due to existing commitments (e.g., family events, training, other obligations). Despite initial cancellations and logistical difficulties, [me] reiterated an open invitation, listing available amenities such as beer, meat, garden produce, wine, and multiple grills.",
+  "decisions": [],
+  "action_items": []
+}

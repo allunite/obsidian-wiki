@@ -1,0 +1,21 @@
+{
+  "chat_id": "qF2Fa0AAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 2,
+  "date_range": {
+    "start": "2023-12-22",
+    "end": "2023-12-22"
+  },
+  "message_count": 5,
+  "topic": "Code review and merging procedures",
+  "topic_slug": "code-review-and-merging-procedures",
+  "tags": [
+    "analytics"
+  ],
+  "summary_markdown": "The discussion confirmed that the code was merged successfully. The general approach of using a feature branch and pull requests (PRs) for development is deemed excellent, with one participant noting its efficiency compared to manual methods. This process allows for easier review of all changes within a single task and facilitates detailed code reviews, including commenting on specific lines of code.",
+  "decisions": [
+    "The ticket should be closed."
+  ],
+  "action_items": []
+}

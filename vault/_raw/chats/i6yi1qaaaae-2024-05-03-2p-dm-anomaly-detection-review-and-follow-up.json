@@ -1,0 +1,21 @@
+{
+  "chat_id": "i6YI1QAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 2,
+  "date_range": {
+    "start": "2024-05-03",
+    "end": "2024-05-03"
+  },
+  "message_count": 5,
+  "topic": "Anomaly detection review and follow up",
+  "topic_slug": "anomaly-detection-review-and-follow-up",
+  "tags": [
+    "analytics"
+  ],
+  "summary_markdown": "The conversation started with a general exchange, followed by [me] mentioning reviewing the anomaly detector. [p1] provided a Google Meet link.",
+  "decisions": [],
+  "action_items": [
+    "Join meeting via provided link."
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "chat_id": "oCgFCIAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2024-04-22",
+    "end": "2024-04-22"
+  },
+  "message_count": 15,
+  "topic": "Data API performance and memory issues",
+  "topic_slug": "data-api-performance-memory-issues",
+  "tags": [
+    "analytics",
+    "impression",
+    "facility"
+  ],
+  "summary_markdown": "The discussion focused on recurring stability issues with the data API, specifically related to resource consumption (memory) and potential slow client querying. Logs indicated repeated crashes/terminations (`SIGTERM`) when processing traffic reports.\n\nIt was observed that while the system handles multiple small requests successfully, a single request can cause a sharp spike in data retrieval (e.g., 500 MB), leading to Kubernetes terminating the pod due to excessive memory usage. The issue is suspected to be related to slow client consumption or 'slow querying' attacks.\n\nPotential solutions discussed include implementing a caching reverse proxy.",
+  "decisions": [
+    "Monitor data API performance and resource utilization (memory) for further investigation."
+  ],
+  "action_items": [
+    "Investigate the root cause of memory spikes during large data report retrieval.",
+    "Consider implementing a caching reverse proxy to mitigate slow querying issues."
+  ]
+}

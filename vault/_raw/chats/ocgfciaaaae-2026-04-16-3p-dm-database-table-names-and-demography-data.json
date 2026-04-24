@@ -1,0 +1,21 @@
+{
+  "chat_id": "oCgFCIAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2026-04-16",
+    "end": "2026-04-16"
+  },
+  "message_count": 8,
+  "topic": "Database table names and demography data",
+  "topic_slug": "database-table-names-and-demography-data",
+  "tags": [
+    "analytics"
+  ],
+  "summary_markdown": "The conversation focused on identifying the correct database tables for demographic information. [p1] initially asked for the name of the table used for demographics, which was identified as `facility_demography_dict` and `demography_agg`. [p1] experienced a temporary issue where a client reported that the demography data was unavailable in AllUnite, but this was resolved after reconnecting to the AllUnite database. A delay was noted regarding the appearance of demographic data, requiring several hours for the dictionary to reload.",
+  "decisions": [
+    "The correct tables are `facility_demography_dict` and `demography_agg`."
+  ],
+  "action_items": []
+}

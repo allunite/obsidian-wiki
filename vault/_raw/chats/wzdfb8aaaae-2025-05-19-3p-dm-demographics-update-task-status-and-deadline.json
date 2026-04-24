@@ -1,0 +1,23 @@
+{
+  "chat_id": "wZDFB8AAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2025-05-19",
+    "end": "2025-05-19"
+  },
+  "message_count": 4,
+  "topic": "Demographics update task status and deadline",
+  "topic_slug": "demographics-update-task-status-and-deadline",
+  "tags": [
+    "analytics"
+  ],
+  "summary_markdown": "A high-priority task for demographics updates was assigned. The recipient confirmed they would start the work the following day and estimated completion by Wednesday. A necessary .csv file containing the demographics data was subsequently added to the associated ticket.",
+  "decisions": [
+    "The demographics update task is scheduled for completion by Wednesday."
+  ],
+  "action_items": [
+    "Complete the high-priority demographics update task (DOOH-2071)."
+  ]
+}

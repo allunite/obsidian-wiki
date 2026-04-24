@@ -1,0 +1,27 @@
+{
+  "chat_id": "AAQAPH1pAKM",
+  "kind": "Space",
+  "space_name": "Group Chat",
+  "participants": 5,
+  "date_range": {
+    "start": "2026-03-06",
+    "end": "2026-03-06"
+  },
+  "message_count": 30,
+  "topic": "Updating facility data and session counts",
+  "topic_slug": "updating-facility-data-and-session-counts",
+  "tags": [
+    "analytics",
+    "facility",
+    "session",
+    "recalc-ch"
+  ],
+  "summary_markdown": "The discussion focused on discrepancies in unique visitor counts (Uniques) for a virtual facility, specifically noting that the data appears to have dropped significantly after February 26th. It was confirmed that before this date, sessions were manually copied. The process involves calculating frequency (freq) by dividing Total Traffic by Unique visitors. A key technical point discussed is how traffic is sourced from multiple origins using a coefficient derived from a `multi_source_mirroring` table.\n\nMultiple updates and fixes were implemented for the virtual facility data, including running scripts (`insert_virtual`) to correct sessions from February 26th onward.",
+  "decisions": [
+    "The unique visitor count discrepancy after Feb 26th was addressed by updating session records.",
+    "Scripts are being run to fix and update sessions for the virtual facility data."
+  ],
+  "action_items": [
+    "Continue updating SQL scripts (`sql/agg/ml2ds_agg.sql` and `sql/agg/ds_copy.sql`) in the designated dataset."
+  ]
+}

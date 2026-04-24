@@ -1,0 +1,27 @@
+{
+  "chat_id": "oCgFCIAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2024-01-25",
+    "end": "2024-01-25"
+  },
+  "message_count": 10,
+  "topic": "Data aggregation scope and model deployment",
+  "topic_slug": "data-aggregation-scope-and-model-deployment",
+  "tags": [
+    "analytics",
+    "impression",
+    "campaign"
+  ],
+  "summary_markdown": "The discussion focused on the scope of a beta dataset, specifically whether it should cover all companies or only a subset. It was decided that the aggregation should initially run for all companies to minimize data loss risk.\n\nRegarding model deployment and recalculation, [me] confirmed ability to modify the aggregation job to accept a list of `company_num` inputs. This change is intended to improve flexibility and manage the process of synchronizing old tables with new data sources.\n\n[p1] will handle committing changes for production calculation based on the updated logic. The team anticipates a final recalculation run, which may also be influenced by another task calculating impressions.",
+  "decisions": [
+    "The beta dataset aggregation should initially cover all companies.",
+    "The aggregation job will be modified to accept a list of company numbers as input."
+  ],
+  "action_items": [
+    "Wait for tomorrow's full recalculation run.",
+    "Implement the necessary changes into the existing ML structure (ml_2)."
+  ]
+}

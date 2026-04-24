@@ -1,0 +1,25 @@
+{
+  "chat_id": "nW_zkkAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2025-01-21",
+    "end": "2025-01-21"
+  },
+  "message_count": 16,
+  "topic": "Virtual facility session data discrepancy",
+  "topic_slug": "virtual-facility-session-data-discrepancy",
+  "tags": [
+    "analytics",
+    "session",
+    "facility"
+  ],
+  "summary_markdown": "The discussion focused on a data issue concerning virtual facilities (specifically mentioning 'Інновоушен 7944'). [p1] noted that the initial virtual sessions for multiple virtual facilities only appear from the beginning of the current year, even though the source data contains earlier records. The required fix involves ensuring session history is correctly calculated and released to the client, as a start copy should have been made in PostgreSQL using '2024-11-01' for the `facility_virtual` table.\n[me] acknowledged the issue and stated that they were starting work on it.",
+  "decisions": [
+    "The session history needs to be recalculated and released to the client."
+  ],
+  "action_items": [
+    "[me] to review and correct the virtual facility session data for 'Інновоушен 7944' and related facilities, ensuring historical records start from November 1, 2024."
+  ]
+}

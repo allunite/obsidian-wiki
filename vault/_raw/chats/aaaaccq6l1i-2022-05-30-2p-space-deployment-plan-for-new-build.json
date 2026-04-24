@@ -1,0 +1,21 @@
+{
+  "chat_id": "AAAACcq6L1I",
+  "kind": "Space",
+  "space_name": "Group Chat",
+  "participants": 2,
+  "date_range": {
+    "start": "2022-05-30",
+    "end": "2022-05-30"
+  },
+  "message_count": 4,
+  "topic": "Deployment plan for new build",
+  "topic_slug": "deployment-plan-for-new-build",
+  "tags": [
+    "analytics"
+  ],
+  "summary_markdown": "A new room membership update was implemented. The build includes fixes for real-time data in Woco and disables demographics functionality in FI.\n\nTwo deployment options were discussed:\n1. Direct deployment to production (prod).\n2. Deployment to staging, review, followed by production.",
+  "decisions": [
+    "The build will be deployed directly to production."
+  ],
+  "action_items": []
+}

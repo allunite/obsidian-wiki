@@ -1,0 +1,21 @@
+{
+  "chat_id": "i6YI1QAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 2,
+  "date_range": {
+    "start": "2021-09-27",
+    "end": "2021-09-27"
+  },
+  "message_count": 20,
+  "topic": "Stage dataset retention and usage",
+  "topic_slug": "stage-dataset-retention-and-usage",
+  "tags": [
+    "analytics"
+  ],
+  "summary_markdown": "The conversation focused on the availability and proper use of a STAGE dataset, specifically whether it is needed for comparison when launching in new countries or developing models. It was confirmed that while model training occurs using a stage dataset (from `stage_ml`), the final dataset used for release must be from production. A decision was made to retain the stage dataset starting from 2021 and clean up older data.",
+  "decisions": [
+    "The stage dataset will be retained starting from 2021."
+  ],
+  "action_items": []
+}

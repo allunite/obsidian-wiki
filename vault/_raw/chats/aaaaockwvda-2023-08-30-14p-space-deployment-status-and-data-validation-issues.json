@@ -1,0 +1,26 @@
+{
+  "chat_id": "AAAAOcKWvdA",
+  "kind": "Space",
+  "space_name": "Delivery Coordination",
+  "participants": 14,
+  "date_range": {
+    "start": "2023-08-30",
+    "end": "2023-08-30"
+  },
+  "message_count": 29,
+  "topic": "Deployment status and data validation issues",
+  "topic_slug": "deployment-status-and-data-validation-issues",
+  "tags": [
+    "campaign",
+    "analytics",
+    "impression"
+  ],
+  "summary_markdown": "The session covered the deployment of new features, confirming that a release was initiated. Initial concerns about data were raised regarding company creation and campaign listing on the production environment (prod). It was noted that neither a new company nor a new campaign could be created or listed by some participants. The issue required further investigation, including checking console logs for errors.",
+  "decisions": [
+    "The feature was released to production.",
+    "Further investigation is needed regarding data creation and listing issues on the production environment."
+  ],
+  "action_items": [
+    "Check console logs (F12) for errors during testing."
+  ]
+}

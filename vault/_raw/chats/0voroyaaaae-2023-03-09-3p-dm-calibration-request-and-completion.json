@@ -1,0 +1,19 @@
+{
+  "chat_id": "0VorOYAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2023-03-09",
+    "end": "2023-03-09"
+  },
+  "message_count": 4,
+  "topic": "Calibration request and completion",
+  "topic_slug": "calibration-request-and-completion",
+  "tags": [
+    "analytics"
+  ],
+  "summary_markdown": "A calibration was requested for a specific company number (7873) and SL (89), covering both production and staging environments. The task was subsequently completed.",
+  "decisions": [],
+  "action_items": []
+}

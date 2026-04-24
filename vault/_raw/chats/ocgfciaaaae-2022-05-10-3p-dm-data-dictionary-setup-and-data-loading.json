@@ -1,0 +1,23 @@
+{
+  "chat_id": "oCgFCIAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2022-05-10",
+    "end": "2022-05-10"
+  },
+  "message_count": 34,
+  "topic": "Data dictionary setup and data loading",
+  "topic_slug": "data-dictionary-setup-and-data-loading",
+  "tags": [
+    "analytics",
+    "inventory",
+    "facility"
+  ],
+  "summary_markdown": "The discussion focused on technical details regarding the use of a ClickHouse dictionary for staging model data. Concerns were raised about setting `LIFETIME(MIN 10 MAX 30)` and whether this would constantly overload the data with unnecessary updates.\n\nIt was clarified that the dictionary is specifically used for updating model parameters when new setups occur, rather than general facility parameter changes. The participants agreed on leaving the current setup if it does not cause excessive load.",
+  "decisions": [
+    "The use of a ClickHouse dictionary for staging model data (ml_model_stage) was deemed acceptable as long as it does not overload the system."
+  ],
+  "action_items": []
+}

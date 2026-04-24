@@ -1,0 +1,22 @@
+{
+  "chat_id": "oq-w0kAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2024-01-23",
+    "end": "2024-01-23"
+  },
+  "message_count": 8,
+  "topic": "Advanced settings for campaign calculations",
+  "topic_slug": "advanced-settings-for-campaign-calculations",
+  "tags": [
+    "analytics",
+    "campaign"
+  ],
+  "summary_markdown": "The discussion focused on integrating advanced settings into campaign calculations. [p1] noted that while these settings are saved to the database, they do not currently affect the calculation logic. To make them functional, [me] needs to pass necessary data to an endpoint.\n\n[me] highlighted the need to revert to hourly granularity and fully account for time zones, which will complicate query optimization, especially when releasing long-period reports. \n\n[p1] raised a specific concern regarding the 'share of time' parameter, requesting clarification on its intended use.",
+  "decisions": [],
+  "action_items": [
+    "Clarify the purpose and usage of the 'share of time' parameter during the meeting."
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "chat_id": "8G4VaCAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 2,
+  "date_range": {
+    "start": "2025-07-23",
+    "end": "2025-07-23"
+  },
+  "message_count": 4,
+  "topic": "Assisting with CIM Belgium questions",
+  "topic_slug": "assisting-with-cim-belgium-questions",
+  "tags": [
+    "analytics"
+  ],
+  "summary_markdown": "Someone from the commercial team ([p1]) informed [me] that they received questions from CIM in Belgium. They believe someone named Ruslan will require assistance answering these questions and created a ClickUp task for tracking.",
+  "decisions": [],
+  "action_items": [
+    "Review the ClickUp task regarding CIM Belgium questions."
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "chat_id": "i6YI1QAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 2,
+  "date_range": {
+    "start": "2024-07-01",
+    "end": "2024-07-01"
+  },
+  "message_count": 34,
+  "topic": "KPI dashboard data structure and usage",
+  "topic_slug": "kpi-dashboard-data-structure-and-usage",
+  "tags": [
+    "analytics",
+    "campaign"
+  ],
+  "summary_markdown": "The conversation covered technical issues with a frequency formula calculation, noting discrepancies between expected values (1.7 million) and observed values (17 million). The issue was resolved by fixing the staging environment, which should also fix production data.\n\nLater, discussion shifted to utilizing a KPI dashboard hosted on Superset. It was confirmed that the underlying tables available for charting are `kpi_*_agg`, allowing segmentation by companies and cities. A limitation of Superset regarding displaying three or more dimensions (only appearing in a scrollable string) was noted, leading to the use of countries for better visualization.",
+  "decisions": [
+    "The staging environment fix will resolve the production data discrepancy."
+  ],
+  "action_items": []
+}

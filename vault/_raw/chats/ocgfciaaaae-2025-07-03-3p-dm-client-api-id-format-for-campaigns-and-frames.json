@@ -1,0 +1,22 @@
+{
+  "chat_id": "oCgFCIAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2025-07-03",
+    "end": "2025-07-03"
+  },
+  "message_count": 3,
+  "topic": "Client API ID format for campaigns and frames",
+  "topic_slug": "client-api-id-format-for-campaigns-and-frames",
+  "tags": [
+    "analytics",
+    "inventory"
+  ],
+  "summary_markdown": "Discussion focused on the optimal data type (GUID vs. integer) to provide clients for campaign and frame IDs via an API endpoint.\n\nInitially, the plan involved using truncated IDs or integers (`int`). However, it was determined that GUIDs are preferred when interacting with clients because they are considered standard practice in enterprise environments, despite potentially being less compact than other identifiers.\n\nThe consensus shifted back to using full IDs (GUIDs) for client consumption, as relying on simple integers introduces complexity and risk of confusion between campaign IDs and frame IDs.",
+  "decisions": [
+    "Client API should use GUIDs for providing campaign and frame IDs."
+  ],
+  "action_items": []
+}

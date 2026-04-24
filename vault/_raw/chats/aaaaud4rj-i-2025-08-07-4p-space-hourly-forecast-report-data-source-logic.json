@@ -1,0 +1,26 @@
+{
+  "chat_id": "AAAAud4RJ_I",
+  "kind": "Space",
+  "space_name": "Group Chat",
+  "participants": 4,
+  "date_range": {
+    "start": "2025-08-07",
+    "end": "2025-08-07"
+  },
+  "message_count": 22,
+  "topic": "Hourly forecast report data source and logic",
+  "topic_slug": "hourly-forecast-report-data-source-logic",
+  "tags": [
+    "impression",
+    "analytics",
+    "campaign"
+  ],
+  "summary_markdown": "The discussion centered on the 'Hourly Forecasted Report' (Tractor). The core question was whether the report correctly uses impressions from a specific, selected dataset (model4) rather than the production/staging environment. It was confirmed that the logic involves calculating an average hourly rate based on data from the last 13 full weeks (average per weekday per hour).\n\nA provided SQL query snippet confirms the use of `device_session_agg_5` and filters for a specific time range (last 13 weeks). The metric used for calculation was suggested to be 'viewed impressions', though confirmation on this specific metric is pending.\n\nThe report's logic relies on calculating an average, which requires clarification regarding the exact base metric column.",
+  "decisions": [
+    "The Hourly Forecasted Report uses data from the selected dataset (model4) for impression calculation."
+  ],
+  "action_items": [
+    "Someone needs to confirm the specific metric used in the report (e.g., 'viewed impressions').",
+    "Someone should review and document reporting logic, similar to the provided documentation link."
+  ]
+}

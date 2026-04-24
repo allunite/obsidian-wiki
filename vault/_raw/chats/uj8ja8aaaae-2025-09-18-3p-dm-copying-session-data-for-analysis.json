@@ -1,0 +1,22 @@
+{
+  "chat_id": "uJ8JA8AAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2025-09-18",
+    "end": "2025-09-18"
+  },
+  "message_count": 4,
+  "topic": "Copying session data for analysis",
+  "topic_slug": "copying-session-data-for-analysis",
+  "tags": [
+    "analytics",
+    "session"
+  ],
+  "summary_markdown": "Discussion confirmed that the user can independently copy session data using a provided SQL script, provided the deletion section is commented out. The process was subsequently moved to production.",
+  "decisions": [
+    "The method for copying sessions does not require deletion steps."
+  ],
+  "action_items": []
+}

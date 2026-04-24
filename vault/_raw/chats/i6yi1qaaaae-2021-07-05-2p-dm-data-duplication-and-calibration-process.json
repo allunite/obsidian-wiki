@@ -1,0 +1,25 @@
+{
+  "chat_id": "i6YI1QAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 2,
+  "date_range": {
+    "start": "2021-07-05",
+    "end": "2021-07-05"
+  },
+  "message_count": 26,
+  "topic": "Data duplication and calibration process",
+  "topic_slug": "data-duplication-and-calibration-process",
+  "tags": [
+    "analytics",
+    "session",
+    "facility"
+  ],
+  "summary_markdown": "The conversation addressed data issues, specifically a potential duplication of session data for July 1st. It was noted that the previous fix attempt (related to 'Толиком') had not yet succeeded.\n\nRegarding process changes: \n*   Changing the calibration setting on the facility level means the calibration will only be accurate starting tomorrow; otherwise, manual recalculation and re-uploading of data would be necessary.\n*   The user confirmed that a request must be sent to JCD for them to re-upload the July 1st data due to previous issues.",
+  "decisions": [
+    "A request will be sent to JCD to re-upload the data for July 1st."
+  ],
+  "action_items": [
+    "[me] needs to write to JCD regarding the re-upload of July 1st data."
+  ]
+}

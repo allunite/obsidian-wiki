@@ -1,0 +1,19 @@
+{
+  "chat_id": "oCgFCIAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2022-09-08",
+    "end": "2022-09-08"
+  },
+  "message_count": 4,
+  "topic": "UI questions after meeting",
+  "topic_slug": "ui-questions-after-meeting",
+  "tags": [
+    "analytics"
+  ],
+  "summary_markdown": "The conversation revolves around [p1] needing to ask some quick questions regarding UI elements, specifically mentioning difficulties with styles that required rolling back changes.",
+  "decisions": [],
+  "action_items": []
+}

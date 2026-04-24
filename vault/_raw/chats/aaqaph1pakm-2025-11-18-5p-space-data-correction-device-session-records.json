@@ -1,0 +1,25 @@
+{
+  "chat_id": "AAQAPH1pAKM",
+  "kind": "Space",
+  "space_name": "Group Chat",
+  "participants": 5,
+  "date_range": {
+    "start": "2025-11-18",
+    "end": "2025-11-18"
+  },
+  "message_count": 4,
+  "topic": "Data correction for device session records",
+  "topic_slug": "data-correction-device-session-records",
+  "tags": [
+    "analytics",
+    "facility",
+    "session"
+  ],
+  "summary_markdown": "The conversation addressed data issues related to device sessions. It was noted that scripts may have failed due to an update, resulting in only the `device_session` table being updated. A specific task was assigned to correct sensor data that was incorrectly logged to one facility and needed to be moved to another facility.",
+  "decisions": [
+    "A task will be created to move sensor data from an incorrect facility to the proper facility."
+  ],
+  "action_items": [
+    "Someone needs to update the device session scripts/data today."
+  ]
+}

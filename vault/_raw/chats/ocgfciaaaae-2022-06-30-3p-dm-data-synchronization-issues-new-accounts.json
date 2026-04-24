@@ -1,0 +1,25 @@
+{
+  "chat_id": "oCgFCIAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2022-06-30",
+    "end": "2022-06-30"
+  },
+  "message_count": 29,
+  "topic": "Data synchronization issues in new accounts",
+  "topic_slug": "data-synchronization-issues-new-accounts",
+  "tags": [
+    "analytics",
+    "campaign"
+  ],
+  "summary_markdown": "The discussion centered on data discrepancies observed when creating and mapping a new account against an existing one. Initially, the data in the new account lags behind, showing significantly lower traffic metrics (up to three times less) before gradually catching up over time.\n\nIt was theorized that the issue might stem from how multiple dictionaries are updated or accessed across different nodes of a cluster, potentially involving two separate queries: one for historical aggregates and another for current sessions. The consensus suggested that while data distribution across nodes can be uneven, a 10% discrepancy is unlikely.\n\nSeparately, it was discussed the requirement to save images to S3. Regarding implementation preferences, no specific constraints were given; any method would suffice, noting that the last implementation used AngularJs within 'mods'.",
+  "decisions": [
+    "The technical team will investigate data synchronization issues related to new accounts and multi-dictionary dependencies.",
+    "Image saving to S3 can be implemented with flexibility, as the previous version was built using AngularJs in mods."
+  ],
+  "action_items": [
+    "Investigate potential causes for initial data lag when mapping new accounts (e.g., intercluster data mapping)."
+  ]
+}

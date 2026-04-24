@@ -1,0 +1,24 @@
+{
+  "chat_id": "y9IEDQAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2023-01-26",
+    "end": "2023-01-26"
+  },
+  "message_count": 25,
+  "topic": "Contract requirements and procedures",
+  "topic_slug": "contract-requirements-and-procedures",
+  "tags": [
+    "campaign",
+    "analytics"
+  ],
+  "summary_markdown": "The discussion covered contract drafting for new personnel, specifically addressing the process for reviewing documents (e.g., using DocuSign) and confirming necessary details.\n\nRegarding specific contracts:\n*   **Oksandr Vozniuk:** No special conditions were noted for his contract.\n*   **General Procedure:** The standard procedure involves sharing the contract draft with the individual via email, allowing them to review their data, before sending it out for signature (e.g., via DocuSign).\n\nRegarding Ukrainian contracts:\n*   The contract should ideally be bilingual, as a bank might request it during initial payment processing.\n*   While previous payments required depositing documents, this is no longer mandatory.",
+  "decisions": [
+    "Drafting of the new contractor agreement needs to follow established procedures."
+  ],
+  "action_items": [
+    "Ensure Ukrainian contracts are bilingual for bank compliance."
+  ]
+}

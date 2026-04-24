@@ -1,0 +1,19 @@
+{
+  "chat_id": "AAAA-gn4oPg",
+  "kind": "Space",
+  "space_name": "General and random",
+  "participants": 36,
+  "date_range": {
+    "start": "2025-09-29",
+    "end": "2025-09-29"
+  },
+  "message_count": 3,
+  "topic": "Newsletter mention and podcast appearance",
+  "topic_slug": "newsletter-mention-podcast-appearance",
+  "tags": [
+    "analytics"
+  ],
+  "summary_markdown": "A participant shared that AllUnite was featured in the WOO Newsletter, referencing a personal appearance on the Beyond the Billboard podcast.",
+  "decisions": [],
+  "action_items": []
+}

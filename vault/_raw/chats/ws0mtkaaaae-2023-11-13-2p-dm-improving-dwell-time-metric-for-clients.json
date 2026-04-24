@@ -1,0 +1,24 @@
+{
+  "chat_id": "ws0mTkAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 2,
+  "date_range": {
+    "start": "2023-11-13",
+    "end": "2023-11-13"
+  },
+  "message_count": 13,
+  "topic": "Improving dwell time metric for clients",
+  "topic_slug": "improving-dwell-time-metric-for-clients",
+  "tags": [
+    "dwell-time",
+    "analytics"
+  ],
+  "summary_markdown": "The conversation focused on the current state of Dwell Time reporting, specifically mentioning CC Brazil. It was noted that the existing dwell time metric is not accurate for many clients. Someone confirmed plans to release a new version of the dwell time calculation based on vendor samples, suggesting the current implementation needs refinement rather than being a bug.",
+  "decisions": [
+    "A new version of the dwell time calculation will be developed using vendor samples."
+  ],
+  "action_items": [
+    "Follow up on timelines for the updated dwell time feature."
+  ]
+}

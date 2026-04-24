@@ -1,0 +1,26 @@
+{
+  "chat_id": "nW_zkkAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2025-04-15",
+    "end": "2025-04-15"
+  },
+  "message_count": 18,
+  "topic": "Campaign data correction and device documentation",
+  "topic_slug": "campaign-data-correction-and-device-documentation",
+  "tags": [
+    "analytics",
+    "inventory",
+    "facility"
+  ],
+  "summary_markdown": "The conversation focused on two main tasks. First, [p1] requested assistance with the Yakon campaign due to 'strange figures' and noted that the campaign needs demographic data added in Adani. This task was ideally needed by the end of the week.\nSecond, [p1] asked for a comprehensive list or description of deployed devices (for permanent installations), specifically requesting clarification on the `is_excluded` and `is_anomaly` columns, as the raw code is not suitable for client sharing.",
+  "decisions": [
+    "The Yakon campaign needs demographic data added in Adani."
+  ],
+  "action_items": [
+    "Someone needs to update the Adani platform with demographic data for the Yakon campaign (DOOH-1936).",
+    "Someone needs to create a short description of the `is_excluded` and `is_anomaly` columns for client use."
+  ]
+}

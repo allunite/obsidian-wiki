@@ -1,0 +1,19 @@
+{
+  "chat_id": "y9IEDQAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2024-12-06",
+    "end": "2024-12-06"
+  },
+  "message_count": 12,
+  "topic": "Past company history and team dynamics",
+  "topic_slug": "past-company-history-and-team-dynamics",
+  "tags": [
+    "session"
+  ],
+  "summary_markdown": "The conversation focused on reminiscing about past workplace interactions, including a specific incident where someone confronted a colleague's entire team in their office. The discussion also touched upon previous professional relationships and the general atmosphere of the company.",
+  "decisions": [],
+  "action_items": []
+}

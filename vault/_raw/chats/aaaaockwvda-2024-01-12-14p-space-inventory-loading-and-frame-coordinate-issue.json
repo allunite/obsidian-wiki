@@ -1,0 +1,23 @@
+{
+  "chat_id": "AAAAOcKWvdA",
+  "kind": "Space",
+  "space_name": "Delivery Coordination",
+  "participants": 14,
+  "date_range": {
+    "start": "2024-01-12",
+    "end": "2024-01-12"
+  },
+  "message_count": 6,
+  "topic": "Inventory loading and frame coordinate issue",
+  "topic_slug": "inventory-loading-and-frame-coordinate-issue",
+  "tags": [
+    "inventory",
+    "frame",
+    "analytics"
+  ],
+  "summary_markdown": "A technical issue was reported regarding the inability to load Inventory data for one participant. The problem seemed related to frame display, as only the main frame appeared, and its second part was missing.\n\nInvestigation revealed that the system encountered corrupted coordinates within two frames. These large coordinate values were identified as the root cause of the failure, leading to a temporary disruption in viewing the full data set.",
+  "decisions": [
+    "The Inventory loading issue is resolved; investigation continues on the error source."
+  ],
+  "action_items": []
+}

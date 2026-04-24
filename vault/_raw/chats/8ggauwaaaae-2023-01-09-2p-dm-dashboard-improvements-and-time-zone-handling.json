@@ -1,0 +1,25 @@
+{
+  "chat_id": "8GgAuwAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 2,
+  "date_range": {
+    "start": "2023-01-09",
+    "end": "2023-01-09"
+  },
+  "message_count": 53,
+  "topic": "Dashboard improvements and time zone handling",
+  "topic_slug": "dashboard-improvements-and-time-zone-handling",
+  "tags": [
+    "analytics",
+    "facility",
+    "inventory"
+  ],
+  "summary_markdown": "The discussion covered several product issues, including the need for a dedicated button to delete user accounts (as users leave and access must be revoked). A feature request was made to display client identification/company name directly on the dashboard for better context.\n\nRegarding time zones, it was noted that while facility time zones are set individually, ideally, the company's default time zone should apply globally to all associated facilities. It was also discussed how a user viewing traffic data in Mexico needs to see local time dynamics, which requires proper time zone handling beyond just UTC/Europe options.\n\nFinally, it was suggested that adding client identification fields (like time zone) into the asset import process would be beneficial for automated data preparation.",
+  "decisions": [
+    "A ticket will be created to address the need for a user deletion button in the system."
+  ],
+  "action_items": [
+    "Create a ticket regarding adding client identification fields (e.g., time zone) into asset import."
+  ]
+}

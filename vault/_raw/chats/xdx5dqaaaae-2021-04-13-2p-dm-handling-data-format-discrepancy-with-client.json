@@ -1,0 +1,24 @@
+{
+  "chat_id": "xdx5dQAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 2,
+  "date_range": {
+    "start": "2021-04-13",
+    "end": "2021-04-13"
+  },
+  "message_count": 5,
+  "topic": "Handling data format discrepancy with client",
+  "topic_slug": "handling-data-format-discrepancy-with-client",
+  "tags": [
+    "facility",
+    "analytics"
+  ],
+  "summary_markdown": "The discussion centered on a data transfer issue involving Guillaume. Currently, the team is delivering data to S3 in its standard format. The client's existing process involved pulling facility data via HTTP individually and then manually compiling it into a single file with a slightly different structure before passing it to Guillaume. This resulting file format does not match the format delivered by the team on S3.\n\n[me] offered two options: spend one or two hours converting the S3 file into the client's required format, or maintain the current standard and point out that the discrepancy is due to the client's internal process.\n\nIt was decided to adopt a strategy of initially presenting the data in the correct standard format while offering assistance with the specific formatting issues later.",
+  "decisions": [
+    "Maintain the standard S3 file delivery format, highlighting the client's internal processing as the source of the discrepancy."
+  ],
+  "action_items": [
+    "[me] will promise to assist with the required format conversion next week."
+  ]
+}

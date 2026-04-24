@@ -1,0 +1,28 @@
+{
+  "chat_id": "oCgFCIAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2022-02-09",
+    "end": "2022-02-09"
+  },
+  "message_count": 122,
+  "topic": "Database cleanup and optimization process",
+  "topic_slug": "database-cleanup-and-optimization-process",
+  "tags": [
+    "analytics",
+    "inventory",
+    "impression",
+    "facility"
+  ],
+  "summary_markdown": "The conversation focused heavily on database performance and maintenance, specifically concerning PostgreSQL. Initial issues included slow query execution due to large tables (e.g., `raw_devices_seen`, `raw_devices_connected`) containing millions of deleted records.\n\n**Database Actions:**\n*   It was determined that the tables were bloated with marked-as-deleted data, necessitating cleanup.\n*   The team decided on a sequence of actions: running `OPTIMIZE` or `VACUUM`, followed by `TRUNCATE` if necessary. The final successful steps involved executing `TRUNCATE` on `raw_devices_seen` and `raw_devices_connected` to reclaim space.\n*   It was noted that the `device` table, while large (157 GB), should not be vacuumed as it is only updated via `INSERT`.\n\n**Data Scope:**\n*   The team confirmed that PostgreSQL acts as the 'point of truth' for core reference data and logins, unlike ClickHouse. The backup strategy difference (weekly vs. daily) was discussed.\n*   It was also noted that historical data loading processes were being reviewed, confirming that records from 2019 are present in S3 but some gaps exist.",
+  "decisions": [
+    "Execute TRUNCATE on `raw_devices_seen` and `raw_devices_connected` to reclaim disk space.",
+    "The PostgreSQL database is designated as the primary source of truth for core reference data."
+  ],
+  "action_items": [
+    "Someone needs to read up on how and when PostgreSQL automatically cleans up space after a TRUNCATE operation.",
+    "Investigate potential gaps in historical data loading (specifically 2019 files) from S3."
+  ]
+}

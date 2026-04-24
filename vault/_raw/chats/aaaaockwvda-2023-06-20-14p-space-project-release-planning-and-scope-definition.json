@@ -1,0 +1,26 @@
+{
+  "chat_id": "AAAAOcKWvdA",
+  "kind": "Space",
+  "space_name": "Delivery Coordination",
+  "participants": 14,
+  "date_range": {
+    "start": "2023-06-20",
+    "end": "2023-06-20"
+  },
+  "message_count": 11,
+  "topic": "Project release planning and scope definition",
+  "topic_slug": "project-release-planning-and-scope-definition",
+  "tags": [
+    "campaign",
+    "analytics",
+    "recalc-ch"
+  ],
+  "summary_markdown": "The discussion focused on coordinating project components, specifically integrating the data team's work with an existing dashboard and campaign structure. The planned release dates were reviewed: a pre-launch scheduled for July 28th and a full launch set for August 21st. Due to resource constraints (staff being unavailable or on leave), participants agreed that moving the release date earlier was necessary, regardless of which specific date was chosen.",
+  "decisions": [
+    "The project requires combining data team output with dashboard and campaign elements.",
+    "The planned pre-launch date of July 28th and launch date of August 21st are likely too late due to resource availability."
+  ],
+  "action_items": [
+    "Discuss remaining project components and determine what can be included in the first (pre) release and the second (full) release."
+  ]
+}

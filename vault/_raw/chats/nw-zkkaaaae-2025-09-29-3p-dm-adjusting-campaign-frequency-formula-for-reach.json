@@ -1,0 +1,27 @@
+{
+  "chat_id": "nW_zkkAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2025-09-29",
+    "end": "2025-09-29"
+  },
+  "message_count": 30,
+  "topic": "Adjusting campaign frequency formula for reach",
+  "topic_slug": "adjusting-campaign-frequency-formula-for-reach",
+  "tags": [
+    "analytics",
+    "campaign",
+    "impression",
+    "recalc-ch"
+  ],
+  "summary_markdown": "The conversation focused on correcting the calculation of campaign frequency. Initially, [p1] noted that the existing formula for frequency was complex and did not account for updates to reach. They requested a fix.\n\n[me] suggested simplifying the formula to `viewed_impressions_per_face / reach`. This was confirmed by [p1].\n\nFollowing this, [me] implemented the change as a hotfix, which [p1] requested be deployed to staging first for review before moving to production. Later, [p1] assigned a task via ClickUp to further adjust the new reach formula, specifying that while the work should be done, deployment must wait for explicit confirmation from [p1].",
+  "decisions": [
+    "The campaign frequency calculation was updated to use `viewed_impressions_per_face / reach`."
+  ],
+  "action_items": [
+    "[me] needs to complete the task assigned in ClickUp regarding the new reach formula adjustment.",
+    "[me] must wait for confirmation from [p1] before deploying any changes to production."
+  ]
+}

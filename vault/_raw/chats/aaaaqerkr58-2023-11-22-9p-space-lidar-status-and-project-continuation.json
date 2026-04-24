@@ -1,0 +1,24 @@
+{
+  "chat_id": "AAAAqeRkR58",
+  "kind": "Space",
+  "space_name": "Estonia",
+  "participants": 9,
+  "date_range": {
+    "start": "2023-11-22",
+    "end": "2023-11-22"
+  },
+  "message_count": 7,
+  "topic": "Lidar status and project continuation",
+  "topic_slug": "lidar-status-and-project-continuation",
+  "tags": [
+    "analytics",
+    "facility"
+  ],
+  "summary_markdown": "The discussion focused on the operational status of 2D lidar units. Initially, it was noted that all four 2D lidars had stopped sending data starting in September 2024, leading to questions about the project's closure.\n\n[p1] requested an update on the 2D lidar status from [p4]. [p4] confirmed the historical data gap but reported that the units appeared to be transmitting data again on the day of the chat. \n\nRegarding the future, [p6] stated the need to keep the project active and under monitoring, despite previous indications that it might be closed.",
+  "decisions": [
+    "The 2D lidar project will remain active for monitoring purposes."
+  ],
+  "action_items": [
+    "[p4] set up monitoring for all lidars to detect missing data early."
+  ]
+}

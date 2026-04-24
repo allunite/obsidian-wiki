@@ -1,0 +1,21 @@
+{
+  "chat_id": "oCgFCIAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2022-10-07",
+    "end": "2022-10-07"
+  },
+  "message_count": 8,
+  "topic": "Realtime data fix and time calculation",
+  "topic_slug": "realtime-data-fix-and-time-calculation",
+  "tags": [
+    "analytics"
+  ],
+  "summary_markdown": "The discussion focused on fixing issues with real-time data capture. Specifically, there was concern about potential discrepancies in the time calculations, particularly when reading calendar data where the time seemed to be subtracted incorrectly. It was determined that while a complex correction scheme had been devised, the simplest approach is to use an interval set 10 minutes into the past for stable operation.",
+  "decisions": [
+    "Use a simple interval offset of 10 minutes into the past for data capture."
+  ],
+  "action_items": []
+}

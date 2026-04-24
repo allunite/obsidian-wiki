@@ -1,0 +1,22 @@
+{
+  "chat_id": "AAAAOcKWvdA",
+  "kind": "Space",
+  "space_name": "Delivery Coordination",
+  "participants": 14,
+  "date_range": {
+    "start": "2025-01-17",
+    "end": "2025-01-17"
+  },
+  "message_count": 14,
+  "topic": "Discrepancy in live device count reporting",
+  "topic_slug": "discrepancy-in-live-device-count-reporting",
+  "tags": [
+    "analytics",
+    "frame"
+  ],
+  "summary_markdown": "A client reported a discrepancy where the system showed 102 live devices, but an image provided by the client indicated higher numbers. This issue was raised for clarification on how to respond to the client.",
+  "decisions": [],
+  "action_items": [
+    "Determine appropriate response regarding the difference between reported live device count and visual evidence."
+  ]
+}

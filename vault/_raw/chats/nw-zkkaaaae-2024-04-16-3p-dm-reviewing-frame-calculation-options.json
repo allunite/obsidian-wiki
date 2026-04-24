@@ -1,0 +1,20 @@
+{
+  "chat_id": "nW_zkkAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2024-04-16",
+    "end": "2024-04-16"
+  },
+  "message_count": 6,
+  "topic": "Reviewing frame calculation options",
+  "topic_slug": "reviewing-frame-calculation-options",
+  "tags": [
+    "analytics",
+    "recalc-ch"
+  ],
+  "summary_markdown": "Someone initiated a discussion regarding the comparison between old and new methods for calculating the number of frames. A SQL query was shared, likely related to package data analysis.",
+  "decisions": [],
+  "action_items": []
+}

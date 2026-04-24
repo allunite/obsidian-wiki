@@ -1,0 +1,23 @@
+{
+  "chat_id": "y9IEDQAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2025-08-18",
+    "end": "2025-08-18"
+  },
+  "message_count": 8,
+  "topic": "Deployment rollback request",
+  "topic_slug": "deployment-rollback-request",
+  "tags": [
+    "analytics"
+  ],
+  "summary_markdown": "Someone requested a potential rollback of recent changes to ensure the team could deploy successfully. [me] confirmed that no unauthorized changes were made over the weekend and stated they would investigate/adjust the code, rolling it back if necessary.",
+  "decisions": [
+    "The deployment will be rolled back or adjusted."
+  ],
+  "action_items": [
+    "[me] to adjust/investigate the code for potential rollback."
+  ]
+}

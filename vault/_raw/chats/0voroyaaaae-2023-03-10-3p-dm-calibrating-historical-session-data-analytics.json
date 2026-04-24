@@ -1,0 +1,29 @@
+{
+  "chat_id": "0VorOYAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2023-03-10",
+    "end": "2023-03-10"
+  },
+  "message_count": 60,
+  "topic": "Calibrating historical session data for analytics",
+  "topic_slug": "calibrating-historical-session-data-analytics",
+  "tags": [
+    "analytics",
+    "campaign",
+    "session",
+    "recalc-ch",
+    "facility"
+  ],
+  "summary_markdown": "The discussion focused on resolving data discrepancies when applying calibration models to historical session data for a specific facility (DS Latvia).\n\nInitially, the user struggled because using the `is_calibrated` flag in queries resulted in insufficient prediction data. The core issue was determining whether to rely on pre-calculated calibration flags or use real-time 'on the fly' calibration logic.\n\nThe consensus reached that moving towards an 'on the fly' calibration method (using functions like `getCalibrationSignalLimit`) is preferable, as it provides a more universal and robust approach for future calculations. This requires updating the aggregation query to utilize this dynamic calibration check instead of relying on historical flags.\n\nUltimately, the speaker agreed to recalculate the history using the updated methodology and commit the revised aggregation query.",
+  "decisions": [
+    "The data processing method will transition from relying on pre-calculated `is_calibrated` flags to an 'on the fly' calibration check (using signal limits).",
+    "The speaker agreed to recalculate the historical session data using the updated methodology and commit the revised aggregation query."
+  ],
+  "action_items": [
+    "Speaker to update and commit the main aggregation query in the repository.",
+    "User will run the `ml2stage` job again after the history is recalculated."
+  ]
+}

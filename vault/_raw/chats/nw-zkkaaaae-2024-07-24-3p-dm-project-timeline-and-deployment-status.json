@@ -1,0 +1,22 @@
+{
+  "chat_id": "nW_zkkAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2024-07-24",
+    "end": "2024-07-24"
+  },
+  "message_count": 4,
+  "topic": "Project timeline and deployment status",
+  "topic_slug": "project-timeline-and-deployment-status",
+  "tags": [
+    "analytics"
+  ],
+  "summary_markdown": "The participants discussed the project timeline, confirming that all necessary work can be completed by the end of the current week. A minimum goal is to deploy the changes to staging this week. One participant mentioned being on vacation next week.",
+  "decisions": [
+    "All tasks will be completed by the end of the current week.",
+    "Deployment to staging environment must happen this week."
+  ],
+  "action_items": []
+}

@@ -1,0 +1,28 @@
+{
+  "chat_id": "AAAAbazPcHo",
+  "kind": "Space",
+  "space_name": "Group Chat",
+  "participants": 3,
+  "date_range": {
+    "start": "2024-03-07",
+    "end": "2024-03-07"
+  },
+  "message_count": 25,
+  "topic": "Discrepancies in analytics metrics and data sources",
+  "topic_slug": "discrepancies-in-analytics-metrics-and-data-sources",
+  "tags": [
+    "analytics",
+    "impression",
+    "frame",
+    "campaign",
+    "inventory"
+  ],
+  "summary_markdown": "The discussion focused on discrepancies found when comparing analytics metrics derived from a custom query versus those displayed in the dashboard, particularly concerning large-scale data differences.\n\n**Key Issues Discussed:**\n*   **Query vs. Dashboard Discrepancy:** Differences were noted between metrics calculated via a specific query and those shown on the dashboard, although the difference was minimal when testing small campaigns or individual frames.\n*   **Beta vs. Production Data:** Multiple questions arose regarding why metrics (like frame count and frequency) differed between the Beta and Production environments.\n*   **Frequency Calculation:** It was clarified that the frequency metric is calculated based on the number of items included in the response payload, not necessarily all available frames.\n*   **Filtering Statuses:** The process for filtering data by status was discussed, with confirmation that a specific individual (Саня) handles this filtering.\n\n**Proposed Solution:** A plan was established to refine and rewrite existing internal analytics queries to ensure they provide accurate, consistent data, potentially serving as a foundational view for updated analytics.",
+  "decisions": [
+    "The query will be adjusted to align with the metrics displayed on the dashboard.",
+    "Existing complex internal analytics queries need rewriting to improve accuracy and simplicity."
+  ],
+  "action_items": [
+    "[me] to work on refining the data query and providing examples of the improved logic."
+  ]
+}

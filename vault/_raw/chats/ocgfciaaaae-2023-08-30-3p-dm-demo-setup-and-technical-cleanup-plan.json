@@ -1,0 +1,30 @@
+{
+  "chat_id": "oCgFCIAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2023-08-30",
+    "end": "2023-08-30"
+  },
+  "message_count": 42,
+  "topic": "Demo setup and technical cleanup plan",
+  "topic_slug": "demo-setup-and-technical-cleanup-plan",
+  "tags": [
+    "facility",
+    "frame",
+    "session",
+    "analytics",
+    "campaign"
+  ],
+  "summary_markdown": "The discussion focused on the technical setup for a demonstration environment, specifically addressing how to simulate data and access within a controlled setting.\n\n**Demo Setup:** It was proposed that a demo company be created in the production environment. This company would require copying 20 facilities (with associated frames) from Brazil, renaming them, and configuring virtual facilities along with some historical session data.\n\n**Technical Debt/Cleanup:** The participants discussed retiring or phasing out deprecated code elements, specifically mentioning `demoCustomer`, which is no longer used in the system. It was agreed that this cleanup should be done gradually.",
+  "decisions": [
+    "A demo company will be created in production to facilitate the demonstration.",
+    "20 facilities from Brazil (with frames) will be copied, renamed, and virtualized for the demo.",
+    "The deprecation of `demoCustomer` will proceed slowly."
+  ],
+  "action_items": [
+    "Someone needs to involve Nasty to confirm correct names and coordinates with Esben.",
+    "A website release is needed to unblock further development progress."
+  ]
+}

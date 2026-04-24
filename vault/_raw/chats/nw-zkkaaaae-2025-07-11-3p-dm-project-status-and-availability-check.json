@@ -1,0 +1,19 @@
+{
+  "chat_id": "nW_zkkAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2025-07-11",
+    "end": "2025-07-11"
+  },
+  "message_count": 6,
+  "topic": "Project status and availability check",
+  "topic_slug": "project-status-and-availability-check",
+  "tags": [
+    "analytics"
+  ],
+  "summary_markdown": "The conversation primarily consists of checking on a project's status and confirming the availability of [me] after a period of leave. A link to a task was shared, followed by brief acknowledgments.",
+  "decisions": [],
+  "action_items": []
+}

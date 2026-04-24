@@ -1,0 +1,21 @@
+{
+  "chat_id": "y9IEDQAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2025-09-29",
+    "end": "2025-09-29"
+  },
+  "message_count": 6,
+  "topic": "Reviewing analytics and slot duration",
+  "topic_slug": "reviewing-analytics-and-slot-duration",
+  "tags": [
+    "analytics"
+  ],
+  "summary_markdown": "The conversation began with [p1] sharing a link (ClickUp) for review. Later, the discussion shifted to Dynamic Slot Duration, which [me] confirmed had not yet been reviewed.",
+  "decisions": [],
+  "action_items": [
+    "Review the provided ClickUp link."
+  ]
+}

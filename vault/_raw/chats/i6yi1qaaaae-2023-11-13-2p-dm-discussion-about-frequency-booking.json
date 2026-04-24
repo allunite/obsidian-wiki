@@ -1,0 +1,19 @@
+{
+  "chat_id": "i6YI1QAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 2,
+  "date_range": {
+    "start": "2023-11-13",
+    "end": "2023-11-13"
+  },
+  "message_count": 6,
+  "topic": "Discussion about frequency booking",
+  "topic_slug": "discussion-about-frequency-booking",
+  "tags": [
+    "analytics"
+  ],
+  "summary_markdown": "The conversation initiated a discussion regarding the possibility of discussing 'frequency' (фриквенси). [p1] mentioned booking something for 1:30 PM concerning 'Дании'.",
+  "decisions": [],
+  "action_items": []
+}

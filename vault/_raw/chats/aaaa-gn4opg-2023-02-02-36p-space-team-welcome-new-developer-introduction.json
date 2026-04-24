@@ -1,0 +1,17 @@
+{
+  "chat_id": "AAAA-gn4oPg",
+  "kind": "Space",
+  "space_name": "General and random",
+  "participants": 36,
+  "date_range": {
+    "start": "2023-02-02",
+    "end": "2023-02-02"
+  },
+  "message_count": 11,
+  "topic": "Team welcome and new developer introduction",
+  "topic_slug": "team-welcome-new-developer-introduction",
+  "tags": [],
+  "summary_markdown": "The session was used to announce an updated room membership and introduce a new full-stack developer, [p2]. Multiple participants offered welcomes to the new team member.",
+  "decisions": [],
+  "action_items": []
+}

@@ -1,0 +1,21 @@
+{
+  "chat_id": "AAAAud4RJ_I",
+  "kind": "Space",
+  "space_name": "Group Chat",
+  "participants": 4,
+  "date_range": {
+    "start": "2025-09-26",
+    "end": "2025-09-26"
+  },
+  "message_count": 3,
+  "topic": "Dynamic slot duration algorithm review",
+  "topic_slug": "dynamic-slot-duration-algorithm-review",
+  "tags": [
+    "analytics"
+  ],
+  "summary_markdown": "A link to the dynamic slot duration algorithm was shared. [p1] confirmed they would not forget about it, and a follow-up discussion was suggested for when convenient.",
+  "decisions": [],
+  "action_items": [
+    "Review the dynamic slot duration algorithm (link provided by p1)."
+  ]
+}

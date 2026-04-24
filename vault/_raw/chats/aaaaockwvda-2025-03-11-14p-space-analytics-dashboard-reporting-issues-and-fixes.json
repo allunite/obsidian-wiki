@@ -1,0 +1,22 @@
+{
+  "chat_id": "AAAAOcKWvdA",
+  "kind": "Space",
+  "space_name": "Delivery Coordination",
+  "participants": 14,
+  "date_range": {
+    "start": "2025-03-11",
+    "end": "2025-03-11"
+  },
+  "message_count": 20,
+  "topic": "Analytics dashboard reporting issues and fixes",
+  "topic_slug": "analytics-dashboard-reporting-issues-and-fixes",
+  "tags": [
+    "analytics",
+    "facility"
+  ],
+  "summary_markdown": "The conversation focused on debugging an issue with the traffic dashboard report. Initially, a user reported that the column names in the report were incorrect or broken when tested under multiple users and accessed via a specific URL.\n\nTroubleshooting involved checking for caching issues (suggesting Ctrl+F5) and verifying the environment. The core issue was identified when one participant added grouping by facility to the report, which successfully reproduced the reported discrepancy.",
+  "decisions": [
+    "The dashboard reporting issue is linked to grouping data by facility."
+  ],
+  "action_items": []
+}

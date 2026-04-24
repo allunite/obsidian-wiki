@@ -1,0 +1,27 @@
+{
+  "chat_id": "0VorOYAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2025-02-07",
+    "end": "2025-02-07"
+  },
+  "message_count": 59,
+  "topic": "Updating model frequency for Viva Parks",
+  "topic_slug": "updating-model-frequency-viva-parks",
+  "tags": [
+    "analytics",
+    "campaign",
+    "inventory"
+  ],
+  "summary_markdown": "The conversation covered two main topics: database schema updates and model deployment. First, assistance was provided to update the 'sl' (slot) for Viva Parks across different clusters, specifically noting that while it can be done within a single company/category, cluster-wide changes require specific handling.\n\nSecond, troubleshooting occurred regarding inserting new models into the `ml_models` table. Initial attempts failed due to data type mismatches (`envirionment`) and foreign key violations (`company_id`). The final successful approach involved ensuring correct casting of environment types and providing a valid `company_id`. \n\nFinally, it was decided that the frequency model used for Mall_Pharma (7897) should be applied to Viva Parks (7948) for both staging and production environments, with the goal of rapid deployment.",
+  "decisions": [
+    "The frequency model from Mall_Pharma (7897) will be applied to Viva Parks (7948).",
+    "The frequency update must cover both staging and production environments."
+  ],
+  "action_items": [
+    "Review the provided SQL script for updating model frequency.",
+    "Deploy the updated frequency model quickly due to client urgency."
+  ]
+}

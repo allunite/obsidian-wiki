@@ -1,0 +1,24 @@
+{
+  "chat_id": "AAAA1vdtku4",
+  "kind": "Space",
+  "space_name": "DataTeam+",
+  "participants": 14,
+  "date_range": {
+    "start": "2024-01-24",
+    "end": "2024-01-24"
+  },
+  "message_count": 8,
+  "topic": "Data aggregation versioning and usage",
+  "topic_slug": "data-aggregation-versioning-and-usage",
+  "tags": [
+    "analytics",
+    "session"
+  ],
+  "summary_markdown": "The conversation confirmed the current data aggregation versions. The production environment (prod) uses version 8, while staging uses version 7. Participants discussed using `device_session_agg_ml_2` for loading datasets into tasks, noting that this is available in the staging/beta environment but not yet in production.\n\nIt was clarified that `device_session_agg_ml_checking` was used only for testing purposes and contained no critical information.",
+  "decisions": [
+    "Production data aggregation version is 8.",
+    "Staging data aggregation version is 7.",
+    "`device_session_agg_ml_2` can be used in staging/beta environment to load datasets into tasks."
+  ],
+  "action_items": []
+}

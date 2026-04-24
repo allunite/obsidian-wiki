@@ -1,0 +1,29 @@
+{
+  "chat_id": "AAAAebKjAcA",
+  "kind": "Space",
+  "space_name": "Brazil bugs",
+  "participants": 3,
+  "date_range": {
+    "start": "2023-10-11",
+    "end": "2023-10-11"
+  },
+  "message_count": 158,
+  "topic": "Reviewing impression data discrepancies for Brazil",
+  "topic_slug": "reviewing-impression-data-discrepancies-brazil",
+  "tags": [
+    "impression",
+    "analytics",
+    "campaign"
+  ],
+  "summary_markdown": "The discussion focused on significant discrepancies in impression numbers reported for the Brazil market, particularly concerning a historical recalculation (before October 3rd) versus current production data. The initial issue was that the historical recalculation showed impressions 60% higher than current models, which is problematic as clients expect consistent metrics.\n\nKey points of discussion included:\n*   The need to compare current numbers against old Ipsos baseline numbers to establish a 'truth' metric.\n*   It was determined that the impression model was mistakenly changed and overwrote data from June 1st to October 3rd. The correct historical figures are needed.\n*   A plan was established to recover the state of the system before October 3rd, which will be tested on staging.\n*   The discrepancy between pre-October 3rd (historical) and post-October 3rd (current) data was analyzed using frequency metrics. While total traffic and reach appeared similar, impression counts showed a large gap.\n*   It was noted that static screens' impression data appears stable, suggesting the difference in digital impressions might be related to changes in calculation formulas or dwell time for digital assets.",
+  "decisions": [
+    "The team decided to focus on recovering historical numbers and comparing them against old Ipsos baseline metrics.",
+    "A plan was created to test system state recovery before October 3rd, involving multiple parts (DB, backend, frontend).",
+    "It was agreed that the difference in digital impressions might be due to changes in calculation formulas or dwell time."
+  ],
+  "action_items": [
+    "Attempt to recover and compare different versions of data based on commit history.",
+    "Coordinate with relevant team members (e.g., Alexey) to restore historical numbers to staging for comparison.",
+    "Continue investigation into the digital impression discrepancy, focusing on formula or dwell-time changes."
+  ]
+}

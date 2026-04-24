@@ -1,0 +1,26 @@
+{
+  "chat_id": "AAAAOcKWvdA",
+  "kind": "Space",
+  "space_name": "Delivery Coordination",
+  "participants": 14,
+  "date_range": {
+    "start": "2023-05-08",
+    "end": "2023-05-08"
+  },
+  "message_count": 14,
+  "topic": "Sharing campaigns and user access requirements",
+  "topic_slug": "sharing-campaigns-and-user-access-requirements",
+  "tags": [
+    "analytics",
+    "inventory",
+    "campaign"
+  ],
+  "summary_markdown": "The discussion focused on testing campaign sharing capabilities, specifically for a user (Sergei) to test the system using a sandbox environment. A key requirement identified was how to share campaigns with users who are not registered within AllUnite's system.\n\nIt was noted that current sharing is limited to internal system users. For external or unregistered users, options discussed included:\n1. Requiring them to be added as users in the system (preferred).\n2. Using a public link for access (undesirable due to security concerns).\n\nThe technical challenge identified was managing user credentials and ensuring that shared users only have visibility into specific campaigns.\n\nIt was concluded that while creating simple logins is possible, the primary architectural hurdle is determining where to store the record of these external/shared users.",
+  "decisions": [
+    "The sandbox environment will be used for testing campaign sharing.",
+    "Sharing with unregistered users requires a mechanism to manage user records and credentials."
+  ],
+  "action_items": [
+    "Determine where to store the record of shared, non-system users."
+  ]
+}

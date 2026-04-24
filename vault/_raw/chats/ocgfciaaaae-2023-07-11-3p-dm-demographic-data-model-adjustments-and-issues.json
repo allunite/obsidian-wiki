@@ -1,0 +1,26 @@
+{
+  "chat_id": "oCgFCIAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2023-07-11",
+    "end": "2023-07-11"
+  },
+  "message_count": 24,
+  "topic": "Demographic data model adjustments and issues",
+  "topic_slug": "demographic-data-model-adjustments-and-issues",
+  "tags": [
+    "analytics",
+    "facility",
+    "campaign"
+  ],
+  "summary_markdown": "The discussion covered several technical points regarding data synchronization and demographic modeling. Initially, adjustments were made to the real-time sync process, including limiting operation hours (8 AM to 10 PM) and modifying conditions to handle potential date boundary skips.\n\nA major topic was the handling of demographic data for virtual sensors versus physical locations. It was noted that while a new model uses regional demographics, some virtual locations require static or specific demographics. A proposed solution involved checking if explicit facility-level data exists within the query, overriding the standard calculation based on `area_of_living`.\n\nConcerns were raised about the completeness of available demographic variables (e.g., needing income data when only gender and age are provided) and the complexity of implementing a fully balanced model. The team discussed returning to an older view (`v_ch_demographic`) that was previously used for regional demographics, suggesting it might be possible to integrate this into the current system.",
+  "decisions": [
+    "Implement logic to check for explicit facility-level demographic data in queries, overriding area-based calculations for virtual sensors."
+  ],
+  "action_items": [
+    "Investigate feasibility of reintroducing the older regional demographic view (`v_ch_demographic`).",
+    "Address the requirement for additional variables (like income) beyond current gender and age data."
+  ]
+}

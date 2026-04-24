@@ -1,0 +1,24 @@
+{
+  "chat_id": "AAAAud4RJ_I",
+  "kind": "Space",
+  "space_name": "Group Chat",
+  "participants": 4,
+  "date_range": {
+    "start": "2024-04-16",
+    "end": "2024-04-16"
+  },
+  "message_count": 22,
+  "topic": "ML traffic adjustment coefficients data structure",
+  "topic_slug": "ml-traffic-adjustment-coefficients-data-structure",
+  "tags": [
+    "analytics",
+    "facility",
+    "inventory"
+  ],
+  "summary_markdown": "The discussion focused on the optimal way to handle and access `ml_traffic_adjustment_coeffs` data, specifically addressing key consistency between `facility_id` (UUID) and `facility_num`.\n\nInitial concerns were raised about using UUIDs from PostgreSQL in downstream jobs due to potential complexity. A standard approach was proposed: creating a view (`v_ch_ml_traffic_adjustment_coeffs`) in ClickHouse that maintains data integrity and allows easy use of date time fields.\n\nOne participant noted they prefer reading directly from the underlying table structure via ClickHouse (e.g., `pg.<table_name>`) rather than relying on views, as this guarantees immediate data availability without needing to update dictionaries or clear caches.\n\nThe consensus shifted toward using a view (`v_ml_traffic_adjustment_coeffs` was suggested) that is directly mapped from the source table, avoiding complex dictionary mapping in ClickHouse. The use of `facility_id` (UUID) seems acceptable for downstream jobs, even if it requires additional handling steps.",
+  "decisions": [
+    "Use a view structure to access `ml_traffic_adjustment_coeffs` data in ClickHouse.",
+    "The preferred view name is suggested as `v_ml_traffic_adjustment_coeffs`."
+  ],
+  "action_items": []
+}

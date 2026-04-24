@@ -1,0 +1,24 @@
+{
+  "chat_id": "AAQAVUPEkJQ",
+  "kind": "Space",
+  "space_name": "Group Chat",
+  "participants": 4,
+  "date_range": {
+    "start": "2025-04-14",
+    "end": "2025-04-14"
+  },
+  "message_count": 12,
+  "topic": "Deployment and data updates for Adani",
+  "topic_slug": "deployment-and-data-updates-for-adani",
+  "tags": [
+    "analytics",
+    "campaign"
+  ],
+  "summary_markdown": "The conversation focused on deploying recent updates for Adani to both Production (PROD) and Staging environments. A discussion arose regarding a frequency formula added incorrectly for company 7965 on March 28th, which was determined not to be functional or necessary. The user confirmed that the required updates were pushed to Git repository shortly after being asked about their absence in the code base.",
+  "decisions": [
+    "No action should be taken regarding the incorrect frequency formula for company 7965."
+  ],
+  "action_items": [
+    "Deploy recent Adani updates to PROD and Staging environments."
+  ]
+}

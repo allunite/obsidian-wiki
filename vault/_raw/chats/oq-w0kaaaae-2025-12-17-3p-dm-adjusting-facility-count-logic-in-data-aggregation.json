@@ -1,0 +1,25 @@
+{
+  "chat_id": "oq-w0kAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2025-12-17",
+    "end": "2025-12-17"
+  },
+  "message_count": 11,
+  "topic": "Adjusting facility count logic in data aggregation",
+  "topic_slug": "adjusting-facility-count-logic-in-data-aggregation",
+  "tags": [
+    "analytics",
+    "facility"
+  ],
+  "summary_markdown": "The discussion focused on refining the calculation of active facilities within a data aggregation logic (v_device_session_agg_base). Initially, discrepancies were noted where `screen_count_active` could exceed `screen_count`. The consensus was reached that existing conditions (`agg_owner = 'F' and agg_period='H'`) should be maintained for the calculation of `screen_count` to ensure consistency. Furthermore, specific logic was added to handle data discrepancies between facility-level ('F') and frame-level ('f') data, requiring the inclusion of `groupUniqArrayIf(facility_num, agg_owner = 'F' and agg_period='H' AND facility_num > 0)` for accurate counting.\n\nLater in the session, it was confirmed that a new staging branch (`stage`) was established in the database for future deployments.",
+  "decisions": [
+    "Maintain existing conditions (agg_owner = 'F' and agg_period='H') when calculating screen_count to ensure consistency with screen_count_active."
+  ],
+  "action_items": [
+    "Deploy changes to the staging environment in the database.",
+    "Push code updates to the designated `stage` branch in the database."
+  ]
+}

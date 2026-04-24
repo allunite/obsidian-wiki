@@ -1,0 +1,21 @@
+{
+  "chat_id": "AAAA3oghITo",
+  "kind": "Space",
+  "space_name": "Кабаны",
+  "participants": 4,
+  "date_range": {
+    "start": "2022-08-08",
+    "end": "2022-08-08"
+  },
+  "message_count": 7,
+  "topic": "Version naming convention discussion",
+  "topic_slug": "version-naming-convention-discussion",
+  "tags": [
+    "analytics"
+  ],
+  "summary_markdown": "The participants discussed improving the versioning system for builds, moving away from long, complex build identifiers (e.g., 20220804.140847-angular-12-8ca0ab7).\n\nTwo main approaches were considered:\n1. **Date/Automatic:** Using a format like `YYYY.M.D-angular-12` (e.g., 2022.8.4-angular-12.8ca0ab7).\n2. **Semantic Versioning with Tags:** Utilizing explicit release tags (e.g., 0.1.15) combined with subsequent commits/hashes for minor updates.\n\nThe consensus leaned toward a date-based format, specifically `date-branch-hash` or simply `date-time`, as it was deemed simpler and more robust than the current system.",
+  "decisions": [
+    "The versioning system should move towards a date/time based format (e.g., 2022.8.4-angular-12) rather than complex build identifiers or pure semantic tagging."
+  ],
+  "action_items": []
+}

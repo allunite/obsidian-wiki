@@ -1,0 +1,27 @@
+{
+  "chat_id": "oq-w0kAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2024-11-13",
+    "end": "2024-11-13"
+  },
+  "message_count": 16,
+  "topic": "Dynamic loop duration metric recalculation",
+  "topic_slug": "dynamic-loop-duration-metric-recalculation",
+  "tags": [
+    "analytics",
+    "impression",
+    "campaign",
+    "loop-duration"
+  ],
+  "summary_markdown": "The discussion focused on the technical challenge of implementing dynamic changes to `loop_duration` within campaigns and recalculating associated metrics in real time. It was noted that `loop_duration` is a characteristic of the frame, but the requirement involves changing it for an entire campaign and recalculating metrics dynamically.\n\nIt was confirmed that `loop_duration` is used in the old impression calculation logic (specifically referencing a SQL flow), although this function is no longer utilized in current analytics practices. The goal is to re-implement the impression counting process on AllUnite's side, using a formula provided by another party, and figuring out how to recalculate metrics based on dynamic loop changes within a campaign.",
+  "decisions": [
+    "The team needs to re-calculate impressions on their end.",
+    "A specific formula for calculation must be obtained from an external source (possibly Sasha)."
+  ],
+  "action_items": [
+    "Someone will write up the details regarding the dynamic loop duration discussion with Nina."
+  ]
+}

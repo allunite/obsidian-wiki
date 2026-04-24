@@ -1,0 +1,21 @@
+{
+  "chat_id": "i6YI1QAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 2,
+  "date_range": {
+    "start": "2024-04-08",
+    "end": "2024-04-08"
+  },
+  "message_count": 3,
+  "topic": "Dashboard chart scaling issue",
+  "topic_slug": "dashboard-chart-scaling-issue",
+  "tags": [
+    "analytics"
+  ],
+  "summary_markdown": "A discussion occurred regarding an unexpected appearance of a secondary chart scale on the dashboard. This scale is typically used when displaying different scales or dimensions (e.g., velocity or frequency). Since the current setup does not require this, it was identified as a front-end configuration error that needs fixing.",
+  "decisions": [],
+  "action_items": [
+    "Someone needs to reproduce the issue for fixing."
+  ]
+}

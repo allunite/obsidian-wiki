@@ -1,0 +1,28 @@
+{
+  "chat_id": "i6YI1QAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 2,
+  "date_range": {
+    "start": "2023-03-08",
+    "end": "2023-03-08"
+  },
+  "message_count": 92,
+  "topic": "Mall analytics data discrepancies and fixes",
+  "topic_slug": "mall-analytics-data-discrepancies-and-fixes",
+  "tags": [
+    "analytics",
+    "facility",
+    "impression",
+    "unique"
+  ],
+  "summary_markdown": "The conversation focused on identifying and discussing anomalies in the mall analytics dashboard, particularly concerning unique users (uniques) versus total traffic.\n\n*   **Data Glitches:** A recurring issue with real-time data glitches was noted. The primary concern was a discrepancy where reported uniques sometimes exceeded total traffic figures, which was identified as a potential bug or rendering issue on the platform.\n*   **Investigation:** It was confirmed that while charts might visually suggest discrepancies (e.g., unique users > total traffic), the underlying metrics should not show this in raw data. The cause of the discrepancy was traced to how the chart is rendered, rather than an actual metric error.\n*   **Improvements/Bugs:** A specific bug regarding total traffic decreasing significantly at certain points was identified and flagged for investigation.\n*   **Next Steps:** A meeting was scheduled to discuss adding another metric for malls with someone (Esben) and reviewing the data structure for different time periods (2-hour vs. 8-hour gaps).\n*   **Technical Details:** Instructions were provided on how to find `facility_master_num` using the address bar in the analytics tool.",
+  "decisions": [
+    "A meeting was scheduled to discuss adding an additional metric for malls and reviewing data structure.",
+    "The discrepancy between unique users and total traffic metrics requires further investigation (bug ticket)."
+  ],
+  "action_items": [
+    "Investigate the bug where total traffic decreases significantly at certain points.",
+    "Prepare for a meeting to discuss adding new mall metrics."
+  ]
+}

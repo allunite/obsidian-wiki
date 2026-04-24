@@ -1,0 +1,26 @@
+{
+  "chat_id": "6ize28AAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2025-12-23",
+    "end": "2025-12-23"
+  },
+  "message_count": 16,
+  "topic": "Discrepancy in footfall data between platforms",
+  "topic_slug": "discrepancy-in-footfall-data-between-platforms",
+  "tags": [
+    "analytics",
+    "impression",
+    "facility"
+  ],
+  "summary_markdown": "A discrepancy was noted regarding footfall data displayed on the staging analytics platform versus the traffic dashboard. The issue involves whether a specific location (Golf Club) should be treated as a single company or if shared mall logic is being applied.\n\nIt was clarified that the staging environment uses a new footfall calculation, which incorporates 'shared malls' logic. However, this staged data may not be accurate for production deployment. The current discrepancy suggests a potential bug in the analytics script, particularly when handling shared clusters with single screens.\n\nThe correct source of truth for footfall is currently undetermined, but it appears that deploying the frequency calculation to production will result in different (and likely more accurate) footfall numbers compared to the staging environment.",
+  "decisions": [
+    "The staging analytics platform uses a new footfall calculation incorporating shared mall logic."
+  ],
+  "action_items": [
+    "[me] will investigate the discrepancy, suspecting a bug in the script's handling of shared clusters with single screens.",
+    "[p1] needs to consult with Oxana regarding the correct data source and validation."
+  ]
+}

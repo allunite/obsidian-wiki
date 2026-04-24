@@ -1,0 +1,21 @@
+{
+  "chat_id": "oq-w0kAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2023-10-19",
+    "end": "2023-10-19"
+  },
+  "message_count": 3,
+  "topic": "Bug reproduction and testing status",
+  "topic_slug": "bug-reproduction-and-testing-status",
+  "tags": [
+    "analytics"
+  ],
+  "summary_markdown": "The conversation revolves around confirming the status of a reported bug. [p1] mentioned that someone (Nastia) had shown them an issue, but it appeared to be working correctly when tested. [me] stated that they were unable to find the bug themselves and asked someone else to reproduce and demonstrate it.",
+  "decisions": [],
+  "action_items": [
+    "Someone needs to successfully reproduce the reported bug for testing."
+  ]
+}

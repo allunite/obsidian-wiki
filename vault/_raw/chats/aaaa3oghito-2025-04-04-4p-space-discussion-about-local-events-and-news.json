@@ -1,0 +1,17 @@
+{
+  "chat_id": "AAAA3oghITo",
+  "kind": "Space",
+  "space_name": "Кабаны",
+  "participants": 4,
+  "date_range": {
+    "start": "2025-04-04",
+    "end": "2025-04-04"
+  },
+  "message_count": 3,
+  "topic": "Discussion about local events and news",
+  "topic_slug": "discussion-about-local-events-and-news",
+  "tags": [],
+  "summary_markdown": "The conversation discusses a personal account of an incident involving police/military actions, including the detention and transfer of an individual. The discussion touches upon how such events become public knowledge online.",
+  "decisions": [],
+  "action_items": []
+}

@@ -1,0 +1,19 @@
+{
+  "chat_id": "y9IEDQAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2023-02-24",
+    "end": "2023-02-24"
+  },
+  "message_count": 3,
+  "topic": "Meeting setup for campaign discussion",
+  "topic_slug": "meeting-setup-for-campaign-discussion",
+  "tags": [
+    "campaign"
+  ],
+  "summary_markdown": "A meeting link was shared to discuss campaigns. [me] stated they would join in about 20 minutes.",
+  "decisions": [],
+  "action_items": []
+}

@@ -1,0 +1,23 @@
+{
+  "chat_id": "kRmJN4AAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 2,
+  "date_range": {
+    "start": "2022-07-08",
+    "end": "2022-07-08"
+  },
+  "message_count": 8,
+  "topic": "Retrieving missing payment transaction details",
+  "topic_slug": "retrieving-missing-payment-transaction-details",
+  "tags": [
+    "analytics"
+  ],
+  "summary_markdown": "The discussion centered on retrieving a specific payment transaction ID from the bank. Initially, [p1] reported that Payoneer required a transaction ID, which was supposedly available in accounting's records. After initial attempts to locate the number using receipts, it was determined that the receipt was the only information available from the bank.\n\n[me] suggested escalating the support ticket because the current level of support staff seemed unhelpful. A potential identifier, \"Notanummer\" (0880103A21580574), was provided as a possible way to help locate the payment. The goal is to push for higher-level support assistance to ensure the withdrawal of the funds.",
+  "decisions": [
+    "The team decided to escalate the support ticket regarding the missing payment transaction details."
+  ],
+  "action_items": [
+    "[p1] will ask the bank/support again, utilizing the provided information and requesting escalation."
+  ]
+}

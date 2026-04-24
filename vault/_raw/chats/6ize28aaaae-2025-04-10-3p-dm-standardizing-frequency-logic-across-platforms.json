@@ -1,0 +1,27 @@
+{
+  "chat_id": "6ize28AAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2025-04-10",
+    "end": "2025-04-10"
+  },
+  "message_count": 45,
+  "topic": "Standardizing frequency logic across platforms",
+  "topic_slug": "standardizing-frequency-logic-across-platforms",
+  "tags": [
+    "campaign",
+    "analytics",
+    "frequency"
+  ],
+  "summary_markdown": "The discussion focused on unifying the calculation and default setting of 'frequency' data across different internal systems, specifically comparing the logic used in the main dashboard versus the Campaign module.\n\n**Key Points & Decisions:**\n*   It was determined that the frequency formula for Campaigns should be updated to match the SQL formula currently used on the main dashboard (the ",
+  "decisions": [
+    "The frequency calculation logic in the Campaign module must be standardized to mirror the dashboard's SQL formula.",
+    "A specific task was assigned to implement mirroring/updates for several company numbers (7960, 7958, 7928, 7956, 7957, 7959) in the Campaign module."
+  ],
+  "action_items": [
+    "The user needs to check which clients currently rely on existing frequency settings and provide exceptions or approval for a universal update.",
+    "A separate task was created to apply similar logic/updates for company number 7961 (Adani India) on the staging-analytics environment."
+  ]
+}

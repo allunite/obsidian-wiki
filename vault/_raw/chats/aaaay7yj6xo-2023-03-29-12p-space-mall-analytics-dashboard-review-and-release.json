@@ -1,0 +1,28 @@
+{
+  "chat_id": "AAAAy7Yj6Xo",
+  "kind": "Space",
+  "space_name": "IT",
+  "participants": 12,
+  "date_range": {
+    "start": "2023-03-29",
+    "end": "2023-03-29"
+  },
+  "message_count": 23,
+  "topic": "Mall analytics dashboard review and release",
+  "topic_slug": "mall-analytics-dashboard-review-and-release",
+  "tags": [
+    "analytics",
+    "inventory",
+    "dwell-time",
+    "session"
+  ],
+  "summary_markdown": "The team reviewed the mall analytics dashboard, specifically focusing on 'Average Number of Screen Seen' and 'Frequency'. Initial concerns were raised regarding low numbers compared to Spanish expectations. It was discussed that a more accurate calculation should be based on Total screen traffic rather than total Mall traffic.\n\n[me] updated the calculation in the STAGE dataset and shared the dashboard link for review. The team debated potential reasons for low metrics, including sensor coverage issues (not every panel having a sensor) or 'passing' devices at entry/exit points.\n\nFollowing confirmation from [p1], the analytics tool was officially released (v2023.3.4). \n\nFurther suggestions included adding descriptive info hints for key metrics and implementing a pipeline check to assess sensor distance, which could help explain low average screen views potentially caused by capturing people from outside.",
+  "decisions": [
+    "The calculation for key metrics was updated to use Total screen traffic instead of total Mall traffic.",
+    "The mall analytics dashboard (v2023.3.4) was released."
+  ],
+  "action_items": [
+    "Add descriptive info hints/descriptions to the 'Frequency' and 'Average Number of Screen Seen' tiles on the dashboard.",
+    "Discuss adding a pipeline check for sensor distance in malls to better explain low average screen views."
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "chat_id": "i6YI1QAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 2,
+  "date_range": {
+    "start": "2023-07-06",
+    "end": "2023-07-06"
+  },
+  "message_count": 16,
+  "topic": "Data requirements for Denmark tender",
+  "topic_slug": "data-requirements-for-denmark-tender",
+  "tags": [
+    "analytics",
+    "inventory"
+  ],
+  "summary_markdown": "A request was made to generate a dataset for the UK tender, specifically concerning Denmark. The required data includes: \n* A tech proof showing one trusted and one real MAC address in Denmark, along with the locations visited and the category of those locations (tracking devices across different categories over 7 days).\n* Total unique MACs for Denmark as a percentage relative to the total population.\n\nDiscussions clarified that:\n1. The unique MAC count should be an absolute figure, not based on predictive/factor data shown in dashboards.\n2. The timeframes required are daily, weekly, and monthly totals.\n3. The scope must include both 'real' and 'trusted' MAC addresses.",
+  "decisions": [
+    "The dataset will track one trusted and one real MAC address in Denmark, including location categories visited over 7 days."
+  ],
+  "action_items": [
+    "Generate the requested unique MAC data for Denmark (daily, weekly, monthly) and send it to Kristina and Esben."
+  ]
+}

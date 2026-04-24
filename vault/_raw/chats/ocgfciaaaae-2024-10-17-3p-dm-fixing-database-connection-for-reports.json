@@ -1,0 +1,25 @@
+{
+  "chat_id": "oCgFCIAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2024-10-17",
+    "end": "2024-10-17"
+  },
+  "message_count": 16,
+  "topic": "Fixing database connection for reports",
+  "topic_slug": "fixing-database-connection-for-reports",
+  "tags": [
+    "analytics",
+    "facility"
+  ],
+  "summary_markdown": "The discussion centered on resolving SQL errors related to accessing `facility` data, specifically when running reports that fail due to missing database context. It was determined that the issue stems from the lack of an explicitly defined default database connection for these reports, which previously might have been implicitly set.\n\n**Key Points & Decisions:**\n*   The existing wrapper functions (`facility_dict` and `dictionary facility`) handle facility data using different keys (`facility_id` vs. `facility_num`).\n*   A major technical hurdle discussed was the inconsistent use of database prefixes (e.g., needing to add `allunite` sometimes, but not others), which complicates cross-database reporting.\n*   The immediate fix involves ensuring that reports explicitly pass or utilize a defined default database connection, allowing for the removal of temporary staging indicators (like `is_staging`) and simplifying data access.",
+  "decisions": [
+    "Reports will be updated to ensure an explicit default database is passed/used.",
+    "The need for inconsistent prefixes/suffixes (e.g., `_stage`) can be eliminated."
+  ],
+  "action_items": [
+    "Implement the fix to pass the required database connection into reports."
+  ]
+}

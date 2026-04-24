@@ -1,0 +1,23 @@
+{
+  "chat_id": "y9IEDQAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2021-01-04",
+    "end": "2021-01-04"
+  },
+  "message_count": 12,
+  "topic": "Sandbox access for data loading",
+  "topic_slug": "sandbox-access-for-data-loading",
+  "tags": [
+    "analytics"
+  ],
+  "summary_markdown": "The discussion centered on the need for [me] to have access to the main account from the sandbox environment. This access is desired specifically for uploading test data directly from PostgreSQL (pg) and Google Charts (ch), rather than using CSV files.\n\n[p1] acknowledged this request but stated that setting up the necessary data transfer process was not a high priority. [me] suggested that the task could be handled at a medium pace, or even after the upcoming holidays.",
+  "decisions": [
+    "Access to the main account from sandbox for test data loading is desired."
+  ],
+  "action_items": [
+    "[p1] will work on granting access/setting up the process tomorrow."
+  ]
+}

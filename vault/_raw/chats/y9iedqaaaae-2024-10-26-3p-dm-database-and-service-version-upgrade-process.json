@@ -1,0 +1,26 @@
+{
+  "chat_id": "y9IEDQAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2024-10-26",
+    "end": "2024-10-26"
+  },
+  "message_count": 57,
+  "topic": "Database and service version upgrade process",
+  "topic_slug": "database-and-service-version-upgrade-process",
+  "tags": [
+    "analytics",
+    "campaign",
+    "inventory"
+  ],
+  "summary_markdown": "The conversation focused on upgrading the system's database and services. The team decided to first test the new version (24.9) on a sandbox environment before deploying it to production.\n\nInitial attempts encountered resource issues, requiring cleanup of space on `sandbox-clickhouse01`. After successful updates on the sandbox, the upgrade was initiated on production.\n\nThe deployment process involved updating services and restarting instances. Several servers (specifically 5 and 6) initially failed to restart due to configuration issues or reported running instances. These issues were resolved through troubleshooting and manual restarts until all components were confirmed updated and operational.",
+  "decisions": [
+    "The system version upgrade will be tested on the sandbox environment first.",
+    "The production deployment was executed after successful sandbox testing."
+  ],
+  "action_items": [
+    "Monitor night jobs to ensure stability post-upgrade."
+  ]
+}

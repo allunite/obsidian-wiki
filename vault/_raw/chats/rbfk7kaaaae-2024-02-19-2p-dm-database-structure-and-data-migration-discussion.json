@@ -1,0 +1,25 @@
+{
+  "chat_id": "rBfK7kAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 2,
+  "date_range": {
+    "start": "2024-02-19",
+    "end": "2024-02-19"
+  },
+  "message_count": 16,
+  "topic": "Database structure and data migration discussion",
+  "topic_slug": "database-structure-and-data-migration-discussion",
+  "tags": [
+    "analytics",
+    "session"
+  ],
+  "summary_markdown": "The conversation focused on database architecture, specifically the feasibility of reading data between two systems (CH and PG) and whether combining the logic into a single database was possible. One participant proposed moving some logic into SQL to add fields and save intermediate results.\n\nLater, a specific SQL query was shared for calculating `dwell_time` based on session metrics (`session_duration`) from the `device_session_concept` table, filtered by date range and various exclusion flags (e.g., `NOT is_local`, `NOT is_permanent_device`).\n\nRecommendations were given regarding code organization, suggesting creating a dedicated folder for database entities (like views) in a specific GitHub repository.",
+  "decisions": [
+    "The feasibility of reading data between CH and PG was discussed, with one participant noting it was possible via CH to read from PG."
+  ],
+  "action_items": [
+    "Create a dedicated folder for database entities (views) in the specified GitHub repository.",
+    "Use separate files within that folder for each entity/view creation logic."
+  ]
+}

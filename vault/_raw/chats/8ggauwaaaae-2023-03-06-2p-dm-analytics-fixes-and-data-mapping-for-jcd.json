@@ -1,0 +1,28 @@
+{
+  "chat_id": "8GgAuwAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 2,
+  "date_range": {
+    "start": "2023-03-06",
+    "end": "2023-03-06"
+  },
+  "message_count": 28,
+  "topic": "Analytics fixes and data mapping for JCD",
+  "topic_slug": "analytics-fixes-and-data-mapping-for-jcd",
+  "tags": [
+    "analytics",
+    "inventory",
+    "facility",
+    "frame"
+  ],
+  "summary_markdown": "The conversation covered several technical fixes and data mapping issues. Initially, a request was made to attach a specific sensor (001e4249d7e2) to a frame (RJ001765/1161011I). Later, the need to group facilities into clusters was addressed and completed.\n\nA major discussion focused on analytics discrepancies: \n*   A specific facility ([redacted]) should not be included in mall analytics but still needed model calculation. It was determined that this required fixing within the analytics system, which [me] committed to doing before deployment.\n*   [unknown] provided updated data mapping for JCD Brazil, including a separate tab and adjusted Frame IDs. \n*   A request was made to improve data handling by saving geo-data from the source sheet into distinct fields to track potential coordinate discrepancies.",
+  "decisions": [
+    "The analytics system needs fixing to correctly handle facility inclusion/exclusion for model calculation.",
+    "Updated data mapping information for JCD Brazil was provided."
+  ],
+  "action_items": [
+    "[me] to fix the analytics issue regarding facility inclusion and model calculation, with deployment planned for staging next week.",
+    "[me] to implement saving geo-data from source sheets into separate fields for tracking coordinate differences."
+  ]
+}

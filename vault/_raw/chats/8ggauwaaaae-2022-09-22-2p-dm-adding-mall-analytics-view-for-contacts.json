@@ -1,0 +1,22 @@
+{
+  "chat_id": "8GgAuwAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 2,
+  "date_range": {
+    "start": "2022-09-22",
+    "end": "2022-09-22"
+  },
+  "message_count": 12,
+  "topic": "Adding Mall Analytics view for contacts",
+  "topic_slug": "adding-mall-analytics-view-for-contacts",
+  "tags": [
+    "analytics",
+    "inventory"
+  ],
+  "summary_markdown": "The conversation focused on adding a 'Mall Analytics' view for all contacts associated with JCDecaux. It was confirmed that three specific regional entities (JCDecaux Côte d’Ivoire, JCDecaux Finland, and JCDecaux Gabon) should be included in this scope. The necessary updates were completed.",
+  "decisions": [
+    "Add Mall Analytics view to all JCDecaux contacts."
+  ],
+  "action_items": []
+}

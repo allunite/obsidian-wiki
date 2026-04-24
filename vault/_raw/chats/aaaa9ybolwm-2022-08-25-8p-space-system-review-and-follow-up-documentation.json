@@ -1,0 +1,21 @@
+{
+  "chat_id": "AAAA9ybOLwM",
+  "kind": "Space",
+  "space_name": "ИТ",
+  "participants": 8,
+  "date_range": {
+    "start": "2022-08-25",
+    "end": "2022-08-25"
+  },
+  "message_count": 3,
+  "topic": "System review and follow-up documentation",
+  "topic_slug": "system-review-and-follow-up-documentation",
+  "tags": [
+    "analytics"
+  ],
+  "summary_markdown": "A meeting was scheduled to review the system. Following this, a link to relevant documentation was shared.",
+  "decisions": [],
+  "action_items": [
+    "Review provided system documentation."
+  ]
+}

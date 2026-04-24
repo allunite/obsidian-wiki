@@ -1,0 +1,19 @@
+{
+  "chat_id": "AAAAy7Yj6Xo",
+  "kind": "Space",
+  "space_name": "IT",
+  "participants": 12,
+  "date_range": {
+    "start": "2022-01-05",
+    "end": "2022-01-05"
+  },
+  "message_count": 7,
+  "topic": "Multiple ID codes shared in chat",
+  "topic_slug": "multiple-id-codes-shared-in-chat",
+  "tags": [
+    "analytics"
+  ],
+  "summary_markdown": "The session consisted solely of [p1] sharing a list of seven numerical identifiers (IDs). No discussion or context was provided for these IDs.",
+  "decisions": [],
+  "action_items": []
+}

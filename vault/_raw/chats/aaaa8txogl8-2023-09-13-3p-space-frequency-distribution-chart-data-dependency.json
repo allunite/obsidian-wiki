@@ -1,0 +1,22 @@
+{
+  "chat_id": "AAAA8TxOGL8",
+  "kind": "Space",
+  "space_name": "Group Chat",
+  "participants": 3,
+  "date_range": {
+    "start": "2023-09-13",
+    "end": "2023-09-13"
+  },
+  "message_count": 9,
+  "topic": "Frequency distribution chart data dependency",
+  "topic_slug": "frequency-distribution-chart-data-dependency",
+  "tags": [
+    "analytics",
+    "session"
+  ],
+  "summary_markdown": "A discussion arose regarding the calculation and dependencies of the Frequency Distribution chart. It was confirmed that this chart is built based on sessions, specifically utilizing the `is_calibrated` status.\n\n[p2] noted a strange behavior observed in India's frequency data, suggesting a need for further review.",
+  "decisions": [],
+  "action_items": [
+    "Discuss and understand the unusual frequency behavior reported for India."
+  ]
+}

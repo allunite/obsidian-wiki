@@ -1,0 +1,25 @@
+{
+  "chat_id": "oCgFCIAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2024-07-26",
+    "end": "2024-07-26"
+  },
+  "message_count": 43,
+  "topic": "Handling working hours data structure",
+  "topic_slug": "working-hours-data-structure-requirements",
+  "tags": [
+    "analytics",
+    "inventory"
+  ],
+  "summary_markdown": "The discussion focused on the optimal format for storing and processing operational working hours, particularly considering multi-interval days (e.g., in Finland) and varying day lengths.\n\nInitial suggestions included using a semicolon-separated string of values or JSON, but these formats were deemed problematic for data export/import reliability.\n\nIt was determined that the format should incorporate explicit day names (three-letter abbreviations like MON, TUE) to ensure clarity when importing data from various sources. While one participant preferred omitting the day name and using a fixed set of seven values, consensus leaned toward retaining the day names for robustness.\n\nThe working hours field is critical as it is used in calculating impressions, even if traffic might be zero on certain days due to closures.",
+  "decisions": [
+    "The working hours format must include explicit three-letter abbreviations for the day of the week (e.g., MON11:00-22:00).",
+    "The field is necessary for calculating impressions, regardless of potential traffic flow on specific days."
+  ],
+  "action_items": [
+    "Implement a robust method to parse and utilize the new working hours format in data queries (potentially using Python/regex)."
+  ]
+}

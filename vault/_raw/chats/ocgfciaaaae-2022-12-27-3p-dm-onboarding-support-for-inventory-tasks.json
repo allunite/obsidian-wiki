@@ -1,0 +1,24 @@
+{
+  "chat_id": "oCgFCIAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2022-12-27",
+    "end": "2022-12-27"
+  },
+  "message_count": 5,
+  "topic": "Onboarding support for inventory tasks",
+  "topic_slug": "onboarding-support-for-inventory-tasks",
+  "tags": [
+    "inventory",
+    "analytics"
+  ],
+  "summary_markdown": "The discussion centered on gradually onboarding a team member (Polina) to inventory management tasks. The goal is to prevent the team member from being overwhelmed by complex material next week, especially before an upcoming demo scheduled for the 10th.\n\n[p1] suggested transitioning Polina to work with inventory components, starting with simpler grid and minor elements. [me] confirmed that they had spoken with her about tackling tasks sequentially, but noted she seems ready to spend another week on general details.\n\nBoth parties agreed that a gradual introduction of material is necessary for smoother learning.",
+  "decisions": [
+    "Polina will be gradually transitioned to inventory components and tasks."
+  ],
+  "action_items": [
+    "[p1] will communicate with Polina regarding the phased onboarding plan."
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "chat_id": "AAAAw8LFttQ",
+  "kind": "Space",
+  "space_name": "Data",
+  "participants": 5,
+  "date_range": {
+    "start": "2021-07-21",
+    "end": "2021-07-21"
+  },
+  "message_count": 3,
+  "topic": "Permanent device rule for Mall employees",
+  "topic_slug": "permanent-device-rule-mall-employees",
+  "tags": [
+    "dwell-time",
+    "analytics"
+  ],
+  "summary_markdown": "A discussion arose regarding the current permanent device identification rule for Mall employees. The existing rule defines a device as permanent if it is seen for more than 2 hours across two or more days during the week. [p1] suggested this rule is too lenient and proposed an alternative: defining permanence with at least 3 hours of dwell time over three or more days during the week.\n[p1] initially answered based on the existing, softer rule but believes a formal discussion about changing the criteria is necessary.",
+  "decisions": [
+    "The current permanent device identification rule (2+ hours in 2+ days) was used for the immediate answer."
+  ],
+  "action_items": [
+    "Discuss and potentially change the permanent device rule to require 3+ hours of dwell time over 3+ days."
+  ]
+}

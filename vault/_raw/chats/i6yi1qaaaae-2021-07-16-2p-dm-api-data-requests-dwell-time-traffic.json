@@ -1,0 +1,27 @@
+{
+  "chat_id": "i6YI1QAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 2,
+  "date_range": {
+    "start": "2021-07-16",
+    "end": "2021-07-16"
+  },
+  "message_count": 13,
+  "topic": "API data requests for dwell time and traffic",
+  "topic_slug": "api-data-requests-dwell-time-traffic",
+  "tags": [
+    "analytics",
+    "dwell-time",
+    "impression",
+    "session"
+  ],
+  "summary_markdown": "The discussion revolves around potential enhancements to the Data API regarding location analytics. Two main topics were raised:\n\n1. **Dwell Time:** Currently, data is provided as a daily average in 5-minute intervals (e.g., 0-5, 5-10). A request was made to receive dwell time by hour instead of 5-minute intervals, and clarification was sought on whether this requires development work or if it is currently available.\n2. **Unique Traffic:** Currently, only non-unique traffic per day is provided. The team inquired about the feasibility of calling unique traffic data for specific locations over a defined period via the API.\n\nA methodological question regarding dwell time was also addressed: If a person arrives at 08:58 and leaves at 09:01, the system counts this session in the preceding hour (08:00-08:59).\n\nAdditionally, questions were raised about the methodology and confidence level of the data model over time.",
+  "decisions": [
+    "The team will schedule a call on Monday to discuss API enhancements."
+  ],
+  "action_items": [
+    "Review tender details provided by [p1] for validation.",
+    "Provide answers regarding hourly dwell time availability and unique traffic data feasibility via Data API."
+  ]
+}

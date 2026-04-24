@@ -1,0 +1,19 @@
+{
+  "chat_id": "AAAAIBvdTBM",
+  "kind": "Space",
+  "space_name": "Group Chat",
+  "participants": 3,
+  "date_range": {
+    "start": "2023-08-21",
+    "end": "2023-08-21"
+  },
+  "message_count": 3,
+  "topic": "Database script sharing and updates",
+  "topic_slug": "database-script-sharing-and-updates",
+  "tags": [
+    "analytics"
+  ],
+  "summary_markdown": "One participant shared a link to a specific SQL database script (`db4_reaggr_stage2prod.sql`) for review or use.",
+  "decisions": [],
+  "action_items": []
+}

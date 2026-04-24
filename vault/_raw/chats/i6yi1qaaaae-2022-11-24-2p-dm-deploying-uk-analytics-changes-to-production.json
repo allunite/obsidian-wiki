@@ -1,0 +1,25 @@
+{
+  "chat_id": "i6YI1QAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 2,
+  "date_range": {
+    "start": "2022-11-24",
+    "end": "2022-11-24"
+  },
+  "message_count": 9,
+  "topic": "Deploying UK analytics changes to production",
+  "topic_slug": "deploying-uk-analytics-changes-to-production",
+  "tags": [
+    "analytics",
+    "recalc-ch"
+  ],
+  "summary_markdown": "The discussion centered on deploying updated analytics for the UK market. Initially, [me] stated that there were deployment difficulties with the UK analytics to production because it required modifying the core analytics structure, which would affect other areas. Furthermore, changes had been made in the main `develop` branch, suggesting caution about deploying everything from it.\n\n[p1] confirmed that the deployment should be limited only to the UK scope.",
+  "decisions": [
+    "Deployment of UK analytics modifications will proceed.",
+    "The deployment must be restricted solely to the UK."
+  ],
+  "action_items": [
+    "Someone needs to modify and deploy the required analytics changes for the UK market."
+  ]
+}

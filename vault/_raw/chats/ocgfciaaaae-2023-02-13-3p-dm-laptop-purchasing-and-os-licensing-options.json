@@ -1,0 +1,21 @@
+{
+  "chat_id": "oCgFCIAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2023-02-13",
+    "end": "2023-02-13"
+  },
+  "message_count": 27,
+  "topic": "Laptop purchasing and OS licensing options",
+  "topic_slug": "laptop-purchasing-and-os-licensing-options",
+  "tags": [
+    "analytics"
+  ],
+  "summary_markdown": "The discussion focused on the difficulty of sourcing new laptops with pre-installed operating systems (OS) from local retailers, as many models are now sold without OS. One participant shared methods for acquiring necessary software licenses, specifically mentioning that Windows 10 Pro keys can be purchased affordably from platforms like eBay.\n\nIt was noted that while OEM licenses were previously common, they are now harder to find. The discussion confirmed the viability of using third-party keys for operating systems.",
+  "decisions": [
+    "The use of inexpensive, non-OEM OS keys (e.g., Windows 10 Pro) from platforms like eBay was identified as a viable solution."
+  ],
+  "action_items": []
+}

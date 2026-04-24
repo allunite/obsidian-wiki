@@ -1,0 +1,24 @@
+{
+  "chat_id": "ws0mTkAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 2,
+  "date_range": {
+    "start": "2024-03-01",
+    "end": "2024-03-01"
+  },
+  "message_count": 12,
+  "topic": "Data mapping and demographic data availability",
+  "topic_slug": "data-mapping-and-demographic-data-availability",
+  "tags": [
+    "analytics",
+    "facility"
+  ],
+  "summary_markdown": "The discussion centered on the need to fully map a specific dataset (linked in documentation) to existing internal clusters. [me] noted that while demographic data was prepared from their side, its quality is poor due to missing location data. The availability of this necessary data set was discussed, with confirmation that it should be available starting Monday. It was suggested starting the mapping process with just one category or mall type to demonstrate initial results.",
+  "decisions": [
+    "Start the data mapping process by focusing on a single category/mall type."
+  ],
+  "action_items": [
+    "[me] needs to confirm priorities and availability of the required demographic data set from Galina."
+  ]
+}

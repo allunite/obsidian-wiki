@@ -1,0 +1,26 @@
+{
+  "chat_id": "AAAAUkNTt58",
+  "kind": "Space",
+  "space_name": "Group Chat",
+  "participants": 3,
+  "date_range": {
+    "start": "2023-12-11",
+    "end": "2023-12-11"
+  },
+  "message_count": 16,
+  "topic": "Virtual facility linking and session impact",
+  "topic_slug": "virtual-facility-linking-session-impact",
+  "tags": [
+    "facility",
+    "session",
+    "analytics"
+  ],
+  "summary_markdown": "The discussion centered on the plan to link virtual facilities to real ones (approximately 1400 total). Concerns were raised regarding the potential for a large influx of new sessions, which could impact calculations.\n\nTo mitigate this, suggestions included implementing mirroring or linking by category. It was agreed that starting with specific categories, such as malls, might be best. The process requires ensuring that the categories used match those on the source data.",
+  "decisions": [
+    "The plan to link virtual facilities to real ones will proceed.",
+    "Linking should potentially start by grouping facilities into categories (e.g., malls) rather than all at once."
+  ],
+  "action_items": [
+    "Someone will perform the linking today, starting with either all facilities or just the mall category."
+  ]
+}

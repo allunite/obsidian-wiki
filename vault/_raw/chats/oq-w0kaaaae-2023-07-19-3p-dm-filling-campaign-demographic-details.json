@@ -1,0 +1,19 @@
+{
+  "chat_id": "oq-w0kAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2023-07-19",
+    "end": "2023-07-19"
+  },
+  "message_count": 3,
+  "topic": "Filling campaign demographic details",
+  "topic_slug": "filling-campaign-demographic-details",
+  "tags": [
+    "analytics"
+  ],
+  "summary_markdown": "A query was made regarding how age range and gender are populated in campaign details. It was confirmed that the data is a combination of static inputs and variables retrieved from an API endpoint.",
+  "decisions": [],
+  "action_items": []
+}

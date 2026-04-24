@@ -1,0 +1,26 @@
+{
+  "chat_id": "AAAAFD09QVc",
+  "kind": "Space",
+  "space_name": "Captive portal test",
+  "participants": 6,
+  "date_range": {
+    "start": "2024-07-11",
+    "end": "2024-07-11"
+  },
+  "message_count": 12,
+  "topic": "Captive portal field test device stability",
+  "topic_slug": "captive-portal-field-test-device-stability",
+  "tags": [
+    "facility",
+    "analytics",
+    "session"
+  ],
+  "summary_markdown": "The discussion focused on the results of a captive portal field test (Field_test: captive_portal). The current setup involves switching channels to rut200 and collecting data for 2.4 GHz and 5 GHz bands.\n\nDevice stability was reviewed, noting that iPhone 12 Pro, Redmi 9A, and Huawei P30 n2 are the most stable devices tested so far. Samsung S8 is noted as a device that fails after one day. Other devices (Samsung A34 5G, Samsung A50, iPhone 13 Pro Max, Huawei P30 n1) were present on some days but performed better than in previous experiments.\n\nParticipants also discussed calculating the average daily total number of sessions lost due to channel switching, although it was noted that a more accurate measurement would require testing near a road.",
+  "decisions": [
+    "The captive portal field test data has been updated and added to the designated tab."
+  ],
+  "action_items": [
+    "Review RZK frequency description (dated 30.06) for relevance.",
+    "Calculate the average daily total number of sessions lost during channel switching, pending further testing near a road."
+  ]
+}

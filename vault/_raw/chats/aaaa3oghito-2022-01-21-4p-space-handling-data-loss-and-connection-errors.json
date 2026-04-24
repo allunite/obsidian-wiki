@@ -1,0 +1,27 @@
+{
+  "chat_id": "AAAA3oghITo",
+  "kind": "Space",
+  "space_name": "Кабаны",
+  "participants": 4,
+  "date_range": {
+    "start": "2022-01-21",
+    "end": "2022-01-21"
+  },
+  "message_count": 43,
+  "topic": "Handling data loss and connection errors",
+  "topic_slug": "handling-data-loss-and-connection-errors",
+  "tags": [
+    "analytics",
+    "impression",
+    "recalc-ch",
+    "session"
+  ],
+  "summary_markdown": "The discussion focused on data integrity issues during the process of archiving raw data from ClickHouse to S3. It was noted that the current script handles task failures by ignoring them, leading to potential data loss without immediate notification.\n\nSpecific technical issues discussed included:\n*   **Serialization Errors:** The primary error encountered is a `ValueError` or `TypeError` during JSON serialization when processing raw data from ClickHouse (e.g., in `archive_data.py`). These errors often occur with empty datasets, which may signal connection resets or timeouts.\n*   **Alerting Mechanism:** A key decision point was how to alert the team about these failures beyond just letting the task fail silently. It was determined that adding a message sending function (e.g., to 'we are robots') into the existing error handling logic is necessary.\n*   **Data Flow:** The process involves pulling data from ClickHouse, serializing it, and uploading it to S3 in `seen_ch` buckets for subsequent recalculation (`recalc-ch`).\n\nIt was suggested that implementing a retry mechanism (retry) for the connection would improve robustness.",
+  "decisions": [
+    "Implement an alerting mechanism (e.g., sending a message to 'we are robots') when data archiving fails due to errors."
+  ],
+  "action_items": [
+    "Add error reporting/alerting logic into the data archiving script's failure handling.",
+    "Investigate implementing a retry mechanism for ClickHouse connections to handle transient failures."
+  ]
+}

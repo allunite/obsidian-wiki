@@ -1,0 +1,24 @@
+{
+  "chat_id": "AAAAOcKWvdA",
+  "kind": "Space",
+  "space_name": "Delivery Coordination",
+  "participants": 14,
+  "date_range": {
+    "start": "2025-01-16",
+    "end": "2025-01-16"
+  },
+  "message_count": 7,
+  "topic": "Inventory filter availability on production environment",
+  "topic_slug": "inventory-filter-availability-on-production-environment",
+  "tags": [
+    "analytics",
+    "inventory"
+  ],
+  "summary_markdown": "A discussion occurred regarding the availability of a working hours filter for inventory data. [p3] noted that this filter was missing from the production environment and was only visible on staging. [p5] confirmed that the feature needed activation/permission before it could be enabled, as there had been no formal decision made yet.",
+  "decisions": [
+    "The working hours filter for inventory will be activated once a decision is made."
+  ],
+  "action_items": [
+    "[p5] needs confirmation/authorization to activate the setting."
+  ]
+}

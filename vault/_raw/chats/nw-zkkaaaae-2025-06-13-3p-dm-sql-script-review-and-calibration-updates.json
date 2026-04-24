@@ -1,0 +1,26 @@
+{
+  "chat_id": "nW_zkkAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2025-06-13",
+    "end": "2025-06-13"
+  },
+  "message_count": 43,
+  "topic": "SQL script review and calibration updates",
+  "topic_slug": "sql-script-review-and-calibration-updates",
+  "tags": [
+    "analytics",
+    "campaign",
+    "facility",
+    "session"
+  ],
+  "summary_markdown": "The conversation focused heavily on reviewing and refining SQL queries related to facility analytics. \n\n*   **Session Data:** Scripts were shared for calculating session metrics, including `clusterFrequency`, `footfall`, and `traffic_sessions_screen` using the `device_session_agg_5` table.\n*   **Calibration Scripting:** A specific SQL script was reviewed to update `signal_limit` values in the `device_session_calibration_staging` table, ensuring a list of required facilities is used for the update.\n*   **Data Scope:** The scripts generally cover data from May 1st to June 1st, focusing on 'Metro' and 'Underground' asset categories within specific facility master numbers in Finland.\n\nOverall, multiple complex SQL queries were exchanged and reviewed for accuracy.",
+  "decisions": [
+    "The calibration script logic was confirmed as correct by someone."
+  ],
+  "action_items": [
+    "Review the task regarding cluster analytics that was previously discussed (link provided)."
+  ]
+}

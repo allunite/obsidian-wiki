@@ -1,0 +1,23 @@
+{
+  "chat_id": "AAAA1vdtku4",
+  "kind": "Space",
+  "space_name": "DataTeam+",
+  "participants": 14,
+  "date_range": {
+    "start": "2024-02-15",
+    "end": "2024-02-15"
+  },
+  "message_count": 3,
+  "topic": "Script execution and cluster reconfiguration plan",
+  "topic_slug": "script-execution-cluster-reconfiguration-plan",
+  "tags": [
+    "analytics"
+  ],
+  "summary_markdown": "A directive was issued requiring all heavy scripts (and generally all scripts) to execute exclusively on the ch04 environment. Participants were instructed to configure their IDE connections solely to ch04 and avoid touching ch01-ch03, due to an upcoming cluster reconfiguration plan that requires data collection.\n\nA follow-up question regarding who should be contacted to ensure this change is implemented for night recalibration was answered by confirming that the recalibration process always uses 04.",
+  "decisions": [
+    "All heavy scripts must run exclusively on ch04."
+  ],
+  "action_items": [
+    "Participants must update IDE connections to point only to ch04."
+  ]
+}

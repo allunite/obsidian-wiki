@@ -1,0 +1,26 @@
+{
+  "chat_id": "AAAA-gn4oPg",
+  "kind": "Space",
+  "space_name": "General and random",
+  "participants": 36,
+  "date_range": {
+    "start": "2023-07-20",
+    "end": "2023-07-20"
+  },
+  "message_count": 7,
+  "topic": "Client request templates and sensor data",
+  "topic_slug": "client-request-templates-and-sensor-data",
+  "tags": [
+    "analytics",
+    "inventory",
+    "impression"
+  ],
+  "summary_markdown": "A participant requested assistance with two client requests: 1) Obtaining the correct spreadsheet template for clients to input parameters for panel impressions/classification. 2) Filling in a specific spreadsheet from JCD Datacorp by the end of the week with sensor installation addresses across all countries.\n\nThe required template name was discussed, and one participant confirmed that the 'impressions attribute' is the relevant term. A follow-up request was made for the latest version of the document, potentially the one used for Brazil.",
+  "decisions": [
+    "The spreadsheet template for client parameters (impressions/classification) needs to be located and shared."
+  ],
+  "action_items": [
+    "Locate and share the correct 'impressions attribute' spreadsheet template.",
+    "Fill in JCD Datacorp spreadsheet with global sensor installation addresses by end of week."
+  ]
+}

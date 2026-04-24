@@ -1,0 +1,24 @@
+{
+  "chat_id": "i6YI1QAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 2,
+  "date_range": {
+    "start": "2021-07-12",
+    "end": "2021-07-12"
+  },
+  "message_count": 34,
+  "topic": "Calculating speed from sensor data analysis",
+  "topic_slug": "calculating-speed-from-sensor-data-analysis",
+  "tags": [
+    "analytics",
+    "session"
+  ],
+  "summary_markdown": "The discussion focused on methods for calculating movement speed using single-sensor field data. It was proposed that speed calculation might be possible by analyzing the minimum, maximum signal levels, and the time difference between them.\n\nTo improve accuracy, it was suggested to sample a subset of sessions: specifically, 80% of non-zero sessions where the signal level increases. The goal is to calculate an average speed based on this representative group, assuming similar movement patterns (e.g., pedestrians) across many users.",
+  "decisions": [
+    "The calculation method will rely on minimum/maximum signal levels and time difference."
+  ],
+  "action_items": [
+    "Follow up discussion regarding the proposed sampling methodology (80% of non-zero, increasing signal sessions)."
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "chat_id": "oCgFCIAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2025-09-11",
+    "end": "2025-09-11"
+  },
+  "message_count": 9,
+  "topic": "Adding day number to traffic queries",
+  "topic_slug": "adding-day-number-to-traffic-queries",
+  "tags": [
+    "analytics",
+    "recalc-ch"
+  ],
+  "summary_markdown": "The discussion focused on the best method for passing a 'dayNumber' (the count of days in granularity or period) into existing traffic queries. Three options were evaluated: 1) Always return the field, ensuring it is available in all requests; 2) Add it to grouping columns, which might impact performance; and 3) Add a new field (`additionalSelectFields`) to the parameters object, which was deemed too limited for current needs.\n\nThe consensus reached was that Option 1 (always returning the field) is the simplest solution and will not negatively affect other parts of the system.",
+  "decisions": [
+    "The 'dayNumber' field should be always returned in traffic queries."
+  ],
+  "action_items": []
+}

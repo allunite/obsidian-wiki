@@ -1,0 +1,27 @@
+{
+  "chat_id": "8GgAuwAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 2,
+  "date_range": {
+    "start": "2023-03-02",
+    "end": "2023-03-02"
+  },
+  "message_count": 14,
+  "topic": "Grouping facilities and analytics setup",
+  "topic_slug": "grouping-facilities-and-analytics-setup",
+  "tags": [
+    "facility",
+    "inventory",
+    "analytics"
+  ],
+  "summary_markdown": "The conversation focused on organizing specific facilities into clusters. One participant was asked to group three facilities under a cluster and then separate two other sets of data/facilities for another cluster.\n\nRegarding analytics, it was noted that tabs would be created automatically, but visibility is restricted to users with the 'mall' role. A discussion ensued about identifying users who do not currently see the mall dashboard, requiring either their emails or the associated company name if the role needs to be assigned broadly.",
+  "decisions": [
+    "Three facilities will be grouped under a specific cluster.",
+    "Two additional clusters/sets of data need tabs added to Mall Analytics."
+  ],
+  "action_items": [
+    "The participant who knows how to set up roles will handle the assignment of 'mall' role visibility for users.",
+    "Identify and provide emails or company names of users lacking access to the mall dashboard."
+  ]
+}

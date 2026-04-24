@@ -1,0 +1,24 @@
+{
+  "chat_id": "oCgFCIAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2024-05-28",
+    "end": "2024-05-28"
+  },
+  "message_count": 8,
+  "topic": "Database table deprecation and renaming strategy",
+  "topic_slug": "database-table-deprecation-and-renaming-strategy",
+  "tags": [
+    "analytics"
+  ],
+  "summary_markdown": "The conversation focused on the status of unused database tables (`buildings` and `buildings_br`). One participant suggested deprecating them, while another recommended renaming and retaining them for historical purposes. It was noted that building geometry data was sourced from OpenStreet Map but supplemented with a Microsoft database. A discussion ensued regarding cleaning up temporary or 'junk' tables (those starting with an underscore). The participants agreed on the general principle of cleaning up such temporary structures, though one participant cautioned that the Data Team might still rely on specific underscored frames (`_frame_vaXX`). Documentation was referenced for guidelines on deleting temporary tables.",
+  "decisions": [
+    "Unused tables like `buildings` and `buildings_br` should be renamed and retained for historical records rather than deleted."
+  ],
+  "action_items": [
+    "[me] to rename temporary/buffer tables by prefixing them with an underscore.",
+    "Participants need to consult documentation regarding the deletion of temporary tables, noting potential dependencies on specific underscored frames used by the Data Team."
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "chat_id": "i6YI1QAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 2,
+  "date_range": {
+    "start": "2021-04-08",
+    "end": "2021-04-08"
+  },
+  "message_count": 60,
+  "topic": "Adjusting unique user calculations and data modeling",
+  "topic_slug": "adjusting-unique-user-calculations-and-data-modeling",
+  "tags": [
+    "analytics",
+    "dwell-time",
+    "impression",
+    "campaign"
+  ],
+  "summary_markdown": "The discussion covered several technical points regarding analytics calculation methodology. First, the team reviewed release notes to ensure no unintended changes were deployed, specifically confirming that permanent device calculations and dwell-time metrics remained unchanged.\n\nLater, a specific issue arose concerning unique user counts (uniques) over long periods. It was determined that due to incompatibility between new firmware client hashes and old ones, the reported total uniques needed adjustment by dividing the count by two when analyzing long time spans.\n\nAdditionally, the team worked on optimizing a SQL query to calculate weighted unique users weekly. The initial method struggled because factors depend on multiple dimensions (company/facility/date), but only date was available at the top level. A revised approach using an average factor (`sum(factor)/count()`) was implemented and tested.",
+  "decisions": [
+    "The calculation for uniques over long periods must be adjusted by dividing the total count by two due to client hash incompatibility between firmware versions.",
+    "A weighted unique user query structure was finalized, using an average factor (`sum(factor)/count()`) grouped by week."
+  ],
+  "action_items": [
+    "Follow up with someone (Tolia) regarding the planned frequency of changing device hashes to better stabilize unique user metrics.",
+    "Implement the adjusted calculation for uniques over long periods."
+  ]
+}

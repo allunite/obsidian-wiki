@@ -1,0 +1,23 @@
+{
+  "chat_id": "AAAA3oghITo",
+  "kind": "Space",
+  "space_name": "Кабаны",
+  "participants": 4,
+  "date_range": {
+    "start": "2022-10-28",
+    "end": "2022-10-28"
+  },
+  "message_count": 6,
+  "topic": "Deployment of analytics feature to staging",
+  "topic_slug": "deployment-of-analytics-feature-to-staging",
+  "tags": [
+    "analytics"
+  ],
+  "summary_markdown": "Someone requested the deployment of an analytics feature from the develop environment to the staging environment. This was prompted by a request from Nina.",
+  "decisions": [
+    "The analytics feature will be deployed to staging."
+  ],
+  "action_items": [
+    "p1 will deploy the analytics on stage within an hour."
+  ]
+}

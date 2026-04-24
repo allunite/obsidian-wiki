@@ -1,0 +1,22 @@
+{
+  "chat_id": "AAAAOcKWvdA",
+  "kind": "Space",
+  "space_name": "Delivery Coordination",
+  "participants": 14,
+  "date_range": {
+    "start": "2023-09-14",
+    "end": "2023-09-14"
+  },
+  "message_count": 12,
+  "topic": "JCD Brazil frame list loading issue",
+  "topic_slug": "jcd-brazil-frame-list-loading-issue",
+  "tags": [
+    "frame",
+    "analytics"
+  ],
+  "summary_markdown": "A user reported that the frame lists for JCD Brazil stopped loading in production. It was confirmed that CC Brazil functionality remained operational, but JCD failed to load frames. Someone suggested checking if the end-user could see the problematic frames while viewing the CC section. The participants noted that no changes had been made by their team and that data appeared to be in place.",
+  "decisions": [
+    "The issue with JCD Brazil frame loading was identified."
+  ],
+  "action_items": []
+}

@@ -1,0 +1,28 @@
+{
+  "chat_id": "AAAA3frAfLA",
+  "kind": "Space",
+  "space_name": "Lidar Tech",
+  "participants": 8,
+  "date_range": {
+    "start": "2021-12-09",
+    "end": "2021-12-09"
+  },
+  "message_count": 119,
+  "topic": "Lidar data collection and technical troubleshooting",
+  "topic_slug": "lidar-data-collection-and-technical-troubleshooting",
+  "tags": [
+    "analytics",
+    "impression",
+    "inventory",
+    "session"
+  ],
+  "summary_markdown": "The discussion focused heavily on collecting, transmitting, and analyzing Lidar data from an onsite installation. Initial efforts involved gathering video evidence of the lidar's performance in various environments (e.g., pedestrian zones, roads). Technical troubleshooting included checking network connectivity (pinging 8.8.8.8), confirming mobile signal strength (-51 dBm reported), and verifying hardware connections.\n\nKey technical issues addressed were:\n*   **Data Transfer:** Ensuring the lidar data could be successfully uploaded to AWS S3 buckets.\n*   **Hardware Visibility:** Difficulty in locating or confirming the status of the Jetson device, requiring checks for different adapters (USB eth).\n*   **Signal/Connectivity:** Troubleshooting connectivity loss and verifying IP addresses associated with the equipment.\n\nThe team also discussed optimizing data capture duration, noting that 10 seconds resulted in small file sizes (9.5 MB), leading to discussions about capturing longer segments (minutes).\n\nFinally, video evidence was shared showing the lidar's ability to detect objects like buses and bicycles.",
+  "decisions": [
+    "The team decided to capture extended data segments (up to a minute or more) for comprehensive testing.",
+    "Video footage of the lidar detecting various objects (buses, bikes) was successfully captured and shared."
+  ],
+  "action_items": [
+    "Continue monitoring Lidar performance and connectivity in the field.",
+    "Investigate discrepancies in data size calculations (e.g., 10 seconds vs. 9 MB)."
+  ]
+}

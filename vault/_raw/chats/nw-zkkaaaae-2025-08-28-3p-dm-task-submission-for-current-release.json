@@ -1,0 +1,19 @@
+{
+  "chat_id": "nW_zkkAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2025-08-28",
+    "end": "2025-08-28"
+  },
+  "message_count": 6,
+  "topic": "Task submission for current release",
+  "topic_slug": "task-submission-for-current-release",
+  "tags": [
+    "analytics"
+  ],
+  "summary_markdown": "Someone shared a task link and stated that it was ready for upload, suggesting it be included in the current release.",
+  "decisions": [],
+  "action_items": []
+}

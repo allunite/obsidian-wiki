@@ -1,0 +1,23 @@
+{
+  "chat_id": "0VorOYAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2025-02-11",
+    "end": "2025-02-11"
+  },
+  "message_count": 17,
+  "topic": "Reviewing analytics discrepancies and data display",
+  "topic_slug": "reviewing-analytics-discrepancies-and-data-display",
+  "tags": [
+    "analytics",
+    "impression",
+    "campaign"
+  ],
+  "summary_markdown": "The discussion focused on verifying data consistency across different environments (production vs. staging) for key metrics, particularly concerning demographics and loading speed. Initial checks confirmed that demographic numbers matched within acceptable tolerances on important client accounts.\n\nA separate issue was raised regarding missing category labels (e.g., 20-30, 30-40) in the 'By Age Group' graph for Brazil on production. Attempts to reproduce this display error failed. The conversation concluded that the discrepancy might be attributable to local browser cache or layout issues.",
+  "decisions": [
+    "Demographic data consistency (prod vs staging) is acceptable on major client accounts."
+  ],
+  "action_items": []
+}

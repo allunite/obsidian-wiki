@@ -1,0 +1,22 @@
+{
+  "chat_id": "oCgFCIAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2023-10-06",
+    "end": "2023-10-06"
+  },
+  "message_count": 3,
+  "topic": "Campaign controller update and testing",
+  "topic_slug": "campaign-controller-update-and-testing",
+  "tags": [
+    "campaign"
+  ],
+  "summary_markdown": "A change was pushed to the `campaign.public.controller` using a basic `getParams` method for consistency. The recipient confirmed they would review the code and perform smoke tests on the jobs.",
+  "decisions": [],
+  "action_items": [
+    "Review the updated campaign controller code",
+    "Perform smoke tests on related jobs"
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "chat_id": "8GgAuwAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 2,
+  "date_range": {
+    "start": "2023-01-24",
+    "end": "2023-01-24"
+  },
+  "message_count": 8,
+  "topic": "Deployment plan and access confirmation",
+  "topic_slug": "deployment-plan-and-access-confirmation",
+  "tags": [
+    "analytics",
+    "inventory"
+  ],
+  "summary_markdown": "The discussion covered the deployment strategy for a recent update. It was decided that the release would be handled quietly rather than with a formal announcement. Later, [me] confirmed successful completion of tasks and noted that even administrators cannot see certain menus under impersonation, although access to inventory and company analytics pages remains available via specific URLs.",
+  "decisions": [
+    "The new feature will be deployed quietly (low-key)"
+  ],
+  "action_items": []
+}

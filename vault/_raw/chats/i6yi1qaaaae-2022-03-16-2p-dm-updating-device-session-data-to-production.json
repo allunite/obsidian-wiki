@@ -1,0 +1,30 @@
+{
+  "chat_id": "i6YI1QAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 2,
+  "date_range": {
+    "start": "2022-03-16",
+    "end": "2022-03-16"
+  },
+  "message_count": 50,
+  "topic": "Updating device session data to production",
+  "topic_slug": "updating-device-session-data-to-production",
+  "tags": [
+    "analytics",
+    "campaign",
+    "inventory",
+    "session"
+  ],
+  "summary_markdown": "The discussion focused on updating and calibrating device session analytics data across multiple regions (Lithuania, Germany, Spain) from staging to production.\n\n**Key Updates/Calibrations:**\n*   **Germany:** The 'Low' model was restricted to a specific identifier. Signal levels were updated for two German devices: JCD_DE_111675 set to *89*, and JCD_DE_111679 set to *81*.\n*   **Spain:** All signal levels needed to be moved from staging to production, referencing an external spreadsheet.\n*   **Data Aggregation:** Data for Lithuania (starting 2021-04-01), Germany (starting 2022-03-10), and Spain (starting 2021-11-01) were scheduled for update/aggregation on production.\n*   **Process:** The data was prepared in the staging environment (`device_session_agg_ml_staging`) before being moved to production. The final aggregation step involved joining the staged data rather than pulling directly from the production ML table.\n\n**Decision:** The script for updating and aggregating the session data on production was confirmed.",
+  "decisions": [
+    "The 'Low' model restriction for Germany is finalized.",
+    "Signal levels (89 and 81) are set for specific German devices in production.",
+    "All signal levels for Spain are moved from staging to production.",
+    "Device session data for Lithuania, Germany, and Spain is updated/aggregated on production."
+  ],
+  "action_items": [
+    "The script will be deployed to production.",
+    "New data will be checked the following day."
+  ]
+}

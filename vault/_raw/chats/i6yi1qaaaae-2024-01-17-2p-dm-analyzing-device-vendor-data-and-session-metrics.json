@@ -1,0 +1,23 @@
+{
+  "chat_id": "i6YI1QAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 2,
+  "date_range": {
+    "start": "2024-01-17",
+    "end": "2024-01-17"
+  },
+  "message_count": 22,
+  "topic": "Analyzing device vendor data and session metrics",
+  "topic_slug": "analyzing-device-vendor-data-and-session-metrics",
+  "tags": [
+    "analytics",
+    "device-id",
+    "vendor"
+  ],
+  "summary_markdown": "The conversation focused on analyzing device vendor data, specifically regarding the low count of Apple devices observed. It was determined that the current query correctly filters all available data and that the low number is expected for connected devices in Brazil.\n\nSomeone provided a revised SQL query to rank vendors by session counts and unique device IDs across a specific date range (Dec 24, 2023 - Jan 3, 2024).\n\nKey observations included:\n*   The low count of Apple devices was attributed to the fact that non-connected Apple devices might register as `local mac` with `vendor_id = 0`.\n*   It was noted that other vendors (MediaTek Inc., Motorola, Samsung, Xiaomi, LG) are expected to have significantly higher numbers of sessions and unique devices.\n*   A specific data quality issue was identified: MediaTek Inc. should be excluded from statistics due to an average session length of only 1 second across 14,257 sessions, suggesting they might be sending probe requests rather than local MAC addresses.",
+  "decisions": [
+    "MediaTek Inc. must be removed from the statistical analysis due to extremely short session lengths (average 1 second)."
+  ],
+  "action_items": []
+}

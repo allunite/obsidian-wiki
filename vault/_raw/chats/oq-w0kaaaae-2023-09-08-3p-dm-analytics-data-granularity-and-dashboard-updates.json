@@ -1,0 +1,28 @@
+{
+  "chat_id": "oq-w0kAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2023-09-08",
+    "end": "2023-09-08"
+  },
+  "message_count": 39,
+  "topic": "Analytics data granularity and dashboard updates",
+  "topic_slug": "analytics-data-granularity-and-dashboard-updates",
+  "tags": [
+    "analytics",
+    "campaign",
+    "impression",
+    "dwell-time",
+    "session"
+  ],
+  "summary_markdown": "The conversation covered technical issues related to data aggregation and dashboard functionality. Initially, a discrepancy was noted in metrics (viewed impressions per face vs. viewed impressions) when analyzing campaign data on staging.\n\nLater discussions focused on updating the Mall Analytics dashboard to support variable time granularity (day, hour, etc.). It was confirmed that the necessary parameters are received by the server and the SQL generator can handle them, making the feature feasible from a backend perspective. However, implementing this requires client-side refactoring to prevent repetition of dropdown logic.\n\nAdditionally, procedures for managing translation keys were clarified: local editing is recommended, but changes must be synchronized both locally and on the server.",
+  "decisions": [
+    "The Mall Analytics dashboard can support variable time granularity (day/hour) because the backend infrastructure supports receiving and processing these parameters."
+  ],
+  "action_items": [
+    "Client-side refactoring is needed to implement variable time granularity on the analytics dashboard.",
+    "Update develop environment and perform local edits for translation key management."
+  ]
+}

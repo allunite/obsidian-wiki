@@ -1,0 +1,23 @@
+{
+  "chat_id": "y9IEDQAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2024-03-27",
+    "end": "2024-03-27"
+  },
+  "message_count": 5,
+  "topic": "Switching cold feed back to st1",
+  "topic_slug": "switching-cold-feed-back-to-st1",
+  "tags": [
+    "analytics"
+  ],
+  "summary_markdown": "The user requested that the 'cold' feed be switched back to 'st1'. Concerns were raised regarding potential data latency, specifically worrying that the start of 2023 and day-by-day metrics might not update within a minute.",
+  "decisions": [
+    "Switching of the cold feed back to st1 will occur in the evening."
+  ],
+  "action_items": [
+    "Someone needs to perform the switch from 'cold' to 'st1' later that day."
+  ]
+}

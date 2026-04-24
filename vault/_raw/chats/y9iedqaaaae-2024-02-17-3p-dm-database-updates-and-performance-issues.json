@@ -1,0 +1,27 @@
+{
+  "chat_id": "y9IEDQAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2024-02-17",
+    "end": "2024-02-17"
+  },
+  "message_count": 60,
+  "topic": "Database updates and performance issues",
+  "topic_slug": "database-updates-and-performance-issues",
+  "tags": [
+    "analytics",
+    "impression",
+    "inventory",
+    "loop"
+  ],
+  "summary_markdown": "The session focused on updating the ClickHouse (CH) instance, starting with version 24.1. The update process involved deploying to a sandbox environment first, followed by attempts to push changes to production.\n\nSeveral issues were encountered during the deployment and data ingestion:\n*   **Service Failures:** Multiple CH services (ch01, ch02, ch03, ch04) experienced failures or required manual restarts due to update complications.\n*   **Performance Bottlenecks:** High I/O utilization was observed across all disks during data transfer, suggesting potential hardware limitations with the current EBS setup.\n*   **Data Ingestion:** The `raw_devices_seen` table ingestion process (handled by ch02) successfully processed accumulated data. A separate service, `rms-data`, which pulls router status from RMS, was also confirmed to be running and querying device MAC addresses from the raw devices seen table.\n*   **Resource Consumption:** Memory consumption analysis showed significant spikes in resource usage across different CH services (e.g., ch04 peaking at ~33GB).\n\nThe conversation concluded with a discussion regarding potential infrastructure upgrades, specifically mentioning EBS limitations and evaluating the cost/performance trade-offs of using `m7i-flex` instances versus standard configurations.",
+  "decisions": [
+    "The ClickHouse instance was updated to version 24.1 after testing in sandbox.",
+    "A discussion is needed regarding upgrading infrastructure components (e.g., EBS) due to observed I/O bottlenecks."
+  ],
+  "action_items": [
+    "Investigate the feasibility and cost implications of using m7i-flex instances for future deployments."
+  ]
+}

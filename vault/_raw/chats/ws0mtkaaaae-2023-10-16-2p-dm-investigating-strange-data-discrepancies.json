@@ -1,0 +1,26 @@
+{
+  "chat_id": "ws0mTkAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 2,
+  "date_range": {
+    "start": "2023-10-16",
+    "end": "2023-10-16"
+  },
+  "message_count": 16,
+  "topic": "Investigating strange data discrepancies",
+  "topic_slug": "investigating-strange-data-discrepancies",
+  "tags": [
+    "analytics",
+    "impression",
+    "reach"
+  ],
+  "summary_markdown": "The conversation focused on reviewing unusual data reported by a colleague (Rafael). Specific concerns included the relationship between reach and viewed impressions, as well as instances where frequency was less than one. The participants discussed checking specific screen inventory (BR-RIO-DD-00007.01, type MUPI) and noted that while general function seemed okay, the location data might be inaccurate based on photo evidence. A plan was established to review a full list of screens for the campaign to correct any incorrect screen types.",
+  "decisions": [
+    "The team will investigate strange data discrepancies reported by Rafael.",
+    "A full list of screens from the campaign will be used to identify and correct incorrect screen types."
+  ],
+  "action_items": [
+    "Someone needs to provide the complete list of screens for the campaign."
+  ]
+}

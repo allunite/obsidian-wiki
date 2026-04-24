@@ -1,0 +1,19 @@
+{
+  "chat_id": "AAAA9ybOLwM",
+  "kind": "Space",
+  "space_name": "ИТ",
+  "participants": 8,
+  "date_range": {
+    "start": "2020-12-21",
+    "end": "2020-12-21"
+  },
+  "message_count": 6,
+  "topic": "Database connection issue and status update",
+  "topic_slug": "database-connection-issue-and-status-update",
+  "tags": [
+    "analytics"
+  ],
+  "summary_markdown": "A discussion occurred regarding a stopped service (clickhouse02). The session included sharing a link and confirming that the user had started something. Another participant mentioned someone named Tolya would arrive in 10 minutes.",
+  "decisions": [],
+  "action_items": []
+}

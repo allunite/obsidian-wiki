@@ -1,0 +1,30 @@
+{
+  "chat_id": "AAAAOcKWvdA",
+  "kind": "Space",
+  "space_name": "Delivery Coordination",
+  "participants": 14,
+  "date_range": {
+    "start": "2023-03-24",
+    "end": "2023-03-24"
+  },
+  "message_count": 68,
+  "topic": "Brazilian demographic data structure and implementation",
+  "topic_slug": "brazilian-demographic-data-structure-and-implementation",
+  "tags": [
+    "analytics",
+    "campaign",
+    "impression",
+    "inventory",
+    "loop"
+  ],
+  "summary_markdown": "The discussion focused on structuring and implementing demographic data for Brazil, which is complex due to varying geographical levels (City -> District -> Subdistrict -> Sector).\n\nKey points included:\n*   **Data Hierarchy:** The current structure involves multiple nested levels (e.g., São Paulo has 96 districts/subdistricts, Rio has fewer). Using a consistent level for display and calculation is critical to avoid breaking existing logic.\n*   **Priority:** Demographic data was deemed higher priority than campaign planning because campaigns depend on demographics.\n*   **Data Scope:** The goal is to build the demographic analysis at the most granular possible level (Subdistrict or Sector) while ensuring compatibility with older Zipcode/District structures.\n*   **Implementation Challenge:** There are concerns about how to aggregate and display variables like Purchasing Power Per Capita, which are single numbers for an entire area but need to be shown in a way suitable for visualization (e.g., gauges or min-max displays).\n*   **External Data:** Partner data is expected later, potentially taking up to eight weeks due to contract signing delays.\n*   **Next Steps:** A task was created to manage the technical complexity of integrating these varying geographical levels.",
+  "decisions": [
+    "The demographic analysis for Brazil must be built at a granular level (Subdistrict or Sector) while maintaining compatibility with existing Zipcode/District structures.",
+    "Demographic data is prioritized over campaign planning.",
+    "A task was created to address the technical challenges of integrating varying geographical levels in Brazilian demographics."
+  ],
+  "action_items": [
+    "The team needs to discuss how to display aggregated metrics like Purchasing Power Per Capita (e.g., using gauges or min-max displays).",
+    "Review external resources regarding income groups (A, B, C, D) for demographic modeling."
+  ]
+}

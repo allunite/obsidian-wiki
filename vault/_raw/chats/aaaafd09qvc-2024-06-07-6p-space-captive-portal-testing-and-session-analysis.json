@@ -1,0 +1,30 @@
+{
+  "chat_id": "AAAAFD09QVc",
+  "kind": "Space",
+  "space_name": "Captive portal test",
+  "participants": 6,
+  "date_range": {
+    "start": "2024-06-07",
+    "end": "2024-06-07"
+  },
+  "message_count": 45,
+  "topic": "Captive portal testing and session analysis",
+  "topic_slug": "captive-portal-testing-and-session-analysis",
+  "tags": [
+    "analytics",
+    "campaign",
+    "inventory",
+    "session"
+  ],
+  "summary_markdown": "The discussion focused on setting up a new captive portal test for one week, requiring synchronization of the router channel and using a version that logs all events. Key testing points include: 1) Requiring all devices to reconnect and give consent via the captive portal starting Monday. 2) Checking the hash generated from a Redmi device. 3) Investigating persistent issues with 'trusted' session marking. 4) Determining which channels are monitored by all routers to find sessions involving two Huawei devices.\n\nRegarding trusted sessions, it was noted that most raw data showed very few (less than 0.5%) non-data or non-probe requests, suggesting the issue might stem from a device communicating with the captive portal on an unsensed channel while simultaneously sending probe requests across all sensed channels.\n\nTo investigate session discrepancies and potential MAC address changes over time, it was suggested that both real and pre-connected MAC addresses should be recorded in both the chat and Confluence. A SQL query structure was provided for analyzing raw captive test data to identify specific device sessions.",
+  "decisions": [
+    "A new captive portal test will run for one week, synchronizing the router channel and logging all events.",
+    "All devices must reconnect and provide consent via the captive portal starting Monday.",
+    "Both real and pre-connected MAC addresses must be recorded in both the chat and Confluence."
+  ],
+  "action_items": [
+    "Check the hash generated from a Redmi device.",
+    "Monitor for changes in MAC addresses over the course of one week.",
+    "Conduct the new captive portal test to see if session marking issues recur."
+  ]
+}

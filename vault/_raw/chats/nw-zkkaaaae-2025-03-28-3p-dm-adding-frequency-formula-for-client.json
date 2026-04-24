@@ -1,0 +1,21 @@
+{
+  "chat_id": "nW_zkkAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2025-03-28",
+    "end": "2025-03-28"
+  },
+  "message_count": 4,
+  "topic": "Adding frequency formula for client",
+  "topic_slug": "adding-frequency-formula-for-client",
+  "tags": [
+    "analytics"
+  ],
+  "summary_markdown": "A specific frequency calculation formula was provided by [p1] and implemented. The formula is designed to calculate frequency based on the day number, with escalating multipliers for days 1 through 5, and a fixed multiplier of 3.8 thereafter.",
+  "decisions": [
+    "The specified frequency formula was added to the production and staging environments for company 7965."
+  ],
+  "action_items": []
+}

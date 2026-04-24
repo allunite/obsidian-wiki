@@ -1,0 +1,24 @@
+{
+  "chat_id": "y9IEDQAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2025-03-10",
+    "end": "2025-03-10"
+  },
+  "message_count": 9,
+  "topic": "Reviewing analytics deployment and future plans",
+  "topic_slug": "reviewing-analytics-deployment-and-future-plans",
+  "tags": [
+    "analytics"
+  ],
+  "summary_markdown": "The conversation focused on the status of a recent deployment and planning for an upcoming review. The deployed feature was confirmed to be working correctly. Plans include using the new functionality in analytics today, assuming UI development is completed (version 0.1). This will allow someone else to test it and provide feedback. A presentation is scheduled for Wednesday to show the current status and outline future growth prospects based on feedback and internal plans.",
+  "decisions": [
+    "The deployment was confirmed as functional."
+  ],
+  "action_items": [
+    "Use the new functionality in analytics today.",
+    "Provide a presentation on Wednesday covering current status and future growth projections."
+  ]
+}

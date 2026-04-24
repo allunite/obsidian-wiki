@@ -1,0 +1,28 @@
+{
+  "chat_id": "AAAA3oghITo",
+  "kind": "Space",
+  "space_name": "Кабаны",
+  "participants": 4,
+  "date_range": {
+    "start": "2022-12-15",
+    "end": "2022-12-15"
+  },
+  "message_count": 31,
+  "topic": "Device category structure and data pipeline review",
+  "topic_slug": "device-category-structure-and-data-pipeline-review",
+  "tags": [
+    "facility",
+    "inventory",
+    "analytics"
+  ],
+  "summary_markdown": "Discussion covered structural improvements for device categories, particularly for Joe&TheJuice (JJ) locations. It was suggested that category definitions should be moved to a separate table to ensure consistency across all JJ locations and include a 'criticality' flag (e.g., alerting if payment terminals fail vs. just warning if menu monitors are down). Technical discussion focused on optimizing data retrieval from ClickHouse, specifically addressing timeout issues when reading large datasets. The current code uses `r.iter_lines()` for streaming, which was confirmed to be the correct approach, as opposed to methods like `r.lines()`, which load the entire dataset into memory.\n\nLater, a query snippet was reviewed, suggesting that transitioning from fetching raw records to using count-based metrics might be beneficial.",
+  "decisions": [
+    "Device categories should be centralized in a separate table for consistency across all JJ locations.",
+    "A 'criticality' flag must be implemented for device categories (e.g., payment terminals = critical alert; menu monitors = warning).",
+    "The data pipeline should prioritize count-based metrics over raw record fetching."
+  ],
+  "action_items": [
+    "Deploy the `classification` branch to the staging environment.",
+    "Review and optimize ClickHouse queries to use counting mechanisms instead of retrieving full datasets."
+  ]
+}

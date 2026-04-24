@@ -1,0 +1,19 @@
+{
+  "chat_id": "AAAA-gn4oPg",
+  "kind": "Space",
+  "space_name": "General and random",
+  "participants": 36,
+  "date_range": {
+    "start": "2023-09-15",
+    "end": "2023-09-15"
+  },
+  "message_count": 13,
+  "topic": "Website launch and company anniversary chat",
+  "topic_slug": "website-launch-and-company-anniversary-chat",
+  "tags": [
+    "analytics"
+  ],
+  "summary_markdown": "A participant shared the link to a newly published internal review website. Later, participants discussed AllUnite's 10th anniversary date (September 13, 2023) and its growth trajectory.",
+  "decisions": [],
+  "action_items": []
+}

@@ -1,0 +1,26 @@
+{
+  "chat_id": "i6YI1QAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 2,
+  "date_range": {
+    "start": "2023-11-16",
+    "end": "2023-11-16"
+  },
+  "message_count": 28,
+  "topic": "Data extraction and reporting limitations",
+  "topic_slug": "data-extraction-and-reporting-limitations",
+  "tags": [
+    "analytics",
+    "impression",
+    "campaign"
+  ],
+  "summary_markdown": "The conversation covered data processing discrepancies, noting that new demographic data from a client (Kido) showed different age/gender distributions compared to old data. It was confirmed that the current calculation method is correct and the previous production result was flawed.\n\nLater, discussions focused on reporting requirements for analytics: \n*   The forecasting model uses the same day of the week for prediction.\n*   Concerns were raised regarding the feasibility of generating 30 separate tables per frame daily via API. Limitations exist concerning data volume and extraction complexity (e.g., extracting 30 different tables from a single frame).\n*   A specific reporting requirement was outlined: calculating average impressions per minute, broken down by every demographic group (31 groups) across 24 variables.",
+  "decisions": [
+    "The forecasting model uses the same day of the week for prediction."
+  ],
+  "action_items": [
+    "Someone needs to clarify the exact reporting requirements and scope regarding the 30 tables/frame extraction.",
+    "Someone will write up detailed specifications on the required data metrics (average impressions per minute, 31 demographic groups, 24 variables) tomorrow."
+  ]
+}

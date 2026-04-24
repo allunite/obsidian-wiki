@@ -1,0 +1,25 @@
+{
+  "chat_id": "AAAAw8LFttQ",
+  "kind": "Space",
+  "space_name": "Data",
+  "participants": 5,
+  "date_range": {
+    "start": "2020-12-15",
+    "end": "2020-12-15"
+  },
+  "message_count": 16,
+  "topic": "Data calibration scope and documentation",
+  "topic_slug": "data-calibration-scope-and-documentation",
+  "tags": [
+    "analytics",
+    "campaign",
+    "inventory"
+  ],
+  "summary_markdown": "The discussion covered various scenarios requiring data calibration or model adjustments. These include: 1) Manual counting for validation, planned annually at selected locations to detect environmental deviations (e.g., city categories on plazas vs. roads). 2) Calibration of historical data due to signal loss or sensor issues (e.g., shields installed). 3) Potential calibrations for new location types (like parking lots) and in new countries/regions. 4) Model improvements, such as incorporating external data sources like weather conditions. Additional scenarios include: - Predicting lost data when sensors are offline. - Calibration needed if the sensor manufacturer or antenna changes (if not contractually prohibited). - Adjustments due to additional protective rules (like hashing).\n\nRegarding model updates and client communication:\n- The team discussed whether to share release notes about updates/changes for JCDecaux on Confluence, suggesting a centralized location for documentation.\n- A specific query was raised regarding the scope of data calibration in relation to future changes. It was clarified that while historical data modification is generally discouraged, model retraining (e.g., due to new OS releases affecting MAC address coefficients) may require adjustments, though these are often covered under general validation procedures.",
+  "decisions": [
+    "The team agreed on the idea of saving all updates and changes in one centralized location for documentation."
+  ],
+  "action_items": [
+    "Follow up on the specific scope of historical data modification related to model releases and factor changes."
+  ]
+}

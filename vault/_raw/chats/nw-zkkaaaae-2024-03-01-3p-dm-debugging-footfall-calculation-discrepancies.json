@@ -1,0 +1,27 @@
+{
+  "chat_id": "nW_zkkAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2024-03-01",
+    "end": "2024-03-01"
+  },
+  "message_count": 51,
+  "topic": "Debugging footfall calculation discrepancies",
+  "topic_slug": "debugging-footfall-calculation-discrepancies",
+  "tags": [
+    "analytics",
+    "footfall",
+    "campaign",
+    "facility"
+  ],
+  "summary_markdown": "The session focused on debugging discrepancies in calculated footfall numbers between the custom query and the campaign dashboard. Initial attempts to fix the calculation by adjusting frequency formulas (for Rio and Van Paulo) were unsuccessful.\n\nLater, the discussion centered on SQL structure and data aggregation issues. It was determined that joining with `facility_dict` for cluster calculations was problematic. The team reviewed how to correctly pull facility attributes (like asset network) into the query structure. Finally, it was confirmed that all clusters are active, suggesting deeper investigation is needed next week.",
+  "decisions": [
+    "The join using `facility_dict` for calculating cluster metrics was deemed unsuitable and removed.",
+    "Further debugging of footfall discrepancies requires a deep dive into the data structure, scheduled for the following week."
+  ],
+  "action_items": [
+    "Investigate why the query results differ from campaign dashboard results (ongoing/future task)."
+  ]
+}

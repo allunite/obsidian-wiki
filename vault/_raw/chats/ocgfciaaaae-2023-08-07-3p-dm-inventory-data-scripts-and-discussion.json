@@ -1,0 +1,25 @@
+{
+  "chat_id": "oCgFCIAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2023-08-07",
+    "end": "2023-08-07"
+  },
+  "message_count": 10,
+  "topic": "Inventory data scripts and discussion",
+  "topic_slug": "inventory-data-scripts-and-discussion",
+  "tags": [
+    "analytics",
+    "inventory",
+    "facility"
+  ],
+  "summary_markdown": "Discussion covered technical issues related to data extraction, specifically referencing a script for inventory tasks. Scripts were shared (e.g., `ims_import.sql`) and noted as being available in the production PostgreSQL database. The conversation also touched upon a ticket created regarding Malaysia, suggesting that further discussion on this topic should involve Esben, Galina, and others.\n\nSomeone suggested it would be beneficial for the team to participate in those discussions.",
+  "decisions": [
+    "The team will attempt to engage in the ongoing discussion about the Malaysia ticket."
+  ],
+  "action_items": [
+    "Review scripts related to inventory tasks, particularly those found below lines 985-986 of `ims_import.sql`."
+  ]
+}

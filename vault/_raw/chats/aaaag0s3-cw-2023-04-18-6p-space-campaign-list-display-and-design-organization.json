@@ -1,0 +1,24 @@
+{
+  "chat_id": "AAAAg0s3_Cw",
+  "kind": "Space",
+  "space_name": "Бразилия Дезигн",
+  "participants": 6,
+  "date_range": {
+    "start": "2023-04-18",
+    "end": "2023-04-18"
+  },
+  "message_count": 9,
+  "topic": "Campaign list display and design organization",
+  "topic_slug": "campaign-list-display-and-design-organization",
+  "tags": [
+    "analytics",
+    "inventory"
+  ],
+  "summary_markdown": "The discussion covered two main areas: optimizing the Campaign Manager interface and organizing design assets.\n\n**Campaign List Optimization:**\n*   Participants discussed displaying a large number of campaigns within the Campaign Manager. Suggestions included implementing standard pagination, adding search functionality, filtering by data range, and ensuring the status field was visible.\n*   It was noted that while limiting the campaign list height (e.g., to half a screen) might be considered, showing more campaigns per page is preferred.\n\n**Design Asset Organization:**\n*   A proposal was made to organize current, active versions of design assets in Figma to clearly distinguish them from older or irrelevant versions (e.g., v2. copy 2). This organization aims to reduce confusion when scrolling through multiple versions.",
+  "decisions": [
+    "Active design versions need to be clearly highlighted and separated from old/draft versions."
+  ],
+  "action_items": [
+    "[p2] will gather the current, active versions of the designs."
+  ]
+}

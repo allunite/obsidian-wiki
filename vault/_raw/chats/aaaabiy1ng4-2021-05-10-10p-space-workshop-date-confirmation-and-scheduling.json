@@ -1,0 +1,21 @@
+{
+  "chat_id": "AAAAbIy1nG4",
+  "kind": "Space",
+  "space_name": "AllUnite Workshop 2021",
+  "participants": 10,
+  "date_range": {
+    "start": "2021-05-10",
+    "end": "2021-05-10"
+  },
+  "message_count": 23,
+  "topic": "Workshop date confirmation and scheduling",
+  "topic_slug": "workshop-date-confirmation-and-scheduling",
+  "tags": [
+    "campaign"
+  ],
+  "summary_markdown": "The participants discussed rescheduling a workshop due to multiple conflicts. Initial dates were problematic because some key attendees had existing commitments or vacations (July/August). The discussion narrowed the options down to May, June, or September. A new date range of June 22-25 was proposed and subsequently confirmed by all present parties.",
+  "decisions": [
+    "The workshop will be held on June 22-25."
+  ],
+  "action_items": []
+}

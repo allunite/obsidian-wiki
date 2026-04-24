@@ -1,0 +1,27 @@
+{
+  "chat_id": "y9IEDQAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2023-04-24",
+    "end": "2023-04-24"
+  },
+  "message_count": 54,
+  "topic": "Analyzing raw device data in ClickHouse",
+  "topic_slug": "analyzing-raw-device-data-in-clickhouse",
+  "tags": [
+    "analytics",
+    "impression",
+    "session"
+  ],
+  "summary_markdown": "The discussion focused on querying and aggregating historical device activity data stored in ClickHouse, specifically using tables like `allunite.raw_devices_seen_2` and potentially `raw_devices_seen_buffer`. \n\n**Data Aggregation:** It was confirmed that aggregated session data (`device_session_agg_4`) is maintained since 2019-01-01, but historical aggregation of sessions before this date was not performed.\n\n**Querying Device Activity:** Specific SQL queries were provided to extract device activity metrics hourly: \n*   One query calculates the total number of events (pairs) and unique devices (`uniq(device_id)`) seen per hour using `raw_devices_seen_2`.\n*   The process involves complex JSON extraction and array joining within ClickHouse.\n\n**Data Quality Issues:** Several data quality issues were noted, including records with incorrect or 'stuck' timestamps (e.g., showing 2017 dates). A temporary workaround was proposed: excluding `raw_seen` entries where the time difference between reception time and box time exceeds five minutes, and processing these exceptions in a separate hourly job.\n\n**Real-time Processing:** The conversation concluded with a discussion on moving towards real-time session aggregation, which is deemed necessary for improving service reliability but requires further development.",
+  "decisions": [
+    "Use provided SQL queries to calculate hourly counts of events and unique devices from raw device tables.",
+    "Implement a temporary workaround by excluding `raw_seen` records with time discrepancies greater than five minutes."
+  ],
+  "action_items": [
+    "Develop or refine the real-time session aggregation model in ClickHouse.",
+    "Process excluded 'outlier' raw seen events in a separate hourly job."
+  ]
+}

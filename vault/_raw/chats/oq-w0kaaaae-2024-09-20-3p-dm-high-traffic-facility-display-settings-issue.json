@@ -1,0 +1,24 @@
+{
+  "chat_id": "oq-w0kAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2024-09-20",
+    "end": "2024-09-20"
+  },
+  "message_count": 8,
+  "topic": "High traffic facility display settings issue",
+  "topic_slug": "high-traffic-facility-display-settings-issue",
+  "tags": [
+    "analytics",
+    "campaign"
+  ],
+  "summary_markdown": "The conversation discusses an issue where the 'high traffic facility' data appears to be incorrectly handled or displayed. Initially, [me] noted that the data was coming consistently from the server for multiple facilities. Later, [p1] pointed out a setting in user configurations suggesting that JCD (Joe&TheJuice) should hide the high traffic facility data for all users. [me] confirmed they were unsure if this specific facility needed to be visible and could not verify it due to using an outdated build on dev where personalization features were non-functional.",
+  "decisions": [
+    "No concrete decisions made."
+  ],
+  "action_items": [
+    "None."
+  ]
+}

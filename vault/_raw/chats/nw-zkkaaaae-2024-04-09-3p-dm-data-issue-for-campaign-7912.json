@@ -1,0 +1,22 @@
+{
+  "chat_id": "nW_zkkAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2024-04-09",
+    "end": "2024-04-09"
+  },
+  "message_count": 11,
+  "topic": "Data issue for campaign 7912",
+  "topic_slug": "data-issue-for-campaign-7912",
+  "tags": [
+    "analytics",
+    "inventory"
+  ],
+  "summary_markdown": "The discussion focused on a data anomaly concerning campaign 7912. [p1] reported that the unique metrics (юнікі) were only available for the last two days, and attempts to re-aggregate the data failed. Additionally, dwell time data was missing. [me] asked which `ml_2` dataset should be used for 7912, and [p1] specified using the 'prod - 8' dataset.",
+  "decisions": [
+    "Use the 'prod - 8' dataset for campaign 7912 data analysis."
+  ],
+  "action_items": []
+}

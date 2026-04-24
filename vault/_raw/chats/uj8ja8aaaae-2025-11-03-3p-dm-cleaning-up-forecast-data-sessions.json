@@ -1,0 +1,22 @@
+{
+  "chat_id": "uJ8JA8AAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2025-11-03",
+    "end": "2025-11-03"
+  },
+  "message_count": 8,
+  "topic": "Cleaning up forecast data sessions",
+  "topic_slug": "cleaning-up-forecast-data-sessions",
+  "tags": [
+    "analytics",
+    "session"
+  ],
+  "summary_markdown": "The discussion focused on cleaning up forecast data for various companies. [p1] noted that the forecast was missing for 7965 RØHM Media and requested checking all clients where sessions are not tracked in production, specifically regarding `device_session` and `device_session_trusted`. [me] confirmed they were working on the cleanup using scripts from a job and eventually completed the removal of these sessions.",
+  "decisions": [
+    "Sessions for specific companies (e.g., 7965 RØHM Media) that should not have forecast data were removed."
+  ],
+  "action_items": []
+}

@@ -1,0 +1,27 @@
+{
+  "chat_id": "y9IEDQAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2023-02-17",
+    "end": "2023-02-17"
+  },
+  "message_count": 24,
+  "topic": "Analyzing data streaming and processing costs",
+  "topic_slug": "analyzing-data-streaming-and-processing-costs",
+  "tags": [
+    "analytics",
+    "kinesis",
+    "session"
+  ],
+  "summary_markdown": "The conversation focused on the cost structure of running services like CH (likely referring to a specific compute resource) and data processing. It was established that billing for these resources is based on being 'on' or having an active instance, regardless of actual load.\n\n[me] noted the existence of Kinesis Data Analytics with a built-in sessionizer, but also pointed out its associated costs. The discussion revolved around whether potential reductions in CH usage could offset the cost of using advanced analytics services like Kinesis.\n\nRegarding data streaming, [me] discussed that while continuous streams are difficult to achieve on the current CH setup (requiring frequent jobs with 'looking back' at each tick), both Kinesis and Kafka offer better capabilities for this type of real-time processing.",
+  "decisions": [
+    "The cost for compute resources like CH is based on instance uptime, not load.",
+    "A follow-up session was planned to explore integrating services into a workflow."
+  ],
+  "action_items": [
+    "[me] will experiment with adjusting the current setup.",
+    "Participants plan to review the data streaming architecture together on Monday."
+  ]
+}

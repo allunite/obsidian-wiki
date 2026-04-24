@@ -1,0 +1,22 @@
+{
+  "chat_id": "oq-w0kAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2024-02-12",
+    "end": "2024-02-12"
+  },
+  "message_count": 3,
+  "topic": "Reviewing campaign report data structure",
+  "topic_slug": "reviewing-campaign-report-data-structure",
+  "tags": [
+    "analytics",
+    "campaign"
+  ],
+  "summary_markdown": "The discussion focused on a potential new set of metrics for the campaign report, specifically requesting: Traffic, Visible Impressions, Seen Impressions, Reach, Frequency, and Contribution Reach. It was unclear whether this data should be presented as an entirely new report or added to existing reporting structures.",
+  "decisions": [],
+  "action_items": [
+    "Determine if the requested campaign metrics (Traffic, Visible/Seen Impressions, Reach, Frequency, Contribution Reach) should be a standalone Excel report or integrated into current reports."
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "chat_id": "AAAAaK7z8KI",
+  "kind": "Space",
+  "space_name": "Group Chat",
+  "participants": 5,
+  "date_range": {
+    "start": "2025-03-31",
+    "end": "2025-03-31"
+  },
+  "message_count": 90,
+  "topic": "Fixing frequency calculation errors for Estonia",
+  "topic_slug": "fixing-frequency-calculation-errors-for-estonia",
+  "tags": [
+    "analytics",
+    "campaign",
+    "inventory",
+    "loop"
+  ],
+  "summary_markdown": "The discussion focused on debugging and resolving frequency calculation errors observed for Estonia, specifically when the calculated `dayNumber` was less than 1. The initial issue stemmed from a deployment mismatch where the production ML-API lacked necessary parameters or logic for Estonia.\n\n**Debugging Steps & Findings:**\n*   Initial investigation involved querying logs on both staging and production environments to identify data discrepancies.\n*   The root cause of the `ValueError` (dayNumber must be >= 1) was traced back to how time granularity was being calculated, leading to fractional day numbers.\n*   A decision was made regarding the rounding function for calculating the day number. After initial suggestions (`ceil`, `round(d+0.2)`), a consensus was reached on using a specific method (implied by agreement).\n\n**Resolution:**\n*   The ML-API was redeployed to production from the `main` branch, ensuring it contained the necessary fixes and parameters for Estonia.\n*   The final deployment confirmed that build `20250331.144814-main-7821697` was deployed to the production ML-API.",
+  "decisions": [
+    "Redeploy the ML-API to production from the main branch, ensuring inclusion of necessary parameters for Estonia.",
+    "Implement a specific rounding function (agreed upon method) for calculating `dayNumber` to prevent values less than 1."
+  ],
+  "action_items": [
+    "Confirm that build 20250331.144814-main-7821697 was successfully deployed to the production ML-API for Estonia."
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "chat_id": "nW_zkkAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2023-02-14",
+    "end": "2023-02-14"
+  },
+  "message_count": 10,
+  "topic": "Mapping Brazilian box names for data comparison",
+  "topic_slug": "mapping-brazilian-box-names-for-data-comparison",
+  "tags": [
+    "analytics",
+    "inventory",
+    "campaign"
+  ],
+  "summary_markdown": "The conversation revolves around the need to map existing physical advertising boxes (inventory) in Brazil. [p1] initially requested a file showing how current AllUnite box names correlate with those used by a previous company. After some clarification, it was determined that this specific mapping had not yet been completed. Someone agreed to prepare the necessary data for 'Nastya' and attempted to establish the required correlation between the two sets of inventory names.",
+  "decisions": [
+    "The task of mapping current Brazilian box inventory names to those used by a previous company will be handled."
+  ],
+  "action_items": [
+    "Someone will prepare the necessary data/mapping for Nastya."
+  ]
+}

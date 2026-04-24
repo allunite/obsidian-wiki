@@ -1,0 +1,22 @@
+{
+  "chat_id": "oCgFCIAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2023-03-01",
+    "end": "2023-03-01"
+  },
+  "message_count": 6,
+  "topic": "Handling differing frame IDs in labels",
+  "topic_slug": "handling-differing-frame-ids-in-labels",
+  "tags": [
+    "analytics",
+    "frame"
+  ],
+  "summary_markdown": "The discussion centered on the discrepancy between `label` values and `mapa_frame_id` when querying data from a specific facility. [p1] noted that the IDs retrieved via the label might differ from those used by other systems (like Mapa). It was suggested that using the actual Frame ID would be more informative, as it should work for both internal teams and external partners.\n\nIt was agreed that displaying both identifiers—the existing `label` and the system's own frame ID—by combining them with a slash (`/`) is the most logical approach. [p1] concluded by agreeing that using `user_frame_id` might be the most appropriate identifier.",
+  "decisions": [
+    "Displaying both the label value and the system's Frame ID, separated by a slash, is preferred."
+  ],
+  "action_items": []
+}

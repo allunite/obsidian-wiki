@@ -1,0 +1,24 @@
+{
+  "chat_id": "oCgFCIAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2025-08-26",
+    "end": "2025-08-26"
+  },
+  "message_count": 32,
+  "topic": "Troubleshooting temporary database tables",
+  "topic_slug": "troubleshooting-temporary-database-tables",
+  "tags": [
+    "analytics"
+  ],
+  "summary_markdown": "The conversation focused on a technical issue regarding ClickHouse, specifically why temporary tables were persisting and not automatically dropping after the session ended. It was noted that standard methods like using `DROP TEMPORARY TABLE` failed to resolve the persistence of these temporary structures.\n\nSeparately, there was discussion about cluster traffic reporting for various companies, emphasizing the importance of a total combined view across different entities.",
+  "decisions": [
+    "None",
+    "No concrete technical fix was agreed upon for the persistent temporary tables."
+  ],
+  "action_items": [
+    "Follow up on the shared mall topic discussed by someone, as it is considered important."
+  ]
+}

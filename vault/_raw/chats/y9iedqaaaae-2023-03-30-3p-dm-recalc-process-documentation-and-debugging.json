@@ -1,0 +1,27 @@
+{
+  "chat_id": "y9IEDQAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2023-03-30",
+    "end": "2023-03-30"
+  },
+  "message_count": 37,
+  "topic": "Recalc process documentation and debugging",
+  "topic_slug": "recalc-process-documentation-and-debugging",
+  "tags": [
+    "analytics",
+    "campaign",
+    "recalc-ch"
+  ],
+  "summary_markdown": "The conversation focused heavily on debugging the recalculation (recalc) process. Initial issues included aggregation failures and missing error handling, specifically regarding exit code checks in jobs.\n\nLater discussions covered documentation for the recalc process. It was decided that detailed documentation is unnecessary; instead, three main stages should be listed: sessionization, processing ML data model, and pre-aggregation. It was clarified that aggregation includes the modeled data.\n\nTechnical fixes included correcting syntax errors (e.g., double parentheses) in a script and adjusting dependencies to remove the need for libraries like numpy.",
+  "decisions": [
+    "The recalc process documentation should list three main stages: sessionization, processing ML data model, and pre-aggregation.",
+    "Aggregation is confirmed to include modeled data."
+  ],
+  "action_items": [
+    "Review and fix the exit code check in the jobs script.",
+    "Complete monitoring/alerting for the recalc process across all files."
+  ]
+}

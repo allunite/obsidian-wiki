@@ -1,0 +1,25 @@
+{
+  "chat_id": "39eBBMAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 2,
+  "date_range": {
+    "start": "2024-03-28",
+    "end": "2024-03-28"
+  },
+  "message_count": 22,
+  "topic": "Addressing MAC address process questions for Mapa",
+  "topic_slug": "addressing-mac-address-process-questions-for-mapa",
+  "tags": [
+    "analytics",
+    "campaign"
+  ],
+  "summary_markdown": "The discussion focused on preparing documentation and methodology to answer questions from Marco, the new president of Mapa. The MAC address process was specifically mentioned as a topic requiring explanation and supporting documents. [me] stated they would look into the required documentation the following day, offering to describe the process if necessary but not immediately.\n\nIt was also discussed that if the information shared is confidential, [p1] will ask Marco to sign an NDA before sharing it.",
+  "decisions": [
+    "Documentation regarding the MAC address process needs to be located and reviewed.",
+    "The explanation of the methodology for the MAC address process will be provided later."
+  ],
+  "action_items": [
+    "[me] to locate or describe the documentation on the MAC address process tomorrow."
+  ]
+}

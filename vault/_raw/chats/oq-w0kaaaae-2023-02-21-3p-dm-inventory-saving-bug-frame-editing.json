@@ -1,0 +1,22 @@
+{
+  "chat_id": "oq-w0kAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2023-02-21",
+    "end": "2023-02-21"
+  },
+  "message_count": 14,
+  "topic": "Inventory saving bug in frame editing",
+  "topic_slug": "inventory-saving-bug-frame-editing",
+  "tags": [
+    "inventory",
+    "frame"
+  ],
+  "summary_markdown": "A data inconsistency issue was identified regarding the saving of inventory data when multiple frames are edited simultaneously. If changes are made to two different frames, only the changes from the first frame are saved to the database, while the second frame retains old data upon receiving a server response.\n\nIt was confirmed that if edits are confined to only one frame, the data saves correctly. The core issue is ensuring that updated data for *both* frames is sent to the server, even when changes occur in both.",
+  "decisions": [
+    "The bug regarding incomplete saving of inventory data across multiple edited frames has been identified and addressed."
+  ],
+  "action_items": []
+}

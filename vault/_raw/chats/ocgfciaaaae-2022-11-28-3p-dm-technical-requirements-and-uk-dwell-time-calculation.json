@@ -1,0 +1,25 @@
+{
+  "chat_id": "oCgFCIAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2022-11-28",
+    "end": "2022-11-28"
+  },
+  "message_count": 35,
+  "topic": "Technical requirements and UK dwell-time calculation",
+  "topic_slug": "technical-requirements-and-uk-dwell-time-calculation",
+  "tags": [
+    "analytics",
+    "dwell-time",
+    "campaign"
+  ],
+  "summary_markdown": "The conversation covered technical development requirements, noting that the system must support HTML/CSS (flex, mobile/desktop compatibility) and Angular. A specific query was raised regarding the correct calculation of dwell-time on a live production environment for UK Mall data. It was noted that checking this requires viewing the 'stage' dataset rather than relying on visual estimation.",
+  "decisions": [
+    "The system must support HTML/CSS (flex, mobile/desktop compatibility) and Angular."
+  ],
+  "action_items": [
+    "Check the stage dataset for UK dwell-time calculation verification."
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "chat_id": "i6YI1QAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 2,
+  "date_range": {
+    "start": "2023-12-18",
+    "end": "2023-12-18"
+  },
+  "message_count": 8,
+  "topic": "Dwell time query and ticket creation",
+  "topic_slug": "dwell-time-query-and-ticket-creation",
+  "tags": [
+    "dwell-time",
+    "analytics"
+  ],
+  "summary_markdown": "The conversation started with greetings. [me] requested [p1] to create a support ticket for [me], providing a screenshot, URL, and customer details. [me] stated they would supplement the information and then transfer it to 'Svyata'. Later, [p1] asked about [me]'s last query regarding dwell time: specifically, whether it was based on sample vendors and excluded zero sessions. [me] clarified that the required sample should include zero sessions.",
+  "decisions": [
+    "A support ticket needs to be created for [me]."
+  ],
+  "action_items": [
+    "[p1] to create a support ticket using provided details."
+  ]
+}

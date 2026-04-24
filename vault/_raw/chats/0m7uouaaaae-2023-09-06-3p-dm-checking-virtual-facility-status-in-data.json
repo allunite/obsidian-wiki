@@ -1,0 +1,23 @@
+{
+  "chat_id": "0m7UOUAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2023-09-06",
+    "end": "2023-09-06"
+  },
+  "message_count": 4,
+  "topic": "Checking virtual facility status in data",
+  "topic_slug": "checking-virtual-facility-status-in-data",
+  "tags": [
+    "analytics"
+  ],
+  "summary_markdown": "Someone provided a query snippet to determine if a facility is virtual using `dictGetUInt32('allunite.facility_virtual_dict', 'facility_source_num', facility_num) > 0 AS is_virtual_facility`. Separately, [me] mentioned an intention to simplify the aggregation job by reducing multiple queries down to two parameterized ones.",
+  "decisions": [
+    "N/A"
+  ],
+  "action_items": [
+    "[me] will attempt to simplify the aggregation job using fewer parameters."
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "chat_id": "y9IEDQAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2026-04-20",
+    "end": "2026-04-20"
+  },
+  "message_count": 6,
+  "topic": "Data file fix and testing",
+  "topic_slug": "data-file-fix-and-testing",
+  "tags": [
+    "analytics"
+  ],
+  "summary_markdown": "The conversation revolves around a CSV data file that requires fixing. [me] stated they would fix it by the end of the week after an issue was found during a test run. The initial concern from [p1] was related to potential time loss or errors caused by another party's mistake.",
+  "decisions": [],
+  "action_items": [
+    "Fix the CSV file by the end of the week"
+  ]
+}

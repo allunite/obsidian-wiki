@@ -1,0 +1,23 @@
+{
+  "chat_id": "nW_zkkAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2025-09-25",
+    "end": "2025-09-25"
+  },
+  "message_count": 8,
+  "topic": "Data preparation for session analytics",
+  "topic_slug": "data-preparation-for-session-analytics",
+  "tags": [
+    "session",
+    "analytics"
+  ],
+  "summary_markdown": "The discussion focused on the scope and timing of data processing. Initially, [me] provided an estimated completion time (around three hours) after addressing a request regarding Costa Rican demographics for another party.\n\nLater, the focus shifted to session data for 2025. It was confirmed that the required data covers the entire year (2025). A specific emphasis was placed on May's data as being particularly important.",
+  "decisions": [
+    "The scope of session analytics is set for the full year 2025.",
+    "Data preparation involves deleting and re-inserting virtual data for specified targets, starting from January 1, 2025."
+  ],
+  "action_items": []
+}

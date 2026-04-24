@@ -1,0 +1,25 @@
+{
+  "chat_id": "nW_zkkAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2026-03-30",
+    "end": "2026-03-30"
+  },
+  "message_count": 10,
+  "topic": "Deploying frequency data for Belgium",
+  "topic_slug": "deploying-frequency-data-for-belgium",
+  "tags": [
+    "campaign",
+    "inventory"
+  ],
+  "summary_markdown": "The conversation focused on the deployment of frequency data (фрікв) for a specific region in Belgium. [p1] initially provided a list of company numbers and a city identifier (`Belgium_CIM`). After initial clarification regarding whether the request was for 'stage' or both stages, it was confirmed that both were required.\n\n[me] questioned if the provided list included a parent entity/company number, as typically there is an overarching national level. [p1] confirmed that one of the numbers (7989) represented this parent entity. Finally, [me] completed the task and requested review from [p1].",
+  "decisions": [
+    "Frequency data deployment for Belgium was initiated.",
+    "The scope includes both stages ('stage' and 'both')."
+  ],
+  "action_items": [
+    "[p1] needs to check the deployed frequency data."
+  ]
+}

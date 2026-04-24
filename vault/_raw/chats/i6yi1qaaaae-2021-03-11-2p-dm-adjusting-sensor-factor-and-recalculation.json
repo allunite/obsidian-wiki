@@ -1,0 +1,24 @@
+{
+  "chat_id": "i6YI1QAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 2,
+  "date_range": {
+    "start": "2021-03-11",
+    "end": "2021-03-11"
+  },
+  "message_count": 11,
+  "topic": "Adjusting sensor factor and recalculation",
+  "topic_slug": "adjusting-sensor-factor-and-recalculation",
+  "tags": [
+    "analytics",
+    "recalc-ch"
+  ],
+  "summary_markdown": "The discussion centered on adjusting an incorrect factor for a specific sensor. It was confirmed that changing this factor requires historical recalculations to ensure accuracy in both staging and production analytics environments.\n\n[p1] specified the change needed: updating the factor from 5.5 to 20 within the asset management module (Mods).\n\nIt was noted that the system setup might require a complex implementation to apply the new factor starting from the submission date.",
+  "decisions": [
+    "The sensor factor will be changed from 5.5 to 20."
+  ],
+  "action_items": [
+    "[p1] will change the factor tomorrow morning."
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "chat_id": "ws0mTkAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 2,
+  "date_range": {
+    "start": "2024-03-26",
+    "end": "2024-03-26"
+  },
+  "message_count": 9,
+  "topic": "JCD FR sensor data reporting",
+  "topic_slug": "jcd-fr-sensor-data-reporting",
+  "tags": [
+    "analytics",
+    "session"
+  ],
+  "summary_markdown": "The conversation addresses the new sensor data received by JCD FR. Someone confirmed that if the data is available, it should be reported as is. Specifically, the reporting must use an 'honest' frequency and a coefficient of 3 times the number of real calibrated sessions, unless this factor has been explicitly changed for JCD FR.",
+  "decisions": [
+    "Data from the new sensor will be reported using an honest frequency and a coefficient of 3 times the count of real calibrated sessions (unless otherwise specified)."
+  ],
+  "action_items": []
+}

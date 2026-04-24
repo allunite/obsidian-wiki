@@ -1,0 +1,21 @@
+{
+  "chat_id": "AAAA3oghITo",
+  "kind": "Space",
+  "space_name": "Кабаны",
+  "participants": 4,
+  "date_range": {
+    "start": "2022-10-11",
+    "end": "2022-10-11"
+  },
+  "message_count": 20,
+  "topic": "Updating system timezones for analytics",
+  "topic_slug": "updating-system-timezones-for-analytics",
+  "tags": [
+    "analytics"
+  ],
+  "summary_markdown": "The discussion focused on the technical challenge of updating system timezones, specifically needing two zones for Kyiv in ClickHouse. [p1] noted that browser names are changing and the underlying system needs to be updated accordingly.\n\n[p3] suggested using `sudo apt install tzdata` on Ubuntu. It was confirmed that changes cannot be applied directly to production without Ansible automation.\n\nIt was observed that while ClickHouse only lists `Europe/Kiev`, other zones like `Europe/Kyiv` are available locally, leading to confusion regarding the correct and current timezone naming conventions.",
+  "decisions": [
+    "The system needs an update mechanism (like Ansible) to handle timezone changes on production servers."
+  ],
+  "action_items": []
+}

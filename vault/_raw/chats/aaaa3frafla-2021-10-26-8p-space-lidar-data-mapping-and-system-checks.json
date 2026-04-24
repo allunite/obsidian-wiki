@@ -1,0 +1,26 @@
+{
+  "chat_id": "AAAA3frAfLA",
+  "kind": "Space",
+  "space_name": "Lidar Tech",
+  "participants": 8,
+  "date_range": {
+    "start": "2021-10-26",
+    "end": "2021-10-26"
+  },
+  "message_count": 32,
+  "topic": "Lidar data mapping and system checks",
+  "topic_slug": "lidar-data-mapping-and-system-checks",
+  "tags": [
+    "analytics",
+    "inventory"
+  ],
+  "summary_markdown": "The discussion focused on mapping physical lane markings (r01, r02, l01, l02) relative to the center point for Lidar technology placement. It was determined that the system needs clarification on which lanes are central versus peripheral.\n\nSeparately, participants discussed checking if the Lidar units are feeding data correctly and reviewed a service failure/hang issue. A plan was made to implement an internal check or validation mechanism for the service.",
+  "decisions": [
+    "The system needs clarification on which mapped lanes (r01, r02, l01, l02) are central versus peripheral.",
+    "A service failure/hang issue requires investigation and implementation of an internal check."
+  ],
+  "action_items": [
+    "Review the Lidar data feed status to ensure continuous operation.",
+    "Implement a validation check within the affected service."
+  ]
+}

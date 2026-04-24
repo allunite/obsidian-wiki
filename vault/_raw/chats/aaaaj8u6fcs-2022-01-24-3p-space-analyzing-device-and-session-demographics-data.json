@@ -1,0 +1,26 @@
+{
+  "chat_id": "AAAAj8U6Fcs",
+  "kind": "Space",
+  "space_name": "Dev Demographics",
+  "participants": 3,
+  "date_range": {
+    "start": "2022-01-24",
+    "end": "2022-01-24"
+  },
+  "message_count": 23,
+  "topic": "Analyzing device and session demographics data",
+  "topic_slug": "analyzing-device-and-session-demographics-data",
+  "tags": [
+    "analytics",
+    "session",
+    "inventory",
+    "facility"
+  ],
+  "summary_markdown": "The discussion focused on analyzing demographic data, specifically device frequency and session counts. Key metrics discussed include:\n\n*   `uniques on target for the whole period` (device frequency).\n*   `uniques/session on target for the days with devices`.\n*   `sessions on target`.\n*   Metrics comparing overall periods to specific areas (`uniques for the whole period in area`, `sessions for the whole period in area`).\n\nThe methodology proposed involves calculating data using one target day and one month of area data, while excluding facilities used for accommodation from the facility count.",
+  "decisions": [
+    "The analysis will compare metrics derived from a single target day against data spanning one month of area data."
+  ],
+  "action_items": [
+    "Review and discuss results regarding demographics by region using the provided spreadsheet link."
+  ]
+}

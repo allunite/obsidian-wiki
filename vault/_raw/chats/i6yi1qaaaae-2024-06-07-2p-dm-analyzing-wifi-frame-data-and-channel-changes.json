@@ -1,0 +1,26 @@
+{
+  "chat_id": "i6YI1QAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 2,
+  "date_range": {
+    "start": "2024-06-07",
+    "end": "2024-06-07"
+  },
+  "message_count": 28,
+  "topic": "Analyzing Wi-Fi frame data and channel changes",
+  "topic_slug": "analyzing-wifi-frame-data-and-channel-changes",
+  "tags": [
+    "analytics",
+    "frame",
+    "inventory"
+  ],
+  "summary_markdown": "The discussion focused on analyzing raw Wi-Fi captive test data, specifically examining `frametype` flags and device activity across different channels. Initial analysis confirmed that both probe requests and data packets were observed on the same channel (trusted/non-trusted). The conversation highlighted a significant drop in data traffic after a router reportedly switched from channel 22 to channel 23. Further queries analyzed device IDs and packet types, confirming reduced overall activity across different channels compared to previous periods. It was noted that the initial low-frequency packets were likely truncated or incomplete.\n\n**Key Observation:** The reduction in data traffic correlated with a router reboot/channel change (from 22 to 23).",
+  "decisions": [
+    "The team decided to analyze Wi-Fi frame types and device activity across multiple channels.",
+    "It was noted that the initial low-frequency packets were likely truncated or incomplete."
+  ],
+  "action_items": [
+    "Investigate the source of packets observed on frequency 0 (unknown)"
+  ]
+}

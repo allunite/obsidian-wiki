@@ -1,0 +1,22 @@
+{
+  "chat_id": "ws0mTkAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 2,
+  "date_range": {
+    "start": "2023-11-23",
+    "end": "2023-11-23"
+  },
+  "message_count": 20,
+  "topic": "Forecasting data for offline sensors",
+  "topic_slug": "forecasting-data-for-offline-sensors",
+  "tags": [
+    "analytics",
+    "forecast"
+  ],
+  "summary_markdown": "The discussion covered the display and availability of forecast data, particularly concerning sensor uptime. It was confirmed that if a sensor goes offline and returns, the data for the downtime period will be displayed normally.\n\nRegarding forecasting for offline sensors, it was noted that the current `forecast` functionality only works for companies with virtual sensors. The consensus reached is that the forecast model will continue to work indefinitely, regardless of whether the historical data used (real or fake) was from a similar time period in the past.",
+  "decisions": [
+    "Forecast data display for offline/reconnected sensors will be handled normally."
+  ],
+  "action_items": []
+}

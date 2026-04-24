@@ -1,0 +1,21 @@
+{
+  "chat_id": "AAAA3frAfLA",
+  "kind": "Space",
+  "space_name": "Lidar Tech",
+  "participants": 8,
+  "date_range": {
+    "start": "2022-01-06",
+    "end": "2022-01-06"
+  },
+  "message_count": 6,
+  "topic": "Dubai meeting planning and data requirements",
+  "topic_slug": "dubai-meeting-data-requirements",
+  "tags": [
+    "analytics"
+  ],
+  "summary_markdown": "The conversation revolves around scheduling a meeting in Dubai, expected sometime next week. The urgency for data extraction is tied to this upcoming meeting. There was also discussion about technical capabilities and data querying methods (e.g., CH functionality, countif).",
+  "decisions": [
+    "Dubai meeting tentatively scheduled for next week."
+  ],
+  "action_items": []
+}

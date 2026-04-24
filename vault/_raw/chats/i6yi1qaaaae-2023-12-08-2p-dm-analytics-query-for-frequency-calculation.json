@@ -1,0 +1,24 @@
+{
+  "chat_id": "i6YI1QAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 2,
+  "date_range": {
+    "start": "2023-12-08",
+    "end": "2023-12-08"
+  },
+  "message_count": 36,
+  "topic": "Analytics query for frequency calculation",
+  "topic_slug": "analytics-query-for-frequency-calculation",
+  "tags": [
+    "analytics",
+    "session"
+  ],
+  "summary_markdown": "The conversation focused on providing and refining SQL queries used to calculate device frequency (sessions/device). Two versions were provided: one for a screen view and a more complex, nested query designed for cluster data. The advanced query calculates both screen and cluster frequencies by aggregating session counts and unique devices over time.\n\nSeparately, the deployment of an updated KIDO demographics dataset was discussed. This update included 264 new facilities and excluded the NSEG class (which someone requested be removed). It was noted that while the updated data is generally positive, it might significantly impact campaign charts if those campaigns relied heavily on the newly added facilities or were primarily built around frames without associated demographics.",
+  "decisions": [
+    "The updated KIDO demographics dataset will be deployed to beta environment."
+  ],
+  "action_items": [
+    "Someone should coordinate release notes regarding the deployment with 'Tolik'."
+  ]
+}

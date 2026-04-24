@@ -1,0 +1,19 @@
+{
+  "chat_id": "AAAA-gn4oPg",
+  "kind": "Space",
+  "space_name": "General and random",
+  "participants": 36,
+  "date_range": {
+    "start": "2023-05-01",
+    "end": "2023-05-01"
+  },
+  "message_count": 9,
+  "topic": "New colleague introduction and welcome",
+  "topic_slug": "new-colleague-introduction-and-welcome",
+  "tags": [
+    "facility"
+  ],
+  "summary_markdown": "The session served as a general announcement for the Operational team. A new colleague, [p34], was introduced to the group. This individual will support [p4] with technical support and manage all equipment-related procedures.",
+  "decisions": [],
+  "action_items": []
+}

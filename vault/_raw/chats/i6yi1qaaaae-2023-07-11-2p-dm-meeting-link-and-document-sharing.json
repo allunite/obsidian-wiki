@@ -1,0 +1,17 @@
+{
+  "chat_id": "i6YI1QAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 2,
+  "date_range": {
+    "start": "2023-07-11",
+    "end": "2023-07-11"
+  },
+  "message_count": 6,
+  "topic": "Meeting link and document sharing",
+  "topic_slug": "meeting-link-and-document-sharing",
+  "tags": [],
+  "summary_markdown": "The conversation consisted of logistical exchanges regarding joining a meeting. [p1] provided a Google Meet link, followed by a shared Google Sheet link.",
+  "decisions": [],
+  "action_items": []
+}

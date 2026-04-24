@@ -1,0 +1,27 @@
+{
+  "chat_id": "i6YI1QAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 2,
+  "date_range": {
+    "start": "2023-09-27",
+    "end": "2023-09-27"
+  },
+  "message_count": 12,
+  "topic": "Dwell time calculation and bug tracking",
+  "topic_slug": "dwell-time-calculation-and-bug-tracking",
+  "tags": [
+    "dwell-time",
+    "analytics",
+    "recalc-ch"
+  ],
+  "summary_markdown": "The discussion focused on improving the measurement of dwell time, particularly regarding nocturnal peaks. [p1] requested a Jira task be created to link with the help desk and ensure visibility for client responses. Regarding the scope, someone stated they do not want to continue 'patching' the calculation but rather overhaul it so that the issue does not appear organically.\n\n[me] confirmed existing tasks (JCDEC-366, JCDEC-291) related to this and mentioned a local task for a 'traffic: cluster bug in India' also concerning peaks. [me] clarified that the focus should be on general age increases rather than specific 00:00 peaks, although someone noted that Esben raised the priority of 00:00 peaks.\n\nAs an interim solution, [me] offered to implement a direct dwell time count for a specific client without complex workarounds and suggested adding an admin toggle for different dwell time calculation views.",
+  "decisions": [
+    "A Jira task will be created by [p1] regarding nocturnal peak dwell time measurement.",
+    "An immediate fix for a specific client's dwell time counting is possible, bypassing current limitations."
+  ],
+  "action_items": [
+    "Create Jira ticket for nocturnal peak dwell time tracking and link it to the help desk.",
+    "Implement direct dwell time calculation for the specified client; consider adding an admin toggle for different views."
+  ]
+}

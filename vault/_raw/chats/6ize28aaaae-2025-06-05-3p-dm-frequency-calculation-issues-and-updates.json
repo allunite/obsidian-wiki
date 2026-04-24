@@ -1,0 +1,27 @@
+{
+  "chat_id": "6ize28AAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2025-06-05",
+    "end": "2025-06-05"
+  },
+  "message_count": 38,
+  "topic": "Frequency calculation issues and updates",
+  "topic_slug": "frequency-calculation-issues-and-updates",
+  "tags": [
+    "analytics",
+    "frequency",
+    "campaign"
+  ],
+  "summary_markdown": "The discussion covered several technical issues related to frequency calculations. Initially, a check confirmed that forecasting was enabled for most facilities but not for one specific location.\n\nLater, an error regarding frequency calculation in Finland was reported, attributed to `session_number_predicted` being passed as null within the `locations_data`. It was noted that new endpoints have better validation than old ones. The team discussed handling potential null values or non-integer inputs for frequency calculations, agreeing on returning 1 or 0.\n\nAdditionally, issues were raised regarding inconsistent frequency data when viewing specific days in reports (e.g., `ml_api` showing 0 vs. local testing being correct), and discrepancies observed when calculating frequencies using `dayNumber` versus `dayNumber + 0.1`. It was suggested that creating a detailed ticket with steps to reproduce the issues would help diagnose the root cause.",
+  "decisions": [
+    "The team agreed on handling null or non-integer inputs for frequency calculations by returning 1 or 0.",
+    "It was decided that an issue ticket should be created detailing the steps to reproduce the observed discrepancies in frequency data."
+  ],
+  "action_items": [
+    "Create a detailed ticket with steps to reproduce the frequency calculation issues (e.g., dayNumber vs. dayNumber + 0.1).",
+    "Review and update code related to old endpoints (`/frequency_log_reg_ch/`) to use new versions (`/v2/frequency_log_reg_ch/`)."
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "chat_id": "0VorOYAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2023-03-16",
+    "end": "2023-03-16"
+  },
+  "message_count": 12,
+  "topic": "Data modeling for new datasets",
+  "topic_slug": "data-modeling-for-new-datasets",
+  "tags": [
+    "analytics",
+    "recalc-ch"
+  ],
+  "summary_markdown": "The discussion focused on integrating newly tested datasets into the existing nightly recalculation process. Initially, [p1] asked if it was possible to specify models for new datasets in PostgreSQL (e.g., writing 'model1' in an environment column) so they would be picked up by the nightly job, or if the system was limited only to production and staging environments.\n\n[me] explained that the current nightly recalculation process likely involves separate passes for stage and prod, and noted the existing structure separates results into `*_ml` (for prod) and `*_ml_stage` (for stage).\n\n[me] proposed a structural improvement: maintaining a single aggregation table (`*_agg_ml`) but adding an `agg_version` field (similar to `device_session_agg_4`). This would allow multiple datasets to be managed concurrently.\n\nHowever, [me] cautioned that implementing this change is a significant task, requiring careful modification of the nightly job and all associated ad-hoc scripts. Furthermore, any new near real-time recalculation implementation would need to be rebuilt on the target engine.",
+  "decisions": [
+    "The immediate integration of new datasets into the nightly process was deemed not critical for current needs; historical comparison is sufficient."
+  ],
+  "action_items": []
+}

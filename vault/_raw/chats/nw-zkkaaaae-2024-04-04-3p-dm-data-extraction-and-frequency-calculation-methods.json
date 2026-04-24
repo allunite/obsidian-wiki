@@ -1,0 +1,27 @@
+{
+  "chat_id": "nW_zkkAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2024-04-04",
+    "end": "2024-04-04"
+  },
+  "message_count": 39,
+  "topic": "Data extraction and frequency calculation methods",
+  "topic_slug": "data-extraction-and-frequency-calculation-methods",
+  "tags": [
+    "analytics",
+    "campaign",
+    "frequency",
+    "session"
+  ],
+  "summary_markdown": "The conversation covered multiple data extraction and analytics topics. Initially, questions arose regarding opening a cluster for campaigns in the Ouseen area (Denmark) and the lack of available demographics/options. Later, the focus shifted to retrieving historical raw device data for a single company over one month from archives.\n\nMultiple SQL queries were shared and refined for calculating traffic metrics and frequency. The final exchange involved querying package-level data (`_pkg_7600_202309`) to count daily packages, which was requested by someone who needed hourly packet counts.",
+  "decisions": [
+    "The initial query regarding campaign clustering in Ouseen (Denmark) could not be completed due to missing options and demographics.",
+    "SQL queries were provided for calculating traffic metrics and frequency at different stages (stage campaigns, stage dashboards, traffic query)."
+  ],
+  "action_items": [
+    "Someone will re-extract package data to provide hourly packet counts."
+  ]
+}

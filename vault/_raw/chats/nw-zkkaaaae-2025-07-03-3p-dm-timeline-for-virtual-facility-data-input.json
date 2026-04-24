@@ -1,0 +1,22 @@
+{
+  "chat_id": "nW_zkkAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2025-07-03",
+    "end": "2025-07-03"
+  },
+  "message_count": 13,
+  "topic": "Timeline for virtual facility data input",
+  "topic_slug": "timeline-for-virtual-facility-data-input",
+  "tags": [
+    "facility",
+    "analytics"
+  ],
+  "summary_markdown": "The discussion centered on the required timeline for populating data into virtual facilities. Initially, there was concern about missing or inaccessible copied material. It was clarified that all observed facilities are virtual and that data input began in late January. The current requirement is to extend the data population back to January.",
+  "decisions": [
+    "Data input needs to be extended back to January."
+  ],
+  "action_items": []
+}

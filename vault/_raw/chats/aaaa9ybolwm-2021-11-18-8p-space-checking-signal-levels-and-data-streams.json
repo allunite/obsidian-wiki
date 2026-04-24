@@ -1,0 +1,25 @@
+{
+  "chat_id": "AAAA9ybOLwM",
+  "kind": "Space",
+  "space_name": "ИТ",
+  "participants": 8,
+  "date_range": {
+    "start": "2021-11-18",
+    "end": "2021-11-18"
+  },
+  "message_count": 64,
+  "topic": "Checking signal levels and data streams",
+  "topic_slug": "checking-signal-levels-and-data-streams",
+  "tags": [
+    "analytics",
+    "facility"
+  ],
+  "summary_markdown": "The discussion focused on analyzing device data, specifically checking signal strength (RSSI) and data stream continuity. Multiple participants reviewed historical data logs showing counts of devices seen over time, noting the general trend of stable data flow.\n\nSignal level checks were conducted for different network types: Wi-Fi signals were discussed in relation to facility IDs, while mobile/GSM signals were checked at various locations (e.g., -79 dBm, -85 dBm). It was noted that some signal readings varied widely (from -31 dBm to -90 dBm).\n\nTechnical queries included running SQL queries against raw device buffers and discussing the limitations of different systems (e.g., RMC not showing Wi-Fi data).",
+  "decisions": [
+    "The team confirmed that historical data streams were being monitored.",
+    "Signal strength levels for mobile/GSM networks were recorded at specific locations."
+  ],
+  "action_items": [
+    "Follow up on the delivery timeline (requested by Tuesday, aiming for tomorrow or Monday)."
+  ]
+}

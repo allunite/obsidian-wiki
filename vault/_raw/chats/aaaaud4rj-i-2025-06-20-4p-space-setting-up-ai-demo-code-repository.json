@@ -1,0 +1,23 @@
+{
+  "chat_id": "AAAAud4RJ_I",
+  "kind": "Space",
+  "space_name": "Group Chat",
+  "participants": 4,
+  "date_range": {
+    "start": "2025-06-20",
+    "end": "2025-06-20"
+  },
+  "message_count": 10,
+  "topic": "Setting up AI demo code repository",
+  "topic_slug": "setting-up-ai-demo-code-repository",
+  "tags": [
+    "analytics"
+  ],
+  "summary_markdown": "The discussion focused on setting up the GitHub repository for an AI project demonstration. [p1] requested the creation of a new repo named `geoai-demo` to host code for an AI project demo intended for someone (Esben). [p3] clarified that a repository already exists and provided access details, suggesting either using or renaming the existing one (`allunite/ai-poc-data`).",
+  "decisions": [
+    "Use the existing GitHub repository `allunite/ai-poc-data` for the AI project demo code."
+  ],
+  "action_items": [
+    "[p3] to grant access and potentially rename the existing repository."
+  ]
+}

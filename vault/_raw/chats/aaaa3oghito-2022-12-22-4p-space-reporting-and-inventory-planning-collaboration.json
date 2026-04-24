@@ -1,0 +1,23 @@
+{
+  "chat_id": "AAAA3oghITo",
+  "kind": "Space",
+  "space_name": "Кабаны",
+  "participants": 4,
+  "date_range": {
+    "start": "2022-12-22",
+    "end": "2022-12-22"
+  },
+  "message_count": 46,
+  "topic": "Reporting and inventory planning collaboration",
+  "topic_slug": "reporting-and-inventory-planning-collaboration",
+  "tags": [
+    "analytics",
+    "inventory"
+  ],
+  "summary_markdown": "The participants discussed the need for better reporting structures, with one participant suggesting they report progress to a third party (Esben) together. Another participant agreed to collaborate on inventory planning.\n\nRegarding project management and communication flow, it was noted that official correspondence should be handled by writing formal emails with Esben in CC when necessary.\n\nSeparately, the conversation touched upon technical development topics including Angular study groups, mobile app development (iOS/Android), and role configuration within analytics tools.",
+  "decisions": [
+    "Collaborate on inventory planning",
+    "Use official email communication with Esben copied in CC for formal updates"
+  ],
+  "action_items": []
+}

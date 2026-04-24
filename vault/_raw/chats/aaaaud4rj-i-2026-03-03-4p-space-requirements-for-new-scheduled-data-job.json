@@ -1,0 +1,26 @@
+{
+  "chat_id": "AAAAud4RJ_I",
+  "kind": "Space",
+  "space_name": "Group Chat",
+  "participants": 4,
+  "date_range": {
+    "start": "2026-03-03",
+    "end": "2026-03-03"
+  },
+  "message_count": 14,
+  "topic": "Requirements for new scheduled data job",
+  "topic_slug": "requirements-for-new-scheduled-data-job",
+  "tags": [
+    "analytics",
+    "campaign",
+    "impression"
+  ],
+  "summary_markdown": "The discussion focused on defining the technical requirements for a new regular background job. Key specifications include:\n\n*   **Environment:** Python environment with necessary library dependencies.\n*   **Codebase:** Script stored on GitHub, pulling the current version before execution; organized across multiple Python files.\n*   **Scheduling:** To run every X hours (suggested interval: 4 hours).\n*   **Access Requirements:** Access to databases (PostgreSQL, ClickHouse) and file storage (`files.allunite.local`). Credentials (e.g., environment variables for logins/passwords) are required.\n*   **External APIs:** Allowed network requests to external APIs (OpenStreetMap API, ESRI API).\n*   **Data Handling:** The job must not rely on local temporary files that need persistence between runs; all necessary data must be stored in the database.\n\nThese requirements are comparable to existing traffic and impression jobs.",
+  "decisions": [
+    "The new scheduled job will run every 4 hours."
+  ],
+  "action_items": [
+    "Define and document access permissions for PostgreSQL, ClickHouse, and file storage.",
+    "Document the use of external APIs (OpenStreetMap API, ESRI API) within the job scope."
+  ]
+}

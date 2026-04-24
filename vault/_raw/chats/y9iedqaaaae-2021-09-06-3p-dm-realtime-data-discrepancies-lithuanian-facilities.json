@@ -1,0 +1,24 @@
+{
+  "chat_id": "y9IEDQAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2021-09-06",
+    "end": "2021-09-06"
+  },
+  "message_count": 14,
+  "topic": "Realtime data discrepancies for Lithuanian facilities",
+  "topic_slug": "realtime-data-discrepancies-lithuanian-facilities",
+  "tags": [
+    "analytics",
+    "facility"
+  ],
+  "summary_markdown": "A discussion occurred regarding inconsistencies in realtime data records for certain facilities in Lithuania. The initial query was designed to retrieve data for two equivalent facilities, but only data for one facility was returned.\n\nLater, the conversation shifted to a session process that uses a list of tenant IDs and is run hourly. Questions were raised about the frequency of box list re-querying and the specific queries being used.",
+  "decisions": [
+    "None"
+  ],
+  "action_items": [
+    "None"
+  ]
+}

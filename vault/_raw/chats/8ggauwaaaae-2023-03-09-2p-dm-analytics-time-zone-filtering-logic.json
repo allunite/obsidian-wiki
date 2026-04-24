@@ -1,0 +1,23 @@
+{
+  "chat_id": "8GgAuwAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 2,
+  "date_range": {
+    "start": "2023-03-09",
+    "end": "2023-03-09"
+  },
+  "message_count": 25,
+  "topic": "Analytics time zone filtering logic",
+  "topic_slug": "analytics-time-zone-filtering-logic",
+  "tags": [
+    "analytics",
+    "inventory",
+    "facility"
+  ],
+  "summary_markdown": "The discussion focused on the data handling logic within the analytics dashboard when selecting specific time zones. It was confirmed that even if a selected time zone is only configured for certain facilities, the system will process all available data in the chosen time zone.\n\nThe mechanism involves: \n1. The dashboard listing all time zones present across all facilities, plus UTC and the browser's local zone.\n2. Data processing itself occurs based on the explicitly selected time zone.\n\n[me] provided a technical tip that any time zone can be set via command line parameters (e.g., `&timezone=...`), noting that special characters like `/` must be URL-encoded as `%2F`.",
+  "decisions": [
+    "The system correctly processes data based on the selected time zone, regardless of whether all facilities are configured for it."
+  ],
+  "action_items": []
+}

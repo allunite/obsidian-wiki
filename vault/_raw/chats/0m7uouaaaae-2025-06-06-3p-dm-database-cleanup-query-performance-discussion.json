@@ -1,0 +1,22 @@
+{
+  "chat_id": "0m7UOUAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2025-06-06",
+    "end": "2025-06-06"
+  },
+  "message_count": 17,
+  "topic": "Database cleanup and query performance discussion",
+  "topic_slug": "database-cleanup-query-performance-discussion",
+  "tags": [
+    "analytics",
+    "recalc-ch"
+  ],
+  "summary_markdown": "The conversation focused on database maintenance, specifically the use of `DELETE` statements versus other methods like `ALTER TABLE`. One participant shared a large `DELETE WHERE` query targeting `allunite.device_session_agg_ml_2_sharded`, which caused performance issues and required significant time to execute.\n\nDiscussion included checking system tables (`system.mutations` and `system.merges`) to verify if the delete request was visible in background processes, suggesting that such operations should not interfere with each other.\n\nIt was noted that aggregating data for multiple companies over a long period (e.g., one month) can be resource-intensive for ClickHouse.",
+  "decisions": [
+    "The use of `DELETE` statements is recommended for database cleanup."
+  ],
+  "action_items": []
+}

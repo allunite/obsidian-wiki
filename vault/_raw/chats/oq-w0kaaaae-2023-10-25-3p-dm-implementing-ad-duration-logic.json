@@ -1,0 +1,22 @@
+{
+  "chat_id": "oq-w0kAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2023-10-25",
+    "end": "2023-10-25"
+  },
+  "message_count": 3,
+  "topic": "Implementing specific ad duration logic",
+  "topic_slug": "implementing-ad-duration-logic",
+  "tags": [
+    "loop",
+    "analytics"
+  ],
+  "summary_markdown": "Someone asked about the status of implementing a 4-8-12 duration feature. [me] instructed that if there is a separate branch (possibly named 'demography'), the logic should be included there.",
+  "decisions": [],
+  "action_items": [
+    "Include 4-8-12 ad duration logic in the designated development branch."
+  ]
+}

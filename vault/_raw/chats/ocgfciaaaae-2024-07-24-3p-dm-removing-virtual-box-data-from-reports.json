@@ -1,0 +1,22 @@
+{
+  "chat_id": "oCgFCIAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2024-07-24",
+    "end": "2024-07-24"
+  },
+  "message_count": 38,
+  "topic": "Removing virtual box data from reports",
+  "topic_slug": "removing-virtual-box-data-from-reports",
+  "tags": [
+    "analytics",
+    "facility"
+  ],
+  "summary_markdown": "The discussion focused on the necessity of maintaining records for 'virtual boxes' (fake/generated MAC addresses) associated with physical facilities, particularly in Finland. It was determined that these virtual box entries are not critical and can be removed from reporting structures to simplify data management.\n\nSeparately, a technical detail regarding report filtering was discussed: one participant noted finding the `is_virtual` field, while another mentioned previously filtering reports using `is_fake`, leading to clarification on which flag is appropriate for identifying virtual records.",
+  "decisions": [
+    "Virtual box entries associated with facilities can be removed from reporting structures."
+  ],
+  "action_items": []
+}

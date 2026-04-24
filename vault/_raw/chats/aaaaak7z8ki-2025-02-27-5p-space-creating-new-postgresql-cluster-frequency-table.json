@@ -1,0 +1,27 @@
+{
+  "chat_id": "AAAAaK7z8KI",
+  "kind": "Space",
+  "space_name": "Group Chat",
+  "participants": 5,
+  "date_range": {
+    "start": "2025-02-27",
+    "end": "2025-02-27"
+  },
+  "message_count": 24,
+  "topic": "Creating new PostgreSQL cluster frequency table",
+  "topic_slug": "creating-new-postgresql-cluster-frequency-table",
+  "tags": [
+    "analytics",
+    "facility",
+    "inventory"
+  ],
+  "summary_markdown": "The group discussed the creation of a new PostgreSQL table, `ml_cluster_frequency_coeff`, intended to store cluster frequency data for use in the ML API. The required columns are `company_num` (int), `facility_num` (int), `cluster_num` (int), and `coeff` (float).\n\nDiscussions focused on naming conventions, settling on a name related to 'cluster' or 'frequency'. It was noted that the data will be sourced from the ML API, which currently provides `facility_num`. \n\n**Schema Decisions:**\n*   The table structure was finalized with columns for company number, facility number, cluster number, and coefficient.\n*   It was decided that `facility_num` should be unique to ensure only one record per facility is stored in the table. This required adding a primary key or ensuring uniqueness constraints.",
+  "decisions": [
+    "Create a new PostgreSQL table named `ml_cluster_frequency_coeff` (or similar) for storing cluster frequency data.",
+    "The table must include columns: `company_num`, `facility_num`, `cluster_num`, and `coeff`.",
+    "`facility_num` will be set as unique/primary key to ensure one record per facility."
+  ],
+  "action_items": [
+    "Implement the new PostgreSQL table structure in the `ml_api` database."
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "chat_id": "oq-w0kAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2024-09-10",
+    "end": "2024-09-10"
+  },
+  "message_count": 3,
+  "topic": "Debugging production deployment issue",
+  "topic_slug": "debugging-production-deployment-issue",
+  "tags": [
+    "analytics"
+  ],
+  "summary_markdown": "A discussion regarding a recent commit deployed to production, specifically checking if it caused an issue. The potential problem area was identified as related to the `user.getCompanyId()` function or changes involving filters.",
+  "decisions": [],
+  "action_items": []
+}

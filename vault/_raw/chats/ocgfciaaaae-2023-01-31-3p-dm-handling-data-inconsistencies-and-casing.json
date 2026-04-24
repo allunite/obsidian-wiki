@@ -1,0 +1,27 @@
+{
+  "chat_id": "oCgFCIAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2023-01-31",
+    "end": "2023-01-31"
+  },
+  "message_count": 14,
+  "topic": "Handling data inconsistencies and casing",
+  "topic_slug": "handling-data-inconsistencies-and-casing",
+  "tags": [
+    "analytics",
+    "inventory",
+    "impression",
+    "facility"
+  ],
+  "summary_markdown": "The discussion focused on data inconsistencies, specifically how the system handles string comparisons and casing when importing or tracking facility/inventory data. A core issue was identified where slight variations in capitalization (e.g., \"Yes\" vs \"yes\") caused discrepancies in records read by the team's reporting tool.\n\nIt was noted that current change tracking mechanisms might be case-sensitive, leading to missed logs when minor changes occur. The consensus was reached that implementing a case-insensitive comparison (`ignore case`) is necessary across multiple data points (e.g., `facing_direction`).",
+  "decisions": [
+    "Implement case-insensitive comparisons for string matching in the system.",
+    "Do not modify the existing change tracking mechanism at this time."
+  ],
+  "action_items": [
+    "Add case-insensitive logic to the relevant data comparison points."
+  ]
+}

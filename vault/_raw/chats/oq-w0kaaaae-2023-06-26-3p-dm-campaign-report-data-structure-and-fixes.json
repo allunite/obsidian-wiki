@@ -1,0 +1,28 @@
+{
+  "chat_id": "oq-w0kAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2023-06-26",
+    "end": "2023-06-26"
+  },
+  "message_count": 57,
+  "topic": "Campaign report data structure and fixes",
+  "topic_slug": "campaign-report-data-structure-and-fixes",
+  "tags": [
+    "analytics",
+    "campaign",
+    "traffic",
+    "facility"
+  ],
+  "summary_markdown": "The discussion focused on refining the campaign reporting dashboard, specifically addressing data sources and visualization logic.\n\n**Data Scope:** It was confirmed that for audience metrics, most necessary data is available within `total-traffic`, making an additional call to `api/campaigns/target/audience` unnecessary. The charts should be grouped by name (e.g., 'Reach Top Cities' and 'Traffic By Networks').\n\n**Report Metrics:** For the traffic report (`chart2`), four metrics were identified: `traffic_devices`, `traffic_devices_accumulated`, `traffic_factor`, and `traffic_sessions`. It was clarified that these metrics should not be summed to create a total graph.\n\n**Data Integrity Issues:** Multiple data issues were encountered and resolved:\n1. **Accumulation Logic:** The initial calculation for `traffic_devices_accumulated` was found to be flawed, causing non-increasing values (e.g., 10860323 followed by 9917190). This required adjusting the logic, potentially using an average factor over the period.\n2. **Data Duplication:** A subsequent issue of duplicate records for a single day was identified and fixed, attributed to different facilities within the same city.\n\n**Development Status:** The session concluded with discussions about merging development branches (`develop` into `campaign`) and potential merge conflicts related to conversion dashboard changes.",
+  "decisions": [
+    "Audience metrics can be sourced primarily from `total-traffic` data, eliminating the need for a separate call to `api/campaigns/target/audience`.",
+    "The traffic report should display four specific metrics: `traffic_devices`, `traffic_devices_accumulated`, `traffic_factor`, and `traffic_sessions`. These metrics should not be summed up.",
+    "The logic for calculating `traffic_devices_accumulated` was corrected to ensure non-decreasing values, addressing issues with daily factor calculation."
+  ],
+  "action_items": [
+    "Review the merge of the `develop` branch into the `campaign` branch (to be checked by someone later)."
+  ]
+}

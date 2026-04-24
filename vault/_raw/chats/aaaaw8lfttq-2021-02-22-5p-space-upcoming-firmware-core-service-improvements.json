@@ -1,0 +1,25 @@
+{
+  "chat_id": "AAAAw8LFttQ",
+  "kind": "Space",
+  "space_name": "Data",
+  "participants": 5,
+  "date_range": {
+    "start": "2021-02-22",
+    "end": "2021-02-22"
+  },
+  "message_count": 14,
+  "topic": "Upcoming firmware and core service improvements",
+  "topic_slug": "upcoming-firmware-core-service-improvements",
+  "tags": [
+    "analytics",
+    "campaign"
+  ],
+  "summary_markdown": "A discussion occurred regarding data quality adjustments, noting that a routine data validation process is run every 6–12 months to ensure consistency with environment changes. [p2] prepared an email containing release notes for Germany and Lithuania detailing upcoming improvements in AllUnite firmware and core services; this communication was confirmed as informational only and would not impact current data.\n\nLater, it was determined that the launch of a planned release is pending confirmation from AFA and Datacorp. Furthermore, [p1] offered to provide requested sensor data for Gabrielle.",
+  "decisions": [
+    "The email regarding firmware/core service improvements for Germany and Lithuania can be sent.",
+    "The release launch must wait for confirmation from AFA and Datacorp."
+  ],
+  "action_items": [
+    "[p2] to send the sensor data provided by [p1] to Gabrielle."
+  ]
+}

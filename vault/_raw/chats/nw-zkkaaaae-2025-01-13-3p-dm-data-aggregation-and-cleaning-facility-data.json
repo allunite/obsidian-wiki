@@ -1,0 +1,27 @@
+{
+  "chat_id": "nW_zkkAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2025-01-13",
+    "end": "2025-01-13"
+  },
+  "message_count": 26,
+  "topic": "Data aggregation and cleaning for facility data",
+  "topic_slug": "data-aggregation-and-cleaning-facility-data",
+  "tags": [
+    "analytics",
+    "campaign",
+    "inventory",
+    "session"
+  ],
+  "summary_markdown": "The conversation focused on debugging and refining SQL queries for aggregating device session data from `device_session_agg_5`.\n\n**Key Issues & Decisions:**\n*   Initial queries targeted specific facility numbers (e.g., 33548) within a defined date range (August 2024).\n*   A discrepancy was noted regarding the master ID for facility 33548, requiring data to be adjusted to start from the facility's actual launch date rather than the beginning of August.\n*   A second issue involved duplicate test model data across different `facility_master_num` values. The proposed solution was to include both relevant `facility_master_num` values in the query criteria (using a comma-separated list).\n\n**Technical Scope:** The queries calculate metrics including predicted session screens, viewable/viewed flow and dwell impressions, grouped by date (`dt`) and owner (`agg_owner`).",
+  "decisions": [
+    "The data aggregation for facility 33548 must be adjusted to start from the facility's actual launch date.",
+    "Duplicate test model data across multiple facility master numbers will be handled by listing all relevant facility master numbers in the query."
+  ],
+  "action_items": [
+    "The necessary data restructuring/re-aggregation for the affected cluster must be performed during off-peak hours (evening)."
+  ]
+}

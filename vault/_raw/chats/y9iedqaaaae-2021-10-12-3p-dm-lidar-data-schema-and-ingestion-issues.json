@@ -1,0 +1,27 @@
+{
+  "chat_id": "y9IEDQAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2021-10-12",
+    "end": "2021-10-12"
+  },
+  "message_count": 77,
+  "topic": "Lidar data schema and ingestion issues",
+  "topic_slug": "lidar-data-schema-and-ingestion-issues",
+  "tags": [
+    "analytics",
+    "facility",
+    "inventory"
+  ],
+  "summary_markdown": "The session covered multiple technical discussions regarding the structure and ingestion of Lidar data.\n\n**Schema Design:** The initial discussion focused on defining a `raw_lidar3d_session` table schema, including fields like `object_id`, `timestamp`, `session_start`, and various entry/exit point coordinates. A separate review was conducted for the `lidar` table structure (containing `facility_id`, `lidar_type`, etc.), where the need for a `firmware_version` field was questioned.\n\n**Data Ingestion Issues:** Significant time was spent troubleshooting data ingestion errors, specifically 'Block structure mismatch' exceptions in ClickHouse. The root cause was identified as mismatches between columns defined in the buffer, distributed table, and sharded tables during insertion. This required recreating the underlying table structures to resolve the issue.\n\n**Session Calculation Logic:** The calculation of `session_duration` vs. `duration_frames` was reviewed. It was confirmed that `session_duration` should be calculated using the timestamp of the last non-empty frame, not just the initial session start time. Furthermore, it was established that if only one visible frame exists in a session, the duration should approximate 1/15th of a second.",
+  "decisions": [
+    "The `firmware_version` field may be removed from the `lidar` table schema.",
+    "When calculating session duration, use the timestamp of the last non-empty frame.",
+    "If only one visible frame exists in a session, the calculated duration should approximate 1/15th of a second."
+  ],
+  "action_items": [
+    "Review and implement necessary schema changes for Lidar data tables (raw_lidar3d_session and lidar)."
+  ]
+}

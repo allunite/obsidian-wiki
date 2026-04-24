@@ -1,0 +1,21 @@
+{
+  "chat_id": "i6YI1QAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 2,
+  "date_range": {
+    "start": "2023-04-25",
+    "end": "2023-04-25"
+  },
+  "message_count": 17,
+  "topic": "Request for release change log data",
+  "topic_slug": "request-for-release-change-log-data",
+  "tags": [
+    "analytics"
+  ],
+  "summary_markdown": "The conversation focused on finding a source for a 'change log' or comparison of changes made during a release. Initial suggestions included GitHub commits, Confluence documentation, and Jira ticket history. It was determined that the data needed to compare differences in metrics/data following a change.",
+  "decisions": [
+    "No concrete decisions were reached regarding the final source for the change log."
+  ],
+  "action_items": []
+}

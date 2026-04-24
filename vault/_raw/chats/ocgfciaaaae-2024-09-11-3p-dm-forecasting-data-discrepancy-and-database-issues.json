@@ -1,0 +1,23 @@
+{
+  "chat_id": "oCgFCIAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2024-09-11",
+    "end": "2024-09-11"
+  },
+  "message_count": 14,
+  "topic": "Forecasting data discrepancy and database issues",
+  "topic_slug": "forecasting-data-discrepancy-and-database-issues",
+  "tags": [
+    "analytics",
+    "campaign",
+    "facility"
+  ],
+  "summary_markdown": "The session focused on debugging a forecasting script. Initially, there was concern about the `DROP TABLE` statement in the script and synchronization issues.\n\n[me] identified the root cause: replacing 'concept' with 'trusted' in a custom script without accounting for data timing (specifically, that 'trusted' might not have received the day's recalculation data yet).\n\nThis error led to an incorrect forecast insertion, resulting in approximately 470 million records instead of the usual 25-35 million. A subsequent issue was noted where the number of facilities forecasted was significantly lower (~6.5K) than expected (700-900).\n\nSeparately, [p1] reported memory issues with the Cloukhouse after an upgrade, noting that it struggles for a week before stabilizing and logging many errors.\n\n[me] also noted difficulty in optimizing queries involving campaigns/demographics.",
+  "decisions": [
+    "The `DROP TABLE` statement was deemed unnecessary or problematic due to synchronization timing."
+  ],
+  "action_items": []
+}

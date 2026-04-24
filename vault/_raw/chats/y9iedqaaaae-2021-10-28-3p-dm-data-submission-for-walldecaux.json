@@ -1,0 +1,23 @@
+{
+  "chat_id": "y9IEDQAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2021-10-28",
+    "end": "2021-10-28"
+  },
+  "message_count": 18,
+  "topic": "Data submission for WallDecaux",
+  "topic_slug": "data-submission-for-walldecaux",
+  "tags": [
+    "analytics"
+  ],
+  "summary_markdown": "The discussion centered on the ongoing data feed requirement for WallDecaux. It was confirmed that data submission is expected to be continuous, not a one-time event.\n\n[p1] stated they would set up and provide the necessary role credentials for this process.",
+  "decisions": [
+    "Data submission for WallDecaux will be ongoing."
+  ],
+  "action_items": [
+    "[p1] to set up and provide the required role access/credentials."
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "chat_id": "oCgFCIAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2024-11-27",
+    "end": "2024-11-27"
+  },
+  "message_count": 27,
+  "topic": "Tracking campaign status history in SuperSet",
+  "topic_slug": "tracking-campaign-status-history-in-superset",
+  "tags": [
+    "analytics",
+    "session",
+    "loop"
+  ],
+  "summary_markdown": "The discussion centered on the difficulty of retrieving historical data, specifically tracking the count of campaigns in 'Draft' status over previous weeks. The current system only saves the latest snapshot of campaign statuses.\n\nMultiple methods were discussed for achieving historical tracking:\n*   **Using Versions:** One participant suggested using version history (reverting to a specific date/week) by comparing the status with the previous day's record, which was deemed theoretically possible but complex.\n*   **Logging Changes:** It was determined that logging changes—specifically counting how many campaigns *changed* their status to 'Draft' over a week—is easier and can be pulled from logs.\n\nThe consensus was that historical tracking is necessary because the metrics are constantly changing, making simple snapshot data insufficient.",
+  "decisions": [
+    "Historical campaign status tracking is required due to evolving business needs."
+  ],
+  "action_items": [
+    "Discuss how to extract historical data from logs/versions in a dedicated session."
+  ]
+}

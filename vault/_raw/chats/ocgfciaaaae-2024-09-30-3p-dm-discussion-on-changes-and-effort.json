@@ -1,0 +1,17 @@
+{
+  "chat_id": "oCgFCIAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2024-09-30",
+    "end": "2024-09-30"
+  },
+  "message_count": 5,
+  "topic": "Discussion on changes and effort",
+  "topic_slug": "discussion-on-changes-and-effort",
+  "tags": [],
+  "summary_markdown": "The conversation briefly touched upon the topic of change, with one participant stating that while they are always in favor of change, it must be difficult to implement. They concluded by encouraging those who want changes to put in the effort.",
+  "decisions": [],
+  "action_items": []
+}

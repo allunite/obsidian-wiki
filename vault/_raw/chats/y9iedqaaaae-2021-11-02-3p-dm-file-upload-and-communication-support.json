@@ -1,0 +1,24 @@
+{
+  "chat_id": "y9IEDQAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2021-11-02",
+    "end": "2021-11-02"
+  },
+  "message_count": 9,
+  "topic": "File upload and communication support",
+  "topic_slug": "file-upload-and-communication-support",
+  "tags": [
+    "analytics"
+  ],
+  "summary_markdown": "The conversation revolves around providing a specific file (likely for example purposes) that needs to be uploaded to S3. The sender ([me]) acknowledges the recipient's ([p1]) availability constraint, noting that [p1] can only perform the upload after 9 PM. The sender also requests assistance in communicating with the German party due to perceived difficulties in their communication style.",
+  "decisions": [
+    "The file will be uploaded to S3 for example purposes."
+  ],
+  "action_items": [
+    "[p1] needs to upload the specified file to S3 after 9 PM.",
+    "[me] needs follow-up on communication with the German party."
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "chat_id": "AAAAgGKlyyY",
+  "kind": "Space",
+  "space_name": "Group Chat",
+  "participants": 10,
+  "date_range": {
+    "start": "2024-11-26",
+    "end": "2024-11-26"
+  },
+  "message_count": 12,
+  "topic": "Discussion of ad tech functionality and planning",
+  "topic_slug": "discussion-of-ad-tech-functionality-and-planning",
+  "tags": [
+    "analytics",
+    "impression",
+    "loop",
+    "campaign"
+  ],
+  "summary_markdown": "The conversation touches upon technical discussions regarding ad tech functionality. Specific points include the planned testing of new features on a beta version, such as demonstrating to clients and configuring impression display on a Traffic Page. A point of contention was raised regarding the inclusion of dynamic loop duration on the beta, with some suggesting that impressions should be handled by administrators rather than automated systems.\n\nLater messages included sharing external links (a Fireflies AI link and a ChatGPT share link) and general discussion points without clear actionable outcomes.",
+  "decisions": [],
+  "action_items": [
+    "Someone needs to schedule a meeting during working hours."
+  ]
+}

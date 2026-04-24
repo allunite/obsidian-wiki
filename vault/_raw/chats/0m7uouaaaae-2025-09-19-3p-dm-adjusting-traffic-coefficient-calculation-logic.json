@@ -1,0 +1,26 @@
+{
+  "chat_id": "0m7UOUAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2025-09-19",
+    "end": "2025-09-19"
+  },
+  "message_count": 24,
+  "topic": "Adjusting traffic coefficient calculation logic",
+  "topic_slug": "adjusting-traffic-coefficient-calculation-logic",
+  "tags": [
+    "analytics",
+    "campaign",
+    "inventory"
+  ],
+  "summary_markdown": "The session focused on refining the calculation for a key metric, initially defined as `avg_va = vac/rots`. The proposed change was to rename and recalculate this coefficient using total traffic: `vac_traffic_coeff = vac/total_traffic` (where `total_traffic` is based on predicted sessions). After initial implementation attempts failed or required adjustments due to potential caching issues, the calculation logic was revisited. A more complex formula involving summing `vac` across all frames and dividing by the sum of (`sessions_screen_predicted * n_frame_per_facility`) across all facilities was suggested. However, ultimately, a decision was made to revert the coefficient calculation back to the original simpler formula: `avg_va = vac/rots`, as this provided satisfactory results.",
+  "decisions": [
+    "The initial proposed change for the traffic coefficient (`vac_traffic_coeff`) was rejected.",
+    "The final logic for calculating the key metric was reverted to the original formula: avg_va = vac/rots."
+  ],
+  "action_items": [
+    "Revert the code base calculation back to `avg_va = vac/rots`."
+  ]
+}

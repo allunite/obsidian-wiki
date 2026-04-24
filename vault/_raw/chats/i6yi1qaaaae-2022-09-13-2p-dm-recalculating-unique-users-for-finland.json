@@ -1,0 +1,27 @@
+{
+  "chat_id": "i6YI1QAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 2,
+  "date_range": {
+    "start": "2022-09-13",
+    "end": "2022-09-13"
+  },
+  "message_count": 31,
+  "topic": "Recalculating unique users for Finland",
+  "topic_slug": "recalculating-unique-users-for-finland",
+  "tags": [
+    "analytics",
+    "inventory",
+    "session",
+    "loop"
+  ],
+  "summary_markdown": "The discussion focused on discrepancies in the reported number of unique users (yuniks) for Finland, particularly noting that the current data suggests sample vendors may not have been applied correctly. The initial analysis showed a session factor discrepancy between Finland and another region (Afa). It was determined that the model needs to be recalculated using only 'trusted' vendors because some vendors are generating excessively high session counts.\n\nThe plan is to recalculate the unique user model based on trusted vendors and deploy this revised model to the staging environment for review.",
+  "decisions": [
+    "Recalculate the unique user model for Finland using data from 'trusted' vendors.",
+    "Deploy the recalculated model to the staging environment."
+  ],
+  "action_items": [
+    "Review the unique user count after recalculating with trusted vendor data."
+  ]
+}

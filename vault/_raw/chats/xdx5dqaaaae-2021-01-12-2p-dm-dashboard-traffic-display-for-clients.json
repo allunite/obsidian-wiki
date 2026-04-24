@@ -1,0 +1,23 @@
+{
+  "chat_id": "xdx5dQAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 2,
+  "date_range": {
+    "start": "2021-01-12",
+    "end": "2021-01-12"
+  },
+  "message_count": 9,
+  "topic": "Dashboard traffic display for clients",
+  "topic_slug": "dashboard-traffic-display-for-clients",
+  "tags": [
+    "analytics",
+    "impression"
+  ],
+  "summary_markdown": "Discussion focused on how to display traffic data in the dashboard, particularly for clients lacking machine learning (ML) data. [me] suggested showing classical traffic figures as a fallback method because it simplifies reporting and increases reliability. However, this approach contradicts the 'crash early' concept if predictive models fail.\n\nAn alternative suggestion was made: having someone run all clients through a model tailored specifically for Afe.\n\n[unknown] clarified that there are two specific clients (Jcd citymedia) that should be handled differently, while the remaining clients should use the old method.",
+  "decisions": [
+    "Two specific clients (Jcd citymedia) will be handled using a different method.",
+    "Remaining clients will continue to use the old reporting method."
+  ],
+  "action_items": []
+}

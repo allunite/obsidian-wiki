@@ -1,0 +1,27 @@
+{
+  "chat_id": "y9IEDQAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2024-10-15",
+    "end": "2024-10-15"
+  },
+  "message_count": 39,
+  "topic": "Designing raw data ingestion schema for transit APIs",
+  "topic_slug": "designing-raw-data-ingestion-schema-for-transit-apis",
+  "tags": [
+    "analytics",
+    "inventory",
+    "loop",
+    "campaign"
+  ],
+  "summary_markdown": "The discussion focused on designing the schema for ingesting high-frequency transit positioning data (from APIs like Digitransit). The proposed raw table, `allunite.raw_positioning_buffer`, was defined to capture core metadata fields (`timestamp`, `event_type`, `transport_mode`, etc.) and a flexible JSON field (`data_json`) for the payload.\n\n**Schema Decisions:**\n*   The raw ingestion schema should include all top-level topic fields (e.g., `event_type`, `operator_id`).\n*   The `data_json` field should contain both the original API payload and potentially other relevant top-level fields for completeness.\n*   A strategy was agreed upon to initially ingest a maximally general topic structure, followed by creating materialized views that filter and distribute data into specialized tables with correct structures and indexes.\n\n**Technical Points:**\n*   The use of `prefix` and `version` fields in the raw table was questioned due to potential redundancy or changes, but the current schema structure was maintained for stability.\n*   Regarding batching, it was determined that since data is buffered in a stream (like Change Data Capture/CDC), small, individual records can be processed rather than requiring large server-side batches.",
+  "decisions": [
+    "The raw ingestion table will capture all top-level topic fields and the full payload within `data_json`.",
+    "Initial data flow will use a general topic structure, followed by materialized views for specialized, structured tables."
+  ],
+  "action_items": [
+    "Someone needs to clarify which specific topics are required for ingestion and define necessary filters."
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "chat_id": "oCgFCIAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2023-08-09",
+    "end": "2023-08-09"
+  },
+  "message_count": 9,
+  "topic": "Handling new frame data creation",
+  "topic_slug": "handling-new-frame-data-creation",
+  "tags": [
+    "analytics",
+    "frame"
+  ],
+  "summary_markdown": "The discussion focused on the process of importing and handling incomplete or newly required data for frames. [p1] confirmed that after populating missing `asset_id` values, 62 frames were identified as needing creation/updates.\n\nRegarding new fields or data points (e.g., compass angle), the consensus was to temporarily ignore them if they are not currently supported by the system's existing structure. The approach suggested is to write a switch/case logic to map incoming client values to internal formats, but for entirely new fields, it is best to defer implementation until further notice.",
+  "decisions": [
+    "New frames requiring data creation will be addressed in stages.",
+    "Unsupported or newly introduced field data should be temporarily ignored."
+  ],
+  "action_items": [
+    "Someone needs to clarify the status of required personnel (Nastya)."
+  ]
+}

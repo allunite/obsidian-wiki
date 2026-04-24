@@ -1,0 +1,27 @@
+{
+  "chat_id": "oq-w0kAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2023-07-11",
+    "end": "2023-07-11"
+  },
+  "message_count": 10,
+  "topic": "Conversion dashboard development plan",
+  "topic_slug": "conversion-dashboard-development-plan",
+  "tags": [
+    "analytics",
+    "campaign",
+    "impression"
+  ],
+  "summary_markdown": "The team discussed the remaining work for a conversion dashboard. One participant plans to create a draft of the dashboard, which will include traffic data, two facility filters, and one date control (with a default second period). The other participant will handle the front-end development, including resolving dates and column styles.\n\nFor campaign reports, it was noted that additional metrics are needed, specifically impressions. It was also discussed that once the final reports are available, further adjustments to the data or dashboard may be required.",
+  "decisions": [
+    "One participant will focus on handling the data for the conversion dashboard.",
+    "The other participant will handle the front-end development of the dashboard."
+  ],
+  "action_items": [
+    "Estimate time needed to cut and paste the endpoint into a separate controller.",
+    "Monitor incoming reports to identify necessary changes or additional metrics (e.g., impressions)."
+  ]
+}

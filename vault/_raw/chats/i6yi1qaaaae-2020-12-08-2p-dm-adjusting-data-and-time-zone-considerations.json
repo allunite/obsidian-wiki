@@ -1,0 +1,24 @@
+{
+  "chat_id": "i6YI1QAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 2,
+  "date_range": {
+    "start": "2020-12-08",
+    "end": "2020-12-08"
+  },
+  "message_count": 38,
+  "topic": "Adjusting data and time zone considerations",
+  "topic_slug": "adjusting-data-and-time-zone-considerations",
+  "tags": [
+    "analytics",
+    "recalc-ch"
+  ],
+  "summary_markdown": "The discussion centered on discrepancies between predicted and actual session data, with one participant planning to re-run calculations for the month. The conversation also covered time zone handling for manual counting and MOPs reporting. It was confirmed that for manual counts after October 23rd, Denmark Time (DENMARK TIME-2) is appropriate. For MOPs, the system allows selecting a time zone, while local time should be used when referencing Denmark.\n\nRegarding data analysis, one participant noted that the overall traffic volume seemed higher in some instances.",
+  "decisions": [
+    "The user will re-run monthly calculations for better results."
+  ],
+  "action_items": [
+    "Confirm time zone handling for manual counts and MOPs reporting."
+  ]
+}

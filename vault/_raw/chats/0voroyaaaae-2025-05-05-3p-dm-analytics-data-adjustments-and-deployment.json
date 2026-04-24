@@ -1,0 +1,31 @@
+{
+  "chat_id": "0VorOYAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2025-05-05",
+    "end": "2025-05-05"
+  },
+  "message_count": 166,
+  "topic": "Analytics data adjustments and deployment",
+  "topic_slug": "analytics-data-adjustments-and-deployment",
+  "tags": [
+    "analytics",
+    "footfall",
+    "campaign",
+    "inventory"
+  ],
+  "summary_markdown": "The session focused on adjusting and deploying updated analytics calculations, particularly for footfall and frequency modeling.\n\n**Key Adjustments & Decisions:**\n*   A new function (`getFrequency_TEST_11`) was tested, which uses varying multipliers based on the day number (e.g., 7.5 for Day 1, 5.5 for Day 31).\n*   Discrepancies were noted between modeled data and real data regarding footfall frequency.\n*   The team decided to apply several fixes/updates to production:\n    *   **Historical Recalculation:** The historical period of May 1, 2024, through January 22, 2025, needs recalculating using the `aka_test` dataset for the Airport location.\n    *   **Frequency Model:** Implement the frequency model (as tested in test11) specifically for the Airport category.\n    *   **Footfall Adjustment:** Apply a footfall adjustment factor (`cf *= 5.5`) and incorporate sensor data (2 or 3+ sensors seen) into the recalculation process.\n\n**Testing & Deployment:**\n*   Multiple checks were performed on `aka_test` to ensure consistency with production data, especially for total traffic and impressions.\n*   The final deployment requires additional steps: The updated data must be manually re-uploaded/reprocessed in DataCorp.",
+  "decisions": [
+    "Recalculate historical data (May 1, 2024 - January 22, 2025) for the Airport location using `aka_test` data.",
+    "Apply the new frequency model to the Airport category in production.",
+    "Implement footfall adjustment factors and sensor counts into the recalculation process for all relevant periods.",
+    "The updated analytics data must be manually re-uploaded/reprocessed in DataCorp."
+  ],
+  "action_items": [
+    "Perform a smoke test on `aka_test` dataset for other facilities (as requested by someone).",
+    "Deploy the historical recalculation, frequency model, and footfall adjustments to production.",
+    "Check total traffic cluster application status on production."
+  ]
+}

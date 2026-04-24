@@ -1,0 +1,26 @@
+{
+  "chat_id": "wZDFB8AAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2025-10-15",
+    "end": "2025-10-15"
+  },
+  "message_count": 4,
+  "topic": "Recalculating campaign report and dwell time",
+  "topic_slug": "recalculating-campaign-report-and-dwell-time",
+  "tags": [
+    "analytics",
+    "frame",
+    "dwell-time",
+    "campaign"
+  ],
+  "summary_markdown": "The new report was placed on staging, requiring a recalculation of the campaign to regenerate it. After initial testing, one participant confirmed that Frame Reach looked good but noted that Dwell Time data was missing for many screens.",
+  "decisions": [
+    "Campaign needs recalculating to generate the final report."
+  ],
+  "action_items": [
+    "Investigate and address missing Dwell Time data across multiple screens."
+  ]
+}

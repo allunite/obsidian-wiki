@@ -1,0 +1,25 @@
+{
+  "chat_id": "AAAAud4RJ_I",
+  "kind": "Space",
+  "space_name": "Group Chat",
+  "participants": 4,
+  "date_range": {
+    "start": "2025-12-08",
+    "end": "2025-12-08"
+  },
+  "message_count": 11,
+  "topic": "Proof-of-play data structure and integration",
+  "topic_slug": "proof-of-play-data-structure-and-integration",
+  "tags": [
+    "analytics",
+    "campaign",
+    "frame"
+  ],
+  "summary_markdown": "The conversation focused on the `clickhouse core.campaign_proof_of_play` data set. Someone provided a description, noting it contains `campaign_id`, `frame_id`, a timestamp, and the duration (in seconds) that the ad played.\n\nRegarding integration, someone mentioned that Innovocean and Tractor were involved in requesting this data via a ticket. However, they expressed confidence that the data would be sourced from other locations, especially if AllUnite's player was utilized.\n\n[p1] sought clarification on whether any internal managers or sales staff had discussed this integration with the client directly.",
+  "decisions": [
+    "The structure of the proof-of-play data (campaign_id, frame_id, timestamp, duration) was confirmed."
+  ],
+  "action_items": [
+    "Someone offered to provide a full history regarding the integration request details."
+  ]
+}

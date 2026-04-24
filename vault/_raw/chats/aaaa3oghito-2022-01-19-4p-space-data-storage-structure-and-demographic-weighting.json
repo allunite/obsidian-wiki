@@ -1,0 +1,28 @@
+{
+  "chat_id": "AAAA3oghITo",
+  "kind": "Space",
+  "space_name": "Кабаны",
+  "participants": 4,
+  "date_range": {
+    "start": "2022-01-19",
+    "end": "2022-01-19"
+  },
+  "message_count": 44,
+  "topic": "Data storage structure and demographic weighting",
+  "topic_slug": "data-storage-structure-and-demographic-weighting",
+  "tags": [
+    "analytics",
+    "inventory",
+    "campaign",
+    "recalc-ch"
+  ],
+  "summary_markdown": "The conversation covered two main topics: data storage architecture and demographic analysis.\n\n**Data Storage Architecture:**\nThe team discussed standardizing the naming convention for data disks (physical level) versus logical volumes, suggesting following Amazon's nomenclature (e.g., SSD/HDD vs. hot/cold). A proposed structure was:\n*   **Disks:** ssd, hdd, s3\n*   **Volumes:** hot, cold, frozen (or archive)\nIt was noted that `gp2` volumes are still considered SSDs, and for the 'cold' storage, using `sc1` was suggested. The current configuration uses separate paths (`/data/hot/`, `/data/cold/`) defined in Ansible.\n\n**Demographic Analysis:**\nA discussion arose regarding calculating weighted demographic data based on ZIP codes across different routes or clusters of routes. It was determined that the sample size for regions must be weighted relative to the total population, referencing existing standards (JCDEC-387).\n\nSeparately, a technical question was raised about incoming packages lacking `frame_type` and `frame_flags`. While this might cause issues with recalculations (`recalc`), it was confirmed that the data processing system should handle these missing fields without failure.",
+  "decisions": [
+    "Adopt Amazon-style naming conventions (physical disks vs. logical volumes) for storage architecture.",
+    "Use `sc1` for cold storage, noting its cost-effectiveness and suitability for long-term retention.",
+    "Ensure demographic data sample sizes are weighted relative to the total population."
+  ],
+  "action_items": [
+    "Review and update the storage configuration to align with Amazon's disk/volume naming standards."
+  ]
+}

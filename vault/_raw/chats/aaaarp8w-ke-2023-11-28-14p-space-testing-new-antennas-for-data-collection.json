@@ -1,0 +1,26 @@
+{
+  "chat_id": "AAAARP8w-KE",
+  "kind": "Space",
+  "space_name": "Problematic sensors",
+  "participants": 14,
+  "date_range": {
+    "start": "2023-11-28",
+    "end": "2023-11-28"
+  },
+  "message_count": 14,
+  "topic": "Testing new antennas for data collection",
+  "topic_slug": "testing-new-antennas-for-data-collection",
+  "tags": [
+    "analytics",
+    "sensor"
+  ],
+  "summary_markdown": "The discussion centered on testing a proposed antenna from Provantage, specifically for 4G and Wi-Fi connectivity. The goal is to determine if using the new antennas will affect data collection. It was confirmed that the replacement would only involve changing the LTE connection antenna while keeping the existing Wi-Fi setup.\n\nIt was decided to test this on multiple locations and monitor the resulting data quality. A follow-up action item was established for someone to record the list of sensors and the dates when the antennas will be installed.",
+  "decisions": [
+    "Test new 4G/Wi-Fi antennas from Provantage in multiple locations.",
+    "Record the specific sensors and installation dates."
+  ],
+  "action_items": [
+    "Monitor data quality after antenna replacement.",
+    "Someone needs to document the sensor list and planned installation dates."
+  ]
+}

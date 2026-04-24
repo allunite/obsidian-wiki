@@ -1,0 +1,24 @@
+{
+  "chat_id": "i6YI1QAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 2,
+  "date_range": {
+    "start": "2022-07-22",
+    "end": "2022-07-22"
+  },
+  "message_count": 8,
+  "topic": "Calculating average screens viewed during visit",
+  "topic_slug": "calculating-average-screens-viewed-during-visit",
+  "tags": [
+    "analytics",
+    "facility"
+  ],
+  "summary_markdown": "A request was made to calculate the average number of screens a person views during a visit at a mall in Lithuania. The sender noted that calculating this metric for an entire visit is difficult and may not be meaningful. A SQL query was provided to calculate `avg(visited_screens_per_device)` using specific filters (company 7854, facility master 3760) from the `device_session_concept` table.",
+  "decisions": [
+    "A SQL query was provided for calculating average visited screens per device."
+  ],
+  "action_items": [
+    "The sender will provide the requested data/query during the day."
+  ]
+}

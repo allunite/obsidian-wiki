@@ -1,0 +1,22 @@
+{
+  "chat_id": "AAAAud4RJ_I",
+  "kind": "Space",
+  "space_name": "Group Chat",
+  "participants": 4,
+  "date_range": {
+    "start": "2025-04-18",
+    "end": "2025-04-18"
+  },
+  "message_count": 8,
+  "topic": "ML API redeployment to staging and production",
+  "topic_slug": "ml-api-redeployment-staging-and-production",
+  "tags": [
+    "analytics"
+  ],
+  "summary_markdown": "The session involved multiple requests for the redeployment of the `ml-api`. Initially, [p1] requested that someone redeploy `ml-api` from staging to stage. [me] confirmed completing this task. Later, [p1] requested a second redeployment of `ml-api` from the main branch to production. [me] confirmed completing this request as well.",
+  "decisions": [
+    "ML API was successfully redeployed to staging environment.",
+    "ML API was successfully redeployed to production environment."
+  ],
+  "action_items": []
+}

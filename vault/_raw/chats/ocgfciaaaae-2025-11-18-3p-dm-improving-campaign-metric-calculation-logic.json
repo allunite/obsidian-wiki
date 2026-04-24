@@ -1,0 +1,27 @@
+{
+  "chat_id": "oCgFCIAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2025-11-18",
+    "end": "2025-11-18"
+  },
+  "message_count": 17,
+  "topic": "Improving campaign metric calculation logic",
+  "topic_slug": "improving-campaign-metric-calculation-logic",
+  "tags": [
+    "analytics",
+    "campaign",
+    "facility"
+  ],
+  "summary_markdown": "The discussion focused on improving the methodology for calculating campaign metrics. Currently, metrics are calculated across all companies without considering security access, which complicates data filtering and index reliability. It was proposed to change the logic so that metrics are calculated based on the 'campaign owner' (owner-level calculation). This would allow consistent filtering using company IDs.\n\nRegarding data structure improvements, it was noted that the `facility_master` table lacks a many-to-many relationship capability, which is causing historical data loss when dealing with clusters from multiple companies. While no immediate action was taken on this, the idea of adding a field to the facility master was raised for future consideration.",
+  "decisions": [
+    "The logic for calculating campaign metrics will be updated to use the 'campaign owner' scope, allowing filtering by company ID.",
+    "A review will be conducted to determine if implementing the owner-level metric calculation improves performance."
+  ],
+  "action_items": [
+    "[me] will implement the parameter change to support owner-level metric calculations and update views accordingly.",
+    "[p1] will test the owner-level scope for metrics and compare it against current performance."
+  ]
+}

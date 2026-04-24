@@ -1,0 +1,21 @@
+{
+  "chat_id": "AAAAy7Yj6Xo",
+  "kind": "Space",
+  "space_name": "IT",
+  "participants": 12,
+  "date_range": {
+    "start": "2021-06-27",
+    "end": "2021-06-27"
+  },
+  "message_count": 5,
+  "topic": "Recalc failure and timing confirmation",
+  "topic_slug": "recalc-failure-timing-confirmation",
+  "tags": [
+    "analytics"
+  ],
+  "summary_markdown": "A recalculation (recalc) failure was reported early in the morning, which [me] addressed and fixed. Later, a question arose regarding whether a specific fetch should occur before or after 10am UTC; it was confirmed that the fetch must happen before.",
+  "decisions": [
+    "The recalc issue has been resolved."
+  ],
+  "action_items": []
+}

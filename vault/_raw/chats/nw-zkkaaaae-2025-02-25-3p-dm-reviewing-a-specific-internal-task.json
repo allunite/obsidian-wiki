@@ -1,0 +1,21 @@
+{
+  "chat_id": "nW_zkkAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2025-02-25",
+    "end": "2025-02-25"
+  },
+  "message_count": 3,
+  "topic": "Reviewing a specific internal task",
+  "topic_slug": "reviewing-a-specific-internal-task",
+  "tags": [
+    "analytics"
+  ],
+  "summary_markdown": "The conversation started with an attempt to schedule a brief discussion. [p1] subsequently shared a link to an internal Jira ticket (DOOH-1735) for review.",
+  "decisions": [],
+  "action_items": [
+    "Review the provided Jira ticket."
+  ]
+}

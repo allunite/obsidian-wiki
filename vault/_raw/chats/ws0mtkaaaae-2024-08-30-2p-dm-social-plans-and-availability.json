@@ -1,0 +1,17 @@
+{
+  "chat_id": "ws0mTkAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 2,
+  "date_range": {
+    "start": "2024-08-30",
+    "end": "2024-08-30"
+  },
+  "message_count": 13,
+  "topic": "Social plans and availability",
+  "topic_slug": "social-plans-and-availability",
+  "tags": [],
+  "summary_markdown": "The conversation revolves around making social plans. [p1] suggests a gathering with the operations team, implying that [me] could attend at their place.\n\n[me] suggested weekends, specifically Saturday, while noting a preference for dates other than the immediate next day.",
+  "decisions": [],
+  "action_items": []
+}

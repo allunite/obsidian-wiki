@@ -1,0 +1,24 @@
+{
+  "chat_id": "oq-w0kAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2023-05-29",
+    "end": "2023-05-29"
+  },
+  "message_count": 5,
+  "topic": "Optimizing inventory data selection query",
+  "topic_slug": "optimizing-inventory-data-selection-query",
+  "tags": [
+    "analytics",
+    "inventory"
+  ],
+  "summary_markdown": "A discussion occurred regarding the efficiency of a database query used for selecting inventory data. The current method calculates and transmits a total row count (`count(*) over()`) for every single record, which is inefficient for large datasets (13,713 rows on the sandbox environment). It was determined that since the total count is already available or unnecessary for this specific use case, the calculation can be removed entirely from the inventory data query.",
+  "decisions": [
+    "The redundant row counting logic (`count(*) over()`) will be removed from the inventory data selection process."
+  ],
+  "action_items": [
+    "[p1] to remove the total count calculation from the inventory data query."
+  ]
+}

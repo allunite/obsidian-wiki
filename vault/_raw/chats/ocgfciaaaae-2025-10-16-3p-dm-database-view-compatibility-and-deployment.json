@@ -1,0 +1,23 @@
+{
+  "chat_id": "oCgFCIAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2025-10-16",
+    "end": "2025-10-16"
+  },
+  "message_count": 17,
+  "topic": "Database view compatibility and deployment",
+  "topic_slug": "database-view-compatibility-and-deployment",
+  "tags": [
+    "analytics"
+  ],
+  "summary_markdown": "The conversation focused on database schema changes. [p1] questioned the purpose of a specific table creation (`v_device_session_agg_campaign_avg_prod_test`) and its use in production versus staging environments.\n\nLater, it was noted that an existing view had added parameters, causing incompatibility with current calls. The team discussed whether to implement A/B testing for the switch or simply update during deployment. It was decided to proceed with a quick update during deployment due to low traffic and minimal downtime (1-2 minutes).\n\nFinally, [p1] raised concerns about merging code changes, noting that some fixes were in the release branch but missing from development, potentially causing conflicts and data loss.",
+  "decisions": [
+    "The view incompatibility will be resolved by updating during deployment due to low traffic."
+  ],
+  "action_items": [
+    "Someone needs more time for the merge process due to conflicting fixes between branches."
+  ]
+}

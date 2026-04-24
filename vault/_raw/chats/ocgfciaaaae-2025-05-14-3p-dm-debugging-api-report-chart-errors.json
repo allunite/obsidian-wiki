@@ -1,0 +1,22 @@
+{
+  "chat_id": "oCgFCIAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2025-05-14",
+    "end": "2025-05-14"
+  },
+  "message_count": 11,
+  "topic": "Debugging API report chart errors",
+  "topic_slug": "debugging-api-report-chart-errors",
+  "tags": [
+    "analytics",
+    "campaign"
+  ],
+  "summary_markdown": "The participants discussed an error encountered when running a report for campaign charts, specifically noting a syntax error in the query (e.g., `Syntax error: failed at position 18511 ('ORDER')`). The issue was traced to incorrect placement of settings within the code structure. A hotfix was deployed and built to address the problem.",
+  "decisions": [
+    "A hotfix was pushed and successfully built for the report chart API."
+  ],
+  "action_items": []
+}

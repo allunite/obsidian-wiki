@@ -1,0 +1,22 @@
+{
+  "chat_id": "oq-w0kAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2024-03-01",
+    "end": "2024-03-01"
+  },
+  "message_count": 4,
+  "topic": "Campaign metric calculation scope",
+  "topic_slug": "campaign-metric-calculation-scope",
+  "tags": [
+    "analytics",
+    "campaign"
+  ],
+  "summary_markdown": "A discussion occurred regarding the scope of data cleaning/filtering, specifically whether a time cutoff (23:59:59) was only applied to campaigns or if it also affected dashboard metrics. It was confirmed that for now, no changes are needed on the dashboard.",
+  "decisions": [
+    "No immediate filtering change is required for dashboard metrics."
+  ],
+  "action_items": []
+}

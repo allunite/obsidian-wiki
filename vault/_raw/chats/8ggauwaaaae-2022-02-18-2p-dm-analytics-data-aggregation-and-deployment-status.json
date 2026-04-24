@@ -1,0 +1,27 @@
+{
+  "chat_id": "8GgAuwAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 2,
+  "date_range": {
+    "start": "2022-02-18",
+    "end": "2022-02-18"
+  },
+  "message_count": 40,
+  "topic": "Analytics data aggregation and deployment status",
+  "topic_slug": "analytics-data-aggregation-and-deployment-status",
+  "tags": [
+    "analytics",
+    "facility",
+    "campaign"
+  ],
+  "summary_markdown": "The conversation covered two main topics: the completion of a recalculation process and clarification on data aggregation logic. The initial task, involving running a recalculation (recalc), was completed by [me] within an hour.\n\nA significant portion of the discussion focused on discrepancies in analytics totals, specifically why the sum of facility totals did not equal the master total. It was explained that this discrepancy is due to how the cluster aggregates data at the store level, which operates contrary to typical logic. The issue was clarified by referencing existing documentation and product behavior.\n\nFinally, [me] reported deployment issues on staging, advising someone to demonstrate the functionality there and reminding participants of the policy against releasing to production on Fridays.",
+  "decisions": [
+    "The recalculation process was completed successfully.",
+    "Discrepancies between facility totals and master totals were explained as expected due to cluster aggregation logic."
+  ],
+  "action_items": [
+    "Demonstrate the functionality on staging environment.",
+    "Address deployment issues encountered by [me]."
+  ]
+}

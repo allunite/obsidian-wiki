@@ -1,0 +1,22 @@
+{
+  "chat_id": "oCgFCIAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2022-04-08",
+    "end": "2022-04-08"
+  },
+  "message_count": 22,
+  "topic": "Technical build issues and scheduling discussion",
+  "topic_slug": "technical-build-issues-and-scheduling-discussion",
+  "tags": [
+    "analytics"
+  ],
+  "summary_markdown": "The conversation began with a technical issue regarding a corporate web build. [p1] reported problems with dependencies, suggesting something had expired from the node repository and that the build server was failing to compile. The discussion covered attempts to resolve this locally (cleaning/force-building) and remotely (restarting the build). Later, the conversation shifted entirely to scheduling logistics for a meeting invite, followed by non-work related chat about meal preparation.",
+  "decisions": [
+    "None",
+    "The technical issue with the corporate web build was discussed but no definitive fix or follow-up action was assigned."
+  ],
+  "action_items": []
+}

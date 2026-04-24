@@ -1,0 +1,23 @@
+{
+  "chat_id": "oCgFCIAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2024-08-12",
+    "end": "2024-08-12"
+  },
+  "message_count": 7,
+  "topic": "Data storage and session calculation needs",
+  "topic_slug": "data-storage-and-session-calculation-needs",
+  "tags": [
+    "analytics",
+    "session",
+    "inventory"
+  ],
+  "summary_markdown": "The conversation revolves around the need for a `device_session_concept_temp` table due to ongoing recalculations of city media data by someone. This process is resource-intensive and requires significant storage space.\n\nCurrently, the data is being stored on 'hot' infrastructure because previous limitations in space forced this setup. The team plans to migrate the table to 'cold' storage once data archiving improvements free up sufficient space on the 'cold' platform. However, there are ongoing delays with the recalculations, and the current location (the 'hot' environment) is under heavy disk load due to the volume of copied sessions and continuous configuration changes.",
+  "decisions": [
+    "The `device_session_concept_temp` table was utilized for storing data needed for city media recalculations."
+  ],
+  "action_items": []
+}

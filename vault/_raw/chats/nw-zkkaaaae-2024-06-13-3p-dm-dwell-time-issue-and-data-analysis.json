@@ -1,0 +1,26 @@
+{
+  "chat_id": "nW_zkkAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2024-06-13",
+    "end": "2024-06-13"
+  },
+  "message_count": 19,
+  "topic": "Dwell time issue and data analysis",
+  "topic_slug": "dwell-time-issue-and-data-analysis",
+  "tags": [
+    "analytics",
+    "dwell-time",
+    "facility"
+  ],
+  "summary_markdown": "The conversation covered multiple data requests. Initially, a test dataset for 'Провантажа' was requested using model1-5.\n\nLater, specific facility IDs were provided for analysis covering the 7th to 10th months of 2023. A SQL query was generated and shared for viewing raw seen data from July 2023.\n\nThe primary issue discussed was a problem with dwell time on the platform. Links to two different analytics dashboards (one for Atrium, one for Visionet LED) were provided to investigate this issue.",
+  "decisions": [
+    "The analysis will focus on a dwell-time issue observed on the platform.",
+    "Specific facility IDs were identified for historical data review."
+  ],
+  "action_items": [
+    "Investigate and resolve the reported dwell time problem using provided analytics dashboards."
+  ]
+}

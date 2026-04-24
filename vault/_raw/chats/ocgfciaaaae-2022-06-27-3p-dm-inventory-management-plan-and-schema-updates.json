@@ -1,0 +1,28 @@
+{
+  "chat_id": "oCgFCIAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2022-06-27",
+    "end": "2022-06-27"
+  },
+  "message_count": 7,
+  "topic": "Inventory management plan and schema updates",
+  "topic_slug": "inventory-management-plan-and-schema-updates",
+  "tags": [
+    "analytics",
+    "campaign",
+    "inventory"
+  ],
+  "summary_markdown": "The discussion focused on the status of inventory management tasks. One participant noted needing a plan for inventory management, as the scope was unclear.\n\nAnother participant mentioned immediate tasks including work with Galina and implementing a JSON schema for assets. This is considered a major, foundational change, starting with a default schema that can later be customized per company.\n\nA third participant recalled having broken the saving functionality (which could be simplified to accommodate the new schema) and noted the need to integrate S3 storage and implement import/export features. They also mentioned updating the Hong Kong firmware, which seemed more stable.",
+  "decisions": [
+    "Implement a default JSON schema for assets first",
+    "Integrate S3 functionality for saving data",
+    "Develop import/export capabilities"
+  ],
+  "action_items": [
+    "Create a plan for inventory management tasks",
+    "Fix the broken save functionality to accommodate the new asset schema"
+  ]
+}

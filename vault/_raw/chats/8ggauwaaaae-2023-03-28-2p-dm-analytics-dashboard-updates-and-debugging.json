@@ -1,0 +1,25 @@
+{
+  "chat_id": "8GgAuwAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 2,
+  "date_range": {
+    "start": "2023-03-28",
+    "end": "2023-03-28"
+  },
+  "message_count": 22,
+  "topic": "Analytics dashboard updates and debugging",
+  "topic_slug": "analytics-dashboard-updates-and-debugging",
+  "tags": [
+    "analytics",
+    "campaign"
+  ],
+  "summary_markdown": "The conversation focused on updating analytics dashboards. [me] confirmed that the totals had been fixed, pending data re-uploading. The user requested a review of specific metrics (mols) and pointed out several bugs/questions in the existing setup. It was determined that redeploying the analytics was necessary for all changes to appear. A meeting was scheduled for later in the day, culminating in [me] deploying the fixes to production by 14:35.",
+  "decisions": [
+    "Analytics dashboards were declared ready after fixing totals and pending data re-upload.",
+    "A deployment of fixes was completed and pushed to production."
+  ],
+  "action_items": [
+    "Schedule a follow-up call to review user and conversion metrics."
+  ]
+}

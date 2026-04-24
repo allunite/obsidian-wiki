@@ -1,0 +1,25 @@
+{
+  "chat_id": "0m7UOUAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2026-03-20",
+    "end": "2026-03-20"
+  },
+  "message_count": 4,
+  "topic": "Missing device IDs in session data",
+  "topic_slug": "missing-device-ids-in-session-data",
+  "tags": [
+    "analytics",
+    "session",
+    "device-id"
+  ],
+  "summary_markdown": "A data issue was identified where `device_id` appears to be missing from the `device_session_trusted` table, specifically for virtual sessions. The conversation confirms that this column might have been intentionally removed previously. [me] provided a fix via GitHub and suggested either reprocessing the data or updating it directly from the `device_session` table.",
+  "decisions": [
+    "A fix was implemented by [me] in the specified repository."
+  ],
+  "action_items": [
+    "Someone needs to create a ticket for the necessary data reprocessing/update."
+  ]
+}

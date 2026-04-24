@@ -1,0 +1,28 @@
+{
+  "chat_id": "AAAAl4SgH7c",
+  "kind": "Space",
+  "space_name": "Lithuania_old",
+  "participants": 6,
+  "date_range": {
+    "start": "2021-09-08",
+    "end": "2021-09-08"
+  },
+  "message_count": 9,
+  "topic": "Dashboard feedback and data methodology questions",
+  "topic_slug": "dashboard-feedback-and-data-methodology-questions",
+  "tags": [
+    "analytics",
+    "impression",
+    "dwell-time",
+    "campaign"
+  ],
+  "summary_markdown": "Following a presentation of the project to clients/agencies, feedback was received indicating strong market demand for detailed data beyond simple repetition counts. The primary focus moving forward is the AllUnite Dashboard. Several key questions were raised regarding data methodology and functionality:\n\n*   **Impressions:** Clarification is needed from Corp regarding how \"Viewed / Viewable Impressions\" are calculated.\n*   **Traffic Segmentation:** Whether it's possible to specify traffic by group (pedestrians, car drivers, cyclists). It was noted that while determining groups based on moving speed is possible, the current goal is total traffic count.\n*   **Client Access:** If clients and agencies can gain direct access to the AllUnite Dashboard for self-analysis and improved post-campaign reporting.\n*   **Device Counting:** Confirmation was sought regarding whether manual counting prevents a single person with multiple mobile devices from being counted as unique traffic. It was confirmed that manual counting does prevent this discrepancy.\n\nOverall, the project is viewed positively, suggesting strong prospects for future development of new functions and network expansion.",
+  "decisions": [
+    "The AllUnite Dashboard will be used moving forward until unanswered questions regarding 'Viewed / Viewable Impressions' methodology are resolved."
+  ],
+  "action_items": [
+    "Address client/agency questions regarding the calculation of Viewed/Viewable Impressions with Corp.",
+    "Develop functionality to potentially segment traffic by group (pedestrians, cars, cyclists) using 2D lidar and analog screens data.",
+    "Determine feasibility of granting clients and agencies direct access to analyze data via the AllUnite Dashboard."
+  ]
+}

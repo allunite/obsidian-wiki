@@ -1,0 +1,19 @@
+{
+  "chat_id": "1er37EAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 2,
+  "date_range": {
+    "start": "2023-02-20",
+    "end": "2023-02-20"
+  },
+  "message_count": 5,
+  "topic": "Scheduling a follow-up call",
+  "topic_slug": "scheduling-a-follow-up-call",
+  "tags": [],
+  "summary_markdown": "The participants exchanged messages regarding scheduling a meeting. The initial request for a call was acknowledged, but the time had to be postponed due to conflicting meetings and commitments.",
+  "decisions": [
+    "A follow-up call was scheduled for approximately one hour after 12:55."
+  ],
+  "action_items": []
+}

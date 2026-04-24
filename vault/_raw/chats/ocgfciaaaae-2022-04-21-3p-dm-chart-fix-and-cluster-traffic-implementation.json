@@ -1,0 +1,21 @@
+{
+  "chat_id": "oCgFCIAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2022-04-21",
+    "end": "2022-04-21"
+  },
+  "message_count": 3,
+  "topic": "Chart fix and cluster traffic implementation",
+  "topic_slug": "chart-fix-and-cluster-traffic-implementation",
+  "tags": [
+    "analytics"
+  ],
+  "summary_markdown": "A chart fix was discussed, noting that the `with fill` function worked as expected. A question was raised regarding the integration of clustered traffic into the code and whether the resulting figures matched expectations. [me] confirmed that the feature had not been implemented and that the numbers did not align. The topic will be discussed with a colleague later.",
+  "decisions": [],
+  "action_items": [
+    "Discuss cluster traffic options with Sania"
+  ]
+}

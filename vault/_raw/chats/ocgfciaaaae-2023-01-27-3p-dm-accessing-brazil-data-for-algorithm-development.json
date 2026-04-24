@@ -1,0 +1,23 @@
+{
+  "chat_id": "oCgFCIAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2023-01-27",
+    "end": "2023-01-27"
+  },
+  "message_count": 7,
+  "topic": "Accessing Brazil data for algorithm development",
+  "topic_slug": "accessing-brazil-data-for-algorithm-development",
+  "tags": [
+    "analytics",
+    "frame",
+    "inventory"
+  ],
+  "summary_markdown": "The discussion centered on providing access to Brazil data for algorithm development, specifically concerning how Galina (a team member) can work with the frames and data. Two initial options were presented: 1) Importing the frames directly into the production database, or 2) Setting up sandbox access. A third option of granting sandbox access via a VPN was also considered. [me] suggested that both paths could be pursued. It was noted that having additional support (from someone named Tolya) would simplify the process for everyone.",
+  "decisions": [],
+  "action_items": [
+    "Coordinate with team members to provide necessary support for data access."
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "chat_id": "AAAA3frAfLA",
+  "kind": "Space",
+  "space_name": "Lidar Tech",
+  "participants": 8,
+  "date_range": {
+    "start": "2021-11-23",
+    "end": "2021-11-23"
+  },
+  "message_count": 12,
+  "topic": "Lidar mounting setup improvements",
+  "topic_slug": "lidar-mounting-setup-improvements",
+  "tags": [
+    "facility"
+  ],
+  "summary_markdown": "The discussion focused on improving the physical installation and measurement process for lidar equipment. Suggestions included:\n*   Ensuring sufficient space/gaps for bolts to allow proper angling.\n*   Adding a built-in protractor or angle scale to simplify mounting and alignment.\n*   Including a spirit level (transporter) in the kit, as measuring angles on a screen is impractical during actual installation.\n*   Making the surface grippable (e.g., using a ribbed texture like bicycle lights) so that the equipment does not rotate when secured.",
+  "decisions": [],
+  "action_items": [
+    "Someone to find an image illustrating the proposed anti-rotation, ribbed surface."
+  ]
+}

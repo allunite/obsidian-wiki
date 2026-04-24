@@ -1,0 +1,23 @@
+{
+  "chat_id": "nW_zkkAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2025-10-06",
+    "end": "2025-10-06"
+  },
+  "message_count": 7,
+  "topic": "Accessing calibration data and logs",
+  "topic_slug": "accessing-calibration-data-and-logs",
+  "tags": [
+    "analytics"
+  ],
+  "summary_markdown": "A user reported a problem with calibration data for airport models, which were updated after testing on beta. The client requested a comparison between old and new data sets. The user needed to locate the production environment data or access historical change logs/calibration records. It was confirmed that the necessary information could be viewed via job logs.",
+  "decisions": [
+    "The user can check the required data location using job logs."
+  ],
+  "action_items": [
+    "Someone needs to run a specific SQL query on 'ch' (presumably checking the job log table) to find the relevant event time and data for the copy process."
+  ]
+}

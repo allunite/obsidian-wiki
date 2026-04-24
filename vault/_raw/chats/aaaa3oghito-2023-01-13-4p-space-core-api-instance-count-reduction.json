@@ -1,0 +1,21 @@
+{
+  "chat_id": "AAAA3oghITo",
+  "kind": "Space",
+  "space_name": "Кабаны",
+  "participants": 4,
+  "date_range": {
+    "start": "2023-01-13",
+    "end": "2023-01-13"
+  },
+  "message_count": 3,
+  "topic": "Core API instance count reduction",
+  "topic_slug": "core-api-instance-count-reduction",
+  "tags": [
+    "analytics"
+  ],
+  "summary_markdown": "A discussion regarding the number of running instances for the core-api service, which is currently deployed in two redundant instances within Kubernetes. Someone questioned if reducing the instance count to one was feasible due to a significant drop in request volume.\n\nThe decision was made that maintaining only a single instance would be sufficient.",
+  "decisions": [
+    "Reduce core-api running instances from two to one."
+  ],
+  "action_items": []
+}

@@ -1,0 +1,20 @@
+{
+  "chat_id": "AAAA-gn4oPg",
+  "kind": "Space",
+  "space_name": "General and random",
+  "participants": 36,
+  "date_range": {
+    "start": "2023-09-20",
+    "end": "2023-09-20"
+  },
+  "message_count": 8,
+  "topic": "Expansion plans in Malaysia",
+  "topic_slug": "expansion-plans-in-malaysia",
+  "tags": [
+    "facility",
+    "inventory"
+  ],
+  "summary_markdown": "A discussion was held regarding AllUnite's planned expansion into Malaysia. The initial phase aims to cover Airports, Metro, and the twin tower areas, targeting 5000 screens. A second phase is projected to add another 5000 screens, with an expected total reach of approximately 20,000 screens.",
+  "decisions": [],
+  "action_items": []
+}

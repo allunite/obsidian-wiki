@@ -1,0 +1,27 @@
+{
+  "chat_id": "y9IEDQAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2025-09-09",
+    "end": "2025-09-09"
+  },
+  "message_count": 73,
+  "topic": "AFA Aarhus analytics data setup and validation",
+  "topic_slug": "afa-aarhus-analytics-data-setup-and-validation",
+  "tags": [
+    "facility",
+    "inventory",
+    "analytics",
+    "campaign"
+  ],
+  "summary_markdown": "The session covered several technical and data setup topics.\n\n1. **AFA Aarhus Data Access:** The participants addressed an issue with accessing analytics data for a set of frames in Aarhus from AFA. It was determined that the previous access method might have been incorrect, and [p1] created a new account/access point. The process required updating user permissions to correctly link users (specifically those associated with `afa-aarhus.com`) to the company's facility data.\n2. **Data Visibility:** Initial attempts to view the data were unsuccessful due to caching issues; it was noted that the cache might expire after about an hour, and refreshing or waiting for the cache to clear resolved the visibility problem.\n3. **Reporting Discrepancy:** A discrepancy was reported where the sum of viewed impressions by frame did not match the total in a campaign report. This task was assigned to [me] because it included detailed steps and an XLSX comparison file.\n4. **Ramboll Data Structure:** Finally, confusion arose regarding data tasks for Ramboll (Indoor vs. Outdoor). It was clarified that while validation occurred for indoor facilities, the general update process for Ramboll demography is a separate task.",
+  "decisions": [
+    "The AFA Aarhus analytics access required updating user permissions to link users to company facility data.",
+    "A reported discrepancy in viewed impressions vs. total impressions was assigned to [me] for investigation."
+  ],
+  "action_items": [
+    "Investigate the discrepancy between viewed impressions by frame and total impressions for the specified campaign (Task ID: 86c5d78c7)."
+  ]
+}

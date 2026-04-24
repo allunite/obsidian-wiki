@@ -1,0 +1,23 @@
+{
+  "chat_id": "oCgFCIAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2021-12-02",
+    "end": "2021-12-02"
+  },
+  "message_count": 38,
+  "topic": "Database compression and query access issues",
+  "topic_slug": "database-compression-and-query-access-issues",
+  "tags": [
+    "analytics",
+    "compression",
+    "session"
+  ],
+  "summary_markdown": "The discussion covered two main technical topics: data storage efficiency and database querying. First, the participants analyzed why the `device_id` column in the `device_session_concept_sharded` table was consuming a disproportionate amount of disk space despite general compression being enabled. It was noted that because `device_id` is a hash function output (64-bit integers) and not sorted, it resists strong compression.\n\nSecond, issues accessing data in PostgreSQL were discussed. The initial problem involved the user seeing tables but receiving 'no such table' errors when running queries like `select * from allunite.country;`. This was resolved by explicitly selecting the database and schema context within the console, which allowed successful querying (e.g., `select * from public.country;`).\n\nFinally, participants reviewed compression codecs found in system metadata, noting different codecs like `CODEC(LZ4HC(0))` versus `CODEC(ZSTD(1))`, and confirmed that these codes describe the data compression used.",
+  "decisions": [
+    "The difficulty of compressing non-sorted 64-bit hash values (like device_id) was acknowledged."
+  ],
+  "action_items": []
+}

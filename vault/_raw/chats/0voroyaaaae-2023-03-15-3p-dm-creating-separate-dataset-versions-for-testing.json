@@ -1,0 +1,24 @@
+{
+  "chat_id": "0VorOYAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2023-03-15",
+    "end": "2023-03-15"
+  },
+  "message_count": 16,
+  "topic": "Creating separate dataset versions for testing",
+  "topic_slug": "creating-separate-dataset-versions-for-testing",
+  "tags": [
+    "analytics",
+    "campaign"
+  ],
+  "summary_markdown": "The discussion focused on creating a dedicated, isolated version of the data (similar to a copy of the staging environment) to allow comparison of multiple models without impacting production. It was confirmed that separate versions can be created and accessed via dataset parameters in the dashboard and scripts.\n\nSpecifically, [me] provided guidance on how the new model version (`model2`) would be referenced in both the data retrieval script (using `dictGetUInt16('device_session_agg_version', 'id', tuple('model2'))`) and the mall dashboard URL (`&ds=model2`).\n\n[p1] confirmed that the process for populating the ML table should remain consistent with previous methods, using the existing script (`ml_traffic_prediction`), and that the data loading from the ML table into the new `model2` version would be done via a specific SQL query.",
+  "decisions": [
+    "A separate dataset version (e.g., model2) will be created for testing purposes to compare multiple models without affecting production."
+  ],
+  "action_items": [
+    "[p1] will test the newly created data versions."
+  ]
+}

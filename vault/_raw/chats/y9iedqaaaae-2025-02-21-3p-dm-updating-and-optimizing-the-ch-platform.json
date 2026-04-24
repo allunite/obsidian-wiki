@@ -1,0 +1,26 @@
+{
+  "chat_id": "y9IEDQAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2025-02-21",
+    "end": "2025-02-21"
+  },
+  "message_count": 30,
+  "topic": "Updating and optimizing the CH platform",
+  "topic_slug": "updating-and-optimizing-the-ch-platform",
+  "tags": [
+    "campaign",
+    "analytics",
+    "facility"
+  ],
+  "summary_markdown": "The discussion covered two main technical topics. First, an update to the 'CH' system was planned for the next day, involving deploying a new configuration before upgrading to version 25.1.\n\nA second major topic concerned optimizing data storage and retrieval costs/performance. Currently, the system uses hot and cold storage on S3 (costing $130/month for 11.3 TB). The proposal is to migrate both cold and partially hot data to S3. To improve speed and potentially reduce cost, it was suggested using a local SSD cache instead of relying solely on hot/cold tiers, especially if most requests hit the local cache while rare date-time recalculations pull data from S3.\n\nSeparately, an API key issue for creating a project within AllUnite's OpenAI platform was resolved by someone else.",
+  "decisions": [
+    "The CH system will be updated to version 25.1 after deploying a new configuration first."
+  ],
+  "action_items": [
+    "Test the feasibility of using local SSD cache for data retrieval instead of relying solely on hot/cold S3 storage.",
+    "Someone needs to provide details on current disk costs (hot and cold) for the CH platform."
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "chat_id": "AAAA3oghITo",
+  "kind": "Space",
+  "space_name": "Кабаны",
+  "participants": 4,
+  "date_range": {
+    "start": "2022-11-03",
+    "end": "2022-11-03"
+  },
+  "message_count": 25,
+  "topic": "Granting deployment access to a user",
+  "topic_slug": "granting-deployment-access-to-a-user",
+  "tags": [
+    "analytics",
+    "inventory"
+  ],
+  "summary_markdown": "The discussion focused on providing a new user (referred to as 'Леша') with independent deployment capabilities. Options discussed included granting access via a micro-instance or full machine access under their own user account, ideally located on the development environment and dedicated hardware.\n\nInitial suggestions involved using Rundeck for simple version updates, but this was deemed too restrictive for complex deployments. It was concluded that providing sufficient execution rights (like those of a dedicated machine) would be the most flexible solution, potentially simplifying the need to configure MFA locally.\n\nOne participant noted an AWS AccessDeniedException error when attempting to describe an EKS cluster using a specific assumed role.",
+  "decisions": [
+    "The user should receive deployment access on the development environment.",
+    "Access should be granted via dedicated hardware or sufficient execution rights, rather than being limited to simple job scheduling (like Rundeck)."
+  ],
+  "action_items": [
+    "Someone needs to address the AWS AccessDeniedException error related to EKS cluster description."
+  ]
+}

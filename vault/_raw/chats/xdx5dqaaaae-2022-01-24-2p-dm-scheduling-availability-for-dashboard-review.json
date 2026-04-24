@@ -1,0 +1,19 @@
+{
+  "chat_id": "xdx5dQAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 2,
+  "date_range": {
+    "start": "2022-01-24",
+    "end": "2022-01-24"
+  },
+  "message_count": 10,
+  "topic": "Scheduling availability for dashboard review",
+  "topic_slug": "scheduling-availability-for-dashboard-review",
+  "tags": [
+    "analytics"
+  ],
+  "summary_markdown": "The conversation was primarily social and logistical. Someone mentioned being in a meeting with others, while [unknown] stated they were interviewing freelancers for dashboards and suggested that [me] participate.",
+  "decisions": [],
+  "action_items": []
+}

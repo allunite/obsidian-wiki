@@ -1,0 +1,23 @@
+{
+  "chat_id": "AAAA9ybOLwM",
+  "kind": "Space",
+  "space_name": "ИТ",
+  "participants": 8,
+  "date_range": {
+    "start": "2021-03-22",
+    "end": "2021-03-22"
+  },
+  "message_count": 15,
+  "topic": "Model implementation for ocean/citymedia",
+  "topic_slug": "model-implementation-for-ocean-citymedia",
+  "tags": [
+    "analytics"
+  ],
+  "summary_markdown": "Someone was asked if they could implement a model (linked in the chat) for 'ocean/citymedia'. The individual confirmed they could and planned to upload it to staging by the next day. They noted that Galina and Esben would clarify some details today before they started working on it.",
+  "decisions": [
+    "The model implementation for ocean/citymedia will be uploaded to staging tomorrow."
+  ],
+  "action_items": [
+    "Galina and Esben need to clarify necessary details today."
+  ]
+}

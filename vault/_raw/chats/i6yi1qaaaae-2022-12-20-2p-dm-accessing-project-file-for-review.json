@@ -1,0 +1,23 @@
+{
+  "chat_id": "i6YI1QAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 2,
+  "date_range": {
+    "start": "2022-12-20",
+    "end": "2022-12-20"
+  },
+  "message_count": 8,
+  "topic": "Accessing the project file for review",
+  "topic_slug": "accessing-project-file-for-review",
+  "tags": [
+    "analytics"
+  ],
+  "summary_markdown": "The conversation focused on accessing a specific project file. [p1] initially stated they would share the project later due to licensing limitations. [me] inquired about the sharing scope, specifically if it was available to all users within the AllUnite domain. Due to technical restrictions regarding adding work/school email addresses as personal account aliases, an alternative arrangement was agreed upon: scheduling a call for access setup.",
+  "decisions": [
+    "A follow-up call will be scheduled to grant necessary project access."
+  ],
+  "action_items": [
+    "Schedule a call to add [me] to the project/account."
+  ]
+}

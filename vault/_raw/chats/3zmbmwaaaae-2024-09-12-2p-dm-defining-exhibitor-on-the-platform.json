@@ -1,0 +1,19 @@
+{
+  "chat_id": "3ZMBmwAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 2,
+  "date_range": {
+    "start": "2024-09-12",
+    "end": "2024-09-12"
+  },
+  "message_count": 7,
+  "topic": "Defining 'Exhibitor' on the platform",
+  "topic_slug": "defining-exhibitor-on-the-platform",
+  "tags": [
+    "analytics"
+  ],
+  "summary_markdown": "A discussion occurred regarding the definition of an 'Exhibitor' within the platform. Specifically, [p1] asked whether 'Exhibitor' refers to a media owner or a media agency, and who is responsible for the user interface/user account. [me] stated that this question was directed to someone named Zhenya (Жене) and mentioned that there are two different terms used by Sergio for 'Exhibitor', advising against getting too deep into those details.",
+  "decisions": [],
+  "action_items": []
+}

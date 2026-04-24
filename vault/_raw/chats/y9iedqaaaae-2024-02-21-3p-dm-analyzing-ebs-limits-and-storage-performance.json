@@ -1,0 +1,22 @@
+{
+  "chat_id": "y9IEDQAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2024-02-21",
+    "end": "2024-02-21"
+  },
+  "message_count": 8,
+  "topic": "Analyzing EBS limits and storage performance",
+  "topic_slug": "analyzing-ebs-limits-and-storage-performance",
+  "tags": [
+    "analytics",
+    "facility"
+  ],
+  "summary_markdown": "The discussion focused on diagnosing a transfer bottleneck observed at approximately 130MB/sec. It was determined that this limitation is likely due to the EBS volume limit, not the instance capacity. The conversation then shifted to optimizing storage performance for 'hot' environments. Suggestions included investigating faster drives that provide good sequential read speeds and considering whether the primary workload involves large, sequential blocks or small reads during startup. Specific comparisons were made between using ST1 (faster) versus SC1 (slower) storage types.",
+  "decisions": [],
+  "action_items": [
+    "Investigate faster drives for 'hot' environments that provide good sequential read speeds."
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "chat_id": "0VorOYAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2024-11-12",
+    "end": "2024-11-12"
+  },
+  "message_count": 3,
+  "topic": "Reviewing client data period and linking",
+  "topic_slug": "reviewing-client-data-period-and-linking",
+  "tags": [
+    "analytics"
+  ],
+  "summary_markdown": "The discussion focused on reviewing a specific time period for a client's data, particularly concerning potential coverage gaps or the need to apply new linking methods. The participants were adjusting their focus area while discussing date ranges.",
+  "decisions": [],
+  "action_items": []
+}

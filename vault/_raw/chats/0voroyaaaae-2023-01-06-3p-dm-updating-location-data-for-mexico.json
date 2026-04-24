@@ -1,0 +1,24 @@
+{
+  "chat_id": "0VorOYAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2023-01-06",
+    "end": "2023-01-06"
+  },
+  "message_count": 18,
+  "topic": "Updating location data for Mexico",
+  "topic_slug": "updating-location-data-for-mexico",
+  "tags": [
+    "analytics",
+    "facility"
+  ],
+  "summary_markdown": "The conversation focused on updating specific parameters for locations in Mexico. The required changes included setting a signal limit (sl) of 89 for staging and assigning the 'bus shelter' category to all locations.\n\nTechnical review was conducted regarding the calibration script used by [p1]. It was determined that when calculating data for production staging, the final parameter in the `getCalibrationSignalLimit` function must be set to 0 (instead of 1).\n\n[me] confirmed that the signal limit of 89 for Mexico had been explicitly added to the calibration settings and that the category assignment was completed.",
+  "decisions": [
+    "Set signal limit (sl) to 89 for staging in Mexico.",
+    "Assign 'bus shelter' category to all locations in Mexico.",
+    "Update the `getCalibrationSignalLimit` function parameter for production staging to 0."
+  ],
+  "action_items": []
+}

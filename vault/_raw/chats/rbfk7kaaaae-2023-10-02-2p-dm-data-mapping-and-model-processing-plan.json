@@ -1,0 +1,29 @@
+{
+  "chat_id": "rBfK7kAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 2,
+  "date_range": {
+    "start": "2023-10-02",
+    "end": "2023-10-02"
+  },
+  "message_count": 34,
+  "topic": "Data mapping and model processing plan",
+  "topic_slug": "data-mapping-and-model-processing-plan",
+  "tags": [
+    "facility",
+    "session",
+    "analytics"
+  ],
+  "summary_markdown": "The discussion covered updating sensor data, including a new file for nearby sensors. It was decided that historical session data should be included starting from June 1st, pending confirmation from someone.\n\nRegarding facility mapping, it was noted that the virtual facility number 24143 is not in the database and will be excluded from processing. The team reviewed existing mappings, noting that most facilities are already mapped, but some sensors were recently moved, which may affect data quality. A specific focus was placed on accurately mapping facility numbers starting with '27'.\n\nFinally, session data was inserted for model calculation. It was agreed that the aggregation step should not be performed by the recipient, as they will manually insert the new data points.",
+  "decisions": [
+    "Historical session data will be included starting from June 1st (pending confirmation)",
+    "Virtual facility number 24143 will be excluded",
+    "The model should be run using the newly inserted session data, but aggregation must be skipped by the recipient."
+  ],
+  "action_items": [
+    "Someone needs to confirm the start date for historical session data (June 1st)",
+    "Run the predictive model on the new session data",
+    "The recipient will manually handle the final data aggregation/insertion of new points"
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "chat_id": "i6YI1QAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 2,
+  "date_range": {
+    "start": "2023-02-02",
+    "end": "2023-02-02"
+  },
+  "message_count": 13,
+  "topic": "Reviewing dwell time documentation details",
+  "topic_slug": "reviewing-dwell-time-documentation-details",
+  "tags": [
+    "dwell-time",
+    "analytics"
+  ],
+  "summary_markdown": "The participants reviewed the definition and usage of 'dwell time' based on a provided document. The primary feedback was that while the core content was accurate, the example character used in the documentation was inappropriate and should be replaced with an abstract figure of undefined nationality. Additionally, specific formatting corrections were made regarding spacing: a space must appear after the period in the first line.",
+  "decisions": [
+    "Replace the example person in the dwell time documentation with an abstract figure."
+  ],
+  "action_items": []
+}

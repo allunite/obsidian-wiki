@@ -1,0 +1,19 @@
+{
+  "chat_id": "AAAA-gn4oPg",
+  "kind": "Space",
+  "space_name": "General and random",
+  "participants": 36,
+  "date_range": {
+    "start": "2025-02-20",
+    "end": "2025-02-20"
+  },
+  "message_count": 3,
+  "topic": "APAC event sponsorship and presentation success",
+  "topic_slug": "apac-event-sponsorship-presentation-success",
+  "tags": [
+    "campaign"
+  ],
+  "summary_markdown": "A participant noted attending a dinner with various APAC associations as sponsors. Another participant congratulated someone on a 'very very fantastic' presentation of AllUnite (AU) to approximately 350 people in Japan.",
+  "decisions": [],
+  "action_items": []
+}

@@ -1,0 +1,21 @@
+{
+  "chat_id": "AAAA97r8Cx0",
+  "kind": "Space",
+  "space_name": "Dubai DF",
+  "participants": 6,
+  "date_range": {
+    "start": "2021-10-19",
+    "end": "2021-10-19"
+  },
+  "message_count": 10,
+  "topic": "Purchasing power adapter and router",
+  "topic_slug": "purchasing-power-adapter-and-router",
+  "tags": [
+    "inventory"
+  ],
+  "summary_markdown": "The group discussed the cost of a necessary adaptor from Teltonika in Dubai, priced at AED 682.50 ($186). Several participants expressed concern over the high cost compared to alternative pricing. After confirming that the router was included in the purchase, the group agreed that it was the only available option.",
+  "decisions": [
+    "Proceed with purchasing the adaptor and router from Teltonika."
+  ],
+  "action_items": []
+}

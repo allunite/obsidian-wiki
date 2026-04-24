@@ -1,0 +1,28 @@
+{
+  "chat_id": "i6YI1QAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 2,
+  "date_range": {
+    "start": "2021-06-23",
+    "end": "2021-06-23"
+  },
+  "message_count": 61,
+  "topic": "Device session data calibration and demographics",
+  "topic_slug": "device-session-data-calibration-and-demographics",
+  "tags": [
+    "analytics",
+    "facility",
+    "campaign",
+    "session",
+    "device-id"
+  ],
+  "summary_markdown": "The discussion focused on troubleshooting device session data discrepancies and planning for demographic analysis.\n\n**Data Calibration:**\n*   [p1] noted that while the database contains data, the monitoring system (Modse) does not reflect it. Several SQL queries were shared to investigate `device_session_concept` and calibration tables.\n*   [me] advised using `device_session_calibration_3` instead of staging tables for calibration checks. \n*   It was determined that low signal level thresholds (e.g., 67) might be incorrectly displayed due to reliance on general default calibrations (`company_id is null`).\n*   A decision was made to implement specific, explicit calibrations for the target sensor and for a test company/facility.\n*   The process of calibration lookup was reviewed: by facility, by company, by parent company (partner), or default.\n\n**Demographics:**\n*   [p1] proposed analyzing demographic patterns by tracking real MAC addresses across different regions (e.g., comparing evening activity in a metro area vs. morning activity). \n*   The initial step suggested was estimating the number of residents in various Copenhagen regions based on visitor data from a specific facility.\n*   It was noted that calibration for demographics seems limited to the facility level, with no apparent company-level calibration capability.",
+  "decisions": [
+    "Implement explicit device session calibrations for the target sensor and for the test company/facility."
+  ],
+  "action_items": [
+    "Run new sessions calculations using the newly applied calibrations (expected to be available tomorrow).",
+    "Investigate demographic tracking by correlating real MAC addresses with geographical regions, starting with a specific facility's visitor patterns."
+  ]
+}

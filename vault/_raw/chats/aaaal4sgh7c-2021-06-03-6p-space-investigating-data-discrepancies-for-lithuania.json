@@ -1,0 +1,24 @@
+{
+  "chat_id": "AAAAl4SgH7c",
+  "kind": "Space",
+  "space_name": "Lithuania_old",
+  "participants": 6,
+  "date_range": {
+    "start": "2021-06-03",
+    "end": "2021-06-03"
+  },
+  "message_count": 4,
+  "topic": "Investigating data discrepancies for Lithuania",
+  "topic_slug": "investigating-data-discrepancies-for-lithuania",
+  "tags": [
+    "analytics",
+    "session"
+  ],
+  "summary_markdown": "The team is investigating potential data issues related to the City category in Lithuania. Specifically, there are observed discrepancies between total and unique counts on a given date. While duplicates within sessions cannot be seen, further investigation into anomaly detection and other potential sources of error is required before informing the client.",
+  "decisions": [
+    "No concrete decisions made."
+  ],
+  "action_items": [
+    "Continue investigating data anomalies for Lithuania's City category."
+  ]
+}

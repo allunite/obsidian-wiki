@@ -1,0 +1,21 @@
+{
+  "chat_id": "xdx5dQAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 2,
+  "date_range": {
+    "start": "2021-01-11",
+    "end": "2021-01-11"
+  },
+  "message_count": 4,
+  "topic": "Invoice request for consulting help",
+  "topic_slug": "invoice-request-for-consulting-help",
+  "tags": [
+    "analytics"
+  ],
+  "summary_markdown": "Someone requested an invoice for AKE Consult totaling 400 EUR, covering assistance with an interview. [me] acknowledged the request.",
+  "decisions": [],
+  "action_items": [
+    "Generate and send invoice to AKE Consult for 400 EUR."
+  ]
+}

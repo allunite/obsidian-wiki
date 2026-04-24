@@ -1,0 +1,27 @@
+{
+  "chat_id": "AAAAl4SgH7c",
+  "kind": "Space",
+  "space_name": "Lithuania_old",
+  "participants": 6,
+  "date_range": {
+    "start": "2021-05-11",
+    "end": "2021-05-11"
+  },
+  "message_count": 23,
+  "topic": "Sensor installation and data health check",
+  "topic_slug": "sensor-installation-and-data-health-check",
+  "tags": [
+    "facility",
+    "analytics",
+    "impression"
+  ],
+  "summary_markdown": "The session covered the physical installation of sensors and subsequent data validation. Cables were received, and an attempt was made to install two sensors.\n\nLater in the day, it was noted that both installed sensors are categorized under a specific city type. It was suggested that manual counting might be beneficial while time allowed. This suggestion was agreed upon, provided that preliminary checks confirmed the data's overall health and integrity.",
+  "decisions": [
+    "Manual counting of the two newly installed sensors will be performed.",
+    "Data health check must be completed before proceeding with manual counts."
+  ],
+  "action_items": [
+    "Review locations and surroundings for context.",
+    "Perform data health checks on sensor readings."
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "chat_id": "y9IEDQAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2021-03-09",
+    "end": "2021-03-09"
+  },
+  "message_count": 93,
+  "topic": "Monitoring raw device data availability",
+  "topic_slug": "monitoring-raw-device-data-availability",
+  "tags": [
+    "analytics",
+    "impression",
+    "campaign"
+  ],
+  "summary_markdown": "The discussion focused on the reliability and monitoring of `raw_devices_seen` data in ClickHouse. Initial issues were noted regarding data gaps, specifically starting from March 6th.\n\n**Data Ingestion Fixes:**\n*   A plan was established to prevent old data from being ingested into RabbitMQ by modifying the DataGrinder process to only handle records newer than one hour.\n*   The team discussed improving fault tolerance and stability of the ingestion pipeline, moving away from relying solely on Kubernetes restarts for recovery.\n*   Kinesis retention period was increased from two days to seven days to provide more time for issue detection.\n\n**Monitoring Strategy:**\n*   A monitoring solution was proposed to query ClickHouse for data availability over the last hour (real-time) and check yesterday's data at the start of the day.\n*   The initial alert mechanism suggestion (checking if `max(timestamp)` is older than 30 minutes) was refined. It was agreed that using `count()` with a time window (`where timestamp >= now()-1800`) is preferred over comparing timestamps directly, as it provides a count of records.\n*   The alerting system should be tiered (Warning -> Critical) based on the volume of data received (e.g., warning if less than 50k records in the last half-hour).\n\n**Action Items:**\n*   Implement changes to DataGrinder to limit ingestion to recent data.\n*   Develop a robust monitoring query for `raw_devices_seen_buffer` count over time.",
+  "decisions": [
+    "DataGrinder will be modified to only ingest records newer than one hour into RabbitMQ.",
+    "Kinesis retention period was increased to seven days.",
+    "Monitoring alerts should use a tiered system based on the volume of data (e.g., warning at 50k, critical below 25k) rather than just checking for zero count."
+  ],
+  "action_items": [
+    "Modify DataGrinder to limit ingestion window.",
+    "Implement monitoring query using `count()` on `raw_devices_seen_buffer` over the last hour/time period."
+  ]
+}

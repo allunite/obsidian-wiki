@@ -1,0 +1,21 @@
+{
+  "chat_id": "oCgFCIAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2026-03-03",
+    "end": "2026-03-03"
+  },
+  "message_count": 3,
+  "topic": "SQL merge conflict resolution",
+  "topic_slug": "sql-merge-conflict-resolution",
+  "tags": [
+    "analytics"
+  ],
+  "summary_markdown": "A discussion regarding a SQL merge conflict in the development environment. The conflict involves whether to keep or remove a `WHERE network != ''` filter when referencing the view `v_device_session_agg_traffic`. It was decided that the filter should be removed.",
+  "decisions": [
+    "The `WHERE network != ''` filter will be removed from the SQL query."
+  ],
+  "action_items": []
+}

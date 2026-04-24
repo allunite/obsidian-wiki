@@ -1,0 +1,21 @@
+{
+  "chat_id": "6ize28AAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2025-08-07",
+    "end": "2025-08-07"
+  },
+  "message_count": 3,
+  "topic": "ClickHouse connection error resolution",
+  "topic_slug": "clickhouse-connection-error-resolution",
+  "tags": [
+    "analytics"
+  ],
+  "summary_markdown": "A user reported a `DB::NetException: Connection refused` error when running the `traffic_dashboard.sql` query against ClickHouse. The issue was resolved by someone who stated that the service had been down and subsequently brought back online.",
+  "decisions": [
+    "The ClickHouse connection error for `traffic_dashboard.sql` is resolved."
+  ],
+  "action_items": []
+}

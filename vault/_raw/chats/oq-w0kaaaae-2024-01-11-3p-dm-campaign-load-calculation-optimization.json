@@ -1,0 +1,24 @@
+{
+  "chat_id": "oq-w0kAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2024-01-11",
+    "end": "2024-01-11"
+  },
+  "message_count": 3,
+  "topic": "Campaign load calculation optimization",
+  "topic_slug": "campaign-load-calculation-optimization",
+  "tags": [
+    "analytics",
+    "campaign"
+  ],
+  "summary_markdown": "The discussion centered on optimizing the calculation of campaign loads, particularly for campaigns with long durations (3 to 12 months). A suggestion was made by someone to calculate only one month's worth of load and multiply it. [me] suggested that the aggregates could be optimized to handle such extended periods. It was noted that further information is being gathered regarding this calculation method.",
+  "decisions": [
+    "The proposed method for calculating campaign loads (calculating 1 month's load and multiplying) needs pre-discussion."
+  ],
+  "action_items": [
+    "Discuss the optimization of campaign load calculations with relevant parties on Monday or Tuesday."
+  ]
+}

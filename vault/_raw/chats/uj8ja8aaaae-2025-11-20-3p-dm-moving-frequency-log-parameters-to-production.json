@@ -1,0 +1,24 @@
+{
+  "chat_id": "uJ8JA8AAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2025-11-20",
+    "end": "2025-11-20"
+  },
+  "message_count": 5,
+  "topic": "Moving frequency log parameters to production",
+  "topic_slug": "moving-frequency-log-parameters-to-production",
+  "tags": [
+    "analytics",
+    "campaign"
+  ],
+  "summary_markdown": "The discussion focused on migrating specific logging parameters for `companyNum = 7873` related to frequency logs. The current setup uses different parameters on the staging and production environments.\n\n*   **Action:** The required parameter set needs to be implemented for both the Production (prod) and Staging environments.\n*   **Details:** For `company_num = 7873`, the path `v2/frequency_log_reg_ch/` must use the parameter `Latvia` on both prod and staging.",
+  "decisions": [
+    "The frequency log parameters for companyNum 7873 need to be updated on both Production and Staging environments."
+  ],
+  "action_items": [
+    "Update the frequency log parameters (v2/frequency_log_reg_ch/) with param: Latvia for companyNum 7873 on both prod and staging."
+  ]
+}

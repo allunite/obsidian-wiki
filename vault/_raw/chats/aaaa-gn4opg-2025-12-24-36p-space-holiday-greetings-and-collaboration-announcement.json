@@ -1,0 +1,19 @@
+{
+  "chat_id": "AAAA-gn4oPg",
+  "kind": "Space",
+  "space_name": "General and random",
+  "participants": 36,
+  "date_range": {
+    "start": "2025-12-24",
+    "end": "2025-12-24"
+  },
+  "message_count": 4,
+  "topic": "Holiday greetings and collaboration announcement",
+  "topic_slug": "holiday-greetings-and-collaboration-announcement",
+  "tags": [
+    "campaign"
+  ],
+  "summary_markdown": "The chat session consisted primarily of holiday greetings from multiple participants. One participant also shared information regarding a Publiciex x AllUnite collaboration.",
+  "decisions": [],
+  "action_items": []
+}

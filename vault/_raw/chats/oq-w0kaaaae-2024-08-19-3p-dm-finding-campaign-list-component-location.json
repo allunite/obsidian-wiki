@@ -1,0 +1,22 @@
+{
+  "chat_id": "oq-w0kAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2024-08-19",
+    "end": "2024-08-19"
+  },
+  "message_count": 24,
+  "topic": "Finding campaign list component location",
+  "topic_slug": "finding-campaign-list-component-location",
+  "tags": [
+    "analytics",
+    "campaign"
+  ],
+  "summary_markdown": "The discussion focused on locating and understanding the functionality of the campaign list component. It was determined that the report screen does not recalculate metrics live; instead, it displays a previously saved report. The method for requesting a report calculation is via `POST /api/campaigns/report/screens` using all necessary parameters, which subsequently saves the data along with the campaign save action.\n\n[me] successfully located the shared campaign list component within the common module of the campaigns feature.",
+  "decisions": [
+    "Report screen displays saved reports rather than calculating metrics live."
+  ],
+  "action_items": []
+}

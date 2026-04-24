@@ -1,0 +1,23 @@
+{
+  "chat_id": "i6YI1QAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 2,
+  "date_range": {
+    "start": "2022-01-21",
+    "end": "2022-01-21"
+  },
+  "message_count": 3,
+  "topic": "Defining sample size and traffic metrics",
+  "topic_slug": "defining-sample-size-and-traffic-metrics",
+  "tags": [
+    "analytics",
+    "session",
+    "impression"
+  ],
+  "summary_markdown": "The discussion clarified the definition of 'sample size' for devices within a specific area of living. It was confirmed that sample size represents the total unique count of devices observed in that area on a given day, which includes some that visited the target facility. Additionally, it was agreed to calculate the overall traffic originating from this area.",
+  "decisions": [
+    "Sample size is defined as the total unique device count within the specified area of living for the day."
+  ],
+  "action_items": []
+}

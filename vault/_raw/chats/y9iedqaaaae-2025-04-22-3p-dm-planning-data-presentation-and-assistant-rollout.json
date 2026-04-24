@@ -1,0 +1,27 @@
+{
+  "chat_id": "y9IEDQAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2025-04-22",
+    "end": "2025-04-22"
+  },
+  "message_count": 26,
+  "topic": "Planning data presentation and assistant rollout",
+  "topic_slug": "planning-data-presentation-and-assistant-rollout",
+  "tags": [
+    "analytics",
+    "campaign",
+    "assistant"
+  ],
+  "summary_markdown": "The conversation focused on preparing a presentation for 'Esben' regarding bot capabilities and data insights to be shown in the US. The initial plan was set for a meeting next week, but it was suggested that they review the data internally first.\n\nRegarding product development, the team discussed two main components: the existing 'supporter' (support assistant) and the new 'data-assistant' (campaign creator). It was decided that these two tools should not be integrated into a single interface because they handle different user requests (general queries vs. dashboard interaction).\n\nThe immediate rollout priority is the supporter, as Esben is eager to see it, followed by integrating the data insights.",
+  "decisions": [
+    "The team will review the required data presentation internally before meeting with Esben.",
+    "The 'supporter' assistant and the 'data-assistant' (campaign creator) will remain in separate interfaces."
+  ],
+  "action_items": [
+    "Focus on developing the campaign assistant feature, which allows creation based on natural language requests (e.g., 'give me a million bucks 30-40 years').",
+    "Prioritize rolling out the supporter assistant first, followed by integrating data insights."
+  ]
+}

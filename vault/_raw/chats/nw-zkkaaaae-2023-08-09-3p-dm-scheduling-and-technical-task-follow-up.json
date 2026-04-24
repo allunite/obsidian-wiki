@@ -1,0 +1,21 @@
+{
+  "chat_id": "nW_zkkAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2023-08-09",
+    "end": "2023-08-09"
+  },
+  "message_count": 10,
+  "topic": "Scheduling and technical task follow-up",
+  "topic_slug": "scheduling-and-technical-task-follow-up",
+  "tags": [
+    "analytics"
+  ],
+  "summary_markdown": "The conversation begins with a request to move a task related to 'Габон' (Gabon) to production, involving virtual sensors and previously provided coefficients. The recipient agreed to handle the task. The remainder of the chat shifted into personal banter regarding family life and relationship dynamics.",
+  "decisions": [
+    "The task concerning Gabon/virtual sensors was assigned for today."
+  ],
+  "action_items": []
+}

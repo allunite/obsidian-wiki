@@ -1,0 +1,27 @@
+{
+  "chat_id": "AAQAPH1pAKM",
+  "kind": "Space",
+  "space_name": "Group Chat",
+  "participants": 5,
+  "date_range": {
+    "start": "2026-01-28",
+    "end": "2026-01-28"
+  },
+  "message_count": 29,
+  "topic": "Japan data integration and reporting issues",
+  "topic_slug": "japan-data-integration-and-reporting-issues",
+  "tags": [
+    "session",
+    "analytics",
+    "facility"
+  ],
+  "summary_markdown": "The discussion focused on integrating Japanese company data and resolving analytics reporting issues.\n\n*   **Facility Tagging:** It was noted that internal tags for facilities are needed, as `facility_type` is insufficient. The addition of Japanese companies' data/tags was requested.\n*   **Data Loading:** One participant loaded one week of session data into `device_session_agg_ml_2` locally.\n*   **Reporting Issue (Dwell-Time):** A key issue identified was the absence or emptiness of `dwell-time` in reports, particularly for sensor screens. It was confirmed that if `dwell-time` is written to `device_session_agg_ml_2`, it will appear in the report after reaggregation.\n*   **Data Updates:** The Japanese data for November 2025 was confirmed to be in the database.",
+  "decisions": [
+    "The addition of internal facility tags is necessary because `facility_type` is insufficient.",
+    "If dwell-time is written to device_session_agg_ml_2, it will appear in reports after reaggregation."
+  ],
+  "action_items": [
+    "Add Japanese company data/tags.",
+    "Model sensor data for dwell-time and potentially include it with the main company model."
+  ]
+}

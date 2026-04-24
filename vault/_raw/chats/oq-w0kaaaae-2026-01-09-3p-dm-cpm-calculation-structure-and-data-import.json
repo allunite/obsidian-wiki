@@ -1,0 +1,26 @@
+{
+  "chat_id": "oq-w0kAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2026-01-09",
+    "end": "2026-01-09"
+  },
+  "message_count": 4,
+  "topic": "CPM calculation structure and data import",
+  "topic_slug": "cpm-calculation-structure-and-data-import",
+  "tags": [
+    "campaign",
+    "inventory",
+    "frame"
+  ],
+  "summary_markdown": "The discussion covered two main technical areas. First, [p1] provided updates on SQL views for multi-campaign session aggregation (`v_device_session_agg_base_multi_campaign.sql` and `v_device_session_agg_base_logic_multi_campaign.sql`), noting that the first view works but passes campaign parameters via JSON, while the second is failing with complex queries.\n\nSecond, regarding CPM calculation, it was decided to simplify the initial structure by adding a single field to the frame and using simple summation for the campaign level. This approach aims for a quick start to demonstrate progress, with future development potentially guided by Japanese market requirements. [me] suggested that JSON could be used initially for UI purposes and also mentioned the need for a batch import mechanism capable of handling thousands of frames from Excel.",
+  "decisions": [
+    "The initial CPM calculation structure will be simplified: adding one field to the frame and using simple summation at the campaign level.",
+    "JSON can be used temporarily for UI development."
+  ],
+  "action_items": [
+    "None"
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "chat_id": "oq-w0kAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2024-06-03",
+    "end": "2024-06-03"
+  },
+  "message_count": 13,
+  "topic": "Mall analytics data display issue",
+  "topic_slug": "mall-analytics-data-display-issue",
+  "tags": [
+    "analytics",
+    "facility"
+  ],
+  "summary_markdown": "An issue was identified where mall analytics for a specific facility (Provanchage) is not displaying data, despite receiving data from the server. While other facilities showed data via [email@allunite.com], Provanchage displayed zero values.\n\n[p1] confirmed that while reviewing the data, the demographic information was not arriving from the server.\n\nIt was determined that the code is currently waiting for demographic data to populate the view.",
+  "decisions": [
+    "The analytics dashboard must be fixed so it can display data even if demographic information is unavailable."
+  ],
+  "action_items": [
+    "Someone needs to fix the analytics code to handle missing demographic data."
+  ]
+}

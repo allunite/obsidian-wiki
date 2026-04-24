@@ -1,0 +1,21 @@
+{
+  "chat_id": "oq-w0kAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2025-05-20",
+    "end": "2025-05-20"
+  },
+  "message_count": 10,
+  "topic": "API endpoint for assistant and traffic filters",
+  "topic_slug": "api-endpoint-for-assistant-and-traffic-filters",
+  "tags": [
+    "analytics"
+  ],
+  "summary_markdown": "The conversation initially focused on merging code branches. [me] suggested merging the `develop` branch into another branch first, followed by merging that result into `develop`. Later, a technical question arose regarding API endpoints. For the assistant's requests, the endpoint is `/dashboard/traffic/agent/chat`. Regarding filters for the traffic page, [me] advised using the same endpoint.",
+  "decisions": [
+    "The initial code merge sequence was established: develop -> other branch -> develop."
+  ],
+  "action_items": []
+}

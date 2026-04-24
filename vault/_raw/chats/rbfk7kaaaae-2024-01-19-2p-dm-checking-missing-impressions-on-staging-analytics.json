@@ -1,0 +1,22 @@
+{
+  "chat_id": "rBfK7kAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 2,
+  "date_range": {
+    "start": "2024-01-19",
+    "end": "2024-01-19"
+  },
+  "message_count": 19,
+  "topic": "Checking missing impressions on staging analytics",
+  "topic_slug": "checking-missing-impressions-on-staging-analytics",
+  "tags": [
+    "impression",
+    "analytics"
+  ],
+  "summary_markdown": "The discussion focused on discrepancies regarding reported impressions for a specific facility (27744) within the staging analytics environment. Initial concern was raised that impressions were not visible on the stage dashboard, although they appeared in the `device_session_agg_ml_staging` dataset.\n\nSomeone provided a direct link to the staging traffic dashboard and advised checking the 'Traffic Filter' area for the relevant period (December 2023) under the specified facility. The issue was resolved by confirming that the impressions were indeed visible on the correct dashboard view.",
+  "decisions": [
+    "The location of missing impressions was identified on the staging analytics dashboard."
+  ],
+  "action_items": []
+}

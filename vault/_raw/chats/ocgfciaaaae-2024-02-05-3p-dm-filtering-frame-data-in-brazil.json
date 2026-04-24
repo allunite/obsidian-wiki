@@ -1,0 +1,25 @@
+{
+  "chat_id": "oCgFCIAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2024-02-05",
+    "end": "2024-02-05"
+  },
+  "message_count": 4,
+  "topic": "Filtering frame data in Brazil",
+  "topic_slug": "filtering-frame-data-in-brazil",
+  "tags": [
+    "analytics",
+    "facility",
+    "frame"
+  ],
+  "summary_markdown": "The conversation addressed the inclusion of forecast data for Brazilian assets. It was confirmed that if virtual frames are removed from `facility_virtual`, the forecast will no longer be included.\n\nAdditionally, a suggestion was made to filter out frames with a 'Suspended' status, though this might complicate the process due to the large volume of frames.",
+  "decisions": [
+    "Forecast data inclusion depends on virtual frames being present in `facility_virtual`."
+  ],
+  "action_items": [
+    "Test filtering frame data by unlinking it (разлинковкой) for analysis."
+  ]
+}

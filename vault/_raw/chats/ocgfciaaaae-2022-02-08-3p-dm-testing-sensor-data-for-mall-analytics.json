@@ -1,0 +1,25 @@
+{
+  "chat_id": "oCgFCIAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2022-02-08",
+    "end": "2022-02-08"
+  },
+  "message_count": 10,
+  "topic": "Testing sensor data for mall analytics",
+  "topic_slug": "testing-sensor-data-for-mall-analytics",
+  "tags": [
+    "facility",
+    "analytics"
+  ],
+  "summary_markdown": "The discussion focused on the strategy for handling test sensor data related to malls. It was decided that a large, real mall would be used as an additional testing site.\n\nRegarding the integration of map data (received in PDF format), it was suggested whether to hardcode the initial dataset or deliver it via a server endpoint. The decision was made for the team to initially hardcode the data until the presentation date, at which point live data would be integrated.",
+  "decisions": [
+    "Use a large, real mall as an additional testing site for sensor data.",
+    "Initially hardcode map data instead of integrating it through a server endpoint before the presentation."
+  ],
+  "action_items": [
+    "Convert received PDF maps into images and have someone redraw/process them."
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "chat_id": "y9IEDQAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2026-04-09",
+    "end": "2026-04-09"
+  },
+  "message_count": 19,
+  "topic": "AI agent roles and project structure",
+  "topic_slug": "ai-agent-roles-and-project-structure",
+  "tags": [
+    "analytics",
+    "campaign"
+  ],
+  "summary_markdown": "The discussion focused on defining the required capabilities for a new AI agent system. Several specific agents were proposed: * **Support Agent (SupA):** For RAG functionality. * **Dashboard Agent (Dasha):** For data extraction, chart generation, and reports. * **Inventory Agent (Ivy/Inna):** For importing data and API usage. * **Campaign Manager:** Proposed to handle RAG and API use, with a reference to an individual's name in the initial concept.\n\nA detailed prompt was shared outlining the project scope: creating `mops-ai2` using CrewAI or LangGraph for one part of the solution and LlamaIndex for another. The overall goal is to implement these workflows based on understanding the capabilities demonstrated by the `mops-ai` project.",
+  "decisions": [
+    "The system requires at least four distinct AI agents (Support, Dashboard, Inventory, Campaign Manager)."
+  ],
+  "action_items": []
+}

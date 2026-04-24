@@ -1,0 +1,22 @@
+{
+  "chat_id": "i6YI1QAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 2,
+  "date_range": {
+    "start": "2021-12-20",
+    "end": "2021-12-20"
+  },
+  "message_count": 27,
+  "topic": "Querying trusted device session data",
+  "topic_slug": "querying-trusted-device-session-data",
+  "tags": [
+    "analytics",
+    "session"
+  ],
+  "summary_markdown": "The conversation focused on refining a SQL query to analyze device session data, specifically concerning the 'trusted' status. It was confirmed that the `is_trusted` flag is derived from the `is_data` flag. The provided query structure uses various counts (e.g., `all_not_trusted`, `real_trusted`) and groups by start day and facility category.\n\n**Key Confirmation:** Using `is_trusted` directly allows for the calculation of trusted local sessions.",
+  "decisions": [
+    "The SQL query structure provided is confirmed as correct for analyzing session data."
+  ],
+  "action_items": []
+}

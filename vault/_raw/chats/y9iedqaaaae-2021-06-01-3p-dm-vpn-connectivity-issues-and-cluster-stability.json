@@ -1,0 +1,19 @@
+{
+  "chat_id": "y9IEDQAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2021-06-01",
+    "end": "2021-06-01"
+  },
+  "message_count": 10,
+  "topic": "VPN connectivity issues and cluster stability",
+  "topic_slug": "vpn-connectivity-issues-and-cluster-stability",
+  "tags": [
+    "analytics"
+  ],
+  "summary_markdown": "The conversation focused on troubleshooting VPN connection instability. [me] noted that the VPN appears to fail when ClickHouse is under heavy load, which was occurring while attempting repairs. The issue was resolved after [me] stopped a faulty mutation that was destabilizing the entire CH cluster, allowing the VPN to function correctly.",
+  "decisions": [],
+  "action_items": []
+}

@@ -1,0 +1,23 @@
+{
+  "chat_id": "AAAAbIy1nG4",
+  "kind": "Space",
+  "space_name": "AllUnite Workshop 2021",
+  "participants": 10,
+  "date_range": {
+    "start": "2021-05-18",
+    "end": "2021-05-18"
+  },
+  "message_count": 27,
+  "topic": "Workshop location selection and accommodation planning",
+  "topic_slug": "workshop-location-selection-and-accommodation-planning",
+  "tags": [
+    "facility"
+  ],
+  "summary_markdown": "The group discussed potential locations for the AllUnite Workshop 2021, comparing two options: Eris Luxur and Villa Elena. Initial discussion involved voting to select a preferred venue.\n\nRegarding accommodation, the conversation shifted to whether individual rooms or shared rooms would be necessary. Multiple participants indicated that sharing a room was acceptable (p3, p2, p4, [me]). The group also noted that while villas offer privacy and hotels might offer better amenities like breakfast.",
+  "decisions": [
+    "The workshop location selection is pending the results of a poll/vote."
+  ],
+  "action_items": [
+    "None identified."
+  ]
+}

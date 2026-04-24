@@ -1,0 +1,25 @@
+{
+  "chat_id": "i6YI1QAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 2,
+  "date_range": {
+    "start": "2022-06-01",
+    "end": "2022-06-01"
+  },
+  "message_count": 36,
+  "topic": "Calculating unique user identification methods",
+  "topic_slug": "calculating-unique-user-identification-methods",
+  "tags": [
+    "analytics",
+    "inventory"
+  ],
+  "summary_markdown": "The discussion focused on improving the accuracy of calculating unique users, particularly for a client in Latvia. Initial concerns were raised regarding the method used (MAC + request type) being only approximate.\n\nAlternative methods suggested included using more granular identifiers like MAC + CPU or harddrive serial numbers to achieve higher accuracy. It was also questioned whether local/trusted location data might provide more reliable unique counts for a single location.\n\n[me] committed to reviewing documentation to find available fields, including CPU and harddrive serial number information, to improve the calculation methodology.",
+  "decisions": [
+    "The final approach for calculating unique users will be discussed at tomorrow's meeting."
+  ],
+  "action_items": [
+    "[me] to review documentation for advanced user identification fields (CPU, harddrive serial number).",
+    "Both parties agreed not to send direct answers regarding the client's questions until the next meeting."
+  ]
+}

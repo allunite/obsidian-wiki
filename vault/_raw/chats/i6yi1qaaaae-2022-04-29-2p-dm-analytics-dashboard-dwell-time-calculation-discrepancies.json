@@ -1,0 +1,24 @@
+{
+  "chat_id": "i6YI1QAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 2,
+  "date_range": {
+    "start": "2022-04-29",
+    "end": "2022-04-29"
+  },
+  "message_count": 36,
+  "topic": "Analytics dashboard dwell time calculation discrepancies",
+  "topic_slug": "analytics-dashboard-dwell-time-calculation-discrepancies",
+  "tags": [
+    "analytics",
+    "dwell-time",
+    "session"
+  ],
+  "summary_markdown": "The discussion focused on inconsistencies in how dwell time is calculated across different analytics dashboards (Mall cluster vs. individual sensors). Initially, it was noted that the Mall dashboard seemed to aggregate sessions differently than the traffic dashboard, leading to discrepancies.\n\n[me] identified a bug related to session aggregation (`sum(session_duration)/count()`) where ",
+  "decisions": [
+    "A bug affecting dwell time calculation across dashboards was found and fixed.",
+    "The corrected logic ensures consistent dwell time reporting for both Mall cluster views and individual sensor views."
+  ],
+  "action_items": []
+}

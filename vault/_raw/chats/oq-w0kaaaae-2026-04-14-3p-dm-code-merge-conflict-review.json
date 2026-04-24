@@ -1,0 +1,21 @@
+{
+  "chat_id": "oq-w0kAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2026-04-14",
+    "end": "2026-04-14"
+  },
+  "message_count": 8,
+  "topic": "Code merge conflict review",
+  "topic_slug": "code-merge-conflict-review",
+  "tags": [
+    "analytics"
+  ],
+  "summary_markdown": "Someone requested assistance reviewing a merge conflict that occurred while merging the release branch into develop. The issue was isolated to one specific area, and [me] provided guidance on which side (the left) of the conflict resolution to prioritize.",
+  "decisions": [
+    "The merge conflict should resolve by prioritizing the 'left' side."
+  ],
+  "action_items": []
+}

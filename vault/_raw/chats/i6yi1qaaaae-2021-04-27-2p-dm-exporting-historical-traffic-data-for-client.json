@@ -1,0 +1,27 @@
+{
+  "chat_id": "i6YI1QAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 2,
+  "date_range": {
+    "start": "2021-04-27",
+    "end": "2021-04-27"
+  },
+  "message_count": 60,
+  "topic": "Exporting historical traffic data for client",
+  "topic_slug": "exporting-historical-traffic-data-for-client",
+  "tags": [
+    "analytics",
+    "inventory",
+    "facility"
+  ],
+  "summary_markdown": "The discussion covered the requirements for exporting historical traffic data (specifically 'futflow' traffic) for a client. The required scope was weekly totals spanning from January 1, 2020, through March 31, 2021.\n\nInitial attempts using the dashboard export function failed because it lacked week-level aggregation. It was determined that an alternative approach involving exporting data for specific date ranges (180 to 365 days) and aggregating the results in Excel would be necessary. The client confirmed that weekly segmentation based on a seven-day period is acceptable.\n\nA separate discussion addressed new 'trusted' protocol data from a recent deployment in Dneprodzerzhynsk. It was agreed that processing this raw data, which includes additional bit fields, would allow for a statistical comparison (percentage difference) against manual records to assess the improvement and accuracy of the new data source.",
+  "decisions": [
+    "Historical traffic data export will be achieved by exporting multiple date ranges (180-365 days) and aggregating them manually in Excel.",
+    "The client accepted weekly segmentation based on a seven-day period, rather than strict Monday-to-Sunday boundaries."
+  ],
+  "action_items": [
+    "Process the new 'trusted' protocol data to generate a statistical report comparing it against manual records.",
+    "Follow up on the observed growth in 'mols' after model deployment and monitor the anomaly algorithm's performance."
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "chat_id": "y9IEDQAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2024-01-12",
+    "end": "2024-01-12"
+  },
+  "message_count": 8,
+  "topic": "Data access and Superset usage",
+  "topic_slug": "data-access-superset-usage",
+  "tags": [
+    "analytics"
+  ],
+  "summary_markdown": "The discussion centered on granting data team access to Superset. While [me] noted that providing access would not necessarily be detrimental, there was concern regarding potential misuse through unoptimized queries. Consequently, it was decided that granting access should be postponed for now.",
+  "decisions": [
+    "Data team access to Superset is postponed."
+  ],
+  "action_items": []
+}

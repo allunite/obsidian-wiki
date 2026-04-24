@@ -1,0 +1,22 @@
+{
+  "chat_id": "i6YI1QAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 2,
+  "date_range": {
+    "start": "2024-05-23",
+    "end": "2024-05-23"
+  },
+  "message_count": 7,
+  "topic": "Metrics sent to DataCorp for AFA",
+  "topic_slug": "metrics-sent-to-datacorp-for-afa",
+  "tags": [
+    "analytics",
+    "facility"
+  ],
+  "summary_markdown": "The conversation focused on confirming the specific metrics being transmitted via API to DataCorp for a facility (AFA). The initial data structure provided included several fields such as `facilityId`, `facilityName`, `boxMac`, `trafficTotal`, `trafficTotalBulk`, `devicesByDurationRange`, and `downtimeInHours`. Upon follow-up, it was confirmed that the key metric of interest is `trafficTotal`.",
+  "decisions": [
+    "The primary metric to be tracked and sent via API for AFA is trafficTotal."
+  ],
+  "action_items": []
+}

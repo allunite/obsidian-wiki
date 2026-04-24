@@ -1,0 +1,19 @@
+{
+  "chat_id": "AAAA3oghITo",
+  "kind": "Space",
+  "space_name": "Кабаны",
+  "participants": 4,
+  "date_range": {
+    "start": "2023-02-14",
+    "end": "2023-02-14"
+  },
+  "message_count": 9,
+  "topic": "JavaScript polyfills and component usage",
+  "topic_slug": "javascript-polyfills-and-component-usage",
+  "tags": [
+    "analytics"
+  ],
+  "summary_markdown": "The discussion centered on the necessity of using polyfills, particularly in relation to modern browser support. It was noted that while some components utilize core-js (over 20 components mentioned), there is a general trend toward relying on modern browsers and updating build processes to target the latest language standards.\n\nSpecific examples of component usage requiring these features were cited, ranging from plugins for Leaflet to smaller utilities like `has-symbols` or `is-date-object`.",
+  "decisions": [],
+  "action_items": []
+}

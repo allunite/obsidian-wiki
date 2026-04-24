@@ -1,0 +1,24 @@
+{
+  "chat_id": "AAAAdlgBOBA",
+  "kind": "Space",
+  "space_name": "Group Chat",
+  "participants": 4,
+  "date_range": {
+    "start": "2024-11-11",
+    "end": "2024-11-11"
+  },
+  "message_count": 44,
+  "topic": "Location sensor status and linking",
+  "topic_slug": "location-sensor-status-and-linking",
+  "tags": [
+    "inventory",
+    "analytics"
+  ],
+  "summary_markdown": "The conversation focused heavily on the history and current operational status of a specific location (JCD_BR_BR-SAO-MD-00749). \n\n*   **Location History:** The box associated with this location operated until March 21, 2023. Previously, it was located at BR-SAO-MD-00381 until March 8, 2023.\n*   **Sensor Status:** Discussions confirmed that the sensor for JCD_BR_BR-SAO-MD-00749 is no longer physically attached or functional. Someone stated they have detached the old sensor and linked a new one (911) located 180 meters away to this location.\n*   **Data/Forecasting:** The need to recalculate the forecast for the newly linked sensor was raised. There were also discussions regarding data retrieval from various sensors, noting that some data sources are currently unavailable or require investigation.",
+  "decisions": [
+    "The old sensor at JCD_BR_BR-SAO-MD-00749 has been detached and replaced with a link to the 911 sensor."
+  ],
+  "action_items": [
+    "Recalculate the forecast for the newly linked 911 sensor."
+  ]
+}

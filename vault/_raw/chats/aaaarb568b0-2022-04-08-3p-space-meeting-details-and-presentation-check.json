@@ -1,0 +1,21 @@
+{
+  "chat_id": "AAAARb568B0",
+  "kind": "Space",
+  "space_name": "Group Chat",
+  "participants": 3,
+  "date_range": {
+    "start": "2022-04-08",
+    "end": "2022-04-08"
+  },
+  "message_count": 6,
+  "topic": "Meeting details and presentation check",
+  "topic_slug": "meeting-details-and-presentation-check",
+  "tags": [
+    "analytics"
+  ],
+  "summary_markdown": "The conversation started with a check regarding readiness for a presentation. Later, meeting logistics were shared for an event titled \"3D Lidar NL\" scheduled for April 8th from 10:00 to 11:00.",
+  "decisions": [],
+  "action_items": [
+    "Attend the \"3D Lidar NL\" meeting via Google Meet or phone call."
+  ]
+}

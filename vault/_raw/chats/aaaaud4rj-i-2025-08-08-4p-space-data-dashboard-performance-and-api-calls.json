@@ -1,0 +1,29 @@
+{
+  "chat_id": "AAAAud4RJ_I",
+  "kind": "Space",
+  "space_name": "Group Chat",
+  "participants": 4,
+  "date_range": {
+    "start": "2025-08-08",
+    "end": "2025-08-08"
+  },
+  "message_count": 25,
+  "topic": "Improving data dashboard performance and API calls",
+  "topic_slug": "data-dashboard-performance-and-api-calls",
+  "tags": [
+    "analytics",
+    "impression",
+    "campaign",
+    "inventory"
+  ],
+  "summary_markdown": "The discussion covered two main areas: improving the stability of a data dashboard experiencing Out Of Memory (OOM) kills, and optimizing slow API calls for historical data.\n\n**Dashboard Stability:** The initial issue was related to a data dashboard failing due to memory constraints. It was suggested that streaming should be implemented, with specific client examples like AppleTV and Disney being mentioned as targets for integration into the dashboard. A concrete action was taken to increase the allocated memory limit for the process from 1 GB to 2 GB.\n\n**API Performance:** Separately, a request was made regarding slow API calls when querying historical data (up to one month) for general unique traffic. The current method of generating this data is inefficient because it requires multiple sub-requests (one per day). It was determined that the full JSON body structure needed for testing performance was provided/emulated by someone, allowing the team to proceed with testing.",
+  "decisions": [
+    "Increase process memory limit from 1 GB to 2 GB",
+    "Implement streaming capabilities into the data dashboard (e.g., AppleTV, Disney integration)",
+    "Use an emulated JSON request body for testing API performance over a month's period"
+  ],
+  "action_items": [
+    "Test the provided emulated JSON structure to assess API speed",
+    "Monitor the data dashboard after increasing memory allocation"
+  ]
+}

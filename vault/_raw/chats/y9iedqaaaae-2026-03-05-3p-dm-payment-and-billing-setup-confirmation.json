@@ -1,0 +1,22 @@
+{
+  "chat_id": "y9IEDQAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2026-03-05",
+    "end": "2026-03-05"
+  },
+  "message_count": 20,
+  "topic": "Payment and billing setup confirmation",
+  "topic_slug": "payment-and-billing-setup-confirmation",
+  "tags": [
+    "analytics"
+  ],
+  "summary_markdown": "The conversation focused on updating payment details for AllUnite A/S. [p1] provided card information (Denmark address, VAT ID) and requested the setup of this card for billing purposes.\n\nRegarding invoicing, it was decided that invoices will be forwarded to a specific email address ([email@allunite.com]), as no dedicated mailing address was found. The next payment date is noted as March 20th.\n\nLater discussion involved personal usage patterns of AI tools (ChatGPT, Claude, Gemini) among family members.",
+  "decisions": [
+    "AllUnite A/S card details were provided for billing setup.",
+    "Invoices will be forwarded to [email@allunite.com]."
+  ],
+  "action_items": []
+}

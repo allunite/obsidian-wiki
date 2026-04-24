@@ -1,0 +1,29 @@
+{
+  "chat_id": "oCgFCIAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2022-11-30",
+    "end": "2022-11-30"
+  },
+  "message_count": 65,
+  "topic": "Inventory and segment management tasks",
+  "topic_slug": "inventory-and-segment-management-tasks",
+  "tags": [
+    "analytics",
+    "campaign",
+    "inventory",
+    "session"
+  ],
+  "summary_markdown": "The conversation focused heavily on current and future technical tasks, particularly around data processing, inventory management, and user authentication.\n\n**Inventory & Segments:** A key discussion point was the need to integrate newly created traffic segments into the inventory system for new sensors. It was noted that these segments are required by someone (Galina) and will be used to display data to another person (Dima).\n\n**System Architecture/Debugging:** Several technical issues were reviewed, including: \n*   The status of old proxy/worker services (`dataprofile-send-worker`, `dataprofile-worker`) which are considered deprecated due to changes by Google and Apple.\n*   Reviewing the purpose of various message queue workers (e.g., `boxapi-workerdb`), with some being potentially related to real-time sessions.\n*   The need for better data collection regarding contacts and communication patterns, especially from individuals who attended meetings.\n\n**User Management:** The topic of user management was raised, specifically concerning advanced authorization methods (like LinkedIn integration) and the complexity of managing users across different teams, requiring follow-up with specific team members.",
+  "decisions": [
+    "The newly created traffic segments need to be saved into the inventory system for use with new sensors.",
+    "Follow up is required regarding user management requirements, including multi-team user handling and advanced authorization methods."
+  ],
+  "action_items": [
+    "Review Jira ticket JCDEC-466 as it is considered interesting and likely requires a job to be created.",
+    "Gather information on the purpose of various message queue workers (e.g., `boxapi-workerdb`) to confirm their necessity.",
+    "Follow up with team members regarding contacts and communication patterns observed during recent meetings."
+  ]
+}

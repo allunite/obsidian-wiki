@@ -1,0 +1,19 @@
+{
+  "chat_id": "AAAA-gn4oPg",
+  "kind": "Space",
+  "space_name": "General and random",
+  "participants": 36,
+  "date_range": {
+    "start": "2024-02-19",
+    "end": "2024-02-19"
+  },
+  "message_count": 3,
+  "topic": "Training day observation at JCD",
+  "topic_slug": "training-day-observation-at-jcd",
+  "tags": [
+    "facility"
+  ],
+  "summary_markdown": "The participants discussed an observation from a training day held at JCD. One participant noted that a specific individual appeared displeased with the technology used during the session.",
+  "decisions": [],
+  "action_items": []
+}

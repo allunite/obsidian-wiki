@@ -1,0 +1,23 @@
+{
+  "chat_id": "oCgFCIAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2025-07-30",
+    "end": "2025-07-30"
+  },
+  "message_count": 5,
+  "topic": "Demographic data analysis timeline and scope",
+  "topic_slug": "demographic-data-analysis-timeline-and-scope",
+  "tags": [
+    "analytics"
+  ],
+  "summary_markdown": "The discussion centered on the completion timeline for demographic data. [me] stated that while the analysis for Malaysia might be straightforward, the requirements for Brazil are complex and require specific implementation (in kido). [me] committed to working intensively on it today and expects to deliver results possibly by tomorrow.\n\n[p1] mentioned that someone else indicated a deadline by the end of the week. [p1] also noted that they had only heard about the Malaysia scope, as nothing seemed available for Brazil.",
+  "decisions": [
+    "The demographic analysis will be completed today or tomorrow."
+  ],
+  "action_items": [
+    "N/A"
+  ]
+}

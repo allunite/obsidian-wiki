@@ -1,0 +1,26 @@
+{
+  "chat_id": "8GgAuwAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 2,
+  "date_range": {
+    "start": "2023-03-27",
+    "end": "2023-03-27"
+  },
+  "message_count": 14,
+  "topic": "Mall analytics conversion calculation and deployment",
+  "topic_slug": "mall-analytics-conversion-calculation-deployment",
+  "tags": [
+    "analytics",
+    "campaign",
+    "inventory"
+  ],
+  "summary_markdown": "The conversation focused on refining the mall analytics dashboard for Trinity. Initial concerns about funnel data were addressed, leading to a fix that removed the inadequate funnel view and was deployed to staging.\n\nRegarding conversion calculation, it was confirmed that the metric tracks conversions from specific user groups (e.g., JCD_UK_TRN_Skechers) against all mall users. The dashboard links for testing were provided for both production and staging environments.\n\nLater discussion covered technical access issues related to impersonation using a specific user email ([email@jcdecaux.uk]) and the necessity of viewing data under UK parameters (e.g., Felton).",
+  "decisions": [
+    "The funnel view in the mall analytics dashboard was removed due to being inaccurate.",
+    "A fix for the conversion table data was implemented, though it does not change the core conversion metric."
+  ],
+  "action_items": [
+    "None"
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "chat_id": "oq-w0kAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2023-07-24",
+    "end": "2023-07-24"
+  },
+  "message_count": 35,
+  "topic": "Conversion dashboard data display issues",
+  "topic_slug": "conversion-dashboard-data-display-issues",
+  "tags": [
+    "analytics",
+    "campaign",
+    "facility",
+    "inventory"
+  ],
+  "summary_markdown": "The discussion focused on discrepancies in conversion data displayed within the analytics dashboard. Initially, it was noted that selecting different source or target facilities did not change the reported conversions in the new version of the dashboard, unlike the old version. A key decision point arose regarding whether the dashboard should display two separate tables: one for selected source facilities and another for selected target facilities.\n\nLater, [me] confirmed a deployment of fixes to ensure data accuracy. The team agreed that while a full overhaul (Conversion Dashboard 2.0) is planned for late August, immediate adjustments were made to the current version's display logic. These included renaming 'TOTAL VISITORS' to 'TOTAL VISITS', adding footers to clarify percentages (100% for % OF VISITORS and average for CONVERSION RATE), and ensuring data loads immediately upon viewing rather than requiring an explicit action.\n\nSeparately, the team discussed a flag implementation related to demographic data retrieval via the `/api/campaigns/target/total-traffic` endpoint.",
+  "decisions": [
+    "The current conversion dashboard version is acceptable for immediate use, pending minor UI adjustments.",
+    "The dashboard should display two separate tables (source and target conversions) if required by stakeholders, though this was deemed complex.",
+    "Minor front-end fixes were implemented to improve data loading behavior and clarify percentage metrics on the existing Conversion Dashboard."
+  ],
+  "action_items": [
+    "Implement minor UI adjustments on the conversion dashboard (rename 'TOTAL VISITORS' to 'TOTAL VISITS', add footers for clarity).",
+    "Review and adjust fields in the total-traffic endpoint after recent code deployment."
+  ]
+}

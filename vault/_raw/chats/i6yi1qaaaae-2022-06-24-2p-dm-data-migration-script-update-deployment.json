@@ -1,0 +1,24 @@
+{
+  "chat_id": "i6YI1QAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 2,
+  "date_range": {
+    "start": "2022-06-24",
+    "end": "2022-06-24"
+  },
+  "message_count": 15,
+  "topic": "Data migration script update and deployment",
+  "topic_slug": "data-migration-script-update-deployment",
+  "tags": [
+    "analytics"
+  ],
+  "summary_markdown": "The discussion focused on migrating Hong Kong data to production. It was decided that a new script would be deployed on Monday morning after thorough testing. [me] suggested committing the updated code for calibration retrieval, which replaces complex multi-stage logic with a simple `is_prod` parameter switch instead of using suffixes.",
+  "decisions": [
+    "A new data migration script will be deployed on Monday morning.",
+    "[me] will commit the updated code (for calibration retrieval) to the staging environment before Monday."
+  ],
+  "action_items": [
+    "Deploy the new Hong Kong data migration script on Monday morning."
+  ]
+}

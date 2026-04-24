@@ -1,0 +1,21 @@
+{
+  "chat_id": "AAAA7lJKPlc",
+  "kind": "Space",
+  "space_name": "Frontend",
+  "participants": 5,
+  "date_range": {
+    "start": "2022-09-05",
+    "end": "2022-09-05"
+  },
+  "message_count": 4,
+  "topic": "Update on requested changes",
+  "topic_slug": "update-on-requested-changes",
+  "tags": [
+    "analytics"
+  ],
+  "summary_markdown": "Someone provided feedback and acknowledged the request. They stated they are currently in a rural area, limiting their ability to implement all necessary changes but committed to fixing as much as possible and providing an update by the next day.",
+  "decisions": [],
+  "action_items": [
+    "Provide update tomorrow"
+  ]
+}

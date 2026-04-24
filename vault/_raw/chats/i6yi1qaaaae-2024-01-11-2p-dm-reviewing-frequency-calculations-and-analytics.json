@@ -1,0 +1,24 @@
+{
+  "chat_id": "i6YI1QAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 2,
+  "date_range": {
+    "start": "2024-01-11",
+    "end": "2024-01-11"
+  },
+  "message_count": 14,
+  "topic": "Reviewing frequency calculations and analytics",
+  "topic_slug": "reviewing-frequency-calculations-and-analytics",
+  "tags": [
+    "analytics",
+    "frequency"
+  ],
+  "summary_markdown": "The conversation focused on reviewing complex data metrics, specifically 'frequency' calculations. [p1] shared multiple SQL queries and links to AllUnite analytics dashboards for review. The discussion involved comparing calculated frequency values (e.g., 25 vs. 3.67) between participants.",
+  "decisions": [
+    "No concrete decisions were made regarding the data or metrics."
+  ],
+  "action_items": [
+    "[p1] will call later to discuss frequency calculations."
+  ]
+}

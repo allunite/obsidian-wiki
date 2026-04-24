@@ -1,0 +1,25 @@
+{
+  "chat_id": "i6YI1QAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 2,
+  "date_range": {
+    "start": "2023-07-18",
+    "end": "2023-07-18"
+  },
+  "message_count": 16,
+  "topic": "Data structure discrepancies in analytics staging",
+  "topic_slug": "data-structure-discrepancies-analytics-staging",
+  "tags": [
+    "analytics",
+    "facility"
+  ],
+  "summary_markdown": "The discussion focused on data discrepancies found between the virtual sensor predictions and the live dashboard view for a specific facility (24455). It was noted that the `agg_period` field in the staging table is empty when it should be 'H'. To maintain backward compatibility while incorporating frame-level data, a proposal was made: insert records for the facility with `agg_period = 'H'` and separate records for frames with `agg_period = 'h'`. This approach ensures that older scripts relying only on facility-level data will continue to function correctly. The conversation concluded by noting the high volume of unique device IDs (44 million per day) and the need to address virtual device ID handling.",
+  "decisions": [
+    "Implement a data structure update: insert records for facilities with `agg_period = 'H'` and separate records for frames with `agg_period = 'h'`."
+  ],
+  "action_items": [
+    "[me] to pass the proposed data structure fix to Vlad.",
+    "Investigate handling of virtual device IDs given high unique user volume (44 million/day)."
+  ]
+}

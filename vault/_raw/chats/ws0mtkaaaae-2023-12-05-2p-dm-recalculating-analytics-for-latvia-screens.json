@@ -1,0 +1,24 @@
+{
+  "chat_id": "ws0mTkAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 2,
+  "date_range": {
+    "start": "2023-12-05",
+    "end": "2023-12-05"
+  },
+  "message_count": 12,
+  "topic": "Recalculating analytics for Latvia screens",
+  "topic_slug": "recalculating-analytics-for-latvia-screens",
+  "tags": [
+    "analytics",
+    "recalc-ch"
+  ],
+  "summary_markdown": "The discussion focused on recalculating historical data (history) and current metrics (mirror/screen captures) for a specific set of screens in Latvia. Someone mentioned that Kристина advised the recalculation. [me] confirmed they would work on it that day, and later confirmed completion.",
+  "decisions": [
+    "Recalculate analytics for Latvian screens."
+  ],
+  "action_items": [
+    "N/A"
+  ]
+}

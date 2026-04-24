@@ -1,0 +1,25 @@
+{
+  "chat_id": "rBfK7kAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 2,
+  "date_range": {
+    "start": "2023-07-11",
+    "end": "2023-07-11"
+  },
+  "message_count": 10,
+  "topic": "Adding frame number to data aggregation",
+  "topic_slug": "adding-frame-number-to-data-aggregation",
+  "tags": [
+    "analytics",
+    "frame"
+  ],
+  "summary_markdown": "The discussion focused on modifying the data structure for better analytics. [me] confirmed adding `frame_num` to both the `*_ml` and `_agg_4` tables/columns. Furthermore, it was decided that the aggregation script needs adjustment: data related to frames should be written into `agg_4` using `agg_owner = 'f'` (lowercase), correcting the current usage of `'F'`. [me] stated they would handle the necessary changes to the aggregation script themselves and provide an updated version.",
+  "decisions": [
+    "Add `frame_num` column to `*_ml` and `_agg_4` data structures.",
+    "Update the aggregation script to use `agg_owner = 'f'` for frame-related data in `agg_4`."
+  ],
+  "action_items": [
+    "[me] will update the aggregation script and provide a new version."
+  ]
+}

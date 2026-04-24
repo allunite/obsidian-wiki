@@ -1,0 +1,22 @@
+{
+  "chat_id": "AAAAOcKWvdA",
+  "kind": "Space",
+  "space_name": "Delivery Coordination",
+  "participants": 14,
+  "date_range": {
+    "start": "2023-05-22",
+    "end": "2023-05-22"
+  },
+  "message_count": 11,
+  "topic": "Campaign creation process and filters",
+  "topic_slug": "campaign-creation-process-and-filters",
+  "tags": [
+    "campaign",
+    "analytics"
+  ],
+  "summary_markdown": "The discussion centered on the proposed workflow for campaign creation. Initial concerns were raised that existing work would need to be discarded due to new documentation outlining a different process, specifically suggesting campaign creation should only occur via CSV upload or selection of existing packages. However, it was clarified that filters are crucial and represent a competitive advantage (over MGE). The consensus reached was to retain the filters, while acknowledging that the initial documentation might describe an MVP without them.",
+  "decisions": [
+    "Filters for campaign creation must be retained due to their competitive advantage."
+  ],
+  "action_items": []
+}

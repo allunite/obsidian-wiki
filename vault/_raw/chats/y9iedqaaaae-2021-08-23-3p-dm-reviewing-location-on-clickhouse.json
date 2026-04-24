@@ -1,0 +1,21 @@
+{
+  "chat_id": "y9IEDQAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2021-08-23",
+    "end": "2021-08-23"
+  },
+  "message_count": 3,
+  "topic": "Reviewing location on ClickHouse",
+  "topic_slug": "reviewing-location-on-clickhouse",
+  "tags": [
+    "analytics"
+  ],
+  "summary_markdown": "A brief exchange occurred regarding reviewing a specific location or data point within the ClickHouse system. The initial request was acknowledged, and confirmation was given that all necessary follow-up actions would be completed.",
+  "decisions": [],
+  "action_items": [
+    "Follow up on the requested location review in ClickHouse"
+  ]
+}

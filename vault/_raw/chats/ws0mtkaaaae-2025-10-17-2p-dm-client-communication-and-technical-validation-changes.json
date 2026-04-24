@@ -1,0 +1,19 @@
+{
+  "chat_id": "ws0mTkAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 2,
+  "date_range": {
+    "start": "2025-10-17",
+    "end": "2025-10-17"
+  },
+  "message_count": 23,
+  "topic": "Client communication and technical validation changes",
+  "topic_slug": "client-communication-and-technical-validation-changes",
+  "tags": [
+    "analytics"
+  ],
+  "summary_markdown": "The conversation briefly touches upon a technical change where static values were removed from the validation feature for 'dynamic slot duration'. The primary focus, however, is on professional communication with clients (specifically Mexican contacts). One participant noted the difficulty of drafting firm but polite correspondence when dealing with client disputes regarding prior agreements. They emphasized the need to maintain a courteous and diplomatic tone despite internal frustration.",
+  "decisions": [],
+  "action_items": []
+}

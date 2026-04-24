@@ -1,0 +1,27 @@
+{
+  "chat_id": "nW_zkkAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2024-08-01",
+    "end": "2024-08-01"
+  },
+  "message_count": 48,
+  "topic": "Parsing new company data for Malaysia",
+  "topic_slug": "parsing-new-company-data-malaysia",
+  "tags": [
+    "analytics",
+    "session",
+    "facility"
+  ],
+  "summary_markdown": "The discussion focused on parsing historical and current device session data for two newly added companies (Sanctuary and Spectrum) in Malaysia, which were previously only represented by sensors. The initial attempt to parse the packages was complicated by missing or incomplete data records.\n\n*   **Data Scope:** It was confirmed that Company 7932 had only one box (20972711caf9) with data starting from 2024-07-18, and no data was found for the second company (7933).\n*   **Data Availability:** The participants noted that while some data appeared to be included briefly on the current day, historical parsing required deeper investigation.\n*   **Technical Fixes:** A bug in the frequency calculation process was identified and subsequently deployed, resolving issues with stage formulas not appearing correctly on campaign datasets.\n*   **Session Cleanup:** Instructions were provided for cleaning up device session data by running a specific query to identify pending mutations and executing an `INSERT` statement on ch04 to finalize the session records.",
+  "decisions": [
+    "The necessary steps and queries were established to parse historical session data for Sanctuary (7932) and Spectrum (7933).",
+    "A bug in the frequency calculation process was fixed and deployed."
+  ],
+  "action_items": [
+    "Run a specific query on ch04 to insert device session records into `device_session_concept`.",
+    "Follow up regarding the status of future work/availability (implied for the next day)."
+  ]
+}

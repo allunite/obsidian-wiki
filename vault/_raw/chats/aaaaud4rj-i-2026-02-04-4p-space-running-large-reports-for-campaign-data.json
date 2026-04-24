@@ -1,0 +1,22 @@
+{
+  "chat_id": "AAAAud4RJ_I",
+  "kind": "Space",
+  "space_name": "Group Chat",
+  "participants": 4,
+  "date_range": {
+    "start": "2026-02-04",
+    "end": "2026-02-04"
+  },
+  "message_count": 3,
+  "topic": "Running large reports for campaign data",
+  "topic_slug": "running-large-reports-for-campaign-data",
+  "tags": [
+    "analytics",
+    "campaign"
+  ],
+  "summary_markdown": "Someone requested running large reports that failed due to an ml-api timeout. [p1] offered to run export requests and campaign reports specifically for Finland.",
+  "decisions": [],
+  "action_items": [
+    "Run export and campaign reports for Finland."
+  ]
+}

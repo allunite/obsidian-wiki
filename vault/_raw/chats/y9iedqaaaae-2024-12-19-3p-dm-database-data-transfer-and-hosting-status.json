@@ -1,0 +1,23 @@
+{
+  "chat_id": "y9IEDQAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2024-12-19",
+    "end": "2024-12-19"
+  },
+  "message_count": 16,
+  "topic": "Database data transfer and hosting status",
+  "topic_slug": "database-data-transfer-and-hosting-status",
+  "tags": [
+    "analytics"
+  ],
+  "summary_markdown": "The conversation focused on technical infrastructure management, specifically concerning a Japanese host instance. It was decided to shut down the current host instance (a computational instance) and keep the ability to restart it if needed.\n\nA major data issue was identified: when checking compressed data, the system was pulling uncompressed data via the `remote` function. This resulted in excessive bandwidth usage, noting that a 17GB table consumed 187GB of traffic.\nSomeone advised [me] to copy and attach the folder directly next time to avoid this issue.",
+  "decisions": [
+    "The Japanese host instance should be shut down (but kept as a computational instance for potential restart)."
+  ],
+  "action_items": [
+    "[me] needs to ensure data is copied and attached as a folder in the future to prevent excessive bandwidth usage."
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "chat_id": "y9IEDQAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2025-02-24",
+    "end": "2025-02-24"
+  },
+  "message_count": 4,
+  "topic": "AI testing and integration plan",
+  "topic_slug": "ai-testing-and-integration-plan",
+  "tags": [
+    "analytics",
+    "mops"
+  ],
+  "summary_markdown": "The current state of AI testing for MOPs can be tested at a specific GitHub repository. The process involves running `app/chat.py` with the placeholder `OPENAI_[redacted]`. Currently, the system only recognizes AFA locations. Next steps include converting the chat into an agent with memory and defining an endpoint. This functionality will then be integrated into analytics as an alternative to existing filters.",
+  "decisions": [
+    "The AI testing environment is located at a specific GitHub repository."
+  ],
+  "action_items": [
+    "Someone will attempt the implementation tomorrow; if unsuccessful, [p1] will be involved."
+  ]
+}

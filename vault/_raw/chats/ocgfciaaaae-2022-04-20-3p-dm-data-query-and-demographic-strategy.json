@@ -1,0 +1,26 @@
+{
+  "chat_id": "oCgFCIAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2022-04-20",
+    "end": "2022-04-20"
+  },
+  "message_count": 29,
+  "topic": "Data query and demographic data strategy",
+  "topic_slug": "data-query-and-demographic-strategy",
+  "tags": [
+    "analytics",
+    "campaign",
+    "facility",
+    "impression"
+  ],
+  "summary_markdown": "The conversation covered two main topics: a complex SQL query refinement and the strategy for demographic data.\n\n**SQL Query:** A detailed request was made to refine an existing SQL query. The goal is to ensure that session data is captured for the entire day, not just partial periods. The query involves joining `device_session_realtime_4` with `device_session_realtime_factor` and filtering based on specific facility criteria (e.g., those categorized as 'Mall') and partner IDs.\n\n**Demographic Data:** A decision needs to be made regarding the inclusion of regional data in demographic analysis. While there is interest in gathering more detailed data, a final consensus is required before proceeding with this feature.",
+  "decisions": [
+    "The SQL query structure was reviewed for full-day data capture capability."
+  ],
+  "action_items": [
+    "Follow up with Galina to finalize the decision on implementing regional data in demographics."
+  ]
+}

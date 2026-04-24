@@ -1,0 +1,26 @@
+{
+  "chat_id": "AAAAK4kFh6c",
+  "kind": "Space",
+  "space_name": "WoCo",
+  "participants": 4,
+  "date_range": {
+    "start": "2022-05-25",
+    "end": "2022-05-25"
+  },
+  "message_count": 11,
+  "topic": "WoCo data migration and model deployment",
+  "topic_slug": "woco-data-migration-and-model-deployment",
+  "tags": [
+    "analytics",
+    "recalc-ch"
+  ],
+  "summary_markdown": "The discussion focused on updating the room membership for WoCo. It was noted that the new model is not yet available in production (prod). Data recalculations were only performed historically; deploying the model requires releasing a new script version.\n\nDiscrepancies were found in data across different companies between staging and production environments, which are currently being checked. The plan established is to retrieve yesterday's data from staging to production, as someone had already sent client data using this method. Additionally, today's data will be manually retrieved tomorrow morning.\nThe deployment of the model is planned for tomorrow.",
+  "decisions": [
+    "Retrieve yesterday's WoCo data from staging to production environment",
+    "Manually retrieve today's WoCo data tomorrow morning",
+    "Plan model release/deployment for the following day"
+  ],
+  "action_items": [
+    "[p2] needs to move yesterday's WoCo data from staging to production (if not already done)"
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "chat_id": "rBfK7kAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 2,
+  "date_range": {
+    "start": "2024-02-01",
+    "end": "2024-02-01"
+  },
+  "message_count": 3,
+  "topic": "SQL query for dwell time and impressions",
+  "topic_slug": "sql-query-for-dwell-time-and-impressions",
+  "tags": [
+    "analytics",
+    "dwell-time",
+    "impression"
+  ],
+  "summary_markdown": "The conversation involves requesting a specific SQL query to calculate `dwell_time` associated with sessions that generate impressions. The provided query selects the session start hour, facility number, and calculates the median duration (`dwell_time`) from the `device_session_concept` table. Filtering criteria include ensuring the data is not local, permanent device, anomaly, excluded, or fake.",
+  "decisions": [
+    "A specific SQL query was shared to calculate dwell time per session start hour and facility."
+  ],
+  "action_items": [
+    "None"
+  ]
+}

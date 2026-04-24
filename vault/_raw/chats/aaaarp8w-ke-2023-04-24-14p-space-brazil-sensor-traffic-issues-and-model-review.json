@@ -1,0 +1,25 @@
+{
+  "chat_id": "AAAARP8w-KE",
+  "kind": "Space",
+  "space_name": "Problematic sensors",
+  "participants": 14,
+  "date_range": {
+    "start": "2023-04-24",
+    "end": "2023-04-24"
+  },
+  "message_count": 23,
+  "topic": "Brazil sensor traffic issues and model review",
+  "topic_slug": "brazil-sensor-traffic-issues-and-model-review",
+  "tags": [
+    "analytics",
+    "facility",
+    "impression"
+  ],
+  "summary_markdown": "The discussion focused on multiple reported sensor issues across various locations in Brazil for JCDecaux (JCD) and Clear Channel (CC). \n\n**Reported Sensor Issues:**\n*   Multiple sensors were found to be offline or experiencing traffic drops, including specific units in boxes like JCD_BR_837, JCD_BR_545, JCD_BR_859, and CC_BR_Tottavareslyra. \n*   Some traffic drops were attributed to an increase in transmitted empty packets.\n\n**Model Review:**\n*   The period under review was from March 3rd (04.03).\n*   Initial discussion suggested that the model might be involved, but some participants noted that if traffic dropped across both real and local data streams, the issue is not solely related to modeling.\n*   It was confirmed that only OutdoorMedia for Brazil had not been re-calculated; JCD and CC were active and recalculated, though a check was offered.\n\n**Other Data Points:**\n*   A separate query regarding Germany (Train Station category) noted no data since April 21st, which was stated to be unrelated to modeling issues.",
+  "decisions": [
+    "The primary focus is on investigating the cause of traffic drops in Brazil's sensor network."
+  ],
+  "action_items": [
+    "Someone needs to check if the model calculation for OutdoorMedia in Brazil can be re-checked."
+  ]
+}

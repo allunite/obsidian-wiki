@@ -1,0 +1,26 @@
+{
+  "chat_id": "y9IEDQAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2026-02-16",
+    "end": "2026-02-16"
+  },
+  "message_count": 8,
+  "topic": "Scheduling AFA scripts and reporting frequency",
+  "topic_slug": "scheduling-afa-scripts-and-reporting-frequency",
+  "tags": [
+    "analytics",
+    "campaign"
+  ],
+  "summary_markdown": "The conversation focused on the deployment and scheduling of AFA scripts. [me] confirmed that a script was developed and launched on the same day. Regarding the required reporting cycle, it was noted that the client currently requests reports every two weeks on Mondays. However, [me] proposed changing this to weekly reporting, suggesting a daily job schedule for the automation. This approach would allow for both bi-weekly reporting and provide overlap/redundancy.",
+  "decisions": [
+    "AFA scripts were developed and launched by [me].",
+    "The reporting frequency was discussed, with a proposal to move from bi-weekly to weekly reports."
+  ],
+  "action_items": [
+    "[p1] needs to set up the job scheduling (jobb) for the script.",
+    "[me] will work on the annual run of the script tomorrow."
+  ]
+}

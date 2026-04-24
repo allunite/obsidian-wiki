@@ -1,0 +1,24 @@
+{
+  "chat_id": "oCgFCIAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2026-02-04",
+    "end": "2026-02-04"
+  },
+  "message_count": 19,
+  "topic": "Adding demographics data to analytics",
+  "topic_slug": "adding-demographics-data-to-analytics",
+  "tags": [
+    "analytics",
+    "campaign"
+  ],
+  "summary_markdown": "The conversation focused on simplifying the process of adding demographic data. Several SQL scripts and documentation links were shared, including an updated script for Belgium's demographics (shared by [me]).\n\nKey technical points discussed included:\n*   The structure for adding the data must fit within a specific location in the 'client house'.\n*   A concern was raised regarding running `TRUNCATE` on the aggregation table (`demography_agg`), with caution advised due to potential data loss.\n*   It was noted that the MOPs value is currently hardcoded and should ideally be moved into a user settings table in the database for better maintainability.",
+  "decisions": [
+    "The process for adding demographics data has been simplified using provided scripts."
+  ],
+  "action_items": [
+    "Someone needs to design how to move the hardcoded MOPs value from the code into a dedicated user settings table within the database."
+  ]
+}

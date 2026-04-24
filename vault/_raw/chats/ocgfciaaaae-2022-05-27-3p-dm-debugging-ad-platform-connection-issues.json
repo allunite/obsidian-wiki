@@ -1,0 +1,26 @@
+{
+  "chat_id": "oCgFCIAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2022-05-27",
+    "end": "2022-05-27"
+  },
+  "message_count": 54,
+  "topic": "Debugging ad platform connection issues",
+  "topic_slug": "debugging-ad-platform-connection-issues",
+  "tags": [
+    "analytics",
+    "campaign",
+    "inventory",
+    "impression"
+  ],
+  "summary_markdown": "The discussion focused on debugging local ad platform connection issues, specifically regarding login requests that returned 301/302 redirects without clear errors. Initial troubleshooting suggested potential problems with MongoDB connectivity or outdated service tokens in the configuration.\n\nA major issue was identified concerning API endpoint changes: `api.allunite.com` now enforces a redirect to HTTPS. The system's configuration needed adjustment to prevent following this redirect, which was causing connection failures when running locally.",
+  "decisions": [
+    "The ad platform configuration must be updated to handle the mandatory redirect from HTTP to HTTPS for `api.allunite.com`."
+  ],
+  "action_items": [
+    "Update local configuration files to reflect the required API endpoint changes (HTTPS enforcement)."
+  ]
+}

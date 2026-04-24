@@ -1,0 +1,24 @@
+{
+  "chat_id": "i6YI1QAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 2,
+  "date_range": {
+    "start": "2023-09-05",
+    "end": "2023-09-05"
+  },
+  "message_count": 15,
+  "topic": "Syncing release status and data readiness",
+  "topic_slug": "syncing-release-status-and-data-readiness",
+  "tags": [
+    "analytics",
+    "campaign"
+  ],
+  "summary_markdown": "The conversation focused on the immediate release of Brazilian data. Concerns were raised regarding whether a specific unknown element needed to be removed from the current release or if it could wait until a later date. It was noted that previous attempts at forecasting and data aggregation had been performed, resulting in data currently considered 'more or less normal' on production. Due to differing information and potential discrepancies ('разнобой'), both parties agreed that a synchronous call was necessary to resolve the status of the release.",
+  "decisions": [
+    "A 15-minute sync call will be scheduled to determine the final release status."
+  ],
+  "action_items": [
+    "Schedule and conduct a 15-minute sync call on STAGE environment."
+  ]
+}

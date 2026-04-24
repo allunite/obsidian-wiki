@@ -1,0 +1,26 @@
+{
+  "chat_id": "oCgFCIAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2022-01-18",
+    "end": "2022-01-18"
+  },
+  "message_count": 25,
+  "topic": "Dictionary key type conflicts and fixes",
+  "topic_slug": "dictionary-key-type-conflicts-and-fixes",
+  "tags": [
+    "analytics",
+    "inventory"
+  ],
+  "summary_markdown": "The discussion focused on resolving data type conflicts when joining dictionary keys with external table foreign keys, specifically involving `UInt32` vs. `UInt64` types in the ClickHouse environment.\n\nInitially, issues were noted where event sourcing components failed to record commits due to these type mismatches. The problem was traced to how dictionary IDs (which should be `UInt64`) interacted with physical fields like `facility_num` or `company_num` (`UInt32`).\n\nIt was determined that the issue could potentially be resolved by checking for changes in DDL related to dictionaries. Later, a successful workaround was demonstrated using `CREATE DICTIONARY` via DDL, which allowed for better type casting and joining capabilities (e.g., using `where num in (select num from something)`).\n\nThe conversation concluded with the need to clarify organizational relationships regarding reporting requirements for Germany, specifically involving JCD's HQ in France and WallDecaux, who requested separate data uploads in a specific format (`report-v3`).",
+  "decisions": [
+    "The technical issue regarding dictionary key type conflicts was successfully addressed using DDL.",
+    "It is necessary to clarify the relationship between various company names (e.g., DataCorp) and confirm reporting requirements for Germany."
+  ],
+  "action_items": [
+    "Someone needs to clarify the status of data uploads/reporting requirements for Germany, particularly regarding WallDecaux and JCD.",
+    "The source of truth for organizational relationships and company names (DataCorp vs. others) must be confirmed with a specific team member."
+  ]
+}

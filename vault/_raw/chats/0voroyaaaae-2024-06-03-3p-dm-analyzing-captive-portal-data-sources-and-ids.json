@@ -1,0 +1,26 @@
+{
+  "chat_id": "0VorOYAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2024-06-03",
+    "end": "2024-06-03"
+  },
+  "message_count": 25,
+  "topic": "Analyzing captive portal data sources and IDs",
+  "topic_slug": "analyzing-captive-portal-data-sources-and-ids",
+  "tags": [
+    "analytics",
+    "captive",
+    "device-id"
+  ],
+  "summary_markdown": "The conversation focused on querying and correlating device identifiers (MAC addresses) across different data sources for captive portal analysis. Initially, there was confusion regarding whether the MAC address from a primary table should be used as the `box` field in the `captive_user_event` or `captive_user_login` tables.\n\nIt was confirmed that: \n*   The device ID (MAC) found in the `device_session_concept` table (e.g., `sensor (rut 200)` with MAC `20972701EA72`) can be correlated with data from the captive portal tables.\n*   A separate database connection (`sandbox-db.allunite.local`, `captive` db) was provided for accessing the necessary captive portal data.\n*   The key concept confirmed is that while the MAC addresses might appear in different systems (e.g., AP MAC in the captive table, sensor MAC in ClickHouse), they refer to the same physical device, allowing for unified analysis of history and location.",
+  "decisions": [
+    "Use `sandbox-db.allunite.local` database connection for accessing captive portal data.",
+    "The MAC address from the primary session concept table can be correlated with captive portal events/logins."
+  ],
+  "action_items": [
+    "Analyze the history and location using the newly connected captive portal data source."
+  ]
+}

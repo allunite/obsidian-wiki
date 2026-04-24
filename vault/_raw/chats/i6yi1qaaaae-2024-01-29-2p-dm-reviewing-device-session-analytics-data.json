@@ -1,0 +1,22 @@
+{
+  "chat_id": "i6YI1QAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 2,
+  "date_range": {
+    "start": "2024-01-29",
+    "end": "2024-01-29"
+  },
+  "message_count": 3,
+  "topic": "Reviewing device session analytics data",
+  "topic_slug": "reviewing-device-session-analytics-data",
+  "tags": [
+    "analytics",
+    "session"
+  ],
+  "summary_markdown": "The participants exchanged links and SQL queries related to reviewing device session traffic data for specific facilities (28000, 28001, 27999, 28003, 28002). The initial query focused on calculating total sessions, unique devices, and frequency from the `device_session_concept` table within a specified date range (Jan 18 - Jan 24) for a specific company number. A subsequent link was provided to adjust the date range (Jan 22 - Jan 28) and change the data model/category.",
+  "decisions": [],
+  "action_items": [
+    "Review device session analytics using provided links/queries"
+  ]
+}

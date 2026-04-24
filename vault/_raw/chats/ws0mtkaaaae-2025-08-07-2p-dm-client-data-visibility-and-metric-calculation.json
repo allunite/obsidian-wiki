@@ -1,0 +1,23 @@
+{
+  "chat_id": "ws0mTkAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 2,
+  "date_range": {
+    "start": "2025-08-07",
+    "end": "2025-08-07"
+  },
+  "message_count": 11,
+  "topic": "Client data visibility and metric calculation",
+  "topic_slug": "client-data-visibility-and-metric-calculation",
+  "tags": [
+    "analytics",
+    "facility",
+    "dwell-time"
+  ],
+  "summary_markdown": "Discussion focused on the scope of displaying client data within various clusters. It was clarified that a client should only see clusters and floors where their specific screens are present. For metric calculations, there is uncertainty regarding whether all facilities within a cluster must be visible (e.g., for dwell-time metrics vs. other parameters).",
+  "decisions": [
+    "Client visibility is restricted to clusters and floors containing the client's own screens."
+  ],
+  "action_items": []
+}

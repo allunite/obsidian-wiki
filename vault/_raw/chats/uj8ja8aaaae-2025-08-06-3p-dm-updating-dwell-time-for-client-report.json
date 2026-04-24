@@ -1,0 +1,22 @@
+{
+  "chat_id": "uJ8JA8AAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2025-08-06",
+    "end": "2025-08-06"
+  },
+  "message_count": 6,
+  "topic": "Updating dwell time for client report",
+  "topic_slug": "updating-dwell-time-for-client-report",
+  "tags": [
+    "dwell-time",
+    "analytics"
+  ],
+  "summary_markdown": "The conversation focused on updating the dwell time data. [p1] requested an update to the dwell time metric so that a letter could be sent to the client. [me] confirmed this was possible, stating it would take 15 minutes and that the deletion process had started. After waiting, [me] confirmed the task was completed.",
+  "decisions": [
+    "Dwell time data was updated for the client report."
+  ],
+  "action_items": []
+}

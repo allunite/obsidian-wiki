@@ -1,0 +1,22 @@
+{
+  "chat_id": "nW_zkkAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2025-11-27",
+    "end": "2025-11-27"
+  },
+  "message_count": 32,
+  "topic": "Analytics platform cluster frequency coefficient bug fix",
+  "topic_slug": "analytics-platform-cluster-frequency-coefficient-bug-fix",
+  "tags": [
+    "analytics",
+    "campaign"
+  ],
+  "summary_markdown": "The discussion focused on a discrepancy in how 'Cluster Frequency' is calculated and displayed on the staging analytics platform. Initially, [p1] noted that the platform seemed to calculate frequency without coefficients, even though the formula `getClusterFrequency_2_stage` provided desired results with coefficients.\n\n[me] later confirmed finding and fixing a bug on the platform. The fix involved removing a check for `company_num`, ensuring that for shared malls, the correct company number (based on which entity has more screens in the cluster) is used.",
+  "decisions": [
+    "A bug was found and fixed regarding Cluster Frequency calculation coefficients on the staging analytics platform."
+  ],
+  "action_items": []
+}

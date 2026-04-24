@@ -1,0 +1,26 @@
+{
+  "chat_id": "AAAA3kqxclA",
+  "kind": "Space",
+  "space_name": "Group Chat",
+  "participants": 3,
+  "date_range": {
+    "start": "2024-03-11",
+    "end": "2024-03-11"
+  },
+  "message_count": 23,
+  "topic": "Brazilian captive data access and optimization",
+  "topic_slug": "brazilian-captive-data-access-optimization",
+  "tags": [
+    "analytics",
+    "inventory",
+    "impression"
+  ],
+  "summary_markdown": "The discussion focused on accessing Brazilian captive user event data for dashboard purposes. Initial suggestions included creating a Materialized View in ClickHouse or setting up replication to PostgreSQL. It was decided that configuring direct access to the existing PostgreSQL database was the preferred immediate approach, bypassing complex setup like WAL.\n\nConcerns were raised regarding performance when querying the captive table, with one participant noting unusually long query execution times (e.g., 1 minute 35 seconds).\n\nThe root cause of the slow queries was identified as missing primary keys (PK) and indexes on the `captive_user_event` table. The PK was subsequently added by [me].",
+  "decisions": [
+    "Direct access to the Brazilian PostgreSQL database will be configured for dashboard data, bypassing complex replication setup.",
+    "A Primary Key (PK) was added to the captive user event table."
+  ],
+  "action_items": [
+    "Someone needs to check and ensure proper indexing on the captive tables to improve query performance."
+  ]
+}

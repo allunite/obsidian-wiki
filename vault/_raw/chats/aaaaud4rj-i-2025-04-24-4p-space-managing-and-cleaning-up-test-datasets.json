@@ -1,0 +1,26 @@
+{
+  "chat_id": "AAAAud4RJ_I",
+  "kind": "Space",
+  "space_name": "Group Chat",
+  "participants": 4,
+  "date_range": {
+    "start": "2025-04-24",
+    "end": "2025-04-24"
+  },
+  "message_count": 38,
+  "topic": "Managing and cleaning up test datasets",
+  "topic_slug": "managing-and-cleaning-up-test-datasets",
+  "tags": [
+    "analytics",
+    "data-set",
+    "campaign"
+  ],
+  "summary_markdown": "The discussion focused on the necessity and management of temporary test datasets (e.g., `semen_test_1`, `oksana_test_2`).\n\n**Data Management:**\n*   Participants agreed that while these datasets are useful for testing, they accumulate historical data over long periods, consuming significant storage space.\n*   A proposed solution was to implement a mechanism (potentially a button or job) to allow users to delete data from specific test datasets within defined date ranges, excluding production and staging environments.\n*   It was noted that while direct deletion is possible, it would be slow as it requires reprocessing the entire history. A scheduled background job approach was suggested instead.\n\n**Technical Implementation:**\n*   The initial creation of multiple test dataset entries was successfully executed using an `insert into` SQL statement.\n*   It was also discussed that partitioning data by version (`agg_version`) allows for faster cleanup via dropping partitions, provided a dedicated job is written.",
+  "decisions": [
+    "Implement a mechanism to periodically clean historical data from non-production test datasets.",
+    "The cleaning process should ideally be handled by a scheduled background job rather than manual deletion."
+  ],
+  "action_items": [
+    "Develop the necessary job/script for periodic cleanup of old test dataset history in non-prod environments."
+  ]
+}

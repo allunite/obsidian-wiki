@@ -1,0 +1,21 @@
+{
+  "chat_id": "oq-w0kAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2025-11-12",
+    "end": "2025-11-12"
+  },
+  "message_count": 4,
+  "topic": "Staging report generation error fix",
+  "topic_slug": "staging-report-generation-error-fix",
+  "tags": [
+    "analytics"
+  ],
+  "summary_markdown": "A bug was identified in the staging environment when generating Excel reports. Specifically, attempting to explicitly set the `Time Granulation` parameter (`gran=c`) caused a 500 error during automated testing. The issue has since been fixed.",
+  "decisions": [
+    "The bug causing the 500 error with explicit Time Granulation was resolved."
+  ],
+  "action_items": []
+}

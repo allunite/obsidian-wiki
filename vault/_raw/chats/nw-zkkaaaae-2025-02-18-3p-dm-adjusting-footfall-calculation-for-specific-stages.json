@@ -1,0 +1,24 @@
+{
+  "chat_id": "nW_zkkAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2025-02-18",
+    "end": "2025-02-18"
+  },
+  "message_count": 15,
+  "topic": "Adjusting footfall calculation for specific stages",
+  "topic_slug": "adjusting-footfall-calculation-for-specific-stages",
+  "tags": [
+    "analytics",
+    "facility"
+  ],
+  "summary_markdown": "The discussion focused on adjusting the methodology for calculating footfalls for a client's stage (7948). Initially, [p1] requested that the footfall calculation for stage 7948 use a rule where an instance counts as one footfall if the device was detected by two or more sensors. This rule had previously been applied only to clusters with five or more sensors.\n\n[me] provided initial conditions for stages 7847 and 7600, which required `sensor_count_cluster < 5` OR `screen_number > 1`. For stage 7948, the standard calculation was noted.\n\nLater, [p1] requested that the condition for stage 7948 be set to `screen_number > 1` on the stage. After initial implementation and checking (which showed no change), [me] realized an error: the change had only been applied to networks and not to full clusters. [me] subsequently corrected and completed the necessary adjustments.",
+  "decisions": [
+    "The footfall calculation for stage 7948 was adjusted to count as one instance if the device was detected by two or more sensors, applying this rule across all clusters."
+  ],
+  "action_items": [
+    "N/A"
+  ]
+}

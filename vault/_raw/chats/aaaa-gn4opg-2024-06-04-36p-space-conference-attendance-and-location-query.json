@@ -1,0 +1,19 @@
+{
+  "chat_id": "AAAA-gn4oPg",
+  "kind": "Space",
+  "space_name": "General and random",
+  "participants": 36,
+  "date_range": {
+    "start": "2024-06-04",
+    "end": "2024-06-04"
+  },
+  "message_count": 3,
+  "topic": "Conference attendance and location query",
+  "topic_slug": "conference-attendance-and-location-query",
+  "tags": [
+    "campaign"
+  ],
+  "summary_markdown": "Participants discussed attending the WOO conference in Hong Kong. One participant questioned if the event was a large conference or held in a smaller setting like a cafe/bar.",
+  "decisions": [],
+  "action_items": []
+}

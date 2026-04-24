@@ -1,0 +1,20 @@
+{
+  "chat_id": "AAAA9ybOLwM",
+  "kind": "Space",
+  "space_name": "ИТ",
+  "participants": 8,
+  "date_range": {
+    "start": "2021-02-19",
+    "end": "2021-02-19"
+  },
+  "message_count": 6,
+  "topic": "CityMedia map status and limitations",
+  "topic_slug": "citymedia-map-status-and-limitations",
+  "tags": [
+    "facility",
+    "analytics"
+  ],
+  "summary_markdown": "The realtime map for CityMedia and all current JCD locations was activated. It was noted that Lithuania is not displayed on the map, with [me] suggesting this might be due to missing lat/lon coordinates in the facility data.",
+  "decisions": [],
+  "action_items": []
+}

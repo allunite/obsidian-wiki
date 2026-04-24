@@ -1,0 +1,25 @@
+{
+  "chat_id": "oCgFCIAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2022-08-23",
+    "end": "2022-08-23"
+  },
+  "message_count": 16,
+  "topic": "Data discrepancies and factor validation",
+  "topic_slug": "data-discrepancies-and-factor-validation",
+  "tags": [
+    "analytics",
+    "session",
+    "campaign"
+  ],
+  "summary_markdown": "The discussion focused on two main data discrepancies for a specific facility (3941) covering August 2022.\n\n1. **Unique Counts Discrepancy:** There is a significant mismatch in unique counts; the calculated number (21K) is much lower than the figure seen in analytics (>121).\n2. **Factor/Multiplier Issue:** A disagreement exists regarding the correct factor to use. One person noted that using a dynamic, daily-varying factor results in inconsistent data (next day being less than previous). The other party stated that an increased multiplier is desired, despite evidence suggesting 100% attainment is difficult.\n\nSeparately, it was confirmed that no factors are included in the 2D lidar data; only speed can be adjusted/counted.",
+  "decisions": [
+    "The unique count discrepancy needs resolution between calculated data and analytics dashboard figures."
+  ],
+  "action_items": [
+    "None specified."
+  ]
+}

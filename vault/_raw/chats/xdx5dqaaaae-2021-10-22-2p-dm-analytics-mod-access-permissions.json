@@ -1,0 +1,21 @@
+{
+  "chat_id": "xdx5dQAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 2,
+  "date_range": {
+    "start": "2021-10-22",
+    "end": "2021-10-22"
+  },
+  "message_count": 4,
+  "topic": "Analytics mod access permissions",
+  "topic_slug": "analytics-mod-access-permissions",
+  "tags": [
+    "analytics"
+  ],
+  "summary_markdown": "Someone confirmed they were added as an admin to the mods/analytics section. They stated this was temporary (10 minutes) and could be revoked if necessary.",
+  "decisions": [
+    "Temporary admin access granted for analytics mod."
+  ],
+  "action_items": []
+}

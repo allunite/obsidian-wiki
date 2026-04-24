@@ -1,0 +1,26 @@
+{
+  "chat_id": "8GgAuwAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 2,
+  "date_range": {
+    "start": "2023-08-01",
+    "end": "2023-08-01"
+  },
+  "message_count": 11,
+  "topic": "Updating asset and frame data",
+  "topic_slug": "updating-asset-and-frame-data",
+  "tags": [
+    "facility",
+    "frame",
+    "asset"
+  ],
+  "summary_markdown": "The discussion focused on necessary updates to the digital advertising assets. Two main tasks were identified:\n1. Deleting specific facilities, associated frames, and assets that were present in an initial export but are missing from a subsequent file update (identified by IDs in the 'to delete' tab).\n2. Creating new assets and linking them to existing frames for newly added content (using asset IDs listed in the 'need to create' tab), which requires associating facilities with these new assets.\nRegarding completion, one participant confirmed that Task 1 was completed. The second task could not be started immediately due to time constraints, as creating the necessary facilities and assets without the linked frames would be meaningless. The general update of data fields previously discussed is tentatively scheduled for Monday or early the following week.",
+  "decisions": [
+    "Task 1 (deleting old assets/frames) was completed.",
+    "The full asset creation and frame linking (Task 2) could not be started immediately."
+  ],
+  "action_items": [
+    "Update data fields are tentatively scheduled for Monday or early the following week."
+  ]
+}

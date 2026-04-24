@@ -1,0 +1,24 @@
+{
+  "chat_id": "i6YI1QAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 2,
+  "date_range": {
+    "start": "2021-04-15",
+    "end": "2021-04-15"
+  },
+  "message_count": 11,
+  "topic": "Adjusting factor for CityMedia data",
+  "topic_slug": "adjusting-factor-for-citymedia-data",
+  "tags": [
+    "analytics",
+    "campaign"
+  ],
+  "summary_markdown": "The conversation focused on adjusting a specific factor (5.5) for CityMedia's data. It was clarified that the factor adjustment should be applied to the product level, not just one stage.\n\nAdditionally, it was noted that raw unique counts might need to be displayed instead of calculated values from models/raw data because the total may not be complete.",
+  "decisions": [
+    "The new factor (5.5) for CityMedia should only be applied going forward and historical data should remain unchanged."
+  ],
+  "action_items": [
+    "[p1] to confirm the approach regarding historical data changes."
+  ]
+}

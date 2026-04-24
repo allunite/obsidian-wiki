@@ -1,0 +1,19 @@
+{
+  "chat_id": "oCgFCIAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2022-12-12",
+    "end": "2022-12-12"
+  },
+  "message_count": 8,
+  "topic": "Logistics for equipment transfer",
+  "topic_slug": "logistics-for-equipment-transfer",
+  "tags": [],
+  "summary_markdown": "The conversation revolves around the potential need and logistics of transferring a large monitor from Kyiv back to Dnipro. [p1] stated that they do not need it as they are often mobile, and carrying a mouse is inconvenient.\n[me] confirmed plans to arrange courier service for the transfer.",
+  "decisions": [
+    "Courier will be used to transport the equipment."
+  ],
+  "action_items": []
+}

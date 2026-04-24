@@ -1,0 +1,29 @@
+{
+  "chat_id": "i6YI1QAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 2,
+  "date_range": {
+    "start": "2023-08-22",
+    "end": "2023-08-22"
+  },
+  "message_count": 55,
+  "topic": "Campaign data analysis and dashboard updates",
+  "topic_slug": "campaign-data-analysis-and-dashboard-updates",
+  "tags": [
+    "analytics",
+    "impression",
+    "frequency",
+    "session",
+    "campaign"
+  ],
+  "summary_markdown": "The discussion focused on data discrepancies found during the deployment of version 2023.8.4 to staging, particularly concerning frequency metrics. It was noted that the STAGE dataset showed significantly higher frequency than production data, leading to concerns about the current state of the staging environment.\n\nConcerns were raised regarding the aggregation process for campaign data, specifically whether the dataset had been properly re-aggregated (e.g., for August). The participants discussed potential bugs in the recalculation process that could cause metric fluctuations, such as the removal of Metro company sessions.\n\nData performance was reviewed for specific markets (São Paulo and Rio), with one participant noting a decline compared to competitors. A technical discussion ensued regarding how frequency should be calculated—whether it should depend on impressions or if a different formula is needed for comparison in the interface.",
+  "decisions": [
+    "The dashboard update will wait; prioritizing campaign data release.",
+    "The dataset needs re-aggregation, especially for August data."
+  ],
+  "action_items": [
+    "Someone should investigate and fix the bug causing recalculation issues (e.g., Metro session removal).",
+    "Review frequency calculation formulas to ensure accuracy across different markets/interfaces."
+  ]
+}

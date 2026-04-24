@@ -1,0 +1,28 @@
+{
+  "chat_id": "nW_zkkAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2026-03-18",
+    "end": "2026-03-18"
+  },
+  "message_count": 46,
+  "topic": "Virtual vs physical session data discrepancies",
+  "topic_slug": "virtual-vs-physical-session-data-discrepancies",
+  "tags": [
+    "analytics",
+    "session",
+    "facility",
+    "inventory"
+  ],
+  "summary_markdown": "The discussion focused on discrepancies found between virtual and physical session data for a specific facility (52880). The core issue is that `v_device_session_agg_dev` shows virtual sessions even when the facility was not equipped with sensors, or when previous sensor connections were disconnected. \n\nIt was noted that the current data pipeline might be incorrectly merging session types (virtual and non-virtual) within the same hour for a single facility.\n\nMultiple SQL queries were reviewed to diagnose where virtual sessions are being populated, leading to the conclusion that existing 'dummy' or blocking mechanisms ('заглушка') designed to prevent this issue appear to have failed or been bypassed in certain instances. The participants discussed using `agg_dev` over `device_session` for analysis and adjusting aggregation functions (e.g., using `sum()` instead of `count()`).",
+  "decisions": [
+    "Use `v_device_session_agg_dev` or similar aggregated views rather than raw `device_session` when analyzing session data.",
+    "Investigate why the existing blocking mechanism ('заглушка') failed to prevent virtual sessions from being recorded for a facility that was not sensor-equipped."
+  ],
+  "action_items": [
+    "Review and potentially adjust the logic of the 'dummy' or blocking mechanism responsible for preventing virtual session data when sensors are absent.",
+    "Confirm if `sum()` should be used instead of `count()` when aggregating session numbers in aggregated views."
+  ]
+}

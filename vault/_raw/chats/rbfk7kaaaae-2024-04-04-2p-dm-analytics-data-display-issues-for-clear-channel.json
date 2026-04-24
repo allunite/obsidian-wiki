@@ -1,0 +1,24 @@
+{
+  "chat_id": "rBfK7kAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 2,
+  "date_range": {
+    "start": "2024-04-04",
+    "end": "2024-04-04"
+  },
+  "message_count": 20,
+  "topic": "Analytics data display issues for Clear Channel",
+  "topic_slug": "analytics-data-display-issues-for-clear-channel",
+  "tags": [
+    "analytics",
+    "session"
+  ],
+  "summary_markdown": "The discussion centered on troubleshooting the appearance of analytics data from Clear Channel (company_num=7912) in the staging environment. The user added data to `device_session_agg_ml_2` using specific SQL queries (`agg_period='H' and company_num = 7912`). However, the data did not appear on the dashboard or in the campaign details view.\n\nThe team discussed that the current system struggles to display data for companies with no actual sessions. The user confirmed they had added synthetic data using `agg_period='H' and is_synthetic=1`. It was noted that while a method exists to fill session gaps from a model, fully modeling without real base sessions is not yet implemented.",
+  "decisions": [
+    "The issue of missing analytics data for Clear Channel in the staging dashboard was identified."
+  ],
+  "action_items": [
+    "Someone needs to develop a solution to display modeled/synthetic session data accurately on the dashboard."
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "chat_id": "i6YI1QAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 2,
+  "date_range": {
+    "start": "2021-01-25",
+    "end": "2021-01-25"
+  },
+  "message_count": 45,
+  "topic": "Adjusting Belgian factor and data sources",
+  "topic_slug": "adjusting-belgian-factor-and-data-sources",
+  "tags": [
+    "analytics",
+    "facility",
+    "dwell-time"
+  ],
+  "summary_markdown": "The discussion focused on adjusting the advertising factor for Belgium, specifically relating to the 'City=19' category. Initially, [p1] requested that the factor be tied to categories in HQ and applied to Belgium. It was noted that factors are currently only set by partner, company, master-facility, or facility, not by category.\n\nAfter discussion, it was determined that due to input from 'Esben', no changes should be made to the production environment for the factor at this time. [me] confirmed setting the factor of 19 on staging and being able to recalculate aggregates (e.g., for \"Fix for Citymedia\").\n\nA separate technical discussion occurred regarding data availability, confirming that dwell-time is available in aggregates (`device_session_agg_4`) and can be retrieved by facility and hour.",
+  "decisions": [
+    "No changes should be made to the production factor setting for Belgium (City=19) due to stakeholder input."
+  ],
+  "action_items": [
+    "None",
+    "Review data source for dwell-time: `device_session_agg_4` by facility and hour."
+  ]
+}

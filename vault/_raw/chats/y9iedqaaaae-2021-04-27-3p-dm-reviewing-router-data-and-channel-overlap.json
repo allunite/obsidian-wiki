@@ -1,0 +1,23 @@
+{
+  "chat_id": "y9IEDQAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2021-04-27",
+    "end": "2021-04-27"
+  },
+  "message_count": 10,
+  "topic": "Reviewing router data and channel overlap",
+  "topic_slug": "reviewing-router-data-and-channel-overlap",
+  "tags": [
+    "analytics",
+    "impression",
+    "frame"
+  ],
+  "summary_markdown": "The discussion focused on analyzing network data from routers where a firmware update was applied. Specifically, the goal is to determine if neighboring channels were captured and whether the volume of data differed compared to routers without the change.\n\n[me] stated that a superficial review had been conducted, but deeper investigation into the data gaps (intervals) was required.",
+  "decisions": [],
+  "action_items": [
+    "Investigate router data for neighboring channels and data volume differences."
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "chat_id": "oq-w0kAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2024-03-15",
+    "end": "2024-03-15"
+  },
+  "message_count": 7,
+  "topic": "Office space and capacity planning",
+  "topic_slug": "office-space-and-capacity-planning",
+  "tags": [
+    "facility"
+  ],
+  "summary_markdown": "The discussion centered on the potential reduction or change of office space. One participant suggested canceling the current office lease to allocate funds to a more powerful ClickHouse cluster. Regarding capacity, it was discussed whether the team might be forced into a smaller space ('уплотнить'). It was confirmed that since the office is private, adding more people is not an option. The participants concluded that cost increases are unlikely and that nothing significant will change regarding the current setup.",
+  "decisions": [
+    "Consider canceling the current office lease to fund infrastructure upgrades (ClickHouse cluster)."
+  ],
+  "action_items": []
+}

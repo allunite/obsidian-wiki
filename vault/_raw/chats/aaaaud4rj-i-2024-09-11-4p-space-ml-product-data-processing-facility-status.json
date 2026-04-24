@@ -1,0 +1,29 @@
+{
+  "chat_id": "AAAAud4RJ_I",
+  "kind": "Space",
+  "space_name": "Group Chat",
+  "participants": 4,
+  "date_range": {
+    "start": "2024-09-11",
+    "end": "2024-09-11"
+  },
+  "message_count": 43,
+  "topic": "ML product data processing and facility status",
+  "topic_slug": "ml-product-data-processing-facility-status",
+  "tags": [
+    "analytics",
+    "campaign",
+    "inventory",
+    "impression",
+    "facility"
+  ],
+  "summary_markdown": "The discussion centered on data anomalies and the process for running ML product calculations. Initial concerns involved missing or incorrect data (NaN) in production/beta environments, particularly regarding revenue calculation.\n\n**Data Processing Issues:**\n*   It was noted that a recalculation job ('recalc') failed overnight but was restarted successfully.\n*   The team reviewed session counts and facility usage patterns. A specific issue was identified with the filtering of facilities (e.g., 'RZK_BR_Stock_5'), where capitalization caused it to fail the intended filter, leading to inaccurate data for that location.\n\n**Facility Status Management:**\n*   The current method relies on manual checks and is insufficient due to the high volume of facilities being activated or deactivated. The team discussed using an `is_active` field in the facility table for better management.\n*   It was agreed that renaming facilities (e.g., changing 'Stock' capitalization) is too risky because it could impact historical data integrity across multiple reports and dashboards.\n\n**Next Steps:**\n*   The final procedure to resolve the data issues involves manually re-running specific components of the ML product pipeline for RZK after reloading necessary dictionaries.",
+  "decisions": [
+    "A full pipeline rerun is preferred over running individual components, but without the upload step.",
+    "Specific manual steps are required to fix the ML product data for RZK."
+  ],
+  "action_items": [
+    "The team needs to address the facility status management process using a more robust method than current filtering.",
+    "Someone should proceed with re-running the necessary components of the ML product pipeline for RZK."
+  ]
+}

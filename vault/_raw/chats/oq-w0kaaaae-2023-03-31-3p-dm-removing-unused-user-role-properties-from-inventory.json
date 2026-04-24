@@ -1,0 +1,22 @@
+{
+  "chat_id": "oq-w0kAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2023-03-31",
+    "end": "2023-03-31"
+  },
+  "message_count": 11,
+  "topic": "Removing unused user role properties from inventory",
+  "topic_slug": "removing-unused-user-role-properties-from-inventory",
+  "tags": [
+    "analytics",
+    "inventory"
+  ],
+  "summary_markdown": "The conversation focused on code cleanup within the InventorySimple interface. It was noted that the `_userRoles?: string[]` property, which stores the current user's roles, is currently unused in its main context. The original purpose of storing this data was to allow JavaScript handlers within JSON forms to determine visibility (e.g., hiding/showing tabs) based on the user's role. However, this functionality has since been deprecated by refactoring, specifically by making each tab a separate JSON form. A similar pattern regarding `_companyProps` in InventorySimple was also discussed as being obsolete.",
+  "decisions": [
+    "Remove the unused `_userRoles?: string[]` property from the InventorySimple interface."
+  ],
+  "action_items": []
+}

@@ -1,0 +1,21 @@
+{
+  "chat_id": "AAAARP8w-KE",
+  "kind": "Space",
+  "space_name": "Problematic sensors",
+  "participants": 14,
+  "date_range": {
+    "start": "2024-01-09",
+    "end": "2024-01-09"
+  },
+  "message_count": 3,
+  "topic": "Sensor location changes and review",
+  "topic_slug": "sensor-location-changes-and-review",
+  "tags": [
+    "facility"
+  ],
+  "summary_markdown": "A participant reported that the antenna locations for two sites (Orange Farm and Tshwane) have been changed, according to PmG. A request was made to verify these changes.",
+  "decisions": [],
+  "action_items": [
+    "Someone will try to provide an update on the sensor location review tomorrow."
+  ]
+}

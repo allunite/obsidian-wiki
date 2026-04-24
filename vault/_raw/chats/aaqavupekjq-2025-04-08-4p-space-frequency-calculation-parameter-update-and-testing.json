@@ -1,0 +1,23 @@
+{
+  "chat_id": "AAQAVUPEkJQ",
+  "kind": "Space",
+  "space_name": "Group Chat",
+  "participants": 4,
+  "date_range": {
+    "start": "2025-04-08",
+    "end": "2025-04-08"
+  },
+  "message_count": 3,
+  "topic": "Frequency calculation parameter update and testing",
+  "topic_slug": "frequency-calculation-parameter-update-and-testing",
+  "tags": [
+    "analytics",
+    "recalc-ch"
+  ],
+  "summary_markdown": "The discussion covered two technical updates related to frequency calculations. First, a specific parameter for cluster frequency was proposed: `cf := cf * 2.5` (for `company_num = 7961`). Second, the need was identified to update the platform to allow testing of a complex SQL formula (`getFrequency_TEST_10`) before committing it to Git. The formulas and updates were confirmed as completed for staging.",
+  "decisions": [
+    "The cluster frequency parameter was updated: `cf := cf * 2.5` (for company_num = 7961).",
+    "The platform update allowing formula testing before Git commit is complete."
+  ],
+  "action_items": []
+}

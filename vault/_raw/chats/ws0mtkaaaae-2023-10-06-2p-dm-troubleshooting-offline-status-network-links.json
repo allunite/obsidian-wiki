@@ -1,0 +1,24 @@
+{
+  "chat_id": "ws0mTkAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 2,
+  "date_range": {
+    "start": "2023-10-06",
+    "end": "2023-10-06"
+  },
+  "message_count": 21,
+  "topic": "Troubleshooting offline status of network links",
+  "topic_slug": "troubleshooting-offline-status-network-links",
+  "tags": [
+    "analytics",
+    "inventory"
+  ],
+  "summary_markdown": "The discussion focused on diagnosing why newly added TP links (Test Point links) for specific MAC addresses were showing an offline status in the system. Someone checked the PostgreSQL database for ping data (`stat_ping`) for the listed MAC addresses and confirmed that no pings were available from them, suggesting a potential issue with connectivity or monitoring.\n\nIt was clarified that these are TP links, not main routes.",
+  "decisions": [
+    "The offline status of the added TP links is due to missing ping data."
+  ],
+  "action_items": [
+    "Follow up on the root cause of the missing pings for the listed MAC addresses (assigned to 'Tole')."
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "chat_id": "oq-w0kAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2023-09-06",
+    "end": "2023-09-06"
+  },
+  "message_count": 25,
+  "topic": "Kido demographic data implementation and display",
+  "topic_slug": "kido-demographic-data-implementation-and-display",
+  "tags": [
+    "analytics",
+    "campaign",
+    "dashboard",
+    "impression"
+  ],
+  "summary_markdown": "The conversation focused on the correct implementation and display of Kido demographic data, particularly when viewing reports outside of a campaign context (e.g., on the Traffic Dashboard).\n\n**Key Changes/Decisions:**\n*   A new logic was proposed for campaign creation: The system should tie the campaign to the company's country upon creation. If the company is based in Brazil, Kido data must be used.\n*   The method for determining if Kido data should be used needs refinement. It was agreed that the determination of whether to use Kido should ideally happen on the server side, using the user's country as the primary source of truth.\n*   Regarding the Traffic Dashboard, it was decided that the dashboard must also check the viewing user's country and display the appropriate demographic chart (Kido or standard).\n\n**Technical Adjustments:**\n*   The `uage` parameter was confirmed to be unnecessary for both server payloads and client responses.\n*   A fix related to Kido on the Traffic Dashboard was committed, and a deployment to staging was requested/confirmed.",
+  "decisions": [
+    "Kido usage logic should tie campaign data to the company's country upon creation.",
+    "The determination of whether to use Kido demographic data must be handled primarily on the server side (based on user country).",
+    "The Traffic Dashboard must check the viewing user's country and display the correct demographic chart."
+  ],
+  "action_items": [
+    "Implement the revised logic for Kido usage based on company/user country.",
+    "Ensure the Traffic Dashboard correctly pulls and displays Kido data when applicable."
+  ]
+}

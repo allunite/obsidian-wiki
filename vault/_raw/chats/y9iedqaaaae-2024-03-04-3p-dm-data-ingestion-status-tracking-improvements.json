@@ -1,0 +1,27 @@
+{
+  "chat_id": "y9IEDQAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2024-03-04",
+    "end": "2024-03-04"
+  },
+  "message_count": 66,
+  "topic": "Data ingestion and status tracking improvements",
+  "topic_slug": "data-ingestion-status-tracking-improvements",
+  "tags": [
+    "analytics",
+    "facility",
+    "inventory"
+  ],
+  "summary_markdown": "The discussion covered several technical topics, including data access permissions and system monitoring.\n\n**Data Access:** A request was made to grant delete access for models in the `allunite-models` bucket. It was decided that granting full delete access might be too broad; instead, status tracking improvements were discussed.\n\n**System Monitoring/Ingestion:** The team planned to improve system monitoring by implementing a mechanism to alert when uploaded files are unusually small (less than a few hundred bytes). This check will be integrated into existing upload scripts (`jobs/data_upload/upload_day_afa.sh` and `upload_day_walldecaux.sh`).\n\n**Box Status Tracking:** To replace periodic pings, it was decided to implement a status tracking system for boxes (e.g., RZK TP-Link units). The box status (online/offline) will be written directly into PostgreSQL using two fields: `is_offline` and `offline_since`. This approach is preferred over relying solely on ping history in ClickHouse.",
+  "decisions": [
+    "Implement a file size check (< few hundred bytes) for data uploads, integrated into specific upload scripts.",
+    "Box status tracking will be implemented by writing 'is_offline' and 'offline_since' fields directly to PostgreSQL."
+  ],
+  "action_items": [
+    "The user needs to follow up with the person responsible for data re-uploading (Жека) regarding the completion of remaining days' data uploads.",
+    "The file size check fix was pushed and will be deployed/re-uploaded."
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "chat_id": "y9IEDQAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2025-10-10",
+    "end": "2025-10-10"
+  },
+  "message_count": 7,
+  "topic": "Fixing KPI data for specific assets",
+  "topic_slug": "fixing-kpi-data-for-specific-assets",
+  "tags": [
+    "analytics",
+    "facility"
+  ],
+  "summary_markdown": "The discussion centered on a technical issue regarding the retrieval of Assets when selecting 'Ocean Outdoor Denmark' in the KPI system. [p1] initially noted that the Assets tab was empty for this selection. Later, someone confirmed they had fixed the issue, explaining that the company record was old and contained filters designed to exclude irrelevant or outdated locations (like pizzerias and barbershops) from polluting the KPIs.",
+  "decisions": [
+    "The KPI data display issue for Ocean Outdoor Denmark has been resolved."
+  ],
+  "action_items": []
+}

@@ -1,0 +1,27 @@
+{
+  "chat_id": "nW_zkkAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2023-12-21",
+    "end": "2023-12-21"
+  },
+  "message_count": 29,
+  "topic": "Data aggregation and model runs",
+  "topic_slug": "data-aggregation-and-model-runs",
+  "tags": [
+    "session",
+    "analytics",
+    "campaign"
+  ],
+  "summary_markdown": "The discussion focused on data preparation for modeling, specifically concerning the inclusion of virtual sensors. It was confirmed that virtual sensor data should be populated starting from their mapping date.\n\nRegarding forecasting and model runs:\n*   Forecast data is available for sessions starting November 2nd.\n*   An issue with extra virtual sessions logged on November 1st was noted, and efforts were underway to remove them.\n*   It was confirmed that the model can be rerun and results aggregated using data from November 1st.\n*   For Provantage, it was decided to use the RZK frequency formula for traffic dashboards in staging.",
+  "decisions": [
+    "Virtual sensor data should be populated starting from their mapping date.",
+    "The model can be rerun and results aggregated using data from November 1st.",
+    "The RZK frequency formula will be used for Provantage on staging traffic dashboards."
+  ],
+  "action_items": [
+    "Run the model and aggregate the results with updated session data."
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "chat_id": "y9IEDQAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2023-06-20",
+    "end": "2023-06-20"
+  },
+  "message_count": 5,
+  "topic": "CA certificate installation in system",
+  "topic_slug": "ca-certificate-installation-system",
+  "tags": [
+    "analytics"
+  ],
+  "summary_markdown": "Someone requested assistance with installing a Certificate Authority (CA) certificate into the system. A link detailing the process was provided, and [me] stated they would address it later.",
+  "decisions": [],
+  "action_items": [
+    "[me] to work on CA certificate installation."
+  ]
+}

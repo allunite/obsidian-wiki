@@ -1,0 +1,22 @@
+{
+  "chat_id": "0m7UOUAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2025-09-12",
+    "end": "2025-09-12"
+  },
+  "message_count": 4,
+  "topic": "Optimizing device_id storage in session data",
+  "topic_slug": "optimizing-device-id-storage-in-session-data",
+  "tags": [
+    "analytics",
+    "session"
+  ],
+  "summary_markdown": "The discussion focused on the large amount of space consumed by `device_id` within session data. [me] ran a query to analyze storage usage across multiple sharded tables (`device_session_4_sharded`, etc.) in the `allunite` and `analytics_prod9999` databases, specifically looking at compression rates and total compressed/uncompressed sizes for various columns.\n\n[p1] acknowledged this issue, stating that someone (Євген) had previously shown them that the column consumes significant space.",
+  "decisions": [],
+  "action_items": [
+    "Review query results to determine if shortening or optimizing `device_id` storage is feasible."
+  ]
+}

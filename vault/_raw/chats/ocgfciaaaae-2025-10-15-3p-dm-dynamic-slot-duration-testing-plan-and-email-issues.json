@@ -1,0 +1,24 @@
+{
+  "chat_id": "oCgFCIAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2025-10-15",
+    "end": "2025-10-15"
+  },
+  "message_count": 9,
+  "topic": "Dynamic slot duration testing plan and email issues",
+  "topic_slug": "dynamic-slot-duration-testing-plan-and-email-issues",
+  "tags": [
+    "analytics",
+    "loop-duration"
+  ],
+  "summary_markdown": "The discussion covered the status of testing for dynamic slot duration. The current plan is to wait for 'Sasha' (who has not yet provided an update). It was noted that testing changes often require multiple iterations.\n\nSeparately, a technical issue regarding email delivery was discussed. [me] sent a test email via personal Gmail which reportedly failed to deliver, suggesting a potential failure in the forwarding setup from the work account.",
+  "decisions": [
+    "No concrete decisions were made regarding the dynamic slot duration testing plan."
+  ],
+  "action_items": [
+    "[p1] needs to follow up with Sasha about the dynamic slot duration testing plan."
+  ]
+}

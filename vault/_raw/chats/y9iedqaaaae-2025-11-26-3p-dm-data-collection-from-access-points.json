@@ -1,0 +1,26 @@
+{
+  "chat_id": "y9IEDQAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2025-11-26",
+    "end": "2025-11-26"
+  },
+  "message_count": 34,
+  "topic": "Data collection from access points",
+  "topic_slug": "data-collection-from-access-points",
+  "tags": [
+    "analytics",
+    "inventory",
+    "session",
+    "facility"
+  ],
+  "summary_markdown": "The discussion focused on data collection methods at various facilities, specifically concerning the use of access points (APs) and cellular modems.\n\n*   **Data Source Confirmation:** It was confirmed that traffic data from both Teltonika devices and captive portal (TP-Link) APs is utilized for sessionization/raw data processing at each facility box.\n*   **Concerns Raised:** One participant expressed concern about the high CPU usage (97%) on TP-Link units due to continuous data collection, suggesting disabling data gathering if it wasn't used. \n*   **Data Usage Confirmation:** The other participant confirmed that the traffic from both sources is actively used for sessionization at every facility box.\n*   **MAC Address Review:** A review of MAC addresses was conducted using a database query to confirm that multiple boxes (two per facility) are associated with each listed facility number.",
+  "decisions": [
+    "Traffic data from captive portals and Teltonika devices is required for sessionization at facilities."
+  ],
+  "action_items": [
+    "Review the necessity of continuous data collection on TP-Link units due to high CPU usage, while ensuring no loss of critical traffic data."
+  ]
+}

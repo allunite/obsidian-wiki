@@ -1,0 +1,24 @@
+{
+  "chat_id": "rBfK7kAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 2,
+  "date_range": {
+    "start": "2024-06-28",
+    "end": "2024-06-28"
+  },
+  "message_count": 3,
+  "topic": "Updating frequency formula for multiple cities",
+  "topic_slug": "updating-frequency-formula-for-multiple-cities",
+  "tags": [
+    "analytics",
+    "campaign"
+  ],
+  "summary_markdown": "Someone identified an error in the existing frequency calculation formula, realizing it was applicable not only to Libreville but also to Abidjan. A Pull Request (PR) was submitted to update the `frequency_v2` function by adding a `city` parameter and supporting both Libreville and Abidjan within the formula.\n\n[me] confirmed receipt of the PR and agreed to implement the changes on beta.",
+  "decisions": [
+    "The frequency calculation formula will be updated to support multiple cities (Libreville and Abidjan)."
+  ],
+  "action_items": [
+    "Update the new frequency logic via the submitted Pull Request on the beta environment."
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "chat_id": "oCgFCIAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2025-06-18",
+    "end": "2025-06-18"
+  },
+  "message_count": 22,
+  "topic": "API strategy for client DSP integration",
+  "topic_slug": "api-strategy-for-client-dsp-integration",
+  "tags": [
+    "analytics",
+    "campaign",
+    "inventory",
+    "data-api"
+  ],
+  "summary_markdown": "The discussion focused on the best technical approach for exposing an API to clients for DSP integration, referencing existing documentation. Three options were considered:\n\n1. **API on the main site:** Possible but deemed too complex and difficult to maintain.\n2. **Separate new service:** Technically clean but requires more effort (lifting/deploying) and coordination.\n3. **Using the data-api service:** This option was favored, despite initially being designed for data rather than pure API functionality.\n\nThe consensus shifted towards leveraging the existing `data-api` structure. It was suggested that the old API could be moved to a legacy domain (e.g., `legacy-api.allunite.com`), while `api.allunite.com` would serve as an alias for the updated data service.\n\nThe project folder name should also be simplified from `data-api` to just `api`.",
+  "decisions": [
+    "The API will be implemented using the existing data-api service structure.",
+    "A new domain/alias setup is planned: old APIs move to a legacy endpoint, and api.allunite.com points to the updated data service."
+  ],
+  "action_items": [
+    "Simplify the project folder name from 'data-api' to 'api'."
+  ]
+}

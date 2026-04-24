@@ -1,0 +1,25 @@
+{
+  "chat_id": "8GgAuwAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 2,
+  "date_range": {
+    "start": "2023-08-09",
+    "end": "2023-08-09"
+  },
+  "message_count": 6,
+  "topic": "Updating facility data for JCDecaux UK",
+  "topic_slug": "updating-facility-data-for-jcdecaux-uk",
+  "tags": [
+    "facility",
+    "analytics"
+  ],
+  "summary_markdown": "Someone requested that three specific redacted items be added to the 'Target facility' on the conversion table for the client JCDecaux UK, and simultaneously removed from the 'Source Facilities'. [me] confirmed completing the first part of the request but noted a limitation: there is currently no feature to 'show all except some'. To proceed quickly, [me] plans to input all facilities into the source list *except* for the three specified ones.",
+  "decisions": [
+    "Three specific items will be added to the Target facility on the conversion table for JCDecaux UK.",
+    "These three items must be removed from the Source Facilities."
+  ],
+  "action_items": [
+    "[me] needs to figure out a workaround for excluding facilities from the source list, possibly by listing all except the three specified ones."
+  ]
+}

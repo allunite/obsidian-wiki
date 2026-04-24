@@ -1,0 +1,22 @@
+{
+  "chat_id": "wZDFB8AAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2026-01-26",
+    "end": "2026-01-26"
+  },
+  "message_count": 5,
+  "topic": "Disable New Reach formula for specific campaign",
+  "topic_slug": "disable-new-reach-formula-for-campaign",
+  "tags": [
+    "analytics",
+    "campaign"
+  ],
+  "summary_markdown": "Someone was asked to disable the 'New Reach' formula for Company 7986 (Helloo) within certain campaigns, reverting them to an older formula. The task was completed and confirmed by [p1].",
+  "decisions": [
+    "The New Reach formula for Company 7986 in specified campaigns will be disabled."
+  ],
+  "action_items": []
+}

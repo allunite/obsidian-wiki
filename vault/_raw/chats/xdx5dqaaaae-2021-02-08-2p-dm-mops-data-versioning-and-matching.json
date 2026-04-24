@@ -1,0 +1,22 @@
+{
+  "chat_id": "xdx5dQAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 2,
+  "date_range": {
+    "start": "2021-02-08",
+    "end": "2021-02-08"
+  },
+  "message_count": 6,
+  "topic": "mops data versioning and matching",
+  "topic_slug": "mops-data-versioning-and-matching",
+  "tags": [
+    "analytics",
+    "mops"
+  ],
+  "summary_markdown": "The conversation confirms the relationship between different versions of MOPs (Measurement Operations Platform System) data. Specifically, it was stated that: \n\n*   `staging-mops` (agg4+model) will match the new 'soaska v3'.\n*   The current `mops` build (agg3) will match both 'soaska v2' and 'mods'.",
+  "decisions": [
+    "Confirmation of data matching between MOPs versions and Soaska versions"
+  ],
+  "action_items": []
+}

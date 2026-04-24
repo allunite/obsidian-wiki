@@ -1,0 +1,19 @@
+{
+  "chat_id": "AAAAJ2xjT2w",
+  "kind": "Space",
+  "space_name": "DailyStandup",
+  "participants": 5,
+  "date_range": {
+    "start": "2025-04-11",
+    "end": "2025-04-11"
+  },
+  "message_count": 3,
+  "topic": "Missing information and coordination issues",
+  "topic_slug": "missing-information-and-coordination-issues",
+  "tags": [],
+  "summary_markdown": "A participant noted that they were missing answers from [me] and [p1]. Another participant expressed frustration regarding an uncoordinated 'promise' or commitment, questioning who made it, when it was promised, and why it wasn't agreed upon with the team.",
+  "decisions": [],
+  "action_items": [
+    "Follow up on missing answers from [me] and [p1]"
+  ]
+}

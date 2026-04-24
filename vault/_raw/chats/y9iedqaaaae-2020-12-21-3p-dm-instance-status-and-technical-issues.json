@@ -1,0 +1,19 @@
+{
+  "chat_id": "y9IEDQAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2020-12-21",
+    "end": "2020-12-21"
+  },
+  "message_count": 11,
+  "topic": "Instance status and technical issues",
+  "topic_slug": "instance-status-and-technical-issues",
+  "tags": [
+    "analytics"
+  ],
+  "summary_markdown": "The conversation focused on the operational status of an instance. [p1] questioned if the entire instance had failed or was scheduled to stop. [me] confirmed that the instance was down and provided a screenshot of what was observed. [p1] later noted that the instance had been retired.",
+  "decisions": [],
+  "action_items": []
+}

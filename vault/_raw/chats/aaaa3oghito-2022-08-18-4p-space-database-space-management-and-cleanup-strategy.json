@@ -1,0 +1,26 @@
+{
+  "chat_id": "AAAA3oghITo",
+  "kind": "Space",
+  "space_name": "Кабаны",
+  "participants": 4,
+  "date_range": {
+    "start": "2022-08-18",
+    "end": "2022-08-18"
+  },
+  "message_count": 89,
+  "topic": "Database space management and cleanup strategy",
+  "topic_slug": "database-space-management-and-cleanup-strategy",
+  "tags": [
+    "analytics",
+    "session",
+    "inventory"
+  ],
+  "summary_markdown": "The primary discussion focused on managing rapidly increasing data storage requirements, particularly concerning session data. The team noted that the database is consuming significant space due to historical and raw data processing.\n\n**Actions Taken:**\n*   Multiple attempts were made to free up disk space by running deletion queries (e.g., deleting records older than specific dates or based on `company_num = 0`). These operations required multiple restarts/restarts of the relevant database instances (specifically 'ch' and '04').\n*   The team discussed cleaning up historical session data, with suggestions to delete sessions predating certain years (e.g., before 2021 or 2020).\n\n**Decisions & Strategy:**\n*   Initial proposals to increase storage capacity (adding 100 GB to hot/cold tiers) were discussed but ultimately curtailed due to cost concerns.\n*   A consensus emerged that aggressive data pruning and cleanup are necessary before increasing infrastructure size. Specific areas for potential cleanup include old session records, especially those from pre-2020 periods, as the current retention policy may be excessive.\n*   The team agreed on a phased approach: focus on cleaning up existing data first, rather than immediately scaling capacity.",
+  "decisions": [
+    "Avoid immediate increase in storage capacity (e.g., 100 GB) to save costs."
+  ],
+  "action_items": [
+    "Continue running cleanup queries for historical session data (e.g., pre-2020 records).",
+    "Review and potentially prune old session data based on business need, focusing first on the most redundant datasets (like Joe&Juice or inactive client data)."
+  ]
+}

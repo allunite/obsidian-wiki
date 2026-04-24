@@ -1,0 +1,27 @@
+{
+  "chat_id": "oCgFCIAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2024-02-07",
+    "end": "2024-02-07"
+  },
+  "message_count": 19,
+  "topic": "Cleaning up facility and frame data",
+  "topic_slug": "cleaning-up-facility-and-frame-data",
+  "tags": [
+    "facility",
+    "frame",
+    "analytics"
+  ],
+  "summary_markdown": "The conversation focused on cleaning and organizing existing facility and frame data, particularly for the Brazil market. It was suggested that facilities should be removed from targets where boxes are absent, and sources lacking boxes should also be removed.\n\nRegarding technical cleanup, it was discussed how to handle 'suspended' or 'demolished' frames that may not exist in current calculations. The consensus was reached that if these non-existent frames were removed from the virtual facility data table (`frame`), they would no longer be counted for traffic forecasting. It was also noted that when aggregating data, contributions from a specific person (Vlada) regarding frames should remain associated with the facility and retain `agg_owner = 'f'`.\n\nFinally, participants agreed to monitor any immediate issues related to facilities having multiple disabled frames.",
+  "decisions": [
+    "Perform cleanup of facility targets lacking boxes in Brazil.",
+    "Remove sources that do not contain boxes.",
+    "Monitor for immediate issues regarding facilities with multiple disabled frames."
+  ],
+  "action_items": [
+    "Someone to clean up the data (remove unnecessary entries) and then have 'Andrei' populate the remaining gaps."
+  ]
+}

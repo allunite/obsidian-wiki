@@ -1,0 +1,19 @@
+{
+  "chat_id": "AAAA_zTBKJ0",
+  "kind": "Space",
+  "space_name": "Releases and updates",
+  "participants": 19,
+  "date_range": {
+    "start": "2024-11-06",
+    "end": "2024-11-06"
+  },
+  "message_count": 4,
+  "topic": "New internal release information published",
+  "topic_slug": "new-internal-release-information-published",
+  "tags": [
+    "analytics"
+  ],
+  "summary_markdown": "A space was updated to serve as a central hub for publishing information regarding releases and internal release notes. This content is intended for use in client email notifications and marketing materials. The latest deployment, Release v2024.11.05, occurred yesterday, and the corresponding release notes were shared.",
+  "decisions": [],
+  "action_items": []
+}

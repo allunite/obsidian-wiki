@@ -1,0 +1,22 @@
+{
+  "chat_id": "oq-w0kAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2023-08-29",
+    "end": "2023-08-29"
+  },
+  "message_count": 16,
+  "topic": "Campaign visibility and data filtering issues",
+  "topic_slug": "campaign-visibility-and-data-filtering-issues",
+  "tags": [
+    "analytics",
+    "campaign"
+  ],
+  "summary_markdown": "The discussion focused on discrepancies in campaign metrics, specifically regarding an account for Denmark. It was determined that the issue was not with the filters themselves, but rather how those filters were applied to Kido demographics.\n\nAdditionally, a visibility problem was noted: [me] could not see campaigns created by another user (Sasha) even though both users were within the same company ('allunite (system)').",
+  "decisions": [
+    "The data filtering issue is likely related to how filters are applied to Kido demographics."
+  ],
+  "action_items": []
+}

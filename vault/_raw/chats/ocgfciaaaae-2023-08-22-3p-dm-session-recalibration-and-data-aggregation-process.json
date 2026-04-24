@@ -1,0 +1,29 @@
+{
+  "chat_id": "oCgFCIAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2023-08-22",
+    "end": "2023-08-22"
+  },
+  "message_count": 82,
+  "topic": "Session recalibration and data aggregation process",
+  "topic_slug": "session-recalibration-and-data-aggregation-process",
+  "tags": [
+    "analytics",
+    "session",
+    "campaign",
+    "facility"
+  ],
+  "summary_markdown": "The discussion focused on updating the `is_calibrated` field for device sessions, especially when sensor signal levels change. It was determined that while an update is necessary, making this field computable might be too slow.\n\nSignificant time was spent troubleshooting data aggregation scripts and database structure:\n1. **Data Scope:** The process requires ensuring session data is pulled from all sharded servers, not just the local one.\n2. **Scripting Fixes:** A key fix involved changing the target table for insertion to `device_session_concept` instead of a sharded version (`device_session_concept_sharded`) to pull data across all shards.\n3. **Aggregation:** The team reviewed methods for running large-scale aggregation scripts, confirming that using command-line parameters (like `-mn`) is necessary for multi-statement execution, rather than relying on step-by-step client runs.\n4. **Recalculation Strategy:** A specific plan was outlined for recalculating C-level data: delete records with `owner_type = 'C'`, followed by three specific inserts (after sessions and before frames).\n\nFinally, the discussion noted that issues with ML scripts might affect C-level calculations but should not impact campaign data.",
+  "decisions": [
+    "The `is_calibrated` field for device sessions must be updated when signal levels change.",
+    "Data aggregation scripts must be run using command-line parameters to handle multi-statement queries across all shards.",
+    "To calculate C-level metrics, the process involves deleting records with owner_type = 'C' and running three specific insert statements."
+  ],
+  "action_items": [
+    "Run session recalibration script on every shard (not just one) by inserting into a temporary table first.",
+    "Review ML scripts to ensure they do not negatively impact campaign data calculations."
+  ]
+}

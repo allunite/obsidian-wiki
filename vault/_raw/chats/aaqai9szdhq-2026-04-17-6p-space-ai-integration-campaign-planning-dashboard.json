@@ -1,0 +1,29 @@
+{
+  "chat_id": "AAQAi9SzdHQ",
+  "kind": "Space",
+  "space_name": "IT Tasks - 17 Apr",
+  "participants": 6,
+  "date_range": {
+    "start": "2026-04-17",
+    "end": "2026-04-17"
+  },
+  "message_count": 65,
+  "topic": "AI integration for campaign planning dashboard",
+  "topic_slug": "ai-integration-campaign-planning-dashboard",
+  "tags": [
+    "analytics",
+    "campaign",
+    "llm",
+    "inventory"
+  ],
+  "summary_markdown": "The discussion focused on integrating advanced AI capabilities, specifically LLMs (Large Language Models), into the core campaign planning dashboard and system. Key requirements include: \n\n*   **Dashboard Enhancement:** Making the dashboard capable of accepting large text queries via an LLM model to analyze OOH metrics such as traffic, impressions, reach, and frequency.\n*   **AI-Enabled Planning:** Developing a fully AI-enabled campaign planner that can generate plans using pure text prompts. This system should ideally guide users through a funnel process.\n*   **Business Strategy:** The implementation requires defining the core problem addressed for the client, suggesting solutions in bullet points, and developing a business case (e.g., how to sell the feature).\n*   **Development Timeline:** Initial estimates suggested a project duration of around 14 days, with specific components like front-end redesign being estimated at one week.\n\nFuture considerations included adding a campaign optimizer that selects optimal campaign parameters based on weighted queries.",
+  "decisions": [
+    "The core dashboard functionality will be enhanced by integrating an LLM for text query analysis of OOH metrics.",
+    "A fully AI-enabled campaign planner using pure text prompts is the primary development goal.",
+    "Initial project estimates suggest a timeline around 14 days, with front-end redesign taking approximately one week."
+  ],
+  "action_items": [
+    "Develop and refine the plan for integrating LLMs into the campaign planning dashboard.",
+    "Determine the scope and feasibility of adding a campaign optimizer in a later stage."
+  ]
+}

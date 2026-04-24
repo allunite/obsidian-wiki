@@ -1,0 +1,24 @@
+{
+  "chat_id": "ws0mTkAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 2,
+  "date_range": {
+    "start": "2023-11-28",
+    "end": "2023-11-28"
+  },
+  "message_count": 56,
+  "topic": "Data aggregation and unique individual counting",
+  "topic_slug": "data-aggregation-unique-individual-counting",
+  "tags": [
+    "analytics",
+    "impression",
+    "inventory"
+  ],
+  "summary_markdown": "The discussion centered on data discrepancies, specifically regarding the calculation of total impressions. It was established that when viewing aggregated data for a full day, the total should be calculated by multiplying the average hourly rate (e.g., 10M) by 24 hours.\n\nA key technical point addressed was the counting of unique individuals in hourly granularity. The consensus is that this metric is not counted on standard analytics charts because it would lead to overestimation if people passed multiple times within short intervals (like 15 minutes). Instead, the data uses a merging technique via HyperLogLog technology.\n\n[p1] prepared a client communication explaining these technical limitations, stating that Uniques with hourly granularity are not counted due to the rarity of individuals passing by frequently.",
+  "decisions": [
+    "The client will be informed that the discrepancy in daily data totals is expected and based on averaging the hourly rate over 24 hours.",
+    "It was confirmed that unique individual counts at an hourly level are not calculated for analytics charts due to technical limitations (HyperLogLog merging)."
+  ],
+  "action_items": []
+}

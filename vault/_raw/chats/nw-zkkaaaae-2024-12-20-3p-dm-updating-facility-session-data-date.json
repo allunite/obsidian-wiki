@@ -1,0 +1,24 @@
+{
+  "chat_id": "nW_zkkAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2024-12-20",
+    "end": "2024-12-20"
+  },
+  "message_count": 23,
+  "topic": "Updating facility session data date",
+  "topic_slug": "updating-facility-session-data-date",
+  "tags": [
+    "analytics",
+    "session"
+  ],
+  "summary_markdown": "The discussion focused on updating the source data for facility sessions. [p1] inquired about the `created` column in the `facility_virtual` table, confirming it determines the date from which session data is copied. It was determined that this column needs to be updated to `2024-09-27`. [me] confirmed this understanding and stated they would perform the update.",
+  "decisions": [
+    "The `created` column in `facility_virtual` must be updated to reflect the start date of session data (`2024-09-27`)."
+  ],
+  "action_items": [
+    "[me] performed the update on the facility session data."
+  ]
+}

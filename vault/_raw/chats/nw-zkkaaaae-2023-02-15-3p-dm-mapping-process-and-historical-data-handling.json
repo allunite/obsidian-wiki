@@ -1,0 +1,26 @@
+{
+  "chat_id": "nW_zkkAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2023-02-15",
+    "end": "2023-02-15"
+  },
+  "message_count": 29,
+  "topic": "Mapping process and historical data handling",
+  "topic_slug": "mapping-process-and-historical-data-handling",
+  "tags": [
+    "analytics",
+    "facility",
+    "inventory"
+  ],
+  "summary_markdown": "The conversation focused on updating mapping data for physical boxes. [me] noted that the box list was provided by someone else and mentioned plans to reimport the data due to encoding issues (specifically with Portuguese characters). A key issue discussed was ensuring the accuracy of location coordinates for automated mapping, though a tolerance range (up to 50m) was deemed acceptable.\n\nA major decision point involved handling historical data. [me] questioned whether historical box data needed to be retained and linked to newly mapped facilities created in a spreadsheet versus simply being attached to existing facilities.\n\nThe immediate plan is to coordinate with someone else regarding the best approach for facility mapping and data integration, which may require waiting for an offline colleague's response.",
+  "decisions": [
+    "The box list needs reimporting due to encoding issues.",
+    "Historical box data handling (linking old data to new facilities) requires further discussion with a specific team member."
+  ],
+  "action_items": [
+    "Coordinate with the relevant colleague regarding facility mapping and historical data integration strategy."
+  ]
+}

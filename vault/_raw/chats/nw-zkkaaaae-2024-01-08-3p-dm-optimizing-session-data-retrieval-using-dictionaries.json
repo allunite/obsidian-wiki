@@ -1,0 +1,29 @@
+{
+  "chat_id": "nW_zkkAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2024-01-08",
+    "end": "2024-01-08"
+  },
+  "message_count": 42,
+  "topic": "Optimizing session data retrieval using dictionaries",
+  "topic_slug": "optimizing-session-data-retrieval-using-dictionaries",
+  "tags": [
+    "analytics",
+    "facility",
+    "session",
+    "dwell-time"
+  ],
+  "summary_markdown": "The discussion focused on optimizing a ClickHouse query that retrieves the average signal level (avg_sl) for device sessions. Initially, attempts to use a custom function (`getDailyMedianSL`) failed due to ClickHouse limitations regarding subqueries and distributed tables.\n\nTo resolve this, the following architectural changes were implemented:\n1. **Sharding:** The source table `DM_avg_sl_by_days` was restructured by creating a sharded version (`DM_avg_sl_by_days_sharded`) and then distributing it across the cluster using `ENGINE = Distributed`. This ensures data consistency across all shards.\n2. **Dictionary Usage:** A ClickHouse Dictionary (`DailyMedianSL_dict`) was created, sourcing its data from the newly sharded table. This allows the average signal level to be accessed efficiently within the main query against `device_session_concept` using `dictGetInt32()`.\n\nThe final recommended query structure uses a subquery wrapper to correctly apply the dictionary lookup and filter results, avoiding syntax errors related to `ORDER BY` clauses in complex queries.",
+  "decisions": [
+    "The source table for average signal level (`DM_avg_sl_by_days`) must be sharded using `ENGINE = Distributed` to ensure data availability across all cluster nodes.",
+    "A ClickHouse Dictionary (`DailyMedianSL_dict`) was implemented, sourcing from the sharded table, to allow efficient lookup of avg_sl within the main session query.",
+    "The final query structure requires wrapping the core logic in a subquery when using `ORDER BY`."
+  ],
+  "action_items": [
+    "Run `system reload dictionary DailyMedianSL_dict on cluster allunite_cluster;` after updating or inserting new data into `DM_avg_sl_by_days` to ensure the dictionary is refreshed.",
+    "The team should monitor the dictionary's memory usage, as it loads all records into memory."
+  ]
+}

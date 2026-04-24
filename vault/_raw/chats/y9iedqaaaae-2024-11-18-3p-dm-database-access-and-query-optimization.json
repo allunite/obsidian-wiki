@@ -1,0 +1,29 @@
+{
+  "chat_id": "y9IEDQAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2024-11-18",
+    "end": "2024-11-18"
+  },
+  "message_count": 75,
+  "topic": "Database access and query optimization",
+  "topic_slug": "database-access-and-query-optimization",
+  "tags": [
+    "analytics",
+    "inventory",
+    "campaign"
+  ],
+  "summary_markdown": "The conversation focused on configuring database credentials and optimizing data queries. Initial discussions involved setting up user logins for a new data scientist in ClickHouse (CH) and PostgreSQL (PG), including defining specific grants and roles.\n\nLater, the discussion shifted to resolving credential management issues, specifically ensuring separate passwords for development environments versus staging/production. The team agreed on updating variables for dev credentials.\n\nFinally, an issue was identified where a scheduled query from `boxmon` was consuming excessive network resources on one CH instance (`ch02`). It was decided that the data ingestion source should be redirected to a different CH cluster (`ch04`) to mitigate performance impact.",
+  "decisions": [
+    "The database structure for analytics data will use 'CH_DATABASE' instead of 'analytics_prod'.",
+    "New, separate credentials (user/password) must be established and used specifically for the development environment.",
+    "The excessive query load from `boxmon` on `ch02` needs to be addressed by redirecting the data source to `ch04`."
+  ],
+  "action_items": [
+    "Update database variables/secrets for dev credentials (CH and PG).",
+    "Investigate and resolve the performance issue caused by the scheduled `boxmon` query on ch02.",
+    "Implement the redirection of data ingestion from boxmon to ch04."
+  ]
+}

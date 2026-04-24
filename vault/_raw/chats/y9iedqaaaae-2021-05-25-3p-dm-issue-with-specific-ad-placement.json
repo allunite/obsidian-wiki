@@ -1,0 +1,19 @@
+{
+  "chat_id": "y9IEDQAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2021-05-25",
+    "end": "2021-05-25"
+  },
+  "message_count": 3,
+  "topic": "Issue with specific ad placement",
+  "topic_slug": "issue-with-specific-ad-placement",
+  "tags": [
+    "inventory"
+  ],
+  "summary_markdown": "Someone noted an issue regarding a fix in location 52.2, stating that it has not been approved by jcdecaux.",
+  "decisions": [],
+  "action_items": []
+}

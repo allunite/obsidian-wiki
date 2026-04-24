@@ -1,0 +1,26 @@
+{
+  "chat_id": "AAAAOcKWvdA",
+  "kind": "Space",
+  "space_name": "Delivery Coordination",
+  "participants": 14,
+  "date_range": {
+    "start": "2023-10-26",
+    "end": "2023-10-26"
+  },
+  "message_count": 22,
+  "topic": "Data and model deployment for Brazilian companies",
+  "topic_slug": "data-and-model-deployment-for-brazilian-companies",
+  "tags": [
+    "analytics",
+    "campaign"
+  ],
+  "summary_markdown": "The discussion focused on deploying data and a new model from the staging (beta) environment to production for three specific Brazilian companies. It was confirmed that only the data and the updated model, but not status functionality, were being released at this time.\n\nRegarding the data preparation, someone requested recalculation of the dataset because the current data is only accurate since August. To simplify the process, a specific instruction was given to replace a general country filter (`country = 'Brazil'`) with an explicit list of company numbers: `company_num in (7885, 7887, 7895)`.",
+  "decisions": [
+    "Deploy STAGE dataset and new model to PROD for three Brazilian companies",
+    "Filter data using specific company IDs instead of a country filter"
+  ],
+  "action_items": [
+    "Update the script/code to use `company_num in (7885, 7887, 7895)` instead of filtering by 'Brazil'",
+    "Recalculate the dataset using the specified company filters"
+  ]
+}

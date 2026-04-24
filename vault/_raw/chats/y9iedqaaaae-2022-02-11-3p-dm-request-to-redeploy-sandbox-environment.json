@@ -1,0 +1,21 @@
+{
+  "chat_id": "y9IEDQAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2022-02-11",
+    "end": "2022-02-11"
+  },
+  "message_count": 3,
+  "topic": "Request to redeploy sandbox environment",
+  "topic_slug": "request-to-redeploy-sandbox-environment",
+  "tags": [
+    "analytics"
+  ],
+  "summary_markdown": "Someone requested a redeployment of the sandbox environment to ensure Angular is installed globally. [p1] confirmed they would perform this action.",
+  "decisions": [],
+  "action_items": [
+    "[p1] to redeploy the sandbox environment."
+  ]
+}

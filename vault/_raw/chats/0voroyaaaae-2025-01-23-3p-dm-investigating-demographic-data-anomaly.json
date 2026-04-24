@@ -1,0 +1,24 @@
+{
+  "chat_id": "0VorOYAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2025-01-23",
+    "end": "2025-01-23"
+  },
+  "message_count": 12,
+  "topic": "Investigating demographic data anomaly",
+  "topic_slug": "investigating-demographic-data-anomaly",
+  "tags": [
+    "analytics",
+    "impression"
+  ],
+  "summary_markdown": "A discussion occurred regarding a strange value observed in new demographic data. It was determined that the issue might be related to front-end bugs during user impersonation, specifically when the dashboard refreshes or after an F5 refresh. The specific element 'hinc05' appears and disappears but is ultimately absent.",
+  "decisions": [
+    "The observed value anomaly is likely a front-end bug during user impersonation."
+  ],
+  "action_items": [
+    "Create a ticket for the relevant team (Sanya) with reliable steps to reproduce the issue."
+  ]
+}

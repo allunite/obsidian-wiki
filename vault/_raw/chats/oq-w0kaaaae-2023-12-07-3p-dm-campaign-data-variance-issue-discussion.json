@@ -1,0 +1,22 @@
+{
+  "chat_id": "oq-w0kAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2023-12-07",
+    "end": "2023-12-07"
+  },
+  "message_count": 4,
+  "topic": "Campaign data variance issue discussion",
+  "topic_slug": "campaign-data-variance-issue-discussion",
+  "tags": [
+    "analytics",
+    "campaign"
+  ],
+  "summary_markdown": "A concern was raised regarding campaign data where the difference between 'population' and 'campaign' numbers is consistently small, regardless of the specific campaign chosen. This suggests a lack of significant variance in the reported figures.\n\nSomeone mentioned a potential solution that might improve the situation but noted it was not guaranteed to be substantial.",
+  "decisions": [],
+  "action_items": [
+    "[me] will record and share a potential improvement/solution tomorrow."
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "chat_id": "AAAAM2qr3Sc",
+  "kind": "Space",
+  "space_name": "Captive Portal Field Test",
+  "participants": 7,
+  "date_range": {
+    "start": "2024-09-09",
+    "end": "2024-09-09"
+  },
+  "message_count": 5,
+  "topic": "Captive Portal Field Test findings and issues",
+  "topic_slug": "captive-portal-field-test-findings-and-issues",
+  "tags": [
+    "analytics",
+    "session",
+    "impression",
+    "facility"
+  ],
+  "summary_markdown": "The discussion covered findings from a Captive Portal field test. One participant noted that data was updated, confirming the presence of information in consents/logins and events for multiple devices (iPhone, specific Mac models). Issues identified included: \n\n*   **Session Data:** The iPhone's session data was not visible.\n*   **New Device Visibility:** A new device (a Poco phone) was observed with two 'trusted sessions' showing zero SD. These were only visible for September, suggesting they appeared after channel switching and were of low quality.\n\nParticipants discussed potential causes for the missing iPhone session data, including technical issues at the station or not all points being online. It was later confirmed that both Mac devices associated with the user were indeed appearing on the captive portal.",
+  "decisions": [
+    "The presence of the iPhone's MAC address on the captive portal was confirmed."
+  ],
+  "action_items": []
+}

@@ -1,0 +1,22 @@
+{
+  "chat_id": "i6YI1QAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 2,
+  "date_range": {
+    "start": "2021-08-17",
+    "end": "2021-08-17"
+  },
+  "message_count": 9,
+  "topic": "Analyzing sensor location data and demographics",
+  "topic_slug": "analyzing-sensor-location-data-and-demographics",
+  "tags": [
+    "analytics",
+    "facility"
+  ],
+  "summary_markdown": "Someone analyzed the provided codes and regions used for demographic segmentation. They noted discrepancies, such as facility 3390 not being in Copenhagen, while Indre by is a central Copenhagen area. For facility 3390, the central Copenhagen area serves as the residential zone. This pattern of uniform residential areas was observed across most non-capital cities where sensors are located.",
+  "decisions": [],
+  "action_items": [
+    "Discuss the sensor location data and demographic analysis on Monday."
+  ]
+}

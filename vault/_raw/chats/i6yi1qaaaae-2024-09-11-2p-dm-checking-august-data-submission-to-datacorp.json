@@ -1,0 +1,19 @@
+{
+  "chat_id": "i6YI1QAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 2,
+  "date_range": {
+    "start": "2024-09-11",
+    "end": "2024-09-11"
+  },
+  "message_count": 5,
+  "topic": "Checking August data submission to DataCorp",
+  "topic_slug": "checking-august-data-submission-to-datacorp",
+  "tags": [
+    "analytics"
+  ],
+  "summary_markdown": "Someone inquired about the total traffic data submitted to DataCorp for August. [me] confirmed that the information is stored in files on S3 and is not kept separately.",
+  "decisions": [],
+  "action_items": []
+}

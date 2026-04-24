@@ -1,0 +1,23 @@
+{
+  "chat_id": "i6YI1QAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 2,
+  "date_range": {
+    "start": "2022-03-01",
+    "end": "2022-03-01"
+  },
+  "message_count": 6,
+  "topic": "Data factor application issue in analytics",
+  "topic_slug": "data-factor-application-issue-analytics",
+  "tags": [
+    "analytics"
+  ],
+  "summary_markdown": "A data discrepancy was observed regarding the application of a specific factor (Factor 11) intended for Finland. It appeared to have incorrectly applied to other countries, such as Lithuania.\n\nTesting showed that setting `factor=1` in the URL resulted in expected, consistent output. The core issue identified was that the factor seemed to override or conflict with existing model data. This discrepancy has been found and is currently being fixed.",
+  "decisions": [
+    "The incorrect application of Factor 11 across multiple countries (e.g., Lithuania) has been identified."
+  ],
+  "action_items": [
+    "Fix the factor application issue where it overrides model data."
+  ]
+}

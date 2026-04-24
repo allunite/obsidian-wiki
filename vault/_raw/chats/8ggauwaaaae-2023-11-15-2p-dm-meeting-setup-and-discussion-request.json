@@ -1,0 +1,19 @@
+{
+  "chat_id": "8GgAuwAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 2,
+  "date_range": {
+    "start": "2023-11-15",
+    "end": "2023-11-15"
+  },
+  "message_count": 4,
+  "topic": "Meeting setup and discussion request",
+  "topic_slug": "meeting-setup-and-discussion-request",
+  "tags": [],
+  "summary_markdown": "The conversation consisted of initial greetings and a request to discuss an unspecified topic, concluding with the sharing of a Google Meet link for a follow-up meeting.",
+  "decisions": [],
+  "action_items": [
+    "Join the provided Google Meet link"
+  ]
+}

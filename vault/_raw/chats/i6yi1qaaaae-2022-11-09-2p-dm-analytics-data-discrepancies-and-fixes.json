@@ -1,0 +1,32 @@
+{
+  "chat_id": "i6YI1QAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 2,
+  "date_range": {
+    "start": "2022-11-09",
+    "end": "2022-11-09"
+  },
+  "message_count": 115,
+  "topic": "Analytics data discrepancies and fixes",
+  "topic_slug": "analytics-data-discrepancies-and-fixes",
+  "tags": [
+    "dwell-time",
+    "session",
+    "analytics",
+    "impression",
+    "facility"
+  ],
+  "summary_markdown": "The conversation covered multiple issues related to data accuracy across different platforms (Stage vs. Production, Mods vs. Analytics).\n\n1. **Unique User Count Discrepancy:** A discrepancy was noted in the number of unique users near screens between staging and production environments due to different calibration methods (Signal 89 vs. Signal 78). It was determined that comparing counts across signal levels or cluster/screen types is inherently inaccurate, leading to a decision to standardize data handling.\n2. **Analytics Integration:** An issue was identified where an email address could not be pulled into the analytics platform, although it worked correctly in Mods. This required fixing the user's record in the system.\n3. **Dwell Time Calculation:** Issues were discussed regarding dwell time calculations, particularly concerning session gaps and how they affect average duration. It was decided that partitioning by day (`toDate(session_start_hour)`) is necessary to accurately account for multi-day sessions.\n4. **Average Duration Metric:** The calculation of average dwell time was reviewed. To improve accuracy, the use of median or quantiles was suggested over simple averages (avg), especially when dealing with highly variable session lengths.",
+  "decisions": [
+    "The unique user count discrepancy between signal levels (78 vs 89) and data sources (cluster vs screen) is acknowledged as a fundamental difference, requiring careful handling in reporting.",
+    "The analytics platform was updated to correctly pull the specified email address for tracking.",
+    "Dwell time calculations must partition by day (`toDate(session_start_hour)`) to accurately handle sessions spanning multiple days.",
+    "Consideration of median or quantiles is recommended over simple averages (avg) when calculating average dwell time."
+  ],
+  "action_items": [
+    "Review the staging environment data carefully after implementing fixes, especially regarding unique user counts.",
+    "Implement changes to partition by day in analytics queries for accurate session duration metrics.",
+    "Test and validate the impact of using median/quantiles vs. average on dwell time calculations."
+  ]
+}

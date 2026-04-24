@@ -1,0 +1,26 @@
+{
+  "chat_id": "oCgFCIAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2022-03-25",
+    "end": "2022-03-25"
+  },
+  "message_count": 22,
+  "topic": "Data report changes and deployment",
+  "topic_slug": "data-report-changes-and-deployment",
+  "tags": [
+    "analytics",
+    "recalc-ch"
+  ],
+  "summary_markdown": "The conversation covered the status of a sandbox environment deployment and required modifications to an existing data report. \n\n*   **Deployment:** The sandbox build was deployed, confirming that access issues (previously related to VPN) were resolved.\n*   **Report Changes:** Two changes are needed for the report. One is simple, and the second involves complex logic regarding traffic calculation. Specifically, the parallel traffic count needs adjustment so it only counts when both the left and right zones are intersected, rather than currently counting vehicle traffic in pedestrian areas.\n\nAdditionally, there was a discussion about implementing a dynamic summary widget that automatically generates summaries based on datasets, though this proved technically challenging.",
+  "decisions": [
+    "The sandbox environment build needs to be deployed with the latest fix.",
+    "The parallel traffic calculation logic must be updated to require intersection in both left and right zones."
+  ],
+  "action_items": [
+    "Implement changes for the data report, specifically adjusting the parallel traffic calculation logic (using provided SQL/video context).",
+    "Deploy the latest fixed build to the sandbox environment."
+  ]
+}

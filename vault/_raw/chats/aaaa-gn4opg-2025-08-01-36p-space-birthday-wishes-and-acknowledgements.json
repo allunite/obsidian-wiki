@@ -1,0 +1,17 @@
+{
+  "chat_id": "AAAA-gn4oPg",
+  "kind": "Space",
+  "space_name": "General and random",
+  "participants": 36,
+  "date_range": {
+    "start": "2025-08-01",
+    "end": "2025-08-01"
+  },
+  "message_count": 21,
+  "topic": "Birthday wishes and acknowledgements",
+  "topic_slug": "birthday-wishes-and-acknowledgements",
+  "tags": [],
+  "summary_markdown": "The session consisted entirely of multiple participants sending birthday greetings to [p35]. [p35] later acknowledged the well wishes from everyone.",
+  "decisions": [],
+  "action_items": []
+}

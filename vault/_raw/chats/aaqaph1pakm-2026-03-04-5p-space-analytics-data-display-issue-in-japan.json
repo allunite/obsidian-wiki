@@ -1,0 +1,23 @@
+{
+  "chat_id": "AAQAPH1pAKM",
+  "kind": "Space",
+  "space_name": "Group Chat",
+  "participants": 5,
+  "date_range": {
+    "start": "2026-03-04",
+    "end": "2026-03-04"
+  },
+  "message_count": 4,
+  "topic": "Analytics data display issue in Japan",
+  "topic_slug": "analytics-data-display-issue-in-japan",
+  "tags": [
+    "analytics"
+  ],
+  "summary_markdown": "A user ([p4]) inquired about 'NA' values appearing in the analytics dashboard for screens located in Japan. Someone ([p2]) initially suggested it was a display issue and confirmed that data retention appeared correct, promising to fix it.\n\nLater, someone ([p2]) announced that the corrected version would be released within a couple of hours today on the staging environment.",
+  "decisions": [
+    "The analytics dashboard displaying NA values in Japan will be fixed."
+  ],
+  "action_items": [
+    "Someone ([p2]) will release the corrected version to the staging environment within a few hours."
+  ]
+}

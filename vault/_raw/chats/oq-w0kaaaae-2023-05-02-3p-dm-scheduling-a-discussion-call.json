@@ -1,0 +1,19 @@
+{
+  "chat_id": "oq-w0kAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2023-05-02",
+    "end": "2023-05-02"
+  },
+  "message_count": 8,
+  "topic": "Scheduling a discussion call",
+  "topic_slug": "scheduling-a-discussion-call",
+  "tags": [],
+  "summary_markdown": "The participants discussed scheduling a call to talk, initiated by someone and involving another person (Женя). [me] agreed to the immediate call.",
+  "decisions": [
+    "A call was scheduled for that day."
+  ],
+  "action_items": []
+}

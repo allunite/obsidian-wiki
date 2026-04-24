@@ -1,0 +1,26 @@
+{
+  "chat_id": "AAAAteinQlM",
+  "kind": "Space",
+  "space_name": "Campaign Manager",
+  "participants": 4,
+  "date_range": {
+    "start": "2022-08-30",
+    "end": "2022-08-30"
+  },
+  "message_count": 26,
+  "topic": "Campaign design assets and requirements",
+  "topic_slug": "campaign-design-assets-and-requirements",
+  "tags": [
+    "campaign",
+    "analytics",
+    "inventory"
+  ],
+  "summary_markdown": "The conversation focused on the required creative assets and technical details for a campaign. Details regarding ad placement, such as share of time, day, and time, were noted to be available in advanced settings.\n\nRegarding design files, [p1] shared several links (Moqups, Figma) related to mockups and existing work. It was confirmed that an additional Figma file is needed for the team to own and manage the assets, as requested by someone else.\n\n[p1] provided a link containing all transferred materials, and later sent an invitation.",
+  "decisions": [
+    "An additional Figma file needs to be created/shared for campaign asset ownership."
+  ],
+  "action_items": [
+    "Someone needs to share the necessary Figma links with [unknown].",
+    "The status of CCTV work needs clarification."
+  ]
+}

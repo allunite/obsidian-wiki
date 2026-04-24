@@ -1,0 +1,24 @@
+{
+  "chat_id": "AAQAcBBaGQg",
+  "kind": "Space",
+  "space_name": "Group Chat",
+  "participants": 3,
+  "date_range": {
+    "start": "2025-04-08",
+    "end": "2025-04-08"
+  },
+  "message_count": 14,
+  "topic": "Scheduling discussion for DOOH task",
+  "topic_slug": "scheduling-discussion-for-dooh-task",
+  "tags": [
+    "analytics",
+    "campaign"
+  ],
+  "summary_markdown": "The participants discussed scheduling a meeting to review the issue detailed in ticket DOOH-1876. Initial confusion arose regarding which task link was correct, with [p2] providing an updated and corrected link (DOOH-1877). The conversation concluded with setting up a Google Meet link for the discussion.",
+  "decisions": [
+    "A meeting will be held to discuss the topic related to DOOH-1876/DOOH-1877."
+  ],
+  "action_items": [
+    "Join the provided Google Meet link at a specified time."
+  ]
+}

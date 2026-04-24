@@ -1,0 +1,24 @@
+{
+  "chat_id": "AAQA7g8is8E",
+  "kind": "Space",
+  "space_name": "Group Chat",
+  "participants": 10,
+  "date_range": {
+    "start": "2025-06-23",
+    "end": "2025-06-23"
+  },
+  "message_count": 12,
+  "topic": "Preparation for CIM meeting presentation",
+  "topic_slug": "preparation-for-cim-meeting-presentation",
+  "tags": [
+    "campaign",
+    "analytics"
+  ],
+  "summary_markdown": "The group prepared materials and assigned roles in advance of a meeting with CIM. A Q&A document was shared, along with an accompanying Excel reference sheet.\n\nLater, the discussion focused on logistics for the upcoming meeting, including updating room membership to add specific participants.",
+  "decisions": [
+    "Roles were assigned for the presentation ahead of the CIM meeting."
+  ],
+  "action_items": [
+    "Ensure all necessary participants are added to the meeting invite (specifically mentioning adding a participant)."
+  ]
+}

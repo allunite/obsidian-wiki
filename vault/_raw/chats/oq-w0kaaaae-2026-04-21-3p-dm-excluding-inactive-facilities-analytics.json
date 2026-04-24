@@ -1,0 +1,23 @@
+{
+  "chat_id": "oq-w0kAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2026-04-21",
+    "end": "2026-04-21"
+  },
+  "message_count": 5,
+  "topic": "Excluding inactive facilities in analytics",
+  "topic_slug": "excluding-inactive-facilities-analytics",
+  "tags": [
+    "facility",
+    "session",
+    "analytics"
+  ],
+  "summary_markdown": "A discussion regarding the function of the `excludeInactiveFacilities` setting. It was confirmed that using this setting removes data from traffic pages and dashboards/campaigns, but all session data remains stored in the database.",
+  "decisions": [
+    "The `excludeInactiveFacilities` setting filters data displayed on traffic pages, dashboards, and campaigns."
+  ],
+  "action_items": []
+}

@@ -1,0 +1,27 @@
+{
+  "chat_id": "oCgFCIAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2022-11-01",
+    "end": "2022-11-01"
+  },
+  "message_count": 17,
+  "topic": "Debugging chart visibility and data display",
+  "topic_slug": "debugging-chart-visibility-and-data-display",
+  "tags": [
+    "analytics",
+    "frame",
+    "dwell-time",
+    "inventory"
+  ],
+  "summary_markdown": "The discussion focused on two technical issues within the analytics platform: missing data for Lidar and incorrect display of visibility indexes. The core problem identified was a bug in the `WidgetCardChartComponent` where the `getChart` function returns null during initialization, causing logic errors when attempting to populate visibility fields.\n\nA temporary workaround involves logging into any user profile (e.g., under 'расмус') with available Lidar data; this action saves necessary variables to local storage, allowing subsequent viewing of charts for that user.\n\nFurther code review highlighted that the chart logic relies on property setting rather than proper control initialization, leading to instability. The team discussed alternative approaches, including using Wi-Fi data (which is noted as uncalibrated) to populate the X-axis dates.",
+  "decisions": [
+    "The current workaround for displaying charts involves pre-populating local storage by viewing a user profile with available Lidar data."
+  ],
+  "action_items": [
+    "Investigate and fix the bug in `WidgetCardChartComponent` where `getChart` returns null during initialization.",
+    "Review chart logic to ensure it correctly handles empty datasets, potentially requiring all charts to display even if no specific data is present."
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "chat_id": "y9IEDQAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2025-05-14",
+    "end": "2025-05-14"
+  },
+  "message_count": 17,
+  "topic": "API forecast capability and complexity",
+  "topic_slug": "api-forecast-capability-and-complexity",
+  "tags": [
+    "analytics",
+    "campaign",
+    "data-api"
+  ],
+  "summary_markdown": "The discussion centered on the feasibility of retrieving future forecasts via API. It was confirmed that direct, advanced forecasting for N days/months is not currently available via the API. The existing 'forecast' shown in campaign reports is described as a simple calculation: an average based on similar historical periods. Two potential forecast methods were estimated:\n\n1. **Analysis Period Campaign Report:** Simple data retrieval from existing campaign reports via API request (estimated 8 hours).\n2. **Simple Forecast for N Next Days:** Creation of an asynchronous job via API request to calculate and aggregate a forecast, saving the result in a separate dataset and notifying the user upon completion (estimated 32 hours).",
+  "decisions": [
+    "The existing campaign report 'forecast' is based on averaging similar historical periods, not true future prediction."
+  ],
+  "action_items": [
+    "Provide an estimate for API development: simple report retrieval (8 hrs) vs. asynchronous forecast job (32 hrs)."
+  ]
+}

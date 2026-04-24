@@ -1,0 +1,23 @@
+{
+  "chat_id": "y9IEDQAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2021-08-11",
+    "end": "2021-08-11"
+  },
+  "message_count": 4,
+  "topic": "Database table writing instructions",
+  "topic_slug": "database-table-writing-instructions",
+  "tags": [
+    "analytics"
+  ],
+  "summary_markdown": "Someone provided a link to a GitHub SQL file and instructed the team to write data into the `raw_lidar2d_session_buffer` table on any instance. It was recommended that all writes be directed to a single instance due to low current traffic.",
+  "decisions": [
+    "Write data to the `raw_lidar2d_session_buffer` table."
+  ],
+  "action_items": [
+    "Direct all data writes to one designated instance for the `raw_lidar2d_session_buffer` table."
+  ]
+}

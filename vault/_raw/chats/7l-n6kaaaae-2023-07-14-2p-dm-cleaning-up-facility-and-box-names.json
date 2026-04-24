@@ -1,0 +1,21 @@
+{
+  "chat_id": "7l_n6kAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 2,
+  "date_range": {
+    "start": "2023-07-14",
+    "end": "2023-07-14"
+  },
+  "message_count": 3,
+  "topic": "Cleaning up facility and box names",
+  "topic_slug": "cleaning-up-facility-and-box-names",
+  "tags": [
+    "analytics"
+  ],
+  "summary_markdown": "Someone requested assistance with cleaning data fields. Specifically, [p1] was unable to remove quotation marks from `facility_name` and `box_name` when re-uploading data, resulting in an error. [p1] provided examples of the desired clean format for these two fields.",
+  "decisions": [],
+  "action_items": [
+    "Someone needs to assist with removing quotation marks from facility and box names."
+  ]
+}

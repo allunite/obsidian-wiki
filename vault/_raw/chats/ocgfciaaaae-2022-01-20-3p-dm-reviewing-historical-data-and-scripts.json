@@ -1,0 +1,27 @@
+{
+  "chat_id": "oCgFCIAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2022-01-20",
+    "end": "2022-01-20"
+  },
+  "message_count": 28,
+  "topic": "Reviewing historical data and scripts",
+  "topic_slug": "reviewing-historical-data-and-scripts",
+  "tags": [
+    "analytics",
+    "inventory",
+    "campaign"
+  ],
+  "summary_markdown": "The conversation focused on reviewing historical advertising data, specifically for two listed inventory IDs (JCD_DE_120804 and JCD_DE_120848). Concerns were raised regarding the lack of complete data between January 10th and 16th, with one sensor/box showing very few records, making recovery difficult. It was noted that data from December is expected to be better than current year's data.\n\nRegarding technical work, [me] confirmed they would update the necessary scripts and deploy aggregates to a STAGE dataset for testing by someone else (Naстя/Галина) starting the next day. The discussion concluded with an agreement on how to approach analyzing additional ",
+  "decisions": [
+    "Aggregates will be deployed to the STAGE dataset for testing.",
+    "The team will review historical data from specific inventory IDs."
+  ],
+  "action_items": [
+    "Someone needs to check what four boxes are involved (at a location/facility).",
+    "Reviewing of scripts and data analysis is ongoing."
+  ]
+}

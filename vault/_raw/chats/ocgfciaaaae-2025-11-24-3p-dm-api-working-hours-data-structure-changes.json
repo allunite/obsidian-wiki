@@ -1,0 +1,25 @@
+{
+  "chat_id": "oCgFCIAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2025-11-24",
+    "end": "2025-11-24"
+  },
+  "message_count": 10,
+  "topic": "API working hours data structure changes",
+  "topic_slug": "api-working-hours-data-structure-changes",
+  "tags": [
+    "analytics",
+    "inventory"
+  ],
+  "summary_markdown": "The discussion focused on the current storage and retrieval of 'working hours' data within the API. Currently, the data is stored in a non-ideal format that cannot be directly exposed to clients (e.g., complex nested JSON structures containing IDs, days, and times). To resolve this, the team must change the underlying storage mechanism and perform a migration process to avoid breaking existing functionality.\n\nThe proposed solution involves storing the working hours data similarly to how it is stored in 'inventory,' eventually outputting a simple string format to clients. This requires modifying both the internal storage structure and the client-facing API logic, which was noted as a significant task.\n\nSeparately, there was a mention of an upcoming API meeting where external stakeholders (Finnish team) expressed dissatisfaction with the current deliverables, requesting advanced features such as package management extensions, inheritance, dynamic filtering, and nesting.",
+  "decisions": [
+    "The working hours data structure must be migrated to align with inventory storage standards.",
+    "The final client-facing output for working hours should be a simple string."
+  ],
+  "action_items": [
+    "Perform the necessary migration of the working hours data structure to maintain system stability."
+  ]
+}

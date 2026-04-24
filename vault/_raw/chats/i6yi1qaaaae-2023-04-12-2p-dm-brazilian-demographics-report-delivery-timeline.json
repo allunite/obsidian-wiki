@@ -1,0 +1,23 @@
+{
+  "chat_id": "i6YI1QAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 2,
+  "date_range": {
+    "start": "2023-04-12",
+    "end": "2023-04-12"
+  },
+  "message_count": 18,
+  "topic": "Brazilian demographics report delivery timeline",
+  "topic_slug": "brazilian-demographics-report-delivery-timeline",
+  "tags": [
+    "analytics"
+  ],
+  "summary_markdown": "The conversation focused on the status and delivery of a Brazilian demographics report. Initially, there was concern about meeting deadlines for presenting results to Brazil. The speaker confirmed that while an initial target was set for Monday, they are now able to deliver the universal version (applicable to FI, LV, and DK) by Friday.",
+  "decisions": [
+    "The Brazilian demographics report will be delivered on Friday."
+  ],
+  "action_items": [
+    "Deliver the universal Brazilian demographics report by Friday."
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "chat_id": "0m7UOUAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2023-10-11",
+    "end": "2023-10-11"
+  },
+  "message_count": 7,
+  "topic": "Data discrepancies and export issues",
+  "topic_slug": "data-discrepancies-and-export-issues",
+  "tags": [
+    "analytics",
+    "facility"
+  ],
+  "summary_markdown": "A user reported an issue with data visualization and retrieval. Specifically, when downloading sensor data for two facilities in the Indian time zone (Asia/Calcutta), the displayed data incorrectly defaults to the local time zone (+03) regardless of the selected setting. The user also requested a specific export format showing date stamps with the correct offset (e.g., 2023-08-22T00:00:00+05:30). Another team member mentioned that two issues were currently being investigated with another colleague.",
+  "decisions": [
+    "The user provided a URL for the affected dashboard view."
+  ],
+  "action_items": [
+    "Investigate data discrepancies related to time zone settings and export formatting for sensor data."
+  ]
+}

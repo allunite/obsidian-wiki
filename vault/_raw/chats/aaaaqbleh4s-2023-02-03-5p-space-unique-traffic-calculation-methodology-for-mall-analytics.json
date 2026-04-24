@@ -1,0 +1,22 @@
+{
+  "chat_id": "AAAAQbleh4s",
+  "kind": "Space",
+  "space_name": "Uniqueness methodology and R&F with hashing",
+  "participants": 5,
+  "date_range": {
+    "start": "2023-02-03",
+    "end": "2023-02-03"
+  },
+  "message_count": 5,
+  "topic": "Unique traffic calculation methodology for mall analytics",
+  "topic_slug": "unique-traffic-calculation-methodology-for-mall-analytics",
+  "tags": [
+    "analytics",
+    "inventory"
+  ],
+  "summary_markdown": "The discussion centered on updating the unique traffic (uniques) methodology for a Mall analytics release. A key problem identified was that aggregating uniques over long periods and across multiple locations caused an increase in displayed unique counts, with several vendors generating anomalies.\n\nThe proposed fix involves defining a sample of 'trusted vendors'—those exhibiting stable behavior and adhering to Wi-Fi standards when generating MAC addresses—to ensure correct calculation of unique traffic. This methodology was previously released for Total Traffic but needs to be applied specifically to the Mall analytics context.",
+  "decisions": [
+    "The trusted vendor definition approach will be used for calculating uniques in the Mall analytics release."
+  ],
+  "action_items": []
+}

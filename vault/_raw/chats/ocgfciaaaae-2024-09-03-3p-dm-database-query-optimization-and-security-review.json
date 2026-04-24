@@ -1,0 +1,26 @@
+{
+  "chat_id": "oCgFCIAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2024-09-03",
+    "end": "2024-09-03"
+  },
+  "message_count": 11,
+  "topic": "Database query optimization and security review",
+  "topic_slug": "database-query-optimization-and-security-review",
+  "tags": [
+    "analytics",
+    "recalc-ch"
+  ],
+  "summary_markdown": "The discussion centered on optimizing complex PostgreSQL queries, particularly those involving `OR` operators, which were noted to severely impact performance. It was suggested that the query logic should be refactored, potentially using `UNION ALL`, similar to optimizations performed for ClickHouse.\n\nRegarding security and architecture, suggestions included:\n*   Retrieving user permissions (rights) either upon login or from a cache.\n*   Implementing tiered access control: full access for admins; single company access for limited users; and maintaining an array of allowed companies for additional/supplementary access.\n*   Considering the removal of `company_facility_conversion_source_ids` from the database structure.\n\nPerformance concerns were raised regarding slow query execution times (e.g., 30 seconds down to 1 second) when handling large datasets (up to 100k records). Recommendations included adding necessary indexes and potentially increasing memory allocation so that the entire database fits into cache.",
+  "decisions": [
+    "Refactor complex PostgreSQL queries, especially those using OR operators, by utilizing UNION ALL for improved performance."
+  ],
+  "action_items": [
+    "Optimize the database structure and query logic to improve performance (e.g., adding indexes, increasing cache memory).",
+    "Review and potentially remove `company_facility_conversion_source_ids` from the schema.",
+    "Implement a user permission system that retrieves rights upon login or from cache, handling admin, single-company, and multi-company access levels."
+  ]
+}

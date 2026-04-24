@@ -1,0 +1,27 @@
+{
+  "chat_id": "oCgFCIAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2022-06-02",
+    "end": "2022-06-02"
+  },
+  "message_count": 33,
+  "topic": "Database schema updates and field validation",
+  "topic_slug": "database-schema-updates-and-field-validation",
+  "tags": [
+    "analytics",
+    "facility",
+    "inventory"
+  ],
+  "summary_markdown": "The discussion focused on debugging a data retrieval issue related to the `location_level` field within the database's `asset_data` type. It was determined that this field needed explicit addition and proper handling in the schema.\n\nKey technical points included:\n*   Adding the missing `location_level` attribute to the `asset_data` type using an `ALTER TYPE` command.\n*   The issue arose because a view was updated to use the `asset_data` type, exposing underlying data structure problems.\n*   A successful fix required correctly reloading the dictionary/schema definition after making changes to the custom type.\n\nThe conversation concluded with best practices for maintaining database views and ensuring all fields listed in the view are present in the underlying custom type.",
+  "decisions": [
+    "Add `location_level` attribute to the `asset_data` type.",
+    "Update the view definition to correctly reflect the structure of the `asset_data` type."
+  ],
+  "action_items": [
+    "Implement necessary database schema changes (ALTER TYPE) for location level data.",
+    "Verify that all fields used in views are explicitly defined within their respective custom types."
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "chat_id": "nW_zkkAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2025-08-26",
+    "end": "2025-08-26"
+  },
+  "message_count": 8,
+  "topic": "Task creation and status update",
+  "topic_slug": "task-creation-and-status-update",
+  "tags": [
+    "analytics"
+  ],
+  "summary_markdown": "The conversation focused on task management. [p1] confirmed the scope of a specific issue, clarifying that it falls under general demographics rather than being related to revenue. Subsequently, [p1] created and updated a new task in ClickUp, which was immediately placed on hold.",
+  "decisions": [
+    "A new task was created regarding general demographics."
+  ],
+  "action_items": []
+}

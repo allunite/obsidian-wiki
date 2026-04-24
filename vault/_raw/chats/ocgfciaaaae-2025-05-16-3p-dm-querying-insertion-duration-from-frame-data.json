@@ -1,0 +1,23 @@
+{
+  "chat_id": "oCgFCIAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2025-05-16",
+    "end": "2025-05-16"
+  },
+  "message_count": 4,
+  "topic": "Querying insertion duration from frame data",
+  "topic_slug": "querying-insertion-duration-from-frame-data",
+  "tags": [
+    "analytics",
+    "frame",
+    "insertion"
+  ],
+  "summary_markdown": "A technical discussion occurred regarding how to retrieve the insertion duration. [p1] provided a SQL query structure: `select data->>'insertion_duration', * from frame where facility_id = '[redacted]'`. [me] confirmed that the required information had been located.",
+  "decisions": [
+    "The method for retrieving insertion duration using the `frame` table was established."
+  ],
+  "action_items": []
+}

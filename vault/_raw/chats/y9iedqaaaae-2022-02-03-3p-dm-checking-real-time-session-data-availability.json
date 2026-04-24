@@ -1,0 +1,26 @@
+{
+  "chat_id": "y9IEDQAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2022-02-03",
+    "end": "2022-02-03"
+  },
+  "message_count": 24,
+  "topic": "Checking real-time session data availability",
+  "topic_slug": "checking-real-time-session-data-availability",
+  "tags": [
+    "analytics",
+    "session",
+    "analytics"
+  ],
+  "summary_markdown": "The conversation focused on developing SQL queries to monitor the availability and timeliness of real-time session data. Initially, a query was provided for `device_session_realtime_4`. It was later agreed that monitoring should be done using the `device_session_realtime_buffer` table.\n\nRegarding the metrics:\n*   The `COUNT()` function is advised against as it only reflects current day data.\n*   A more robust method for checking timeliness involves looking at the maximum `session_start` timestamp and setting an alert if this value lags by more than 10 minutes.\n\nThe discussion concluded with notes on how the real-time session tables are now cleared daily.",
+  "decisions": [
+    "Use the `device_session_realtime_buffer` table for monitoring.",
+    "Monitor data timeliness by checking if the maximum `session_start` timestamp lags by more than 10 minutes."
+  ],
+  "action_items": [
+    "Implement an alert mechanism based on the lag of the max session start timestamp."
+  ]
+}

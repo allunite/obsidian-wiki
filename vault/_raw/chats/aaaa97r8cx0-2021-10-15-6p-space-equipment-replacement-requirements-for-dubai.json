@@ -1,0 +1,25 @@
+{
+  "chat_id": "AAAA97r8Cx0",
+  "kind": "Space",
+  "space_name": "Dubai DF",
+  "participants": 6,
+  "date_range": {
+    "start": "2021-10-15",
+    "end": "2021-10-15"
+  },
+  "message_count": 5,
+  "topic": "Equipment replacement requirements for Dubai",
+  "topic_slug": "equipment-replacement-requirements-for-dubai",
+  "tags": [
+    "analytics",
+    "inventory"
+  ],
+  "summary_markdown": "The discussion clarified the necessary equipment replacements and adaptors required in Dubai. The key items are:\n\n*   **Teltonika RUT 240 Router:** Requires a replacement adaptor (UK type G) as the local socket is unavailable.\n*   **LiDAR Sensor:** No replacement or adaptor is needed, as it already uses a UK type G adaptor.\n*   **Nvidia Jetson:** A power adaptor replacement is required. This can either be shipped with the Teltonika adaptor or procured locally.\n\nSomeone suggested ordering and shipping the necessary adaptors directly to Dubai.",
+  "decisions": [
+    "Teltonika RUT 240 Router requires a UK type G adaptor replacement.",
+    "Nvidia Jetson power adaptor replacement is needed, with options for shipment or local procurement."
+  ],
+  "action_items": [
+    "Contact [p1] to manage the order of replacement adaptors."
+  ]
+}

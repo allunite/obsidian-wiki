@@ -1,0 +1,24 @@
+{
+  "chat_id": "AAAA9ybOLwM",
+  "kind": "Space",
+  "space_name": "ИТ",
+  "participants": 8,
+  "date_range": {
+    "start": "2021-01-14",
+    "end": "2021-01-14"
+  },
+  "message_count": 15,
+  "topic": "Teltonika firmware and connectivity issues",
+  "topic_slug": "teltonika-firmware-connectivity-issues",
+  "tags": [
+    "analytics",
+    "campaign"
+  ],
+  "summary_markdown": "The discussion covered updates to Teltonika device firmware, noting fixes for APN settings and general vulnerability patches. Connectivity stability was a concern, with participants discussing devices going offline and failover mechanisms.\n\nA specific technical query arose regarding the feasibility of setting a modem restart interval (e.g., every 3 hours) while maintaining online status in Belgium.",
+  "decisions": [
+    "None"
+  ],
+  "action_items": [
+    "Follow up on the viability of implementing frequent modem restarts for Belgian operations."
+  ]
+}

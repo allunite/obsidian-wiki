@@ -1,0 +1,19 @@
+{
+  "chat_id": "AAAA-gn4oPg",
+  "kind": "Space",
+  "space_name": "General and random",
+  "participants": 36,
+  "date_range": {
+    "start": "2022-09-16",
+    "end": "2022-09-16"
+  },
+  "message_count": 4,
+  "topic": "Screen assembly at JCD location",
+  "topic_slug": "screen-assembly-at-jcd-location",
+  "tags": [
+    "facility"
+  ],
+  "summary_markdown": "A participant mentioned a meeting with the operation team at JCD. Later, it was confirmed that the activity involves assembling screens.",
+  "decisions": [],
+  "action_items": []
+}

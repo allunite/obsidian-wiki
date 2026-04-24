@@ -1,0 +1,24 @@
+{
+  "chat_id": "0m7UOUAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2025-05-22",
+    "end": "2025-05-22"
+  },
+  "message_count": 7,
+  "topic": "API endpoint deployment and migration",
+  "topic_slug": "api-endpoint-deployment-and-migration",
+  "tags": [
+    "analytics",
+    "inventory"
+  ],
+  "summary_markdown": "The discussion focused on the process for deploying updated JSON formats to production. A specific request was made to redeploy the `ml-api` from the staging environment to staging, and simultaneously update endpoints to use new `/v2/` paths.\n\nThe following endpoints were specified for migration:\n*   `/v2/frequency_clust_ch/`\n*   `/v2/frequency_log_reg_ch/`\n\nIt was noted that the old endpoints continue to function using the previous schema, while the new endpoints require valid JSON structures.",
+  "decisions": [
+    "Redeploy `ml-api` from stage to staging environment."
+  ],
+  "action_items": [
+    "Update endpoints to use new `/v2/` paths for specified frequency cluster and log regression endpoints."
+  ]
+}

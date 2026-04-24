@@ -1,0 +1,29 @@
+{
+  "chat_id": "i6YI1QAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 2,
+  "date_range": {
+    "start": "2021-12-08",
+    "end": "2021-12-08"
+  },
+  "message_count": 42,
+  "topic": "Analytics data updates and dashboard review",
+  "topic_slug": "analytics-data-updates-and-dashboard-review",
+  "tags": [
+    "analytics",
+    "impression",
+    "dwell-time",
+    "facility"
+  ],
+  "summary_markdown": "The conversation covered several technical updates regarding analytics data. First, a change was implemented to convert asset parameter views to nullable types, which should simplify handling missing values (null vs. empty string). Later, new fields were introduced for tracking impressions and dwell time: `viewable_flow_impressions`, `viewable_dwell_impressions`, `viewed_flow_impressions`, `viewed_dwell_impressions`, and `visibility_factor`. Regarding the dashboard display of these metrics, a ticket was updated with changes made. Finally, it was confirmed that for calculating metrics relative to Screen On Time (SOT), the calculation only applies to impressions, requiring multiplication by the SOT percentage.",
+  "decisions": [
+    "Asset parameter views were converted to nullable types to improve data handling.",
+    "New fields (`viewable_flow_impressions`, `viewable_dwell_impressions`, etc.) were added for detailed impression and dwell time tracking.",
+    "SOT-based metric calculations (for impressions) require multiplying the base metric by the SOT percentage."
+  ],
+  "action_items": [
+    "Review the updated dashboard in ticket JCDEC-484 to confirm how new fields are displayed.",
+    "Monitor historical impression data for Lithuania over two days, potentially recalculating it."
+  ]
+}

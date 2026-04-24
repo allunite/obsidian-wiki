@@ -1,0 +1,17 @@
+{
+  "chat_id": "AAQA7g8is8E",
+  "kind": "Space",
+  "space_name": "Group Chat",
+  "participants": 10,
+  "date_range": {
+    "start": "2025-08-18",
+    "end": "2025-08-18"
+  },
+  "message_count": 3,
+  "topic": "Status check on pending items",
+  "topic_slug": "status-check-on-pending-items",
+  "tags": [],
+  "summary_markdown": "A brief status check was conducted regarding outstanding items, with multiple participants confirming they were still waiting.",
+  "decisions": [],
+  "action_items": []
+}

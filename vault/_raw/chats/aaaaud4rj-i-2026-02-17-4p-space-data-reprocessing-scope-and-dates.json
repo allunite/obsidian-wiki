@@ -1,0 +1,27 @@
+{
+  "chat_id": "AAAAud4RJ_I",
+  "kind": "Space",
+  "space_name": "Group Chat",
+  "participants": 4,
+  "date_range": {
+    "start": "2026-02-17",
+    "end": "2026-02-17"
+  },
+  "message_count": 39,
+  "topic": "Data reprocessing scope and dates",
+  "topic_slug": "data-reprocessing-scope-and-dates",
+  "tags": [
+    "analytics",
+    "campaign",
+    "inventory",
+    "session"
+  ],
+  "summary_markdown": "The discussion focused on confirming the scope and dates of data reprocessing, particularly concerning 'DataCorp' data. Initial confusion arose regarding whether the reprocessing covered all data prior to February 4th or just specific periods.\n\nMultiple participants reviewed file logs and confirmed that for most regions (excluding Singapore), only data from January 22nd through January 29th was reprocessed by one individual. The team clarified that DataCorp is a subsidiary/department within JCD, covering multiple countries (dk, lt, lv, sg).\n\nRegarding Singapore, the reprocessing logs showed files dating back to January 8th and continuing through January 31st, suggesting a much broader scope for this specific market.\n\nThe team concluded that future communication should state that all JSD data, except for Singapore, was only updated for the Jan 22-Jan 29 period. For Singapore, it was confirmed that files were processed from January 1st onwards.",
+  "decisions": [
+    "Data reprocessing scope: All JSD data (excluding Singapore) is limited to January 22nd - January 29th.",
+    "Singapore data processing: Files were processed starting from January 1st."
+  ],
+  "action_items": [
+    "Follow up on the request for a formal statement regarding the reprocessing scope of DataCorp/JSD data."
+  ]
+}

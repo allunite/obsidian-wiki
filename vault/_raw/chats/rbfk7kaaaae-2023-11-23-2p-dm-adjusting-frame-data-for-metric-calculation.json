@@ -1,0 +1,25 @@
+{
+  "chat_id": "rBfK7kAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 2,
+  "date_range": {
+    "start": "2023-11-23",
+    "end": "2023-11-23"
+  },
+  "message_count": 12,
+  "topic": "Adjusting frame data for metric calculation",
+  "topic_slug": "adjusting-frame-data-for-metric-calculation",
+  "tags": [
+    "analytics",
+    "facility",
+    "frame"
+  ],
+  "summary_markdown": "The discussion focused on calculating metrics (rots, vac, impressions, viewable flow impressions, viewed flow impressions) using data aggregated by hour ('h') instead of the previous method. It was determined that simply setting `frame_num` to 0 is incorrect because campaign frames will not attach properly. The solution decided upon was to explicitly insert a dedicated frame for each facility.",
+  "decisions": [
+    "Explicit frames must be inserted, one per facility."
+  ],
+  "action_items": [
+    "[unknown] to remind someone tomorrow about the implementation."
+  ]
+}

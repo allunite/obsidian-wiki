@@ -1,0 +1,19 @@
+{
+  "chat_id": "0VorOYAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2025-04-01",
+    "end": "2025-04-01"
+  },
+  "message_count": 4,
+  "topic": "Signal level check for airport location",
+  "topic_slug": "signal-level-check-airport-location",
+  "tags": [
+    "analytics"
+  ],
+  "summary_markdown": "Someone requested a signal level check for an 'Airport' category location (company_num=7885, sl=72). [me] confirmed that the setting was already active on staging and has now been implemented on production.",
+  "decisions": [],
+  "action_items": []
+}

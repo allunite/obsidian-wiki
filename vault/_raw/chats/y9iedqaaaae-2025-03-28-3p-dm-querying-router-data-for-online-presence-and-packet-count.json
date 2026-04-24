@@ -1,0 +1,26 @@
+{
+  "chat_id": "y9IEDQAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2025-03-28",
+    "end": "2025-03-28"
+  },
+  "message_count": 27,
+  "topic": "Querying router data for online presence and packet count",
+  "topic_slug": "querying-router-data-for-online-presence-and-packet-count",
+  "tags": [
+    "analytics",
+    "inventory",
+    "loop",
+    "impression"
+  ],
+  "summary_markdown": "The discussion focused on optimizing SQL queries to track router data for a client (Fishman). The goal is twofold: 1) Determine if the router has online presence by checking for historical data in the database, and 2) Monitor the packet count from the router to detect service drops.\n\n[p1] provided an initial query that calculates the maximum number of packets seen over five-minute intervals within the last hour, but this was deemed insufficient. \n\nRegarding data retrieval windows, [me] suggested using a time window equivalent to (the accumulation time in Kinesis) * 2.\n\nTechnical details shared included:\n*   Routers send data every 5 seconds.\n*   Data enters MQTT via a subscriber that collects packets and sends them in batches of N to Kinesis.\n*   A consumer reads these batches from Kinesis and writes them into ClickHouse.",
+  "decisions": [
+    "The query for router online presence and packet monitoring needs optimization."
+  ],
+  "action_items": [
+    "[me] will provide a separate query for tracking the number of packets received."
+  ]
+}

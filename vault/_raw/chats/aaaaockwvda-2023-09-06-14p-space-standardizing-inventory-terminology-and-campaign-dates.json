@@ -1,0 +1,27 @@
+{
+  "chat_id": "AAAAOcKWvdA",
+  "kind": "Space",
+  "space_name": "Delivery Coordination",
+  "participants": 14,
+  "date_range": {
+    "start": "2023-09-06",
+    "end": "2023-09-06"
+  },
+  "message_count": 22,
+  "topic": "Standardizing inventory terminology and campaign dates",
+  "topic_slug": "standardizing-inventory-terminology-and-campaign-dates",
+  "tags": [
+    "analytics",
+    "inventory",
+    "frame",
+    "campaign"
+  ],
+  "summary_markdown": "A discussion arose regarding the influx of change requests from various clients, each using unique terminology for inventory fields (e.g., JCD requesting 'Frame Type' when a similar field exists as 'Movement'). The consensus was that while standardizing is necessary to prevent data duplication and maintain consistency, implementing User Defined Fields (UDFs) would create chaos and is currently counterproductive until a formal change management process is established.\n\nSeparately, the team discussed improving the campaign editor experience. It was noted that manually calculating end dates for campaigns longer than 10 days is cumbersome. A decision was made to implement a read-only 'End Date' field in the campaign editor, allowing users to input only the start date and duration.",
+  "decisions": [
+    "Implement a read-only End Date field in the campaign editor (Start Date + Duration).",
+    "Standardize inventory terminology using existing fields rather than adopting client-specific names."
+  ],
+  "action_items": [
+    "Fix data discrepancies regarding frame coordinates for facilities in São Paulo and Rio de Janeiro."
+  ]
+}

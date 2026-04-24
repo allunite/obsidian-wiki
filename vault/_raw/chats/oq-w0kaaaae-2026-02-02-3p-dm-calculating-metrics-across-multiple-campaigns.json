@@ -1,0 +1,25 @@
+{
+  "chat_id": "oq-w0kAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2026-02-02",
+    "end": "2026-02-02"
+  },
+  "message_count": 12,
+  "topic": "Calculating metrics across multiple campaigns",
+  "topic_slug": "calculating-metrics-across-multiple-campaigns",
+  "tags": [
+    "analytics",
+    "campaign"
+  ],
+  "summary_markdown": "A discussion occurred regarding the complex calculation of campaign metrics, specifically when analyzing multiple campaigns with varying time periods. The current method relies on `v_device_session_agg_campaign_avg` which uses averages from `v_device_session_agg_base_logic`. This approach fails when combining data for different campaigns because the averaging mechanism cannot handle disparate time windows.\n\nThe proposed solution is to break down all campaign periods into daily segments before calculating metrics.",
+  "decisions": [
+    "The calculation logic was updated and provided in a task/view."
+  ],
+  "action_items": [
+    "Someone needs to check if there are any extraneous `category_label` variables within the database structure.",
+    "A mechanism for translating new `category_label` values must be implemented, requiring updates to the system when new labels appear."
+  ]
+}

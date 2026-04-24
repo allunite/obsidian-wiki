@@ -1,0 +1,26 @@
+{
+  "chat_id": "AAAAiip8dLs",
+  "kind": "Space",
+  "space_name": "Data health check and anomalies",
+  "participants": 5,
+  "date_range": {
+    "start": "2022-02-03",
+    "end": "2022-02-03"
+  },
+  "message_count": 51,
+  "topic": "Reviewing sensor data and network anomalies",
+  "topic_slug": "reviewing-sensor-data-and-network-anomalies",
+  "tags": [
+    "analytics",
+    "session",
+    "inventory"
+  ],
+  "summary_markdown": "The discussion focused on reviewing the performance of Finnish sensors, particularly after a recent update. Initial checks showed that packet counts had stabilized for most sensors, though one specific sensor (001E42287DAE) was noted as having significant data gaps due to an extended offline period.\n\nConcerns were raised regarding the stability of another sensor (001E422DEE20), which appeared more stable before the update. The team discussed potential issues with specific sensors, suggesting that 001E42287DAE might be problematic due to its antenna or environment.\n\nA comparison method was suggested: comparing data from the affected area using sensors from ClearChannel (CCF) for validation. It was confirmed that the updated firmware rollout covered all of Germany and JCD Finland 5 boxes, but discussions expanded to include updating MediaTeco and CC self-contained units.\n\nFinally, the team addressed discrepancies in real-time versus recalculated data peaks, noting that real-time data should not be compared directly with recalculated data.",
+  "decisions": [
+    "The final update on sensor performance will wait until a full day's worth of data is collected for comparison."
+  ],
+  "action_items": [
+    "Investigate the connectivity issues and potential antenna problems associated with sensor 001E42287DAE.",
+    "Check nearby ClearChannel (CC) screens installed in the vicinity of 001E42287DAE for comparative data."
+  ]
+}

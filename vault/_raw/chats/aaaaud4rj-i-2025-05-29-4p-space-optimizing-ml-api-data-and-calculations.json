@@ -1,0 +1,26 @@
+{
+  "chat_id": "AAAAud4RJ_I",
+  "kind": "Space",
+  "space_name": "Group Chat",
+  "participants": 4,
+  "date_range": {
+    "start": "2025-05-29",
+    "end": "2025-05-29"
+  },
+  "message_count": 21,
+  "topic": "Optimizing ML API data and calculations",
+  "topic_slug": "optimizing-ml-api-data-and-calculations",
+  "tags": [
+    "analytics",
+    "session",
+    "campaign",
+    "facility"
+  ],
+  "summary_markdown": "The discussion focused on optimizing the ML API, specifically regarding data fields and calculation efficiency. It was noted that `facility_num` does not appear to be used in the current `ml-api` code, leading to a proposal to remove this field from location data.\n\nRegarding calculations, it was suggested that if formulas do not change, calculated frequency values should potentially be stored persistently rather than being recalculated every time. The use of latitude/longitude and predicted session data (which involves complex mathematical functions like logarithms and exponents) were confirmed as the primary inputs for the ML API.\n\nTo improve performance, a suggestion was made to round or truncate the `session_predict` values to fewer decimal places (e.g., 17836 becoming 17800). This could potentially increase cache hit rates.",
+  "decisions": [
+    "Remove `facility_num` field from location data, pending confirmation."
+  ],
+  "action_items": [
+    "Implement monitoring for CPU and memory usage per process to determine if optimization is necessary."
+  ]
+}

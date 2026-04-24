@@ -1,0 +1,24 @@
+{
+  "chat_id": "i6YI1QAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 2,
+  "date_range": {
+    "start": "2021-06-24",
+    "end": "2021-06-24"
+  },
+  "message_count": 9,
+  "topic": "Data volume and query optimization for tender",
+  "topic_slug": "data-volume-and-query-optimization-for-tender",
+  "tags": [
+    "analytics",
+    "facility"
+  ],
+  "summary_markdown": "The conversation covered data volume metrics required for a Finnish tender. It was reported that 850–1000 million packets enter the system daily from all routers, resulting in 63–72 million sessions.\n\nLater, optimization advice was provided regarding database queries. The recommendation was to use `facility_master_num` instead of other methods for querying asset categories (e.g., checking if a facility is 'Metro' or 'City'), as this improves query speed and reliability even if category data is missing for some facilities.",
+  "decisions": [
+    "Use 63–72 million sessions figure for the Finnish tender."
+  ],
+  "action_items": [
+    "Implement queries using `facility_master_num` for asset category checks to improve speed and robustness."
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "chat_id": "AAAAqeRkR58",
+  "kind": "Space",
+  "space_name": "Estonia",
+  "participants": 9,
+  "date_range": {
+    "start": "2021-12-07",
+    "end": "2021-12-07"
+  },
+  "message_count": 9,
+  "topic": "Lidar sensor offer calculation and approval",
+  "topic_slug": "lidar-sensor-offer-calculation-and-approval",
+  "tags": [
+    "analytics",
+    "inventory"
+  ],
+  "summary_markdown": "The discussion centered on calculating an offer for additional Lidar sensors. Initial questions were raised regarding whether a Wi-Fi sensor was needed to complement the 2D Lidar setup, with the consensus being that a full set was required.\nLater in the session, pricing concerns were briefly discussed and then resolved, leading to final approval of the quoted price.",
+  "decisions": [
+    "The requirement for additional Lidar sensors (full set) was confirmed."
+  ],
+  "action_items": []
+}

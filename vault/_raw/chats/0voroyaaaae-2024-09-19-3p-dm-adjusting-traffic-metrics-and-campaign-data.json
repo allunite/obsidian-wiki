@@ -1,0 +1,27 @@
+{
+  "chat_id": "0VorOYAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2024-09-19",
+    "end": "2024-09-19"
+  },
+  "message_count": 7,
+  "topic": "Adjusting traffic metrics and campaign data",
+  "topic_slug": "adjusting-traffic-metrics-and-campaign-data",
+  "tags": [
+    "analytics",
+    "impression",
+    "campaign",
+    "facility"
+  ],
+  "summary_markdown": "Discussion focused on recent aggregation changes for 2024 data, specifically involving a reduction from 7885 to 22 facilities. While total traffic metrics aligned well, the unique user count dropped by approximately 1%. \n\nInitial concerns regarding adjusting the unique user count were dismissed as the issue was related to repeated users and could not be simply subtracted.\n\nRegarding campaign metric accuracy, it was confirmed that selecting a specific dataset (e.g., using parameters like `&ds=model2`) requires advanced functionality, possibly on a beta platform. Later, it was clarified that appending query parameters for campaign data should use a question mark (`?`) instead of an ampersand (`&`).\n\n[me] offered to review the frequency formula to assess its potential impact on unique user metrics.",
+  "decisions": [
+    "The initial concern about adjusting unique user counts was resolved.",
+    "It was clarified that campaign data parameters should use a question mark (?) instead of an ampersand (&)."
+  ],
+  "action_items": [
+    "[me] will review the frequency formula's impact on unique users."
+  ]
+}

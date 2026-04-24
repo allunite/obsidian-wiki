@@ -1,0 +1,24 @@
+{
+  "chat_id": "AAAA3oghITo",
+  "kind": "Space",
+  "space_name": "Кабаны",
+  "participants": 4,
+  "date_range": {
+    "start": "2022-10-24",
+    "end": "2022-10-24"
+  },
+  "message_count": 15,
+  "topic": "Database query log storage strategy",
+  "topic_slug": "database-query-log-storage-strategy",
+  "tags": [
+    "analytics",
+    "inventory"
+  ],
+  "summary_markdown": "The discussion focused on managing the ClickHouse query logs, which consume significant storage space. The current practice is to let the log accumulate over a month.\n\nIt was proposed that the query log feature should either be disabled or limited in scope. Alternatives discussed included setting a Time-To-Live (TTL) for the logs, potentially limiting retention to several days or just one day's worth of data.\n\n[p1] suggested reviewing the configuration changes required to implement TTL and asked [me] for their opinion upon waking up.",
+  "decisions": [
+    "Investigate implementing a Time-To-Live (TTL) mechanism for ClickHouse query logs."
+  ],
+  "action_items": [
+    "[me] to review the feasibility of setting a TTL on the query logs when available."
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "chat_id": "8GgAuwAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 2,
+  "date_range": {
+    "start": "2023-06-10",
+    "end": "2023-06-10"
+  },
+  "message_count": 4,
+  "topic": "Addressing data concerns and calibration issues",
+  "topic_slug": "addressing-data-concerns-and-calibration-issues",
+  "tags": [
+    "analytics"
+  ],
+  "summary_markdown": "A discussion arose regarding questionable data quality, specifically a comment about the data looking 'very unrealistic'. The conversation touched upon previous discussions involving calibration procedures and the involvement of a scientific department. One participant noted that they are now responsible for managing the communication and adjusting the data presented to address these concerns.",
+  "decisions": [],
+  "action_items": [
+    "Someone needs to formulate a response regarding the data discrepancies."
+  ]
+}

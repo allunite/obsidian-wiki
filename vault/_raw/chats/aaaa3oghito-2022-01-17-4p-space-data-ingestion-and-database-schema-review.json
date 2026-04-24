@@ -1,0 +1,29 @@
+{
+  "chat_id": "AAAA3oghITo",
+  "kind": "Space",
+  "space_name": "Кабаны",
+  "participants": 4,
+  "date_range": {
+    "start": "2022-01-17",
+    "end": "2022-01-17"
+  },
+  "message_count": 332,
+  "topic": "Data ingestion and database schema review",
+  "topic_slug": "data-ingestion-and-database-schema-review",
+  "tags": [
+    "analytics",
+    "inventory",
+    "campaign",
+    "raw-seen",
+    "postgre"
+  ],
+  "summary_markdown": "The discussion focused heavily on data pipeline stability, specifically addressing issues with raw device data ingestion. Initial concerns about data loss were mitigated by confirming that some data remained in Kinesis and only required a simple transfer job restart.\n\nSeveral technical points were reviewed:\n*   **Data Source Issues:** The system was observed writing to shards using the 'default' user instead of 'system', which needed correction.\n*   **Database Structure:** A suggestion was made to convert XML dictionaries into DDL dictionaries for better configuration management and portability across servers.\n*   **Data Retention/Cleanup:** It was discussed that `raw_seen` data needs a TTL (Time To Live) setting rather than manual truncation of query logs. The team also reviewed the available cold storage space, noting ample capacity in `/data/cold`.\n*   **MAC Address Handling:** Concerns were raised about whether the new BoxAPI implementation would correctly handle MAC addresses and if the existing real-time processing logic (recalc) for local vs. vendor data needed adjustment due to potential changes in data format (e.g., non-encrypted IDs).\n\n**Decisions/Next Steps:** The immediate plan is to stabilize the cluster operation by avoiding major changes for a few days, followed by addressing the root cause of the default user usage.",
+  "decisions": [
+    "The BoxAPI implementation should ideally write data directly into ClickHouse in the same format as Teltonika's data source.",
+    "The team agreed to defer major cluster modifications for a couple of days to allow stability."
+  ],
+  "action_items": [
+    "Implement TTL on `system.query_log` and `system.query_thread_log` tables.",
+    "Investigate and fix the issue of the cluster running under the default user instead of the system user."
+  ]
+}

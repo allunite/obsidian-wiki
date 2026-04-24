@@ -1,0 +1,23 @@
+{
+  "chat_id": "6ize28AAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2025-08-27",
+    "end": "2025-08-27"
+  },
+  "message_count": 6,
+  "topic": "Custom cluster frequency calculation setup",
+  "topic_slug": "custom-cluster-frequency-calculation-setup",
+  "tags": [
+    "analytics"
+  ],
+  "summary_markdown": "The discussion centered on the feasibility of calculating cluster frequencies using custom formulas provided by [p1] rather than standard methods. [me] confirmed that this was possible and requested the necessary formulas. [p1] then created a task to manage the implementation details, which was subsequently shared with [p1].",
+  "decisions": [
+    "The calculation of cluster frequencies using custom formulas is technically feasible."
+  ],
+  "action_items": [
+    "[p1] needs to review the task regarding custom frequency calculations."
+  ]
+}

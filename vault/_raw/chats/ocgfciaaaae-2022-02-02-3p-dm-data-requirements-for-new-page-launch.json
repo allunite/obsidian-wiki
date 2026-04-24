@@ -1,0 +1,23 @@
+{
+  "chat_id": "oCgFCIAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2022-02-02",
+    "end": "2022-02-02"
+  },
+  "message_count": 3,
+  "topic": "Data requirements for new page launch",
+  "topic_slug": "data-requirements-for-new-page-launch",
+  "tags": [
+    "analytics"
+  ],
+  "summary_markdown": "Discussion regarding the data needed for a new page launch. It was noted that while most data seems available in the database (including demographic information), there is a need to determine what additional data points are missing, beyond demographics. The process of providing this data and loading the schema needs attention.",
+  "decisions": [
+    "The immediate focus should be on identifying any necessary data gaps beyond basic demographics for the new page."
+  ],
+  "action_items": [
+    "Determine specific data requirements needed for the new page launch."
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "chat_id": "AAAA9ybOLwM",
+  "kind": "Space",
+  "space_name": "ИТ",
+  "participants": 8,
+  "date_range": {
+    "start": "2022-03-08",
+    "end": "2022-03-08"
+  },
+  "message_count": 34,
+  "topic": "Deploying updates and Finnish access setup",
+  "topic_slug": "deploying-updates-and-finnish-access-setup",
+  "tags": [
+    "analytics",
+    "inventory",
+    "campaign"
+  ],
+  "summary_markdown": "The team discussed deploying updated assets, specifically demographics and fictitious card data, to the production environment for Finnish access. The decision was made to deploy the version that had been released to staging on Friday, as it contained minimal changes. After [p2] deployed the update, confirmation was sought that both the new demographic data and all other changes were present in production.\n\nSeparately, assistance was provided regarding granting necessary accesses for Finland using existing company emails.",
+  "decisions": [
+    "Deploy the version of assets (including demographics and fictitious card data) currently on staging to production."
+  ],
+  "action_items": [
+    "[me] will provide access credentials/support for Finland's three companies, ideally by tomorrow morning."
+  ]
+}

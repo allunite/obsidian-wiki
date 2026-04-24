@@ -1,0 +1,26 @@
+{
+  "chat_id": "oCgFCIAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2022-06-22",
+    "end": "2022-06-22"
+  },
+  "message_count": 63,
+  "topic": "Handling failures in data processing workflow",
+  "topic_slug": "handling-failures-data-processing-workflow",
+  "tags": [
+    "analytics",
+    "recalc-ch",
+    "campaign"
+  ],
+  "summary_markdown": "The discussion focused on improving the robustness of the data processing workflow, particularly regarding failure handling in the staging environment. Initially, there was debate over whether a model failure should halt the entire script (the 'hard fail' approach) or allow the process to continue ('soft skip').\n\nKey points included:\n*   **Failure Handling:** The consensus leaned towards implementing error handlers at the workflow level (Randek), allowing the job to log an issue but proceed with subsequent steps, especially for staging.\n*   **Workflow Structure:** It was suggested that separating the model prediction step and the aggregation step into distinct jobs/flows would improve modularity and restartability.\n*   **Data Integrity Issues:** The conversation highlighted recurring issues caused by developers making changes directly in the ML database (e.g., adding columns or changing data structures) without proper deployment, leading to broken SQL queries.\n*   **Technical Solution:** One participant found a method using error handlers within the workflow tool that allows for continued execution even if a specific step fails, which was deemed a viable solution for staging.",
+  "decisions": [
+    "Implement error handling at the workflow level (Randek) to prevent minor job failures from halting the entire process, especially in staging.",
+    "Consider separating model prediction and aggregation into distinct jobs/flows."
+  ],
+  "action_items": [
+    "The participant who found the video tutorial will configure the error handler within the workflow tool (Randek) to allow continuation for staging environments."
+  ]
+}

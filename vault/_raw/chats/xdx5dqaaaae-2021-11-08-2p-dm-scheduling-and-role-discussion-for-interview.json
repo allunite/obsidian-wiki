@@ -1,0 +1,21 @@
+{
+  "chat_id": "xdx5dQAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 2,
+  "date_range": {
+    "start": "2021-11-08",
+    "end": "2021-11-08"
+  },
+  "message_count": 12,
+  "topic": "Scheduling and role discussion for interview",
+  "topic_slug": "scheduling-and-role-discussion-for-interview",
+  "tags": [
+    "campaign"
+  ],
+  "summary_markdown": "The participants discussed scheduling an interview, which was set for 11:30. The conversation also covered job options available to the candidate, noting two specific roles: one for Electrum and a second role as a consultant.",
+  "decisions": [
+    "Interview scheduled for 11:30."
+  ],
+  "action_items": []
+}

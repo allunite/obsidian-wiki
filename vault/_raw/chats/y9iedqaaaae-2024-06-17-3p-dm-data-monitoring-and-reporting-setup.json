@@ -1,0 +1,28 @@
+{
+  "chat_id": "y9IEDQAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2024-06-17",
+    "end": "2024-06-17"
+  },
+  "message_count": 29,
+  "topic": "Data monitoring and reporting setup",
+  "topic_slug": "data-monitoring-and-reporting-setup",
+  "tags": [
+    "analytics",
+    "session",
+    "recalc-ch",
+    "impression"
+  ],
+  "summary_markdown": "The conversation covered the implementation of data monitoring and reporting processes. \n\n*   **Data Monitoring:** A specific query (related to sessions) was reviewed, which is intended to be the final step after a recalculation process (`recalc-ch`). The frequency of this job needs confirmation.\n*   **Job Deployment:** Discussion occurred regarding deploying data uploads/imports into the system, suggesting that jobs should potentially run from an 'upload' stage to ensure automatic acceptance of all incoming data.\n*   **BI Tools:** The participants discussed Business Intelligence (BI) tools for visualization. A driver was requested and provided for Metabase. Regarding dashboarding options, SuperSet was advised against being decommissioned, as it offers comparable functionality despite potentially having a more complex conceptual model. Grafana was also suggested as an alternative option.",
+  "decisions": [
+    "The data monitoring job will run as the final step after recalculation.",
+    "SuperSet should not be decommissioned for dashboarding needs."
+  ],
+  "action_items": [
+    "Implement changes to the Rundeck job, potentially moving it to an 'upload' stage.",
+    "Provide the Metabase ClickHouse driver (version 1.50.0) into the plugins folder."
+  ]
+}

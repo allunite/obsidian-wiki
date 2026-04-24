@@ -1,0 +1,27 @@
+{
+  "chat_id": "i6YI1QAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 2,
+  "date_range": {
+    "start": "2021-11-25",
+    "end": "2021-11-25"
+  },
+  "message_count": 24,
+  "topic": "Lidar data mapping and dashboard discrepancies",
+  "topic_slug": "lidar-data-mapping-and-dashboard-discrepancies",
+  "tags": [
+    "analytics",
+    "lidar",
+    "session"
+  ],
+  "summary_markdown": "The conversation covered the retrieval of mappings between lidar IDs and Wi-Fi names for Estonia. The participant was provided with a sample dataset containing `id`, `facility_id`, and `name`.\n\nLater, questions arose regarding the Lidar dashboard data scope. It was confirmed that the current dashboard does not include pedestrian paths (l00). Regarding export functionality, it was noted that lidar data is currently excluded from exports, but a ticket exists for this issue, and someone agreed to work on it.\n\nWhen discussing the exclusion of pedestrian paths, clarification was provided regarding the specific designation (`pXX` or `l00`).",
+  "decisions": [
+    "Lidar IDs and Wi-Fi names mapping data (for Estonia) was shared.",
+    "The Lidar dashboard currently excludes pedestrian path data.",
+    "A ticket exists to include lidar data in exports, and someone will work on it."
+  ],
+  "action_items": [
+    "Someone needs to address including lidar data in the export functionality."
+  ]
+}

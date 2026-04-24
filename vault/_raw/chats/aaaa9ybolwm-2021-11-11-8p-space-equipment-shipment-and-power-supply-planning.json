@@ -1,0 +1,22 @@
+{
+  "chat_id": "AAAA9ybOLwM",
+  "kind": "Space",
+  "space_name": "ИТ",
+  "participants": 8,
+  "date_range": {
+    "start": "2021-11-11",
+    "end": "2021-11-11"
+  },
+  "message_count": 11,
+  "topic": "Equipment shipment and power supply planning",
+  "topic_slug": "equipment-shipment-and-power-supply-planning",
+  "tags": [
+    "inventory",
+    "facility"
+  ],
+  "summary_markdown": "The conversation concerns the arrival of two shipments: 150 antennas from Teltonika and 40 cables for Finland, tracked via DHL. Discussion focused on whether power supply blocks are necessary since the new cables will reportedly draw power directly from screens. Participants debated whether to include spare power blocks with the shipment or keep them in stock.",
+  "decisions": [],
+  "action_items": [
+    "Confirm if power supply blocks are needed for the Finnish equipment, given that the new cables provide direct power."
+  ]
+}

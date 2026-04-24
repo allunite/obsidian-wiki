@@ -1,0 +1,21 @@
+{
+  "chat_id": "AAAA9ybOLwM",
+  "kind": "Space",
+  "space_name": "ИТ",
+  "participants": 8,
+  "date_range": {
+    "start": "2021-01-19",
+    "end": "2021-01-19"
+  },
+  "message_count": 4,
+  "topic": "Data retrieval improvement task documentation",
+  "topic_slug": "data-retrieval-improvement-task-documentation",
+  "tags": [
+    "analytics"
+  ],
+  "summary_markdown": "Someone reminded [me] about a task concerning the improvement of how JCD retrieves data. A document related to this task was discussed, and [p2] located and shared the relevant Google Doc link.",
+  "decisions": [],
+  "action_items": [
+    "Locate and review the documentation regarding JCD's data retrieval method."
+  ]
+}

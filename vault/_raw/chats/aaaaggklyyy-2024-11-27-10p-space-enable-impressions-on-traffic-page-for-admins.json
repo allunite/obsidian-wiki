@@ -1,0 +1,24 @@
+{
+  "chat_id": "AAAAgGKlyyY",
+  "kind": "Space",
+  "space_name": "Group Chat",
+  "participants": 10,
+  "date_range": {
+    "start": "2024-11-27",
+    "end": "2024-11-27"
+  },
+  "message_count": 5,
+  "topic": "Enable Impressions on Traffic Page for Admins",
+  "topic_slug": "enable-impressions-on-traffic-page-for-admins",
+  "tags": [
+    "impression",
+    "analytics"
+  ],
+  "summary_markdown": "The group discussed the status of enabling impressions on a Traffic Page for Admins Only. It was confirmed that this feature requires a task with specific rules and guidelines.",
+  "decisions": [
+    "A task needs to be created regarding 'Enable Impressions on Traffic Page for Admins Only'."
+  ],
+  "action_items": [
+    "[p8] will create the necessary task."
+  ]
+}

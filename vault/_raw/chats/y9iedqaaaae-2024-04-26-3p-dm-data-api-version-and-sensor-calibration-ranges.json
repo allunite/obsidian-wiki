@@ -1,0 +1,23 @@
+{
+  "chat_id": "y9IEDQAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2024-04-26",
+    "end": "2024-04-26"
+  },
+  "message_count": 55,
+  "topic": "Data API version and sensor calibration ranges",
+  "topic_slug": "data-api-version-and-sensor-calibration-ranges",
+  "tags": [
+    "analytics",
+    "inventory",
+    "facility"
+  ],
+  "summary_markdown": "The discussion covered technical details regarding data retrieval APIs for Baltic countries. It was determined that the `/v5` endpoint is preferred over `/report/jcd` due to its clarity, although some legacy code exists in `/jcd`. The conversation also addressed sensor calibration ranges and data measurement methods (device vs. person) for Estonia, Latvia, and Lithuania.\n\n*   **Data API:** Use of the `/v5` endpoint was agreed upon for general use, with confirmation that this version includes data from lidar sensors if available.\n*   **Sensor Ranges:** The default calibration range is 89 for Estonia. For Latvia, it is 80 at three specific facilities and 89 otherwise. Lithuania's mall area has a reading of 78, while other areas use the default 89.",
+  "decisions": [
+    "Use the /v5 endpoint for data retrieval from Baltic countries."
+  ],
+  "action_items": []
+}

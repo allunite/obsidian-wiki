@@ -1,0 +1,28 @@
+{
+  "chat_id": "i6YI1QAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 2,
+  "date_range": {
+    "start": "2021-05-12",
+    "end": "2021-05-12"
+  },
+  "message_count": 48,
+  "topic": "Data aggregation and production updates for Latvia",
+  "topic_slug": "data-aggregation-production-updates-latvia",
+  "tags": [
+    "analytics",
+    "campaign",
+    "inventory",
+    "recalc-ch"
+  ],
+  "summary_markdown": "The discussion focused on updating data models, specifically concerning the aggregation of packet and device counts. Initial work involved reaggregating data for Latvia into a staging environment (`STAGE`).\n\nLater, it was decided that the production model in `ml` needs adjustments for Latvia: one day's worth of data must be removed from the production dataset, and this data should be replaced by aggregated data sourced from the staging environment (for Latvia only). Additionally, the aggregation process for the main production dataset must be run on the production environment itself.",
+  "decisions": [
+    "Remove one day of data from the `ml` production model specifically for Latvia.",
+    "Transfer Latvian data from the staging environment to replace the removed data in the `ml` production model.",
+    "Run the aggregation process directly on the production dataset."
+  ],
+  "action_items": [
+    "[me] to perform the necessary updates and confirm completion for review."
+  ]
+}

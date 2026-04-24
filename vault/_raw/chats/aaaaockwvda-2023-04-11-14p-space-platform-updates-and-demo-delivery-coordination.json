@@ -1,0 +1,30 @@
+{
+  "chat_id": "AAAAOcKWvdA",
+  "kind": "Space",
+  "space_name": "Delivery Coordination",
+  "participants": 14,
+  "date_range": {
+    "start": "2023-04-11",
+    "end": "2023-04-11"
+  },
+  "message_count": 45,
+  "topic": "Platform updates and demo delivery coordination",
+  "topic_slug": "platform-updates-and-demo-delivery-coordination",
+  "tags": [
+    "campaign",
+    "inventory",
+    "frame",
+    "analytics",
+    "session"
+  ],
+  "summary_markdown": "The team discussed updates for the platform, specifically regarding inventory and campaign management. Key features include: \n\n*   **Inventory:** Only fixes were applied to the inventory section; campaign manager work is ongoing.\n*   **Campaign Manager:** The system currently displays frames, a map, and basic filtering, but lacks traffic/numerical data, which needs improvement for better presentation in the campaign list.\n*   **Demographics:** Efforts are underway to add demographics for current frames based on different levels of detail. This is expected soon (by Thursday).\n*   **Platform Design:** Suggestions were made to improve the campaign view by implementing a strategy selector (e.g., 'filter based' vs. 'package based') using tabs or disabling unused sections, rather than relying solely on filters.\n\nMultiple follow-up meetings were scheduled to address package functionality and general platform questions.",
+  "decisions": [
+    "Demographics data update is targeted for Thursday.",
+    "A meeting was scheduled (for 14:00 in Ukraine time) to discuss package functionality."
+  ],
+  "action_items": [
+    "Complete saving packages and the company profile today.",
+    "Provide an update on Brazil's progress.",
+    "Follow up on adding traffic/numerical data for campaign lists, potentially during a call."
+  ]
+}

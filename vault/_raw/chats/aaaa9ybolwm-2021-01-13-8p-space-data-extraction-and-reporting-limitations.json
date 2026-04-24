@@ -1,0 +1,24 @@
+{
+  "chat_id": "AAAA9ybOLwM",
+  "kind": "Space",
+  "space_name": "ИТ",
+  "participants": 8,
+  "date_range": {
+    "start": "2021-01-13",
+    "end": "2021-01-13"
+  },
+  "message_count": 32,
+  "topic": "Data extraction and reporting limitations",
+  "topic_slug": "data-extraction-and-reporting-limitations",
+  "tags": [
+    "analytics",
+    "inventory"
+  ],
+  "summary_markdown": "The conversation focused on data retrieval challenges from the RMS API. Initially, there was discussion about optimizing PostgreSQL volume usage for cost savings.\n\nLater, someone requested monthly data usage for all active Teltonika sensors in Excel format, ideally covering three months.\n\nChallenges with the RMS API were noted: reports are limited to PDF format and have a one-month generation restriction. Someone developed a script to pull data but encountered issues due to slow response times when requesting multiple months (three months failed).\n\nThe process involves running queries for each of 251 routers, specifically targeting jcdecaux data using a single API key associated with the JCDecaux account.",
+  "decisions": [
+    "Data retrieval is being conducted via a script querying individual routers' data from the RMS API."
+  ],
+  "action_items": [
+    "Continue running the script to pull monthly usage data for Teltonika sensors over three months."
+  ]
+}

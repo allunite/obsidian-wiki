@@ -1,0 +1,26 @@
+{
+  "chat_id": "i6YI1QAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 2,
+  "date_range": {
+    "start": "2023-01-12",
+    "end": "2023-01-12"
+  },
+  "message_count": 23,
+  "topic": "Inventory loading and frame structure issues",
+  "topic_slug": "inventory-loading-and-frame-structure-issues",
+  "tags": [
+    "inventory",
+    "frame",
+    "facility"
+  ],
+  "summary_markdown": "The session covered technical issues related to data import and inventory management. [me] confirmed that the import was completed on the sandbox environment, with a request to change the inventory upload schedule to prevent loading all ~9K facilities at once.\n\nDiscussion focused on frame structure: \n*   [p1] questioned if 'faces' were loaded for frames, noting they were not visible in the table. [me] stated that the handling of 'faces' was unclear and that [me] might be able to incorporate them after reviewing the JSON structure.\n*   Later, [p1] suggested that frame IDs might be incorrect during the merging process.\n*   [me] confirmed this was a known bug that [me] was currently working on. \n\nThe conversation concluded with scheduling adjustments, prioritizing a call regarding the Brazil demo over another meeting concerning 'Mol'.",
+  "decisions": [
+    "The inventory upload schedule needs adjustment to prevent loading all facilities simultaneously."
+  ],
+  "action_items": [
+    "[me] to work on fixing the bug related to incorrect frame IDs during merging.",
+    "Schedule a call with [p1] and Nastya regarding the 'Mol' conversion after the Brazil demo is prioritized."
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "chat_id": "i6YI1QAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 2,
+  "date_range": {
+    "start": "2022-07-06",
+    "end": "2022-07-06"
+  },
+  "message_count": 4,
+  "topic": "Reviewing staging data discrepancies",
+  "topic_slug": "reviewing-staging-data-discrepancies",
+  "tags": [
+    "analytics"
+  ],
+  "summary_markdown": "Someone reviewed the staging environment and noted that the real-time data for today showed some discrepancies compared to production, although the historical data matched for non-cluster items.",
+  "decisions": [],
+  "action_items": [
+    "Review staging data against production starting tomorrow morning."
+  ]
+}

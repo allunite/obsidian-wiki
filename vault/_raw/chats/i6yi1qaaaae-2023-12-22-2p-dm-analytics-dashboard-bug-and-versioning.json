@@ -1,0 +1,23 @@
+{
+  "chat_id": "i6YI1QAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 2,
+  "date_range": {
+    "start": "2023-12-22",
+    "end": "2023-12-22"
+  },
+  "message_count": 17,
+  "topic": "Analytics dashboard bug and versioning",
+  "topic_slug": "analytics-dashboard-bug-and-versioning",
+  "tags": [
+    "analytics",
+    "campaign",
+    "facility"
+  ],
+  "summary_markdown": "The conversation focused on debugging issues within the staging analytics environment, specifically concerning data discrepancies related to unique identifiers (yuniki) and campaign metrics.\n\n[p1] shared links to mall analytics dashboards for specific facilities. [me] confirmed that a bug was found by [p1]. \n\nRegarding campaign data, [me] explained that the staging environment previously used an older version without the RZK formula on campaigns. A new version had been deployed to beta, as decided in a recent meeting. While acknowledging the technical details of the deployment and the bug's impact (the new version showed lower visit frequency), the immediate focus was on confirming data accuracy before further testing.",
+  "decisions": [
+    "The team confirmed that a new version of the campaign analytics dashboard had been deployed to beta."
+  ],
+  "action_items": []
+}

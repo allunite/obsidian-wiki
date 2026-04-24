@@ -1,0 +1,17 @@
+{
+  "chat_id": "AAAA3oghITo",
+  "kind": "Space",
+  "space_name": "Кабаны",
+  "participants": 4,
+  "date_range": {
+    "start": "2025-12-12",
+    "end": "2025-12-12"
+  },
+  "message_count": 5,
+  "topic": "Olympic news discussion",
+  "topic_slug": "olympic-news-discussion",
+  "tags": [],
+  "summary_markdown": "The conversation revolves around a recent announcement from the International Olympic Committee regarding youth athletes with Russian or Belarusian passports. The announcement suggests that these athletes may be allowed to compete under their national flag and anthem, easing previous restrictions. Participants discuss the nature and source of this news.",
+  "decisions": [],
+  "action_items": []
+}

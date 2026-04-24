@@ -1,0 +1,21 @@
+{
+  "chat_id": "AAAA97r8Cx0",
+  "kind": "Space",
+  "space_name": "Dubai DF",
+  "participants": 6,
+  "date_range": {
+    "start": "2022-03-18",
+    "end": "2022-03-18"
+  },
+  "message_count": 4,
+  "topic": "Review of presentation materials",
+  "topic_slug": "review-of-presentation-materials",
+  "tags": [
+    "analytics"
+  ],
+  "summary_markdown": "A participant shared a link to a very short presentation for the day. Another participant was asked to review and fix necessary elements in the document.",
+  "decisions": [],
+  "action_items": [
+    "Review and fix the provided presentation materials."
+  ]
+}

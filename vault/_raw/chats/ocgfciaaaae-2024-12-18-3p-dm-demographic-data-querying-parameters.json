@@ -1,0 +1,22 @@
+{
+  "chat_id": "oCgFCIAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2024-12-18",
+    "end": "2024-12-18"
+  },
+  "message_count": 6,
+  "topic": "Demographic data querying and parameters",
+  "topic_slug": "demographic-data-querying-parameters",
+  "tags": [
+    "analytics",
+    "session"
+  ],
+  "summary_markdown": "The discussion focused on best practices for querying demographic data, specifically concerning the relationship between age and gender. It was clarified that while age and gender are usually directly correlated in demographics, other parameters like education and income are often handled using coefficients or household-level data.\n\n[p1] needed guidance on how to structure a request from Facebook's API for demographic information (e.g., selecting specific age/gender groups vs. multiplying probabilities).\n\nKey points included:\n*   Age and gender should be treated as directly correlated variables.\n*   Education and income data are often provided via coefficients, requiring adjustments.\n*   The process of pulling demographics from Facebook's API requires understanding its specific parameters.",
+  "decisions": [
+    "Age and gender should be linked when querying demographic data."
+  ],
+  "action_items": []
+}

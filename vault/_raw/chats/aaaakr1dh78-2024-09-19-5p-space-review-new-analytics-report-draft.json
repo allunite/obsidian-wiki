@@ -1,0 +1,26 @@
+{
+  "chat_id": "AAAAkr1DH78",
+  "kind": "Space",
+  "space_name": "Group Chat",
+  "participants": 5,
+  "date_range": {
+    "start": "2024-09-19",
+    "end": "2024-09-19"
+  },
+  "message_count": 6,
+  "topic": "Review of new analytics report draft",
+  "topic_slug": "review-new-analytics-report-draft",
+  "tags": [
+    "analytics",
+    "impression",
+    "campaign"
+  ],
+  "summary_markdown": "A preliminary version of a performance report was shared for review. The new \"Compare Report\" button is currently visible only on the Proantaž view. This report captures all parameters except time granularity; it reports data for the selected period rather than requiring selection of a previous period, which is automatically calculated.\n\nThe recipient needs to check if the displayed data and format are expected, correct any terminology, and verify the figures in Excel.",
+  "decisions": [
+    "A preliminary version of the report was shared for review."
+  ],
+  "action_items": [
+    "[p1] will review the report draft next week",
+    "Review data expectations, terminology, and Excel figures"
+  ]
+}

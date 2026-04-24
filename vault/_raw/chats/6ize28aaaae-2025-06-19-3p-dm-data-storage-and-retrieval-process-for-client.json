@@ -1,0 +1,25 @@
+{
+  "chat_id": "6ize28AAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2025-06-19",
+    "end": "2025-06-19"
+  },
+  "message_count": 29,
+  "topic": "Data storage and retrieval process for client",
+  "topic_slug": "data-storage-and-retrieval-process-for-client",
+  "tags": [
+    "analytics",
+    "inventory",
+    "session"
+  ],
+  "summary_markdown": "The conversation focused on explaining the data architecture to a new client (Belgium tender). The process involves running all metrics calculations overnight (by UTC) and storing aggregated historical data in a database. Historical data can be retrieved at any time via a dedicated data-api.\n\nRegarding demographic data, it was noted that while current implementation uses static demographics (except for 'areas of living'), the engine theoretically allows for separate daily demographics if required. For specific features like 'areas of living', coordination with the relevant internal party is needed.",
+  "decisions": [
+    "The core data process involves overnight aggregation and storage, allowing historical retrieval via API."
+  ],
+  "action_items": [
+    "Coordinate with the appropriate internal party regarding the implementation of 'areas of living' features."
+  ]
+}

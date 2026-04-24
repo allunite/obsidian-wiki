@@ -1,0 +1,30 @@
+{
+  "chat_id": "y9IEDQAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2024-08-22",
+    "end": "2024-08-22"
+  },
+  "message_count": 66,
+  "topic": "Client reporting requirements and data integration",
+  "topic_slug": "client-reporting-requirements-data-integration",
+  "tags": [
+    "analytics",
+    "campaign",
+    "impression",
+    "facility",
+    "frame",
+    "inventory"
+  ],
+  "summary_markdown": "The discussion centered on a potential client's requirement to generate detailed campaign reports, mimicking the 'Reports' tab data. The client plans to import campaign data via CSV and use an API to retrieve performance metrics.\n\n**Data Flow & Reporting:**\n*   The client requires impressions and traffic data from AllUnite for their campaigns.\n*   They propose sending a JSON file containing the broadcast schedule (campaign list) to an import endpoint, and periodically retrieving reports by targeting a reporting endpoint.\n*   For accurate reporting, especially regarding impressions, the need to discuss time-stamped (date/time) data was highlighted, as simple total exposition calculation is insufficient.\n\n**Technical Scope:**\n*   The integration requires mapping the client's block structure onto AllUnite's frame or facility records.\n*   Initial steps involve receiving a JSON list of all displays and subsequent updates for changes.\n*   A follow-up discussion was initiated regarding accessing Facebook data, potentially using Store locations or captive portal data to gather traffic metrics.",
+  "decisions": [
+    "The technical feasibility of generating client reports based on their provided campaign schedules and actual performance data needs further investigation.",
+    "The team agreed that the time-stamped nature of impression reporting must be discussed with relevant internal experts (e.g., Sasha/Marina)."
+  ],
+  "action_items": [
+    "Forwarding the client's original request, including attachments, to Sasha and Galina for discussion.",
+    "Follow up on potential data sources from Facebook, potentially involving a marketing contact or adjusting the captive portal system."
+  ]
+}

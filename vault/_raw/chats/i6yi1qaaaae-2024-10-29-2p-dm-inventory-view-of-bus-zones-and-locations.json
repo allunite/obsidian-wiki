@@ -1,0 +1,22 @@
+{
+  "chat_id": "i6YI1QAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 2,
+  "date_range": {
+    "start": "2024-10-29",
+    "end": "2024-10-29"
+  },
+  "message_count": 8,
+  "topic": "Inventory view of bus zones and locations",
+  "topic_slug": "inventory-view-of-bus-zones-and-locations",
+  "tags": [
+    "inventory",
+    "analytics"
+  ],
+  "summary_markdown": "The discussion confirmed that the client will be able to see both zones and buses within the inventory view. While the dashboard filters are limited to zones, the inventory section itself can display all bus locations and associated zones. It was suggested that a default filter could be added for convenience.",
+  "decisions": [
+    "The inventory view will show both zones and buses."
+  ],
+  "action_items": []
+}

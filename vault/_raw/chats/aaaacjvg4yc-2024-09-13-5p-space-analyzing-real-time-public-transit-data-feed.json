@@ -1,0 +1,21 @@
+{
+  "chat_id": "AAAAcjvG4Yc",
+  "kind": "Space",
+  "space_name": "Group Chat",
+  "participants": 5,
+  "date_range": {
+    "start": "2024-09-13",
+    "end": "2024-09-13"
+  },
+  "message_count": 3,
+  "topic": "Analyzing real-time public transit data feed",
+  "topic_slug": "analyzing-real-time-public-transit-data-feed",
+  "tags": [
+    "analytics"
+  ],
+  "summary_markdown": "Someone shared documentation and details regarding a real-time public transit data feed (GTFS RT). Key attributes of the data were outlined:\n\n*   **Vehicle Positions:** The feed provides vehicle positions.\n*   **Trip IDs:** Trip IDs are not available.\n*   **`schedule_relationship`:** This field can be `SCHEDULED` (default) or `ADDED` (used when multiple buses serve one trip).\n*   **`occupancy_status`:** Only available for vehicles with passenger counting capability.\n*   **`current_status`:** Status depends on the availability of HFP events. If events are present, statuses include `IN_TRANSIT_TO`, `INCOMING_AT`, and `STOPPED_AT`. If no events are available, only `IN_TRANSIT_TO` and `STOPPED_AT` are used.\n*   **Vehicle ID Format:** The vehicle ID follows the format `<operator_id>/<vehicle_id>`.",
+  "decisions": [],
+  "action_items": [
+    "Discuss the provided interface and data details later when all parties have had time to review it."
+  ]
+}

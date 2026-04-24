@@ -1,0 +1,17 @@
+{
+  "chat_id": "i6YI1QAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 2,
+  "date_range": {
+    "start": "2021-05-26",
+    "end": "2021-05-26"
+  },
+  "message_count": 12,
+  "topic": "Technical troubleshooting and hardware issues",
+  "topic_slug": "technical-troubleshooting-and-hardware-issues",
+  "tags": [],
+  "summary_markdown": "The conversation focused entirely on technical difficulties experienced by [p1] with their computer. Issues included a flickering cursor, system overload, and random microphone failure during meetings. The participants discussed potential causes, including viruses, but the issue was not confirmed as malicious software.",
+  "decisions": [],
+  "action_items": []
+}

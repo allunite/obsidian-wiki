@@ -1,0 +1,19 @@
+{
+  "chat_id": "i6YI1QAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 2,
+  "date_range": {
+    "start": "2022-03-09",
+    "end": "2022-03-09"
+  },
+  "message_count": 6,
+  "topic": "Project status and knowledge gap",
+  "topic_slug": "project-status-and-knowledge-gap",
+  "tags": [
+    "campaign"
+  ],
+  "summary_markdown": "The conversation addressed the 'Mol' project. One participant indicated they were unaware of the project's progress, stating that work had been done without their involvement.",
+  "decisions": [],
+  "action_items": []
+}

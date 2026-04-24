@@ -1,0 +1,26 @@
+{
+  "chat_id": "0kjuCiAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2026-01-27",
+    "end": "2026-01-27"
+  },
+  "message_count": 46,
+  "topic": "Deploying frequency for Cyprus market",
+  "topic_slug": "deploying-frequency-for-cyprus-market",
+  "tags": [
+    "analytics",
+    "campaign",
+    "inventory"
+  ],
+  "summary_markdown": "The discussion focused on deploying a frequency calculation for the Cyprus market using the ml-api. Initial issues included the API returning an incorrect value (1) and concerns about the stage deployment status, as the current version was outdated.\n\nThe primary technical decision was to avoid merging directly from `main` into the staging environment due to potential instability. Instead, it was recommended that [p1] use a cherry-pick approach for necessary commits onto the stage branch.\n\nAfter troubleshooting and confirming the correct deployment method, the frequency calculation was successfully verified on the stage environment.",
+  "decisions": [
+    "The ml-api needs to be updated with specific data (Cyprus_7984) before deployment.",
+    "Merging directly from main into staging is discouraged; cherry-picking commits is preferred."
+  ],
+  "action_items": [
+    "Verify the frequency calculation for Cyprus on the stage environment."
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "chat_id": "nW_zkkAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2025-04-23",
+    "end": "2025-04-23"
+  },
+  "message_count": 6,
+  "topic": "Campaign metric calculation review",
+  "topic_slug": "campaign-metric-calculation-review",
+  "tags": [
+    "campaign",
+    "analytics"
+  ],
+  "summary_markdown": "The participants discussed the need to finalize and standardize all variables and their calculations for an upcoming campaign meeting. A request was made for a detailed breakdown of metrics, covering both the overall platform view for the entire campaign and the specific metrics reported within frame reports.",
+  "decisions": [
+    "A meeting is scheduled for Friday to discuss the campaign with [p2] regarding data themes."
+  ],
+  "action_items": [
+    "Prepare metric calculations for the campaign, including both platform-wide totals and frame-specific report metrics."
+  ]
+}

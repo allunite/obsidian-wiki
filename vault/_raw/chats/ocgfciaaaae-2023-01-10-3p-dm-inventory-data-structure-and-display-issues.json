@@ -1,0 +1,24 @@
+{
+  "chat_id": "oCgFCIAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2023-01-10",
+    "end": "2023-01-10"
+  },
+  "message_count": 18,
+  "topic": "Inventory data structure and display issues",
+  "topic_slug": "inventory-data-structure-and-display-issues",
+  "tags": [
+    "analytics",
+    "inventory"
+  ],
+  "summary_markdown": "The discussion covered technical questions regarding JSON schema implementation, specifically how to enforce a dropdown list (enum) for the 'construction' field. It was noted that defining the enum in a separate definition file might cause confusion about where other fields should be placed.\n\nSeparately, there were issues reported with the `v_mops_inventory` view, where the 'frames' data appeared to be incorrectly moved into assets instead of being properly read. [me] confirmed that they had broken and subsequently restored the functionality in the sandbox environment, resolving the issue for the upcoming demo.",
+  "decisions": [
+    "The `v_mops_inventory` view was corrected to ensure 'frames' data is correctly read."
+  ],
+  "action_items": [
+    "Ensure the fix applied to the `v_mops_inventory` view remains stable until the 9:30 demo."
+  ]
+}

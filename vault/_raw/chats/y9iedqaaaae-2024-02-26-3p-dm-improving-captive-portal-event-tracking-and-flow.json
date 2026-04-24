@@ -1,0 +1,28 @@
+{
+  "chat_id": "y9IEDQAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2024-02-26",
+    "end": "2024-02-26"
+  },
+  "message_count": 65,
+  "topic": "Improving captive portal event tracking and flow",
+  "topic_slug": "improving-captive-portal-event-tracking-and-flow",
+  "tags": [
+    "analytics",
+    "campaign",
+    "inventory",
+    "session"
+  ],
+  "summary_markdown": "The discussion focused on improving the accuracy of user interaction data captured during captive portal sessions. It was determined that current event tracking needs refinement to distinguish genuine user actions from internal device/browser background checks.\n\nKey points included:\n*   **Event Definition:** The `welcome_access_redirect` event was identified as a potential success flag, representing the successful redirect after necessary responses were received.\n*   **Data Granularity:** To accurately measure user engagement and frequency, it is crucial to capture clear events of user interaction (e.g., using dedicated redirects/scripts rather than relying solely on code-based redirects).\n*   **Tracking Gaps:** The current system struggles with distinguishing between genuine captive portal displays and background checks performed by the phone's operating system, leading to redundant or misleading event data.\n*   **Proposed Solutions:** Suggestions included adding a specific point on the captive page (`captive_render`) and implementing double redirects (e.g., using JavaScript) to ensure that all user-facing steps are logged as distinct events.",
+  "decisions": [
+    "The `welcome_access_redirect` event was agreed upon as a potential success flag for the login flow.",
+    "Event tracking needs to capture clear, user-initiated interactions rather than internal device background checks."
+  ],
+  "action_items": [
+    "Refine event logging to better distinguish between genuine user interaction and system/device background activity.",
+    "Investigate using JavaScript or dedicated redirects to ensure all captive portal stages are logged as distinct events."
+  ]
+}

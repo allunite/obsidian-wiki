@@ -1,0 +1,24 @@
+{
+  "chat_id": "oCgFCIAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2024-06-19",
+    "end": "2024-06-19"
+  },
+  "message_count": 4,
+  "topic": "Refactoring user context handling in application",
+  "topic_slug": "refactoring-user-context-handling-in-application",
+  "tags": [
+    "analytics",
+    "campaign"
+  ],
+  "summary_markdown": "The discussion focused on improving how user and profile contexts are handled across the codebase. Three potential solutions were proposed:\n\n1. **Synthetic User ID:** Use a synthetic `userId` format of `{userId}|{profileId}`. The existing `getUserId` method would parse this into two numbers, and necessary company data would be retrieved from the `v_mops_user_access` view.\n2. **Direct Profile ID Passing:** Start passing the `userProfileId`, converting it to a GUID format. This requires updating controller methods to use `req.getProfileId()` instead of `req.getUserId()`.\n3. **Security Context Object (Preferred):** Create a centralized `securityContext` object containing `{userId, profileId, companyId}` from the request. This object would be passed throughout all controller methods and subsequently used to query views based on these parameters.\n\nThe third option was deemed the most correct and promising, despite being labor-intensive in terms of code changes. The implementation plan includes a utility function (`sqlPGUA`) to manage SQL replacements for `userId`, `companyIdField`, and `facilityIdField` consistently.",
+  "decisions": [
+    "Adopt a centralized security context object containing userId, profileId, and companyId."
+  ],
+  "action_items": [
+    "[p1] will revisit the solutions next week to finalize decisions."
+  ]
+}

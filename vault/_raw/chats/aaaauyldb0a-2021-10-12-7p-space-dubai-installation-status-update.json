@@ -1,0 +1,19 @@
+{
+  "chat_id": "AAAAuyldb0A",
+  "kind": "Space",
+  "space_name": "Lidar development",
+  "participants": 7,
+  "date_range": {
+    "start": "2021-10-12",
+    "end": "2021-10-12"
+  },
+  "message_count": 7,
+  "topic": "Dubai installation status update",
+  "topic_slug": "dubai-installation-status-update",
+  "tags": [
+    "analytics"
+  ],
+  "summary_markdown": "The discussion briefly touched upon personal matters (COVID) and professional updates regarding Ouster's need for a backup person for an installation in Dubai. No concrete progress or decisions were made regarding the Dubai approval.",
+  "decisions": [],
+  "action_items": []
+}

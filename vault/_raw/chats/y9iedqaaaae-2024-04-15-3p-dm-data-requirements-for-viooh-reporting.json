@@ -1,0 +1,28 @@
+{
+  "chat_id": "y9IEDQAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2024-04-15",
+    "end": "2024-04-15"
+  },
+  "message_count": 25,
+  "topic": "Data requirements for VIOOH reporting",
+  "topic_slug": "data-requirements-for-viooh-reporting",
+  "tags": [
+    "analytics",
+    "dwell-time",
+    "campaign"
+  ],
+  "summary_markdown": "The discussion centered on providing demographic data and specific metrics for a VIOOH report requested by someone (via Esben). The required data needs to be pulled from the `data-api` using demographics. \n\nTechnical discussions followed regarding necessary infrastructure upgrades, specifically migrating aggregates and trusted sessions (used by analytics and data-api) to 2 shards + 2 replicas to enable zero-downtime updates. This upgrade was proposed for the weekend but alternative times were suggested.\n\nRegarding the report content, it was confirmed that a previous job existed (`upload_day_afa-hourly5mins-dwell.sh`) which provided dwell time data with hourly/5-minute granularity, addressing questions about session duration and data granularity.",
+  "decisions": [
+    "The team will investigate providing demographic data via the data-api for the VIOOH report.",
+    "A meeting was tentatively scheduled for 8 AM tomorrow (date not specified).",
+    "It was confirmed that a previous job provided dwell time with hourly/5-minute granularity."
+  ],
+  "action_items": [
+    "[p1] will try to contact someone and clarify exactly what data is missing for the report and in what format demographics are required.",
+    "[me] will check Randedek for details on the previous dwell time job."
+  ]
+}

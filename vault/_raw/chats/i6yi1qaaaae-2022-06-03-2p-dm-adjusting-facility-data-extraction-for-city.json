@@ -1,0 +1,25 @@
+{
+  "chat_id": "i6YI1QAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 2,
+  "date_range": {
+    "start": "2022-06-03",
+    "end": "2022-06-03"
+  },
+  "message_count": 74,
+  "topic": "Adjusting facility data extraction for City",
+  "topic_slug": "adjusting-facility-data-extraction-for-city",
+  "tags": [
+    "analytics",
+    "facility",
+    "inventory"
+  ],
+  "summary_markdown": "The discussion focused on modifying the method for extracting facility asset data, specifically ensuring that 'City' assets are correctly pulled alongside standard 'Traffic' data. Initially, [p1] provided a Python function using `allunite._v_facility_asset` to query facilities by company number and category.\n\n[me] identified that the current system uses no-sensor identifiers for asset determination in the mod platform and noted that the URL structure lacks specific asset IDs. [me] suggested using the live analytics link (`https://analytics.allunite.[redacted]`) as a potential alternative source for data modification.\n\n[p1] confirmed the need to ensure 'City' assets are included. [me] subsequently updated the editor/system, noting that while it has fewer features than the mod platform, it is functional. The changes were implemented and tested successfully.",
+  "decisions": [
+    "The facility data extraction method was adjusted to correctly include City assets."
+  ],
+  "action_items": [
+    "None"
+  ]
+}

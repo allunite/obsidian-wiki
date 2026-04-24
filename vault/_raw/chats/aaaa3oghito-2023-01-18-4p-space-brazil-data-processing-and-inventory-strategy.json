@@ -1,0 +1,30 @@
+{
+  "chat_id": "AAAA3oghITo",
+  "kind": "Space",
+  "space_name": "Кабаны",
+  "participants": 4,
+  "date_range": {
+    "start": "2023-01-18",
+    "end": "2023-01-18"
+  },
+  "message_count": 27,
+  "topic": "Brazil data processing and inventory strategy",
+  "topic_slug": "brazil-data-processing-and-inventory-strategy",
+  "tags": [
+    "analytics",
+    "inventory",
+    "campaign",
+    "facility",
+    "loop",
+    "impression"
+  ],
+  "summary_markdown": "The discussion focused on the strategy for Brazil, particularly regarding data processing and inventory management. Key concerns included establishing a reliable gateway in Brazil and determining the best approach for handling high volumes of data.\n\n**Data Processing:**\n*   Initial suggestions ranged from implementing real-time processing to using a simple MQTT gateway to feed data into the existing system for processing.\n*   One participant suggested that if hourly recalculation (without night processing) is sufficient, a local server in Brazil might not be necessary, allowing the use of the main cluster.\n*   For display purposes, a smaller local analytics setup with ClickHouse was proposed as an alternative to full real-time processing.\n\n**Inventory & Visibility:**\n*   The priority for Brazil remains inventory. Efforts are needed on visibility zones, and finalization is required for frame statuses, change tracking, and notifications.\n*   A plan is needed for implementing the data processing architecture (ClickHouse server).\n\n**Next Steps:**\n*   It was suggested that someone visit Brazil to test data retrieval from there, especially given the upcoming carnival period.",
+  "decisions": [
+    "Inventory management remains a high priority for Brazil.",
+    "The immediate technical focus should be on establishing a gateway and defining the data processing architecture (MQTT/ClickHouse)."
+  ],
+  "action_items": [
+    "Develop a plan for implementing the ClickHouse server and data processing flow.",
+    "Investigate if existing clusters can handle Brazil's data needs with hourly recalculation, potentially negating the need for a local server."
+  ]
+}

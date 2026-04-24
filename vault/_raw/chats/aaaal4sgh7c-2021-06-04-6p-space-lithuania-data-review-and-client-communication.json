@@ -1,0 +1,25 @@
+{
+  "chat_id": "AAAAl4SgH7c",
+  "kind": "Space",
+  "space_name": "Lithuania_old",
+  "participants": 6,
+  "date_range": {
+    "start": "2021-06-04",
+    "end": "2021-06-04"
+  },
+  "message_count": 17,
+  "topic": "Lithuania data review and client communication",
+  "topic_slug": "lithuania-data-review-and-client-communication",
+  "tags": [
+    "analytics",
+    "facility"
+  ],
+  "summary_markdown": "The team reviewed the City category data for Lithuania, which was found to be acceptable and appeared to reflect natural behavior. A decision was made that someone would inform the client about this finding regarding the City category.\n\nLater, a request was made for a list of ready IDs/facilities so that someone could include this information when writing an email update.",
+  "decisions": [
+    "The City category data for Lithuania is acceptable and requires no immediate action."
+  ],
+  "action_items": [
+    "Someone needs to inform the client about the findings regarding the City category in Lithuania.",
+    "Send a list of ready facility IDs/IDs to facilitate writing an email update."
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "chat_id": "AAQAIWa11Jc",
+  "kind": "Space",
+  "space_name": "IT Tasks - 6 Feb",
+  "participants": 5,
+  "date_range": {
+    "start": "2026-02-06",
+    "end": "2026-02-06"
+  },
+  "message_count": 58,
+  "topic": "Revenue and resource planning discussion",
+  "topic_slug": "revenue-and-resource-planning-discussion",
+  "tags": [
+    "analytics",
+    "campaign",
+    "inventory"
+  ],
+  "summary_markdown": "The conversation focused heavily on financial projections, resource allocation, and pricing models. Multiple figures were presented regarding potential revenue streams (e.g., $1.7 million USD this year; $720,000 USD a year from 40 companies). Pricing structures discussed included recurring fees ($1,700 USD per month for extended services) and hourly rates. Specific service components analyzed included 'Report feature' (estimated at 40 hours/month or $5,000 USD annually) and general project work.\n\nKey metrics reviewed were ROI timelines (e.g., 16 months), resource capacity (hours needed vs. available), and percentage growth estimates (30-40%).",
+  "decisions": [
+    "No concrete decisions were finalized during the session."
+  ],
+  "action_items": [
+    "None specified."
+  ]
+}

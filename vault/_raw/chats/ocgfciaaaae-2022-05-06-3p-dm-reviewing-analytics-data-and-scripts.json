@@ -1,0 +1,25 @@
+{
+  "chat_id": "oCgFCIAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2022-05-06",
+    "end": "2022-05-06"
+  },
+  "message_count": 18,
+  "topic": "Reviewing analytics data and scripts",
+  "topic_slug": "reviewing-analytics-data-and-scripts",
+  "tags": [
+    "analytics",
+    "recalc-ch",
+    "campaign"
+  ],
+  "summary_markdown": "The conversation focused on reviewing demographic analytics data and associated scripts. One participant noted the successful addition of functionality to mops, praising the efficiency of column-based databases like ClickHouse for summing and aliasing values.\n\nParticipants reviewed calculations regarding average income and target demographics, confirming that the results appeared accurate when compared against external statistics and calculators. The need for a daily script was established.\n\nRegarding code structure, one participant suggested simplifying `dashboard.query.ts` due to its complexity, but another advised maintaining current nesting levels for easier verification and debugging as more data is added.",
+  "decisions": [
+    "A daily script needs to be created/implemented."
+  ],
+  "action_items": [
+    "Optimize `dashboard.query.ts` structure at a later date, once the volume of data increases."
+  ]
+}

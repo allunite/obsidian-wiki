@@ -1,0 +1,21 @@
+{
+  "chat_id": "nW_zkkAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2024-03-14",
+    "end": "2024-03-14"
+  },
+  "message_count": 15,
+  "topic": "Demographic data for specific networks",
+  "topic_slug": "demographic-data-for-specific-networks",
+  "tags": [
+    "analytics"
+  ],
+  "summary_markdown": "The conversation covered technical details regarding campaign analytics. Specifically, it was confirmed that the frequency formula used for AFA 7600 in Denmark should utilize sample data. Regarding demographic reporting, [me] provided information on how to handle networks lacking native demographic data (Airport TV and Visionet LED). This involves using a simulated, uniformly distributed demographic profile, such as an even split of men and women.",
+  "decisions": [
+    "The frequency formula for AFA 7600 in Denmark must use sample data."
+  ],
+  "action_items": []
+}

@@ -1,0 +1,26 @@
+{
+  "chat_id": "AAAA3oghITo",
+  "kind": "Space",
+  "space_name": "Кабаны",
+  "participants": 4,
+  "date_range": {
+    "start": "2023-02-01",
+    "end": "2023-02-01"
+  },
+  "message_count": 28,
+  "topic": "Release planning and design updates",
+  "topic_slug": "release-planning-and-design-updates",
+  "tags": [
+    "analytics",
+    "campaign",
+    "inventory"
+  ],
+  "summary_markdown": "The discussion focused on the timing and scope of an upcoming software release. Initially, a February 1st date was mentioned for rolling out analytics changes, but it is now expected to be delayed by one to two weeks following a management meeting.\n\nRegarding the design updates, [me] confirmed with someone (Kristina) that she is okay with mentioning both the core functionality and the design improvements in the release notes. The key takeaways for clients are the ability to use the site on mobile devices (responsive layout) and general design upgrades across all blocks.\n\n[p1] cautioned against detailing internal styling or markup changes, advising focus only on client-facing features like mobile compatibility and overall aesthetic improvements.",
+  "decisions": [
+    "The software release date is expected to be delayed by one to two weeks from the initial February 1st target.",
+    "The release notes should highlight responsive design (mobile/tablet/desktop) and general cosmetic upgrades, omitting internal styling details."
+  ],
+  "action_items": [
+    "Final decision on the scope of changes is expected at tomorrow's meeting."
+  ]
+}

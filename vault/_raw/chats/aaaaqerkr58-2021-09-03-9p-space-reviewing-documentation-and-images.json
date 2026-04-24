@@ -1,0 +1,21 @@
+{
+  "chat_id": "AAAAqeRkR58",
+  "kind": "Space",
+  "space_name": "Estonia",
+  "participants": 9,
+  "date_range": {
+    "start": "2021-09-03",
+    "end": "2021-09-03"
+  },
+  "message_count": 3,
+  "topic": "Reviewing documentation and images",
+  "topic_slug": "reviewing-documentation-and-images",
+  "tags": [
+    "analytics"
+  ],
+  "summary_markdown": "Someone shared a redacted Atlassian link. Participants were asked to check the guide and prepare two specific pictures mentioned in error boxes. A follow-up commitment was made for completion within an hour.",
+  "decisions": [],
+  "action_items": [
+    "Prepare two pictures referenced in error boxes based on the guide."
+  ]
+}

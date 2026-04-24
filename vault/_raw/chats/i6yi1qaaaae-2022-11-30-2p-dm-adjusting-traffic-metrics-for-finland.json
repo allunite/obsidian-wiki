@@ -1,0 +1,26 @@
+{
+  "chat_id": "i6YI1QAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 2,
+  "date_range": {
+    "start": "2022-11-30",
+    "end": "2022-11-30"
+  },
+  "message_count": 65,
+  "topic": "Adjusting traffic metrics for Finland",
+  "topic_slug": "adjusting-traffic-metrics-for-finland",
+  "tags": [
+    "analytics",
+    "session",
+    "unique"
+  ],
+  "summary_markdown": "The discussion focused on adjusting unique user and session counts for Finnish data, specifically addressing the application of a `session_sample_factor` (1.5) for Finland.\n\n*   **Data Discrepancy:** A discrepancy was noted between the expected ratio of uniques to real sessions (0.846...) and the observed dashboard value (0.56).\n*   **Sampling Logic:** It was confirmed that both unique users and sessions are taken from a sample.\n*   **Adjustment Method:** The factor 1.5 is applied to the session count (`session_sample`) in addition to being used for calculating traffic predictions. The model uses `session_predicted` (from the model) and adjusts it using a frequency factor derived from unique samples and session samples.\n*   **Future Action:** It was decided that the current sampling factor should be removed for Finland, and historical data should revert to previous calculation methods.",
+  "decisions": [
+    "The temporary sample adjustment factor (1.5) for Finnish traffic metrics will be removed.",
+    "Historical data reporting for Finland should revert to the original calculation method."
+  ],
+  "action_items": [
+    "Someone needs to confirm with Esben before reverting the metric calculations."
+  ]
+}

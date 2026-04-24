@@ -1,0 +1,25 @@
+{
+  "chat_id": "oCgFCIAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2025-04-14",
+    "end": "2025-04-14"
+  },
+  "message_count": 9,
+  "topic": "Inventory filter issue with 'Any' facility type",
+  "topic_slug": "inventory-filter-issue-any-facility-type",
+  "tags": [
+    "analytics",
+    "inventory",
+    "facility"
+  ],
+  "summary_markdown": "A persistent bug was identified regarding the `facility_type` filter in inventory reporting. When users select 'Any' for this filter, the system sends an invalid value to the API endpoint (`GET /api/inventory`). While internal testing consistently sends a blank string for this selection, client systems reliably send the literal string \"Any\". This discrepancy prevents accurate data retrieval and is causing issues for clients.\n\nThe issue was confirmed by observing that the API rejects \"Any\" as an invalid input value for the `facility_type` enum.",
+  "decisions": [
+    "The root cause of the facility type filter bug (sending 'Any' vs. empty string) needs to be addressed."
+  ],
+  "action_items": [
+    "Investigate if this is a regional browser or site translation issue, and attempt reproduction/reproduction testing."
+  ]
+}

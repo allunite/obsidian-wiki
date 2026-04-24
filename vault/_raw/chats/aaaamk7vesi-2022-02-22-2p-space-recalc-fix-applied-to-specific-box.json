@@ -1,0 +1,20 @@
+{
+  "chat_id": "AAAAmK7VEsI",
+  "kind": "Space",
+  "space_name": "Group Chat",
+  "participants": 2,
+  "date_range": {
+    "start": "2022-02-22",
+    "end": "2022-02-22"
+  },
+  "message_count": 4,
+  "topic": "Recalc fix applied to specific box",
+  "topic_slug": "recalc-fix-applied-to-specific-box",
+  "tags": [
+    "analytics",
+    "recalc-ch"
+  ],
+  "summary_markdown": "A fix was added to the recalc functionality. The change is confirmed to only affect a specific box and should not require any other cuts or adjustments.",
+  "decisions": [],
+  "action_items": []
+}

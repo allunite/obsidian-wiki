@@ -1,0 +1,19 @@
+{
+  "chat_id": "AAAAOcKWvdA",
+  "kind": "Space",
+  "space_name": "Delivery Coordination",
+  "participants": 14,
+  "date_range": {
+    "start": "2024-07-01",
+    "end": "2024-07-01"
+  },
+  "message_count": 5,
+  "topic": "Database data extraction from Brazilian postgresql",
+  "topic_slug": "database-data-extraction-brazilian-postgresql",
+  "tags": [
+    "analytics"
+  ],
+  "summary_markdown": "A query was made regarding active data pulling from the Brazilian PostgreSQL database since June 17th. It was clarified that the activity relates to captive portal checks, not by a specific individual. One participant confirmed they are currently working with the sandbox environment and actively extracting data from the 'captive' database hosted at 'sandbox-db.allunite.local'.",
+  "decisions": [],
+  "action_items": []
+}

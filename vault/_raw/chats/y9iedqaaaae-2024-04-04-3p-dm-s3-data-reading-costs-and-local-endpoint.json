@@ -1,0 +1,22 @@
+{
+  "chat_id": "y9IEDQAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2024-04-04",
+    "end": "2024-04-04"
+  },
+  "message_count": 9,
+  "topic": "S3 data reading costs and local endpoint",
+  "topic_slug": "s3-data-reading-costs-and-local-endpoint",
+  "tags": [
+    "analytics",
+    "inventory"
+  ],
+  "summary_markdown": "The conversation addressed the cost implications of reading data from S3. It was noted that any operation with S3 incurs some cost, although generally small. A specific example highlighted a large volume of raw seen data (208 GB zip files) needed for September 2023, which resulted in high processing speeds and associated costs.\n\nA discussion followed regarding the use of a local endpoint within the internal network for S3 operations. It was confirmed that this setup is designed to keep traffic within the local area, preventing external internet transfer charges, thus contributing to both speed (compared to EBS) and cost efficiency.",
+  "decisions": [
+    "The current local endpoint setup minimizes data egress costs by keeping traffic within the internal network."
+  ],
+  "action_items": []
+}

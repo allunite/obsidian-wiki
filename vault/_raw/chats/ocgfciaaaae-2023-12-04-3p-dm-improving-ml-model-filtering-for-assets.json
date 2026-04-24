@@ -1,0 +1,26 @@
+{
+  "chat_id": "oCgFCIAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2023-12-04",
+    "end": "2023-12-04"
+  },
+  "message_count": 24,
+  "topic": "Improving ML model filtering for assets",
+  "topic_slug": "improving-ml-model-filtering-for-assets",
+  "tags": [
+    "analytics",
+    "inventory",
+    "campaign"
+  ],
+  "summary_markdown": "The discussion focused on improving how ML models are filtered and assigned to assets, particularly as physical box data becomes less relevant (moving towards virtual assets).\n\nInitial suggestions included adding `facility_num` filtering based on the router model or expanding the facility dictionary to include box models. However, concerns were raised about the complexity of maintaining such a large dictionary.\n\nA preferred solution was proposed: adding a new attribute, `ml_model_override`, to prioritize ML models when present, falling back to using the standard category assignment otherwise. This approach addresses the need for flexibility as assets (like virtual ones) may not have physical boxes or clear categories.\n\nIt was agreed that an asset should use a dedicated field, `category_ml` (or similar), which takes precedence over the standard category if populated. If this new attribute is empty, the system will fall back to using the regular category.",
+  "decisions": [
+    "Implement a mechanism where assets check for a dedicated ML model attribute (`category_ml`) first; if present, use it; otherwise, default to the standard category."
+  ],
+  "action_items": [
+    "Follow up on implementing the solution and addressing remaining technical issues.",
+    "Add participants to a dedicated chat channel (date-time related) for updates."
+  ]
+}

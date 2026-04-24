@@ -1,0 +1,24 @@
+{
+  "chat_id": "AAAAdlgBOBA",
+  "kind": "Space",
+  "space_name": "Group Chat",
+  "participants": 4,
+  "date_range": {
+    "start": "2024-11-12",
+    "end": "2024-11-12"
+  },
+  "message_count": 8,
+  "topic": "Session data transfer and model requirements",
+  "topic_slug": "session-data-transfer-and-model-requirements",
+  "tags": [
+    "analytics",
+    "session"
+  ],
+  "summary_markdown": "The discussion focused on transferring session data from a specific date range (9/11) and the subsequent impact on model usage. Someone confirmed they could transfer the sessions and potentially aggregate data, which would eliminate the need to run the model.\n\n[p3] expressed concern about the quality of the current source data. The conversation concluded with an agreement to check the results once the data is transferred.",
+  "decisions": [
+    "Session data will be transferred from 9/11 for a specified period."
+  ],
+  "action_items": [
+    "[me] to transfer sessions and attempt aggregation data."
+  ]
+}

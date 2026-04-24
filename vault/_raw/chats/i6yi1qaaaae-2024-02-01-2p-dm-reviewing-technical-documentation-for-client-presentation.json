@@ -1,0 +1,22 @@
+{
+  "chat_id": "i6YI1QAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 2,
+  "date_range": {
+    "start": "2024-02-01",
+    "end": "2024-02-01"
+  },
+  "message_count": 18,
+  "topic": "Reviewing technical documentation for client presentation",
+  "topic_slug": "reviewing-technical-documentation-for-client-presentation",
+  "tags": [
+    "analytics"
+  ],
+  "summary_markdown": "The participants discussed the inclusion of supporting links and documents to validate statements in a presentation. Concerns were raised about accidentally revealing sensitive information, specifically regarding Android documentation details (e.g., persistent vs. non-persistent randomization). The decision was made to remove or heavily redact specific sections from the provided technical articles/documents before sharing them with the client.",
+  "decisions": [
+    "Remove potentially incriminating passages from the documents.",
+    "Do not send direct links to the source documentation."
+  ],
+  "action_items": []
+}

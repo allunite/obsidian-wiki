@@ -1,0 +1,26 @@
+{
+  "chat_id": "AAAARb568B0",
+  "kind": "Space",
+  "space_name": "Group Chat",
+  "participants": 3,
+  "date_range": {
+    "start": "2022-04-28",
+    "end": "2022-04-28"
+  },
+  "message_count": 23,
+  "topic": "Data import and marital status variables",
+  "topic_slug": "data-import-marital-status-variables",
+  "tags": [
+    "analytics",
+    "campaign"
+  ],
+  "summary_markdown": "The discussion focused on importing demographic data, specifically refining the 'Marital Status' variables for Denmark (DK). The initial concern was the inclusion of 'Widowed' status. It was confirmed that multiple marital status variables (Single, Married, Divorced, Widowed) needed to be added and checked against existing database values.\n\nLater, issues arose regarding a variable named `KeyFacts.MRST_BASE` for Denmark, which was reported as undefined. The team discussed the necessity of applying marital status only to individuals with a probability of being 18 or older (i.e., adjusting total population figures by subtracting estimated children).\n\nData import logistics involved updating post codes and adding more data points.",
+  "decisions": [
+    "The four specific Marital Status variables for Denmark (Single, Married, Divorced, Widowed) will be added to the dataset.",
+    "Marital status application must be limited to individuals with a probability of being 18 or older."
+  ],
+  "action_items": [
+    "Add the four specified Marital Status variables for Denmark (DK).",
+    "Import data using updated post codes and additional records."
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "chat_id": "0VorOYAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2023-03-14",
+    "end": "2023-03-14"
+  },
+  "message_count": 34,
+  "topic": "Calibrating mall data for staging and production",
+  "topic_slug": "calibrating-mall-data-staging-production",
+  "tags": [
+    "facility",
+    "analytics",
+    "campaign"
+  ],
+  "summary_markdown": "The conversation focused on implementing calibration logic for Mall facilities (all types) specifically for the staging environment, while also addressing historical data comparison.\n\n*   **Calibration Implementation:** A function (`isCalibrated`) was developed and shared to replace a simple flag check. This function needs to be implemented in the query structure using `countIf(is_local=0 and isCalibrated(...)=1)`.\n*   **Data Scope:** The calibration must apply only to the Mall category, specifically for staging, but also needs to consider historical data comparison (Spain/Westfield, Lithuania/Panorama, Denmark/Fields).\n*   **Production Sync:** It was noted that while initial setup for new companies might involve applying calibration to both staging and production simultaneously, explicit steps are required to move calibration from staging to production.\n*   **DScreen Review:** A separate review of DScreen data (Latvia) confirmed that historical data looked acceptable, but the current day's recalibration was noted as needing a fix in a future version.",
+  "decisions": [
+    "A function must be implemented for calibration logic to replace simple flag checks.",
+    "The calibration needs to be applied specifically to Mall facilities (all types) on staging and historically.",
+    "Calibration from staging must be explicitly moved/applied to production."
+  ],
+  "action_items": [
+    "Implement the `isCalibrated` function into the query structure for mall data.",
+    "Review DScreen's current day recalibration process when the fix is available in a future version."
+  ]
+}

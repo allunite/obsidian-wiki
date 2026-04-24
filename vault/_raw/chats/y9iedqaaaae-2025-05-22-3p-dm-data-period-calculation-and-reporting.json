@@ -1,0 +1,23 @@
+{
+  "chat_id": "y9IEDQAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2025-05-22",
+    "end": "2025-05-22"
+  },
+  "message_count": 21,
+  "topic": "Data period calculation and reporting",
+  "topic_slug": "data-period-calculation-and-reporting",
+  "tags": [
+    "analytics",
+    "frame"
+  ],
+  "summary_markdown": "The conversation covered several data points. Regarding the 'Трактор' report, it was confirmed that the analysis period should be 13 full weeks (approximately 3 months) to ensure consistent weekly conditions.\n\nFor calculating the date range, the correct method is to take the end date of the desired reporting period and subtract exactly 13 weeks from it. This ensures the start date aligns correctly with the end date's week structure.\n\nRegarding frame data for 'Трактор', someone confirmed that the available data was copied from 'facility' starting January 1, 2025.",
+  "decisions": [
+    "The analysis period for 'Трактор' must be exactly 13 weeks (approx. 3 months).",
+    "To set the date range, calculate the start date by subtracting 13 weeks from the desired end date."
+  ],
+  "action_items": []
+}

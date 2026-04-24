@@ -1,0 +1,28 @@
+{
+  "chat_id": "y9IEDQAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2021-04-22",
+    "end": "2021-04-22"
+  },
+  "message_count": 74,
+  "topic": "MongoDB migration and Wi-Fi channel switching",
+  "topic_slug": "mongodb-migration-and-wifi-channel-switching",
+  "tags": [
+    "analytics",
+    "campaign",
+    "inventory",
+    "loop",
+    "session"
+  ],
+  "summary_markdown": "The conversation covered two main technical topics: migrating the MongoDB database and analyzing Wi-Fi channel switching capabilities.\n\n**MongoDB Migration:** The plan is to move MongoDB from Kubernetes (K8s) to a dedicated instance. This involves spinning up a secondary replica set, allowing for controlled failover and testing of data ingestion. Concerns were raised regarding potential downtime during the switch and database growth, though it was noted that the current database size remains relatively small (around 20 GB).\n\n**Wi-Fi Channel Switching:** Discussion centered on whether a sensor can detect packets from adjacent Wi-Fi channels. It was debated whether this capability relies on physical hardware/chipset limitations or if it could be implemented via software/firmware changes. The consensus leaned towards the detection being handled at the chipset or driver level, making software implementation difficult.",
+  "decisions": [
+    "The MongoDB database will be migrated from Kubernetes to a dedicated instance.",
+    "Testing of switching services (e.g., captive portal, session management) to the new secondary replica set will proceed."
+  ],
+  "action_items": [
+    "Attempt to switch read-only services (captive portal, session manager) to the newly spun up MongoDB secondary instance."
+  ]
+}

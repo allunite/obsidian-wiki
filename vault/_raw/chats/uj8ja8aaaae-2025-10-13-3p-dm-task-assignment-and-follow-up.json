@@ -1,0 +1,23 @@
+{
+  "chat_id": "uJ8JA8AAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2025-10-13",
+    "end": "2025-10-13"
+  },
+  "message_count": 7,
+  "topic": "Task assignment and follow-up",
+  "topic_slug": "task-assignment-and-follow-up",
+  "tags": [
+    "analytics"
+  ],
+  "summary_markdown": "A task was discussed, initially assigned to [me]. It was later noted that the task had been reassigned by someone else. [me] committed to completing the task by the next day.",
+  "decisions": [
+    "The task will be completed by tomorrow."
+  ],
+  "action_items": [
+    "[me] needs to complete the assigned task."
+  ]
+}

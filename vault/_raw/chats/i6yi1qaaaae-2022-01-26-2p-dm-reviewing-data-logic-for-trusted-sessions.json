@@ -1,0 +1,27 @@
+{
+  "chat_id": "i6YI1QAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 2,
+  "date_range": {
+    "start": "2022-01-26",
+    "end": "2022-01-26"
+  },
+  "message_count": 49,
+  "topic": "Reviewing data logic for trusted sessions",
+  "topic_slug": "reviewing-data-logic-for-trusted-sessions",
+  "tags": [
+    "analytics",
+    "session",
+    "campaign"
+  ],
+  "summary_markdown": "The discussion focused on the definition and calculation of 'is_trusted' sessions, particularly for company 7864. Initially, there was a discrepancy noted where 'real' sessions appeared equal to 'trusted real' sessions, which contradicted expected data logic.\n\nIt was clarified that `is_trusted` includes all packets with a 'data' attribute, not just 'real' ones. Furthermore, it was established that 'real' sessions do not necessarily require the 'data' attribute.\n\nThe issue stemmed from a script update: to handle memory constraints during nightly recalculations, the processing scripts were switched to process data in chunks. The script responsible for `is_trusted` did not account for this change and used an outdated approach (relying on flags unrelated to 'data').\n\nAction was taken to fix the logic by restoring the correct calculation method.",
+  "decisions": [
+    "The definition of is_trusted sessions must include all packets with a 'data' attribute, not just real ones.",
+    "The data processing script for is_trusted needs restoration/fixing due to an outdated approach used during chunked processing."
+  ],
+  "action_items": [
+    "Run the corrected analysis for company 7864 (Finland) for the last month.",
+    "Re-analyze and correct data for Denmark as well."
+  ]
+}

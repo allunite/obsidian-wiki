@@ -1,0 +1,28 @@
+{
+  "chat_id": "i6YI1QAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 2,
+  "date_range": {
+    "start": "2021-03-15",
+    "end": "2021-03-15"
+  },
+  "message_count": 192,
+  "topic": "Analyzing vendor impact and permanent device logic",
+  "topic_slug": "analyzing-vendor-impact-and-permanent-device-logic",
+  "tags": [
+    "analytics",
+    "campaign",
+    "inventory"
+  ],
+  "summary_markdown": "The discussion focused on refining SQL queries to analyze traffic data, specifically identifying the vendor with the maximum session count and percentage contribution for given facilities and dates. Key technical points included:\n\n*   **Permanent Device Logic:** The need to refine the definition of 'permanent' devices was discussed, suggesting criteria based on long or frequent sessions (e.g., sum(session_duration) >= 2 hours OR count > 5).\n*   **Data Filtering:** It was confirmed that for model training and analysis, permanent device records should ideally be filtered to exclude local/non-calibrated data.\n*   **Vendor Impact Query:** A complex query structure was developed to calculate the total sessions (`ses_total`) and identify the top vendor (`vendor_id`, `ses_vendor`) by session count for a given facility on a specific date, along with that vendor's percentage contribution to the daily total.\n\nFinally, it was decided that while queries are sufficient for now, creating a dedicated dataset for 'CityMedia' containing updated permanent device logic is planned.",
+  "decisions": [
+    "The definition of 'permanent' devices needs refinement based on session duration and frequency criteria.",
+    "A complex SQL query structure was finalized to determine the top vendor by session count and calculate its percentage contribution per facility/date.",
+    "A dedicated dataset for CityMedia, incorporating new permanent device logic, will be created."
+  ],
+  "action_items": [
+    "The user will test the developed queries further (starting the next day).",
+    "A separate dataset for CityMedia with updated permanent device records will be prepared."
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "chat_id": "nW_zkkAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2026-01-09",
+    "end": "2026-01-09"
+  },
+  "message_count": 13,
+  "topic": "Reviewing device session data discrepancies",
+  "topic_slug": "reviewing-device-session-data-discrepancies",
+  "tags": [
+    "analytics",
+    "session",
+    "recalc-ch"
+  ],
+  "summary_markdown": "The discussion focused on a discrepancy in device session data for the 'city' category, specifically concerning the loading of models starting from December. It was noted that while the table `device_session_agg_5` contains predictions, the table `device_session_agg_ml_2` does not receive data from the current placeholder/dummy script (the 'заглушка'). When running the aggregation script, the calculated data values were significantly lower than previous production results but perfectly matched the existing dummy data. The participants reviewed the data starting from early December to compare the outputs.",
+  "decisions": [
+    "The normal data is planned to be migrated/updated on Monday."
+  ],
+  "action_items": [
+    "[me] will investigate and address the data discrepancy."
+  ]
+}

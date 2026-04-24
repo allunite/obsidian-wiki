@@ -1,0 +1,19 @@
+{
+  "chat_id": "AAAA-gn4oPg",
+  "kind": "Space",
+  "space_name": "General and random",
+  "participants": 36,
+  "date_range": {
+    "start": "2023-11-28",
+    "end": "2023-11-28"
+  },
+  "message_count": 3,
+  "topic": "Award win and press release details",
+  "topic_slug": "award-win-and-press-release-details",
+  "tags": [
+    "campaign"
+  ],
+  "summary_markdown": "A project drive-to-store in Trinity Leeds for Sketchers was announced as an award winner by JCD UK. A press release regarding this case is being prepared by JCDecaux and is scheduled for publication on December 13.",
+  "decisions": [],
+  "action_items": []
+}

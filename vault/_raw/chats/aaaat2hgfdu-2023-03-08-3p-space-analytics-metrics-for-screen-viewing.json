@@ -1,0 +1,24 @@
+{
+  "chat_id": "AAAAt2hGfdU",
+  "kind": "Space",
+  "space_name": "Group Chat",
+  "participants": 3,
+  "date_range": {
+    "start": "2023-03-08",
+    "end": "2023-03-08"
+  },
+  "message_count": 3,
+  "topic": "Analytics metrics for screen viewing",
+  "topic_slug": "analytics-metrics-for-screen-viewing",
+  "tags": [
+    "analytics",
+    "impression"
+  ],
+  "summary_markdown": "The group discussed adding the total number of screens seen, or a separate metric for it, to complement the average number of screens seen. This would help in understanding percentages.\n\n[me] subsequently shared a link to a staging analytics dashboard for review.",
+  "decisions": [
+    "Added total screen count as an available metric."
+  ],
+  "action_items": [
+    "Review the provided mall analytics dashboard link."
+  ]
+}

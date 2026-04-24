@@ -1,0 +1,28 @@
+{
+  "chat_id": "oq-w0kAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2025-05-16",
+    "end": "2025-05-16"
+  },
+  "message_count": 26,
+  "topic": "Data payload structure and endpoint requirements",
+  "topic_slug": "data-payload-structure-endpoint-requirements",
+  "tags": [
+    "analytics",
+    "campaign",
+    "inventory"
+  ],
+  "summary_markdown": "The conversation focused on defining the required data format for an export feature. [p1] provided several examples of JSON payloads containing facility names, frame names, and a matrix (`m`) of numerical data.\n\nKey clarifications included:\n*   **Payload Structure:** The payload must include `facility_name`, `frame_name`, and the matrix `m` (which was clarified to be simply 'data', not specific to Monday).\n*   **Required Fields:** At a minimum, the date must be sent in the payload, defaulting to today's date.\n*   **Implementation Details:** [p1] confirmed that the feature is being built into the release branch and provided details about the service file (`traffic-filter-export.service.ts`) and method (`goForecastHourlyExport()`), noting that a different endpoint will be used, and some existing mock data structures should be ignored.\n*   **Scope:** The functionality currently works only for 'tractor' based on user settings.",
+  "decisions": [
+    "The payload must include `facility_name`, `frame_name`, and the matrix `m` (renamed to 'data').",
+    "The date field must be included in the payload, defaulting to today.",
+    "A new endpoint needs to be implemented for this export functionality."
+  ],
+  "action_items": [
+    "[me] needs to provide the required endpoint details/implementation.",
+    "[p1] will update `traffic-filter-export.service.ts` and method `goForecastHourlyExport()` with the new endpoint."
+  ]
+}

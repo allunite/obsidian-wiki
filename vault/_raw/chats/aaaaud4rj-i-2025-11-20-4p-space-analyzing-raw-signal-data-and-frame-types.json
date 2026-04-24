@@ -1,0 +1,26 @@
+{
+  "chat_id": "AAAAud4RJ_I",
+  "kind": "Space",
+  "space_name": "Group Chat",
+  "participants": 4,
+  "date_range": {
+    "start": "2025-11-20",
+    "end": "2025-11-20"
+  },
+  "message_count": 35,
+  "topic": "Analyzing raw signal data and frame types",
+  "topic_slug": "analyzing-raw-signal-data-and-frame-types",
+  "tags": [
+    "analytics",
+    "frame",
+    "session",
+    "loop"
+  ],
+  "summary_markdown": "The discussion covered the structure and interpretation of raw signal data, specifically focusing on fields within a `signals` array. It was confirmed that signal level is recorded in dBm (decibel-milliwatts).\n\nRegarding the raw data format: \n*   The `signals` list can contain multiple entries for a single device if those signals arrived in separate packets, even if they originated from the same MAC address.\n*   The fields within each signal record were analyzed: Timestamp, Signal Level (dBm), and two flag bytes. The flags are described as being related to 802.11 frame types.\n\nImprovements discussed included adding sequence control data (two bytes) to allow for the reconstruction of data frames from different MAC addresses based on sequential order, a technique useful for fingerprinting.",
+  "decisions": [
+    "The signal level is correctly recorded in dBm."
+  ],
+  "action_items": [
+    "Analyze the feasibility of adding two bytes of sequence control to the raw data structure to improve frame reconstruction and device fingerprinting."
+  ]
+}

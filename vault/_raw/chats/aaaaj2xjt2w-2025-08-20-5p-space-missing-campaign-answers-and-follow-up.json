@@ -1,0 +1,19 @@
+{
+  "chat_id": "AAAAJ2xjT2w",
+  "kind": "Space",
+  "space_name": "DailyStandup",
+  "participants": 5,
+  "date_range": {
+    "start": "2025-08-20",
+    "end": "2025-08-20"
+  },
+  "message_count": 3,
+  "topic": "Missing campaign answers and follow-up",
+  "topic_slug": "missing-campaign-answers-and-follow-up",
+  "tags": [
+    "campaign"
+  ],
+  "summary_markdown": "A standup meeting noted that answers were still missing from [me] and [p1]. A participant also inquired about the status of merging grouped campaigns.",
+  "decisions": [],
+  "action_items": []
+}

@@ -1,0 +1,24 @@
+{
+  "chat_id": "y9IEDQAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2026-03-17",
+    "end": "2026-03-17"
+  },
+  "message_count": 48,
+  "topic": "Investigating missing impression data for client",
+  "topic_slug": "investigating-missing-impression-data-for-client",
+  "tags": [
+    "impression",
+    "analytics"
+  ],
+  "summary_markdown": "The conversation began with a request to investigate reported missing impressions for a client (Pровантаж). The issue was confirmed to be limited to data from a single day, not an ongoing systemic failure. Discussion covered the technical process of checking impression data across different reporting structures (`agg_5` vs `ml_2`).\n\nLater in the session, unrelated administrative tasks were completed, including setting up monthly billing parameters and troubleshooting a network connection issue (Netbird).\n\nThe conversation concluded with an agreement to change a security requirement for one week.",
+  "decisions": [
+    "The missing impression data issue was determined to be limited to a single day's reporting period."
+  ],
+  "action_items": [
+    "Someone needs to investigate the reported missing impressions for the client (Pровантаж)."
+  ]
+}

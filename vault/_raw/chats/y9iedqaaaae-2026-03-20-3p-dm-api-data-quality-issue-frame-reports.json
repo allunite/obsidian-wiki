@@ -1,0 +1,25 @@
+{
+  "chat_id": "y9IEDQAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2026-03-20",
+    "end": "2026-03-20"
+  },
+  "message_count": 11,
+  "topic": "API data quality issue in frame reports",
+  "topic_slug": "api-data-quality-issue-frame-reports",
+  "tags": [
+    "analytics",
+    "impression",
+    "frame"
+  ],
+  "summary_markdown": "An analysis of run output revealed a consistent data structure issue across multiple frames (DSAG065, DSAG035, etc.). The problem is that the AllUnite API is stripping trailing zeros for late-night/early-morning hours when traffic was zero, resulting in fewer columns than expected (e.g., 4 or 6 instead of 7). This issue affects frames at midnight, 1 am, 10 pm, and 11 pm.\n\nIt was determined that this is an AllUnite API data quality issue. A proposed workaround is to pad the short rows with zeros (assuming missing trailing days represent zero traffic).\n\nLater in the conversation, a discussion occurred regarding the `/v1/reports/impressions-multipliers` endpoint and its request structure.",
+  "decisions": [
+    "The core problem is identified as an AllUnite API data quality issue related to zero-traffic reporting."
+  ],
+  "action_items": [
+    "Add a script fix to pad short rows with zeros for affected frames' reports."
+  ]
+}

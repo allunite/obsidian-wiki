@@ -1,0 +1,26 @@
+{
+  "chat_id": "oq-w0kAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2023-02-07",
+    "end": "2023-02-07"
+  },
+  "message_count": 26,
+  "topic": "Development workflow and technical standards",
+  "topic_slug": "development-workflow-and-technical-standards",
+  "tags": [
+    "inventory",
+    "frame",
+    "analytics"
+  ],
+  "summary_markdown": "The discussion covered development procedures, specifically regarding code branching and component structure. It was decided that changes related to `inventory` should be pushed to the `classification` branch, while other tasks should use the `develop` branch.\n\nAdditionally, a technical standard for identifiers (GUIDs) was discussed. While GUIDs are generally fine without hyphens in JSON or database contexts, it is preferred to remove hyphens from URLs and ideally within JSON structures for cleaner implementation.",
+  "decisions": [
+    "Push `inventory` changes to the `classification` branch.",
+    "Use the `develop` branch for all other tasks/changes."
+  ],
+  "action_items": [
+    "Show how to upload images from a local environment to AWS (scheduled for the next day)."
+  ]
+}

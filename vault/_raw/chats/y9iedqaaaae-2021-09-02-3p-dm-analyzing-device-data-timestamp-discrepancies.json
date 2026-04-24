@@ -1,0 +1,25 @@
+{
+  "chat_id": "y9IEDQAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2021-09-02",
+    "end": "2021-09-02"
+  },
+  "message_count": 46,
+  "topic": "Analyzing device data timestamp discrepancies",
+  "topic_slug": "analyzing-device-data-timestamp-discrepancies",
+  "tags": [
+    "analytics",
+    "impression",
+    "session"
+  ],
+  "summary_markdown": "The discussion focused on retrieving accurate historical and real-time records for a specific box MAC address (`001E4239AD40`) using ClickHouse. Initially, the data retrieval was problematic, showing only old records (10:29) instead of current ones.\n\nA deeper technical discussion revealed potential issues with timestamp accuracy when processing MQTT packets into Kinesis/ClickHouse. It was noted that relying solely on the arrival time at Kinesis might be inaccurate due to asynchronous delivery. The solution involves ensuring that the packet's internal timestamp is correctly ingested, rather than just the ingestion time.\n\nThe consensus reached was that the data pipeline must guarantee that MQTT packets are delivered to Kinesis within a maximum delay of one minute to maintain temporal accuracy for analytics.",
+  "decisions": [
+    "The data pipeline needs to ensure MQTT packet delivery to Kinesis does not exceed a one-minute delay."
+  ],
+  "action_items": [
+    "Verify the mechanism ensuring that the internal timestamp from the MQTT package is correctly ingested into ClickHouse, rather than relying on the ingestion time."
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "chat_id": "oCgFCIAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2021-12-01",
+    "end": "2021-12-01"
+  },
+  "message_count": 27,
+  "topic": "Database and infrastructure upgrade planning",
+  "topic_slug": "database-and-infrastructure-upgrade-planning",
+  "tags": [
+    "analytics",
+    "campaign",
+    "inventory"
+  ],
+  "summary_markdown": "The discussion focused on the feasibility and logistics of upgrading core data systems, specifically ClickHouse (CH), PostgreSQL (PG), and Kubernetes. \n\n*   **ClickHouse Upgrade:** The participants discussed updating ClickHouse due to numerous performance improvements and changes in new versions. It was noted that an upgrade is complex and risky, requiring careful planning.\n*   **Upgrade Strategy:** A proposed strategy involves setting up a separate staging environment (on two machines) with the new version for testing before upgrading the main cluster, potentially over a weekend.\n*   **System Status:** The current architecture uses PostgreSQL for storing reference data (dictionaries), which is then mapped into ClickHouse. PG was noted to be at version 14.\n*   **Next Steps:** It was determined that [p1] needs to coordinate with ",
+  "decisions": [
+    "Coordinate system upgrades (ClickHouse, Kubernetes, PostgreSQL) through 'Toly'.",
+    "Use a staging environment for testing the ClickHouse upgrade before production deployment."
+  ],
+  "action_items": [
+    "[p1] to coordinate with Toly regarding infrastructure updates.",
+    "Investigate data flow improvements using a proxy server instead of direct MQTT writes."
+  ]
+}

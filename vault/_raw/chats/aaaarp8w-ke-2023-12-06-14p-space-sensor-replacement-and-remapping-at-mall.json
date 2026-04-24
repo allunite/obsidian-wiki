@@ -1,0 +1,22 @@
+{
+  "chat_id": "AAAARP8w-KE",
+  "kind": "Space",
+  "space_name": "Problematic sensors",
+  "participants": 14,
+  "date_range": {
+    "start": "2023-12-06",
+    "end": "2023-12-06"
+  },
+  "message_count": 3,
+  "topic": "Sensor replacement and remapping at mall",
+  "topic_slug": "sensor-replacement-and-remapping-at-mall",
+  "tags": [
+    "facility",
+    "analytics"
+  ],
+  "summary_markdown": "A sensor located at Nyanga junction Mall (mtv0148 upstairs) was replaced. It was noted that the sensor activity needs to be recorded and the device must be remapped/relinked.",
+  "decisions": [],
+  "action_items": [
+    "Reprocess or relink the sensor data for mtv0148."
+  ]
+}

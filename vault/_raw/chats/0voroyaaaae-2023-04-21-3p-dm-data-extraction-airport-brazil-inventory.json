@@ -1,0 +1,29 @@
+{
+  "chat_id": "0VorOYAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2023-04-21",
+    "end": "2023-04-21"
+  },
+  "message_count": 25,
+  "topic": "Data extraction for airport and Brazil inventory",
+  "topic_slug": "data-extraction-airport-brazil-inventory",
+  "tags": [
+    "dwell-time",
+    "analytics",
+    "facility",
+    "campaign"
+  ],
+  "summary_markdown": "The conversation covered two main data requests. First, regarding Hong Kong, a request was made to extend the existing data pull (which extracts data for 2 hours before specific flights) to include dwell time metrics.\n\nSecond, concerning Outdoor media in Brazil (`company_num = 7895`), it was discussed updating the calibration signal limit (sl=89) across production, staging, and historical data. It was decided that a 'City' category should be applied for this company number. While one participant initially suggested applying the category, another clarified that the model setup for facilities would be handled by someone else.\n\nRegarding dwell time specifics, it was confirmed that the metric should ideally track devices seen on screens/gate and duty-free areas within a 2-hour window before the flight.",
+  "decisions": [
+    "The data pull for Hong Kong will be updated to include dwell time metrics alongside existing pre-flight device counts.",
+    "For Brazilian Outdoor media, the calibration signal limit (sl=89) should be applied across production, staging, and historical records.",
+    "A 'City' category needs to be assigned to the specified company number for Brazil."
+  ],
+  "action_items": [
+    "Update the data pull query to include dwell time for Hong Kong pre-flight metrics.",
+    "Apply calibration signal limit (sl=89) and 'City' categorization for Brazilian Outdoor media inventory across all environments."
+  ]
+}

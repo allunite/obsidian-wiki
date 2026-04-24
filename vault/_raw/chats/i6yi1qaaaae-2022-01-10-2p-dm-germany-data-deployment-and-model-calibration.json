@@ -1,0 +1,28 @@
+{
+  "chat_id": "i6YI1QAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 2,
+  "date_range": {
+    "start": "2022-01-10",
+    "end": "2022-01-10"
+  },
+  "message_count": 70,
+  "topic": "Germany data deployment and model calibration",
+  "topic_slug": "germany-data-deployment-and-model-calibration",
+  "tags": [
+    "analytics",
+    "campaign",
+    "facility",
+    "inventory"
+  ],
+  "summary_markdown": "The conversation focused on the process of deploying historical data for Germany. Initial steps involved reviewing and recalculating historical figures, which required checking model parameters and signal levels.\n\nTechnical discussions included running SQL queries to identify relevant models and facility assets (e.g., `select * from _v_facility_asset where ml_model != ''`). The plan was established to move data from a staging environment (`ml_staging`) to the production dataset for comparison and final deployment.\n\nLater, the conversation addressed general development best practices, specifically recommending that participants regularly pull code changes to prevent merge conflicts.",
+  "decisions": [
+    "Historical German data needs recalculation using updated models and signal levels.",
+    "Data from `ml_staging` will be moved/compared against the production dataset."
+  ],
+  "action_items": [
+    "Complete deployment of Germany's historical data to production.",
+    "Implement regular code pulling (pull) practice for all team members."
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "chat_id": "xdx5dQAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 2,
+  "date_range": {
+    "start": "2021-05-27",
+    "end": "2021-05-27"
+  },
+  "message_count": 11,
+  "topic": "Data loading and monitoring setup",
+  "topic_slug": "data-loading-and-monitoring-setup",
+  "tags": [
+    "analytics"
+  ],
+  "summary_markdown": "The discussion focused on the necessary steps for data migration. A job must be created to upload data to the client's S3 bucket, ensuring 100% functionality and implementing monitoring. Only after these checks are complete can the transition/switchover be announced.",
+  "decisions": [
+    "A job needs to be built to load data into the client's S3 storage."
+  ],
+  "action_items": [
+    "[me] will create a task for someone to handle the implementation.",
+    "[unknown] needs to send keys/credentials to the assigned person."
+  ]
+}

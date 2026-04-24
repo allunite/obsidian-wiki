@@ -1,0 +1,19 @@
+{
+  "chat_id": "AAAA3oghITo",
+  "kind": "Space",
+  "space_name": "Кабаны",
+  "participants": 4,
+  "date_range": {
+    "start": "2026-04-09",
+    "end": "2026-04-09"
+  },
+  "message_count": 14,
+  "topic": "AI coding assistants performance and limitations",
+  "topic_slug": "ai-coding-assistants-performance-and-limitations",
+  "tags": [
+    "analytics"
+  ],
+  "summary_markdown": "The conversation discussed the rapid advancement of AI tools, particularly in programming. Participants noted the breadth of technologies being adopted (HTML/JS, TypeScript, Python, Java) and the impressive output from some individuals.\n\nA specific discussion point involved the performance limitations of various coding assistants. One participant reported that Claude struggled with a simple request to make a page section sticky, eventually suggesting an acceptable but less ideal alternative where the header would scroll with content.\nAnother participant mentioned that Codex seemed more knowledgeable about details compared to Claude at that time.",
+  "decisions": [],
+  "action_items": []
+}

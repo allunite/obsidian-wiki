@@ -1,0 +1,25 @@
+{
+  "chat_id": "nW_zkkAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2025-02-24",
+    "end": "2025-02-24"
+  },
+  "message_count": 31,
+  "topic": "Fixing aggregation and frequency formulas",
+  "topic_slug": "fixing-aggregation-and-frequency-formulas",
+  "tags": [
+    "analytics",
+    "campaign",
+    "inventory",
+    "recalc-ch"
+  ],
+  "summary_markdown": "The session covered two main technical issues. First, a database aggregation problem occurred when running a test recalculation for Inventory 7944 on Model 1, resulting in a `DB::Exception: Primary key must be a prefix of the sorting key` error after an upgrade to ClickHouse. The script was subsequently fixed and pushed.\n\nSecond, a frequency formula needed updating for Viva 7948 on staging. The required logic involved using a multiIf structure based on `dayNumber`. It was noted that the Mall_Pharma category should use the same formula as Provantage, while other categories should follow the pattern of AFA, CityMedia, Live Board, RZK, and Provantage.",
+  "decisions": [
+    "The aggregation script error for Inventory 7944 was fixed and deployed to staging/production.",
+    "A frequency formula update for Viva 7948 on staging was completed."
+  ],
+  "action_items": []
+}

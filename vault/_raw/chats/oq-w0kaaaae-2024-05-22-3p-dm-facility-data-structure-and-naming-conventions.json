@@ -1,0 +1,24 @@
+{
+  "chat_id": "oq-w0kAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2024-05-22",
+    "end": "2024-05-22"
+  },
+  "message_count": 10,
+  "topic": "Facility data structure and naming conventions",
+  "topic_slug": "facility-data-structure-and-naming-conventions",
+  "tags": [
+    "facility",
+    "analytics"
+  ],
+  "summary_markdown": "The conversation covered the implementation of facility filtering in an endpoint, which now accepts facility details for both chart and total views. Discussion also clarified data structure elements: \n\n*   **Facility Identification:** It was confirmed that `facility_master_num` and `cluster_name` are used to identify facilities (specifically, master facilities).\n*   **Sensor Data:** The field `sensor_number` represents the count of active sensors. Additionally, `device_number` is required for display as it relates to core metrics.\n\nThe chat also addressed a bug in the Campaign Manager related to timezone handling: when changing timezones, an 'APPLY' action must be taken; otherwise, the timezone periodically resets to default after selecting a network.",
+  "decisions": [
+    "The endpoint now accepts facility filtering details for chart and total views.",
+    "`sensor_number` represents the count of active sensors.",
+    "`device_number` must be displayed as it is a core metric."
+  ],
+  "action_items": []
+}

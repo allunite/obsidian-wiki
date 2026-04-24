@@ -1,0 +1,27 @@
+{
+  "chat_id": "AAAARP8w-KE",
+  "kind": "Space",
+  "space_name": "Problematic sensors",
+  "participants": 14,
+  "date_range": {
+    "start": "2023-03-28",
+    "end": "2023-03-28"
+  },
+  "message_count": 44,
+  "topic": "Data issues with mall facility traffic",
+  "topic_slug": "data-issues-with-mall-facility-traffic",
+  "tags": [
+    "analytics",
+    "facility",
+    "impression"
+  ],
+  "summary_markdown": "Multiple data discrepancies were reported, primarily concerning 'Total traffic' for March 24th and missing facility data for Mall category clients. Specifically:\n\n*   **Mall Data Loss:** Data for the Mall facility category was found to be missing across all clients (except Spain), particularly when selecting a specific facility on the dashboard (both production and staging environments). The issue persists even if the filter is removed.\n*   **Sensor Issues:** A separate discussion addressed issues with packet counts per hour from a specific sensor. Initial troubleshooting involved checking connectivity, suggesting firmware flashing or rebooting the device/service (devmon).\n*   **Resolution Attempts:** A fix for the Mall data loss was deployed. However, subsequent checks showed that aggregation over 5 minutes still resulted in fewer than expected packets.\n\nThe root cause of the initial traffic spike anomaly and the specific sensor packet count issues remain under investigation.",
+  "decisions": [
+    "A code fix for missing mall facility data has been deployed."
+  ],
+  "action_items": [
+    "Monitor if restarting the devmon service resolves the sensor packet counting issue.",
+    "Investigate the root cause of the initial 'Total traffic' anomaly reported for March 24th.",
+    "Further investigation is needed regarding the discrepancy in aggregated packet counts."
+  ]
+}

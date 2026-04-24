@@ -1,0 +1,23 @@
+{
+  "chat_id": "AAAA3oghITo",
+  "kind": "Space",
+  "space_name": "Кабаны",
+  "participants": 4,
+  "date_range": {
+    "start": "2023-01-27",
+    "end": "2023-01-27"
+  },
+  "message_count": 12,
+  "topic": "Data access and sandbox setup for Brazil",
+  "topic_slug": "data-access-sandbox-setup-for-brazil",
+  "tags": [
+    "analytics",
+    "inventory",
+    "session"
+  ],
+  "summary_markdown": "The discussion focused on data access methods for Brazilian data, specifically whether to import production data into the sandbox or establish a dedicated sandbox network connection. It was noted that someone had already uploaded data to production and requested it from Galina. A decision was made regarding the setup of direct sandbox access from the main VPN: while technically advisable, this access should not be granted to Galina at this time to prevent confusion, unless an explicit need arises.\n\n[p3] confirmed that Galina already has access to the main VPN.",
+  "decisions": [
+    "Do not grant Galina direct sandbox access from the main VPN until necessary."
+  ],
+  "action_items": []
+}

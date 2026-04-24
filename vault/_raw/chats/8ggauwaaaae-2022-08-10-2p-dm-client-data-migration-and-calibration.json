@@ -1,0 +1,25 @@
+{
+  "chat_id": "8GgAuwAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 2,
+  "date_range": {
+    "start": "2022-08-10",
+    "end": "2022-08-10"
+  },
+  "message_count": 5,
+  "topic": "Client data migration and calibration",
+  "topic_slug": "client-data-migration-and-calibration",
+  "tags": [
+    "analytics",
+    "recalc-ch"
+  ],
+  "summary_markdown": "The client account associated with [redacted] was moved under the JCDecaux partner structure. The necessary calibration settings (radius, etc.) were applied to this account. A historical recalculation starting from August 8th was requested but postponed until next week due to time constraints. The immediate tasks of applying the partner change and calibration settings were completed on the day of the chat.",
+  "decisions": [
+    "Client account moved under JCDecaux partner structure.",
+    "Calibration settings applied to the client account."
+  ],
+  "action_items": [
+    "Perform historical recalculation starting August 8th next week."
+  ]
+}

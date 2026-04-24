@@ -1,0 +1,22 @@
+{
+  "chat_id": "uJ8JA8AAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2025-10-27",
+    "end": "2025-10-27"
+  },
+  "message_count": 3,
+  "topic": "Session task completion and updates",
+  "topic_slug": "session-task-completion-and-updates",
+  "tags": [
+    "analytics",
+    "session"
+  ],
+  "summary_markdown": "Someone confirmed they could complete a task related to sessions today. They plan to write an update in the general chat about changes to session tracking before completing the task, which will be used for testing.",
+  "decisions": [],
+  "action_items": [
+    "Complete the session-related task and test it."
+  ]
+}

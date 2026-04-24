@@ -1,0 +1,21 @@
+{
+  "chat_id": "y9IEDQAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2023-11-23",
+    "end": "2023-11-23"
+  },
+  "message_count": 20,
+  "topic": "Antenna orientation and signal distribution",
+  "topic_slug": "antenna-orientation-and-signal-distribution",
+  "tags": [
+    "analytics"
+  ],
+  "summary_markdown": "The discussion focused on the physical dimensions and directional characteristics of various antennas, specifically for routers. A key point addressed was the definition of 'Omni-Directional' signal coverage; it was clarified that this term generally refers to a 2D plane rather than a full sphere (3D space). The conversation also touched upon proper mounting orientation (horizontal vs. vertical) and comparing antenna types from different manufacturers (Ruckus vs. Teltonika).",
+  "decisions": [
+    "The general definition of 'Omni-Directional' coverage was established as 2D plane distribution."
+  ],
+  "action_items": []
+}

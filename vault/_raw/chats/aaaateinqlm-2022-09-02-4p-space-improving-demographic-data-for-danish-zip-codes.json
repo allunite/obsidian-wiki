@@ -1,0 +1,27 @@
+{
+  "chat_id": "AAAAteinQlM",
+  "kind": "Space",
+  "space_name": "Campaign Manager",
+  "participants": 4,
+  "date_range": {
+    "start": "2022-09-02",
+    "end": "2022-09-02"
+  },
+  "message_count": 49,
+  "topic": "Improving demographic data for Danish zip codes",
+  "topic_slug": "improving-demographic-data-for-danish-zip-codes",
+  "tags": [
+    "analytics",
+    "inventory",
+    "campaign"
+  ],
+  "summary_markdown": "The discussion focused on the discrepancy between available demographic data (3.5 million) and the total population of Denmark (5.8 million). It was determined that the current system only imports demographics for zip codes where facilities exist, leading to an incomplete dataset.\n\nTo improve accuracy, it was suggested that all Danish zip codes should be imported with demographic variables (FAGE, MAGE, MRST) even if they are currently missing. This requires connecting a corporate card and potentially mapping additional regions.\n\nAs a temporary measure, the team agreed to use the existing 3.5 million figure for Target Market Population, with the understanding that this number will increase as more data is imported.",
+  "decisions": [
+    "Use the current 3.5 million demographic population figure temporarily for Target Market Population.",
+    "Plan to import demographic variables (FAGE, MAGE, MRST) for all Danish zip codes."
+  ],
+  "action_items": [
+    "Someone needs to connect a corporate card and request the importation of demographic data for remaining Danish zip codes.",
+    "Review if the system can draw different shapes on maps for demographics (a feature noted as being available in a previous inventory version)."
+  ]
+}

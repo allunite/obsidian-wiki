@@ -1,0 +1,27 @@
+{
+  "chat_id": "y9IEDQAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2022-03-15",
+    "end": "2022-03-15"
+  },
+  "message_count": 56,
+  "topic": "Refining speed calculation and data aggregation",
+  "topic_slug": "refining-speed-calculation-and-data-aggregation",
+  "tags": [
+    "analytics",
+    "session",
+    "facility",
+    "raw-lidar2d-session"
+  ],
+  "summary_markdown": "The discussion focused on refining the speed calculation methodology using raw LiDAR data. Initial concerns were raised regarding the calculated speeds being unusually high or low, prompting a review of the underlying formulas and assumptions.\n\nKey adjustments included:\n*   **Speed Formula:** Adjusting the formula for average speed (e.g., `avg(3.0/((duration_frames+0.5)/freq))*3.6`) was discussed to better reflect real-world speeds, with emphasis on making absolute values adjustable by a factor.\n*   **Height Categorization:** A proposed logic was implemented to categorize objects based on height (e.g., 1m for bicycles/low objects, 4m for cars, 8m for buses) when calculating new speed metrics (`speed_avg_state_new`, `speed_avg_state_new_2`).\n*   **Data Structure:** The team reviewed and updated the SQL queries used to aggregate data into materialized views (`allunite.mv_lidar2d_session_agg_sharded`), ensuring proper grouping by time, facility, lane, and session start hour.\n*   **Deployment:** A plan was established for deploying the revised aggregation logic via a series of `DROP TABLE` and `CREATE MATERIALIZED VIEW` statements.",
+  "decisions": [
+    "Implement object height categorization (1m, 4m, 8m) into speed calculations to improve accuracy.",
+    "Adjust the data aggregation process by updating materialized views using provided SQL scripts."
+  ],
+  "action_items": [
+    "[p1] to deploy the revised materialized view and table structure containing the updated LiDAR session aggregation logic."
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "chat_id": "y9IEDQAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2024-12-17",
+    "end": "2024-12-17"
+  },
+  "message_count": 13,
+  "topic": "Scheduling presentation of project roadmap",
+  "topic_slug": "scheduling-presentation-of-project-roadmap",
+  "tags": [
+    "campaign",
+    "analytics"
+  ],
+  "summary_markdown": "The participants discussed scheduling a demonstration. Initially, [p1] requested showing an example prompt and answer based on data. This was rescheduled from the following day to Monday. Later, [p1] suggested presenting the newly developed RoadMap as a presentation covering projects for the next year.",
+  "decisions": [
+    "The demonstration of prompts/data will be scheduled for Monday."
+  ],
+  "action_items": [
+    "[p1] to prepare the RoadMap as a presentation detailing next year's projects."
+  ]
+}

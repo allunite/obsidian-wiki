@@ -1,0 +1,22 @@
+{
+  "chat_id": "y9IEDQAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2025-09-16",
+    "end": "2025-09-16"
+  },
+  "message_count": 10,
+  "topic": "Addressing impression data discrepancies",
+  "topic_slug": "addressing-impression-data-discrepancies",
+  "tags": [
+    "impression",
+    "analytics"
+  ],
+  "summary_markdown": "The discussion focused on two issues regarding impression data. The first issue is that the client/partner is dissatisfied not with zero impressions, but with records being skipped or omitted in the response. The second issue concerns handling instances of zero impressions, which typically occur during nighttime hours. One proposed solution for the zero-impression problem was to manually insert a value of one (1). However, there was mention that the client suggested developing a custom model.",
+  "decisions": [
+    "The primary concern is records being skipped in the response, not just zero impressions."
+  ],
+  "action_items": []
+}

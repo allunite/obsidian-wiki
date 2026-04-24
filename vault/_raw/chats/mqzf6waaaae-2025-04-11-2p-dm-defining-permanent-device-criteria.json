@@ -1,0 +1,23 @@
+{
+  "chat_id": "mQzF6wAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 2,
+  "date_range": {
+    "start": "2025-04-11",
+    "end": "2025-04-11"
+  },
+  "message_count": 14,
+  "topic": "Defining permanent device criteria for client",
+  "topic_slug": "defining-permanent-device-criteria",
+  "tags": [
+    "analytics"
+  ],
+  "summary_markdown": "The conversation focused on providing a clear definition of what constitutes a 'permanent device' for a client. Two potential definitions were discussed:\n\n1. **Initial Definition (p1):** A device is permanent if, within 7 days, sessions of $\\ge$ 6 hours were recorded on any 3 days. The classification lasts 90 days from the last session.\n2. **Revised Definition (me):** A device is considered permanent if, within a 7-day period, sessions of $\\ge$ 2 hours were recorded on any 3 days. This status continues until the condition is no longer met. Additionally, an individual device session lasting more than 6 hours is also considered permanent.",
+  "decisions": [
+    "The revised definition provided by [me] (7-day period, $\\ge$ 2 hours on 3 days; or single session $> 6$ hours) will be used for the client response."
+  ],
+  "action_items": [
+    "p1 to send the revised definition to the client."
+  ]
+}

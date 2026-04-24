@@ -1,0 +1,22 @@
+{
+  "chat_id": "nW_zkkAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2024-08-29",
+    "end": "2024-08-29"
+  },
+  "message_count": 3,
+  "topic": "Setting signal level for specific category",
+  "topic_slug": "setting-signal-level-for-specific-category",
+  "tags": [
+    "analytics",
+    "inventory"
+  ],
+  "summary_markdown": "Someone instructed [me] to ignore a previous message as it was for the next day. The main topic was setting a signal level of 74 for 'Mall_Pharma_telt200' category within company 7897, specifically for the sell and stage process.",
+  "decisions": [
+    "Signal level 74 must be set for Mall_Pharma_telt200 in company 7897."
+  ],
+  "action_items": []
+}

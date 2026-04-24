@@ -1,0 +1,23 @@
+{
+  "chat_id": "3ZMBmwAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 2,
+  "date_range": {
+    "start": "2021-11-26",
+    "end": "2021-11-26"
+  },
+  "message_count": 18,
+  "topic": "Spanish content publishing and opt-out",
+  "topic_slug": "spanish-content-publishing-and-opt-out",
+  "tags": [
+    "campaign",
+    "analytics"
+  ],
+  "summary_markdown": "The initial discussion focused on fixing formatting issues in a document, which [me] confirmed was due to original styling rather than HTML conversion artifacts. After the fixes were implemented and reviewed by someone, the content was cleared for publication.\n\nLater, the conversation addressed the possibility of implementing an opt-out feature for Spanish users. [me] advised that while it is possible, it would require one or two days of work. Consequently, both parties agreed not to proactively offer this feature.",
+  "decisions": [
+    "Content is approved for publishing.",
+    "The team will not proactively offer a Spanish language opt-out."
+  ],
+  "action_items": []
+}

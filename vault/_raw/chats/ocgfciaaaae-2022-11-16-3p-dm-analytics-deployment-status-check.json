@@ -1,0 +1,19 @@
+{
+  "chat_id": "oCgFCIAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2022-11-16",
+    "end": "2022-11-16"
+  },
+  "message_count": 11,
+  "topic": "Analytics deployment status check",
+  "topic_slug": "analytics-deployment-status-check",
+  "tags": [
+    "analytics"
+  ],
+  "summary_markdown": "The conversation centered on the deployment of analytics data. [me] initially requested that p1 deploy the latest analytics version to staging, noting it might not be the most recent one. P1 confirmed they were deploying and asked if there was anything else needed besides the development work deployed a few hours prior. [me] later confirmed that everything was fine.",
+  "decisions": [],
+  "action_items": []
+}

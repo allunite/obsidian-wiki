@@ -1,0 +1,19 @@
+{
+  "chat_id": "nW_zkkAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2024-08-27",
+    "end": "2024-08-27"
+  },
+  "message_count": 5,
+  "topic": "Scheduling a quick meeting",
+  "topic_slug": "scheduling-a-quick-meeting",
+  "tags": [],
+  "summary_markdown": "The participants exchanged messages regarding scheduling a brief call. A Google Meet link was provided for a potential 3-minute discussion.",
+  "decisions": [],
+  "action_items": [
+    "Join the scheduled meeting"
+  ]
+}

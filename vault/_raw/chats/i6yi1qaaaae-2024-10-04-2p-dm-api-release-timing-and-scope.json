@@ -1,0 +1,21 @@
+{
+  "chat_id": "i6YI1QAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 2,
+  "date_range": {
+    "start": "2024-10-04",
+    "end": "2024-10-04"
+  },
+  "message_count": 7,
+  "topic": "API release timing and scope",
+  "topic_slug": "api-release-timing-and-scope",
+  "tags": [
+    "analytics"
+  ],
+  "summary_markdown": "The discussion focused on the estimated launch date and required features for an API. The API is scheduled to be released when a specific team member returns from vacation, anticipated around Monday or Tuesday of next week. It was confirmed that the API must include demographic data.",
+  "decisions": [
+    "API release is targeted for early next week (Monday-Tuesday)."
+  ],
+  "action_items": []
+}

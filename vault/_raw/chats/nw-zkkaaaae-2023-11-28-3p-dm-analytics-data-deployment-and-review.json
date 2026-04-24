@@ -1,0 +1,24 @@
+{
+  "chat_id": "nW_zkkAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2023-11-28",
+    "end": "2023-11-28"
+  },
+  "message_count": 7,
+  "topic": "Analytics data deployment and review",
+  "topic_slug": "analytics-data-deployment-and-review",
+  "tags": [
+    "analytics",
+    "inventory"
+  ],
+  "summary_markdown": "The user reported deploying an updated version of the analytics tool to the dev environment. This update successfully increased traffic in various clusters, such as AFA (by about 1.5x) and RZK (from 830K to 991K). Importantly, the new data flow is no longer directly dependent on frequency, which was a previous point of confusion.\n\n[p1] requested that the team discuss these findings together.",
+  "decisions": [
+    "The updated analytics tool has been deployed to dev."
+  ],
+  "action_items": [
+    "[me]/someone needs to follow up with the relevant parties to schedule a discussion about the new data metrics and deployment results."
+  ]
+}

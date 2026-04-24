@@ -1,0 +1,26 @@
+{
+  "chat_id": "y9IEDQAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2023-03-16",
+    "end": "2023-03-16"
+  },
+  "message_count": 35,
+  "topic": "Testing data flow and user management",
+  "topic_slug": "testing-data-flow-and-user-management",
+  "tags": [
+    "analytics",
+    "facility",
+    "session"
+  ],
+  "summary_markdown": "The participants conducted a live test of the office box setup, involving connecting, checking connectivity, temporarily disconnecting from the internet, and reconnecting. The initial data flow was confirmed to be working correctly.\n\nLater, discussions focused on user management functionality. It was clarified that simple user management is functional, while extended user management is currently pending or under development.",
+  "decisions": [
+    "The office box setup was tested by simulating an internet outage and subsequent reconnection.",
+    "Simple user management functionality was confirmed to be working."
+  ],
+  "action_items": [
+    "Someone will find more use cases to identify potential patterns in the data flow issues."
+  ]
+}

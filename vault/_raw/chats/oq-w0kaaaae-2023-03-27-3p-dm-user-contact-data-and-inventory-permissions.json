@@ -1,0 +1,25 @@
+{
+  "chat_id": "oq-w0kAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2023-03-27",
+    "end": "2023-03-27"
+  },
+  "message_count": 15,
+  "topic": "User contact data and inventory permissions",
+  "topic_slug": "user-contact-data-and-inventory-permissions",
+  "tags": [
+    "analytics",
+    "inventory"
+  ],
+  "summary_markdown": "The conversation covered two main topics: user contact information management and system development updates.\n\nRegarding contacts, it was discussed whether other users could view or edit a user's full contact details. The current plan is to restrict editing capabilities initially, limiting changes only to fields contained within the task scope (e.g., email field). A local admin role will be implemented later.\n\nIn terms of development, [me] noted that the JSON form for contacts was removed/deleted by [p1]. It was confirmed that roles in the 'user' table need updating upon release. [p1] stated they updated this on the sandbox environment. On production, only six users currently have records related to inventory.",
+  "decisions": [
+    "Contact editing will initially be restricted to fields defined within the current task scope.",
+    "A local admin role will be implemented later for broader permissions."
+  ],
+  "action_items": [
+    "[me] needs to ensure roles in the 'user' table are updated upon release."
+  ]
+}

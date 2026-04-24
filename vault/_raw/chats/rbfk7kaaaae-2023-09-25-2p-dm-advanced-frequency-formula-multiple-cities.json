@@ -1,0 +1,24 @@
+{
+  "chat_id": "rBfK7kAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 2,
+  "date_range": {
+    "start": "2023-09-25",
+    "end": "2023-09-25"
+  },
+  "message_count": 6,
+  "topic": "Advanced frequency formula for multiple cities",
+  "topic_slug": "advanced-frequency-formula-multiple-cities",
+  "tags": [
+    "analytics",
+    "campaign"
+  ],
+  "summary_markdown": "A task was assigned to develop a more advanced formula for calculating frequency when multiple cities (specifically RJ and SP) are involved. The discussion focused on the best location within Jira or Confluence to create this new feature/task.",
+  "decisions": [
+    "The development of the advanced frequency formula is required for campaigns involving multiple cities."
+  ],
+  "action_items": [
+    "[me] advised creating the task within DOOH (Digital Out-of-Home)."
+  ]
+}

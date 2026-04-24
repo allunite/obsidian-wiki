@@ -1,0 +1,23 @@
+{
+  "chat_id": "nW_zkkAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2024-07-30",
+    "end": "2024-07-30"
+  },
+  "message_count": 4,
+  "topic": "Analytics report testing schedule",
+  "topic_slug": "analytics-report-testing-schedule",
+  "tags": [
+    "analytics"
+  ],
+  "summary_markdown": "A discussion regarding the timeline for updating and testing an analytics report. The initial expectation was that [p1] would update the report, but [me] advised that a new version should be expected by tomorrow (the following day) around 3 PM.",
+  "decisions": [
+    "New version of the analytics report is expected by tomorrow afternoon."
+  ],
+  "action_items": [
+    "[p1] needs to test the updated analytics report."
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "chat_id": "oq-w0kAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2023-06-27",
+    "end": "2023-06-27"
+  },
+  "message_count": 50,
+  "topic": "Facility filter UI improvements and bug fixes",
+  "topic_slug": "facility-filter-ui-improvements-and-bug-fixes",
+  "tags": [
+    "analytics",
+    "facility",
+    "campaign"
+  ],
+  "summary_markdown": "The discussion focused heavily on synchronizing development branches (develop, campaigns, conversions) and implementing several UI/UX fixes for the facility filter component.\n\n**Development Sync:** The primary goal was to release the latest version of `conversion` into `develop`. This required merging `conversion` back into `develop`, which involved resolving conflicts and ensuring that subsequent changes in `develop` did not overwrite the necessary conversion logic. Finally, `develop` was merged into `campaigns` to keep branches synchronized.\n\n**Facility Filter Fixes:** Multiple bugs were identified and addressed:\n1. **Apply Button Bug:** When all facilities were removed from the filter and 'Apply' was pressed, the system incorrectly still sent the last applied filter value to the server.\n2. **Selection Display Bug:** The UI displayed the current element as selected alongside chosen elements, confusing the user (e.g., showing three selections when only two were truly filtered).\n3. **URL Parameter:** It was decided that `facility-conv` should be passed in the main URL query string for better tracking.\n4. **UI/UX Improvements:** Several usability issues were addressed:\n    * The input field's click area was improved to ensure the facility list opens reliably, even when clicking on chips or near the bottom margin.\n    * The upper filter's clear button (X) was found not to properly clear all filters.\n    * A suggestion was made for an improvement where the facility list could open upon clicking anywhere within a selected chip.\n\n**Other Fixes:** An additional server-side fix was implemented to prevent empty facilities from being displayed.",
+  "decisions": [
+    "The latest version of 'conversion' must be released into 'develop'.",
+    "'develop' branch was merged into 'campaigns' to keep branches synchronized."
+  ],
+  "action_items": [
+    "Review and implement the fix for the facility filter sending incorrect data when all facilities are cleared.",
+    "Ensure `facility-conv` is passed in the main URL query string.",
+    "Implement UI/UX improvements allowing the facility list to open reliably upon clicking chips or near the input field."
+  ]
+}

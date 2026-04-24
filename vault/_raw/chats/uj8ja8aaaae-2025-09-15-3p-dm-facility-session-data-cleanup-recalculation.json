@@ -1,0 +1,26 @@
+{
+  "chat_id": "uJ8JA8AAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2025-09-15",
+    "end": "2025-09-15"
+  },
+  "message_count": 3,
+  "topic": "Facility session data cleanup and recalculation",
+  "topic_slug": "facility-session-data-cleanup-recalculation",
+  "tags": [
+    "facility",
+    "session",
+    "analytics"
+  ],
+  "summary_markdown": "Someone requested the removal of sessions for multiple facilities this week. [me] confirmed ability to perform the task, requesting a ticket with a due date set for Thursday. The scope involves recalculations and link adjustments: 1) Removing redundant links where sensors already exist. 2) Changing the source facility.",
+  "decisions": [
+    "The session data cleanup will be performed this week.",
+    "A ticket must be created with a due date of Thursday."
+  ],
+  "action_items": [
+    "Create a ticket for the session data cleanup and link adjustments."
+  ]
+}

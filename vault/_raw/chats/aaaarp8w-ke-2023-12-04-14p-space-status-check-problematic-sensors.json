@@ -1,0 +1,24 @@
+{
+  "chat_id": "AAAARP8w-KE",
+  "kind": "Space",
+  "space_name": "Problematic sensors",
+  "participants": 14,
+  "date_range": {
+    "start": "2023-12-04",
+    "end": "2023-12-04"
+  },
+  "message_count": 13,
+  "topic": "Status check on problematic sensors",
+  "topic_slug": "status-check-problematic-sensors",
+  "tags": [
+    "facility",
+    "sensor"
+  ],
+  "summary_markdown": "The discussion focused on the operational status of several specific sensors at PMG_ZA_ORT. Multiple sensors were reported as being offline or non-functional, with dates ranging from mid-November to December.\n\nSpecific sensor issues noted:\n*   PMG_ZA_ORT_Int_boarding_Gate_A5 (Box MAC: 2097270df9f9): Not working since early December.\n*   PMG_ZA_ORT_baggage_carousel_between_2_and_3_domestic (Box MAC: 2097270ecb72): Not working since mid-November.\n*   PMG_ZA_ORT_baggage_between_6_and_7Domestic_side (Box MAC: 2097270d8529): Status questioned, noted that no one had checked the area yet.\n*   PMG_ZA_ORT_Int_boarding_Gate_A20-A21_bussing_gate_Ground_Floor (Box MAC: 2097270e91d4) and PMG_ZA_ORT_Int_boarding_Gate_A27-A28_bussing_ground_floor (Box MAC: 2097270ef982): Both reported as being switched off since the end of November.\n\nIt was noted that drawing definitive conclusions about traffic changes requires observing data for at least a full week, due to potential external factors like electrical issues or limited observation time.",
+  "decisions": [
+    "A technical meeting is scheduled for tomorrow to discuss sensor status."
+  ],
+  "action_items": [
+    "Follow up on the operational status of the listed sensors at PMG_ZA_ORT."
+  ]
+}

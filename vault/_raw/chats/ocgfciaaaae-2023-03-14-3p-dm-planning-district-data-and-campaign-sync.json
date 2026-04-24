@@ -1,0 +1,25 @@
+{
+  "chat_id": "oCgFCIAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2023-03-14",
+    "end": "2023-03-14"
+  },
+  "message_count": 6,
+  "topic": "Planning district data and campaign sync",
+  "topic_slug": "planning-district-data-and-campaign-sync",
+  "tags": [
+    "analytics",
+    "inventory"
+  ],
+  "summary_markdown": "The discussion focused on several technical and planning tasks. First, the need to plan out 'districts' was raised, requiring decisions on data storage location, update frequency, and migrating a traffic query to a new entity. Additionally, efforts were needed to ensure geographical coverage for Denmark and Finland.\n\nSecond, scheduling time with someone regarding a campaign issue (related to 'Tolya') was discussed. [me] suggested addressing the issues via writing first, followed by a call. The parties agreed that the district planning tasks should be tackled thoroughly the following day.",
+  "decisions": [
+    "District data planning (storage, updates, query migration) will be addressed tomorrow."
+  ],
+  "action_items": [
+    "[p1] to write to someone regarding campaign sync availability (before 4 PM).",
+    "[me] to prepare written notes on district issues and then schedule a call."
+  ]
+}

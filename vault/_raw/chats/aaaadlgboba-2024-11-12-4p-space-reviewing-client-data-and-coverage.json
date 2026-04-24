@@ -1,0 +1,21 @@
+{
+  "chat_id": "AAAAdlgBOBA",
+  "kind": "Space",
+  "space_name": "Group Chat",
+  "participants": 4,
+  "date_range": {
+    "start": "2024-11-12",
+    "end": "2024-11-12"
+  },
+  "message_count": 4,
+  "topic": "Reviewing client data and coverage",
+  "topic_slug": "reviewing-client-data-and-coverage",
+  "tags": [
+    "analytics"
+  ],
+  "summary_markdown": "The conversation briefly touches on reviewing peak performance areas, specifically noting a period that was previously virtual. A question is raised regarding the required time period for the client and whether new linking/mapping (прив'язка) coverage is necessary.",
+  "decisions": [],
+  "action_items": [
+    "Determine the specific time period needed for the client."
+  ]
+}

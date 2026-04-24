@@ -1,0 +1,26 @@
+{
+  "chat_id": "y9IEDQAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2025-09-01",
+    "end": "2025-09-01"
+  },
+  "message_count": 10,
+  "topic": "Project updates and shared mall work",
+  "topic_slug": "project-updates-shared-mall-work",
+  "tags": [
+    "analytics",
+    "campaign",
+    "mops"
+  ],
+  "summary_markdown": "The conversation covered progress on several technical tasks. Initially, the focus was on completing a 'Reach graph on Campaign' task, which someone reported having significantly organized and streamlined but not yet finished. The next priority is returning to work on shared malls.\n\nAdditionally, someone started rebuilding the stage/prod databases gradually in a separate branch to avoid previous issues of large-scale changes. It was noted that moving MOPs (presumably a system or service) to use a different connection string would be possible at some point.",
+  "decisions": [
+    "Complete the Reach graph and shared mall work this week."
+  ],
+  "action_items": [
+    "Return focus to shared malls.",
+    "Continue rebuilding stage/prod databases in separate branches."
+  ]
+}

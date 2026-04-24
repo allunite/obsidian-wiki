@@ -1,0 +1,22 @@
+{
+  "chat_id": "oCgFCIAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2025-04-29",
+    "end": "2025-04-29"
+  },
+  "message_count": 21,
+  "topic": "Debugging application state and caching issues",
+  "topic_slug": "debugging-application-state-and-caching-issues",
+  "tags": [
+    "analytics",
+    "session"
+  ],
+  "summary_markdown": "The conversation focused on debugging technical issues related to data retrieval, specifically concerning demographics and campaign groups. Key problems identified included: 1) Duplicate settings causing unpredictable behavior (the first setting was ignored). 2) A caching issue where the lifecycle controller seemed to execute longer than the request itself, suggesting potential state management problems in a NestJS environment.\n\nDiscussion points included checking if controllers were configured to persist state across requests and reviewing logging to track method call frequency. The session concluded with redeploying the service using `kubectl delete pod`.",
+  "decisions": [
+    "The service was redeployed after debugging."
+  ],
+  "action_items": []
+}

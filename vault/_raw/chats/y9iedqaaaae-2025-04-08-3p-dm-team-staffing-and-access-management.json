@@ -1,0 +1,19 @@
+{
+  "chat_id": "y9IEDQAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2025-04-08",
+    "end": "2025-04-08"
+  },
+  "message_count": 5,
+  "topic": "Team staffing and access management",
+  "topic_slug": "team-staffing-and-access-management",
+  "tags": [
+    "analytics"
+  ],
+  "summary_markdown": "The conversation discusses team personnel changes, specifically mentioning a new person (Lucas) joining the GitHub repository and another individual's status. Access was granted to Lucas for the databases by someone.",
+  "decisions": [],
+  "action_items": []
+}

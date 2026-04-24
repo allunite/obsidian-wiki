@@ -1,0 +1,24 @@
+{
+  "chat_id": "ws0mTkAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 2,
+  "date_range": {
+    "start": "2023-12-13",
+    "end": "2023-12-13"
+  },
+  "message_count": 20,
+  "topic": "Reinstating facility loading for large clients",
+  "topic_slug": "reinstating-facility-loading-for-large-clients",
+  "tags": [
+    "facility",
+    "analytics"
+  ],
+  "summary_markdown": "The discussion centered on the functionality of filtering and loading facilities. It was noted that when clients with 1000+ facilities were added, the system's loading mechanism was changed to load data in parts (chunking).\n\n[p1] suggested potentially restoring the full loading capability for specific clients, mentioning 'JCD Litva'. [me] agreed to discuss this internally and advised [p1] on how to communicate the technical change—that the partial loading was implemented due to large client loads.\n\nIt was decided that a ticket should be created regarding this issue.",
+  "decisions": [
+    "A support ticket will be created concerning the facility loading mechanism."
+  ],
+  "action_items": [
+    "[me] needs to discuss the feasibility of restoring full facility loading with 'Sanya'."
+  ]
+}

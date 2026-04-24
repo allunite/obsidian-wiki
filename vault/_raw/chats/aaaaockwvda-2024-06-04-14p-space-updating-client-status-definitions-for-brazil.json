@@ -1,0 +1,23 @@
+{
+  "chat_id": "AAAAOcKWvdA",
+  "kind": "Space",
+  "space_name": "Delivery Coordination",
+  "participants": 14,
+  "date_range": {
+    "start": "2024-06-04",
+    "end": "2024-06-04"
+  },
+  "message_count": 10,
+  "topic": "Updating client status definitions for Brazil",
+  "topic_slug": "updating-client-status-definitions-for-brazil",
+  "tags": [
+    "analytics",
+    "campaign",
+    "inventory"
+  ],
+  "summary_markdown": "Due to confusion among clients in Brazil, the status definitions were updated. The old status 'Verified by XXX' was renamed to 'Approved by XXX'. Additionally, new statuses, 'Approved by Exebitor' and 'Rejected by Exebitor', were added.\n\nFor a frame to be included in a campaign, it must have the status 'Read + Approved by XXX'. A description of these statuses is available for reference.",
+  "decisions": [
+    "Renamed client status from 'Verified by XXX' to 'Approved by XXX' for Brazilian clients."
+  ],
+  "action_items": []
+}

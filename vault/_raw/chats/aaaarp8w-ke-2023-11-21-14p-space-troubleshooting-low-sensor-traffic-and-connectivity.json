@@ -1,0 +1,28 @@
+{
+  "chat_id": "AAAARP8w-KE",
+  "kind": "Space",
+  "space_name": "Problematic sensors",
+  "participants": 14,
+  "date_range": {
+    "start": "2023-11-21",
+    "end": "2023-11-21"
+  },
+  "message_count": 18,
+  "topic": "Troubleshooting low sensor traffic and connectivity",
+  "topic_slug": "troubleshooting-low-sensor-traffic-and-connectivity",
+  "tags": [
+    "analytics",
+    "facility",
+    "impression"
+  ],
+  "summary_markdown": "The discussion focused on diagnosing anomalous or unusually low traffic reported by multiple sensors across different facilities (PMG_ZA_Nyanga_Junction_Mall and PMG_ZA_Bara_Mall). \n\n**Key Issues Identified:**\n*   Multiple sensors were experiencing very low traffic, even after attempted reboots.\n*   The issue was suspected to be related to electrical problems or sensor malfunction.\n*   Specific troubleshooting steps included reviewing MAC addresses and facility numbers for diagnosis.\n\n**Technical Discussion Points:**\n*   There was a discussion regarding firmware updates; it was clarified that only an update had been performed, not a full re-flashing/re-imaging of the sensors.\n*   A previous plan involving clearing sessions and running modeling on specific sensor IDs (19906 and 24996) was outlined.",
+  "decisions": [
+    "Investigate low traffic levels for PMG_ZA_Nyanga_Junction_Mall_mtv0148_upstairs (facility 27866).",
+    "Investigate low traffic levels for PMG_ZA_Bara_Mall_Entrance_2 (facility 27831) and other listed sensors.",
+    "Client will attempt to change the data provider/card for the Bara Mall sensor."
+  ],
+  "action_items": [
+    "Review MAC addresses and connectivity status of specified sensors.",
+    "Follow up on running modeling and clearing sessions for IDs 19906 and 24996."
+  ]
+}

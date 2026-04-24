@@ -1,0 +1,23 @@
+{
+  "chat_id": "i6YI1QAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 2,
+  "date_range": {
+    "start": "2024-04-19",
+    "end": "2024-04-19"
+  },
+  "message_count": 31,
+  "topic": "Calculating local trusted session lifespan metrics",
+  "topic_slug": "calculating-local-trusted-session-lifespan-metrics",
+  "tags": [
+    "analytics",
+    "session"
+  ],
+  "summary_markdown": "The discussion focused on calculating the average and median lifespan of 'local trusted' sessions. Initially, [p1] requested a distribution (e.g., 1 month, 5 months, 1 year) or a monthly breakdown of local trusted session lifespans. After initial technical discussions regarding data selection (focusing on local vs. real trusted), the conversation shifted to defining the required mathematical function and filtering criteria.\n\n[p1] initially requested a calculation showing percentages for users who saw 'local trusted' more than once, broken down by day and month, using an average function, while excluding users who only appeared once.\n\nUltimately, [me] provided a SQL query to calculate the `avg(period)` and `median(period)` of session lifespans (max date - min date) for local trusted sessions, filtered for devices that had more than one recorded session (`HAVING count() > 1`), using data starting from '2023-01-01'.",
+  "decisions": [
+    "The analysis will focus on calculating the average and median period of local trusted sessions.",
+    "The calculation must filter for devices that have recorded more than one session."
+  ],
+  "action_items": []
+}

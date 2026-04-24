@@ -1,0 +1,27 @@
+{
+  "chat_id": "oCgFCIAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2022-05-11",
+    "end": "2022-05-11"
+  },
+  "message_count": 35,
+  "topic": "Handling variable differences across countries",
+  "topic_slug": "handling-variable-differences-across-countries",
+  "tags": [
+    "analytics",
+    "campaign",
+    "demographics"
+  ],
+  "summary_markdown": "The discussion focused on technical challenges related to displaying demographic data and variable labels across different countries. Key issues included:\n\n*   **Variable Consistency:** Different countries use varying variables (e.g., marital status vs. education) for demographics, requiring a solution that dynamically displays only available data points.\n*   **Labeling:** Variable descriptions/labels must change based on the country of origin (currently noted for income).\n*   **Data Structure Solution:** It was proposed to use composite keys (`country + var_name`) and potentially add a dedicated column in `demographic_variable` for short display descriptions.\n*   **Implementation Approach:** The general plan is to first import all available variables, then pass additional data, and finally address the labeling requirements.",
+  "decisions": [
+    "The system should dynamically pull and display only demographic variables for which data exists in a given country.",
+    "Variable labels must be able to change based on the specific country context."
+  ],
+  "action_items": [
+    "Develop logic to handle variable differences across countries (e.g., using composite keys or view adjustments).",
+    "Implement dynamic labeling that pulls descriptions based on the selected country."
+  ]
+}

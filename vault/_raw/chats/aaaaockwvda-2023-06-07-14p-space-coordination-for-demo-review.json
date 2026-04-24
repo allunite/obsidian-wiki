@@ -1,0 +1,21 @@
+{
+  "chat_id": "AAAAOcKWvdA",
+  "kind": "Space",
+  "space_name": "Delivery Coordination",
+  "participants": 14,
+  "date_range": {
+    "start": "2023-06-07",
+    "end": "2023-06-07"
+  },
+  "message_count": 10,
+  "topic": "Coordination for demo review",
+  "topic_slug": "coordination-for-demo-review",
+  "tags": [
+    "analytics"
+  ],
+  "summary_markdown": "The participants initiated a discussion to coordinate a walkthrough or demonstration of completed work. The conversation was focused on scheduling and waiting for confirmation from 'Lesha'.",
+  "decisions": [],
+  "action_items": [
+    "Wait for Lesha's update/confirmation."
+  ]
+}

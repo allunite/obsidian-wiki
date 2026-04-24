@@ -1,0 +1,21 @@
+{
+  "chat_id": "oCgFCIAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2025-01-30",
+    "end": "2025-01-30"
+  },
+  "message_count": 11,
+  "topic": "Using chat history for bot training",
+  "topic_slug": "using-chat-history-for-bot-training",
+  "tags": [
+    "analytics"
+  ],
+  "summary_markdown": "The conversation focused on using a portion of the chat history to train a support bot. [me] requested permission from [p1] to use the chat transcript for this purpose, and [p1] granted permission. They also discussed the need to document interactions to prevent errors in future chats.",
+  "decisions": [
+    "Permission was granted to use the chat history segment for training the support bot."
+  ],
+  "action_items": []
+}

@@ -1,0 +1,23 @@
+{
+  "chat_id": "0m7UOUAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2025-02-10",
+    "end": "2025-02-10"
+  },
+  "message_count": 5,
+  "topic": "Onboarding access and permissions",
+  "topic_slug": "onboarding-access-and-permissions",
+  "tags": [
+    "analytics"
+  ],
+  "summary_markdown": "A discussion occurred regarding the process for granting new data scientist hires necessary system accesses. Specifically, questions were raised about who manages access credentials for ClickHouse (CH) and PostgreSQL (PG), and whether these permissions are standardized across all roles.\n\n[me] confirmed that they handle CH/PG access. [p1] also inquired about temporary VPN and GitHub access while a specific colleague was on leave. [me] stated that granting VPN access is not possible, but providing hub access is.",
+  "decisions": [
+    "Access for ClickHouse/PostgreSQL is managed by [me]."
+  ],
+  "action_items": [
+    "None"
+  ]
+}

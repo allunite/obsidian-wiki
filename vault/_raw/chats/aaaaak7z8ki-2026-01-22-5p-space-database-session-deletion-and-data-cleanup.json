@@ -1,0 +1,24 @@
+{
+  "chat_id": "AAAAaK7z8KI",
+  "kind": "Space",
+  "space_name": "Group Chat",
+  "participants": 5,
+  "date_range": {
+    "start": "2026-01-22",
+    "end": "2026-01-22"
+  },
+  "message_count": 10,
+  "topic": "Database session deletion and data cleanup",
+  "topic_slug": "database-session-deletion-and-data-cleanup",
+  "tags": [
+    "analytics",
+    "session"
+  ],
+  "summary_markdown": "The conversation focused on executing SQL queries to delete historical device session data from multiple tables (including `device_session`, `device_session_agg_dev`, and `device_session_trusted_sharded`). The deletion criteria specified a date range (`2025-02-10` to `2025-02-17`), specific company number (`7960`), facility number (`44337`), creation date minimum, and virtual status (`is_virtual=1`).\n\nFollowing the deletion scripts, advice was given on monitoring the cluster for mutation completion. It was recommended that if new data needs to be inserted after deletion, the delete and insert operations should be run together to ensure seamless merging of changes. Furthermore, testing must wait until all existing mutations are complete to prevent mixing old and new data.",
+  "decisions": [
+    "Execute SQL scripts to delete specified historical device session records from multiple tables."
+  ],
+  "action_items": [
+    "Monitor the cluster for mutation completion before running further tests or insertions."
+  ]
+}

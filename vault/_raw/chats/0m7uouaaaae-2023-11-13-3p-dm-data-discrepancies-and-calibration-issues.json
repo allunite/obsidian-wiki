@@ -1,0 +1,27 @@
+{
+  "chat_id": "0m7UOUAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2023-11-13",
+    "end": "2023-11-13"
+  },
+  "message_count": 26,
+  "topic": "Data discrepancies and calibration issues",
+  "topic_slug": "data-discrepancies-and-calibration-issues",
+  "tags": [
+    "analytics",
+    "session",
+    "facility",
+    "campaign"
+  ],
+  "summary_markdown": "The discussion focused on discrepancies found in session data after running recalculations and calibration updates. Initial concerns involved unexpected changes to historical data for specific dates (e.g., 2023-10-23, 2023-10-24) across multiple facilities.\n\nKey points discussed:\n*   **Calibration:** A new calibration level was added on 2023-11-13. It was questioned whether historical sessions were re-calibrated or if the aggregation logic (using `isCalibrated()` vs. `is_calibrated`) caused discrepancies between production and staging environments.\n*   **Data Anomalies:** Specific facilities showed varying levels of data issues—some appeared correct, some had unexpectedly low session counts, and others showed minor increases in unique users on specific dates.\n*   **Model Impact:** The model calculations were reviewed; while the overall logic was confirmed as correct, a failure count discrepancy was noted for one facility after removing excess sessions.\n*   **Resolution:** After investigation, it was determined that the discrepancies observed initially might have been due to caching or calculation errors. The staging environment data was ultimately moved to production for the relevant date.",
+  "decisions": [
+    "The staging environment data was moved to production."
+  ],
+  "action_items": [
+    "Investigate the cause of unexpectedly low session counts at a specific facility.",
+    "Verify model failure count discrepancy after removing excess sessions."
+  ]
+}

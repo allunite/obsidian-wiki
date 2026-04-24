@@ -1,0 +1,25 @@
+{
+  "chat_id": "AAAAFPbiAdE",
+  "kind": "Space",
+  "space_name": "Group Chat",
+  "participants": 3,
+  "date_range": {
+    "start": "2023-07-14",
+    "end": "2023-07-14"
+  },
+  "message_count": 14,
+  "topic": "Bug fix potential traffic increase on sensors",
+  "topic_slug": "bug-fix-potential-traffic-increase-on-sensors",
+  "tags": [
+    "analytics",
+    "facility",
+    "impression"
+  ],
+  "summary_markdown": "A bug was identified in the vendor exclusion logic. The original query intended to remove vendors not seen in the previous 30 days but with over 100 sessions today, but it incorrectly used `not is_excluded` in the 30-day window.\n\nThis flaw caused previously excluded vendors to remain permanently marked as 'not seen'. The issue primarily affected sensors with high traffic volumes. Fixing this bug is estimated to increase traffic on some sensors by 15-99%.\n\nTo proactively identify other potentially affected facilities, a query was provided that lists 68 facility numbers where the average anomaly percentage in June exceeded 10%, and the ratio of minimum to maximum anomaly percentage was greater than 0.5.",
+  "decisions": [
+    "The bug fix is expected to increase traffic on some sensors by 15-99%."
+  ],
+  "action_items": [
+    "Check historical data for potential issues (requested by p2)."
+  ]
+}

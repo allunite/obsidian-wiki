@@ -1,0 +1,28 @@
+{
+  "chat_id": "AAAA3oghITo",
+  "kind": "Space",
+  "space_name": "Кабаны",
+  "participants": 4,
+  "date_range": {
+    "start": "2022-07-01",
+    "end": "2022-07-01"
+  },
+  "message_count": 46,
+  "topic": "Optimizing PostgreSQL memory and query performance",
+  "topic_slug": "optimizing-postgresql-memory-and-query-performance",
+  "tags": [
+    "analytics",
+    "campaign",
+    "recalc-ch"
+  ],
+  "summary_markdown": "The session focused on diagnosing and optimizing a PostgreSQL instance experiencing 'out of memory' errors, particularly during background operations. Initial analysis showed high cache/buffer usage (7GB) despite low perceived read/write activity, leading to concerns about resource management.\n\nSeveral configuration changes were implemented or discussed:\n*   **Memory Allocation:** The team debated increasing the allocated memory for PostgreSQL buffers and subsequently reducing it after initial adjustments.\n*   **Configuration Review:** A detailed review of `work_mem`, `shared_buffers`, and `maintenance_work_mem` was conducted, calculating a maximum potential usage of 6.50 GB based on current settings.\n*   **System Improvements:** Changes were made to the configuration (including implementing huge pages) which reportedly improved stability and performance.\n\nLater in the session, attention shifted to improving slow data processing jobs. It was noted that the `ml_traffic_prediction` job had significantly increased runtime (from 1.5 minutes per model to 16 minutes), suggesting a potential inefficiency in the query structure or process flow. Solutions discussed included refactoring the query using temporary tables and considering parallelization.",
+  "decisions": [
+    "Adjust PostgreSQL memory configuration parameters (e.g., shared_buffers, work_mem) to optimize resource usage.",
+    "Implement huge pages for improved system performance.",
+    "Investigate optimizing slow data processing queries, potentially by using temporary tables or parallelizing the workload."
+  ],
+  "action_items": [
+    "Monitor PostgreSQL stability and query performance after configuration changes.",
+    "Refactor the `ml_traffic_prediction` job to reduce execution time."
+  ]
+}

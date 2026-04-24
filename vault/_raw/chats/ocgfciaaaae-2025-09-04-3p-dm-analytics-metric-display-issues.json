@@ -1,0 +1,19 @@
+{
+  "chat_id": "oCgFCIAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2025-09-04",
+    "end": "2025-09-04"
+  },
+  "message_count": 5,
+  "topic": "Analytics metric display issues",
+  "topic_slug": "analytics-metric-display-issues",
+  "tags": [
+    "analytics"
+  ],
+  "summary_markdown": "A discussion regarding improvements to analytics metrics. It was noted that while the system now seems to account for days of the week, the hourly data still appears inconsistent or incomplete when testing different time ranges (e.g., 2 hours vs. 00-24). The overall improvement in metric display was acknowledged.",
+  "decisions": [],
+  "action_items": []
+}

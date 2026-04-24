@@ -1,0 +1,21 @@
+{
+  "chat_id": "i6YI1QAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 2,
+  "date_range": {
+    "start": "2024-01-15",
+    "end": "2024-01-15"
+  },
+  "message_count": 8,
+  "topic": "Discussion on mall frequency optimization",
+  "topic_slug": "mall-frequency-optimization-discussion",
+  "tags": [
+    "analytics"
+  ],
+  "summary_markdown": "The conversation focused on optimizing frequency for malls. A call was proposed to discuss potential fixes and improvements regarding the mall's advertising frequency.",
+  "decisions": [],
+  "action_items": [
+    "Schedule a follow-up call."
+  ]
+}

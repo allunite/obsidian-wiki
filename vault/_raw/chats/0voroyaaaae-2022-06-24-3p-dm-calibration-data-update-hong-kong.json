@@ -1,0 +1,25 @@
+{
+  "chat_id": "0VorOYAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2022-06-24",
+    "end": "2022-06-24"
+  },
+  "message_count": 34,
+  "topic": "Calibration data update for Hong Kong",
+  "topic_slug": "calibration-data-update-hong-kong",
+  "tags": [
+    "analytics",
+    "campaign",
+    "recalc-ch"
+  ],
+  "summary_markdown": "The discussion focused on discrepancies in the calibration values used for Hong Kong (HK) traffic prediction. Initially, the staging environment showed a value of 84, while production was showing 89. It was determined that the script was incorrectly pulling production calibration data even when running against staging configurations.\n\n**Resolution:** The process requires updating the code to dynamically handle staging vs. production suffixes for calibration tables (e.g., changing `device_session_calibration_facility_3` to `device_session_calibration_facility_staging`).\n\n**Immediate Action:** As a temporary fix, it was decided that Hong Kong's value in the production environment should be set to 84 to simplify immediate deployment and avoid further complications.",
+  "decisions": [
+    "Hong Kong's calibration value for production will temporarily be set to 84."
+  ],
+  "action_items": [
+    "Update the script configuration to dynamically handle staging vs. production suffixes for calibration tables (e.g., adding a `CALIBRATION_DICT_SUFFIX` variable)."
+  ]
+}

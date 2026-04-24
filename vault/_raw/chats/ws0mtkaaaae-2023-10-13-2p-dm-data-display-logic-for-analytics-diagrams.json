@@ -1,0 +1,24 @@
+{
+  "chat_id": "ws0mTkAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 2,
+  "date_range": {
+    "start": "2023-10-13",
+    "end": "2023-10-13"
+  },
+  "message_count": 19,
+  "topic": "Data display logic for analytics diagrams",
+  "topic_slug": "data-display-logic-for-analytics-diagrams",
+  "tags": [
+    "analytics",
+    "recalc-ch"
+  ],
+  "summary_markdown": "The conversation addressed two technical issues. First, a specific ticket (AUHS-55) was confirmed as fixed by the end of the previous day.\n\nA second issue concerned data display logic for diagrams: initially, it was suggested that if gender and age were not specified in the campaign data, the diagram would be empty. However, someone noted that this was incorrect, as data had previously been displayed correctly even when those fields were omitted. It was confirmed that the system has since been fixed to allow diagrams to display data even without specifying gender or age in the campaign details.\n\nThe fix is scheduled for release on Tuesday.",
+  "decisions": [
+    "The issue regarding diagram emptiness when gender/age are missing is considered fixed and verified."
+  ],
+  "action_items": [
+    "[p1] to write an update confirming the fix, pending verification."
+  ]
+}

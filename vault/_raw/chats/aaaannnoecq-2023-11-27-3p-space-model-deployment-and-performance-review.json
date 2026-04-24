@@ -1,0 +1,24 @@
+{
+  "chat_id": "AAAAnnnOEcQ",
+  "kind": "Space",
+  "space_name": "RZK розробка",
+  "participants": 3,
+  "date_range": {
+    "start": "2023-11-27",
+    "end": "2023-11-27"
+  },
+  "message_count": 3,
+  "topic": "Model deployment and performance review",
+  "topic_slug": "model-deployment-and-performance-review",
+  "tags": [
+    "analytics",
+    "campaign"
+  ],
+  "summary_markdown": "The model has been moved to the staging environment and is ready for copying to production. Performance data indicates that a drop observed on 04.11 was explained by sensors being disabled on 03.11. Other drops are attributed to traffic, which behaves similarly to the model's performance.\n\nThe model achieved a growth of 15%.",
+  "decisions": [
+    "The model will be moved to production and presented to the client tomorrow."
+  ],
+  "action_items": [
+    "None"
+  ]
+}

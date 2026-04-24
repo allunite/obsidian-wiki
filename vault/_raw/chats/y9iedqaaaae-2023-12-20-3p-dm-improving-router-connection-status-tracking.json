@@ -1,0 +1,27 @@
+{
+  "chat_id": "y9IEDQAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2023-12-20",
+    "end": "2023-12-20"
+  },
+  "message_count": 41,
+  "topic": "Improving router connection status tracking",
+  "topic_slug": "improving-router-connection-status-tracking",
+  "tags": [
+    "analytics",
+    "session"
+  ],
+  "summary_markdown": "The participants discussed improving the method for tracking router connectivity status. It was proposed to replace the current ping mechanism with an MQTT-based system. This new approach would track connection status by recording `connected_on` and `disconnected_on` timestamps, allowing a null value in the second field to indicate an online status.\n\nSeparately, discussions covered technical tasks related to ClickHouse logging (ensuring logs are written) and API development for a specific service. A plan was made to follow up on these items with relevant team members.",
+  "decisions": [
+    "Replace router ping tracking with MQTT-based status updates",
+    "Implement connection status using `connected_on` and `disconnected_on` fields"
+  ],
+  "action_items": [
+    "Follow up on ClickHouse logging setup to ensure logs are written",
+    "Review API development progress for the service mentioned by 'p1'",
+    "Provide feedback/updates regarding UI tasks (e.g., creating a company/customer)"
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "chat_id": "i6YI1QAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 2,
+  "date_range": {
+    "start": "2023-09-13",
+    "end": "2023-09-13"
+  },
+  "message_count": 10,
+  "topic": "Adjusting frequency calculation formula",
+  "topic_slug": "adjusting-frequency-calculation-formula",
+  "tags": [
+    "analytics",
+    "recalc-ch"
+  ],
+  "summary_markdown": "The conversation focused on debugging and adjusting the logic for calculating 'frequency'. The current implementation was found to be inaccurate, particularly when dealing with large numbers of frames (e.g., 20K) or specific time intervals (1/24 day). It was determined that the frequency calculation formula needs modification because the resulting factor was not proportional to real-time data or historical trends. Specific examples were provided demonstrating how the current function yields incorrect values.",
+  "decisions": [
+    "The 'frequency' calculation formula must be changed."
+  ],
+  "action_items": []
+}

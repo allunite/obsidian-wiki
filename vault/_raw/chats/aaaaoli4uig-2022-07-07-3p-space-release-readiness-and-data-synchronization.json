@@ -1,0 +1,27 @@
+{
+  "chat_id": "AAAAOLI4UIg",
+  "kind": "Space",
+  "space_name": "Release July 2022",
+  "participants": 3,
+  "date_range": {
+    "start": "2022-07-07",
+    "end": "2022-07-07"
+  },
+  "message_count": 25,
+  "topic": "Release readiness and data synchronization",
+  "topic_slug": "release-readiness-and-data-synchronization",
+  "tags": [
+    "dwell-time",
+    "analytics",
+    "campaign",
+    "inventory"
+  ],
+  "summary_markdown": "The discussion focused on the readiness for a release, specifically addressing discrepancies in dwell time data observed across different sensors and regions (Africa vs. Lithuania). It was noted that differences were expected due to changes within the malls/malls system. The team confirmed the PROD dataset was ready after synchronization efforts.\n\nRegarding deployment, it was decided that access for Africa's mall data should be restored or granted to all users from Africa. Concerns were raised about missing UI deployments and ensuring correct calculation of unique identifiers (uniques) in the recalc engine for non-trusted vendors.",
+  "decisions": [
+    "The release can proceed.",
+    "Access to Africa's mall data should be reinstated/returned to all relevant users."
+  ],
+  "action_items": [
+    "Send out notifications regarding changes to unique identifiers (uniques)."
+  ]
+}

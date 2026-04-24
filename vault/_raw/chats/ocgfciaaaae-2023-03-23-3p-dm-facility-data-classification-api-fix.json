@@ -1,0 +1,24 @@
+{
+  "chat_id": "oCgFCIAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2023-03-23",
+    "end": "2023-03-23"
+  },
+  "message_count": 26,
+  "topic": "Facility data classification and API fix",
+  "topic_slug": "facility-data-classification-api-fix",
+  "tags": [
+    "facility",
+    "analytics"
+  ],
+  "summary_markdown": "The discussion covered two main topics: facility data classification and a technical bug fix for the facility API.\n\n**Classification:** [p1] confirmed that staging environment data can be included in the classification process, which is beneficial for someone who plans to run classifications today. The team tested mapping time using this approach.\n\n**API Fix:** A critical bug was identified and resolved within the `getRawFacility` function. The issue stemmed from incorrectly passed parameters, specifically noting that the facility ID (after removing hyphens) was not being handled correctly in the API request, causing it to fail where previously it had worked.",
+  "decisions": [
+    "Staging environment data will be included for classification testing."
+  ],
+  "action_items": [
+    "The fix for `getRawFacility` has been implemented and pushed to the development branch for demonstration to someone within 10 minutes."
+  ]
+}

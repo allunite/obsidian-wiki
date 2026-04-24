@@ -1,0 +1,24 @@
+{
+  "chat_id": "oCgFCIAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2023-10-12",
+    "end": "2023-10-12"
+  },
+  "message_count": 12,
+  "topic": "Reviewing data discrepancies and next steps",
+  "topic_slug": "reviewing-data-discrepancies-and-next-steps",
+  "tags": [
+    "analytics",
+    "recalc-ch"
+  ],
+  "summary_markdown": "The conversation focused on analyzing significant data discrepancies observed in Brazil. Initial efforts involved multiple team members, including Galina who developed a plan and someone else (Vlad) who is implementing it.\n\n[p1] expressed concern over the magnitude of the changes, noting that the data should only vary by 10-20% but showed unpredictable jumps. Potential variables influencing the data were discussed, such as recalculations performed on staging environments.\n\nLater, [p1] requested a brief call with [me], which was agreed upon for the Dev environment.",
+  "decisions": [
+    "A meeting time and location (Dev) was set up to discuss the data discrepancies."
+  ],
+  "action_items": [
+    "Meet in Dev to discuss data issues."
+  ]
+}

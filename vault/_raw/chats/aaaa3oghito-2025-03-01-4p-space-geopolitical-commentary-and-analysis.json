@@ -1,0 +1,17 @@
+{
+  "chat_id": "AAAA3oghITo",
+  "kind": "Space",
+  "space_name": "Кабаны",
+  "participants": 4,
+  "date_range": {
+    "start": "2025-03-01",
+    "end": "2025-03-01"
+  },
+  "message_count": 7,
+  "topic": "Geopolitical commentary and analysis",
+  "topic_slug": "geopolitical-commentary-and-analysis",
+  "tags": [],
+  "summary_markdown": "The conversation consists entirely of highly critical, political commentary regarding international relations and geopolitical events. The discussion analyzes recent statements and actions by various world leaders (Trump, Pence, Zelensky) and critiques the perceived failures in diplomatic strategy and negotiation tactics.",
+  "decisions": [],
+  "action_items": []
+}

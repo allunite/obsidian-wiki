@@ -1,0 +1,26 @@
+{
+  "chat_id": "nW_zkkAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2026-02-12",
+    "end": "2026-02-12"
+  },
+  "message_count": 28,
+  "topic": "Reviewing traffic data and dashboard updates",
+  "topic_slug": "reviewing-traffic-data-and-dashboard-updates",
+  "tags": [
+    "analytics",
+    "dwell-time",
+    "impression",
+    "facility"
+  ],
+  "summary_markdown": "The conversation focused on analyzing footfall metrics using a shared SQL script and reviewing related development tickets. Initial discussion involved discrepancies between calculated footfall (using `frequencyLocal`) and API-derived footfall (`frequencyApiLogreg`), leading to the conclusion that raw unique counts should be used for basic comparisons.\n\nLater, someone reviewed a ClickUp ticket regarding high hourly traffic and shared findings. [me] provided guidance on updating the SQL script by commenting out the upper `SELECT` block and uncommenting the lower one, while also suggesting making the base view active in the `FROM` clause to access more detailed fields.",
+  "decisions": [
+    "Use raw unique counts for basic footfall comparisons instead of calculated metrics."
+  ],
+  "action_items": [
+    "Update the SQL script by modifying the SELECT and FROM clauses as discussed."
+  ]
+}

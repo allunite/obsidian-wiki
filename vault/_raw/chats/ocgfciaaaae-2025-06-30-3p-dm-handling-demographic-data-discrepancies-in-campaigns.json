@@ -1,0 +1,25 @@
+{
+  "chat_id": "oCgFCIAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2025-06-30",
+    "end": "2025-06-30"
+  },
+  "message_count": 18,
+  "topic": "Handling demographic data discrepancies in campaigns",
+  "topic_slug": "handling-demographic-data-discrepancies-in-campaigns",
+  "tags": [
+    "analytics",
+    "campaign",
+    "facility"
+  ],
+  "summary_markdown": "A problem was discussed regarding a publisher (Neooh) whose demographic data is tied to a specific map area, causing discrepancies when other companies attempt to run campaigns on that facility. Since these companies use different demographic providers, the resulting metrics are often zero.\n\nTwo potential solutions were considered:\n1. Implementing a coefficient of 1 if no demographics are available, allowing for metric display (though this would result in inconsistent metrics across different companies).\n2. Rewriting the engine to source data directly from the facility level, regardless of which company is viewing it (this was noted as having high complexity).\n\n[me] proposed a potentially feasible solution that requires development time, and both participants agreed to discuss it further after an upcoming meeting.",
+  "decisions": [
+    "The issue of demographic data discrepancies for the publisher Neooh needs a concrete solution."
+  ],
+  "action_items": [
+    "[me] to prepare and discuss a proposed solution for the demographic discrepancy problem."
+  ]
+}

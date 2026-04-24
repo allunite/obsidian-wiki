@@ -1,0 +1,25 @@
+{
+  "chat_id": "rBfK7kAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 2,
+  "date_range": {
+    "start": "2023-11-22",
+    "end": "2023-11-22"
+  },
+  "message_count": 5,
+  "topic": "Adjusting script for facility aggregation",
+  "topic_slug": "adjusting-script-for-facility-aggregation",
+  "tags": [
+    "analytics",
+    "session",
+    "facility"
+  ],
+  "summary_markdown": "The conversation addressed the need to adjust the `ml_to_stage_aggregation` script. The goal is to modify the script so that it aggregates data only for individual facilities, mirroring a manual recalculation process. [me] confirmed this adjustment is possible and plans to clean up the session data today before informing [unknown].",
+  "decisions": [
+    "The `ml_to_stage_aggregation` script will be modified to aggregate data based on individual facility metrics."
+  ],
+  "action_items": [
+    "[me] will clean up the session data and notify [unknown] upon completion."
+  ]
+}

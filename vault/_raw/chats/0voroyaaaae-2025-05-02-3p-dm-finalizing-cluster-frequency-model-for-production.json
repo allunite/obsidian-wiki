@@ -1,0 +1,30 @@
+{
+  "chat_id": "0VorOYAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2025-05-02",
+    "end": "2025-05-02"
+  },
+  "message_count": 199,
+  "topic": "Finalizing cluster frequency model for production",
+  "topic_slug": "finalizing-cluster-frequency-model-for-production",
+  "tags": [
+    "analytics",
+    "campaign",
+    "facility",
+    "impression",
+    "session"
+  ],
+  "summary_markdown": "The discussion focused on refining the cluster frequency (CF) calculation and migrating the updated model to production. Initial concerns were raised regarding discrepancies in footfall calculations, particularly when comparing predicted values to unique traffic counts.\n\nThe team agreed that the current approach for CF needs refinement, with multiple iterations of SQL queries being tested across staging and testing environments (aka_test).\n\nKey technical points addressed include:\n*   **Frequency Formula:** The use of `getFrequency_TEST_11` was confirmed. The multiplier factor for CF was discussed, initially at 6.5, but the team considered reverting or adjusting it.\n*   **Data Aggregation:** It was determined that to ensure historical accuracy and robustness, the production dataset must be re-aggregated starting from May 1, 2024, after first aggregating the data from January 23, 2025. This process is necessary despite total traffic metrics appearing stable.\n*   **Scope:** The model refinement and deployment are specifically targeted at a single facility (facility_master_num = 43975) with an 'Airport' category, ensuring other categories remain unaffected.",
+  "decisions": [
+    "The cluster frequency calculation method is deemed satisfactory after testing in the staging/aka_test environment.",
+    "The final model must be deployed to production (prod).",
+    "Historical data reprocessing is required: First, aggregate the production dataset from 2025-01-23; second, reprocess the entire dataset back to 2024-05-01."
+  ],
+  "action_items": [
+    "The model needs to be fully migrated and processed on the production environment.",
+    "Review and confirm that other facility categories will not be affected by these changes."
+  ]
+}

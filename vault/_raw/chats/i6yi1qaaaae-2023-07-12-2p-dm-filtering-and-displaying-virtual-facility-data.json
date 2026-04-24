@@ -1,0 +1,22 @@
+{
+  "chat_id": "i6YI1QAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 2,
+  "date_range": {
+    "start": "2023-07-12",
+    "end": "2023-07-12"
+  },
+  "message_count": 31,
+  "topic": "Filtering and displaying virtual facility data",
+  "topic_slug": "filtering-and-displaying-virtual-facility-data",
+  "tags": [
+    "analytics",
+    "facility"
+  ],
+  "summary_markdown": "The discussion focused on how to identify and filter for virtual facilities within the analytics platform. Initially, [p1] requested a mechanism (like a dashboard toggle or dropdown) to distinguish between physical and virtual facilities, as clients are interested in analyzing modeling results.\n\n*   **Filtering:** A base SQL filter was provided: `facility_num not in (select facility_target_num from facility_virtual_dict)`.\n*   **Scope Limitation:** It was suggested that filtering should be limited only to accounts possessing virtual facilities, potentially by country restriction.\n*   **Virtual Sensor Data:** When discussing data for virtual sensors, it was clarified that the nightly recalculation process uses any available prediction (predict) when running. The final concern regarding specific date predictions was resolved after confirming the script ran and processed the necessary data.",
+  "decisions": [
+    "The platform should implement a mechanism to filter or display virtual facilities/sensors."
+  ],
+  "action_items": []
+}

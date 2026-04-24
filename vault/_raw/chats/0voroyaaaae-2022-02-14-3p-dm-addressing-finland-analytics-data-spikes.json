@@ -1,0 +1,24 @@
+{
+  "chat_id": "0VorOYAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2022-02-14",
+    "end": "2022-02-14"
+  },
+  "message_count": 3,
+  "topic": "Addressing Finland analytics data spikes",
+  "topic_slug": "addressing-finland-analytics-data-spikes",
+  "tags": [
+    "analytics",
+    "recalc-ch"
+  ],
+  "summary_markdown": "The discussion centered on addressing reported data spikes in Finland's analytics. Two approaches were discussed: a conceptually correct, permanent fix requiring input from another team member (Tolya), or a temporary 'hacked' fix specific to Finland. The speaker ([me]) agreed to implement the temporary fix but estimated completion would be difficult today due to high priority tasks (mall analytics). Completion was tentatively scheduled for tomorrow or the day after.",
+  "decisions": [
+    "The immediate data spike issue in Finland will be addressed using a temporary 'hacked' solution."
+  ],
+  "action_items": [
+    "[me] will implement the temporary fix for the Finland analytics spikes, targeting completion by tomorrow or the day after."
+  ]
+}

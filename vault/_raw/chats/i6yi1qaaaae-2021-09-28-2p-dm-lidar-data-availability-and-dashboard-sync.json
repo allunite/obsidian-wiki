@@ -1,0 +1,24 @@
+{
+  "chat_id": "i6YI1QAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 2,
+  "date_range": {
+    "start": "2021-09-28",
+    "end": "2021-09-28"
+  },
+  "message_count": 7,
+  "topic": "Lidar data availability and dashboard sync",
+  "topic_slug": "lidar-data-availability-and-dashboard-sync",
+  "tags": [
+    "analytics",
+    "session"
+  ],
+  "summary_markdown": "The conversation focused on syncing a dashboard and checking the status of Lidar data for Estonia. [me] provided the table name (`raw_lidar2d_session_buffer`) and a query to check daily counts, noting that recent data was missing. [p1] confirmed that the Lidar data issue would be corrected today and should be included.",
+  "decisions": [
+    "Lidar data for Estonia will be updated today."
+  ],
+  "action_items": [
+    "N/A"
+  ]
+}

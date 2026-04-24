@@ -1,0 +1,22 @@
+{
+  "chat_id": "AAAAaK7z8KI",
+  "kind": "Space",
+  "space_name": "Group Chat",
+  "participants": 5,
+  "date_range": {
+    "start": "2024-11-27",
+    "end": "2024-11-27"
+  },
+  "message_count": 13,
+  "topic": "Data transfer and dashboard display issue",
+  "topic_slug": "data-transfer-dashboard-display-issue",
+  "tags": [
+    "analytics",
+    "campaign"
+  ],
+  "summary_markdown": "The conversation focused on troubleshooting a data migration process from `model1` to `prod`. Initially, there was concern about an aggregation error. Later, when checking the transfer results, it was determined that the data had successfully transferred. The issue of not seeing the updated data on the dashboard was attributed to browser caching on one participant's end, requiring a cache clear or refresh beyond standard methods like Ctrl+F5.",
+  "decisions": [
+    "The data migration from model1 to prod was confirmed successful."
+  ],
+  "action_items": []
+}

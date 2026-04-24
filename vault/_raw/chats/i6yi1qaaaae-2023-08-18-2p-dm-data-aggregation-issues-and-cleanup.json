@@ -1,0 +1,25 @@
+{
+  "chat_id": "i6YI1QAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 2,
+  "date_range": {
+    "start": "2023-08-18",
+    "end": "2023-08-18"
+  },
+  "message_count": 48,
+  "topic": "Data aggregation issues and cleanup",
+  "topic_slug": "data-aggregation-issues-and-cleanup",
+  "tags": [
+    "analytics",
+    "session",
+    "facility"
+  ],
+  "summary_markdown": "The conversation focused on two main data issues. First, there was an immediate problem with the aggregation script for Brazil that needed to be run quickly due to a demo scheduled shortly after. The script's filtering logic and execution time were discussed.\n\nSecond, a major slowdown occurred because someone ran a large `DELETE` query targeting Gabon sessions from real sensors, which required significant merging and defragmentation. This deletion was found to be erroneous and would need restoration from backup on Monday.\n\nThe status of the Brazil data indicated that it should be available after re-running for August due to previous self-initiated changes by someone and Vlad.",
+  "decisions": [
+    "The faulty delete query targeting Gabon sessions will require restoration from backup on Monday."
+  ],
+  "action_items": [
+    "Follow up with Vlad and Zheka regarding the updated campaign data for Brazil."
+  ]
+}

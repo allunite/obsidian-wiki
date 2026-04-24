@@ -1,0 +1,24 @@
+{
+  "chat_id": "AAAA9ybOLwM",
+  "kind": "Space",
+  "space_name": "ИТ",
+  "participants": 8,
+  "date_range": {
+    "start": "2022-05-24",
+    "end": "2022-05-24"
+  },
+  "message_count": 13,
+  "topic": "Enabling real-time map view for Finland",
+  "topic_slug": "enabling-real-time-map-view-for-finland",
+  "tags": [
+    "analytics",
+    "session"
+  ],
+  "summary_markdown": "The discussion focused on enabling a real-time map view, specifically for location 7863 in Finland. Initial technical discussions clarified that the system requires a `tenant_id` or `companyId`, not just a number.\n\nLater, a question was raised about making this feature available universally to all clients. It was noted that implementing it for everyone would require running more sessioner instances. Ultimately, it was decided that the feature should not be enabled for all users.",
+  "decisions": [
+    "The real-time map view needs a `tenant_id` or `companyId` for implementation."
+  ],
+  "action_items": [
+    "Someone (p2) confirmed enabling the functionality from the sessioner side."
+  ]
+}

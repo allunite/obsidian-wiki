@@ -1,0 +1,26 @@
+{
+  "chat_id": "nW_zkkAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2024-09-03",
+    "end": "2024-09-03"
+  },
+  "message_count": 46,
+  "topic": "Data aggregation and location data issues",
+  "topic_slug": "data-aggregation-and-location-data-issues",
+  "tags": [
+    "analytics",
+    "facility",
+    "campaign"
+  ],
+  "summary_markdown": "The conversation covered several technical points regarding data calculation and reporting. Initially, the discussion addressed how unique counts (uniques) are calculated for virtual locations, especially when combining real and virtual sources.\n\nA major focus was on historical data aggregation: a request was made to analyze two separate clusters that were previously combined into one. It was noted that previous months' calculations only accounted for a single cluster, requiring an update of sessions and re-aggregation of the data.\nFinally, issues with facility data were discussed. A specific master location (\"Park station XL\") lacked latitude/longitude coordinates, preventing demographic data calculation. This required manual updating of empty lat/lon values for new clusters to ensure proper demographic reporting.",
+  "decisions": [
+    "The need to re-aggregate historical data by splitting a single cluster into two separate ones was confirmed.",
+    "Empty latitude/longitude coordinates were added to the master record \"Park station XL\" to enable demographic calculations."
+  ],
+  "action_items": [
+    "Someone needs to write up notes for the team regarding the facility data updates."
+  ]
+}

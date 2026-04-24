@@ -1,0 +1,23 @@
+{
+  "chat_id": "AAAAuyldb0A",
+  "kind": "Space",
+  "space_name": "Lidar development",
+  "participants": 7,
+  "date_range": {
+    "start": "2021-05-06",
+    "end": "2021-05-06"
+  },
+  "message_count": 12,
+  "topic": "Lidar sensor requirements and pricing",
+  "topic_slug": "lidar-sensor-requirements-and-pricing",
+  "tags": [
+    "analytics",
+    "inventory"
+  ],
+  "summary_markdown": "The discussion focused on the technical components and associated costs for implementing lidar technology.\n\n*   **Sensor Requirements:** It was confirmed that a Teltonika sensor is needed for both 2D and 3D lidar, potentially requiring both a sensor and an antenna.\n*   **Hardware Components:** In addition to the sensors, a computer unit will also be required at the site.\n*   **Pricing Breakdown:** The current pricing structure was reviewed:\n    *   3D Lidar: $5,011\n    *   2D Lidar: $790\n    *   Installation: $5,000\n    *   Computer Unit: Approximately $250",
+  "decisions": [
+    "Teltonika sensor is required for both 2D and 3D lidar.",
+    "A computer unit must be included in the setup."
+  ],
+  "action_items": []
+}

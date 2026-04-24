@@ -1,0 +1,24 @@
+{
+  "chat_id": "8GgAuwAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 2,
+  "date_range": {
+    "start": "2023-10-02",
+    "end": "2023-10-02"
+  },
+  "message_count": 3,
+  "topic": "Reviewing India report fix and dashboard",
+  "topic_slug": "reviewing-india-report-fix-and-dashboard",
+  "tags": [
+    "analytics",
+    "impression"
+  ],
+  "summary_markdown": "The [me] shared a development analytics link (`https://dev-analytics.allunite.com/`) containing a fixed report for India. This fix required significant rework and is currently separate from the main codebase. The recipient was asked to test the dashboards, ensuring they match the staging environment data. A key note provided was that since the dates in the URL now default to UTC, URLs copied directly from staging might display shifted data if the local time zone is not set to UTC.",
+  "decisions": [
+    "The [me] provided a development link for testing India report fixes."
+  ],
+  "action_items": [
+    "Recipient needs to test the dashboards at the provided dev analytics link and verify consistency with staging environment data, paying attention to UTC date handling."
+  ]
+}

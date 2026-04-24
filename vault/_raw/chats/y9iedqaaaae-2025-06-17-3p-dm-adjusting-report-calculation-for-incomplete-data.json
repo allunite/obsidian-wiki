@@ -1,0 +1,23 @@
+{
+  "chat_id": "y9IEDQAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2025-06-17",
+    "end": "2025-06-17"
+  },
+  "message_count": 29,
+  "topic": "Adjusting report calculation for incomplete data",
+  "topic_slug": "adjusting-report-calculation-for-incomplete-data",
+  "tags": [
+    "analytics",
+    "frame",
+    "recalc-ch"
+  ],
+  "summary_markdown": "The conversation focused on correcting the methodology used in a time-based report calculation. Initially, there was confusion regarding whether missing data points (zeros) should be included or excluded when calculating averages for specific frames.\n\nIt was clarified that the initial assumption of requiring 13 full weeks of data was incorrect. The correct method is to calculate the average using only the available data points for a given frame, regardless of how many days were worked within the analyzed period.",
+  "decisions": [
+    "The report calculation should use an average based on all available data points for a specific frame, rather than requiring a fixed number (e.g., 13) of weeks."
+  ],
+  "action_items": []
+}

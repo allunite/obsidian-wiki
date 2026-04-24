@@ -1,0 +1,23 @@
+{
+  "chat_id": "ws0mTkAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 2,
+  "date_range": {
+    "start": "2024-02-23",
+    "end": "2024-02-23"
+  },
+  "message_count": 17,
+  "topic": "Troubleshooting high laptop temperature during analytics",
+  "topic_slug": "troubleshooting-high-laptop-temperature-during-analytics",
+  "tags": [
+    "analytics"
+  ],
+  "summary_markdown": "A discussion occurred regarding the laptop overheating when running certain operations, specifically those involving inventory and analytics. It was noted that while a direct correlation is not yet confirmed, the issue seems related to the analytics process. Suggestions were made to check Chrome's task manager to identify resource-intensive tabs. The participant agreed to monitor the temperature fluctuations over time, acknowledging that the current observations are subjective.",
+  "decisions": [
+    "Monitor laptop temperature and performance during specific operations"
+  ],
+  "action_items": [
+    "Participant will observe and track instances of high CPU/temperature usage related to analytics."
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "chat_id": "oq-w0kAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2023-08-21",
+    "end": "2023-08-21"
+  },
+  "message_count": 6,
+  "topic": "Code commit message format feedback",
+  "topic_slug": "code-commit-message-format-feedback",
+  "tags": [
+    "analytics"
+  ],
+  "summary_markdown": "Someone provided feedback regarding the preferred format for code commit messages. The recommended structure is to use `<ticketID> # <message>` so that commits are visible within the corresponding ticket's right panel in Jira. A specific example was given comparing an old, non-functional format (`DOOH #216 <message>`) with a new, functional format (`DOOH-216 # <message>`).",
+  "decisions": [
+    "Adopted commit message format: `<ticketID> # <message>`"
+  ],
+  "action_items": []
+}

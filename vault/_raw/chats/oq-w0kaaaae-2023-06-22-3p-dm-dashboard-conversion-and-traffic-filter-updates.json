@@ -1,0 +1,29 @@
+{
+  "chat_id": "oq-w0kAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2023-06-22",
+    "end": "2023-06-22"
+  },
+  "message_count": 14,
+  "topic": "Dashboard conversion and traffic filter updates",
+  "topic_slug": "dashboard-conversion-and-traffic-filter-updates",
+  "tags": [
+    "analytics",
+    "facility",
+    "campaign",
+    "dashboard"
+  ],
+  "summary_markdown": "Changes were pushed to the `dashboard-conversion` branch, including a conversion table with facility selection. The traffic panel also had its facility selection control updated, though it was not made shared due to complexity.\n\nDiscussion focused on technical implementation details for filters:\n*   The current state of the conversion control is preferred over reverting to an older method.\n*   Concerns were raised about the slow performance (up to a minute) when calling conversions on the sandbox environment.\n*   A specific issue with the traffic filter's autocomplete functionality was discussed, noting that rolling back might be necessary or implementing custom logic.\n\n**Decisions:**\n*   The current version of the conversion control should remain in the branch for now.\n*   The code must be merged into `develop` before pushing further changes.\n*   Testing will proceed on the staging environment.",
+  "decisions": [
+    "Keep the current conversion control implementation",
+    "Merge current work into develop before next push",
+    "Test functionality on staging"
+  ],
+  "action_items": [
+    "Investigate a solution for the traffic filter's autocomplete list jitter/snappiness",
+    "Continue development on campaigns module"
+  ]
+}

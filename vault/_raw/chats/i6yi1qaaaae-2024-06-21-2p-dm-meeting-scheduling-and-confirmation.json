@@ -1,0 +1,19 @@
+{
+  "chat_id": "i6YI1QAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 2,
+  "date_range": {
+    "start": "2024-06-21",
+    "end": "2024-06-21"
+  },
+  "message_count": 3,
+  "topic": "Meeting scheduling and confirmation",
+  "topic_slug": "meeting-scheduling-and-confirmation",
+  "tags": [],
+  "summary_markdown": "The participants briefly exchanged messages to confirm availability for a meeting, sharing a Google Meet link.",
+  "decisions": [],
+  "action_items": [
+    "Join the provided Google Meet link"
+  ]
+}

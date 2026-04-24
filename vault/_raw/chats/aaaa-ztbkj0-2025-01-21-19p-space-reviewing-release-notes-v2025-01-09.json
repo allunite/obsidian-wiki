@@ -1,0 +1,21 @@
+{
+  "chat_id": "AAAA_zTBKJ0",
+  "kind": "Space",
+  "space_name": "Releases and updates",
+  "participants": 19,
+  "date_range": {
+    "start": "2025-01-21",
+    "end": "2025-01-21"
+  },
+  "message_count": 7,
+  "topic": "Reviewing release notes for v2025.01.09",
+  "topic_slug": "reviewing-release-notes-v2025.01.09",
+  "tags": [
+    "analytics"
+  ],
+  "summary_markdown": "The session focused on reviewing the release notes for version v2025.01.09, which was linked in an internal document.\n\nSeveral participants discussed contributor listing order and task assignments related to the release.",
+  "decisions": [],
+  "action_items": [
+    "Reviewer needs to confirm correct placement of contributors in the release notes."
+  ]
+}

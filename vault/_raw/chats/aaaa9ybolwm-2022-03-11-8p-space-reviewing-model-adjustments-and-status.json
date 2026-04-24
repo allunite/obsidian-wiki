@@ -1,0 +1,21 @@
+{
+  "chat_id": "AAAA9ybOLwM",
+  "kind": "Space",
+  "space_name": "ИТ",
+  "participants": 8,
+  "date_range": {
+    "start": "2022-03-11",
+    "end": "2022-03-11"
+  },
+  "message_count": 9,
+  "topic": "Reviewing model adjustments and status",
+  "topic_slug": "reviewing-model-adjustments-and-status",
+  "tags": [
+    "analytics"
+  ],
+  "summary_markdown": "The conversation confirms that two specific screens/areas were adjusted after being moved by the antennas. Someone proposed recalculating these areas and removing a 'low model' designation for them (specifically mentioning 679 and 675). It was confirmed that no changes were made to any other areas, meaning only the most problematic ones were addressed.",
+  "decisions": [
+    "Recalculate two specific screens/areas (679 and 675) and remove the 'low model' designation."
+  ],
+  "action_items": []
+}

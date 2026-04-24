@@ -1,0 +1,22 @@
+{
+  "chat_id": "i6YI1QAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 2,
+  "date_range": {
+    "start": "2024-02-05",
+    "end": "2024-02-05"
+  },
+  "message_count": 10,
+  "topic": "Calculating frequency formulas for Brazil",
+  "topic_slug": "calculating-frequency-formulas-for-brazil",
+  "tags": [
+    "analytics",
+    "campaign"
+  ],
+  "summary_markdown": "The conversation covered two distinct data analysis topics. First, a SQL query was provided to select device IDs that visited multiple facilities (where `ns > 1`) within specific date and vendor parameters. Second, a complex formula using `multiIf` was shared for calculating frequency metrics in Brazil, differentiating between Rio de Janeiro, São Paulo, and the general country level.",
+  "decisions": [
+    "A SQL query structure was provided to identify devices that visited multiple facilities."
+  ],
+  "action_items": []
+}

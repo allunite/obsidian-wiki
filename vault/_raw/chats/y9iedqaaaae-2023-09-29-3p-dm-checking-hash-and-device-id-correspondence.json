@@ -1,0 +1,23 @@
+{
+  "chat_id": "y9IEDQAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2023-09-29",
+    "end": "2023-09-29"
+  },
+  "message_count": 7,
+  "topic": "Checking hash and device ID correspondence",
+  "topic_slug": "checking-hash-and-device-id-correspondence",
+  "tags": [
+    "analytics"
+  ],
+  "summary_markdown": "The conversation focused on a technical query regarding data matching. [p1] asked if it was possible to quickly verify the correspondence between their provided hashes and existing device IDs. Later, [me] proposed a method: generating 10 million unique hashes and retrieving corresponding device IDs for comparison.",
+  "decisions": [
+    "A plan was established to test hash-to-device ID matching using a large sample size (10 million records)."
+  ],
+  "action_items": [
+    "[me] will discuss the technical implementation of the hash/device ID check with [p1]."
+  ]
+}

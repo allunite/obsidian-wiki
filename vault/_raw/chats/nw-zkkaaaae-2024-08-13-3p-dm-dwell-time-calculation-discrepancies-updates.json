@@ -1,0 +1,26 @@
+{
+  "chat_id": "nW_zkkAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2024-08-13",
+    "end": "2024-08-13"
+  },
+  "message_count": 20,
+  "topic": "Dwell time calculation discrepancies and updates",
+  "topic_slug": "dwell-time-calculation-discrepancies-updates",
+  "tags": [
+    "analytics",
+    "dwell-time",
+    "impression",
+    "campaign"
+  ],
+  "summary_markdown": "The discussion focused on improving analytics for dwell time and addressing data discrepancies. A large JSON payload containing date ranges and frame IDs was shared, likely related to campaign or inventory data.\n\n**Key Issues Discussed:**\n*   Problems with footfall and dwell time were noted in specific clusters (Cape Town International, Lanseria International Airport, Rustenburg taxi rank).\n*   A discussion occurred regarding the scope of client exposure: whether all clients with clusters are affected by the issue, regardless of network filters.\n*   The team discussed how to handle 'true' values when a filter excludes master data.\n\n**Decisions/Updates:**\n*   It was agreed that an update related to this topic would be released to beta testing the following day.",
+  "decisions": [
+    "An update addressing these issues will be pushed to beta testing tomorrow."
+  ],
+  "action_items": [
+    "Determine the estimated time required to modify the screen dwell time calculation for both the dashboard and impression reporting."
+  ]
+}

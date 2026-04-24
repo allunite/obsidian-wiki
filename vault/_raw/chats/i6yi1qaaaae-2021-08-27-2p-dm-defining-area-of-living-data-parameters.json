@@ -1,0 +1,24 @@
+{
+  "chat_id": "i6YI1QAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 2,
+  "date_range": {
+    "start": "2021-08-27",
+    "end": "2021-08-27"
+  },
+  "message_count": 48,
+  "topic": "Defining area of living data parameters",
+  "topic_slug": "defining-area-of-living-data-parameters",
+  "tags": [
+    "analytics",
+    "facility",
+    "area-of-living"
+  ],
+  "summary_markdown": "The discussion focused on refining the criteria for identifying 'Area of Living' (AoL) data. It was established that AoL should capture residential patterns, suggesting filtering data to include only working days and evening hours over a week period.\n\nRegarding specific facility types for AoL, it was decided to exclude malls entirely. The preferred facilities are Metro, Railway, City, and Bus Shelter, with the general consensus being to select all locations except shopping centers.",
+  "decisions": [
+    "Area of Living data should focus on working days and evening hours over a week period.",
+    "Facilities used for Area of Living analysis must exclude malls."
+  ],
+  "action_items": []
+}

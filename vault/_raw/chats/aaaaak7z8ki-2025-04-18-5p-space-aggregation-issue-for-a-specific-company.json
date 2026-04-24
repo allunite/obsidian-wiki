@@ -1,0 +1,19 @@
+{
+  "chat_id": "AAAAaK7z8KI",
+  "kind": "Space",
+  "space_name": "Group Chat",
+  "participants": 5,
+  "date_range": {
+    "start": "2025-04-18",
+    "end": "2025-04-18"
+  },
+  "message_count": 4,
+  "topic": "Aggregation issue for a specific company",
+  "topic_slug": "aggregation-issue-for-a-specific-company",
+  "tags": [
+    "analytics"
+  ],
+  "summary_markdown": "Someone reported an aggregation issue concerning data for a particular company. The nature of the error was discussed.",
+  "decisions": [],
+  "action_items": []
+}

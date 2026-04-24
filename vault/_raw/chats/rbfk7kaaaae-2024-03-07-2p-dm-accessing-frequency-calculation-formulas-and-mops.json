@@ -1,0 +1,26 @@
+{
+  "chat_id": "rBfK7kAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 2,
+  "date_range": {
+    "start": "2024-03-07",
+    "end": "2024-03-07"
+  },
+  "message_count": 6,
+  "topic": "Accessing frequency calculation formulas and mops",
+  "topic_slug": "accessing-frequency-calculation-formulas-and-mops",
+  "tags": [
+    "analytics",
+    "campaign",
+    "impression",
+    "frequency"
+  ],
+  "summary_markdown": "The conversation focused on locating the current formulas used for calculating frequency. [me] provided multiple links, including specific sections within GitHub repositories for both dashboards and campaigns, as well as a dedicated SQL file for the general frequency formula.\n\nAdditionally, when asked for access to mops, [me] agreed to check with the chief security officer.",
+  "decisions": [
+    "Links were provided for current frequency calculation formulas (dashboards, campaigns, and general SQL)."
+  ],
+  "action_items": [
+    "[me] will clarify access requirements for mops with the chief security officer."
+  ]
+}

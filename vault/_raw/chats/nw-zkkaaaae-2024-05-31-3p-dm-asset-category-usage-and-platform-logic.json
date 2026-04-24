@@ -1,0 +1,28 @@
+{
+  "chat_id": "nW_zkkAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2024-05-31",
+    "end": "2024-05-31"
+  },
+  "message_count": 29,
+  "topic": "Asset category usage and platform logic",
+  "topic_slug": "asset-category-usage-and-platform-logic",
+  "tags": [
+    "analytics",
+    "facility",
+    "campaign",
+    "recalc-ch"
+  ],
+  "summary_markdown": "The discussion centered on the internal use and client visibility of `asset_category` within the platform. Initially, it was noted that while clients no longer see or utilize this category directly, it remains crucial for system functions, including model building, filtering for admin traffic dashboards, and defining aggregation/recalculation exceptions across various facility types (airport, park, mall).\n\nA specific issue was raised regarding virtual facilities in the Brazil market: some are modeled without an assigned category. The client wants to maintain these uncategorized assets while also enabling them to appear as major facility types (like airports or malls) that require categorization.\n\nThe consensus leaned toward ensuring that even uncategorized facilities remain visible and functional within analytics, particularly for master facilities, by potentially assigning the category at the master level. However, due to concerns about potential conflicts with existing logic (specifically `footfall2` which uses categories), a cautious approach was recommended.",
+  "decisions": [
+    "The platform's core logic relies heavily on asset categories for filtering and aggregation across multiple facility types.",
+    "A temporary solution of assigning the category at the master facility level was proposed, but its feasibility requires thorough testing due to potential conflicts with existing analytics scripts."
+  ],
+  "action_items": [
+    "Thoroughly check if `footfall2` logic is impacted by setting a category on the master facility.",
+    "Test the implementation of assigning categories at the master level to ensure uncategorized facilities remain visible in analytics."
+  ]
+}

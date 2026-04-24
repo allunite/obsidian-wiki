@@ -1,0 +1,22 @@
+{
+  "chat_id": "AAQAxowAGrs",
+  "kind": "Space",
+  "space_name": "Weekly AllUnite status call - 16 Mar",
+  "participants": 30,
+  "date_range": {
+    "start": "2026-03-16",
+    "end": "2026-03-16"
+  },
+  "message_count": 19,
+  "topic": "Improving data accuracy and model foundation",
+  "topic_slug": "improving-data-accuracy-and-model-foundation",
+  "tags": [
+    "analytics",
+    "impression"
+  ],
+  "summary_markdown": "Discussion focused on improving the speed and accuracy of delivery. The core concept involves sequentially increasing accuracy by adding sensors in low-accuracy areas and integrating SDK data. The model foundation was discussed, noting that the product remains consistent even when transitioning from Version 1 to Version 2. Data quality is key, requiring methods like manual counting and utilizing SDK data. Initial efforts included training 1600 sensors, with subsequent discussion suggesting a reduction in both sensor count (down to 900) and reliance on SDK data (down to 50).",
+  "decisions": [
+    "The product version transition from V1 to V2 is noted."
+  ],
+  "action_items": []
+}

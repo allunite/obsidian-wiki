@@ -1,0 +1,19 @@
+{
+  "chat_id": "oq-w0kAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2024-09-26",
+    "end": "2024-09-26"
+  },
+  "message_count": 7,
+  "topic": "Discussion about chat message history",
+  "topic_slug": "discussion-about-chat-message-history",
+  "tags": [
+    "analytics"
+  ],
+  "summary_markdown": "The conversation focused on the technical handling of old campaign data and chat messages. Someone ([p1]) confirmed that they accessed a 'test campaign' from an old, annual date. This campaign was found to be in an incorrect format, leading [p1] to delete the associated messages. The rest of the discussion revolved around the general topic of deleted messages appearing as notifications on phones.",
+  "decisions": [],
+  "action_items": []
+}

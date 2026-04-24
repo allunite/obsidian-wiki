@@ -1,0 +1,27 @@
+{
+  "chat_id": "nW_zkkAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2024-05-23",
+    "end": "2024-05-23"
+  },
+  "message_count": 47,
+  "topic": "Data discrepancy and staging environment access",
+  "topic_slug": "data-discrepancy-staging-environment-access",
+  "tags": [
+    "analytics",
+    "impression",
+    "campaign"
+  ],
+  "summary_markdown": "The discussion centered on a data discrepancy, specifically concerning impressions that appeared to be lower than expected in recent reports. The participants reviewed the data using SQL queries and compared results across different environments (PROD, BETA, STAGE).\n\nIt was determined that the STAGE dataset matched the PROD dataset across most columns, with the exception of impression counts for the last couple of days of the month.\n\nThe conversation concluded with a discussion about unauthorized access to the STAGE environment, suggesting it should be restricted or limited only to administrators.",
+  "decisions": [
+    "The data discrepancy regarding impressions was identified as potentially stemming from the use of an incorrect dataset (STAGE).",
+    "It was decided that further investigation into who accessed the STAGE environment and why is necessary."
+  ],
+  "action_items": [
+    "Someone will check with Galyna to understand the necessity of access to the STAGE environment for the third party.",
+    "The possibility of restricting or limiting access to the STAGE environment was discussed."
+  ]
+}

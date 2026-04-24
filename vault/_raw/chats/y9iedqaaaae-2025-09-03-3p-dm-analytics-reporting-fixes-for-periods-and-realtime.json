@@ -1,0 +1,22 @@
+{
+  "chat_id": "y9IEDQAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2025-09-03",
+    "end": "2025-09-03"
+  },
+  "message_count": 11,
+  "topic": "Analytics reporting fixes for periods and realtime",
+  "topic_slug": "analytics-reporting-fixes-for-periods-and-realtime",
+  "tags": [
+    "analytics"
+  ],
+  "summary_markdown": "The discussion focused on two specific analytics issues: 'periods' and 'realtime'.\n\n1. **Periods Filter:** It was noted that the hourly filter for periods is currently not working within campaigns, which a client has observed.\n2. **Realtime Data:** The functionality of realtime data was discussed; it was mentioned that the feature had previously been problematic ('кривой') and might be better to wait on its implementation or fix until a permanent solution could be devised. A potential improvement for dashboards involves utilizing the 'active devices & total flow' block located in the upper left corner.\n\n[me] also shared a link to a task created in ClickUp.",
+  "decisions": [
+    "The hourly filter for periods needs fixing within campaigns.",
+    "Realtime data implementation/fix should be postponed until a stable, permanent solution is available."
+  ],
+  "action_items": []
+}

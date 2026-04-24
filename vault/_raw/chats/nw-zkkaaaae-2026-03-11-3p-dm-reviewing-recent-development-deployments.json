@@ -1,0 +1,22 @@
+{
+  "chat_id": "nW_zkkAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2026-03-11",
+    "end": "2026-03-11"
+  },
+  "message_count": 10,
+  "topic": "Reviewing recent development deployments",
+  "topic_slug": "reviewing-recent-development-deployments",
+  "tags": [
+    "analytics",
+    "campaign"
+  ],
+  "summary_markdown": "The conversation focused on the status of recently deployed features and fixes. [p1] confirmed that, from their perspective, everything looked okay after reviewing a link to a development task (DEV-225). Later, issues related to neighboring components were identified and confirmed to be included in the deployment. [me] noted these problems but stated they were acceptable.",
+  "decisions": [
+    "The current state of the deployments was deemed satisfactory by [p1]."
+  ],
+  "action_items": []
+}

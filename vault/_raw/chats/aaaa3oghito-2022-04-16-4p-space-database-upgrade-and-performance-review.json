@@ -1,0 +1,25 @@
+{
+  "chat_id": "AAAA3oghITo",
+  "kind": "Space",
+  "space_name": "Кабаны",
+  "participants": 4,
+  "date_range": {
+    "start": "2022-04-16",
+    "end": "2022-04-16"
+  },
+  "message_count": 42,
+  "topic": "Database upgrade and performance review",
+  "topic_slug": "database-upgrade-and-performance-review",
+  "tags": [
+    "analytics",
+    "impression",
+    "campaign"
+  ],
+  "summary_markdown": "The team conducted a database upgrade, which was reported to be successful. Initial concerns about connection warnings (RaftInstance: Election timeout) were noted in the logs but did not prevent data viewing.\n\nPerformance testing revealed that complex queries using `select *` are slow and prone to timeouts on large tables (`raw_devices_seen`). It was recommended that users specify only necessary fields instead of selecting all columns, as this is inefficient for column storage databases. The upgrade process itself was deemed a successful 'simple' upgrade.\n\nDiscussion also covered general infrastructure topics, including potential GitHub access restrictions and upcoming Ubuntu LTS deadlines.",
+  "decisions": [
+    "The database upgrade was completed successfully."
+  ],
+  "action_items": [
+    "Users should avoid using `select *` in queries to improve performance on column storage databases."
+  ]
+}

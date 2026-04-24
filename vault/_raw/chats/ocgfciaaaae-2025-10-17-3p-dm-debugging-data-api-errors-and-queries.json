@@ -1,0 +1,24 @@
+{
+  "chat_id": "oCgFCIAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2025-10-17",
+    "end": "2025-10-17"
+  },
+  "message_count": 6,
+  "topic": "Debugging data API errors and queries",
+  "topic_slug": "debugging-data-api-errors-and-queries",
+  "tags": [
+    "analytics",
+    "mops"
+  ],
+  "summary_markdown": "The conversation focused on debugging a persistent issue with the data API, specifically related to ClickHouse query errors (e.g., `Unknown expression identifier frame_data_period_filtered`). [p1] noted that the error is reproducible and appears frequently in the logs, suggesting it has been an ongoing problem for about a month.\n\n[me] addressed the issue by making fixes and pushing them to both relevant branches. [p1] directed [me] to a specific task ticket (DEV-136) detailing the bug.",
+  "decisions": [
+    "The data API errors were fixed and pushed to both development branches."
+  ],
+  "action_items": [
+    "Review and address the persistent ClickHouse query error detailed in task DEV-136."
+  ]
+}

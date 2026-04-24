@@ -1,0 +1,19 @@
+{
+  "chat_id": "y9IEDQAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2024-05-15",
+    "end": "2024-05-15"
+  },
+  "message_count": 8,
+  "topic": "Accessing kube via MFA console",
+  "topic_slug": "accessing-kube-via-mfa-console",
+  "tags": [
+    "analytics"
+  ],
+  "summary_markdown": "The conversation confirms that accessing kube requires Multi-Factor Authentication (MFA). [p1] provided instructions to run the `aws-mfa` command in the console.",
+  "decisions": [],
+  "action_items": []
+}

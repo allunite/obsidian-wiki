@@ -1,0 +1,23 @@
+{
+  "chat_id": "mQzF6wAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 2,
+  "date_range": {
+    "start": "2024-06-03",
+    "end": "2024-06-03"
+  },
+  "message_count": 20,
+  "topic": "Investigating missing data on advertising boards",
+  "topic_slug": "investigating-missing-data-on-advertising-boards",
+  "tags": [
+    "analytics",
+    "frame",
+    "impression"
+  ],
+  "summary_markdown": "The conversation focused on troubleshooting why certain advertising boards were showing zero data. Concerns were raised about potential changes to frame parameters or over-aggregation of production data.\n\nSomeone confirmed that the issue was not due to system changes and began checking the data aggregation process. The scope of the missing data was identified as affecting multiple locations, including airports and transit areas. It was noted that the issue stemmed from client complaints.",
+  "decisions": [
+    "The cause of the zero-data display on boards was investigated and determined not to be a system error or parameter change."
+  ],
+  "action_items": []
+}

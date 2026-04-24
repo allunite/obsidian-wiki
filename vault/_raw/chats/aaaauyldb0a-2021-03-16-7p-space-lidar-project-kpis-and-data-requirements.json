@@ -1,0 +1,24 @@
+{
+  "chat_id": "AAAAuyldb0A",
+  "kind": "Space",
+  "space_name": "Lidar development",
+  "participants": 7,
+  "date_range": {
+    "start": "2021-03-16",
+    "end": "2021-03-16"
+  },
+  "message_count": 23,
+  "topic": "Lidar project KPIs and data requirements",
+  "topic_slug": "lidar-project-kpis-and-data-requirements",
+  "tags": [
+    "analytics",
+    "dwell-time",
+    "impression"
+  ],
+  "summary_markdown": "The Lidar project is progressing, with discussions focused on concrete setup in the Netherlands. Key Performance Indicators (KPIs) for traffic analysis were discussed, including pedestrian traffic, bicycle traffic, car traffic, and bus traffic, along with direction of movement and total traffic.\n\nIt was noted that distinguishing between buses and cars might be challenging. The most critical distinction required is between pedestrians and vehicles. Additional KPIs requested include an impression model by corporation (corp), dwell time measured via Wi-Fi, speed of movement, and the design of a dashboard.",
+  "decisions": [
+    "Focus on differentiating pedestrian traffic from vehicle traffic as the primary goal.",
+    "Include an impression model by corp, dwell time (via Wi-Fi), and speed of movement in the analysis."
+  ],
+  "action_items": []
+}

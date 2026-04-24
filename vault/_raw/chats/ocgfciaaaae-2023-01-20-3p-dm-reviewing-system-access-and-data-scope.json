@@ -1,0 +1,29 @@
+{
+  "chat_id": "oCgFCIAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2023-01-20",
+    "end": "2023-01-20"
+  },
+  "message_count": 38,
+  "topic": "Reviewing system access and data scope",
+  "topic_slug": "reviewing-system-access-and-data-scope",
+  "tags": [
+    "analytics",
+    "inventory",
+    "campaign"
+  ],
+  "summary_markdown": "The participants reviewed various sections of a system, focusing on setting appropriate access levels and defining data scopes for different features.\n\n*   **Access Levels:** Decisions were made regarding percentage access for specific modules (e.g., 50% for [unknown] Management; 100% for Implement Design).\n*   **Data Scope:** The scope of the 'Inventory Management' section was discussed, noting that while some data is in the database, only a transition table and rights remain to be captured.\n*   **Testing/Bugs:** Issues were identified on the sandbox environment, including an error regarding the missing `inventory_log` table. One participant spent time debugging another user's export functionality for charts, finding that selecting blocks at the top in 'widget-value' was necessary for correct operation.",
+  "decisions": [
+    "Set access level for [unknown] Management to 50%.",
+    "Set access level for Implement Design to 100%.",
+    "Set import access level to 95% (due to not being deployed to production).",
+    "Identify that the scope of 'Inventory Management' needs refinement, focusing on transition tables and rights."
+  ],
+  "action_items": [
+    "The participants need to follow up with a third party regarding specific modules.",
+    "Further testing is required for the system components."
+  ]
+}

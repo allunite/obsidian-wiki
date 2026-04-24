@@ -1,0 +1,24 @@
+{
+  "chat_id": "y9IEDQAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2025-04-15",
+    "end": "2025-04-15"
+  },
+  "message_count": 14,
+  "topic": "Dashboard data retrieval issues for Brazil",
+  "topic_slug": "dashboard-data-retrieval-issues-for-brazil",
+  "tags": [
+    "analytics",
+    "facility"
+  ],
+  "summary_markdown": "The conversation addressed technical issues encountered when displaying data on the dashboard, specifically concerning POI (Point of Interest) radius calculations for Brazil. The current implementation frequently generates excessive facility data, causing the 'get' function to overflow and resulting in an error 431. It was discussed that future development might require considering a POST request method instead of relying solely on GET requests for data retrieval.",
+  "decisions": [
+    "The technical issue regarding POI radius calculation and dashboard overflow (Error 431) needs resolution."
+  ],
+  "action_items": [
+    "Investigate alternative methods (e.g., POST request) to retrieve data instead of relying on GET requests for the dashboard."
+  ]
+}

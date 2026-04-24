@@ -1,0 +1,26 @@
+{
+  "chat_id": "y9IEDQAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2025-05-20",
+    "end": "2025-05-20"
+  },
+  "message_count": 72,
+  "topic": "Analyzing discrepancy in historical report data",
+  "topic_slug": "analyzing-discrepancy-historical-report-data",
+  "tags": [
+    "analytics",
+    "impression",
+    "facility",
+    "campaign"
+  ],
+  "summary_markdown": "The discussion focused on discrepancies found when comparing historical report data, specifically regarding hourly and monthly averages. Initial checks revealed that the numbers did not match across different reports.\n\nLater investigation determined that a significant portion of the required data (impressions for frames) was actually missing from the database until March 24th. This absence caused the initial discrepancies, which were mistakenly attributed to time zone changes or Excel transposition errors.\n\nThe team confirmed that the correct source for facility-related data should be the aggregate report, not the model output, as the numbers differ between the two sources.\n\nFinally, it was noted that the format developed for one client (Tractor) is intended to be used for other clients (ROHM), requiring continued development.",
+  "decisions": [
+    "The discrepancy in historical report data was caused by missing impression records in the database before March 24th."
+  ],
+  "action_items": [
+    "Complete the analysis and deliver the demographic data for Vivo to Louis (due tomorrow)."
+  ]
+}

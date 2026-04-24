@@ -1,0 +1,23 @@
+{
+  "chat_id": "6ize28AAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2025-11-24",
+    "end": "2025-11-24"
+  },
+  "message_count": 24,
+  "topic": "Analytics deployment and debugging issues",
+  "topic_slug": "analytics-deployment-and-debugging-issues",
+  "tags": [
+    "analytics",
+    "campaign"
+  ],
+  "summary_markdown": "The conversation focused on deploying and testing analytics functionality. Initial checks revealed an error in Tower regarding incorrect or missing City data. [me] addressed the issue, suggesting a cache bypass method. The fix was deployed to staging, followed by deployment to production (prod). Despite multiple attempts, [p1] reported that the functionality remained at 'frikv 1' on both staging and production environments, requiring repeated checks and debugging efforts.",
+  "decisions": [
+    "The analytics feature was fixed and deployed to staging.",
+    "The analytics feature was subsequently deployed to production."
+  ],
+  "action_items": []
+}

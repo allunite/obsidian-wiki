@@ -1,0 +1,19 @@
+{
+  "chat_id": "y9IEDQAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2022-02-15",
+    "end": "2022-02-15"
+  },
+  "message_count": 10,
+  "topic": "Sandbox authentication failure troubleshooting",
+  "topic_slug": "sandbox-authentication-failure-troubleshooting",
+  "tags": [
+    "analytics"
+  ],
+  "summary_markdown": "The conversation focused on diagnosing a 'Failed to authenticate' error encountered in the sandbox environment. The logs showed multiple connection attempts followed by an `AUTH: Received control message: AUTH_FAILED` and subsequent process exit.\n\nIt was determined that the failure occurred because [me] attempted to connect simultaneously from two different computers, which resulted in being blocked on both machines.",
+  "decisions": [],
+  "action_items": []
+}

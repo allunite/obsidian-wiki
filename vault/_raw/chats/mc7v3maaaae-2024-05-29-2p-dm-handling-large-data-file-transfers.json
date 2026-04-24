@@ -1,0 +1,23 @@
+{
+  "chat_id": "mc7V3MAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 2,
+  "date_range": {
+    "start": "2024-05-29",
+    "end": "2024-05-29"
+  },
+  "message_count": 12,
+  "topic": "Handling large data file transfers",
+  "topic_slug": "handling-large-data-file-transfers",
+  "tags": [
+    "analytics"
+  ],
+  "summary_markdown": "The discussion focused on the company's process for handling large data files. [me] confirmed that while Google Drive is used for small/medium files, large files are generated internally and uploaded to Amazon S3.\n[p1] clarified that the need was only for a one-time transfer of sample files from a data provider, not a regular setup.\n[me] suggested that Anatolii could assist by creating a public bucket on S3 and offered to contact him to facilitate communication with [p1].",
+  "decisions": [
+    "Large data files are uploaded to Amazon S3."
+  ],
+  "action_items": [
+    "Someone will write to Anatolii regarding setting up an S3 public bucket for [p1]"
+  ]
+}

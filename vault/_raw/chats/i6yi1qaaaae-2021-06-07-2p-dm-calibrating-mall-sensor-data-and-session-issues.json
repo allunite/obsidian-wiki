@@ -1,0 +1,28 @@
+{
+  "chat_id": "i6YI1QAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 2,
+  "date_range": {
+    "start": "2021-06-07",
+    "end": "2021-06-07"
+  },
+  "message_count": 45,
+  "topic": "Calibrating mall sensor data and session issues",
+  "topic_slug": "calibrating-mall-sensor-data-and-session-issues",
+  "tags": [
+    "analytics",
+    "dwell-time",
+    "session",
+    "recalc-ch",
+    "facility"
+  ],
+  "summary_markdown": "The discussion focused on calibrating sensor data for a mall location (Mall Litvy) and addressing historical data discrepancies. \n\n*   **Calibration:** The immediate need is to apply the calibration using sensors, with the understanding that the system should calculate future data based on this new signal level without requiring a full historical recalculation.\n*   **Data Discrepancies:** It was noted that there is currently a synchronization issue between raw sessions and the data model, which affects the accuracy of unique counts and dwell time ratios starting tomorrow. \n*   **Historical Issue:** A known bug regarding session breaks and new session starts at midnight (00:00) due to recalculations was discussed; this issue will be addressed in a future release but requires further investigation.",
+  "decisions": [
+    "Apply the calibration using sensors for the mall location starting tomorrow's data.",
+    "The system should calculate future data based on the new calibration without full historical reprocessing."
+  ],
+  "action_items": [
+    "Investigate the session break/recalculation bug that occurs at midnight (00:00)."
+  ]
+}

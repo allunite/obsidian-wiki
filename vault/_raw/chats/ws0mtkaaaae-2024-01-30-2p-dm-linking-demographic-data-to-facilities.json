@@ -1,0 +1,22 @@
+{
+  "chat_id": "ws0mTkAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 2,
+  "date_range": {
+    "start": "2024-01-30",
+    "end": "2024-01-30"
+  },
+  "message_count": 9,
+  "topic": "Linking demographic data to facilities",
+  "topic_slug": "linking-demographic-data-to-facilities",
+  "tags": [
+    "facility",
+    "analytics"
+  ],
+  "summary_markdown": "The conversation focused on integrating demographic data provided by TGI. This data includes mall names and 'taxi ranks' (which refers to taxi depots/services). The goal is to link this external demographic information to existing facility records, a process [me] needed assistance with.",
+  "decisions": [],
+  "action_items": [
+    "Determine how to map TGI-provided mall names and taxi rank data to internal facility IDs."
+  ]
+}

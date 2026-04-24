@@ -1,0 +1,21 @@
+{
+  "chat_id": "AAAAE6wwLnU",
+  "kind": "Space",
+  "space_name": "Finnish meeting preparation",
+  "participants": 5,
+  "date_range": {
+    "start": "2022-08-29",
+    "end": "2022-08-29"
+  },
+  "message_count": 9,
+  "topic": "Meeting planning and availability check",
+  "topic_slug": "meeting-planning-and-availability-check",
+  "tags": [
+    "analytics"
+  ],
+  "summary_markdown": "The conversation started with general greetings. Later, the focus shifted to creating a plan for an upcoming round of work. A request was made regarding someone's availability.",
+  "decisions": [],
+  "action_items": [
+    "Determine time slot for planning session."
+  ]
+}

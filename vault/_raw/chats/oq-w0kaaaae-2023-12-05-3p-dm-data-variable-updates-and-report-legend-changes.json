@@ -1,0 +1,25 @@
+{
+  "chat_id": "oq-w0kAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2023-12-05",
+    "end": "2023-12-05"
+  },
+  "message_count": 7,
+  "topic": "Data variable updates and report legend changes",
+  "topic_slug": "data-variable-updates-and-report-legend-changes",
+  "tags": [
+    "analytics"
+  ],
+  "summary_markdown": "The conversation covered technical adjustments to data variables. Specifically, [me] noted that the `targetFactor` property was changed to `targetPercent`, and a new combined age variable (`age`) was introduced (calculated as `fage+mage`). \n\nAdditionally, [me] instructed that the report legend should use specific demographic variable ranges (e.g., 20-30, 30-40, A1) instead of letters from a screenshot. Later, [me] requested that the labels 'pop' and 'campagna' be replaced with 'Population & Campaign'.",
+  "decisions": [
+    "Replace 'targetFactor' with 'targetPercent' in data variables.",
+    "Use specific demographic variable ranges (e.g., 20-30) in report legend instead of letters from a screenshot.",
+    "Change labels 'pop' and 'campagna' to 'Population & Campaign'."
+  ],
+  "action_items": [
+    "[p1] to review the changes and update client code as necessary."
+  ]
+}

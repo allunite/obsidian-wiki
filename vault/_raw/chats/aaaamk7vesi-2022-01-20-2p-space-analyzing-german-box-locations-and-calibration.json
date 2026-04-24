@@ -1,0 +1,26 @@
+{
+  "chat_id": "AAAAmK7VEsI",
+  "kind": "Space",
+  "space_name": "Group Chat",
+  "participants": 2,
+  "date_range": {
+    "start": "2022-01-20",
+    "end": "2022-01-20"
+  },
+  "message_count": 15,
+  "topic": "Analyzing German box locations and calibration",
+  "topic_slug": "analyzing-german-box-locations-and-calibration",
+  "tags": [
+    "analytics",
+    "facility",
+    "campaign"
+  ],
+  "summary_markdown": "The discussion focused on analyzing the behavior and potential issues of specific advertising box locations in Germany (Germany boxes). A list of problematic boxes was shared via a document link. Someone requested assistance identifying other remaining boxes that are similar to two specified locations: JCD_DE_120804 and JCD_DE_120848, particularly concerning their environment and proximity.\n\n[me] inquired whether the calibration or factor for JCD_DE_120804 and JCD_DE_120848 had changed since November. It was noted that no changes were made to the model, but the calibration was updated to a 40-meter radius during a model release. The closest suggested matches were provided: 120885 (near 12084) and 122480 (near 120848).",
+  "decisions": [
+    "Identified potential similar box locations near JCD_DE_120804 and JCD_DE_120848."
+  ],
+  "action_items": [
+    "Someone needs to review the suggested boxes (120885, 122480) for similarity to the target locations.",
+    "Review historical calibration changes for specific German box IDs."
+  ]
+}

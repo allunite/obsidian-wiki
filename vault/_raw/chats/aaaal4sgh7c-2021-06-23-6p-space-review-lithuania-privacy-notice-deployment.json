@@ -1,0 +1,23 @@
+{
+  "chat_id": "AAAAl4SgH7c",
+  "kind": "Space",
+  "space_name": "Lithuania_old",
+  "participants": 6,
+  "date_range": {
+    "start": "2021-06-23",
+    "end": "2021-06-23"
+  },
+  "message_count": 4,
+  "topic": "Review of Lithuania privacy notice deployment",
+  "topic_slug": "review-lithuania-privacy-notice-deployment",
+  "tags": [
+    "analytics"
+  ],
+  "summary_markdown": "Someone shared the Privacy Notes for Lithuania (LT) deployed on staging. The date was confirmed to be May 11, 2021. [p3] reviewed the notes and found them acceptable for production deployment.",
+  "decisions": [
+    "The Lithuania privacy notice is approved for production deployment."
+  ],
+  "action_items": [
+    "[me] needs to send shortlinks for both the Notice page and Opt-out page to [p3]."
+  ]
+}

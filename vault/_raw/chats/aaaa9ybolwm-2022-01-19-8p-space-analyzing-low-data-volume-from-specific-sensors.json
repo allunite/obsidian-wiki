@@ -1,0 +1,24 @@
+{
+  "chat_id": "AAAA9ybOLwM",
+  "kind": "Space",
+  "space_name": "ИТ",
+  "participants": 8,
+  "date_range": {
+    "start": "2022-01-19",
+    "end": "2022-01-19"
+  },
+  "message_count": 6,
+  "topic": "Analyzing low data volume from specific sensors",
+  "topic_slug": "analyzing-low-data-volume-from-specific-sensors",
+  "tags": [
+    "analytics",
+    "impression"
+  ],
+  "summary_markdown": "The discussion focused on analyzing data streams, noting that some individual sources were reporting significantly lower traffic volumes compared to others. Specifically, sensor IDs 001E42282B22 and 001e422d05ff were identified as problematic due to low data volume. One participant noted difficulty in modeling these specific sensors because the physical location had many people nearby but received very little traffic data. It was also mentioned that Wi-Fi signal strength degrades after about 10 meters at those locations.\n\nA follow-up action item was established to check the dashboard data after a fix is implemented, ensuring that problematic sensors do not cause erratic readings.",
+  "decisions": [
+    "Sensor IDs 001E42282B22 and 001e422d05ff are flagged as having low/problematic data volume."
+  ],
+  "action_items": [
+    "Check dashboard data after the fix to prevent problematic sensors from causing erratic readings."
+  ]
+}

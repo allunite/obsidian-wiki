@@ -1,0 +1,24 @@
+{
+  "chat_id": "0VorOYAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2024-05-28",
+    "end": "2024-05-28"
+  },
+  "message_count": 5,
+  "topic": "Campaign analysis date range logic",
+  "topic_slug": "campaign-analysis-date-range-logic",
+  "tags": [
+    "analytics",
+    "campaign"
+  ],
+  "summary_markdown": "A client asked whether the analysis period's days of the week should match the campaign period, or if the standard remains Monday to Sunday. The core question was whether metrics are calculated based on a 'shifted' week when the start date is not Monday, or if an average based on a full classic week is always used.\n\nThe discussion confirmed that the desired range can likely be specified in the 'choose start date' function. However, it was noted that the logic for this feature resides within the campaign editor and is managed by specific team members.",
+  "decisions": [
+    "The analysis period should ideally match the campaign period dates."
+  ],
+  "action_items": [
+    "Confirm the exact date range handling logic with the development team responsible for the campaign editor."
+  ]
+}

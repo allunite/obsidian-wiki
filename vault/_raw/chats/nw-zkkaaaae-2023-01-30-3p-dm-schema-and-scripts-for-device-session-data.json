@@ -1,0 +1,26 @@
+{
+  "chat_id": "nW_zkkAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2023-01-30",
+    "end": "2023-01-30"
+  },
+  "message_count": 17,
+  "topic": "Schema and scripts for device session data",
+  "topic_slug": "schema-and-scripts-for-device-session-data",
+  "tags": [
+    "analytics",
+    "inventory",
+    "facility"
+  ],
+  "summary_markdown": "The conversation focused on providing a new Data Scientist with access to the procedure and scripts for populating the `allunite.device_session_concept` table.\n\n*   **Data Structure:** The core structure involves creating two tables: `allunite.device_session_concept_sharded` (the physical storage) and `allunite.device_session_concept` (the distributed view).\n*   **Schema Details:** The provided schema includes fields like `session_start`, `session_duration`, `device_id`, `facility_num`, `company_num`, and various boolean flags (`is_local`, `is_trusted`, etc.).\n*   **Maintenance Note:** Someone noted that the current data storage and processing scheme is undergoing a revamp, which may change the table structure and population script within the next month, though the fundamental principles will remain similar.\n*   **Resources Shared:** Multiple GitHub links were shared containing relevant scripts (`recalc_ch`, `recalc_ch_agg`).",
+  "decisions": [
+    "The current schema for device session data was provided to the new Data Scientist.",
+    "The physical table structure (`device_session_concept_sharded`) and distributed view (`device_session_concept`) were confirmed."
+  ],
+  "action_items": [
+    "Review the shared GitHub scripts and schemas for understanding the device session data flow."
+  ]
+}

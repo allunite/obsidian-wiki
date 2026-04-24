@@ -1,0 +1,26 @@
+{
+  "chat_id": "AAAAOcKWvdA",
+  "kind": "Space",
+  "space_name": "Delivery Coordination",
+  "participants": 14,
+  "date_range": {
+    "start": "2023-08-31",
+    "end": "2023-08-31"
+  },
+  "message_count": 21,
+  "topic": "Improving ML traffic prediction job parameters",
+  "topic_slug": "improving-ml-traffic-prediction-job-parameters",
+  "tags": [
+    "analytics",
+    "campaign",
+    "impression"
+  ],
+  "summary_markdown": "The conversation focused on improving the process for running the `ml_traffic_prediction` job. Currently, the job runs automatically with fixed parameters.\n\nIt was proposed that the Rundeck job should be modified to accept dynamic parameters, making it easier for users to run predictions for specific scenarios.\n\nDesired parameters include: date range (`date_start`, `date_end`), list of company numbers (`company_nums`), categories, and potentially a signal level (`sl`).\n\nRegarding the signal level (`sl`), one participant noted that while it can be manually changed in SQL for testing purposes (without full recalibration), integrating dynamic parameter passing is complex due to data changes.\n\nOne participant confirmed that the job *can* accept parameters via command line arguments, and the main remaining task is implementing filtering by company number.",
+  "decisions": [
+    "The `ml_traffic_prediction` job should be updated to accept dynamic parameters (date range, company list) via Rundeck."
+  ],
+  "action_items": [
+    "Someone needs to modify the script/job logic to accept and utilize command-line parameters for date ranges and company numbers.",
+    "The team running the job will configure the Rundeck job to pass these new parameters."
+  ]
+}

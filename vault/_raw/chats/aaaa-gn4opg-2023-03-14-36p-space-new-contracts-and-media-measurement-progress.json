@@ -1,0 +1,25 @@
+{
+  "chat_id": "AAAA-gn4oPg",
+  "kind": "Space",
+  "space_name": "General and random",
+  "participants": 36,
+  "date_range": {
+    "start": "2023-03-14",
+    "end": "2023-03-14"
+  },
+  "message_count": 12,
+  "topic": "New contracts and media measurement progress",
+  "topic_slug": "new-contracts-and-media-measurement-progress",
+  "tags": [
+    "campaign",
+    "inventory",
+    "analytics"
+  ],
+  "summary_markdown": "Multiple new business developments were announced, including a signed PO in South Africa. Progress was also reported with Bite (a retailer of telecom services) in Latvia, which has signed a contract for track-to-store measurement and is onboarding a third local visual media player. This partnership will allow the use of data from three OOH media players within one country to measure ad effectiveness.\n\nA separate update shared Mazda's video regarding the CPH case study, highlighting Lidar and Dashboard features.",
+  "decisions": [
+    "None"
+  ],
+  "action_items": [
+    "Share Mazda's CPH case study link (https://mazdashare.com/nextcloud/s/EiJLBCowN69orT3) carefully due to pending approval."
+  ]
+}

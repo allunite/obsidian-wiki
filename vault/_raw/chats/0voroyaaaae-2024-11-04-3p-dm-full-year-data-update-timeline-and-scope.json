@@ -1,0 +1,24 @@
+{
+  "chat_id": "0VorOYAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2024-11-04",
+    "end": "2024-11-04"
+  },
+  "message_count": 6,
+  "topic": "Full year data update timeline and scope",
+  "topic_slug": "full-year-data-update-timeline-and-scope",
+  "tags": [
+    "analytics",
+    "campaign"
+  ],
+  "summary_markdown": "The discussion centered on the status of a task requiring a full year of historical data. It was noted that while the due date for this task is listed as November 6th, it is not included in the current release scope.\n\nParticipants agreed that the work should not be rushed to meet the immediate release deadline. The individual responsible stated they would focus on the task immediately after the release period.\n\nRegarding the timeline, a full month of October data could potentially be used, but participants suggested coordinating the start date carefully to allow time for review and testing.",
+  "decisions": [
+    "The full year data analysis is not required for the immediate product release."
+  ],
+  "action_items": [
+    "Someone will coordinate with [p1] to select an appropriate starting period for the full year data analysis."
+  ]
+}

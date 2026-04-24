@@ -1,0 +1,28 @@
+{
+  "chat_id": "AAAAOcKWvdA",
+  "kind": "Space",
+  "space_name": "Delivery Coordination",
+  "participants": 14,
+  "date_range": {
+    "start": "2023-03-30",
+    "end": "2023-03-30"
+  },
+  "message_count": 24,
+  "topic": "Analytics display options for inventory data",
+  "topic_slug": "analytics-display-options-for-inventory-data",
+  "tags": [
+    "analytics",
+    "impression",
+    "frame",
+    "segment",
+    "inventory"
+  ],
+  "summary_markdown": "The discussion focused on refining the display of inventory analytics, specifically regarding traffic data derived from frames and segments. It was clarified that the displayed statistics are based on average data over the previous 12 weeks (a quarter) and represent real sensor or modeled data, not forecasts. The calculation method for orientation angle is confirmed to be Relative Orientation Tracking System (ROTS), depending on visibility zone and movement direction.\n\nRegarding display structure, it was noted that statistics can be shown both by segment and by frame. A key issue identified was the lack of a segment table in one proposed version. For data visualization, initial suggestions included using relative weights to distribute screen traffic across frames or segments, but this is contingent on receiving partner data.\n\nThe group discussed optimizing the UI for presenting multiple graphs (e.g., two different types). Suggestions ranged from creating multiple tabs, adding a third tab for impressions, or implementing a toggle switch to show one of several graph types.",
+  "decisions": [
+    "Statistics are based on average data over the previous 12 weeks (a quarter) and are not forecasts.",
+    "The calculation for orientation angle uses ROTS, factoring in visibility zone and movement direction."
+  ],
+  "action_items": [
+    "Determine if segment-based analytics should be displayed alongside or instead of frame-based traffic data."
+  ]
+}

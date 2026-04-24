@@ -1,0 +1,25 @@
+{
+  "chat_id": "oCgFCIAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2021-11-16",
+    "end": "2021-11-16"
+  },
+  "message_count": 8,
+  "topic": "Data reimporting and validation status",
+  "topic_slug": "data-reimporting-and-validation-status",
+  "tags": [
+    "analytics",
+    "impression",
+    "campaign"
+  ],
+  "summary_markdown": "The discussion centered on the need to prompt a client (jdecaus) to reimport previously lost data from the previous Thursday, which had been restored. The participants discussed how to phrase this request and whether to include additional missing data found for October 7th. A decision was made not to communicate with the client regarding any missing data until their development team validates the current set of data.",
+  "decisions": [
+    "Do not write to the client about reimporting data until their dev team has validated the existing data."
+  ],
+  "action_items": [
+    "Re-run the import for the missing Thursday's data and the October 7th data simultaneously once validation is complete."
+  ]
+}

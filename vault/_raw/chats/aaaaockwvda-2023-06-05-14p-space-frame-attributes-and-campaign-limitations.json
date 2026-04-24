@@ -1,0 +1,24 @@
+{
+  "chat_id": "AAAAOcKWvdA",
+  "kind": "Space",
+  "space_name": "Delivery Coordination",
+  "participants": 14,
+  "date_range": {
+    "start": "2023-06-05",
+    "end": "2023-06-05"
+  },
+  "message_count": 15,
+  "topic": "Frame attributes and campaign limitations",
+  "topic_slug": "frame-attributes-and-campaign-limitations",
+  "tags": [
+    "frame",
+    "analytics"
+  ],
+  "summary_markdown": "The discussion centered on interpreting feedback regarding 'Frames lighting type' (Digital vs. Analog). It was clarified that if the ad area is static, animated, or full motion, these are considered campaign attributes rather than frame attributes.\n\nParticipants discussed the feasibility of automatically limiting animated campaigns to only digital screens using existing data. A concern was raised about how to request clients to fill out 'Frames lighting type' when it might not be necessary. It was noted that some screen types (like movement) were already available in the system, but others (like lighting/illumination) needed clarification.",
+  "decisions": [
+    "The classification of ad area attributes (static, animated, full motion) should be treated as campaign attributes, not frame attributes."
+  ],
+  "action_items": [
+    "Follow up on the discussion regarding campaigns and progress before a demo, potentially scheduling a call for the next day."
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "chat_id": "AAAARP8w-KE",
+  "kind": "Space",
+  "space_name": "Problematic sensors",
+  "participants": 14,
+  "date_range": {
+    "start": "2023-03-22",
+    "end": "2023-03-22"
+  },
+  "message_count": 8,
+  "topic": "Device monitoring dashboard link and alerts",
+  "topic_slug": "device-monitoring-dashboard-link-and-alerts",
+  "tags": [
+    "analytics",
+    "facility"
+  ],
+  "summary_markdown": "A discussion occurred regarding device monitoring for boxes with low packet rates. A specific dashboard link was shared, allowing participants to view the status of devices. One participant noted that they were still making minor adjustments to this dashboard.",
+  "decisions": [
+    "A dashboard link for viewing device statuses was provided."
+  ],
+  "action_items": [
+    "One participant will continue refining the device monitoring dashboard."
+  ]
+}

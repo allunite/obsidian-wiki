@@ -1,0 +1,19 @@
+{
+  "chat_id": "y9IEDQAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2022-11-07",
+    "end": "2022-11-07"
+  },
+  "message_count": 10,
+  "topic": "VPN client functionality and setup",
+  "topic_slug": "vpn-client-functionality-and-setup",
+  "tags": [
+    "analytics"
+  ],
+  "summary_markdown": "The conversation focused on the operational status of an OpenVPN client. [me] confirmed that the client has been working reliably recently, without major issues. When questioned about setup details, [me] specified that the process generating I/O activity is run under a standard user context, even though the user account itself has administrative privileges. The configuration files were encrypted using NTFS.",
+  "decisions": [],
+  "action_items": []
+}

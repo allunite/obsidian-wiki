@@ -1,0 +1,22 @@
+{
+  "chat_id": "0VorOYAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2022-02-17",
+    "end": "2022-02-17"
+  },
+  "message_count": 9,
+  "topic": "Retrieving session factors for Spain",
+  "topic_slug": "retrieving-session-factors-for-spain",
+  "tags": [
+    "analytics",
+    "factor"
+  ],
+  "summary_markdown": "The conversation focused on determining the correct device session factor used for Spain. [me] provided a specific value (3.66) and confirmed it was standard for JCD HQ. Furthermore, [me] shared a detailed SQL script designed to extract various session factors for both facilities and companies within the system.",
+  "decisions": [
+    "The current device session factor for Spain is 3.66 (standard for JCD HQ)."
+  ],
+  "action_items": []
+}

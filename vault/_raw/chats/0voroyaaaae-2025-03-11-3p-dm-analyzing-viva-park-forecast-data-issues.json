@@ -1,0 +1,24 @@
+{
+  "chat_id": "0VorOYAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2025-03-11",
+    "end": "2025-03-11"
+  },
+  "message_count": 6,
+  "topic": "Analyzing Viva Park forecast data issues",
+  "topic_slug": "analyzing-viva-park-forecast-data-issues",
+  "tags": [
+    "analytics",
+    "forecasting"
+  ],
+  "summary_markdown": "A discussion occurred regarding the forecasting functionality for a specific location (Viva Parks) within the AllUnite analytics platform. It was noted that the forecast appears to be malfunctioning because insufficient historical data is available on the reporting box, causing it to incorrectly pull data from distant dates of the same week.\n\nThe consensus was that the system requires full weekly data input for the forecast to function correctly. The location's current poor performance and lack of reliable data were discussed, with a suggestion to investigate whether the client plans to fix the physical location or if it could be treated as a virtual location for reporting purposes.",
+  "decisions": [
+    "The forecasting tool requires full weekly historical data input to function correctly."
+  ],
+  "action_items": [
+    "[p1] will follow up on whether the client plans to fix the physical location or if it can be treated as a virtual one for reporting."
+  ]
+}

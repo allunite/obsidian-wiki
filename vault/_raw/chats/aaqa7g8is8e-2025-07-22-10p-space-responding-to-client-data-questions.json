@@ -1,0 +1,24 @@
+{
+  "chat_id": "AAQA7g8is8E",
+  "kind": "Space",
+  "space_name": "Group Chat",
+  "participants": 10,
+  "date_range": {
+    "start": "2025-07-22",
+    "end": "2025-07-22"
+  },
+  "message_count": 7,
+  "topic": "Responding to client data questions",
+  "topic_slug": "responding-to-client-data-questions",
+  "tags": [
+    "analytics",
+    "inventory"
+  ],
+  "summary_markdown": "The team received follow-up questions from CIM regarding a project. A spreadsheet was created to organize and track responses to these questions.\n\nRegarding data availability for two cities, the team discussed potential locations. [p2] requested that Bart from Accurat check which two cities have available data. Other participants noted that good data is generally available across several Belgian cities (Ghent, Brussels, Charleroi, Antwerp, Liege), with coverage expected nationwide except in rural south areas.",
+  "decisions": [
+    "A spreadsheet was created to compile and manage answers to CIM's follow-up questions."
+  ],
+  "action_items": [
+    "Participants need to assign themselves specific questions within the shared spreadsheet for response preparation."
+  ]
+}

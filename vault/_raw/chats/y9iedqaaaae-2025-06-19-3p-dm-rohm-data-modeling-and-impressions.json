@@ -1,0 +1,24 @@
+{
+  "chat_id": "y9IEDQAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2025-06-19",
+    "end": "2025-06-19"
+  },
+  "message_count": 5,
+  "topic": "RØHM data modeling and impressions",
+  "topic_slug": "rohm-data-modeling-and-impressions",
+  "tags": [
+    "analytics",
+    "impression"
+  ],
+  "summary_markdown": "The conversation concerns a query received from RØHM regarding data modeling. [me] clarified that the topic falls under the Data Team's purview, specifically related to how impressions are modeled.\n\n[p1] confirmed they would direct the inquiry to the appropriate team.",
+  "decisions": [
+    "Inquiry about RØHM data modeling will be directed to the Data Team."
+  ],
+  "action_items": [
+    "[p1] to forward the query to the Data Team."
+  ]
+}

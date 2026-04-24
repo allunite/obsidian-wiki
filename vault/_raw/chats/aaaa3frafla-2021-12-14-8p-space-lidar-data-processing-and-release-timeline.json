@@ -1,0 +1,24 @@
+{
+  "chat_id": "AAAA3frAfLA",
+  "kind": "Space",
+  "space_name": "Lidar Tech",
+  "participants": 8,
+  "date_range": {
+    "start": "2021-12-14",
+    "end": "2021-12-14"
+  },
+  "message_count": 10,
+  "topic": "Lidar data processing and release timeline",
+  "topic_slug": "lidar-data-processing-and-release-timeline",
+  "tags": [
+    "analytics",
+    "impression"
+  ],
+  "summary_markdown": "The discussion focused on the status of Lidar data processing. One participant estimated a potential release date, ranging from an optimistic timeline (1.5 days) to a more realistic one (Thursday evening). The immediate technical challenge noted was ensuring accurate implementation across all features (zones, previous day's data, and impression writing).\n\nA key logistical question regarding data submission was raised: whether data could be written starting the next day and processed later on the server. This request was declined by [p1], who stated that they are currently focused on a different area of development.\n[p1] also noted difficulties in determining how to utilize the collected coordinates, suggesting this remains an unresolved issue.",
+  "decisions": [
+    "The release timeline for Lidar data is estimated for Thursday evening at the latest."
+  ],
+  "action_items": [
+    "None specified."
+  ]
+}

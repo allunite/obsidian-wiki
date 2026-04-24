@@ -1,0 +1,22 @@
+{
+  "chat_id": "AAAAOcKWvdA",
+  "kind": "Space",
+  "space_name": "Delivery Coordination",
+  "participants": 14,
+  "date_range": {
+    "start": "2024-06-21",
+    "end": "2024-06-21"
+  },
+  "message_count": 14,
+  "topic": "Analyzing ROTS and VAC metrics",
+  "topic_slug": "analyzing-rots-and-vac-metrics",
+  "tags": [
+    "analytics",
+    "frame"
+  ],
+  "summary_markdown": "A discussion arose regarding a report received from CC Brazil that analyzed ROTS (Rate of Time Spent) and VAC (Viewable Ad Count) metrics per frame. Participants confirmed that these specific metrics are not provided in the current campaign data or standard reports, nor are they available in the data API.\n\nIt was noted that while some metrics might be visible on a traffic page for administrators, ROTS and VAC are generally not exposed this way. One participant suggested checking the screen report for campaigns, as the server provides this data there, although it is aggregated by facility, not per frame.\n\nUltimately, the source of the reported ROTS and VAC metrics was identified as coming from a competitor.",
+  "decisions": [
+    "The observed ROTS and VAC metrics were confirmed to originate from competitors."
+  ],
+  "action_items": []
+}

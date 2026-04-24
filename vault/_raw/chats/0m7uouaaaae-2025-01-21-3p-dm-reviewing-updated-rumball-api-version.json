@@ -1,0 +1,20 @@
+{
+  "chat_id": "0m7UOUAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2025-01-21",
+    "end": "2025-01-21"
+  },
+  "message_count": 3,
+  "topic": "Reviewing updated Rumball API version",
+  "topic_slug": "reviewing-updated-rumball-api-version",
+  "tags": [
+    "analytics",
+    "impression"
+  ],
+  "summary_markdown": "The conversation focused on reviewing the updated Rumball API (v0.9). This new version includes enhanced demographics and flags regarding data sources, providing access to impression data.",
+  "decisions": [],
+  "action_items": []
+}

@@ -1,0 +1,24 @@
+{
+  "chat_id": "i6YI1QAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 2,
+  "date_range": {
+    "start": "2022-05-05",
+    "end": "2022-05-05"
+  },
+  "message_count": 19,
+  "topic": "Analyzing session anomalies using SQL",
+  "topic_slug": "analyzing-session-anomalies-using-sql",
+  "tags": [
+    "analytics",
+    "session"
+  ],
+  "summary_markdown": "The conversation focused on developing and testing analytical queries to detect session anomalies. Initial discussions involved sharing complex SQL snippets designed to count sessions from specific vendors (vendor 74) versus all others, grouped by five-minute intervals for different date ranges (e.g., February 23rd, March 29th). The methodology also included defining metrics like average unique visitors and standard deviation (using `avg3s` and `uv`) to establish thresholds for anomaly detection.\n\nIt was determined that creating a test dataset spanning multiple days is necessary for thorough testing. This process will involve generating the data, providing it to someone else for investigation, and anticipating potential need for regeneration of the dataset.",
+  "decisions": [
+    "A multi-day test dataset needs to be created for comprehensive anomaly detection testing."
+  ],
+  "action_items": [
+    "Create a test dataset spanning multiple days with a new detector/anomaly logic."
+  ]
+}

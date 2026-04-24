@@ -1,0 +1,27 @@
+{
+  "chat_id": "oCgFCIAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2024-12-02",
+    "end": "2024-12-02"
+  },
+  "message_count": 17,
+  "topic": "Database cleanup and data retention strategy",
+  "topic_slug": "database-cleanup-data-retention-strategy",
+  "tags": [
+    "analytics",
+    "session",
+    "inventory"
+  ],
+  "summary_markdown": "The discussion focused on database maintenance, specifically addressing the need to manage storage space on 'cold' disks. It was determined that the table `allunite.device_session_concept_sharded` needs to be either moved or truncated.\n\nConcerns were raised regarding data archiving jobs (specifically those handling `raw_device_seen`) which seem to leave residual data even after running comparison and deletion against S3. The process for managing this raw data was discussed, suggesting that it should ideally be managed by partitions.\n\nSeparately, a deployment schedule was coordinated, with the understanding that [me] would proceed with the deployment.",
+  "decisions": [
+    "The table `allunite.device_session_concept_sharded` must be moved or truncated to manage disk space.",
+    "[me] will handle the necessary deployment."
+  ],
+  "action_items": [
+    "[p1] needs to investigate the data archiving job for raw device seen records and determine why residual data remains on the cluster after S3 comparison/deletion.",
+    "[me] will review how to manage the `raw` data using partitions."
+  ]
+}

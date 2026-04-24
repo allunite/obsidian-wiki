@@ -1,0 +1,29 @@
+{
+  "chat_id": "AAAAOcKWvdA",
+  "kind": "Space",
+  "space_name": "Delivery Coordination",
+  "participants": 14,
+  "date_range": {
+    "start": "2023-07-18",
+    "end": "2023-07-18"
+  },
+  "message_count": 27,
+  "topic": "Metrics and feature requirements for campaign reporting",
+  "topic_slug": "metrics-and-feature-requirements-for-campaign-reporting",
+  "tags": [
+    "analytics",
+    "impression",
+    "dwell-time",
+    "inventory",
+    "campaign"
+  ],
+  "summary_markdown": "The discussion focused on defining high-priority metrics and features for campaign reporting, particularly for the Brazilian market demo. Key requirements include:\n\n*   **Campaign Reporting:** Implementing core metrics (Traffic, ROTS, VAC, Impressions) in the Campaign Editor, Campaign Report, and Campaign List.\n*   **Data Integration:** Integrating Demographics data from Kido into the Campaign Manager.\n*   **Real-time Metrics:** Adding real metrics by frames (data team).\n*   **Campaign List Enhancement:** Storing and displaying main metrics (Traffic, ROTS, VAC) in the database period for the Campaign List.\n*   **Visualization:** Creating a Campaign report that includes main metrics and a Traffic chart.\n\nAdditionally, there was discussion regarding visual enhancements for virtual sensors on the real-time map, which were addressed but deprioritized relative to core metric development. The team also discussed deployment timing, noting specific times when no releases should occur (e.g., during demos in Malaysia).\n",
+  "decisions": [
+    "High priority metrics include Campaign Editor/Report/List access for Traffic, ROTS, VAC, and Impressions.",
+    "Demographics data from Kido must be implemented into the Campaign Manager.",
+    "The Campaign List needs to store and display main metrics (Traffic, ROTS, VAC) in the database period."
+  ],
+  "action_items": [
+    "Ensure no releases are deployed to sandbox during scheduled demos (e.g., Malaysia demo 13:00-15:00)."
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "chat_id": "AAAAaK7z8KI",
+  "kind": "Space",
+  "space_name": "Group Chat",
+  "participants": 5,
+  "date_range": {
+    "start": "2025-02-25",
+    "end": "2025-02-25"
+  },
+  "message_count": 11,
+  "topic": "Sensor activation status and workflow",
+  "topic_slug": "sensor-activation-status-and-workflow",
+  "tags": [
+    "analytics",
+    "facility"
+  ],
+  "summary_markdown": "The discussion focused on the inactive status of a specific sensor ID (`LBAD000611-00001`). It was clarified that sensors remain marked as inactive until the operations team receives a notification indicating traffic flow, at which point they mark them active. While an automated job exists to notify the team weekly about sensors online for over five days but still inactive, this process is too slow for immediate needs.\n\nGiven that the sensor was already confirmed to be online and functional, manual intervention (sending a message) was determined to be necessary to update its status from inactive to active.",
+  "decisions": [
+    "The operations team must manually mark the sensor as active via message/communication."
+  ],
+  "action_items": [
+    "[p3] confirmed sending a message to the operations team regarding the sensor activation."
+  ]
+}

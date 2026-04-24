@@ -1,0 +1,22 @@
+{
+  "chat_id": "8GgAuwAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 2,
+  "date_range": {
+    "start": "2023-10-11",
+    "end": "2023-10-11"
+  },
+  "message_count": 10,
+  "topic": "Timezone fix affecting dwell time totals",
+  "topic_slug": "timezone-fix-affecting-dwell-time-totals",
+  "tags": [
+    "analytics",
+    "dwell-time"
+  ],
+  "summary_markdown": "The conversation focused on a potential issue with timezone handling in the analytics data. It was noted that a recent fix, which adjusts how totals are calculated in upper tiles, primarily uses UTC daily figures. This change is expected to potentially alter the reported dwell time, though the impact might be minor.",
+  "decisions": [],
+  "action_items": [
+    "Review the stage/data after the timezone fix is implemented"
+  ]
+}

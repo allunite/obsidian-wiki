@@ -1,0 +1,25 @@
+{
+  "chat_id": "AAAAOcKWvdA",
+  "kind": "Space",
+  "space_name": "Delivery Coordination",
+  "participants": 14,
+  "date_range": {
+    "start": "2023-02-20",
+    "end": "2023-02-20"
+  },
+  "message_count": 18,
+  "topic": "Map display and inventory feature improvements",
+  "topic_slug": "map-display-and-inventory-feature-improvements",
+  "tags": [
+    "analytics",
+    "facility",
+    "inventory"
+  ],
+  "summary_markdown": "The discussion focused on improving the user experience for map data visualization, particularly concerning facility controls and inventory management.\n\nKey points included:\n*   **Environment Controls:** Changing selection from checkboxes to radio buttons within a tree structure to enforce single selections, with the chosen value displayed in the section header.\n*   **Inventory List Consistency:** Ensuring that clicking an inventory marker on the map or via a table button performs identical actions: highlighting the inventory item on the map, loading an image carousel, and providing an edit link.\n*   **Segment Editing Redesign:** The current segment editing process is difficult due to the placement of the segment table below the map (causing scroll issues). A redesign is suggested to allow for seamless editing from the table while keeping the segment highlighted on the map.\n*   **Showing Faces from Other Facilities:** Due to excessive markers, two approaches were discussed for displaying faces/POIs from other facilities: \n    1.  Implementing clustering (similar to inventory markers).\n    2.  Limiting visibility to a specific radius (e.g., 300 meters), which was deemed the simplest and most preferred option by participants.",
+  "decisions": [
+    "The display of faces/POIs from other facilities should be limited by a defined radius (approx. 300-500 meters)."
+  ],
+  "action_items": [
+    "Implement environment controls using radio buttons for single selection in the tree structure."
+  ]
+}

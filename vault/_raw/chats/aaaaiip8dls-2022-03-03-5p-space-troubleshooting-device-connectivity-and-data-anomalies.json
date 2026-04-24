@@ -1,0 +1,24 @@
+{
+  "chat_id": "AAAAiip8dLs",
+  "kind": "Space",
+  "space_name": "Data health check and anomalies",
+  "participants": 5,
+  "date_range": {
+    "start": "2022-03-03",
+    "end": "2022-03-03"
+  },
+  "message_count": 17,
+  "topic": "Troubleshooting device connectivity and data anomalies",
+  "topic_slug": "troubleshooting-device-connectivity-and-data-anomalies",
+  "tags": [
+    "analytics",
+    "inventory"
+  ],
+  "summary_markdown": "A discussion was held regarding a specific advertising box (JCD_LT_VIL0005DB) that experienced intermittent connection loss and data anomalies. The connectivity issues were noted to occur consistently over three days, dropping around 11:00 and restoring near 20:00.\n\nThe device was replaced with a new unit (001E42333D6B). Following the replacement, it was determined that the box needed re-binding or re-linking to ensure proper display on the dashboard. Someone confirmed that they had already performed the necessary re-binding steps.",
+  "decisions": [
+    "The problematic device required replacement with a new unit."
+  ],
+  "action_items": [
+    "None specified."
+  ]
+}

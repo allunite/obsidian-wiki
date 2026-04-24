@@ -1,0 +1,21 @@
+{
+  "chat_id": "AAAA9ybOLwM",
+  "kind": "Space",
+  "space_name": "ИТ",
+  "participants": 8,
+  "date_range": {
+    "start": "2022-02-16",
+    "end": "2022-02-16"
+  },
+  "message_count": 3,
+  "topic": "Sensor antenna installation status check",
+  "topic_slug": "sensor-antenna-installation-status-check",
+  "tags": [
+    "facility"
+  ],
+  "summary_markdown": "Someone requested a check on three specific sensor identifiers (001E42326FFE, 001E422DEE20, 001E423319D9) in Finland. It was clarified that these sensors were already installed, and only the antenna was moved outside.",
+  "decisions": [],
+  "action_items": [
+    "Check status of three specified sensor identifiers."
+  ]
+}

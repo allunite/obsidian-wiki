@@ -1,0 +1,23 @@
+{
+  "chat_id": "AAAA3oghITo",
+  "kind": "Space",
+  "space_name": "Кабаны",
+  "participants": 4,
+  "date_range": {
+    "start": "2023-01-23",
+    "end": "2023-01-23"
+  },
+  "message_count": 13,
+  "topic": "DevOps process improvements and communication",
+  "topic_slug": "devops-process-improvements-and-communication",
+  "tags": [
+    "analytics"
+  ],
+  "summary_markdown": "The discussion focused on improving the deployment process, specifically moving a develop environment to staging for pre-production testing. A key point of contention was the notification system: [p1] suggested removing alerts from the Status channel upon repository commits due to constant noise. [me] disagreed, arguing that such notifications are informative. \n\n[me] proposed separating Git status updates from Jira ticket tracking to reduce spam and streamline workflow management.",
+  "decisions": [
+    "The need for better separation between Git status and Jira ticketing was identified."
+  ],
+  "action_items": [
+    "Consider creating a dedicated chat channel specifically for Jira communication."
+  ]
+}

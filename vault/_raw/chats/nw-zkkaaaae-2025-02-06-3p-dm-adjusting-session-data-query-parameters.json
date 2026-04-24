@@ -1,0 +1,24 @@
+{
+  "chat_id": "nW_zkkAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2025-02-06",
+    "end": "2025-02-06"
+  },
+  "message_count": 13,
+  "topic": "Adjusting session data query parameters",
+  "topic_slug": "adjusting-session-data-query-parameters",
+  "tags": [
+    "analytics",
+    "session"
+  ],
+  "summary_markdown": "The conversation focused on refining a SQL query used for analyzing device session data. Initially, the query was discussed in relation to specific facility types (Airport TV) and network limitations. [me] provided an updated version of the query that adjusts the date range by extending it to include the beginning of the year, while also modifying the filtering criteria.",
+  "decisions": [
+    "The session data query needs adjustment regarding the start date range."
+  ],
+  "action_items": [
+    "[me] will update the SQL query with a broader date range (to include the start of the year) for review by [p1]."
+  ]
+}

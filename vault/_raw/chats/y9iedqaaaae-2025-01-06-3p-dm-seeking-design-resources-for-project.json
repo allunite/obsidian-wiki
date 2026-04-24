@@ -1,0 +1,21 @@
+{
+  "chat_id": "y9IEDQAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2025-01-06",
+    "end": "2025-01-06"
+  },
+  "message_count": 5,
+  "topic": "Seeking design resources for project",
+  "topic_slug": "seeking-design-resources-for-project",
+  "tags": [
+    "analytics"
+  ],
+  "summary_markdown": "The conversation revolves around seeking a recommended designer. [p1] asked for a contact, noting dissatisfaction with another individual's recent work. [me] suggested two options: an expensive and difficult professional named IZI, or a local artist who was recently seen but might not be commercially viable.",
+  "decisions": [],
+  "action_items": [
+    "None"
+  ]
+}

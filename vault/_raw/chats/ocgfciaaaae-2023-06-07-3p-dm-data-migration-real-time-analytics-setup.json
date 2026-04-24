@@ -1,0 +1,27 @@
+{
+  "chat_id": "oCgFCIAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2023-06-07",
+    "end": "2023-06-07"
+  },
+  "message_count": 10,
+  "topic": "Data migration and real-time analytics setup",
+  "topic_slug": "data-migration-real-time-analytics-setup",
+  "tags": [
+    "analytics",
+    "session",
+    "facility",
+    "impression"
+  ],
+  "summary_markdown": "The discussion focused on setting up data infrastructure for testing. [p1] inquired about the process of populating facility data in a specific table (`select * from device_session_facility_2`) within the sandbox environment, noting the need to add two more companies and implement real-time functionality.\n\n[me] confirmed understanding regarding demographic data issues, attributing them to an endpoint change (from GET to POST). [me] provided the location for implementing real-time data on the sandbox using a specific SQL snippet. Furthermore, [me] instructed adding company numbers to the list and recreating the view on `ch02`.\n\n[p1] reported cleaning up old Brazilian data in the sandbox and migrating it from production, noting that only traffic data remains to be transferred. This was done to ensure consistency between testing environments (sandbox/production) for easier testing.",
+  "decisions": [
+    "Real-time data implementation on the sandbox requires adding company numbers to the list and recreating the view on ch02."
+  ],
+  "action_items": [
+    "[me] needs to add two companies' facility data into the sandbox environment.",
+    "[p1] is migrating remaining traffic data from production to the sandbox."
+  ]
+}

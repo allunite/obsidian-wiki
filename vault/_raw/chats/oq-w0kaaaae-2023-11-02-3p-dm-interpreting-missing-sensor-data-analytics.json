@@ -1,0 +1,22 @@
+{
+  "chat_id": "oq-w0kAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2023-11-02",
+    "end": "2023-11-02"
+  },
+  "message_count": 7,
+  "topic": "Interpreting missing sensor data in analytics",
+  "topic_slug": "interpreting-missing-sensor-data-analytics",
+  "tags": [
+    "analytics",
+    "facility"
+  ],
+  "summary_markdown": "The discussion centered on interpreting missing data within the AllUnite analytics platform. Specifically, a question was raised regarding whether the absence of data indicates that the sensor failed to operate or record information.\n\n[me] confirmed they would investigate this issue after becoming available at their computer.",
+  "decisions": [],
+  "action_items": [
+    "Investigate the meaning of missing sensor data in analytics."
+  ]
+}

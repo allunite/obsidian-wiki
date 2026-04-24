@@ -1,0 +1,29 @@
+{
+  "chat_id": "rBfK7kAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 2,
+  "date_range": {
+    "start": "2023-07-04",
+    "end": "2023-07-04"
+  },
+  "message_count": 81,
+  "topic": "ML data versioning and aggregation strategy",
+  "topic_slug": "ml-data-versioning-and-aggregation-strategy",
+  "tags": [
+    "analytics",
+    "inventory",
+    "campaign"
+  ],
+  "summary_markdown": "The discussion covered the technical implementation of ML model predictions into the analytics pipeline. \n\n*   **Data Loading:** Someone plans to manually load data into `device_session_agg_ml_staging` using only `session_start_hour`, `facility_num`, and `session_number_predicted`. It was confirmed that NULL values are acceptable for other fields, and the process should start from 2023-05.\n*   **Field Addition:** To track manually added data, a new field needs to be added to `device_session_agg_ml_staging` (e.g., using an existing pattern like `is_synthetic`).\n*   **Versioning Strategy:** Due to the complexity of managing versions across multiple scripts and branches, the decision was made to implement versioning by creating separate tables:\n    1.  A staging table: `device_session_agg_ml_vlad` (containing an `agg_version` field).\n    2.  A version lookup table on PostgreSQL: `device_session_agg_version` (manual ID and `agg_version` entry, including code/description).\n*   **Dashboard Display:** It was noted that ML data must be aggregated into a dedicated aggregate table before appearing on the dashboard.",
+  "decisions": [
+    "Use only 'session_start_hour', 'facility_num', and 'session_number_predicted' when manually loading data into `device_session_agg_ml_staging`",
+    "Add a new field to `device_session_agg_ml_staging` to mark manually added/synthetic data",
+    "Implement versioning by creating the staging table `device_session_agg_ml_vlad` (with an `agg_version` field)",
+    "Create the PostgreSQL lookup table `device_session_agg_version` for managing versions"
+  ],
+  "action_items": [
+    "Someone to populate data into `device_session_agg_ml_vlad`",
+    "[me] to provide the script for aggregating the versioned data into multiple datasets."
+  ]
+}

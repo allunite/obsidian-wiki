@@ -1,0 +1,24 @@
+{
+  "chat_id": "oq-w0kAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2023-04-25",
+    "end": "2023-04-25"
+  },
+  "message_count": 12,
+  "topic": "Campaign data retrieval for Brazil",
+  "topic_slug": "campaign-data-retrieval-for-brazil",
+  "tags": [
+    "analytics",
+    "campaign"
+  ],
+  "summary_markdown": "The conversation focused on retrieving campaign metrics, specifically using the `/campaigns/target/all` endpoint. It was determined that this endpoint does not currently return data for Brazil because it has not been translated to use `area_id`. Someone confirmed that while they were unsure about the specific endpoint, the functionality is intended for calculating metrics based on demographics and works on the production environment, though testing on sandbox was noted as uncertain.",
+  "decisions": [
+    "The `/campaigns/target/all` endpoint does not return data for Brazil due to missing `area_id` translation."
+  ],
+  "action_items": [
+    "Someone will proceed with the planned work (implied fix or adjustment)."
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "chat_id": "nW_zkkAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2024-08-28",
+    "end": "2024-08-28"
+  },
+  "message_count": 17,
+  "topic": "Analytics data sharing and frequency updates",
+  "topic_slug": "analytics-data-sharing-and-frequency-updates",
+  "tags": [
+    "dwell-time",
+    "analytics",
+    "inventory"
+  ],
+  "summary_markdown": "The conversation covered the availability of a new dataset containing dwell time metrics. The dataset, named `aka_test_1`, was shared on dev-analytics.allunite.com and covers the period from 01.01.2024 to 26.08.2024. Later in the day, a request was made regarding frequency data for 'ocean'. This task was scheduled to be completed after an upcoming meeting.\n\nAdditionally, several sets of location and frequency data points were exchanged.",
+  "decisions": [
+    "The new dwell time dataset (`aka_test_1`) is available on dev-analytics.allunite.com for analysis."
+  ],
+  "action_items": [
+    "Someone needs to review the shared dwell time dataset.",
+    "Frequency data for 'ocean' will be provided after an upcoming meeting."
+  ]
+}

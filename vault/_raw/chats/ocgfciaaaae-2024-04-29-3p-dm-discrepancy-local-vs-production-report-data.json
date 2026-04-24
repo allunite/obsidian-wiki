@@ -1,0 +1,22 @@
+{
+  "chat_id": "oCgFCIAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2024-04-29",
+    "end": "2024-04-29"
+  },
+  "message_count": 33,
+  "topic": "Discrepancy in local vs production report data",
+  "topic_slug": "discrepancy-local-vs-production-report-data",
+  "tags": [
+    "analytics",
+    "facility"
+  ],
+  "summary_markdown": "A discrepancy was identified where the local development environment and the production environment provided different metric numbers (specifically `trafficTotalBulk` and `trafficTotal`) in a demographics report, even though the underlying SQL queries were identical.\n\nThe initial investigation suggested potential issues with connection strings or calculation changes. However, it was later determined that the discrepancy was likely due to sorting logic (`ORDER BY facilityName, date`) when facilities lacked names (i.e., `facilityName` was null/empty), causing data misalignment in the report's display.\n\nAdditionally, a discussion occurred regarding handling historical and deleted facility records. It was noted that if invalid or deleted facility records are imported, they can reappear in reports. A suggestion was made to use an `is_active` flag on the `facility` table for soft deletion to ensure accurate reporting over long periods.",
+  "decisions": [
+    "The current process for handling erroneously imported/deleted facilities is to simply delete them, as these cases are rare."
+  ],
+  "action_items": []
+}

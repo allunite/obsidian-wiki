@@ -1,0 +1,29 @@
+{
+  "chat_id": "AAAA3oghITo",
+  "kind": "Space",
+  "space_name": "Кабаны",
+  "participants": 4,
+  "date_range": {
+    "start": "2023-01-26",
+    "end": "2023-01-26"
+  },
+  "message_count": 24,
+  "topic": "Product update and data pipeline issues",
+  "topic_slug": "product-update-and-data-pipeline-issues",
+  "tags": [
+    "analytics",
+    "inventory",
+    "impression",
+    "recalc-ch",
+    "campaign"
+  ],
+  "summary_markdown": "The team discussed the upcoming 'AllUnite product update' presentation, which will cover analytics, demographics, and inventory. The presenter plans to demonstrate login/impersonation functionality and briefly explain roles to add value beyond a standard presentation format.\n\nTechnical discussions focused on data pipeline issues:\n*   **Brazilian Data:** A visibility zone solution is nearly complete but requires importing a second source for better mapping coverage in areas where OpenStreet Map might be incomplete.\n*   **Data Time Stamps/Caching:** Issues were noted regarding device time stamps, specifically an instance where a box went offline and then reported data with timestamps from significantly earlier dates (e.g., 2022-11-29), suggesting local cache issues or clock drift when the device came back online.\n*   **Inventory/Data Handling:** Work was done on saving inventory, migrating imports, and handling staging/production deployments. A minor fix for 'recalc' was implemented to address data spikes (peaks) in Finland and Gabon.\n*   **Asset Paths:** The team reviewed image paths in the database, noting an outdated format that persists from older mods.",
+  "decisions": [
+    "The product update presentation will include a demonstration of login/impersonation and roles.",
+    "A second source must be imported for the visibility zone solution to improve mapping accuracy in Brazil."
+  ],
+  "action_items": [
+    "Optimize the visibility zone solution (remaining step).",
+    "Investigate the root cause of incorrect timestamps reported by offline devices."
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "chat_id": "oCgFCIAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2022-01-28",
+    "end": "2022-01-28"
+  },
+  "message_count": 130,
+  "topic": "Database setup and data migration strategy",
+  "topic_slug": "database-setup-and-data-migration-strategy",
+  "tags": [
+    "analytics",
+    "mops",
+    "campaign",
+    "inventory",
+    "session"
+  ],
+  "summary_markdown": "The discussion focused heavily on the technical setup and maintenance of analytics databases (PostgreSQL/ClickHouse) for MOPs. Key actions included:\n\n*   **Database Structure:** Deciding to create a dedicated `analytics` database, separate from existing structures, with a specific user created for it.\n*   **Data Scope:** It was determined that only necessary tables should be migrated, avoiding the transfer of deprecated or excessive old data.\n*   **Security/Permissions:** Due to permission errors (e.g., `permission denied`), comprehensive `GRANT` statements were executed on all tables, sequences, and functions within the public schema for the designated user (`papa`).\n*   **Environment Variables:** A plan was established to manage environment variables locally by using default values or generating new ones, rather than pulling sensitive credentials from production/Kubernetes environments.\n*   **Functionality Testing:** The MOPs system was tested and confirmed to be running stably in the sandbox environment. Initial errors related to missing functions (`get_facility_factor`) and non-existent tables were noted but addressed through setup improvements.\n\nFuture steps involve populating the databases with more data, potentially including another company's data.",
+  "decisions": [
+    "Create a dedicated 'analytics' database for MOPs data.",
+    "Use specific `GRANT` statements to ensure the designated user has full privileges on all necessary objects (tables, sequences, functions).",
+    "Manage local environment variables using defaults or new values instead of production credentials."
+  ],
+  "action_items": [
+    "Run ClickHouse scripts to create the dedicated analytics database.",
+    "Populate databases with more data for UI testing.",
+    "Review and finalize the design/data presentation for stakeholders (scheduled for later in the day)."
+  ]
+}

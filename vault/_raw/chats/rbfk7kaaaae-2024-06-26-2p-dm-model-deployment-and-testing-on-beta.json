@@ -1,0 +1,23 @@
+{
+  "chat_id": "rBfK7kAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 2,
+  "date_range": {
+    "start": "2024-06-26",
+    "end": "2024-06-26"
+  },
+  "message_count": 11,
+  "topic": "Model deployment and testing on beta",
+  "topic_slug": "model-deployment-and-testing-on-beta",
+  "tags": [
+    "analytics"
+  ],
+  "summary_markdown": "Someone updated a model, which received approval for beta use. The discussion focused on deploying this new model to the default setting for Gabon's environment (or similar system). [me] confirmed that the deployment process was initiated and would be available shortly for testing.",
+  "decisions": [
+    "The newly updated model will be deployed to the beta environment."
+  ],
+  "action_items": [
+    "Someone will test the deployed model."
+  ]
+}

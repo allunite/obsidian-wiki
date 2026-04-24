@@ -1,0 +1,22 @@
+{
+  "chat_id": "i6YI1QAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 2,
+  "date_range": {
+    "start": "2021-02-09",
+    "end": "2021-02-09"
+  },
+  "message_count": 42,
+  "topic": "Data pipeline run order and dependencies",
+  "topic_slug": "data-pipeline-run-order-and-dependencies",
+  "tags": [
+    "analytics",
+    "recalc-ch"
+  ],
+  "summary_markdown": "The conversation focused on validating the correct sequence of data jobs to prevent duplication or failure. The established process involves a sequence of Recalc (Recalculation) runs, Machine Learning (ML) steps, and Aggregations.\n\nKey dependencies were clarified:\n*   **Data Flow:** Running `Recalc` followed by `ML`, then another `Recalc` plus `Aggregation` is confirmed as acceptable.\n*   **Duplication Risk:** Running two aggregations without an intervening recalculation step is noted as problematic.\n*   **ML Integration:** ML outputs are successfully pulled into the aggregation process.\n\nRegarding data integrity issues (e.g., changed category names breaking predictions), it was suggested that implementing a 'fault early' mechanism, allowing the system to fail with an exception when encountering non-standard situations, is preferable to silently processing incorrect data.",
+  "decisions": [
+    "The recommended sequence for running jobs is Recalc -> ML -> Recalc + Aggregation."
+  ],
+  "action_items": []
+}

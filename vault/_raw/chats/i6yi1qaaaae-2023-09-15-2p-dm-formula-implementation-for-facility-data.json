@@ -1,0 +1,24 @@
+{
+  "chat_id": "i6YI1QAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 2,
+  "date_range": {
+    "start": "2023-09-15",
+    "end": "2023-09-15"
+  },
+  "message_count": 10,
+  "topic": "Formula implementation for facility data",
+  "topic_slug": "formula-implementation-for-facility-data",
+  "tags": [
+    "analytics",
+    "facility"
+  ],
+  "summary_markdown": "The discussion centered on implementing a formula, specifically regarding unique identifiers (unics) and real-time data. [me] confirmed that the formula is being implemented and will now function on facilities, as previously suggested. [p1] requested details on how the formula works and if any further input from someone was required.",
+  "decisions": [
+    "The formula implementation will be completed by [me]."
+  ],
+  "action_items": [
+    "[me] to show the final formula setup."
+  ]
+}

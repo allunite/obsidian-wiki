@@ -1,0 +1,24 @@
+{
+  "chat_id": "y9IEDQAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2024-05-29",
+    "end": "2024-05-29"
+  },
+  "message_count": 18,
+  "topic": "File transfer solution for large sample files",
+  "topic_slug": "file-transfer-solution-for-large-sample-files",
+  "tags": [
+    "analytics"
+  ],
+  "summary_markdown": "The discussion centered on providing a reliable method for receiving large sample files from an external party. Initially, the need was assessed to determine if the recipient required a simple solution (like browser uploads or WebDAV) due to potential technical limitations on their end. Options discussed included setting up an SFTP service or using a public S3 bucket.\n\n[p1] suggested that SFTP could be enabled quickly and provided cost estimates for maintaining such a service ($216/month). [me] clarified that the requirement was only for a one-time transfer, making the continuous hosting of a service unnecessary.",
+  "decisions": [
+    "The required file transfer solution must be simple, reliable, and suitable for large files."
+  ],
+  "action_items": [
+    "Someone needs to confirm the technical capability and preference of the external party (Lord) regarding file upload methods (e.g., browser vs. SFTP).",
+    "p1 will check with Lord about the best temporary file transfer method."
+  ]
+}

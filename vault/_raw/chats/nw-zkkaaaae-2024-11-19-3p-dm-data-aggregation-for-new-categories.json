@@ -1,0 +1,23 @@
+{
+  "chat_id": "nW_zkkAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2024-11-19",
+    "end": "2024-11-19"
+  },
+  "message_count": 17,
+  "topic": "Data aggregation for new categories",
+  "topic_slug": "data-aggregation-for-new-categories",
+  "tags": [
+    "analytics",
+    "facility",
+    "campaign"
+  ],
+  "summary_markdown": "The discussion focused on the technical requirements for aggregating data after adding two new categories to a beta environment. A key point was clarifying how to populate the `param_facilityMasterNums` field.\n\n*   **Data Aggregation Scope:** The goal is to aggregate data without affecting the entire company's dataset, which could introduce unintended changes.\n*   **Parameter Input:** It was confirmed that when populating `param_facilityMasterNums`, only the master numbers are required. Including facility numbers is unnecessary and potentially incorrect for proper processing of scripts, clusters, and networks at the company level.",
+  "decisions": [
+    "Only master numbers should be used in param_facilityMasterNums for aggregation."
+  ],
+  "action_items": []
+}

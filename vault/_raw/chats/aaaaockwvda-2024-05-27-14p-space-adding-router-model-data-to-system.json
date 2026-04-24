@@ -1,0 +1,25 @@
+{
+  "chat_id": "AAAAOcKWvdA",
+  "kind": "Space",
+  "space_name": "Delivery Coordination",
+  "participants": 14,
+  "date_range": {
+    "start": "2024-05-27",
+    "end": "2024-05-27"
+  },
+  "message_count": 18,
+  "topic": "Adding router model data to system",
+  "topic_slug": "adding-router-model-data-to-system",
+  "tags": [
+    "analytics",
+    "inventory",
+    "campaign"
+  ],
+  "summary_markdown": "The team discussed the need for accurate router model information for testing and modeling. It was noted that while a field exists, the data is currently incorrect or requires firmware updates.\n\nTo solve this, it was decided to temporarily import the necessary MAC address and box model data into a temporary table using existing records from the RMS (Remote Management System) database, as manual entry is unreliable.\n\n[p5] provided an SQL query demonstrating how to extract `facility_id`, `mac_address`, and `box_model` from the `pg.box` table where `box_model_rms` is populated.",
+  "decisions": [
+    "Temporary import of MAC address and box model data into a dedicated table will be used until firmware updates are available."
+  ],
+  "action_items": [
+    "The team needs to deploy a new firmware or find an API solution (e.g., via someone) to ensure all new sensors automatically report the correct router model."
+  ]
+}

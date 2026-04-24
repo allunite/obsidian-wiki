@@ -1,0 +1,25 @@
+{
+  "chat_id": "nW_zkkAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2024-08-04",
+    "end": "2024-08-04"
+  },
+  "message_count": 6,
+  "topic": "Dwell time calculation bug in cluster analytics",
+  "topic_slug": "dwell-time-calculation-bug-in-cluster-analytics",
+  "tags": [
+    "dwell-time",
+    "facility",
+    "analytics"
+  ],
+  "summary_markdown": "The user deployed a new version to dev and addressed data aggregation for the previous day. A persistent issue was noted where the total count on the cluster level was lower than expected in the network view.\n\nA specific bug was identified in the dwell time screen for clusters, which affects all clients utilizing clusters. The fix implemented changes the standard dwell time from 203 seconds to approximately 408 seconds for both cluster and network views.\n\nThe issue relates to a sensor not working correctly, causing the report to only count the number of screens that actually had traffic data available.\n\nFurther testing revealed discrepancies: filtering by network showed 5 items, while filtering by the entire cluster showed 6 items. A review of the July report indicated significantly lower footfall for the cluster.",
+  "decisions": [
+    "The dwell time calculation bug in the cluster analytics was fixed."
+  ],
+  "action_items": [
+    "None"
+  ]
+}

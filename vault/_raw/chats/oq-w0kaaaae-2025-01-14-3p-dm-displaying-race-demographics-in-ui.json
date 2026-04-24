@@ -1,0 +1,22 @@
+{
+  "chat_id": "oq-w0kAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2025-01-14",
+    "end": "2025-01-14"
+  },
+  "message_count": 6,
+  "topic": "Displaying race demographics in UI",
+  "topic_slug": "displaying-race-demographics-in-ui",
+  "tags": [
+    "analytics",
+    "impression"
+  ],
+  "summary_markdown": "The conversation addressed the display of 'race' data within the User Interface (UI). [me] noted that this demographic data is starting to arrive from several new clients and needs to be displayed in an upcoming or current release, similar to how vhcl/prps are shown. [p1] confirmed this requirement.",
+  "decisions": [
+    "Race demographics will be added to the UI display in a future release."
+  ],
+  "action_items": []
+}

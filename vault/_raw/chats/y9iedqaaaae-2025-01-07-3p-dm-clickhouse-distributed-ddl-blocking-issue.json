@@ -1,0 +1,21 @@
+{
+  "chat_id": "y9IEDQAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2025-01-07",
+    "end": "2025-01-07"
+  },
+  "message_count": 3,
+  "topic": "ClickHouse distributed DDL blocking issue",
+  "topic_slug": "clickhouse-distributed-ddl-blocking-issue",
+  "tags": [
+    "analytics"
+  ],
+  "summary_markdown": "The conversation addresses an observed issue where distributed Data Definition Language (DDL) operations on a cluster frequently block each other, even when logically they should not. A suggestion was made to reconfigure the system by placing ClickHouse keepers on separate machines and ensuring an odd number of them, or alternatively, restricting machine assignments (e.g., only using nodes 2, 4, 6).",
+  "decisions": [],
+  "action_items": [
+    "Investigate potential reconfiguration of ClickHouse keeper placement and node assignment to resolve DDL blocking."
+  ]
+}

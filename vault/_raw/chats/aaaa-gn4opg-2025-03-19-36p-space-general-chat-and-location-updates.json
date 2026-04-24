@@ -1,0 +1,17 @@
+{
+  "chat_id": "AAAA-gn4oPg",
+  "kind": "Space",
+  "space_name": "General and random",
+  "participants": 36,
+  "date_range": {
+    "start": "2025-03-19",
+    "end": "2025-03-19"
+  },
+  "message_count": 21,
+  "topic": "General chat and location updates",
+  "topic_slug": "general-chat-and-location-updates",
+  "tags": [],
+  "summary_markdown": "The conversation primarily consisted of general social chatter, including sharing locations (Copacabana and Barra beach) and discussing a business trip. A brief technical query was made regarding 'rebooting tasks' and which screens needed attention, with one participant noting that only about 80 screens were involved.",
+  "decisions": [],
+  "action_items": []
+}

@@ -1,0 +1,21 @@
+{
+  "chat_id": "6ize28AAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2025-08-11",
+    "end": "2025-08-11"
+  },
+  "message_count": 5,
+  "topic": "API deployment and frequency request",
+  "topic_slug": "api-deployment-and-frequency-request",
+  "tags": [
+    "analytics"
+  ],
+  "summary_markdown": "Someone requested a frequency calculation for `company_num = 7972` (NZ_7972) across the staging and analytics environments. They also requested a re-deployment of the `ml-api main` branch to the analytics environment. Later, someone confirmed that the `ml-api` was deployed.",
+  "decisions": [
+    "The ml-api deployment was completed."
+  ],
+  "action_items": []
+}

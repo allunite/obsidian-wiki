@@ -1,0 +1,25 @@
+{
+  "chat_id": "AAAAQbleh4s",
+  "kind": "Space",
+  "space_name": "Uniqueness methodology and R&F with hashing",
+  "participants": 5,
+  "date_range": {
+    "start": "2022-06-01",
+    "end": "2022-06-01"
+  },
+  "message_count": 13,
+  "topic": "Discussing unique device measurement methodology",
+  "topic_slug": "discussing-unique-device-measurement-methodology",
+  "tags": [
+    "analytics",
+    "impression",
+    "session"
+  ],
+  "summary_markdown": "The discussion centers on the technical methodology for calculating unique devices and user uniqueness, specifically regarding data from Latvia (JCD LV).\n\nKey points raised include:\n*   **Uniqueness Calculation:** Questions were posed about the specific parameters used alongside MAC addresses to calculate uniqueness. It was suggested that using hardware serial numbers (CPU or harddrive) would provide more accurate results than just MAC + request type.\n*   **Network Scope:** Clarification was sought on whether 'within the same network as metro' implies all JCD sensors are identified as belonging to the same network.\n*   **Data Reliability & Timeframe:** Concerns were raised about the reliability of using long-term data (e.g., year-long periods) for frequency curve analysis, suggesting a need for an appropriate time frame for data analysis.\n*   **Discrepancy Analysis:** A significant discrepancy was noted between expected unique visitor counts (estimated at 3.8M to 4.6M based on local statistics and population figures) and the reported number (1.1M unique devices over one week). The need to explain this large difference was emphasized.\n\n[p1] needs to prepare a detailed explanation of the uniqueness methodology for an upcoming public event with major agencies.",
+  "decisions": [
+    "A meeting is required to discuss and prove the accuracy of the unique device count (1.1M over one week)."
+  ],
+  "action_items": [
+    "[p1] will book a follow-up meeting for Friday."
+  ]
+}

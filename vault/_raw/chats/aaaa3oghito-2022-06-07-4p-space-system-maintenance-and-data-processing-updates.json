@@ -1,0 +1,29 @@
+{
+  "chat_id": "AAAA3oghITo",
+  "kind": "Space",
+  "space_name": "Кабаны",
+  "participants": 4,
+  "date_range": {
+    "start": "2022-06-07",
+    "end": "2022-06-07"
+  },
+  "message_count": 147,
+  "topic": "System maintenance and data processing updates",
+  "topic_slug": "system-maintenance-and-data-processing-updates",
+  "tags": [
+    "analytics",
+    "impression",
+    "campaign",
+    "inventory"
+  ],
+  "summary_markdown": "The discussion covered several technical topics, including data aggregation methods and system maintenance.\n\n*   **Data Processing:** Initial discussions focused on running ML tasks (Machine Learning) and re-aggregation. It was determined that using `uniq(box_mac)` from the `raw_devices_seen_buffer` table is preferred over `count(distinct)` due to resource efficiency, requiring a time window calculation of 60 minutes.\n*   **Monitoring & Alerts:** There was a discussion about implementing metrics collection and setting up critical alerts/triggers, particularly for detecting decreases in performance rather than just changes.\n*   **System Updates:** Several system components require updates: the 2D lidar (due by August) and 3D data (due by October). The MQTT servers' certificates were updated to ensure continuity if a server fails. A new version of the firmware is being prepared, which will also update credentials for `fisketorvet`.\n*   **Infrastructure Stability:** Issues with system stability were noted, including the failure of Rundeck (which was down for 14 days) and problems with data archiving scripts that required setting timeouts to prevent failures.\n*   **Development Environment:** Efforts were made to optimize the Mops Docker image size by changing the base image to Alpine and running `npm prune --production`. The deployment of these changes is planned for after a demonstration, pending testing on staging.",
+  "decisions": [
+    "Use `uniq(box_mac)` from the buffer table for data processing due to better resource efficiency.",
+    "Implement metrics collection and critical decrease alerts/triggers.",
+    "Update MQTT server certificates and prepare new firmware versions."
+  ],
+  "action_items": [
+    "Run ML stage re-aggregation for June 4th–6th.",
+    "Deploy optimized Mops Docker image to staging environment after the demo."
+  ]
+}

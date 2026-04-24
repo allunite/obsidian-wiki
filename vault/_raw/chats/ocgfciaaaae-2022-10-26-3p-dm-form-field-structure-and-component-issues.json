@@ -1,0 +1,24 @@
+{
+  "chat_id": "oCgFCIAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2022-10-26",
+    "end": "2022-10-26"
+  },
+  "message_count": 21,
+  "topic": "Form field structure and component issues",
+  "topic_slug": "form-field-structure-and-component-issues",
+  "tags": [
+    "analytics",
+    "campaign"
+  ],
+  "summary_markdown": "The conversation focused on the complex data structure of forms, specifically dealing with fields that are constantly changing, including multi-selects and dependencies. Issues were noted regarding field types (e.g., dropdowns vs. text strings) and general form complexity.\n\nLater, technical issues arose concerning component rendering: tabs within tabs failed to render correctly when adding new content, although switching between adjacent sections worked fine. The plan was to rework the component the next day.",
+  "decisions": [
+    "The component issue (tabs in tabs not rendering) will be reworked tomorrow."
+  ],
+  "action_items": [
+    "[me] will output all properties with markup."
+  ]
+}

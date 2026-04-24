@@ -1,0 +1,22 @@
+{
+  "chat_id": "AAQARMOsqBo",
+  "kind": "Space",
+  "space_name": "Demographics integration",
+  "participants": 3,
+  "date_range": {
+    "start": "2025-04-17",
+    "end": "2025-04-17"
+  },
+  "message_count": 21,
+  "topic": "Demographics integration deployment and review",
+  "topic_slug": "demographics-integration-deployment-review",
+  "tags": [
+    "analytics",
+    "campaign"
+  ],
+  "summary_markdown": "The team reviewed the demographics distribution data for a project. Initial concerns were raised regarding the age distribution, specifically noting a high proportion of users aged 65+. The data was initially presented as an image but was later provided in a table format by someone.\n\nThe integration was successfully deployed to staging and subsequently approved for deployment to production.",
+  "decisions": [
+    "The demographics integration will be deployed to production."
+  ],
+  "action_items": []
+}

@@ -1,0 +1,23 @@
+{
+  "chat_id": "y9IEDQAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2024-06-21",
+    "end": "2024-06-21"
+  },
+  "message_count": 10,
+  "topic": "Debugging device identifiers and CI build issues",
+  "topic_slug": "debugging-device-identifiers-and-ci-build-issues",
+  "tags": [
+    "analytics"
+  ],
+  "summary_markdown": "The conversation covered technical debugging topics. Specifically, a method for converting `device_hash` to `device_id` was provided: using `xxHash64(device_hash)`. Later, someone requested the currently deployed image version for `ml-api` staging environment and noted that commits by another participant were failing to build on CI (CircleCI). The current deployed image for `ml-api` was identified as `ml-api:20240621.105613-frequency_v2-a8f9843`.",
+  "decisions": [
+    "The method to convert device_hash to device_id is xxHash64(device_hash)."
+  ],
+  "action_items": [
+    "Investigate why commits are failing to build on CI for the ml-api."
+  ]
+}

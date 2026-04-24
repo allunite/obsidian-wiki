@@ -1,0 +1,21 @@
+{
+  "chat_id": "8GgAuwAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 2,
+  "date_range": {
+    "start": "2023-08-30",
+    "end": "2023-08-30"
+  },
+  "message_count": 6,
+  "topic": "Connecting client information for future use",
+  "topic_slug": "connecting-client-information-for-future-use",
+  "tags": [
+    "analytics"
+  ],
+  "summary_markdown": "The discussion centered on the feasibility of linking a client's information with internal data sources in the future. It was noted that while this is possible, it requires developing a user interface (UI) component, which is currently planned for implementation.",
+  "decisions": [],
+  "action_items": [
+    "Develop UI to link client info and internal data"
+  ]
+}

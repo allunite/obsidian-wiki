@@ -1,0 +1,25 @@
+{
+  "chat_id": "i6YI1QAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 2,
+  "date_range": {
+    "start": "2023-03-14",
+    "end": "2023-03-14"
+  },
+  "message_count": 22,
+  "topic": "Dashboard calculation updates and review",
+  "topic_slug": "dashboard-calculation-updates-and-review",
+  "tags": [
+    "analytics",
+    "recalc-ch"
+  ],
+  "summary_markdown": "The discussion focused on updating a dashboard by removing the 'old way calculation' while retaining all other metrics. The conversation also covered discrepancies in how unique user percentages were calculated and reviewed, noting that the total figures are correlated and based on overall data rather than screenshots. [me] confirmed that the new version without the old calculation was deployed to staging for review.",
+  "decisions": [
+    "Remove 'old way calculation' from the dashboard.",
+    "Review unique user percentage calculations."
+  ],
+  "action_items": [
+    "[p1] to check the updated dashboard on staging."
+  ]
+}

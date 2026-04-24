@@ -1,0 +1,21 @@
+{
+  "chat_id": "y9IEDQAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2025-09-09",
+    "end": "2025-09-09"
+  },
+  "message_count": 7,
+  "topic": "Database warning and data ingestion status",
+  "topic_slug": "database-warning-and-data-ingestion-status",
+  "tags": [
+    "analytics"
+  ],
+  "summary_markdown": "The conversation focused on a technical issue related to the ClickHouse database, specifically warnings regarding `allunite.raw_devices_seen_buffer`. The warning indicated that not all columns from the data block existed in the destination table (`allunite.raw_devices_seen_2`), causing some columns to be discarded. Someone confirmed this was a persistent warning. A previous issue involving slow data insertion speed was noted, and it was reported that the performance had since improved.",
+  "decisions": [
+    "No concrete decisions were made regarding the database warnings or performance issues."
+  ],
+  "action_items": []
+}

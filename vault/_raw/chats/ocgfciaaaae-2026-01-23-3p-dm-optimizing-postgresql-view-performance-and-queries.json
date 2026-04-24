@@ -1,0 +1,22 @@
+{
+  "chat_id": "oCgFCIAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2026-01-23",
+    "end": "2026-01-23"
+  },
+  "message_count": 10,
+  "topic": "Optimizing PostgreSQL view performance and queries",
+  "topic_slug": "optimizing-postgresql-view-performance-and-queries",
+  "tags": [
+    "analytics",
+    "campaign"
+  ],
+  "summary_markdown": "A discussion focused on optimizing slow query performance originating from a complex PostgreSQL view (`v_zone_segment_data`). The issue was traced to the view's heavy structure, particularly its use of window functions, which caused multiple database calls (up to 10) for a single request. It was noted that even an upgrade of the PostgreSQL server did not resolve the underlying structural inefficiency.\n\nPotential solutions discussed included: \n*   **Caching:** Using `use_table_cache` in ClickHouse, though this requires careful management upon schema changes (detach/attach).\n*   **Structural Review:** The primary focus remained on simplifying the view's logic and structure to reduce redundant database calls.",
+  "decisions": [
+    "The immediate structural issue causing multiple queries was identified as the heavy nature of the PostgreSQL view."
+  ],
+  "action_items": []
+}

@@ -1,0 +1,25 @@
+{
+  "chat_id": "AAAA3frAfLA",
+  "kind": "Space",
+  "space_name": "Lidar Tech",
+  "participants": 8,
+  "date_range": {
+    "start": "2022-07-14",
+    "end": "2022-07-14"
+  },
+  "message_count": 29,
+  "topic": "Pricing and hardware options for lidar calculation",
+  "topic_slug": "pricing-hardware-options-lidar-calculation",
+  "tags": [
+    "analytics",
+    "inventory"
+  ],
+  "summary_markdown": "The discussion focused on determining the correct pricing and technical specifications for components related to 2D lidar cost calculations. Initial pricing information for a specific lidar unit was provided, but participants requested confirmation of the latest pricing from Teltonika LT for both RUT11 and RUT10 units.\n\nRegarding hardware options, it was noted that X10 could be used if a 4G connection was not required. The conversation confirmed that Estonia uses SIM cards for connectivity, though an earlier solution (using RUT240 + Jetson) was mentioned. A suggestion to replace the Jetson with a Raspberry Pi was made to potentially save costs, but ultimately, the group decided to stick with the 'old solution' until a better version is available.\n\nFinally, updated pricing for a service or component was shared, ranging from US$99.92 (1-9 units) to US$75 (100+ units) per month.",
+  "decisions": [
+    "The group decided to stick with the 'old solution' until a better version is available."
+  ],
+  "action_items": [
+    "Confirm the latest pricing for RUT11 and RUT10 from Teltonika LT.",
+    "Get proper pricing for RUT11 and RUT10."
+  ]
+}

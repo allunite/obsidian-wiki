@@ -1,0 +1,25 @@
+{
+  "chat_id": "AAAA9ybOLwM",
+  "kind": "Space",
+  "space_name": "ИТ",
+  "participants": 8,
+  "date_range": {
+    "start": "2022-08-10",
+    "end": "2022-08-10"
+  },
+  "message_count": 24,
+  "topic": "Adjusting signal limit default value",
+  "topic_slug": "adjusting-signal-limit-default-value",
+  "tags": [
+    "analytics",
+    "campaign"
+  ],
+  "summary_markdown": "The discussion focused on the current default `signal_limit` for new companies (e.g., UK), which is 60, leading to uncalibrated sessions. It was proposed that this default value should be changed from 60 to 89.\n\n*   **Current Issue:** The default of 60 causes issues with session calibration and data generation for new companies.\n*   **Proposed Solution:** Change the system default `signal_limit` to 89. \n*   **Mitigation Plan:** To minimize disruption, it was suggested that existing accounts without a set limit should be updated to 60 (or another value) while the global default is changed to 89. This ensures new companies use the correct default while leaving older data unaffected.",
+  "decisions": [
+    "The system default `signal_limit` will be changed from 60 to 89."
+  ],
+  "action_items": [
+    "Someone needs to create a high-priority ticket to implement the change and ensure all stakeholders are informed.",
+    "Review existing accounts without set limits for potential update (e.g., setting them to 60) before changing the global default."
+  ]
+}

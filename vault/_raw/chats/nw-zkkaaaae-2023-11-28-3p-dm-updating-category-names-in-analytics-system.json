@@ -1,0 +1,25 @@
+{
+  "chat_id": "nW_zkkAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2023-11-28",
+    "end": "2023-11-28"
+  },
+  "message_count": 16,
+  "topic": "Updating category names in analytics system",
+  "topic_slug": "updating-category-names-in-analytics-system",
+  "tags": [
+    "campaign",
+    "facility",
+    "analytics"
+  ],
+  "summary_markdown": "The conversation addressed the technical process of renaming a location category (Mall to Mall_telt240) for Provantage Africa. It was confirmed that changing the name is possible, provided all related assets, model bindings, and calibration links are updated.\n\n[p1] reported updating the `ml_model` table in PostgreSQL and the `facility_dict` table in ClickHouse (CH). [me] questioned which other locations needed updates. It was clarified that the category Mall was split into two new categories: Mall_telt240 and Mall_telt200.\n\n[me] confirmed updating the necessary dictionaries within CH, and [p1] stated they would check the night calculation results the following day.",
+  "decisions": [
+    "The location category name change is technically feasible if all related assets and bindings are updated."
+  ],
+  "action_items": [
+    "Someone will check the status of the night calculation process on the next day."
+  ]
+}

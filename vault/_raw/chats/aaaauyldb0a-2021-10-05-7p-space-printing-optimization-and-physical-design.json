@@ -1,0 +1,19 @@
+{
+  "chat_id": "AAAAuyldb0A",
+  "kind": "Space",
+  "space_name": "Lidar development",
+  "participants": 7,
+  "date_range": {
+    "start": "2021-10-05",
+    "end": "2021-10-05"
+  },
+  "message_count": 7,
+  "topic": "Printing optimization and physical design",
+  "topic_slug": "printing-optimization-and-physical-design",
+  "tags": [
+    "facility"
+  ],
+  "summary_markdown": "The discussion covered printing optimizations, noting a reduction from 5.30 to 2.39. There was also mention of potential physical design changes, including adding extra holes and discussing the need for a new cover box.",
+  "decisions": [],
+  "action_items": []
+}

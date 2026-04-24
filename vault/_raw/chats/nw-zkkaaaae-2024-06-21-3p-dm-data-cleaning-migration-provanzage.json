@@ -1,0 +1,27 @@
+{
+  "chat_id": "nW_zkkAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2024-06-21",
+    "end": "2024-06-21"
+  },
+  "message_count": 30,
+  "topic": "Data cleaning and migration for Provanzage",
+  "topic_slug": "data-cleaning-migration-provanzage",
+  "tags": [
+    "analytics",
+    "campaign",
+    "inventory"
+  ],
+  "summary_markdown": "The initial request involved ensuring the data for 'Провантаж 7897' on the `ds model2` was consistent with the beta environment, specifically by dropping records lacking categories. Later discussion focused on discrepancies found when comparing test dataset calculations to the live production setup.\n\nIt was noted that the current script only copies aggregates, leading to potential data loss or inconsistency if the beta data is migrated directly to production without proper handling of the `device_session_agg_ml_2` table. The conversation concluded with a plan to review and adjust the migration process to ensure all necessary data points are transferred correctly.",
+  "decisions": [
+    "Drop records lacking categories from the specified dataset for Provanzage.",
+    "Review and potentially modify the data migration script (specifically concerning `device_session_agg_ml_2`) to prevent loss of historical or non-aggregated data when moving beta data to production."
+  ],
+  "action_items": [
+    "[me] needs to review how the model 2 process was handled previously.",
+    "[p1] will follow up later regarding testing and next steps."
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "chat_id": "i6YI1QAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 2,
+  "date_range": {
+    "start": "2023-10-02",
+    "end": "2023-10-02"
+  },
+  "message_count": 40,
+  "topic": "Analytics testing and time zone adjustments",
+  "topic_slug": "analytics-testing-time-zone-adjustments",
+  "tags": [
+    "analytics",
+    "dwell-time",
+    "campaign"
+  ],
+  "summary_markdown": "The discussion focused on analytics updates, specifically regarding dwell time calculations and data consistency across environments.\n\n*   **Dwell Time:** A proposed version for calculating dwell time was discussed, noting a preference to focus on nocturnal peaks rather than direct dwell time calculation without historical adjustments. \n*   **Analytics Testing:** Changes were implemented to ensure that time zones are standardized (converted to local or selected timezone) on the server side, rather than client-side.\n*   **Data Consistency:** The primary testing focus was directed towards verifying data accuracy within campaigns and dashboards, noting that external date parameters in URLs should always be displayed in UTC. \n*   **Brazilian Requests:** There is a backlog of requests from Brazil requiring future attention, with the possibility of assigning tasks for this region in the next sprint.",
+  "decisions": [
+    "The primary testing focus for analytics updates must be on data accuracy within campaigns and dashboards.",
+    "Time zone handling was updated to standardize conversion on the server side."
+  ],
+  "action_items": [
+    "Test campaign data consistency using the new dev-analytics environment.",
+    "Review backlog of requests specific to Brazil for future sprint planning."
+  ]
+}

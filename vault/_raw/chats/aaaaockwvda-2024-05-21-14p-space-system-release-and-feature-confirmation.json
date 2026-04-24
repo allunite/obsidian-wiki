@@ -1,0 +1,22 @@
+{
+  "chat_id": "AAAAOcKWvdA",
+  "kind": "Space",
+  "space_name": "Delivery Coordination",
+  "participants": 14,
+  "date_range": {
+    "start": "2024-05-21",
+    "end": "2024-05-21"
+  },
+  "message_count": 10,
+  "topic": "System release and feature confirmation",
+  "topic_slug": "system-release-and-feature-confirmation",
+  "tags": [
+    "analytics",
+    "dashboard"
+  ],
+  "summary_markdown": "The team discussed the timing of a system release. Several features were mentioned, including 'hourly unique traffic returned,' 'dashboard: report - group by network,' and 'dashboard: respect facility only level on filter by category, network or city.' Confirmation was sought regarding these changes following updates made by someone previously. The release was scheduled for approximately three hours later that day and was confirmed to have happened later in the afternoon (beta and production environments).",
+  "decisions": [
+    "The system release containing new features is scheduled/completed."
+  ],
+  "action_items": []
+}

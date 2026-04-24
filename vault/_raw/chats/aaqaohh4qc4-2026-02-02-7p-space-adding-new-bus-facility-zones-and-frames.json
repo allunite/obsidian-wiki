@@ -1,0 +1,27 @@
+{
+  "chat_id": "AAQAohh4qc4",
+  "kind": "Space",
+  "space_name": "Bus Finland",
+  "participants": 7,
+  "date_range": {
+    "start": "2026-02-02",
+    "end": "2026-02-02"
+  },
+  "message_count": 22,
+  "topic": "Adding new bus facility zones and frames",
+  "topic_slug": "adding-new-bus-facility-zones-and-frames",
+  "tags": [
+    "facility",
+    "frame",
+    "inventory",
+    "analytics"
+  ],
+  "summary_markdown": "The discussion focused on integrating 11 new facility zones for bus locations. The process involves adding polygon geometry and slot parameters to these zones.\n\n**Key Technical Decisions:**\n*   **Zone IDs:** Regarding the zone ID, it was confirmed that while a client (Villi) provided an external ID format (`a0W09000000RacjEAC`), this field is not mandatory and can be updated later. The team agreed to initially leave the ID blank for the new zones.\n*   **Frame Status:** To enable impression calculation and campaign setup, the status of all frames needs updating from 'New' to 'Ready'. It was decided that a bulk update or manual update via the staging analytics UI/database is required.\n\n**Action Items:**\n*   A task was created (via ClickUp) for adding the polygon geometry (`area_geom`) to the facility records.",
+  "decisions": [
+    "The external ID field for new zones will be left blank initially.",
+    "All existing frames need their status updated to 'Ready' for campaign and impression calculation."
+  ],
+  "action_items": [
+    "Add polygon geometry (area_geom) to the facility records via a dedicated task/ticket."
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "chat_id": "AAAA3oghITo",
+  "kind": "Space",
+  "space_name": "Кабаны",
+  "participants": 4,
+  "date_range": {
+    "start": "2022-12-23",
+    "end": "2022-12-23"
+  },
+  "message_count": 31,
+  "topic": "Database configuration and deployment status",
+  "topic_slug": "database-configuration-and-deployment-status",
+  "tags": [
+    "analytics",
+    "campaign",
+    "inventory",
+    "session"
+  ],
+  "summary_markdown": "The conversation covered several technical topics, including finding 200 LTE antennas and making changes to the database storage configuration. One participant changed the storage configuration by renaming the 'hot' disk to 'default'. It was noted that this change should not break functionality.\n\nRegarding deployment, it was discussed that the production environment update would happen after New Year's (НГ), but not immediately after. The team confirmed that in the new version, `delete` operations should work as expected, and real-time data processing is currently functional.",
+  "decisions": [
+    "The storage configuration change (renaming 'hot' to 'default') was implemented on the sandbox environment.",
+    "Production database updates will occur after New Year's but not immediately after."
+  ],
+  "action_items": [
+    "One participant will finish work on the VPN server."
+  ]
+}

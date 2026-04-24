@@ -1,0 +1,25 @@
+{
+  "chat_id": "AAAA3oghITo",
+  "kind": "Space",
+  "space_name": "Кабаны",
+  "participants": 4,
+  "date_range": {
+    "start": "2022-06-01",
+    "end": "2022-06-01"
+  },
+  "message_count": 20,
+  "topic": "Debugging HTTP redirects and API usage",
+  "topic_slug": "debugging-http-redirects-and-api-usage",
+  "tags": [
+    "analytics",
+    "campaign"
+  ],
+  "summary_markdown": "The discussion focused on issues arising from the forced redirection of requests from HTTP to HTTPS for api.allunite.com, which is causing problems with box registration.\n\nParticipants discussed the need to identify all services or integrations that still rely on or send data via insecure HTTP connections, including credentials.\n\nIt was noted that while internal systems (like within a k8s cluster) might still function over HTTP, the overall goal is to close off HTTP access. The difficulty in tracking down these dependencies stems from the fact that traffic passes through an ELB, making traditional web server log analysis difficult.",
+  "decisions": [
+    "HTTP access must be closed off for api.allunite.com",
+    "The immediate plan is to wait and fix issues based on findings."
+  ],
+  "action_items": [
+    "Identify all services that are affected by the HTTP redirect changes."
+  ]
+}

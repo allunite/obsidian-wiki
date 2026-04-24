@@ -1,0 +1,29 @@
+{
+  "chat_id": "oCgFCIAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2022-12-13",
+    "end": "2022-12-13"
+  },
+  "message_count": 36,
+  "topic": "Structuring forms and data processing",
+  "topic_slug": "structuring-forms-and-data-processing",
+  "tags": [
+    "analytics",
+    "campaign",
+    "facility",
+    "frame",
+    "inventory"
+  ],
+  "summary_markdown": "The discussion focused on the technical approach for structuring forms and handling data segmentation. It was decided that instead of using a single JSON component, the form should be broken down into separate, manageable pieces (slices/components) to simplify development and future data insertion for different clients.\n\nRegarding data processing, it was confirmed that the current aggregation script is effective for calculating metrics over arbitrary periods, not just daily. The immediate priority involves cleaning up old or unnecessary code within the relevant scripts.\n\nSpecific actions included providing a list of company IDs from `facility_dict` and running the updated scripts on staging with data starting from June 1st.",
+  "decisions": [
+    "The form structure will be broken down into separate components/slices rather than using a single JSON component.",
+    "The aggregation script is confirmed to calculate metrics for arbitrary time periods, not just daily."
+  ],
+  "action_items": [
+    "Review and clean up old or unnecessary code in the data processing scripts.",
+    "Provide the list of company IDs from `facility_dict` to someone (Galina)."
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "chat_id": "nW_zkkAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2024-05-03",
+    "end": "2024-05-03"
+  },
+  "message_count": 20,
+  "topic": "Deploying new reporting features to production",
+  "topic_slug": "deploying-new-reporting-features-to-production",
+  "tags": [
+    "analytics",
+    "campaign",
+    "facility"
+  ],
+  "summary_markdown": "The conversation covered two main topics: data discrepancies and feature deployment. Initially, [p1] questioned a reduction in sessions after recalculation, specifically noting the issue was visible across individual facilities, particularly at 'realim'. The formula used for calculating session counts was reviewed.\n\nLater, [p1] requested that a new reporting feature—'Average Number of Screen Seen (Cluster)'—be deployed to production environment for load testing. [me] confirmed ability to deploy this feature and also agreed to handle another ticket related to 'province'.",
+  "decisions": [
+    "Deploy the 'Average Number of Screen Seen (Cluster)' reporting feature to production for load testing."
+  ],
+  "action_items": [
+    "[me] to deploy the new Average Number of Screen Seen (Cluster) feature.",
+    "[me] to handle and deploy the ticket related to 'province'."
+  ]
+}

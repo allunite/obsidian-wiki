@@ -1,0 +1,26 @@
+{
+  "chat_id": "i6YI1QAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 2,
+  "date_range": {
+    "start": "2021-04-22",
+    "end": "2021-04-22"
+  },
+  "message_count": 34,
+  "topic": "Analyzing signal level data anomalies in Lithuania",
+  "topic_slug": "analyzing-signal-level-data-anomalies-lithuania",
+  "tags": [
+    "analytics",
+    "session",
+    "facility",
+    "dwell-time"
+  ],
+  "summary_markdown": "The discussion focused on data anomalies found for Lithuania, specifically concerning signal levels. One participant noted finding records with a signal level of 0 for local ads and a signal level of 211 for real ads, questioning the percentage of such data points.\n\nLater, it was discussed that there are locations without a 0 signal level, and others that do have it. The participants reviewed distribution histograms of signal levels to investigate the strange pattern observed.",
+  "decisions": [
+    "The participant will review the data for potential causes of signal level discrepancies (e.g., box firmware/configuration issues)."
+  ],
+  "action_items": [
+    "Review the provided spreadsheet and associated data for signal level distribution anomalies."
+  ]
+}

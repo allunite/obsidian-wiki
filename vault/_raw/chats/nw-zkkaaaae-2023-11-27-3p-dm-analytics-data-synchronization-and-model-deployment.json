@@ -1,0 +1,27 @@
+{
+  "chat_id": "nW_zkkAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2023-11-27",
+    "end": "2023-11-27"
+  },
+  "message_count": 34,
+  "topic": "Analytics data synchronization and model deployment",
+  "topic_slug": "analytics-data-synchronization-and-model-deployment",
+  "tags": [
+    "analytics",
+    "facility",
+    "campaign",
+    "inventory"
+  ],
+  "summary_markdown": "The session covered two main technical tasks. First, the user reported an issue where transit analytics data was not synchronizing correctly across different datasets (production vs. staging), despite visual confirmation on the dashboard. It was determined that the correct data sources were being used when referencing yesterday's date.\n\nSecond, a model deployment task was discussed for the company associated with 7873. The decision was made to add the `Lithuania_bus_shelter_89_5_96_0_06` model for Bus Shelter to both production and staging environments, ensuring that historical data recalculation was performed.",
+  "decisions": [
+    "The dataset for the staging environment must be migrated/copied to production.",
+    "The `Lithuania_bus_shelter_89_5_96_0_06` model was added to both production and staging environments for the specified company, including historical recalculation."
+  ],
+  "action_items": [
+    "Ensure analytics data synchronization is verified across all datasets (production/staging)."
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "chat_id": "0VorOYAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2023-03-22",
+    "end": "2023-03-22"
+  },
+  "message_count": 10,
+  "topic": "SQL query timeout and execution limits",
+  "topic_slug": "sql-query-timeout-and-execution-limits",
+  "tags": [
+    "analytics",
+    "recalc-ch"
+  ],
+  "summary_markdown": "A user was running a data loading SQL query (specifically for JCD Brazil) that spanned a large time range and resulted in a timeout error when executed against the staging environment. The initial attempt to run the full 2023 date range failed due to timeouts.\n\nThe issue was identified as an IDE setting limit rather than a database constraint. By increasing the query execution timeout limit within IntelliJ IDEA, the same comprehensive query successfully ran (taking approximately 70 seconds).",
+  "decisions": [
+    "The full SQL query for JCD Brazil can be run by adjusting the IDE's connection/server timeout settings."
+  ],
+  "action_items": []
+}

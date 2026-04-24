@@ -1,0 +1,24 @@
+{
+  "chat_id": "i6YI1QAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 2,
+  "date_range": {
+    "start": "2024-09-17",
+    "end": "2024-09-17"
+  },
+  "message_count": 5,
+  "topic": "Data adjustments for JCD Brazil task",
+  "topic_slug": "data-adjustments-for-jcd-brazil-task",
+  "tags": [
+    "analytics",
+    "session"
+  ],
+  "summary_markdown": "The conversation revolves around data processing and required adjustments for the JCD Brazil client project (DOOH-1217). Initially, [me] spent two days creating two tabs out of three. It was later determined that a large portion of the added data (~1.1B sessions) from the original ~2.3B is unnecessary for the client, and adjustments are required to remove this excess.\n\n[me] expressed concern regarding scope creep and potential over-processing, noting that processing each facility takes 1-2 hours. [p1] later clarified verbally that everything was fine, resolving the initial misunderstanding.",
+  "decisions": [
+    "Adjustments must be made to remove ~1.1B unnecessary sessions from the JCD Brazil data."
+  ],
+  "action_items": [
+    "[me] needs confirmation/coordination with someone regarding the necessary changes for the JCD Brazil task."
+  ]
+}

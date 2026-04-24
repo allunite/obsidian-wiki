@@ -1,0 +1,28 @@
+{
+  "chat_id": "oCgFCIAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2023-10-02",
+    "end": "2023-10-02"
+  },
+  "message_count": 11,
+  "topic": "Deprecation of old code and traffic data",
+  "topic_slug": "deprecating-old-code-and-traffic-data",
+  "tags": [
+    "mops",
+    "analytics",
+    "inventory",
+    "frame",
+    "impression"
+  ],
+  "summary_markdown": "The conversation addressed the deprecation of old code repositories, specifically mentioning two GitHub folders that contain outdated scripts and data. It was decided that these can be removed.\n\nA separate discussion focused on historical data regarding traffic share per frame (`select id, facility_id, facility_traffic_share from frame`). Initially used for displaying frame traffic in inventory, this data is now considered unnecessary as the current method calculates impressions directly using `device_session_agg_4`. The consensus was that focusing on impression counts rather than historical traffic shares per frame is the correct approach.",
+  "decisions": [
+    "The outdated code repositories can be deleted/archived.",
+    "Historical data calculating facility traffic share per frame is no longer needed for inventory reporting."
+  ],
+  "action_items": [
+    "[p1] will commit to clean up the deprecated repositories."
+  ]
+}

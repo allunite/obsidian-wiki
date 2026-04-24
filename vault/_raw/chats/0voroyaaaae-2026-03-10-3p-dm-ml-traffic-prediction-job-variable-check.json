@@ -1,0 +1,23 @@
+{
+  "chat_id": "0VorOYAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2026-03-10",
+    "end": "2026-03-10"
+  },
+  "message_count": 5,
+  "topic": "ML traffic prediction job variable check",
+  "topic_slug": "ml-traffic-prediction-job-variable-check",
+  "tags": [
+    "analytics"
+  ],
+  "summary_markdown": "Someone shared a link to an AllUnite jobs repository related to ML traffic prediction. [me] reviewed the setup and noted that the `USE_DEVICE_AGG_DEV` variable was not explicitly set, but since its default value is 1, they requested recalculation using this assumption and review of the results.",
+  "decisions": [
+    "Recalculate job results assuming USE_DEVICE_AGG_DEV = 1"
+  ],
+  "action_items": [
+    "Run the ML traffic prediction job with USE_DEVICE_AGG_DEV set to 1 and analyze the resulting data."
+  ]
+}

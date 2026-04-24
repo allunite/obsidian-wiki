@@ -1,0 +1,22 @@
+{
+  "chat_id": "oCgFCIAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2024-06-03",
+    "end": "2024-06-03"
+  },
+  "message_count": 6,
+  "topic": "Filtering frame data by status",
+  "topic_slug": "filtering-frame-data-by-status",
+  "tags": [
+    "analytics",
+    "frame"
+  ],
+  "summary_markdown": "The discussion centered on retrieving or filtering frame data. Specifically, someone asked about a previous code snippet that filtered frames based only on the 'Ready' status and verification by a third party (3P). They noted the existence of an `is_frame_active` field but questioned its reliability for determining when a frame is truly active.\n\nIt was determined that if this filtering logic is not present in the repository, it likely does not exist.",
+  "decisions": [
+    "No specific data retrieval code or filter criteria were confirmed to be used."
+  ],
+  "action_items": []
+}

@@ -1,0 +1,23 @@
+{
+  "chat_id": "ws0mTkAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 2,
+  "date_range": {
+    "start": "2025-08-15",
+    "end": "2025-08-15"
+  },
+  "message_count": 16,
+  "topic": "Forecast calculation and review",
+  "topic_slug": "forecast-calculation-and-review",
+  "tags": [
+    "analytics"
+  ],
+  "summary_markdown": "The conversation centered on a recently implemented forecast feature that reportedly caused issues. The initial implementation was deemed too complex or problematic for general use, leading to complaints. Someone offered to roll back and recalculate the data. After discussion, it was agreed that the current state needed refinement before being finalized.",
+  "decisions": [
+    "The overly ambitious forecast calculation needs further review and adjustment."
+  ],
+  "action_items": [
+    "[p1] will refine and approve the forecast calculation before returning to the data."
+  ]
+}

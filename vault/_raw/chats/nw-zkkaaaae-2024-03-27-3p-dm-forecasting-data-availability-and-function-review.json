@@ -1,0 +1,25 @@
+{
+  "chat_id": "nW_zkkAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2024-03-27",
+    "end": "2024-03-27"
+  },
+  "message_count": 37,
+  "topic": "Forecasting data availability and function review",
+  "topic_slug": "forecasting-data-availability-and-function-review",
+  "tags": [
+    "analytics",
+    "forecast",
+    "facility"
+  ],
+  "summary_markdown": "The discussion covered the functionality of forecasting for company 7881, noting that forecast data is available but previously failed to run correctly. It was explained that the forecast feature initially only worked for companies with virtual sensors and required specific steps (like renaming a calculation step from `insert_fake_sessions` to `insert_forecast_sessions`) to function properly.\n\nRegarding data retrieval, it was noted that running the full 2023 forecast is currently difficult due to slow access to session data stored on cold storage, especially since JCD HQ is actively pulling 2023 reports. The conversation concluded with a review of SQL functions (`getFrequency_TEST_11` and `getFrequency_TEST_12`) used for calculating frequency coefficients.",
+  "decisions": [
+    "The forecast run for the problematic period will be postponed until the next day (morning)."
+  ],
+  "action_items": [
+    "Someone needs to provide the necessary code/parameters for running the forecast model."
+  ]
+}

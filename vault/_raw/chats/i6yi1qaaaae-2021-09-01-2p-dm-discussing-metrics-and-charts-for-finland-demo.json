@@ -1,0 +1,22 @@
+{
+  "chat_id": "i6YI1QAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 2,
+  "date_range": {
+    "start": "2021-09-01",
+    "end": "2021-09-01"
+  },
+  "message_count": 10,
+  "topic": "Discussing metrics and charts for Finland demo",
+  "topic_slug": "discussing-metrics-and-charts-for-finland-demo",
+  "tags": [
+    "analytics",
+    "campaign"
+  ],
+  "summary_markdown": "The conversation focused on preparing metrics and charts for an upcoming demonstration intended for a client in Finland. [p1] stated that they would compile a list of required metrics to discuss, which are necessary for the demo. The discussion was primarily logistical, arranging a time to meet.",
+  "decisions": [],
+  "action_items": [
+    "P1 to prepare and share the list of metrics needed for the Finland demonstration."
+  ]
+}

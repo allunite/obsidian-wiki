@@ -1,0 +1,23 @@
+{
+  "chat_id": "i6YI1QAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 2,
+  "date_range": {
+    "start": "2021-11-01",
+    "end": "2021-11-01"
+  },
+  "message_count": 12,
+  "topic": "Discussing Finland pilot presentation requirements",
+  "topic_slug": "discussing-finland-pilot-presentation-requirements",
+  "tags": [
+    "analytics",
+    "inventory",
+    "campaign"
+  ],
+  "summary_markdown": "The conversation revolves around preparing a pilot presentation for the Finnish market. The client requires integration with partners and needs to discuss what can be accomplished in a short timeframe. The client has provided location data, available hourly and weekly via API.",
+  "decisions": [],
+  "action_items": [
+    "Discussing immediate actions needed for the Finland pilot presentation."
+  ]
+}

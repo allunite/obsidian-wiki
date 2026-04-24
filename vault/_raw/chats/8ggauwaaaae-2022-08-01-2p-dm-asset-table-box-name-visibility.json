@@ -1,0 +1,24 @@
+{
+  "chat_id": "8GgAuwAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 2,
+  "date_range": {
+    "start": "2022-08-01",
+    "end": "2022-08-01"
+  },
+  "message_count": 10,
+  "topic": "Asset table and box name visibility",
+  "topic_slug": "asset-table-box-name-visibility",
+  "tags": [
+    "analytics",
+    "inventory"
+  ],
+  "summary_markdown": "The conversation focused on technical data requirements for asset management. It was noted that while the necessary information had been provided, the box names were not visible in the asset table. A request was made to ensure that box names are included and visible within the asset table export.\n\nLater, it was confirmed that the required work was completed, with someone planning to send further instructions regarding adjustments for the following day.",
+  "decisions": [
+    "Box names must be added to the asset table view/export."
+  ],
+  "action_items": [
+    "Someone will write up and share plans for necessary movements/adjustments tomorrow."
+  ]
+}

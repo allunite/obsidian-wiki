@@ -1,0 +1,25 @@
+{
+  "chat_id": "AAAAqeRkR58",
+  "kind": "Space",
+  "space_name": "Estonia",
+  "participants": 9,
+  "date_range": {
+    "start": "2021-09-21",
+    "end": "2021-09-21"
+  },
+  "message_count": 8,
+  "topic": "Lidar connection testing and setup",
+  "topic_slug": "lidar-connection-testing-and-setup",
+  "tags": [
+    "analytics",
+    "facility"
+  ],
+  "summary_markdown": "The conversation confirms that Estonia is planning to install a lidar unit on the day of the chat. [p4] confirmed successful connectivity, stating they could log into Jetson and see the lidar data. The next steps involve demonstrating this connection check to [p2] Vasilchenko and having someone instruct [p8] to record a video demonstration.",
+  "decisions": [
+    "Lidar unit installation is planned for today."
+  ],
+  "action_items": [
+    "Show [p2] how to check Lidar access.",
+    "Instruct [p8] to create a video demonstrating the setup."
+  ]
+}

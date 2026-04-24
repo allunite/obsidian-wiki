@@ -1,0 +1,27 @@
+{
+  "chat_id": "AAAAFPbiAdE",
+  "kind": "Space",
+  "space_name": "Group Chat",
+  "participants": 3,
+  "date_range": {
+    "start": "2024-04-10",
+    "end": "2024-04-10"
+  },
+  "message_count": 23,
+  "topic": "Fixing demographics for Ocean 7847",
+  "topic_slug": "fixing-demographics-for-ocean-7847",
+  "tags": [
+    "analytics",
+    "facility",
+    "recalc-ch"
+  ],
+  "summary_markdown": "The conversation focused on correcting the demographic data setup for asset 7847 (Ocean). Initially, there was confusion regarding whether the demographics should be 'empty' or use the standard 'areas of living' criteria. It was decided that the demographics needed to be included and recalculated.\n\nThe current logic for 'areas of living' explicitly excludes assets categorized as 'Mall'. However, since Ocean 7847 only contains malls, this exclusion prevents proper demographic data capture. To resolve this, an exception will be made specifically for 7847, allowing the inclusion of demographics.\n\n[me] agreed to recalculate the historical data starting from January 1, 2024.",
+  "decisions": [
+    "The demographic data setup for asset 7847 must be updated to include proper data.",
+    "An exception will be made for Ocean 7847 (7847) to override the standard 'areas of living' exclusion rule that prevents Malls from having demographics.",
+    "Historical recalculation of demographics for 7847 will start from January 1, 2024."
+  ],
+  "action_items": [
+    "[me] completed the historical demographic recalculation for 7847 starting 2024-01-01."
+  ]
+}

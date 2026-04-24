@@ -1,0 +1,24 @@
+{
+  "chat_id": "rBfK7kAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 2,
+  "date_range": {
+    "start": "2024-04-02",
+    "end": "2024-04-02"
+  },
+  "message_count": 11,
+  "topic": "Data aggregation and dashboard zero values",
+  "topic_slug": "data-aggregation-dashboard-zero-values",
+  "tags": [
+    "analytics",
+    "session"
+  ],
+  "summary_markdown": "The conversation focused on debugging data discrepancies. Initially, [unknown] reported that although the `device_session_agg_4` table contained non-null data after aggregation, the dashboard still displayed zeros. It was noted that selecting a campaign period in March showed correct data, but periods from January or February resulted in zero values despite recalculations throughout the year.\n\n[me] provided a SQL query to check session counts for a specific company ('AREA' source, company_num 7600) starting from January 1st. [unknown] confirmed receipt of this information.",
+  "decisions": [
+    "The data needs further investigation regarding period-specific zero values."
+  ],
+  "action_items": [
+    "[me] will attempt to insert the required data within the day."
+  ]
+}

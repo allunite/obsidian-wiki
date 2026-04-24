@@ -1,0 +1,26 @@
+{
+  "chat_id": "i6YI1QAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 2,
+  "date_range": {
+    "start": "2023-01-30",
+    "end": "2023-01-30"
+  },
+  "message_count": 25,
+  "topic": "Analytics dashboard access and inventory visibility",
+  "topic_slug": "analytics-dashboard-access-inventory-visibility",
+  "tags": [
+    "analytics",
+    "inventory",
+    "facility"
+  ],
+  "summary_markdown": "The discussion focused on technical issues within the analytics platform, specifically regarding user roles and data visibility for client accounts. Initially, a link was flagged where an unnecessary 'Mall' role was present for a specific client ([email@jcdecaux.com]), which was subsequently agreed to be removed.\n\nRegarding inventory access, it was noted that while clients should ideally see the inventory, the current admin view only shows data without impersonation. A workaround/solution was suggested: users must log in as an administrator and then use the 'impersonate' function within the inventory section to view client-specific data.\n\nThe direct URL for accessing the general inventory page was provided.",
+  "decisions": [
+    "The unnecessary 'Mall' role associated with the specified client was removed from the analytics platform."
+  ],
+  "action_items": [
+    "None",
+    "Someone needs to implement a proper solution for viewing client data within the inventory section (impersonation functionality)."
+  ]
+}

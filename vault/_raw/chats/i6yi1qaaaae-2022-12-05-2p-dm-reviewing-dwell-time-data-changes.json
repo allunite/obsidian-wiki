@@ -1,0 +1,24 @@
+{
+  "chat_id": "i6YI1QAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 2,
+  "date_range": {
+    "start": "2022-12-05",
+    "end": "2022-12-05"
+  },
+  "message_count": 13,
+  "topic": "Reviewing dwell time data changes",
+  "topic_slug": "reviewing-dwell-time-data-changes",
+  "tags": [
+    "analytics",
+    "dwell-time"
+  ],
+  "summary_markdown": "The conversation focused on reviewing discrepancies in historical dwell time data. It was noted that the differences were not limited to the last couple of days, but rather started around October 20th. One participant mentioned that from October 20th, the average duration was approximately 1.5 hours, compared to over two hours before that date. This period (October 20th) is significant because the team had been cross-referencing data with client records starting from that date.",
+  "decisions": [
+    "The data discrepancy in dwell time started around October 20th."
+  ],
+  "action_items": [
+    "Follow up regarding any specific details related to October 20th."
+  ]
+}

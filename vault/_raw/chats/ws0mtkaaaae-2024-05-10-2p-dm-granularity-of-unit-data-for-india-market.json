@@ -1,0 +1,22 @@
+{
+  "chat_id": "ws0mTkAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 2,
+  "date_range": {
+    "start": "2024-05-10",
+    "end": "2024-05-10"
+  },
+  "message_count": 15,
+  "topic": "Granularity of unit data for India market",
+  "topic_slug": "granularity-of-unit-data-for-india-market",
+  "tags": [
+    "analytics",
+    "inventory"
+  ],
+  "summary_markdown": "The discussion confirmed the focus is on analyzing unit performance in India. The key point raised was that unit data should be available at a granular, hourly level for locations such as airports, malls, and other clusters, rather than just for a single week.",
+  "decisions": [
+    "Focus analysis on hourly granularity of unit data for Indian markets."
+  ],
+  "action_items": []
+}

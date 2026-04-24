@@ -1,0 +1,23 @@
+{
+  "chat_id": "rBfK7kAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 2,
+  "date_range": {
+    "start": "2023-07-07",
+    "end": "2023-07-07"
+  },
+  "message_count": 8,
+  "topic": "Checking data loading in analytics dashboard",
+  "topic_slug": "checking-data-loading-analytics-dashboard",
+  "tags": [
+    "analytics"
+  ],
+  "summary_markdown": "The conversation focused on troubleshooting how to verify that a script successfully recorded data. It was advised to check the correct dataset using filters within the analytics dashboard, noting that selecting the dataset does not affect live traffic or map views; instead, one should look at specific panels/charts. For impersonation testing, it was recommended setting the user in the top right corner of the personalization view.",
+  "decisions": [
+    "Data verification requires checking specific panels/charts, not just the main dashboard filters."
+  ],
+  "action_items": [
+    "Someone needs to test data loading on the analytics dashboard using specified methods."
+  ]
+}

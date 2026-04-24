@@ -1,0 +1,22 @@
+{
+  "chat_id": "8GgAuwAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 2,
+  "date_range": {
+    "start": "2022-12-12",
+    "end": "2022-12-12"
+  },
+  "message_count": 11,
+  "topic": "Granting client access to the mall",
+  "topic_slug": "granting-client-access-to-the-mall",
+  "tags": [
+    "analytics",
+    "inventory"
+  ],
+  "summary_markdown": "The conversation focused on granting necessary system access for a client. Initially, [unknown] reported issues with three newly registered users accessing the platform using specific emails and usernames. [me] confirmed that the required access was granted to all listed accounts (flobalka121, flobalka219, flobalka785) for the 'mall' area.",
+  "decisions": [
+    "Access was successfully granted to three new client users."
+  ],
+  "action_items": []
+}

@@ -1,0 +1,23 @@
+{
+  "chat_id": "AAAAOcKWvdA",
+  "kind": "Space",
+  "space_name": "Delivery Coordination",
+  "participants": 14,
+  "date_range": {
+    "start": "2023-06-13",
+    "end": "2023-06-13"
+  },
+  "message_count": 8,
+  "topic": "Coordination for Brazil call",
+  "topic_slug": "coordination-for-brazil-call",
+  "tags": [
+    "analytics"
+  ],
+  "summary_markdown": "The participants coordinated an immediate call regarding Brazil. One participant noted that a list of questions should be prepared by someone (referred to as Sasha). Links to relevant documents and spreadsheets were shared for preparation.",
+  "decisions": [
+    "An immediate call about Brazil was scheduled."
+  ],
+  "action_items": [
+    "Review the provided Google Drive link and spreadsheet containing necessary information/questions."
+  ]
+}

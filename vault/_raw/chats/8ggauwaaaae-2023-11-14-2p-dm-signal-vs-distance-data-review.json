@@ -1,0 +1,22 @@
+{
+  "chat_id": "8GgAuwAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 2,
+  "date_range": {
+    "start": "2023-11-14",
+    "end": "2023-11-14"
+  },
+  "message_count": 13,
+  "topic": "Signal vs distance data review",
+  "topic_slug": "signal-vs-distance-data-review",
+  "tags": [
+    "analytics",
+    "inventory"
+  ],
+  "summary_markdown": "The conversation involved the sharing of a dataset correlating 'Distance' and 'Signal' values. This data appears to be used for analyzing performance metrics related to physical locations or inventory. The discussion was prompted by an ongoing internal query regarding conversions, distances, and stores.",
+  "decisions": [],
+  "action_items": [
+    "The review of the signal/distance correlation data has been postponed."
+  ]
+}

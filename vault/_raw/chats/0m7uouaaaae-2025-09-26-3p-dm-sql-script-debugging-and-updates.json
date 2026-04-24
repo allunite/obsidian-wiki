@@ -1,0 +1,21 @@
+{
+  "chat_id": "0m7UOUAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2025-09-26",
+    "end": "2025-09-26"
+  },
+  "message_count": 3,
+  "topic": "SQL script debugging and updates",
+  "topic_slug": "sql-script-debugging-and-updates",
+  "tags": [
+    "analytics"
+  ],
+  "summary_markdown": "A technical issue was reported regarding a SQL script located at `https://github.com/allunite/data-science/blob/template_scripts/sql/campaign.sql`. Someone confirmed that filters were added to the stage, and subsequently updated the script, confirming the fix.",
+  "decisions": [
+    "The issue with the SQL script was fixed."
+  ],
+  "action_items": []
+}

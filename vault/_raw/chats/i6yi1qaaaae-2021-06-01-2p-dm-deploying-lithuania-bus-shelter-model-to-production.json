@@ -1,0 +1,24 @@
+{
+  "chat_id": "i6YI1QAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 2,
+  "date_range": {
+    "start": "2021-06-01",
+    "end": "2021-06-01"
+  },
+  "message_count": 24,
+  "topic": "Deploying Lithuania Bus Shelter model to production",
+  "topic_slug": "deploying-lithuania-bus-shelter-model-to-production",
+  "tags": [
+    "analytics",
+    "facility",
+    "campaign"
+  ],
+  "summary_markdown": "The session focused on deploying a newly calculated model for the Lithuania Bus Shelter category. The model was initially run on staging and then pushed to production.\n\nDiscussion points included:\n*   Confirming that only data specific to `company_num=7854` and `category='Bus Shelter'` should be used.\n*   Confirmation that the required dataset segment could be copied directly from the STAGE environment into PROD.",
+  "decisions": [
+    "The Lithuania Bus Shelter model was deployed to production.",
+    "Only data for company 7854 and category 'Bus Shelter' will be utilized."
+  ],
+  "action_items": []
+}

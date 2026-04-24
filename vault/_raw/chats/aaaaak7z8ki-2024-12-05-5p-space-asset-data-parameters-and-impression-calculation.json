@@ -1,0 +1,26 @@
+{
+  "chat_id": "AAAAaK7z8KI",
+  "kind": "Space",
+  "space_name": "Group Chat",
+  "participants": 5,
+  "date_range": {
+    "start": "2024-12-05",
+    "end": "2024-12-05"
+  },
+  "message_count": 9,
+  "topic": "Asset data parameters and impression calculation",
+  "topic_slug": "asset-data-parameters-and-impression-calculation",
+  "tags": [
+    "analytics",
+    "facility",
+    "frame",
+    "impression"
+  ],
+  "summary_markdown": "The conversation focused on SQL queries and updates for asset data within a specific facility. One participant provided SQL to select key parameters (traffic type, facing direction, visibility factors, digital attraction multiplier) from the `asset` table based on a given company ID.\n\nA subsequent update query was also shared to populate the `digital_attraction_multiplier` parameter for assets where it was null.\n\nIt was clarified that these specific parameters are facility-level data and do not directly influence frame data. However, populating all six required fields would significantly simplify the impression calculation process.",
+  "decisions": [
+    "The structure of asset data selection from the `asset` table was confirmed using provided SQL queries."
+  ],
+  "action_items": [
+    "Participants should work on learning to populate all six necessary parameters in the asset data to simplify impression calculations."
+  ]
+}

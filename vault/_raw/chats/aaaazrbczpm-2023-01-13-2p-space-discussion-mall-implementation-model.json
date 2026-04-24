@@ -1,0 +1,24 @@
+{
+  "chat_id": "AAAAZRBCzpM",
+  "kind": "Space",
+  "space_name": "Group Chat",
+  "participants": 2,
+  "date_range": {
+    "start": "2023-01-13",
+    "end": "2023-01-13"
+  },
+  "message_count": 8,
+  "topic": "Discussion about Mall implementation model",
+  "topic_slug": "discussion-mall-implementation-model",
+  "tags": [
+    "analytics",
+    "campaign"
+  ],
+  "summary_markdown": "The conversation initiated a discussion regarding the required scope of work for a mall location. It was confirmed that the primary requirement involves implementing a model within the store space. The specific details concerning conversion tracking were noted, with one person mentioning that 'Lesha' handles the conversion calculation. A general agreement was reached that the proposed model should align with the existing model used for other mall locations.",
+  "decisions": [
+    "The required scope of work is an in-store model implementation."
+  ],
+  "action_items": [
+    "Schedule a call to discuss the Mall project details."
+  ]
+}

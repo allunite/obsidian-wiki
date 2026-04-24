@@ -1,0 +1,21 @@
+{
+  "chat_id": "AAAAud4RJ_I",
+  "kind": "Space",
+  "space_name": "Group Chat",
+  "participants": 4,
+  "date_range": {
+    "start": "2025-12-22",
+    "end": "2025-12-22"
+  },
+  "message_count": 4,
+  "topic": "Analytics login and session issues",
+  "topic_slug": "analytics-login-session-issues",
+  "tags": [
+    "analytics"
+  ],
+  "summary_markdown": "A discussion occurred regarding analytics access. One participant noted that logging out of the analytics system prevents returning to it later. Another participant mentioned a specific issue with 'sign in with google' not working, and agreed to investigate the problem.",
+  "decisions": [],
+  "action_items": [
+    "Someone needs to check why 'sign in with google' is failing."
+  ]
+}

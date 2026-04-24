@@ -1,0 +1,27 @@
+{
+  "chat_id": "nW_zkkAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2024-03-07",
+    "end": "2024-03-07"
+  },
+  "message_count": 63,
+  "topic": "Report data discrepancies and script updates",
+  "topic_slug": "report-data-discrepancies-and-script-updates",
+  "tags": [
+    "analytics",
+    "impression",
+    "facility",
+    "campaign"
+  ],
+  "summary_markdown": "The conversation covered several issues related to reporting and data integrity. \n\n1. **Data Aggregation Issues:** Discrepancies were noted where aggregated reports showed 'garbage' data, specifically including sensor names when grouping by clusters (instead of just facilities). It was discussed that the web front-end might be unclear regarding selected parameters.\n2. **Campaign Data Gaps:** A specific issue was raised concerning campaign reporting gaps; impressions were missing for certain days in the beta environment even though they existed in production, suggesting a full copy from prod to beta might resolve it.\n3. **Scripting Updates:** An existing research script was shared, and later an update was made to filter out non-operational sensors (e.g., those containing 'Stock%').\n4. **Frequency Formula:** A specific frequency formula for Provantage Airport was reviewed and agreed upon: the standard frequency multiplied by a coefficient based on the day number.\n\nDecisions were made regarding filtering sensor names in reports and implementing an updated frequency calculation for a specific facility.",
+  "decisions": [
+    "Filter out non-operational sensors (e.g., those containing 'Stock%') from reporting scripts.",
+    "Implement the agreed-upon frequency formula (base frequency * coefficient) for Provantage Airport."
+  ],
+  "action_items": [
+    "The updated frequency formula needs to be deployed to the staging environment for company 7600/AFI dashboard."
+  ]
+}

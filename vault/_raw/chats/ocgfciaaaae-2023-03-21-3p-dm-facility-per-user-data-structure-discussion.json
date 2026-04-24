@@ -1,0 +1,24 @@
+{
+  "chat_id": "oCgFCIAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2023-03-21",
+    "end": "2023-03-21"
+  },
+  "message_count": 5,
+  "topic": "Facility per user data structure discussion",
+  "topic_slug": "facility-per-user-data-structure-discussion",
+  "tags": [
+    "facility",
+    "analytics"
+  ],
+  "summary_markdown": "Discussion focused on the implementation of 'facility per user' data. [p1] questioned whether a solution exists to avoid reconfiguring all users when implementing this feature, suggesting two alternatives: 1) Finding a general solution for implementation, or 2) Granting access rights to every facility for every existing user by default to facilitate a full migration.\n[me] confirmed availability and suggested a short call to discuss the setup process.",
+  "decisions": [
+    "A short call is needed to determine how the 'facility per user' data structure will be configured."
+  ],
+  "action_items": [
+    "Schedule a follow-up call regarding facility configuration."
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "chat_id": "0m7UOUAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2024-03-19",
+    "end": "2024-03-19"
+  },
+  "message_count": 11,
+  "topic": "Using demographic data in mobile installations",
+  "topic_slug": "using-demographic-data-in-mobile-installations",
+  "tags": [
+    "analytics",
+    "facility",
+    "dwell-time"
+  ],
+  "summary_markdown": "The discussion focused on the feasibility of using demographic data, particularly for a potential project involving sensors/screens placed inside moving buses in Finland. Concerns were raised regarding how dynamic movement (buses following routes) might conflict with established methods of linking and tracking demographics.\n\nIt was confirmed that two types of demographic data are available, but both face challenges when applied to mobile installations like buses.\n\nA specific technical question addressed the 'area-of-living' demographic type: whether the infrastructure supports storing different demographics for the same physical facility across multiple days. It was confirmed that this system is designed precisely for this purpose, allowing for the storage and retrieval of daily variations in demographics within a single base structure.",
+  "decisions": [
+    "The 'area-of-living' demographic data can store varying demographics for the same facility on different days."
+  ],
+  "action_items": [
+    "Schedule a follow-up call to discuss the technical feasibility of using demographic data with mobile installations."
+  ]
+}

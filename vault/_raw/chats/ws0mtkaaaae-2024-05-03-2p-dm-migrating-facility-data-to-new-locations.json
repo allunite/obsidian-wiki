@@ -1,0 +1,22 @@
+{
+  "chat_id": "ws0mTkAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 2,
+  "date_range": {
+    "start": "2024-05-03",
+    "end": "2024-05-03"
+  },
+  "message_count": 18,
+  "topic": "Migrating facility data to new locations",
+  "topic_slug": "migrating-facility-data-to-new-locations",
+  "tags": [
+    "facility",
+    "analytics"
+  ],
+  "summary_markdown": "The discussion centered on the migration of historical facility data. It was confirmed that the data needs to be transferred from old facilities to new ones, starting from April 25th. The process is complicated by the removal of sensors and the subsequent creation of new virtual locations for the data transfer.",
+  "decisions": [
+    "Facility data migration must start on or after April 25th."
+  ],
+  "action_items": []
+}

@@ -1,0 +1,24 @@
+{
+  "chat_id": "oCgFCIAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2023-05-29",
+    "end": "2023-05-29"
+  },
+  "message_count": 4,
+  "topic": "Conversion dashboard and reporting scope",
+  "topic_slug": "conversion-dashboard-and-reporting-scope",
+  "tags": [
+    "analytics",
+    "campaign"
+  ],
+  "summary_markdown": "The conversation addressed the status of a conversion dashboard requested by someone, noting that it is not ready for presentation at an upcoming meeting. Two related topics were identified: the conversion dashboard and reports for Bella. The focus shifted to working on a new recalc feature in the interim. Someone plans to return to the dashboard today and aims to present something by Wednesday.\n\nSeparately, there was discussion regarding scope creep, specifically concerning requests from someone (potentially Esben) to include many small items that are deemed unfeasible. A decision is needed on which features or reports must be cut or deprioritized.",
+  "decisions": [
+    "The conversion dashboard presentation is delayed until at least Wednesday."
+  ],
+  "action_items": [
+    "Someone will return to the dashboard today and prepare a demonstration for Wednesday."
+  ]
+}

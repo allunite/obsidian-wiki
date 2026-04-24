@@ -1,0 +1,17 @@
+{
+  "chat_id": "3ZMBmwAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 2,
+  "date_range": {
+    "start": "2021-06-23",
+    "end": "2021-06-23"
+  },
+  "message_count": 6,
+  "topic": "Sharing website links and resources",
+  "topic_slug": "sharing-website-links-and-resources",
+  "tags": [],
+  "summary_markdown": "The conversation involved sharing several web links. Initially, [me] shared privacy notice and unsubscribe links. Later, [me] deployed and shared two more resource links.",
+  "decisions": [],
+  "action_items": []
+}

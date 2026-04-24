@@ -1,0 +1,23 @@
+{
+  "chat_id": "AAAAYqebSvs",
+  "kind": "Space",
+  "space_name": "Netherlands",
+  "participants": 5,
+  "date_range": {
+    "start": "2023-02-02",
+    "end": "2023-02-02"
+  },
+  "message_count": 9,
+  "topic": "Finding data analytics support",
+  "topic_slug": "finding-data-analytics-support",
+  "tags": [
+    "analytics"
+  ],
+  "summary_markdown": "The discussion centered on finding a replacement for an employee (Henrik) and identifying suitable external partners or resources. One participant noted that most data analytics are now handled by AllUnite, suggesting competitors face difficulties in this area. Another participant offered to find a suitable contact/resource for the team, specifically mentioning Comsara.",
+  "decisions": [
+    "A resource will be found for Comsara."
+  ],
+  "action_items": [
+    "[p1] will loop [p4] into further discussions."
+  ]
+}

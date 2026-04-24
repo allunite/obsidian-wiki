@@ -1,0 +1,26 @@
+{
+  "chat_id": "AAAAaK7z8KI",
+  "kind": "Space",
+  "space_name": "Group Chat",
+  "participants": 5,
+  "date_range": {
+    "start": "2025-03-27",
+    "end": "2025-03-27"
+  },
+  "message_count": 35,
+  "topic": "ML API frequency code updates and deployment",
+  "topic_slug": "ml-api-frequency-code-updates-and-deployment",
+  "tags": [
+    "analytics",
+    "campaign",
+    "inventory"
+  ],
+  "summary_markdown": "The discussion focused on debugging discrepancies in unit counts when selecting facilities for analytics queries. It was noted that manually selecting specific facilities resulted in a higher count of units compared to the default selection.\n\n[p3] requested updates to the `facilityLevelFrequencyCodes` constant within the ML API code, specifically adding codes 7952 and 7942. A Jira task (DOOH-1842) was created for this purpose.\n\nLater in the day, [p3] requested a re-deployment of the `ml-api` stage to staging, which was eventually completed by [me].",
+  "decisions": [
+    "Add facility codes 7952 and 7942 to the ML API's frequency code constant.",
+    "Re-deploy the ml-api stage to staging."
+  ],
+  "action_items": [
+    "Implement changes for facility codes 7952 and 7942 in DOOH-1842."
+  ]
+}

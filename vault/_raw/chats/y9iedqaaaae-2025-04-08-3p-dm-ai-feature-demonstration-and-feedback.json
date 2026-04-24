@@ -1,0 +1,23 @@
+{
+  "chat_id": "y9IEDQAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2025-04-08",
+    "end": "2025-04-08"
+  },
+  "message_count": 14,
+  "topic": "AI feature demonstration and feedback",
+  "topic_slug": "ai-feature-demonstration-and-feedback",
+  "tags": [
+    "analytics"
+  ],
+  "summary_markdown": "The discussion centered on demonstrating a new AI feature. Initially, the plan was to show a more advanced version in two weeks (monitoring tools and a text-to-SQL capability added by someone). However, [me] agreed that showing a minimal assistant version sooner would be beneficial for gathering feedback.\n\nSomeone suggested starting with a simpler helper that answers questions about metrics before moving into complex data querying. This approach was deemed relatively easy to implement.",
+  "decisions": [
+    "Demonstrate a minimal AI assistant version tomorrow (or soon) to gather early feedback."
+  ],
+  "action_items": [
+    "None"
+  ]
+}

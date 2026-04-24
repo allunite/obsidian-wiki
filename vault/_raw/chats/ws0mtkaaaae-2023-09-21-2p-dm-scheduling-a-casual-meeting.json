@@ -1,0 +1,21 @@
+{
+  "chat_id": "ws0mTkAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 2,
+  "date_range": {
+    "start": "2023-09-21",
+    "end": "2023-09-21"
+  },
+  "message_count": 6,
+  "topic": "Scheduling a casual meeting",
+  "topic_slug": "scheduling-a-casual-meeting",
+  "tags": [],
+  "summary_markdown": "The participants exchanged greetings and arranged to meet later for coffee, with one person agreeing to call the other in five minutes.",
+  "decisions": [
+    "A meeting over coffee was scheduled."
+  ],
+  "action_items": [
+    "One participant will call the other shortly."
+  ]
+}

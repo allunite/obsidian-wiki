@@ -1,0 +1,23 @@
+{
+  "chat_id": "0m7UOUAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2024-12-06",
+    "end": "2024-12-06"
+  },
+  "message_count": 4,
+  "topic": "Deployment of calculation for India",
+  "topic_slug": "deployment-of-calculation-for-india",
+  "tags": [
+    "analytics"
+  ],
+  "summary_markdown": "A specific formula/calculation was initially requested and implemented for the Indian market. Later, it was decided that this same update needed to be deployed to the production environment.",
+  "decisions": [
+    "The calculation needs to be added to the production environment."
+  ],
+  "action_items": [
+    "[me] to deploy the updated calculation to production."
+  ]
+}

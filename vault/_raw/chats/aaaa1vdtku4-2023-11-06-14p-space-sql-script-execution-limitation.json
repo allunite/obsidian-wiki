@@ -1,0 +1,21 @@
+{
+  "chat_id": "AAAA1vdtku4",
+  "kind": "Space",
+  "space_name": "DataTeam+",
+  "participants": 14,
+  "date_range": {
+    "start": "2023-11-06",
+    "end": "2023-11-06"
+  },
+  "message_count": 3,
+  "topic": "SQL script execution limitation",
+  "topic_slug": "sql-script-execution-limitation",
+  "tags": [
+    "analytics"
+  ],
+  "summary_markdown": "A warning was issued regarding the `ml_to_stage_aggregation.sql` script, stating that it can only be run in a single instance to prevent conflicts if multiple instances run concurrently.\n\nIt was noted that this limitation will be automatically managed once the script is migrated to Windmill.",
+  "decisions": [],
+  "action_items": [
+    "Ensure `ml_to_stage_aggregation.sql` is run only in a single instance."
+  ]
+}

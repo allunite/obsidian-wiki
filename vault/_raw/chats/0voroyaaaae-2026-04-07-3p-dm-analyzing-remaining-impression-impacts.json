@@ -1,0 +1,24 @@
+{
+  "chat_id": "0VorOYAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2026-04-07",
+    "end": "2026-04-07"
+  },
+  "message_count": 3,
+  "topic": "Analyzing remaining impression impacts",
+  "topic_slug": "analyzing-remaining-impression-impacts",
+  "tags": [
+    "impression",
+    "analytics"
+  ],
+  "summary_markdown": "The discussion focused on the persistent issue of significant impression impacts. It was determined that a direct fix is unlikely, and the necessary approach will likely involve rebuilding the data from raw session data.",
+  "decisions": [
+    "Data must be rebuilt using raw session data."
+  ],
+  "action_items": [
+    "[me] to continue working on the data rebuild process."
+  ]
+}

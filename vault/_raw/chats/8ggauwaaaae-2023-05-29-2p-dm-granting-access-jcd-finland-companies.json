@@ -1,0 +1,22 @@
+{
+  "chat_id": "8GgAuwAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 2,
+  "date_range": {
+    "start": "2023-05-29",
+    "end": "2023-05-29"
+  },
+  "message_count": 5,
+  "topic": "Granting access to JCD Finland and companies",
+  "topic_slug": "granting-access-jcd-finland-companies",
+  "tags": [
+    "analytics"
+  ],
+  "summary_markdown": "The session involved granting user access. Initially, access to all of JCD Finland was provided to a specific user via email. Later, additional access for several redacted companies was granted to another specified user.",
+  "decisions": [
+    "Access to JCD Finland was provisioned for one user.",
+    "Additional company access was provisioned for another user."
+  ],
+  "action_items": []
+}

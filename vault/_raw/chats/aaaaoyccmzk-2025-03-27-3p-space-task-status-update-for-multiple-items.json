@@ -1,0 +1,21 @@
+{
+  "chat_id": "AAAAoyCCmZk",
+  "kind": "Space",
+  "space_name": "Group Chat",
+  "participants": 3,
+  "date_range": {
+    "start": "2025-03-27",
+    "end": "2025-03-27"
+  },
+  "message_count": 3,
+  "topic": "Task status update for multiple items",
+  "topic_slug": "task-status-update-for-multiple-items",
+  "tags": [
+    "analytics"
+  ],
+  "summary_markdown": "Someone asked [me] about the expected completion time for two specific tasks. [me] responded that they would address the 'adani' task after handling an urgent matter from Galina.",
+  "decisions": [],
+  "action_items": [
+    "[me] to complete the adani task after addressing a priority item."
+  ]
+}

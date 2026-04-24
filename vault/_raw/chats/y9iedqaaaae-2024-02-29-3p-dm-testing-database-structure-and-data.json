@@ -1,0 +1,28 @@
+{
+  "chat_id": "y9IEDQAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2024-02-29",
+    "end": "2024-02-29"
+  },
+  "message_count": 51,
+  "topic": "Testing database structure and data",
+  "topic_slug": "testing-database-structure-and-data",
+  "tags": [
+    "analytics",
+    "inventory",
+    "campaign"
+  ],
+  "summary_markdown": "The discussion focused on establishing a reliable test environment for system testing, specifically concerning the underlying database structure. Initial concerns were raised about regional price discrepancies (e.g., US vs. Ireland) when configuring cluster resources.\n\nRegarding testing data, participants debated whether to use a completely empty database or one populated with sample company and inventory data. It was agreed that while an entirely blank slate is ideal for pure unit tests, maintaining some level of historical/reference data (like facility, box, and core reference tables) would be necessary for comprehensive functional testing.\n\nThe immediate technical challenge identified was updating the test database structure to include a new `json` field within the `inventory` table. The consensus leaned toward importing specific, critical tables rather than attempting a full schema dump/restore process due to complexity and maintenance overhead.",
+  "decisions": [
+    "The team will focus on creating a robust test environment for functional testing of core features (creating inventory, modifying inventory, creating campaigns, managing users, checking permissions).",
+    "It was decided that the best approach is likely importing specific reference tables rather than full database dumps."
+  ],
+  "action_items": [
+    "Someone needs to provide a list of critical tables required for the test database setup.",
+    "The team should consult with an expert on Test-Driven Development (TDD) regarding the optimal testing strategy.",
+    "One participant will integrate the ClickHouse datasource plugin into Grafana."
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "chat_id": "nW_zkkAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2024-05-09",
+    "end": "2024-05-09"
+  },
+  "message_count": 4,
+  "topic": "Confirming beta dataset for campaign setup",
+  "topic_slug": "confirming-beta-dataset-for-campaign-setup",
+  "tags": [
+    "analytics",
+    "campaign"
+  ],
+  "summary_markdown": "A participant inquired whether opening a campaign on the beta environment automatically utilizes the beta dataset. [me] confirmed that, based on checking, the system does indeed use the beta data.",
+  "decisions": [
+    "The beta analytics environment uses the beta dataset for new campaigns."
+  ],
+  "action_items": []
+}

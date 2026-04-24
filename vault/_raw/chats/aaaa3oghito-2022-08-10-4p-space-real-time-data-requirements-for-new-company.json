@@ -1,0 +1,22 @@
+{
+  "chat_id": "AAAA3oghITo",
+  "kind": "Space",
+  "space_name": "Кабаны",
+  "participants": 4,
+  "date_range": {
+    "start": "2022-08-10",
+    "end": "2022-08-10"
+  },
+  "message_count": 22,
+  "topic": "Real-time data requirements for new company",
+  "topic_slug": "real-time-data-requirements-for-new-company",
+  "tags": [
+    "analytics",
+    "session"
+  ],
+  "summary_markdown": "The discussion focused on ensuring real-time data availability for a new company, specifically regarding traffic and reach metrics. It was confirmed that 'Tolya' handles the data inclusion for the map view, and [me] clarified that 'reach' data should be available regardless of the visualization type.\n\nWhen querying for today's data in real-time tables, the discussion centered on using `device_session_realtime` or `device_session_concept`. The final consensus leaned towards using `device_session_realtime_4`.",
+  "decisions": [
+    "The system must display traffic and reach data for the current day."
+  ],
+  "action_items": []
+}

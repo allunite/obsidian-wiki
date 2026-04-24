@@ -1,0 +1,24 @@
+{
+  "chat_id": "nW_zkkAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2024-11-18",
+    "end": "2024-11-18"
+  },
+  "message_count": 8,
+  "topic": "Calibration update for production environment",
+  "topic_slug": "calibration-update-for-production-environment",
+  "tags": [
+    "analytics",
+    "inventory"
+  ],
+  "summary_markdown": "The discussion focused on updating calibration data. [p1] initially provided a list of values and asked if it was suitable for the 'beta' environment. [me] corrected this, stating that the update could not be applied to beta but must be done in production because it is currently being used there. Following confirmation from [p1], [me] proceeded with the necessary changes.",
+  "decisions": [
+    "The calibration data update will be implemented in the production environment."
+  ],
+  "action_items": [
+    "[me] completed the calibration update."
+  ]
+}

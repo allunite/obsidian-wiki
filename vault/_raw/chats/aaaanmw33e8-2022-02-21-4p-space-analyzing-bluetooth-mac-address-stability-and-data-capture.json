@@ -1,0 +1,25 @@
+{
+  "chat_id": "AAAANmw33e8",
+  "kind": "Space",
+  "space_name": "BLE vs WiFi",
+  "participants": 4,
+  "date_range": {
+    "start": "2022-02-21",
+    "end": "2022-02-21"
+  },
+  "message_count": 36,
+  "topic": "Analyzing Bluetooth MAC address stability and data capture",
+  "topic_slug": "analyzing-bluetooth-mac-address-stability-and-data-capture",
+  "tags": [
+    "analytics",
+    "bluetooth",
+    "session"
+  ],
+  "summary_markdown": "The discussion focused on the technical limitations of capturing Bluetooth Low Energy (BLE) data, specifically regarding MAC address stability and raw data access. It was noted that current tools only provide limited information (MAC addresses, signal levels, device names) without access to the raw source data. A key point raised was the inconsistency of BLE MAC addresses; one participant observed that a specific pair of headphones changed their MAC address upon reconnection.\n\nParticipants discussed the reliability of using MAC addresses for identification and questioned how other companies achieve consistent data capture. It was also noted that some devices may not be connected or paired, leading to 'unknown' entries in the scan log.",
+  "decisions": [
+    "A ticket has been created to request more detailed information regarding BLE data capture."
+  ],
+  "action_items": [
+    "Follow up on obtaining raw BLE data source from Teltonika/relevant parties."
+  ]
+}

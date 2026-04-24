@@ -1,0 +1,25 @@
+{
+  "chat_id": "i6YI1QAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 2,
+  "date_range": {
+    "start": "2021-01-28",
+    "end": "2021-01-28"
+  },
+  "message_count": 19,
+  "topic": "Analyzing session duration and permanent data",
+  "topic_slug": "analyzing-session-duration-and-permanent-data",
+  "tags": [
+    "analytics",
+    "session",
+    "facility"
+  ],
+  "summary_markdown": "The conversation covered using the staging MOPs environment for comparison with production data. A specific query was discussed regarding how permanent records are included when filtering by `is_calibrated=1`. It was confirmed that permanent records *are* included in this filter, requiring an additional condition to exclude them if necessary. The discussion shifted to analyzing unusually long average session durations observed during a commute. It was clarified that the filters for these metrics (like average session duration) are independent of each other and should be applied to recalculated data, not real-time data.",
+  "decisions": [
+    "The staging MOPs environment can be used for comparison with production data."
+  ],
+  "action_items": [
+    "[p1] will review the data in detail to analyze average session duration and facility metrics."
+  ]
+}

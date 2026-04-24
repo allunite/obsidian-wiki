@@ -1,0 +1,23 @@
+{
+  "chat_id": "uJ8JA8AAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2025-08-08",
+    "end": "2025-08-08"
+  },
+  "message_count": 6,
+  "topic": "Data cleanup and session records",
+  "topic_slug": "data-cleanup-session-records",
+  "tags": [
+    "analytics"
+  ],
+  "summary_markdown": "A discussion regarding data integrity in the `device_session` table. Someone noted that sessions are no longer present in `device_session`. The other participant confirmed this observation and requested that the records be deleted from the aggregator.",
+  "decisions": [
+    "The session records need to be removed from the aggregator."
+  ],
+  "action_items": [
+    "Someone needs to delete the existing session data from the aggregator."
+  ]
+}

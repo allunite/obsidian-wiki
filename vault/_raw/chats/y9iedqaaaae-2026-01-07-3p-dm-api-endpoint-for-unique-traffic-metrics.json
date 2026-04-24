@@ -1,0 +1,29 @@
+{
+  "chat_id": "y9IEDQAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2026-01-07",
+    "end": "2026-01-07"
+  },
+  "message_count": 70,
+  "topic": "API endpoint for unique traffic metrics",
+  "topic_slug": "api-endpoint-for-unique-traffic-metrics",
+  "tags": [
+    "analytics",
+    "inventory",
+    "campaign"
+  ],
+  "summary_markdown": "The discussion focused on defining a new API endpoint to provide unique traffic metrics. This endpoint must accept either a list of `facilityId`s or a list of defined networks (combinations of facilities) as input, along with the desired period and granularity.\n\nThe required output metrics include unique traffic counts and other associated metrics for those unique users. The results should be aggregated by the specified granularity level (weekly, bi-weekly, or daily).\n\nIt was confirmed that the endpoint should return a unified dataset without grouping by individual facility ID, as this simplifies implementation.\n\nThe API documentation process is underway, with one participant drafting the documentation to be reviewed and sent to DataCorp.",
+  "decisions": [
+    "The new API endpoint will accept input via either `facilityId` list or network list.",
+    "The output data must include unique traffic counts and other relevant metrics for those users.",
+    "Results should be aggregated by the specified granularity (weekly, bi-weekly, daily).",
+    "The response format for older endpoints (`/jcd`) will remain un-wrapped (data only) to prevent breaking existing S3 pipelines."
+  ],
+  "action_items": [
+    "One participant will draft and finalize the API documentation.",
+    "The finalized documentation will be sent to DataCorp for review."
+  ]
+}

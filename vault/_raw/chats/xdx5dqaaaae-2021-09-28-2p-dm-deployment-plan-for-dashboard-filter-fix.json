@@ -1,0 +1,24 @@
+{
+  "chat_id": "xdx5dQAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 2,
+  "date_range": {
+    "start": "2021-09-28",
+    "end": "2021-09-28"
+  },
+  "message_count": 10,
+  "topic": "Deployment plan for dashboard filter fix",
+  "topic_slug": "deployment-plan-for-dashboard-filter-fix",
+  "tags": [
+    "analytics",
+    "campaign"
+  ],
+  "summary_markdown": "A significant fix to the dashboard filter was completed and merged into the demo environment. The discussion centered on whether to deploy this fix to staging or directly to production. It was decided that a call would be scheduled later for all participants to test the changes before deployment.",
+  "decisions": [
+    "Schedule a call for testing the new dashboard filter fix."
+  ],
+  "action_items": [
+    "All parties need to connect for testing."
+  ]
+}

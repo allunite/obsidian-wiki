@@ -1,0 +1,21 @@
+{
+  "chat_id": "AAAA-gn4oPg",
+  "kind": "Space",
+  "space_name": "General and random",
+  "participants": 36,
+  "date_range": {
+    "start": "2023-06-26",
+    "end": "2023-06-26"
+  },
+  "message_count": 6,
+  "topic": "Dashboard access setup for Clear Channel team",
+  "topic_slug": "dashboard-access-setup-clear-channel-team",
+  "tags": [
+    "analytics"
+  ],
+  "summary_markdown": "A request was made to grant dashboard access to three specific individuals at Clear Channel: Carolina Maluf, Karen Kirizawa, and Juliana Marques. Another participant offered assistance, confirming the task was completed shortly after.",
+  "decisions": [
+    "Dashboard access granted to specified Clear Channel personnel."
+  ],
+  "action_items": []
+}

@@ -1,0 +1,25 @@
+{
+  "chat_id": "uJ8JA8AAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2025-06-04",
+    "end": "2025-06-04"
+  },
+  "message_count": 9,
+  "topic": "Adjusting frequency model for campaign data",
+  "topic_slug": "adjusting-frequency-model-for-campaign-data",
+  "tags": [
+    "analytics",
+    "campaign"
+  ],
+  "summary_markdown": "Someone requested that the frequency model for a specific company number (7939) be switched so that the campaign data uses the same model as the traffic dashboard. [me] noted this was not simple but agreed to work on it during the day. To escalate the request, [me] suggested creating a high-priority ticket, although they initially stated it was usually a minor task.\n[p1] provided an Atlassian link (DOOH-2115) for tracking.",
+  "decisions": [
+    "The frequency model for company_num 7939 will be adjusted to match the traffic dashboard's model."
+  ],
+  "action_items": [
+    "[me] to work on adjusting the frequency model during the day.",
+    "[p1] provided ticket DOOH-2115 for tracking the request."
+  ]
+}

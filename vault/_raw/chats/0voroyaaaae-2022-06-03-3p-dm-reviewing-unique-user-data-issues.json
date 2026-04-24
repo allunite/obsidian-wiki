@@ -1,0 +1,23 @@
+{
+  "chat_id": "0VorOYAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2022-06-03",
+    "end": "2022-06-03"
+  },
+  "message_count": 5,
+  "topic": "Reviewing unique user data issues",
+  "topic_slug": "reviewing-unique-user-data-issues",
+  "tags": [
+    "analytics"
+  ],
+  "summary_markdown": "The conversation focused on an issue with unique users (uniques) and potential discrepancies. Someone suggested a specific country (Finland). A key discussion point was whether [me] could share the calculation code used for counting uniques to ensure consistency across all systems. It was decided that [me] would discuss this matter further with Galina after her meeting.",
+  "decisions": [
+    "[me] will discuss the unique user data issue and code sharing with Galina."
+  ],
+  "action_items": [
+    "[me] to follow up on the discussion regarding uniques and calculation code after Galina's meeting."
+  ]
+}

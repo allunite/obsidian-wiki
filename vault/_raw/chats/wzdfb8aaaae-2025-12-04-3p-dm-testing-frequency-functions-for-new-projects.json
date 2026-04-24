@@ -1,0 +1,25 @@
+{
+  "chat_id": "wZDFB8AAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2025-12-04",
+    "end": "2025-12-04"
+  },
+  "message_count": 6,
+  "topic": "Testing frequency functions for new projects",
+  "topic_slug": "testing-frequency-functions-for-new-projects",
+  "tags": [
+    "analytics",
+    "campaign"
+  ],
+  "summary_markdown": "The discussion centered on testing `getFrequency_TEST` functions for use in new projects. Initially, [me] stated that the function was not working and needed to be removed from the UI. [p1] confirmed understanding of this limitation. To facilitate testing, [me] advised that the only method is to modify `*_stage` versions of the frequency functions, which [me] offered to perform for [p1].",
+  "decisions": [
+    "Testing frequency functions requires modifying *_stage versions."
+  ],
+  "action_items": [
+    "[p1] will run simulations and share results.",
+    "[me] will change the necessary function version tomorrow."
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "chat_id": "oCgFCIAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2022-05-05",
+    "end": "2022-05-05"
+  },
+  "message_count": 21,
+  "topic": "Analyzing device demographics and session data",
+  "topic_slug": "analyzing-device-demographics-and-session-data",
+  "tags": [
+    "analytics",
+    "campaign",
+    "facility",
+    "inventory",
+    "session"
+  ],
+  "summary_markdown": "The discussion focused on debugging and comparing data derived from `device_demography_district_agg` and `device_session_agg_4`. Issues included discrepancies in results when running the analysis script multiple times. The team reviewed SQL queries designed to pull demographic district information (`device_number_uniq_district`) and session counts for specific facilities.\n\nKey points discussed:\n*   The current data set relies on AFA (presumably a data source/method) but there is an effort to transition away from it, as suggested by someone.\n*   A proposed workaround involves running the script without AFA, using `company_num <> 7600`, and checking all three data blocks for quick validation.\n*   The team noted that testing in Finland showed much better data quality (around 200 visits per district from only 40 sensors/4 districts), suggesting a need to focus on locations with higher data volume.",
+  "decisions": [
+    "Continue using AFA data for now, but plan to transition away from it.",
+    "Implement a temporary validation method by running the script without AFA and filtering `company_num <> 7600`."
+  ],
+  "action_items": [
+    "Review and refine SQL queries for device demographics and session counts across different facilities/regions."
+  ]
+}

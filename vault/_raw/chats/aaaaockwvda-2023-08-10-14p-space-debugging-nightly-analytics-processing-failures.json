@@ -1,0 +1,27 @@
+{
+  "chat_id": "AAAAOcKWvdA",
+  "kind": "Space",
+  "space_name": "Delivery Coordination",
+  "participants": 14,
+  "date_range": {
+    "start": "2023-08-10",
+    "end": "2023-08-10"
+  },
+  "message_count": 28,
+  "topic": "Debugging nightly analytics processing failures",
+  "topic_slug": "debugging-nightly-analytics-processing-failures",
+  "tags": [
+    "analytics",
+    "recalc-ch",
+    "campaign"
+  ],
+  "summary_markdown": "The discussion focused on debugging a failure in the nightly recalculation process. The issue stemmed from a null value being returned for a text field during processing for Gabon, which caused the main ML step to fail silently. This subsequent failure then caused the Brazil data pipeline to crash because it could not find necessary data.\n\nDiscussion points included:\n*   The need to implement robust error handling (e.g., `try...catch` blocks) to ensure that failures do not cascade or cause silent crashes.\n*   Confirmation that while errors are reported in Rollbar, the command processor does not receive an explicit error code.\n*   It was noted that changes to the database should be thoroughly tested before running the nightly recalculation process.",
+  "decisions": [
+    "The team agreed to fix the alarming issue with Rollbar notifications occurring at 5 AM.",
+    "Database changes must be tested using a dedicated script run before the nightly recalculation."
+  ],
+  "action_items": [
+    "Implement better error handling (try...catch) in the processing logic to prevent cascading failures.",
+    "Someone needs to review and fix the Rollbar notification system timing/reliability."
+  ]
+}

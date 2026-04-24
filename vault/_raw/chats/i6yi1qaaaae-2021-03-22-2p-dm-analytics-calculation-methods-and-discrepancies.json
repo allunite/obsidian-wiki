@@ -1,0 +1,27 @@
+{
+  "chat_id": "i6YI1QAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 2,
+  "date_range": {
+    "start": "2021-03-22",
+    "end": "2021-03-22"
+  },
+  "message_count": 42,
+  "topic": "Analytics calculation methods and discrepancies",
+  "topic_slug": "analytics-calculation-methods-and-discrepancies",
+  "tags": [
+    "analytics",
+    "session",
+    "impression",
+    "dwell-time"
+  ],
+  "summary_markdown": "The conversation covered several analytics calculations. Regarding facility sessions, it was confirmed that the total session count for a master facility should be the sum of sessions across all sensors. Furthermore, there were discussions about discrepancies in impression calculation and total traffic reporting.\n\nInitially, [me] noted being tasked with an unclear request involving new impressions on staging. Later, [p1] reported speaking with someone (Esben) who advised against implementing new impressions, suggesting instead multiplying existing ones by 6, though this remains subject to further discussion. A major point of contention was the total traffic calculation method; Esben raised concerns that the calculations for 'Fields' and 'Ocean' needed to match, despite a previous decision/implementation mirroring the 'Fields' approach. The specific methodology—whether to count all sessions or consolidate them—was questioned due to performance concerns.",
+  "decisions": [
+    "Master facility session count = sum of sessions across all sensors."
+  ],
+  "action_items": [
+    "Wait for someone (Saša) to contact [me] regarding analytics discrepancies.",
+    "Further discussion is needed on the impression calculation method and total traffic methodology, as advised by Esben."
+  ]
+}

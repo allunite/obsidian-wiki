@@ -1,0 +1,22 @@
+{
+  "chat_id": "0VorOYAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2022-06-07",
+    "end": "2022-06-07"
+  },
+  "message_count": 13,
+  "topic": "Reviewing dashboard data for Finn company",
+  "topic_slug": "reviewing-dashboard-data-for-finn-company",
+  "tags": [
+    "analytics",
+    "campaign"
+  ],
+  "summary_markdown": "The discussion focused on checking the overall adequacy of dashboard data for the last three days (starting June 4th), specifically for the STAGE dataset. The primary focus was on the Finn company, as a presentation was scheduled that day. Someone reviewed the data and confirmed that the figures and graphs were adequate both in the context of the week and compared to the previous week.",
+  "decisions": [
+    "Dashboard data for Finn company is deemed adequate."
+  ],
+  "action_items": []
+}

@@ -1,0 +1,21 @@
+{
+  "chat_id": "uJ8JA8AAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2025-10-24",
+    "end": "2025-10-24"
+  },
+  "message_count": 5,
+  "topic": "Session data task delay confirmation",
+  "topic_slug": "session-data-task-delay-confirmation",
+  "tags": [
+    "analytics"
+  ],
+  "summary_markdown": "The discussion confirmed that a task related to session data can be postponed until Monday. One participant mentioned completing the conversion of sessions into a new, easily modifiable format.",
+  "decisions": [
+    "Session data task is delayed until Monday."
+  ],
+  "action_items": []
+}

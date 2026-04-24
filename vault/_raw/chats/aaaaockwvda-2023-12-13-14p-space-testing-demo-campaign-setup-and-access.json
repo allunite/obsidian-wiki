@@ -1,0 +1,24 @@
+{
+  "chat_id": "AAAAOcKWvdA",
+  "kind": "Space",
+  "space_name": "Delivery Coordination",
+  "participants": 14,
+  "date_range": {
+    "start": "2023-12-13",
+    "end": "2023-12-13"
+  },
+  "message_count": 7,
+  "topic": "Testing demo campaign setup and access",
+  "topic_slug": "testing-demo-campaign-setup-and-access",
+  "tags": [
+    "campaign",
+    "analytics"
+  ],
+  "summary_markdown": "A user created a demo company in Brazil for testing purposes. This campaign can be used when checking test campaigns or functionality. The public campaign data will initially appear to clients, but after the next release, it will be fully separate and won't conflict with other campaigns.\n\nNote: A limitation of this specific demo company is that it cannot approve frames, which is expected.",
+  "decisions": [
+    "A dedicated demo campaign was created for testing purposes."
+  ],
+  "action_items": [
+    "Users should use the provided demo campaign when testing or checking functionality."
+  ]
+}

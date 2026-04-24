@@ -1,0 +1,23 @@
+{
+  "chat_id": "AAAAYqebSvs",
+  "kind": "Space",
+  "space_name": "Netherlands",
+  "participants": 5,
+  "date_range": {
+    "start": "2022-04-07",
+    "end": "2022-04-07"
+  },
+  "message_count": 5,
+  "topic": "Sharing project results and deliverables",
+  "topic_slug": "sharing-project-results-and-deliverables",
+  "tags": [
+    "analytics",
+    "campaign"
+  ],
+  "summary_markdown": "The discussion focused on reviewing data analysis results and determining the necessary scope for a final presentation. It was noted that the current analysis needs to include not only the findings but also the project's objectives, conclusions, and whether promised goals were met. Regarding sharing large reports, it was confirmed that long Excel reports are typically shared via an additional link in an email accompanying the main presentation.",
+  "decisions": [
+    "Final presentations must include project objectives, conclusions, and performance against promises.",
+    "Large Excel reports should be shared as a linked attachment within an email alongside the presentation."
+  ],
+  "action_items": []
+}

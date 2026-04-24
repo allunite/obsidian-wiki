@@ -1,0 +1,25 @@
+{
+  "chat_id": "ws0mTkAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 2,
+  "date_range": {
+    "start": "2023-09-05",
+    "end": "2023-09-05"
+  },
+  "message_count": 23,
+  "topic": "Dashboard metric calculation and documentation",
+  "topic_slug": "dashboard-metric-calculation-and-documentation",
+  "tags": [
+    "analytics",
+    "metrics",
+    "session"
+  ],
+  "summary_markdown": "The conversation focused on documenting how dashboard metrics are calculated and what they represent, noting that these definitions vary by client. Resources were shared detailing the structure of metric blocks (tiles), including labels and help text keys for translation.\n\nSpecifically, a discussion occurred regarding the calculation of 'total traffic.' It was clarified that this value represents the total number of sessions. A detailed query followed about how this count is calculated (e.g., Macs seen by sensors within 60 meters with signal >= 80, appearing no later than 30 minutes ago).",
+  "decisions": [
+    "The need to document metric definitions across different clients was established."
+  ],
+  "action_items": [
+    "Reviewing existing documentation related to metrics and client requests (mentioned by p1)."
+  ]
+}

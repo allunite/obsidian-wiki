@@ -1,0 +1,22 @@
+{
+  "chat_id": "AAAAOcKWvdA",
+  "kind": "Space",
+  "space_name": "Delivery Coordination",
+  "participants": 14,
+  "date_range": {
+    "start": "2023-11-14",
+    "end": "2023-11-14"
+  },
+  "message_count": 7,
+  "topic": "Beta release and production approval status",
+  "topic_slug": "beta-release-and-production-approval-status",
+  "tags": [
+    "campaign"
+  ],
+  "summary_markdown": "The discussion centered on the deployment status of a feature. Initial messages confirmed plans to release to beta and obtain approval for production rollout from Brazil. A participant noted that charts were fixed, but social classes were not yet available. Later, confirmation was given that the release had occurred, followed by a clarification regarding whether the current state was still in beta.",
+  "decisions": [
+    "The feature is scheduled to be released to beta.",
+    "Production approval from Brazil is required for full rollout."
+  ],
+  "action_items": []
+}

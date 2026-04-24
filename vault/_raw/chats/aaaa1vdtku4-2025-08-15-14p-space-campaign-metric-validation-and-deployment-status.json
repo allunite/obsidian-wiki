@@ -1,0 +1,29 @@
+{
+  "chat_id": "AAAA1vdtku4",
+  "kind": "Space",
+  "space_name": "DataTeam+",
+  "participants": 14,
+  "date_range": {
+    "start": "2025-08-15",
+    "end": "2025-08-15"
+  },
+  "message_count": 30,
+  "topic": "Campaign metric validation and deployment status",
+  "topic_slug": "campaign-metric-validation-and-deployment-status",
+  "tags": [
+    "analytics",
+    "campaign",
+    "impression",
+    "inventory",
+    "dwell-time"
+  ],
+  "summary_markdown": "The discussion focused on validating new campaign metrics and determining the deployment status. Initial concerns centered on discrepancies between production and staging data, particularly regarding time zones and the implementation of a new reach formula.\n\n**Key Issues & Findings:**\n*   **Time Zones:** Time zone issues in campaigns were identified (tested with New Zealand and Baltic cases). The issue was addressed by someone, who confirmed that changing time zones does not affect totals. A fix was implemented and tested successfully against the previous two case studies.\n*   **New Reach Formula:** The new reach formula requires validation. It is currently only recommended for a specific client (Adani), and should not be applied to other clients until further testing.\n*   **Data Discrepancies:** Further discrepancies were noted in traffic, impressions, and frequency across various clients. These issues require more time for comprehensive testing.\n\n**Deployment Status:** Due to ongoing data inconsistencies and the need for thorough validation, no new metrics or code changes are being deployed at this time.",
+  "decisions": [
+    "The new reach formula will only be applied/validated for Adani initially.",
+    "No new campaign metrics or code changes are to be released until further testing is completed."
+  ],
+  "action_items": [
+    "Test the fixed time zone functionality on staging.",
+    "Continue monitoring and resolving data discrepancies (traffic, impressions, frequency) across clients."
+  ]
+}

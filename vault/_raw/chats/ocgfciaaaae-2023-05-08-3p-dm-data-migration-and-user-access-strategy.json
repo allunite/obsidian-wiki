@@ -1,0 +1,28 @@
+{
+  "chat_id": "oCgFCIAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2023-05-08",
+    "end": "2023-05-08"
+  },
+  "message_count": 33,
+  "topic": "Data migration and user access strategy",
+  "topic_slug": "data-migration-and-user-access-strategy",
+  "tags": [
+    "analytics",
+    "campaign",
+    "inventory",
+    "frame"
+  ],
+  "summary_markdown": "The discussion covered two main topics: migrating image data and managing external user access to the campaign manager.\n\n**Image Data Migration:**\nThe team reviewed the process for transferring `presentation_images` and `classification_images`. It was established that:\n*   Initial images were tied to imported companies under MAPA, then moved to newly created entities by someone (referred to as 'Nastya').\n*   The data exists in two main sets: 7263 frames from the original/MAPA source and 555 frames classified later.\n*   **Decision:** The ideal approach is to merge all image data. If merging is impossible, the priority should be to transfer the full set of images (the 7263 count) associated with the frames from the MAPA source, while ensuring the specific presentation images for facilities (from Nastya's work) are also included.\n\n**User Access Strategy:**\nThe team discussed how to grant external users access to the campaign manager. Options considered included:\n*   Creating external user roles within existing companies.\n*   Creating a single dedicated company for all external users.\n*   The consensus leaned toward creating separate, linked companies for major clients/groups to maintain data integrity and proper visibility of campaigns and shared assets.",
+  "decisions": [
+    "Merge image data from both the MAPA source (7263 frames) and Nastya's facility-specific images (555 frames).",
+    "For user access, create separate companies for major clients/groups rather than consolidating all external users into one single company."
+  ],
+  "action_items": [
+    "Implement the data migration plan to consolidate image assets across frame types and sources.",
+    "Further define the technical implementation of creating linked companies and assigning roles for external user access in the campaign manager."
+  ]
+}

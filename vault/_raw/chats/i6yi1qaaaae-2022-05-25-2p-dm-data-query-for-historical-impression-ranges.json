@@ -1,0 +1,27 @@
+{
+  "chat_id": "i6YI1QAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 2,
+  "date_range": {
+    "start": "2022-05-25",
+    "end": "2022-05-25"
+  },
+  "message_count": 33,
+  "topic": "Data query for historical impression ranges",
+  "topic_slug": "data-query-for-historical-impression-ranges",
+  "tags": [
+    "analytics",
+    "inventory",
+    "impression"
+  ],
+  "summary_markdown": "The conversation focused on developing a complex data query to retrieve various types of impressions (real, unique, trusted) across extended date ranges. The required ranges include single days, cumulative periods (e.g., day 1 + next day), up to one month plus one day, and specific intervals like one month plus seven days.\n\nSeparately, there was a discussion about deploying data models. It was decided that the previous day's historical data should be deployed from staging to production, followed by repeating this process for the current day (the next day).\n\nFinally, confirmation was given that all data checks were successful.",
+  "decisions": [
+    "Deploy yesterday's historical data from staging to production.",
+    "Repeat the deployment process for today's data tomorrow."
+  ],
+  "action_items": [
+    "[p1] to have someone check the deployed data.",
+    "[me] to attempt the complex date range query later."
+  ]
+}

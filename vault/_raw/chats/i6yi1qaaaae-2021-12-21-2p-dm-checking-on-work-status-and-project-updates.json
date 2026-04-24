@@ -1,0 +1,19 @@
+{
+  "chat_id": "i6YI1QAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 2,
+  "date_range": {
+    "start": "2021-12-21",
+    "end": "2021-12-21"
+  },
+  "message_count": 10,
+  "topic": "Checking on work status and project updates",
+  "topic_slug": "checking-on-work-status-and-project-updates",
+  "tags": [
+    "analytics"
+  ],
+  "summary_markdown": "The conversation primarily involved greetings and checking on the health and availability of a colleague. A specific mention was made regarding Germany's queue for applying new models and historical recalculations, but no immediate action or decision was required.",
+  "decisions": [],
+  "action_items": []
+}

@@ -1,0 +1,23 @@
+{
+  "chat_id": "oq-w0kAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2023-11-01",
+    "end": "2023-11-01"
+  },
+  "message_count": 6,
+  "topic": "Report aggregation and data payload structure",
+  "topic_slug": "report-aggregation-data-payload-structure",
+  "tags": [
+    "campaign",
+    "analytics",
+    "frame"
+  ],
+  "summary_markdown": "The discussion focused on generating campaign reports similar to a traffic dashboard. A key technical issue identified was that the data payload needs to include demographics and frames, rather than facility information. Someone mentioned previously creating new aggregations to resolve this.\n\n[me] stated that the necessary aggregations are not yet complete and may require reviewing existing systems or implementing a new endpoint.",
+  "decisions": [],
+  "action_items": [
+    "Review data source for campaign reports and potentially implement a new API endpoint."
+  ]
+}

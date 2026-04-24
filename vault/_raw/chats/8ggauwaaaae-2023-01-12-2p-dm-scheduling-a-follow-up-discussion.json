@@ -1,0 +1,21 @@
+{
+  "chat_id": "8GgAuwAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 2,
+  "date_range": {
+    "start": "2023-01-12",
+    "end": "2023-01-12"
+  },
+  "message_count": 6,
+  "topic": "Scheduling a follow-up discussion",
+  "topic_slug": "scheduling-a-follow-up-discussion",
+  "tags": [
+    "analytics"
+  ],
+  "summary_markdown": "The conversation briefly addressed a topic regarding 'conversion view' and the need to prepare a presentation. The participants agreed that discussing this matter should be postponed.",
+  "decisions": [
+    "Discussion about conversion view is postponed."
+  ],
+  "action_items": []
+}

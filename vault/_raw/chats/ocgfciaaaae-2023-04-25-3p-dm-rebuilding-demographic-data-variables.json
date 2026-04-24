@@ -1,0 +1,26 @@
+{
+  "chat_id": "oCgFCIAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2023-04-25",
+    "end": "2023-04-25"
+  },
+  "message_count": 25,
+  "topic": "Rebuilding demographic data variables",
+  "topic_slug": "rebuilding-demographic-data-variables",
+  "tags": [
+    "analytics",
+    "facility",
+    "campaign"
+  ],
+  "summary_markdown": "The discussion focused on the process of rebuilding and refining demographic data, specifically addressing variables for education. Initially, there was confusion regarding the necessary number of educational variables (three vs. five) and which data sources to use.\n\nKey points included:\n*   **Data Cleaning:** It was confirmed that clearing or updating the `device_demography_area_agg` table is necessary if facility area IDs change.\n*   **Scripting/Logic Correction:** The process for linking demographic variables needed correction. Instead of pulling data from 'stuff', it must be sourced directly from the database (DB) using views, as the linkage relies on ARIA and district data.\n*   **Debugging:** Initial attempts to run the rebuild script failed locally due to timeouts, but succeeded in ClickHouse. The logic was refined by ensuring proper sourcing of variables and links.\n*   **Validation:** Data validation showed promising results, noting that ZIP code figures for Latvia matched previous records, suggesting no structural breakage occurred.",
+  "decisions": [
+    "The demographic data rebuild process must source linkage information directly from the database (DB) views, not from 'stuff'.",
+    "Clearing/updating `device_demography_area_agg` is necessary if facility area IDs change."
+  ],
+  "action_items": [
+    "None specified."
+  ]
+}

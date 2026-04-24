@@ -1,0 +1,27 @@
+{
+  "chat_id": "i6YI1QAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 2,
+  "date_range": {
+    "start": "2021-08-18",
+    "end": "2021-08-18"
+  },
+  "message_count": 22,
+  "topic": "Design assets and implementation requirements",
+  "topic_slug": "design-assets-and-implementation-requirements",
+  "tags": [
+    "analytics",
+    "campaign",
+    "inventory"
+  ],
+  "summary_markdown": "The discussion centered on gathering design resources for a presentation, specifically targeting the 'Delivery Tool' concept for potential sales or tenders in Finland. The goal is to provide a designer with enough assets (fonts, styles, icons) to quickly create mockups based on an existing scheme.\n\n[me] provided a demo template link and suggested that the design should be adapted by switching the theme to black, matching the chosen palette. It was noted that while the current focus is on design/mockups, full implementation will eventually require HTML coding and asset slicing.",
+  "decisions": [
+    "The primary deliverable for the designer must showcase the 'Delivery Tool' concept for potential sales or tenders in Finland."
+  ],
+  "action_items": [
+    "Provide the designer with the demo template link provided by [me].",
+    "Ensure the design assets (fonts, styles, icons) are comprehensive enough to allow quick mockup creation.",
+    "A separate resource will need to be found for HTML implementation and asset slicing."
+  ]
+}

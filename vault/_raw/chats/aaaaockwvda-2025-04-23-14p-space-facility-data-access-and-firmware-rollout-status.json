@@ -1,0 +1,28 @@
+{
+  "chat_id": "AAAAOcKWvdA",
+  "kind": "Space",
+  "space_name": "Delivery Coordination",
+  "participants": 14,
+  "date_range": {
+    "start": "2025-04-23",
+    "end": "2025-04-23"
+  },
+  "message_count": 27,
+  "topic": "Facility data access and firmware rollout status",
+  "topic_slug": "facility-data-access-and-firmware-rollout-status",
+  "tags": [
+    "facility",
+    "analytics",
+    "impression",
+    "campaign"
+  ],
+  "summary_markdown": "The team discussed the status of a new firmware version (v2025.3.1), which reportedly fixed an issue related to UTC time offsets. It was confirmed that this version had been rolled out to 10 locations, and further deployment across all sites is pending confirmation from someone.\n\nA separate discussion addressed client requests for access to the virtual-to-real facility mapping list. A team member suggested providing limited access by creating a new role, though this would require a future release. It was decided instead to provide the list directly and discuss broader access needs in an upcoming meeting.\n\nFinally, the conversation covered historical issues regarding generating artificial sessions for facilities without MAC addresses. The goal is to replicate a week of artificial session data (forecasting) for about 30 facilities permanently, which requires finding a workaround to ensure forecasting continues even when physical boxes are absent.",
+  "decisions": [
+    "The list of virtual-to-real facility mappings will be provided directly to the client instead of granting system access immediately.",
+    "A permanent solution is needed for generating artificial session data (forecasting) for facilities without physical hardware."
+  ],
+  "action_items": [
+    "[p1] needs to provide a list and date of the new firmware rollout to [p3].",
+    "The team needs to investigate how to forecast facility metrics when no physical boxes are present."
+  ]
+}

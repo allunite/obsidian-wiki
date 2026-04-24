@@ -1,0 +1,28 @@
+{
+  "chat_id": "oCgFCIAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2022-06-14",
+    "end": "2022-06-14"
+  },
+  "message_count": 35,
+  "topic": "Reviewing analytics changes for release notes",
+  "topic_slug": "reviewing-analytics-changes-for-release-notes",
+  "tags": [
+    "analytics",
+    "campaign",
+    "inventory",
+    "dwell-time",
+    "impression"
+  ],
+  "summary_markdown": "The participants discussed gathering changes for release notes related to analytics and widgets. Initial discussion covered several features, including a new design with a left menu, demographics additions (in DK/FI), and the separation of traffic metrics into 'screen' and 'cluster' types due to the introduction of a dedicated \"Mall Analytics\" dashboard page.\n\nLater, they reviewed potential conflicts when merging code from the `master` branch into `develop`. The final list of changes agreed upon for client communication included:\n*   Introducing a new layout with a left menu.\n*   Adding Mall analytics.\n*   Adding demographics blocks in DK and FI.\n*   Explaining that the new \"Mall Analytics\" page necessitated separating indicators into 'screen' (classic traffic) and 'cluster' (mall analytics) types.\n\nThe conversation also touched upon general bug fixes, which were noted to have been handled primarily within the `master` branch.",
+  "decisions": [
+    "The final list of changes for release notes was agreed upon: new left menu layout, Mall analytics addition, demographics block additions (DK/FI), and separation of indicators into 'screen'/'cluster' types."
+  ],
+  "action_items": [
+    "Draft the final release notes using the agreed-upon change list.",
+    "Someone needs to clarify the logic changes for unique traffic metrics."
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "chat_id": "oCgFCIAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2023-09-05",
+    "end": "2023-09-05"
+  },
+  "message_count": 27,
+  "topic": "Data field standardization and device session tracking",
+  "topic_slug": "data-field-standardization-and-device-session-tracking",
+  "tags": [
+    "analytics",
+    "facility",
+    "asset",
+    "session"
+  ],
+  "summary_markdown": "The conversation covered two main topics: data field naming conventions and the handling of device session concepts.\n\n**Data Field Standardization:** There was a discussion about whether facility names should use system-level identifiers (like those used internally) or client-facing, human-readable asset IDs. It was noted that some systems currently use internal/system names in `facility.name`, while the preferred method for clients is using `asset.asset_id`. A consensus was reached to prioritize the client's view when displaying data on maps and other visible interfaces.\n\n**Device Session Tracking:** The participants discussed tracking device sessions, particularly concerning virtual or sample boxes (e.g., in Brazil). It was determined that a specific block tracks based on `device_session_concept`, which is considered robust for session tracking. There was an agreement to review whether this concept needs to be applied to virtual devices or if it can potentially be skipped/ignored.",
+  "decisions": [
+    "When displaying data (e.g., on maps), prioritize the client-facing asset ID over internal system names in facility fields."
+  ],
+  "action_items": [
+    "Review and determine if device session tracking based on `device_session_concept` needs to be applied to virtual devices or can be skipped for certain regions (e.g., Brazil)."
+  ]
+}

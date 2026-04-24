@@ -1,0 +1,26 @@
+{
+  "chat_id": "oCgFCIAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2023-08-07",
+    "end": "2023-08-07"
+  },
+  "message_count": 19,
+  "topic": "Updating campaign parameters via API",
+  "topic_slug": "updating-campaign-parameters-via-api",
+  "tags": [
+    "analytics",
+    "campaign",
+    "inventory"
+  ],
+  "summary_markdown": "The discussion focused on the technical approach for updating multiple campaign records and retrieving associated data. Initial suggestions included using header authentication or creating a public API endpoint, but these were deemed suboptimal.\n\nIt was proposed that the optimal solution involves writing a Python script that queries PostgreSQL (pg) to retrieve a batch of active campaigns' parameters. This script would then iterate through the list, calling ClickHouse (ch) with the necessary parameters and saving the results back into pg. This approach minimizes code duplication between analytics reporting and campaign management.\n\n[me] committed to developing the required query logic for this process and updating the ClickHouse schema (ch).\n\nAlternatively, [p1] suggested implementing Basic Auth for services and creating a single method to handle the update across all campaigns, but consensus leaned toward the pg/Python script approach.",
+  "decisions": [
+    "The primary method for campaign parameter updates will be a Python script that queries PostgreSQL (pg) for active campaigns' parameters and then calls ClickHouse (ch)."
+  ],
+  "action_items": [
+    "[me] to develop the necessary query logic and update the ClickHouse schema (ch).",
+    "[p1] and [me] to revisit the topic tomorrow."
+  ]
+}

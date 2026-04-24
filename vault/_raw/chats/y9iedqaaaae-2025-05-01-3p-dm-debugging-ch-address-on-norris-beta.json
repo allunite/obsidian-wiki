@@ -1,0 +1,21 @@
+{
+  "chat_id": "y9IEDQAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2025-05-01",
+    "end": "2025-05-01"
+  },
+  "message_count": 7,
+  "topic": "Debugging CH_ADDRESS on Norris beta",
+  "topic_slug": "debugging-ch-address-on-norris-beta",
+  "tags": [
+    "analytics"
+  ],
+  "summary_markdown": "The user requested assistance with implementing the `CH_ADDRESS` feature on the Norris beta environment. The user reported that the AI functionality is failing and stated that a process (writing an email) was not working on the beta version, causing frustration.",
+  "decisions": [],
+  "action_items": [
+    "Implement CH_ADDRESS on Norris beta."
+  ]
+}

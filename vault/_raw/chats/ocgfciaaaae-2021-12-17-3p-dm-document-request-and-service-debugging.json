@@ -1,0 +1,21 @@
+{
+  "chat_id": "oCgFCIAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2021-12-17",
+    "end": "2021-12-17"
+  },
+  "message_count": 5,
+  "topic": "Document request and service debugging",
+  "topic_slug": "document-request-and-service-debugging",
+  "tags": [
+    "analytics"
+  ],
+  "summary_markdown": "Someone requested a document regarding requirements for the Netherlands, which was reportedly sent by [unknown]. Another participant advised checking email as they were unsure if the received document matched the original request. The conversation also included an update on technical difficulties: one participant spent significant time debugging a lidar service that repeatedly started and failed due to a memory error. The issue was traced back to using an unstable library package, requiring extensive testing, fixing, and deployment.",
+  "decisions": [],
+  "action_items": [
+    "Check email for the required document regarding Netherlands."
+  ]
+}

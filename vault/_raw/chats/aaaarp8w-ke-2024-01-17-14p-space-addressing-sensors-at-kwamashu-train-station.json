@@ -1,0 +1,20 @@
+{
+  "chat_id": "AAAARP8w-KE",
+  "kind": "Space",
+  "space_name": "Problematic sensors",
+  "participants": 14,
+  "date_range": {
+    "start": "2024-01-17",
+    "end": "2024-01-17"
+  },
+  "message_count": 4,
+  "topic": "Addressing sensors at Kwamashu Train Station",
+  "topic_slug": "addressing-sensors-at-kwamashu-train-station",
+  "tags": [
+    "facility",
+    "analytics"
+  ],
+  "summary_markdown": "A discussion was initiated regarding the status of sensors located at Kwamashu Train Station. It was suggested that an update could be attempted, pending feedback from someone.",
+  "decisions": [],
+  "action_items": []
+}

@@ -1,0 +1,25 @@
+{
+  "chat_id": "uJ8JA8AAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2025-10-30",
+    "end": "2025-10-30"
+  },
+  "message_count": 8,
+  "topic": "Missing forecast data for specific facilities",
+  "topic_slug": "missing-forecast-data-for-specific-facilities",
+  "tags": [
+    "analytics",
+    "facility",
+    "session"
+  ],
+  "summary_markdown": "The discussion centered on a missing forecast calculation for a specific date range (Oct 25 - Oct 26). It was determined that the forecast failed to process sessions for 39,805,380 sessions across 755 facilities for October 26th. Someone offered to reprocess the data and checked the issue.\n\n[p1] requested a SQL query (SELECT statement) that would allow them to identify all affected facilities so they could inform colleagues about which companies were impacted.",
+  "decisions": [
+    "The forecast for October 26th was confirmed as not having run correctly."
+  ],
+  "action_items": [
+    "[p1] needs a SELECT statement to list the specific facilities affected by the missing forecast."
+  ]
+}

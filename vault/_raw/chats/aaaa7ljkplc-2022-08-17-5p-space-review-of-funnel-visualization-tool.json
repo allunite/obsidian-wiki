@@ -1,0 +1,23 @@
+{
+  "chat_id": "AAAA7lJKPlc",
+  "kind": "Space",
+  "space_name": "Frontend",
+  "participants": 5,
+  "date_range": {
+    "start": "2022-08-17",
+    "end": "2022-08-17"
+  },
+  "message_count": 8,
+  "topic": "Review of funnel visualization tool",
+  "topic_slug": "review-of-funnel-visualization-tool",
+  "tags": [
+    "analytics"
+  ],
+  "summary_markdown": "A new JavaScript library for creating a funnel graph was shared. Participants reviewed the resource, noting that it is an improvement over previous internal funnels due to its visual quality and inclusion of data points (numbers). The creator confirmed that the numbers are handled by the library itself.",
+  "decisions": [
+    "The shared funnel visualization tool will be implemented via a Pull Request (PR)."
+  ],
+  "action_items": [
+    "[p2] to open a PR for the new funnel graph library."
+  ]
+}

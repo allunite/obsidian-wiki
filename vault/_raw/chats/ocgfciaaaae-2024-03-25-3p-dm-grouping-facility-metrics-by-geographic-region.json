@@ -1,0 +1,28 @@
+{
+  "chat_id": "oCgFCIAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2024-03-25",
+    "end": "2024-03-25"
+  },
+  "message_count": 33,
+  "topic": "Grouping facility metrics by geographic region",
+  "topic_slug": "grouping-facility-metrics-by-geographic-region",
+  "tags": [
+    "analytics",
+    "inventory",
+    "campaign",
+    "impression"
+  ],
+  "summary_markdown": "The discussion focused on methods to aggregate and analyze facility metrics by geographical region (e.g., ZIP code, district). Initial proposals included creating a materialized view linking each facility to all demographic area IDs across multiple hierarchical levels. Alternatives discussed involved leveraging existing data layers in ClickHouse that inherently support hierarchical relationships.\n\nIt was determined that the `country_area` table/data layer is a viable solution for aggregation because it supports grouping by different geographical levels (e.g., ZIP code, city) and can be used to generate an explicit hierarchy file for location linking. The goal is to allow reporting on facilities grouped by any level of the demographic area hierarchy.\n\nThe technical approach involves utilizing ClickHouse's dictionary functions (`dictgethierarchy`) and ensuring that `country_area` is treated as a reference catalog.",
+  "decisions": [
+    "Use the existing `country_area` data layer for grouping facility metrics by region.",
+    "Generate an explicit hierarchy file based on location data to aid aggregation."
+  ],
+  "action_items": [
+    "Someone will attempt to generate and test the hierarchy file in a sandbox environment.",
+    "Someone will provide the `country_area` reference catalog/dictionary."
+  ]
+}

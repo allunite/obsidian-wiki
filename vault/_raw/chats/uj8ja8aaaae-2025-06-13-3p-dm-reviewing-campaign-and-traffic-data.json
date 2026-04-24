@@ -1,0 +1,20 @@
+{
+  "chat_id": "uJ8JA8AAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2025-06-13",
+    "end": "2025-06-13"
+  },
+  "message_count": 3,
+  "topic": "Reviewing campaign and traffic data",
+  "topic_slug": "reviewing-campaign-and-traffic-data",
+  "tags": [
+    "campaign",
+    "analytics"
+  ],
+  "summary_markdown": "Someone shared a link containing campaign details, traffic information, and screenshots for review.",
+  "decisions": [],
+  "action_items": []
+}

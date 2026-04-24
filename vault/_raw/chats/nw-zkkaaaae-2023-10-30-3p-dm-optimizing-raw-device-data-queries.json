@@ -1,0 +1,27 @@
+{
+  "chat_id": "nW_zkkAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2023-10-30",
+    "end": "2023-10-30"
+  },
+  "message_count": 39,
+  "topic": "Optimizing raw device data queries",
+  "topic_slug": "optimizing-raw-device-data-queries",
+  "tags": [
+    "analytics",
+    "inventory",
+    "dwell-time"
+  ],
+  "summary_markdown": "The discussion focused on optimizing slow SQL queries run against the `allunite.raw_devices_seen_2` table, which tracks device activity.\n\nInitial issues included poor performance when querying large date ranges (e.g., a month).\n\n**Optimization Decisions:**\n1. **Indexing/Query Structure:** It was determined that using `lcase(box_mac)` prevents the index on `box_mac` from being utilized, and changing the query to use `ucase('{str(i)}')` improves performance.\n2. **Data Field Optimization:** The primary bottleneck was identified as reading and unpacking the large `devices` column (which contains packaged data). A solution proposed was adding a dedicated boolean field, `is_empty_package`, which would allow for faster checks without needing to read the entire column.\n3. **Query Refinement:** After implementing the new field, a revised query structure was provided that uses `countIf(is_empty_package)` instead of checking `devices = '[]'`, significantly improving performance for historical data lookups.\n\nThe conversation also touched upon potential solutions like materialized views but concluded with focusing on structural database improvements.",
+  "decisions": [
+    "The query structure was optimized by using `ucase(box_mac)` to ensure index utilization.",
+    "A new field, `is_empty_package`, will be added to the raw device table to improve performance when checking for empty packages."
+  ],
+  "action_items": [
+    "Implement the addition of the `is_empty_package` column to the raw devices seen table.",
+    "Use the optimized query structure with the new field for future health checks on historical data."
+  ]
+}

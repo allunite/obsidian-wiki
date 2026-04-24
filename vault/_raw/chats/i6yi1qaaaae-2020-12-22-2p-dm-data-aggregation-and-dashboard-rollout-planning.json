@@ -1,0 +1,29 @@
+{
+  "chat_id": "i6YI1QAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 2,
+  "date_range": {
+    "start": "2020-12-22",
+    "end": "2020-12-22"
+  },
+  "message_count": 106,
+  "topic": "Data aggregation and dashboard rollout planning",
+  "topic_slug": "data-aggregation-and-dashboard-rollout-planning",
+  "tags": [
+    "analytics",
+    "mops",
+    "campaign",
+    "inventory"
+  ],
+  "summary_markdown": "The conversation focused on updating data aggregations, specifically incorporating new 'Malls' inventory data into the existing aggregation process. It was decided that a new version of the aggregated data will be created using both previous and current Malls data.\n\nRegarding deployment, the new aggregated data set will be made production-ready (prodottovoi) on the Stage environment for Mops. The team discussed the timeline for rolling out changes to the dashboard, noting that while an API release is necessary, a full dashboard rollout might require coordination with other international rollouts.\n\nIt was confirmed that if the new dashboard cannot be released in time, the old Mops system can be migrated to use the new aggregated data set within an hour.",
+  "decisions": [
+    "A new version of the aggregated data will be created using existing and current Malls data.",
+    "The new aggregation will be marked as production-ready on the Stage environment for Mops.",
+    "If dashboard rollout is delayed, the old Mops system can be migrated to use the new aggregates within one hour."
+  ],
+  "action_items": [
+    "Someone needs to create a ticket to ensure the data aggregation upload occurs.",
+    "The aggregation process should be postponed until the next day to allow for data re-upload and subsequent aggregation."
+  ]
+}

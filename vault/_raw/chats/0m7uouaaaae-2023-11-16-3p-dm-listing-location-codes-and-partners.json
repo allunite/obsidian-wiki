@@ -1,0 +1,19 @@
+{
+  "chat_id": "0m7UOUAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2023-11-16",
+    "end": "2023-11-16"
+  },
+  "message_count": 3,
+  "topic": "Listing location codes and partners",
+  "topic_slug": "listing-location-codes-and-partners",
+  "tags": [
+    "inventory"
+  ],
+  "summary_markdown": "The conversation consisted of [p1] listing several numerical identifiers, followed by pairs of numbers, country names, and associated advertising partners (JCDecaux Gabon, JCDecaux Côte d’Ivoire).",
+  "decisions": [],
+  "action_items": []
+}

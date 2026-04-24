@@ -1,0 +1,19 @@
+{
+  "chat_id": "y9IEDQAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2021-11-03",
+    "end": "2021-11-03"
+  },
+  "message_count": 10,
+  "topic": "Data format and time zone clarification",
+  "topic_slug": "data-format-and-time-zone-clarification",
+  "tags": [
+    "analytics"
+  ],
+  "summary_markdown": "The conversation briefly addresses a technical question regarding data dates and whether they are provided in UTC. One participant mentions that the API output from YouTube provides this information.",
+  "decisions": [],
+  "action_items": []
+}

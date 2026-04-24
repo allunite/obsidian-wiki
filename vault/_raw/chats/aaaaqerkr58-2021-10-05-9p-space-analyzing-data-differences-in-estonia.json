@@ -1,0 +1,24 @@
+{
+  "chat_id": "AAAAqeRkR58",
+  "kind": "Space",
+  "space_name": "Estonia",
+  "participants": 9,
+  "date_range": {
+    "start": "2021-10-05",
+    "end": "2021-10-05"
+  },
+  "message_count": 19,
+  "topic": "Analyzing data differences in Estonia",
+  "topic_slug": "analyzing-data-differences-in-estonia",
+  "tags": [
+    "analytics",
+    "inventory"
+  ],
+  "summary_markdown": "The discussion focused on investigating a discrepancy found between Wi-Fi and 2D Lidar data for the Estonia market. It was noted that there is no established model for Estonia, and the Wi-Fi data relies on an approximate factor.\n\nParticipants discussed potential logic differences between Lidar and Wi-Fi measurements. One example suggested that events like concerts typically cause Wi-Fi throughput to increase while Lidar remains stable; however, the observed spikes were noted as being similar across both metrics, which was considered odd.\n\nSeparately, a positive discussion took place with the CEO of Baltics regarding current operations in the region. It was decided that discussions would continue with the Baltics team about implementing a unified model for the entire Baltic region, similar to the one suggested for Finland, including a single currency and a single audience measurement setup.",
+  "decisions": [
+    "Discuss making a unified model for the Baltics (similar to Finland's) using a single currency and single audience measurement setup."
+  ],
+  "action_items": [
+    "[p5] will monitor and investigate the difference between Wi-Fi and 2D Lidar data."
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "chat_id": "AAAACgwc0Mo",
+  "kind": "Space",
+  "space_name": "Group Chat",
+  "participants": 3,
+  "date_range": {
+    "start": "2025-03-26",
+    "end": "2025-03-26"
+  },
+  "message_count": 61,
+  "topic": "Cleaning up inactive company and facility data",
+  "topic_slug": "cleaning-inactive-company-facility-data",
+  "tags": [
+    "analytics",
+    "campaign",
+    "inventory",
+    "facility"
+  ],
+  "summary_markdown": "The discussion focused on the process of cleaning up outdated or inactive records within the monitoring system, specifically regarding companies and facilities.\n\nInitial data dump revealed numerous active companies that have generated no sessions since 2025-01-01. The participants discussed the volume of unassigned assets (e.g., 124 boxes without a company) and unknown routers sending data.\n\nKey points raised:\n*   **Inactive Companies:** It was noted that some companies are technically active but lack associated inventory or traffic, suggesting they might be old projects or marketing agencies.\n*   **Data Flow Issues:** A concern was raised about facilities/routers sending data even when the associated company is inactive. This suggests either a client error or an installation process delay, which should not be part of basic monitoring.\n*   **Proposed Solution:** The team discussed implementing a mechanism to flag or handle assets (routers) that are reporting data but cannot be linked to an active facility/company record, potentially as an advanced feature.",
+  "decisions": [
+    "The need for a cleanup procedure for inactive companies and facilities was identified."
+  ],
+  "action_items": [
+    "Review the process for handling assets (routers) that report data when the associated company or facility is marked inactive."
+  ]
+}

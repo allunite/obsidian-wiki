@@ -1,0 +1,19 @@
+{
+  "chat_id": "ws0mTkAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 2,
+  "date_range": {
+    "start": "2025-07-08",
+    "end": "2025-07-08"
+  },
+  "message_count": 12,
+  "topic": "Scheduling and confirming a medical appointment",
+  "topic_slug": "scheduling-medical-appointment",
+  "tags": [],
+  "summary_markdown": "The conversation revolves around scheduling and confirming a medical visit. [me] assisted in securing an appointment for [p1] at Luxmed, specifically with surgeon Michał Klimkowski, scheduled for the evening of July 2nd at the Marriott hotel.\n\n[me] confirmed that the booking was made via online channels and provided details including the date (July 2nd), time (6:30 PM), and location. [p1] subsequently shared a confirmation message from Luxmed, reiterating the appointment details for July 2nd at 6:30 PM in Warsaw.",
+  "decisions": [
+    "The medical appointment is confirmed for July 2nd at 6:30 PM."
+  ],
+  "action_items": []
+}

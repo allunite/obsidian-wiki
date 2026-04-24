@@ -1,0 +1,19 @@
+{
+  "chat_id": "AAAA-gn4oPg",
+  "kind": "Space",
+  "space_name": "General and random",
+  "participants": 36,
+  "date_range": {
+    "start": "2023-11-02",
+    "end": "2023-11-02"
+  },
+  "message_count": 18,
+  "topic": "Market presentation and congratulations",
+  "topic_slug": "market-presentation-and-congratulations",
+  "tags": [
+    "analytics"
+  ],
+  "summary_markdown": "The session contained multiple birthday greetings for a participant. Later, one person reported presenting AllUnite to 320 delegates in the Asian market. This was acknowledged as great work.",
+  "decisions": [],
+  "action_items": []
+}

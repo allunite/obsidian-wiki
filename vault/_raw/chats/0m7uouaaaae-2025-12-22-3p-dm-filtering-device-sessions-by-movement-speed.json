@@ -1,0 +1,26 @@
+{
+  "chat_id": "0m7UOUAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2025-12-22",
+    "end": "2025-12-22"
+  },
+  "message_count": 24,
+  "topic": "Filtering device sessions based on movement speed",
+  "topic_slug": "filtering-device-sessions-by-movement-speed",
+  "tags": [
+    "analytics",
+    "session",
+    "dwell-time",
+    "impression"
+  ],
+  "summary_markdown": "A method was discussed for identifying potentially non-quality or 'jumping' devices by analyzing movement speed between sensor pings. The proposed logic involves:\n1. Treating the start and end of a session as definitive ping points.\n2. Calculating the distance (straight line) and time elapsed between consecutive pings within a device's session.\n3. Determining average movement speed using these metrics. If any pair of sequential pings shows a speed greater than 300 km/h, the device is flagged as 'jumping'.\n4. Filtering out sessions from these jumping devices and also filtering devices that have been seen at fewer than 10 distinct sensors.\n\nAdjustments proposed for calculating speed include:\n*   Reducing the calculated distance by 400m to account for potential simultaneous visibility of two nearby sensors.\n*   Increasing the time elapsed by 2 seconds to compensate for potential clock synchronization issues between sensors. This establishes a lower bound on true speed.",
+  "decisions": [
+    "The initial SQL query template was reviewed and deemed generally sound, though minor optimizations (like using `uniq` instead of `count(distinct)`) were suggested."
+  ],
+  "action_items": [
+    "Someone will attempt to load a new batch of Japanese data into the prepared table structure."
+  ]
+}

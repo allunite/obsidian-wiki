@@ -1,0 +1,23 @@
+{
+  "chat_id": "i6YI1QAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 2,
+  "date_range": {
+    "start": "2025-01-17",
+    "end": "2025-01-17"
+  },
+  "message_count": 6,
+  "topic": "Follow up on meeting and task",
+  "topic_slug": "follow-up-meeting-task",
+  "tags": [
+    "analytics"
+  ],
+  "summary_markdown": "The conversation was primarily logistical, confirming a follow-up action item. [p1] mentioned needing to send something related to 'Серджио' (Sergeio) on Monday.",
+  "decisions": [
+    "Follow up task needs to be completed by Monday."
+  ],
+  "action_items": [
+    "Send required information regarding Sergeio on Monday."
+  ]
+}

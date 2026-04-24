@@ -1,0 +1,21 @@
+{
+  "chat_id": "y9IEDQAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2021-06-29",
+    "end": "2021-06-29"
+  },
+  "message_count": 5,
+  "topic": "Security concerns regarding data input",
+  "topic_slug": "security-concerns-data-input",
+  "tags": [
+    "analytics"
+  ],
+  "summary_markdown": "The conversation focuses on security best practices for handling user inputs. Specifically, [p1] questioned whether parameters are inserted directly into SQL or HTML without proper escaping in the MOPs system. Later, [me] inquired about a client's penetration testing access, asking if they have a login to MOPs and confirming understanding that password brute-forcing might not be limited.",
+  "decisions": [],
+  "action_items": [
+    "Ensure all parameters are properly escaped when inserted into SQL or HTML within the MOPs system."
+  ]
+}

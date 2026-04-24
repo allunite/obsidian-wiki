@@ -1,0 +1,24 @@
+{
+  "chat_id": "y9IEDQAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2021-02-18",
+    "end": "2021-02-18"
+  },
+  "message_count": 45,
+  "topic": "Realtime session data filtering requirements",
+  "topic_slug": "realtime-session-data-filtering-requirements",
+  "tags": [
+    "analytics",
+    "campaign"
+  ],
+  "summary_markdown": "The discussion covered the technical implementation of adding a tenant filter to the payload when forming data for Afa's Kinesis. Initially, there was a need to include all tenants in `realtime.tenant_id`. However, it was clarified that the scope should start by including only CityMedia and Afa.\n\nRegarding IDE usage, [p1] noted that while Ultimate edition handles Java well, specialized tools like PyCharm (for Python) and CLion (for C/C++) are superior for those specific languages. The use of separate plugins or dedicated products was recommended over relying solely on the Ultimate bundle.",
+  "decisions": [
+    "The scope for adding tenant filtering to Kinesis payload will start with CityMedia and Afa."
+  ],
+  "action_items": [
+    "Reviewing a specific code commit related to the kinesis payload filter."
+  ]
+}

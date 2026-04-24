@@ -1,0 +1,26 @@
+{
+  "chat_id": "AAAA1vdtku4",
+  "kind": "Space",
+  "space_name": "DataTeam+",
+  "participants": 14,
+  "date_range": {
+    "start": "2024-11-05",
+    "end": "2024-11-05"
+  },
+  "message_count": 12,
+  "topic": "Analytics view changes and testing plan",
+  "topic_slug": "analytics-view-changes-and-testing-plan",
+  "tags": [
+    "facility",
+    "impression",
+    "analytics"
+  ],
+  "summary_markdown": "The team confirmed that recent changes to the `va` views, specifically regarding `facility_traffic_share`, did not affect data integrity. This was verified by running an impression script, showing 1:1 consistency for both production and beta environments.\n\nDiscussion highlighted that while different views are used for beta and production, the current single database structure makes immediate testing on a dedicated beta environment difficult. It was noted that once the database is split, proper testing on the beta environment will be implemented.\n\nA link to the staging version of the analytics platform was shared, requiring review by someone regarding specific report changes before an anticipated deployment.",
+  "decisions": [
+    "Changes to `va` views for `facility_traffic_share` are confirmed not to affect data."
+  ],
+  "action_items": [
+    "Someone needs to review the report changes (made by 'Lesh') on the staging analytics version.",
+    "The team will proceed with deployment if all checks pass, followed by further testing."
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "chat_id": "i6YI1QAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 2,
+  "date_range": {
+    "start": "2023-12-11",
+    "end": "2023-12-11"
+  },
+  "message_count": 8,
+  "topic": "New dwell time analytics deployment",
+  "topic_slug": "new-dwell-time-analytics-deployment",
+  "tags": [
+    "dwell-time",
+    "analytics"
+  ],
+  "summary_markdown": "The conversation focused on the availability and location of new dwell time data. [p1] inquired whether the updated dwell time metrics were available for testing on a beta or staging environment. [me] confirmed that it might be available on dev and subsequently provided a link to the dashboard. The data is located in the `aka_test` dataset, covering November 12th through November 25th, and includes Brazil with the new dwell time metric.",
+  "decisions": [
+    "The new dwell time metrics are accessible via the dev environment."
+  ],
+  "action_items": [
+    "None"
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "chat_id": "oCgFCIAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2022-04-26",
+    "end": "2022-04-26"
+  },
+  "message_count": 4,
+  "topic": "Deploying mops to sandbox environment",
+  "topic_slug": "deploying-mops-to-sandbox-environment",
+  "tags": [
+    "mops"
+  ],
+  "summary_markdown": "The user requested that the recipient deploy the mops functionality from the `fix-mall-traffic` branch to the sandbox environment.",
+  "decisions": [],
+  "action_items": [
+    "Deploy mops from fix-mall-traffic branch to sandbox."
+  ]
+}

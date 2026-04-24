@@ -1,0 +1,24 @@
+{
+  "chat_id": "AAAAy7Yj6Xo",
+  "kind": "Space",
+  "space_name": "IT",
+  "participants": 12,
+  "date_range": {
+    "start": "2023-05-30",
+    "end": "2023-05-30"
+  },
+  "message_count": 23,
+  "topic": "Integrating antennas into digital OOH screens",
+  "topic_slug": "integrating-antennas-into-digital-ooh-screens",
+  "tags": [
+    "facility",
+    "inventory"
+  ],
+  "summary_markdown": "The discussion focused on the technical challenge of integrating Wi-Fi antennas into digital Out-of-Home (OOH) screens, noting that a competitor places these antennas inside the units. The goal is to replicate this solution while maintaining signal integrity.\n\nSeveral potential placement methods were discussed: utilizing ventilation areas or passing signals through plexiglass screens. It was noted that an existing successful installation in the metro system in Denmark provided a working model.\n\nParticipants agreed that the specific screen material and construction type significantly impact signal performance, citing previous issues in German installations. A suggestion was made to investigate using different antenna types, such as high-gain antennas, or defining a standardized placement area (e.g., the bottom part of the screen) based on successful metro deployments.",
+  "decisions": [
+    "Investigate the technical solution used for antenna integration in the metro system."
+  ],
+  "action_items": [
+    "Define requirements and specifications for the integrated antenna solution."
+  ]
+}

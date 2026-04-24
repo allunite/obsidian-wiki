@@ -1,0 +1,21 @@
+{
+  "chat_id": "oq-w0kAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2023-02-24",
+    "end": "2023-02-24"
+  },
+  "message_count": 13,
+  "topic": "Discussion about a designer contact",
+  "topic_slug": "discussion-about-a-designer-contact",
+  "tags": [
+    "analytics"
+  ],
+  "summary_markdown": "The conversation revolves around identifying and discussing a specific designer, Vasily Larin. [p1] mentioned that Galina provided the designer's contact information, and [me] confirmed awareness of him. The discussion included details about his potential connection to someone's wife's family and where he is from (Dnipro). It was noted that the designer may be part-time.",
+  "decisions": [],
+  "action_items": [
+    "None"
+  ]
+}

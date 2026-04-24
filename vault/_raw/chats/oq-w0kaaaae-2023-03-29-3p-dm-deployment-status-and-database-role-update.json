@@ -1,0 +1,21 @@
+{
+  "chat_id": "oq-w0kAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2023-03-29",
+    "end": "2023-03-29"
+  },
+  "message_count": 9,
+  "topic": "Deployment status and database role update",
+  "topic_slug": "deployment-status-and-database-role-update",
+  "tags": [
+    "analytics"
+  ],
+  "summary_markdown": "The conversation focused on the deployment schedule. [p1] inquired about a production release today, mentioning the need to adjust a role in the database if necessary. Someone confirmed that the release process moves from develop to master and then to RELEASE. It was noted that changes made by [p1] in classification were acknowledged but deemed premature for action at this time.",
+  "decisions": [
+    "No concrete decisions regarding deployment or roles were finalized."
+  ],
+  "action_items": []
+}

@@ -1,0 +1,27 @@
+{
+  "chat_id": "AAAANqEY3K4",
+  "kind": "Space",
+  "space_name": "Group Chat",
+  "participants": 2,
+  "date_range": {
+    "start": "2023-11-29",
+    "end": "2023-11-29"
+  },
+  "message_count": 8,
+  "topic": "Adjusting impression data for frame discrepancies",
+  "topic_slug": "adjusting-impression-data-for-frame-discrepancies",
+  "tags": [
+    "impression",
+    "frame",
+    "analytics"
+  ],
+  "summary_markdown": "A discrepancy was identified regarding impression counts for frames, noting that the reported 'rots', 'vac', and impressions were approximately doubled across most Brazilian locations over several months. While a bug fix was implemented by someone, simply pushing the fix is deemed insufficient.\n\nIt was proposed that since dwell-time was underestimated while impressions were overestimated, these two metrics might theoretically compensate for each other. The consensus reached was to keep the buggy data for Brazil but apply the fix for all other locations.\n\nUltimately, it was decided that a more accurate approach would be to assess how much higher the reported numbers were compared to the correct figures and adjust the fixed calculation using a specific coefficient.",
+  "decisions": [
+    "Keep the current (buggy) impression data specifically for Brazil.",
+    "Apply the bug fix only for locations outside of Brazil.",
+    "Adjust the final calculated metrics by applying a coefficient based on the magnitude of the historical discrepancy."
+  ],
+  "action_items": [
+    "Review and implement the correct calculation method using an adjustment coefficient."
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "chat_id": "AAAAoyCCmZk",
+  "kind": "Space",
+  "space_name": "Group Chat",
+  "participants": 3,
+  "date_range": {
+    "start": "2025-03-18",
+    "end": "2025-03-18"
+  },
+  "message_count": 10,
+  "topic": "Calculating footfall data for airport sensors",
+  "topic_slug": "calculating-footfall-data-for-airport-sensors",
+  "tags": [
+    "facility",
+    "analytics",
+    "impression"
+  ],
+  "summary_markdown": "The conversation focused on calculating footfall metrics using sensor data. Initially, [p2] requested a test calculation for Sardar Vallabhbhai Patel International Airport (company_num = 7961). This required counting instances where a device was detected by two or more sensors, similar to previous calculations done for a mall and a park in Brazil.\n\nLater, [p2] requested an additional calculation using the `aka_test_1` dataset. This new test needed to count instances where a device was detected by three or more sensors.",
+  "decisions": [
+    "Footfall testing criteria established: 2+ sensors for initial test; 3+ sensors for follow-up test."
+  ],
+  "action_items": [
+    "[me] completed the initial footfall calculation (2+ sensors) using `aka_test` dataset.",
+    "[me] completed the secondary footfall calculation (3+ sensors) using `aka_test_1` dataset."
+  ]
+}

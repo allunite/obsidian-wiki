@@ -1,0 +1,26 @@
+{
+  "chat_id": "nW_zkkAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2025-01-22",
+    "end": "2025-01-22"
+  },
+  "message_count": 30,
+  "topic": "Facility data duplication and session query adjustments",
+  "topic_slug": "facility-data-duplication-and-session-query-adjustments",
+  "tags": [
+    "analytics",
+    "facility",
+    "session"
+  ],
+  "summary_markdown": "The discussion focused on identifying and resolving duplicate facility records for company 7944, specifically concerning the presence of both virtual and real facilities. Initial concerns were raised about duplicated real facilities lacking box MAC addresses or having unusually early first sessions.\n\nIt was clarified that some 'duplicates' without MAC addresses are actually intended virtual sessions, as requested previously to capture data from different installation periods (late October/mid-November). The initial query structure was found to be missing `box_mac` in the grouping clause during a restructuring process. \n\nThe final resolution involved adjusting the SQL queries to accurately group and count sessions by facility name, number, master number, virtual status, and box MAC address.",
+  "decisions": [
+    "The issue of duplicate facilities was attributed to missing `box_mac` in the grouping logic during query restructuring.",
+    "Virtual sessions without MAC addresses are expected and necessary for comprehensive data capture across different installation periods."
+  ],
+  "action_items": [
+    "Review and finalize SQL queries to correctly group session data by facility name, number, master number, virtual status, and box MAC address."
+  ]
+}

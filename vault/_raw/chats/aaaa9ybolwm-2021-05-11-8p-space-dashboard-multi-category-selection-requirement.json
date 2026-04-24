@@ -1,0 +1,21 @@
+{
+  "chat_id": "AAAA9ybOLwM",
+  "kind": "Space",
+  "space_name": "ИТ",
+  "participants": 8,
+  "date_range": {
+    "start": "2021-05-11",
+    "end": "2021-05-11"
+  },
+  "message_count": 5,
+  "topic": "Dashboard multi-category selection requirement",
+  "topic_slug": "dashboard-multi-category-selection-requirement",
+  "tags": [
+    "analytics"
+  ],
+  "summary_markdown": "A request was made to implement functionality on the dashboard allowing users to select multiple categories (e.g., metro, city, rail). This selection should ensure that unique counts are calculated across all chosen categories.",
+  "decisions": [],
+  "action_items": [
+    "Someone needs to send a ticket regarding this requirement."
+  ]
+}

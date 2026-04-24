@@ -1,0 +1,23 @@
+{
+  "chat_id": "0VorOYAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2022-09-07",
+    "end": "2022-09-07"
+  },
+  "message_count": 4,
+  "topic": "Adjusting tourist factor calculation formula",
+  "topic_slug": "adjusting-tourist-factor-calculation-formula",
+  "tags": [
+    "analytics"
+  ],
+  "summary_markdown": "The conversation focused on confirming the correct mathematical formula for a 'tourists factor' used in analytics. The proposed formula was: `tourists_factor = audience_number / (audience_number + AllUnite_tourists_Denmark + AllUnite_tourists_world)`. A document link was shared for review, noting that one section lacked hotel statistics and thus tourist data.\n\nConcerns were raised regarding the naming convention, with a suggestion to use `population_without_tourists` instead of the current label.",
+  "decisions": [
+    "The formula for the tourists factor was confirmed."
+  ],
+  "action_items": [
+    "Review and potentially rename the metric from its current name to `population_without_tourists`."
+  ]
+}

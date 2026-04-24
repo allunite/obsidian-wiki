@@ -1,0 +1,23 @@
+{
+  "chat_id": "y9IEDQAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2021-07-16",
+    "end": "2021-07-16"
+  },
+  "message_count": 4,
+  "topic": "Requesting analytics data updates",
+  "topic_slug": "requesting-analytics-data-updates",
+  "tags": [
+    "mops",
+    "analytics"
+  ],
+  "summary_markdown": "Someone requested that the 'ch' (channel?) be raised again, and also asked to adjust/review the mops/mops data.",
+  "decisions": [],
+  "action_items": [
+    "Review and update ch channel metrics.",
+    "Adjust or review mops/mops data."
+  ]
+}

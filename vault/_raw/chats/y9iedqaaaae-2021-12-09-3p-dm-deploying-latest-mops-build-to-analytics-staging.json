@@ -1,0 +1,24 @@
+{
+  "chat_id": "y9IEDQAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2021-12-09",
+    "end": "2021-12-09"
+  },
+  "message_count": 9,
+  "topic": "Deploying latest mops build to analytics staging",
+  "topic_slug": "deploying-latest-mops-build-to-analytics-staging",
+  "tags": [
+    "mops",
+    "analytics"
+  ],
+  "summary_markdown": "The conversation began with [me] noting that the analytics for both production and staging environments were down. A subsequent issue was also reported regarding an 'UPGRADE FAILED' status on a cube. Later, [me] requested assistance from someone to deploy the latest mops build from the develop branch onto the staging-analytics environment, as [me] lacked the necessary permissions.",
+  "decisions": [
+    "Deploy the last mops build from develop to staging-analytics."
+  ],
+  "action_items": [
+    "[p1] needs to deploy the latest mops build from develop to staging-analytics."
+  ]
+}

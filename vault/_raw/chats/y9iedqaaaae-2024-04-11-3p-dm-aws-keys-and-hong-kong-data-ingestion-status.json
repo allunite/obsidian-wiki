@@ -1,0 +1,20 @@
+{
+  "chat_id": "y9IEDQAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2024-04-11",
+    "end": "2024-04-11"
+  },
+  "message_count": 13,
+  "topic": "AWS keys and Hong Kong data ingestion status",
+  "topic_slug": "aws-keys-and-hong-kong-data-ingestion-status",
+  "tags": [
+    "analytics",
+    "inventory"
+  ],
+  "summary_markdown": "The conversation began with a request for AWS credentials needed for data upload to the JCD production environment. [me] provided the necessary access key ID and confirmed that both production and development keys are available. When asked about the lack of data ingestion from Hong Kong, neither participant had a definitive answer regarding why this data stream was not being processed.",
+  "decisions": [],
+  "action_items": []
+}

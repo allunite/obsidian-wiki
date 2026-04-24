@@ -1,0 +1,23 @@
+{
+  "chat_id": "y9IEDQAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2021-05-07",
+    "end": "2021-05-07"
+  },
+  "message_count": 31,
+  "topic": "Analyzing network packet data and signal strength",
+  "topic_slug": "analyzing-network-packet-data-and-signal-strength",
+  "tags": [
+    "analytics",
+    "packets",
+    "session"
+  ],
+  "summary_markdown": "The discussion focused on analyzing raw network packet capture data, specifically concerning differences in packet counts observed across various routers/boxes. The participants reviewed logs showing `client_hash`, `vendor_id`, and signal strength (`dp`).\n\nKey observations included:\n*   A noticeable variation in the number of packets captured between different devices, even those with similar firmware.\n*   The data suggests that some client hashes show negative signal strengths (e.g., -64 dBm), while others show 0 or positive values.\n*   It was noted that the signal strength level is determined by the router itself, not passed from the device to the router.\n\nThe participants concluded that analyzing these specific packets might be overly complex and potentially unreliable due to capture limitations (e.g., libpcap issues).",
+  "decisions": [
+    "The current analysis of individual network packets and signal strengths will be deprioritized."
+  ],
+  "action_items": []
+}

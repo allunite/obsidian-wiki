@@ -1,0 +1,24 @@
+{
+  "chat_id": "oCgFCIAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2022-07-20",
+    "end": "2022-07-20"
+  },
+  "message_count": 7,
+  "topic": "Inventory management data structure updates",
+  "topic_slug": "inventory-management-data-structure-updates",
+  "tags": [
+    "facility",
+    "inventory"
+  ],
+  "summary_markdown": "The conversation focused on updating the inventory management system. [p1] is working on integrating `facility_data` fields and refining the JSON schema for the system. To improve data input, [p1] plans to add specific fields for malls (malls). \n\n[me] inquired about unique asset fields for malls, specifically asking if these fields exist in the master assets or screen assets. [p1] confirmed that every asset type has two additional fields: a location level (`location_level`) and 2D map coordinates. However, currently, this data must be configured through the database for each instance.",
+  "decisions": [
+    "Add specific fields for malls (malls) to inventory management."
+  ],
+  "action_items": [
+    "[p1] needs to continue refining the JSON schema and integrating facility data into the inventory management system."
+  ]
+}

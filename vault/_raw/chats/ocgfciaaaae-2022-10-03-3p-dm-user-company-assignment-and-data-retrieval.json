@@ -1,0 +1,27 @@
+{
+  "chat_id": "oCgFCIAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2022-10-03",
+    "end": "2022-10-03"
+  },
+  "message_count": 27,
+  "topic": "User company assignment and data retrieval",
+  "topic_slug": "user-company-assignment-and-data-retrieval",
+  "tags": [
+    "analytics",
+    "inventory",
+    "campaign"
+  ],
+  "summary_markdown": "The conversation covered technical issues related to managing facility selections, including the need for synchronization across checkboxes, a map component, and packages. A major discussion point was the failure of new user accounts created in 'mods' to correctly link to a company, resulting in a default `company_id` of '00000000'. It was noted that this issue likely stems from a broken internal flow or event source.\n\nTo resolve data integrity issues and improve reliability, the plan discussed migrating away from reading data from MongoDB ('mongi') to writing directly into PostgreSQL (pg). The participants also addressed the need to ensure company records are properly linked in both the `user` and `person` tables. Finally, a request was made for a batch of queries needed for a new page that requires processing existing 'lidar' data using standard but modified metrics.",
+  "decisions": [
+    "The user agreed to create the necessary company record since there are few associated records.",
+    "A plan was discussed to migrate data reading away from MongoDB to direct writing/reading in PostgreSQL."
+  ],
+  "action_items": [
+    "[p1] will prepare and provide a batch of queries for the new page.",
+    "[me] will work on implementing the required queries, aiming for tomorrow morning."
+  ]
+}

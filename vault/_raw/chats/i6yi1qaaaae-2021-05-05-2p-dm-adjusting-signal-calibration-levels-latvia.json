@@ -1,0 +1,27 @@
+{
+  "chat_id": "i6YI1QAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 2,
+  "date_range": {
+    "start": "2021-05-05",
+    "end": "2021-05-05"
+  },
+  "message_count": 70,
+  "topic": "Adjusting signal calibration levels for Latvia",
+  "topic_slug": "adjusting-signal-calibration-levels-latvia",
+  "tags": [
+    "facility",
+    "campaign",
+    "analytics"
+  ],
+  "summary_markdown": "The discussion focused on modifying the `device_session_calibration_staging` data in PostgreSQL to adjust signal level limits for operations in Latvia. It was determined that setting values at the company level (`company_id`) is preferred over individual facility levels, although specific records needed deletion or modification (e.g., removing existing facility-specific entries while updating the general company record).\n\n*   **Data Structure:** The system uses unique identifiers for facilities and companies, with `facility_id` being derived from the URL when editing a facility.\n*   **Procedure:** Changes require direct SQL manipulation in PostgreSQL (e.g., `select * from device_session_calibration_staging where company_id = '[redacted]'`).\n*   **Calibration Logic:** The initial query structure was reviewed, noting that using only the company-level calibration might not correctly apply signal limits if individual facility records were present or required a different value.",
+  "decisions": [
+    "The preferred method for setting signal level limits across multiple locations in Latvia is at the company level (`company_id`).",
+    "Existing, conflicting facility-specific calibration records should be deleted or modified to ensure consistency with the new company-level settings."
+  ],
+  "action_items": [
+    "The user needs to execute SQL queries to update and delete specific entries in `device_session_calibration_staging`.",
+    "A final query was provided by someone to demonstrate how signal limits are extracted from calibration staging tables, which should be used for future analysis."
+  ]
+}

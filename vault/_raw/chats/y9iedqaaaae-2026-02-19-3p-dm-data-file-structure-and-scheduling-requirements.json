@@ -1,0 +1,24 @@
+{
+  "chat_id": "y9IEDQAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2026-02-19",
+    "end": "2026-02-19"
+  },
+  "message_count": 4,
+  "topic": "Data file structure and scheduling requirements",
+  "topic_slug": "data-file-structure-and-scheduling-requirements",
+  "tags": [
+    "analytics",
+    "inventory"
+  ],
+  "summary_markdown": "Someone (p1) provided feedback on data received from DateCorp. The primary modification requested is to consolidate all network data into a single file, rather than providing separate files for each network.\n\nRegarding the weekly job, it was confirmed that scheduling should occur every Monday due to the weekly structure of the data.\n\n[me] confirmed that grouping by network is possible and agreed to add a 'network' field. [me] committed to preparing and uploading the consolidated file today.",
+  "decisions": [
+    "Data must be provided in a single file for all networks."
+  ],
+  "action_items": [
+    "[me] will prepare and upload the consolidated data file today."
+  ]
+}

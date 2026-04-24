@@ -1,0 +1,23 @@
+{
+  "chat_id": "6ize28AAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2025-11-28",
+    "end": "2025-11-28"
+  },
+  "message_count": 9,
+  "topic": "Adding facility master number and deployment",
+  "topic_slug": "adding-facility-master-number-and-deployment",
+  "tags": [
+    "facility"
+  ],
+  "summary_markdown": "The conversation involved technical adjustments to a list of facilities. Specifically, [p1] requested the addition of a facility master number (45705) and an adjustment factor (default * 1.1). [me] confirmed that the comma was missing and subsequently added the required data. Later, [p1] instructed deployment to production.",
+  "decisions": [
+    "Facility master number 45705 and default * 1.1 were added/updated."
+  ],
+  "action_items": [
+    "Deploy changes to production environment."
+  ]
+}

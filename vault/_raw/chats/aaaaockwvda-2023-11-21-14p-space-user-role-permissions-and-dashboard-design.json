@@ -1,0 +1,22 @@
+{
+  "chat_id": "AAAAOcKWvdA",
+  "kind": "Space",
+  "space_name": "Delivery Coordination",
+  "participants": 14,
+  "date_range": {
+    "start": "2023-11-21",
+    "end": "2023-11-21"
+  },
+  "message_count": 13,
+  "topic": "User role permissions and dashboard design",
+  "topic_slug": "user-role-permissions-and-dashboard-design",
+  "tags": [
+    "analytics",
+    "session"
+  ],
+  "summary_markdown": "The discussion focused on user roles, specifically the 'Planner' role, and how it affects visibility of features like the Traffic Page.\n\n*   **Role Permissions:** It was confirmed that if a user has only the Planner role, all menus (including Traffic) are hidden. If they have multiple roles, all menus are visible. The system behavior should be consistent: either all menus are shown or none are shown.\n*   **Dashboard Design:** There is an acknowledgment of the need for a dynamic Home Screen that displays aggregated statistics based on the user's role. This was previously considered when developing mops but postponed.\n*   **Testing/Troubleshooting:** The conversation included troubleshooting instances where users (like 'Sergio') were seeing unexpected menu visibility, confirming that removing specific user attributes or roles could resolve discrepancies.",
+  "decisions": [
+    "The system should show all menus if the user has multiple roles; otherwise, they should be hidden."
+  ],
+  "action_items": []
+}

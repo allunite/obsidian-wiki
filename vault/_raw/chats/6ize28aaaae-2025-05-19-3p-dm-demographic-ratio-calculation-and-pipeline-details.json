@@ -1,0 +1,26 @@
+{
+  "chat_id": "6ize28AAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2025-05-19",
+    "end": "2025-05-19"
+  },
+  "message_count": 28,
+  "topic": "Demographic ratio calculation and pipeline details",
+  "topic_slug": "demographic-ratio-calculation-and-pipeline-details",
+  "tags": [
+    "analytics",
+    "facility",
+    "campaign",
+    "session"
+  ],
+  "summary_markdown": "The discussion covered how demographic ratios (gender, age) are calculated. It was confirmed that when multiple facilities are selected, the ratio is a weighted average based on traffic.\n\nRegarding data updates and pipelines:\n*   Demographic ratios are provided by the provider; some providers (like Docomo) use static percentages without dates.\n*   If new demographic data is unavailable for future periods, nothing will be displayed.\n*   The pipeline currently runs using previous day's UTC data. While shifting the time zone (e.g., to Japan time) is possible, it was noted that running the calculation more frequently might be better practice.\n*   For current day reporting before the pipeline runs, live data is shown, utilizing yesterday's coefficients by hour/facility for prediction.",
+  "decisions": [
+    "The demographic ratio across multiple facilities will be a weighted average based on traffic."
+  ],
+  "action_items": [
+    "Check Estonia city error in the SQL script (github.redacted) and monitor the roll-bar status."
+  ]
+}

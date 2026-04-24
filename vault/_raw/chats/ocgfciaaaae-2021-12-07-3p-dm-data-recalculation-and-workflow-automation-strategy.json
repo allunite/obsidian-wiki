@@ -1,0 +1,28 @@
+{
+  "chat_id": "oCgFCIAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2021-12-07",
+    "end": "2021-12-07"
+  },
+  "message_count": 80,
+  "topic": "Data recalculation and workflow automation strategy",
+  "topic_slug": "data-recalculation-and-workflow-automation-strategy",
+  "tags": [
+    "analytics",
+    "campaign",
+    "inventory",
+    "session",
+    "recalc-ch"
+  ],
+  "summary_markdown": "The discussion covered the technical steps required for data recalculation, specifically involving updating factors and running aggregation scripts. The process requires: 1) Inserting updated factors into `device_session_factor_3` (preferably in the evening). 2) Updating dictionaries in CH. 3) Running `device_session_agg_ml_sharded` for relevant dates using a specific script. 4) Running `device_session_agg_sharded_4` with `recalc_ch_agg`. It was noted that recalculation should be applied not only to dates but also to the corresponding `company_num`.\n\nA separate discussion focused on improving internal workflow management for tracking assets (sensors, etc.). The consensus was that building a traditional UI (Node.js + Angular) is overly complex and inefficient. Instead, the recommended approach involves leveraging no-code solutions or developing endpoints/APIs to integrate with existing tools like Google Sheets or Airtable, allowing data entry via import/export methods.",
+  "decisions": [
+    "Data recalculation steps were confirmed: update factors -> update CH dictionaries -> run aggregation scripts for dates and company_num -> run recalc_ch_agg."
+  ],
+  "action_items": [
+    "Someone needs to investigate no-code solutions or API integration methods (e.g., Google Sheets, Airtable) for the asset tracking workflow.",
+    "Review existing internal documentation/scripts to understand data storage and usage patterns."
+  ]
+}

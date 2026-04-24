@@ -1,0 +1,24 @@
+{
+  "chat_id": "AAAARP8w-KE",
+  "kind": "Space",
+  "space_name": "Problematic sensors",
+  "participants": 14,
+  "date_range": {
+    "start": "2024-04-26",
+    "end": "2024-04-26"
+  },
+  "message_count": 8,
+  "topic": "Sensor performance issues in Malaysia",
+  "topic_slug": "sensor-performance-issues-in-malaysia",
+  "tags": [
+    "analytics",
+    "facility"
+  ],
+  "summary_markdown": "A query was raised regarding a sensor's partial malfunction observed on April 17 and 22 in Malaysia. Another participant suggested the issue might be related to power supply problems, noting that no signal was received in RMC either. A third participant questioned if the sensors were switched off by SJ, which prompted further discussion about whether to request clarification.",
+  "decisions": [
+    "No concrete decisions were made regarding the sensor malfunction."
+  ],
+  "action_items": [
+    "Follow up on the sensor status/power supply issue."
+  ]
+}

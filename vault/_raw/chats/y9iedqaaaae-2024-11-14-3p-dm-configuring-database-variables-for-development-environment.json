@@ -1,0 +1,22 @@
+{
+  "chat_id": "y9IEDQAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2024-11-14",
+    "end": "2024-11-14"
+  },
+  "message_count": 15,
+  "topic": "Configuring database variables for development environment",
+  "topic_slug": "configuring-database-variables-for-development-environment",
+  "tags": [
+    "analytics",
+    "campaign"
+  ],
+  "summary_markdown": "The discussion focused on the scope and configuration of shared database variables (CH_URL & CH_DB). Initially, it was questioned whether these settings were only for development or if they could be made universal. It was clarified that while the environment variables are the same for mops and data-api, the `analytics_prod` database should not be used in a general way.\n\nIt was confirmed that the shared configuration applies to the application layer (mops and data-api) but not necessarily across all hosts. The current setup requires setting CH_URL & CH_DATABASE variables corresponding to fields in the clickhouse-client-js config, especially when transitioning to stage, beta, or prod environments where data-api will use a dedicated database.",
+  "decisions": [
+    "The shared configuration of environment variables applies to mops and data-api, not all hosts."
+  ],
+  "action_items": []
+}

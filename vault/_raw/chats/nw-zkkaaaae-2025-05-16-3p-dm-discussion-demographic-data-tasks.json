@@ -1,0 +1,24 @@
+{
+  "chat_id": "nW_zkkAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2025-05-16",
+    "end": "2025-05-16"
+  },
+  "message_count": 16,
+  "topic": "Discussion regarding demographic data and tasks",
+  "topic_slug": "discussion-demographic-data-tasks",
+  "tags": [
+    "analytics",
+    "campaign"
+  ],
+  "summary_markdown": "The conversation covered several project tasks, including one related to demographics (DOOH-1903) which was noted as potentially less urgent. Later, a new task/issue (DOOH-2068) was shared. Finally, someone requested a discussion regarding demographic data for the Provence area (PAR 7897).",
+  "decisions": [
+    "A meeting time needs to be scheduled to discuss demographics for Provence (PAR 7897)."
+  ],
+  "action_items": [
+    "[me] to confirm availability for a discussion on Provence demographics."
+  ]
+}

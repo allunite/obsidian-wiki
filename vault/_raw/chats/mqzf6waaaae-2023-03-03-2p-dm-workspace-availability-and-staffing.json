@@ -1,0 +1,21 @@
+{
+  "chat_id": "mQzF6wAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 2,
+  "date_range": {
+    "start": "2023-03-03",
+    "end": "2023-03-03"
+  },
+  "message_count": 12,
+  "topic": "Workspace availability and staffing",
+  "topic_slug": "workspace-availability-and-staffing",
+  "tags": [
+    "facility"
+  ],
+  "summary_markdown": "The discussion centered on the allocation of workspace resources. It was noted that there are now two 'double' workstations available in CS, allowing for additional personnel to be added to the roster. [me] suggested bringing in someone else if needed. The conversation concluded with a casual agreement regarding physical presence and flexibility.",
+  "decisions": [
+    "The availability of two double workstations in CS was confirmed."
+  ],
+  "action_items": []
+}

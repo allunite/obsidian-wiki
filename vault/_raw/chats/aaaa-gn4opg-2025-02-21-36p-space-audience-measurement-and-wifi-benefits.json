@@ -1,0 +1,19 @@
+{
+  "chat_id": "AAAA-gn4oPg",
+  "kind": "Space",
+  "space_name": "General and random",
+  "participants": 36,
+  "date_range": {
+    "start": "2025-02-21",
+    "end": "2025-02-21"
+  },
+  "message_count": 3,
+  "topic": "Audience measurement and Wi-Fi benefits",
+  "topic_slug": "audience-measurement-and-wifi-benefits",
+  "tags": [
+    "analytics"
+  ],
+  "summary_markdown": "A link was shared discussing the benefits of audience measurement and free Wi-Fi, referencing an article from RZK.",
+  "decisions": [],
+  "action_items": []
+}

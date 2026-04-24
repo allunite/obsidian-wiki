@@ -1,0 +1,22 @@
+{
+  "chat_id": "0m7UOUAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2024-09-09",
+    "end": "2024-09-09"
+  },
+  "message_count": 3,
+  "topic": "Data aggregation for virtual facilities",
+  "topic_slug": "data-aggregation-for-virtual-facilities",
+  "tags": [
+    "facility",
+    "analytics"
+  ],
+  "summary_markdown": "A data issue was identified regarding the generation of session aggregates for Ocean Outdoor Denmark. After removing an old set of virtual facilities (approx. 300) around August 15, 2024, the `device_session_agg_ml_2` table correctly generates ML predictions for an adequate number of facilities per day (15). However, the `device_session_agg_5` table is showing data and aggregates for excess/extra virtual facilities that should not be included. The goal is to prevent aggregate generation for these extra facilities if they are not present in the `facility_dict`.",
+  "decisions": [],
+  "action_items": [
+    "Investigate why `device_session_agg_5` generates aggregates for non-existent virtual facilities."
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "chat_id": "oCgFCIAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2024-11-04",
+    "end": "2024-11-04"
+  },
+  "message_count": 16,
+  "topic": "Migrating demographic calculations to unique area IDs",
+  "topic_slug": "migrating-demographic-calculations-to-unique-area-ids",
+  "tags": [
+    "analytics",
+    "campaign",
+    "facility",
+    "impression"
+  ],
+  "summary_markdown": "The discussion focused on migrating the demographic calculation logic from using old area IDs (based on country and code) to a more robust system utilizing unique, facility-specific area numbers (`demographic_area_num`).\n\nCurrently, calculations rely on views that use two keys: `country` + `area_code`. The proposed solution involves implementing changes in the aggregation view (`recalc_demography_area`) to switch from old IDs to the unique `demographic_area_num`, which can be retrieved using a dedicated dictionary or temporary view.\n\nThe primary challenge is updating the core aggregation script (e.g., `agg_demography_area.sql`), as this requires careful handling of naming conventions and potentially recalculating historical data, although it was noted that site-side reporting already uses facility-level aggregation (`device_demography_agg_filtered`).\n\nThe consensus is to proceed with the implementation in the aggregation layer.",
+  "decisions": [
+    "Implement changes to the core aggregation view (`recalc_demography_area`) to use unique area numbers instead of old IDs."
+  ],
+  "action_items": [
+    "[p1] will create a task for the implementation, which [me] agreed to take on when time permits."
+  ]
+}

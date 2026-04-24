@@ -1,0 +1,23 @@
+{
+  "chat_id": "AAAA1vdtku4",
+  "kind": "Space",
+  "space_name": "DataTeam+",
+  "participants": 14,
+  "date_range": {
+    "start": "2023-06-29",
+    "end": "2023-06-29"
+  },
+  "message_count": 6,
+  "topic": "Database access and permissions update",
+  "topic_slug": "database-access-and-permissions-update",
+  "tags": [
+    "analytics"
+  ],
+  "summary_markdown": "Someone announced an update to the space membership. Later, someone informed participants that they would be distributing full-rights credentials (usernames/passwords) for ClickHouse via private messages. Participants were asked to configure these credentials in their IDEs.",
+  "decisions": [
+    "Full-rights ClickHouse credentials will be distributed privately."
+  ],
+  "action_items": [
+    "Participants must update their IDEs with the new ClickHouse credentials."
+  ]
+}

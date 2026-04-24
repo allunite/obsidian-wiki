@@ -1,0 +1,31 @@
+{
+  "chat_id": "i6YI1QAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 2,
+  "date_range": {
+    "start": "2023-08-10",
+    "end": "2023-08-10"
+  },
+  "message_count": 136,
+  "topic": "Data processing and frequency calculation issues",
+  "topic_slug": "data-processing-and-frequency-calculation-issues",
+  "tags": [
+    "analytics",
+    "frame",
+    "campaign",
+    "recalc-ch"
+  ],
+  "summary_markdown": "The discussion covered several data pipeline issues. First, an error was identified in the traffic prediction job related to handling `NoneType` values when converting to float, requiring a check for nulls if the logic changes.\n\nRegarding facility processing, it was noted that Brazil's data might be predicted twice due to a factor of 1.0 being applied where it shouldn't be, suggesting a review of the prediction logic.\n\nA major discussion point involved frequency calculation (Frequencis) for São Paulo and Rio de Janeiro. It was observed that the frequency values were unusually high after 900 frames. The team agreed to re-examine how historical dates are captured in the recalculation process, noting that the current method might be incorrectly using yesterday's date.\n\nFinally, a data mapping issue concerning Gabon was addressed. A provided mapping file lacked `facility_num_virt` and contained non-matching names, leading to a decision to temporarily remove this data and request a revised mapping from the source (Marina).\n\nSeparately, the team confirmed the method for linking AllUnite's internal frame ID (`id_seq`) with user/mapa frame IDs within PostgreSQL.",
+  "decisions": [
+    "Implement checks for null values in the traffic prediction logic if any changes are made.",
+    "Review the prediction logic to prevent double-counting of Brazil data when `connected_facility_factor` equals 1.0.",
+    "Revisit the frequency calculation methodology, particularly concerning date handling and historical captures (e.g., ensuring correct period capture for recalculation).",
+    "Temporarily remove the problematic Gabon mapping data and request a corrected mapping from Marina."
+  ],
+  "action_items": [
+    "Review and adjust the traffic prediction script to handle null values gracefully.",
+    "Investigate the frequency calculation logic, especially regarding date ranges and historical period capture.",
+    "Wait for revised facility mapping data for Gabon."
+  ]
+}

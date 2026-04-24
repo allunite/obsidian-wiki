@@ -1,0 +1,23 @@
+{
+  "chat_id": "AAAAOcKWvdA",
+  "kind": "Space",
+  "space_name": "Delivery Coordination",
+  "participants": 14,
+  "date_range": {
+    "start": "2024-06-13",
+    "end": "2024-06-13"
+  },
+  "message_count": 4,
+  "topic": "Campaign report data and formatting ownership",
+  "topic_slug": "campaign-report-data-and-formatting-ownership",
+  "tags": [
+    "analytics",
+    "campaign"
+  ],
+  "summary_markdown": "The conversation addressed who is responsible for campaign reporting updates. [p11] stated that they have received several points from someone regarding necessary report updates and are preparing to pass this information along.\n\n[p6] clarified the division of labor: data questions should be directed to Alexey, while formatting issues (like changing line colors on graphs) should be addressed to [p6].",
+  "decisions": [
+    "Data questions for campaign reports go to Alexey.",
+    "Formatting changes for campaign reports go to [p6]."
+  ],
+  "action_items": []
+}

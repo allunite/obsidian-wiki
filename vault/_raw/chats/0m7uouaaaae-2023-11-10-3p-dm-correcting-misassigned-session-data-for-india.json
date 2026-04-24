@@ -1,0 +1,26 @@
+{
+  "chat_id": "0m7UOUAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2023-11-10",
+    "end": "2023-11-10"
+  },
+  "message_count": 19,
+  "topic": "Correcting misassigned session data for India",
+  "topic_slug": "correcting-misassigned-session-data-for-india",
+  "tags": [
+    "analytics",
+    "facility",
+    "campaign"
+  ],
+  "summary_markdown": "The discussion focused on correcting historical session data in the Indian market due to an operational error where two sensors had their MAC addresses swapped. Specifically, sessions recorded for `box_mac='20972704cc39'` were incorrectly assigned to `facility_num=26993` when they should belong to `facility_num=26992`. The necessary data migration involves moving these specific sessions back to the correct facility number.\n\nSeparately, a calibration issue was discussed: initial queries showed that session calibration seemed to default to a general level across all facilities, even when specific facility calibrations were set. It was clarified that incorrect records had been added by someone who included an unnecessary 'category' field for facility-level calibrations. The correct hierarchy for defining calibration levels (facility, company category, company, default) was reiterated.",
+  "decisions": [
+    "The SQL script `session_recalibration.sql` can be run to recalibrate sessions.",
+    "Changes to the staging table (`device_session_calibration_staging`) are also recommended and will be implemented."
+  ],
+  "action_items": [
+    "Correctly migrate session records from `box_mac='20972704cc39'` (currently assigned to facility 26993) back to `facility_num=26992` for the date range around October 24, 2023."
+  ]
+}

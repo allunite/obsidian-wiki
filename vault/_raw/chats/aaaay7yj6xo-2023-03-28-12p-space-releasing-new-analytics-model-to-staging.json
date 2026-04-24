@@ -1,0 +1,24 @@
+{
+  "chat_id": "AAAAy7Yj6Xo",
+  "kind": "Space",
+  "space_name": "IT",
+  "participants": 12,
+  "date_range": {
+    "start": "2023-03-28",
+    "end": "2023-03-28"
+  },
+  "message_count": 10,
+  "topic": "Releasing new analytics model to staging",
+  "topic_slug": "releasing-new-analytics-model-to-staging",
+  "tags": [
+    "analytics",
+    "facility"
+  ],
+  "summary_markdown": "The discussion focused on the release timing of a new frequency average model for Spain, specifically related to an 'Average Number of screen seen' metric. Someone confirmed that this was the correct metric in question. The individual who manages deployments stated they would deploy the new version with the Average Number of screen seen tile enabled to staging within an hour due to urgent requests. This deployment was subsequently completed.",
+  "decisions": [
+    "The 'Average Number of screen seen' metric will be deployed to staging."
+  ],
+  "action_items": [
+    "None"
+  ]
+}

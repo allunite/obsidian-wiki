@@ -1,0 +1,26 @@
+{
+  "chat_id": "AAAAOcKWvdA",
+  "kind": "Space",
+  "space_name": "Delivery Coordination",
+  "participants": 14,
+  "date_range": {
+    "start": "2025-01-09",
+    "end": "2025-01-09"
+  },
+  "message_count": 18,
+  "topic": "Deployment status and required checks",
+  "topic_slug": "deployment-status-and-required-checks",
+  "tags": [
+    "analytics",
+    "campaign",
+    "impression"
+  ],
+  "summary_markdown": "The team discussed the readiness for a release/deployment. Initial concerns included incorrect display of granularity names, which were addressed.\n\n*   **Status:** Multiple participants confirmed their tasks were ready for review and deployment.\n*   **Deployment Action:** A deployment was executed after coordination among participants.\n*   **Post-Deployment Check:** Someone reminded the team to check for any functionality that was only enabled on staging and needs to be activated on production.\n*   **Data Confirmation:** [me] confirmed that the Finnish demographic data from Ramboll is currently active on production, although it is not yet complete.",
+  "decisions": [
+    "A deployment was successfully executed.",
+    "The team must verify all staging-only functionalities are enabled in production."
+  ],
+  "action_items": [
+    "Confirm the completeness of Finnish demographic data from Ramboll."
+  ]
+}

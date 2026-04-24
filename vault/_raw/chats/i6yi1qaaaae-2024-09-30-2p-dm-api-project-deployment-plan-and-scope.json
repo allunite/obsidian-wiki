@@ -1,0 +1,24 @@
+{
+  "chat_id": "i6YI1QAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 2,
+  "date_range": {
+    "start": "2024-09-30",
+    "end": "2024-09-30"
+  },
+  "message_count": 4,
+  "topic": "API project deployment plan and scope",
+  "topic_slug": "api-project-deployment-plan-and-scope",
+  "tags": [
+    "analytics"
+  ],
+  "summary_markdown": "The API project faced delays due to necessary refactoring, requiring the integration of a data-api into the main analytics project to prevent code duplication. The final stage is nearing completion.\n\n[me] plans to deploy a version to staging tomorrow (pending assistance from someone).\n[p1] suggested deploying an initial version without demographic data to simplify the rollout.",
+  "decisions": [
+    "The API project will be deployed to staging tomorrow.",
+    "The initial deployment scope will exclude demographic data."
+  ],
+  "action_items": [
+    "Someone needs to ensure the staging environment is ready for deployment."
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "chat_id": "6ize28AAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2025-10-29",
+    "end": "2025-10-29"
+  },
+  "message_count": 4,
+  "topic": "Rescheduling discussion on cluster frequency",
+  "topic_slug": "rescheduling-discussion-on-cluster-frequency",
+  "tags": [
+    "analytics"
+  ],
+  "summary_markdown": "A discussion was initiated regarding the need to review 'cluster frequency' data, as its current performance did not meet expectations. The meeting time was rescheduled from the day of the chat to the following day.",
+  "decisions": [
+    "The discussion on cluster frequency is postponed until tomorrow."
+  ],
+  "action_items": []
+}

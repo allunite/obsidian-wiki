@@ -1,0 +1,19 @@
+{
+  "chat_id": "i6YI1QAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 2,
+  "date_range": {
+    "start": "2024-01-08",
+    "end": "2024-01-08"
+  },
+  "message_count": 5,
+  "topic": "Reviewing traffic data for Brazil",
+  "topic_slug": "reviewing-traffic-data-for-brazil",
+  "tags": [
+    "analytics"
+  ],
+  "summary_markdown": "The conversation briefly discussed high nighttime traffic observed in Brazil, with [p1] suggesting the source might be related to a specific individual.",
+  "decisions": [],
+  "action_items": []
+}

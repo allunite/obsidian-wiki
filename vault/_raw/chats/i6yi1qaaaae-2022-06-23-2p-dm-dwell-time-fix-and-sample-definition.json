@@ -1,0 +1,28 @@
+{
+  "chat_id": "i6YI1QAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 2,
+  "date_range": {
+    "start": "2022-06-23",
+    "end": "2022-06-23"
+  },
+  "message_count": 38,
+  "topic": "Dwell time fix and sample definition",
+  "topic_slug": "dwell-time-fix-and-sample-definition",
+  "tags": [
+    "dwell-time",
+    "analytics",
+    "campaign",
+    "impression"
+  ],
+  "summary_markdown": "The discussion focused on proposed fixes and definitions related to dwell time analysis and the sample used for calculations.\n\n*   **Dwell Time Fix:** A feature was discussed that would allow excluding specific vendors based purely on dwell time. It was noted that if this fix is implemented, it should be toggleable (like the sample definition).\n*   **Sample Definition:** The current sample calculation uses a selection of mobile phone vendors and devices, aiming to minimize the influence of industrial/enterprise equipment by focusing on brands primarily in the consumer market.\n*   **Dwell Time Impact:** It was confirmed that the dwell time should not change after the fix is implemented. If historical data needs re-aggregation, the feature must be disabled for past periods to prevent changes in dwell time.",
+  "decisions": [
+    "The dwell time fix will be implemented as a toggleable feature.",
+    "Dwell time will not change following the implementation of the fix."
+  ],
+  "action_items": [
+    "Schedule a call to finalize and agree upon the details regarding dwell time.",
+    "Draft an AFA (After Fix Analysis) document for review."
+  ]
+}

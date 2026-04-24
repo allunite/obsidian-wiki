@@ -1,0 +1,19 @@
+{
+  "chat_id": "nW_zkkAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2024-09-19",
+    "end": "2024-09-19"
+  },
+  "message_count": 3,
+  "topic": "Scheduling a meeting",
+  "topic_slug": "scheduling-a-meeting",
+  "tags": [],
+  "summary_markdown": "The participants exchanged greetings and scheduled a follow-up meeting for the next morning.",
+  "decisions": [
+    "A meeting was tentatively scheduled for the following morning."
+  ],
+  "action_items": []
+}

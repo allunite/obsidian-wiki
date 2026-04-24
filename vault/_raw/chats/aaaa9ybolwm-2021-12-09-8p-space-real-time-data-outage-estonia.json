@@ -1,0 +1,21 @@
+{
+  "chat_id": "AAAA9ybOLwM",
+  "kind": "Space",
+  "space_name": "ИТ",
+  "participants": 8,
+  "date_range": {
+    "start": "2021-12-09",
+    "end": "2021-12-09"
+  },
+  "message_count": 5,
+  "topic": "Real-time data outage in Estonia",
+  "topic_slug": "real-time-data-outage-estonia",
+  "tags": [
+    "analytics"
+  ],
+  "summary_markdown": "A discussion regarding a real-time data failure observed across three loaders in Estonia. The issue was noted to have lasted approximately 45 minutes. Participants are currently monitoring the system to confirm if the queue has cleared and if normal data flow has resumed.",
+  "decisions": [],
+  "action_items": [
+    "Monitor system status to ensure full recovery of real-time data feed."
+  ]
+}

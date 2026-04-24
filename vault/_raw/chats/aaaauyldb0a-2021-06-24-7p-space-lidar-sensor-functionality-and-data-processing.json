@@ -1,0 +1,24 @@
+{
+  "chat_id": "AAAAuyldb0A",
+  "kind": "Space",
+  "space_name": "Lidar development",
+  "participants": 7,
+  "date_range": {
+    "start": "2021-06-24",
+    "end": "2021-06-24"
+  },
+  "message_count": 21,
+  "topic": "Lidar sensor functionality and data processing",
+  "topic_slug": "lidar-sensor-functionality-and-data-processing",
+  "tags": [
+    "analytics",
+    "inventory"
+  ],
+  "summary_markdown": "The discussion covered technical aspects related to Lidar sensors. Specifically, it was raised that the team needs to confirm with slamtech if the RPLidar S1 can operate continuously and determine its operational lifespan.\n\nRegarding data processing, a method was proposed for counting cars by direction of movement. This involves using boundary boxes, suggesting separate counts for left-to-right and right-to-left movements, which would allow each box to be split into multiple lanes based on the determined direction.\n\nFinally, an alternative hardware setup was considered in case rotating Lidar sensors fail, recommending setting up two units.",
+  "decisions": [
+    "Confirm continuous operation time of RPLidar S1 with slamtech."
+  ],
+  "action_items": [
+    "Ask slamtech about the continuous working time and limitations of the RPLidar S1."
+  ]
+}

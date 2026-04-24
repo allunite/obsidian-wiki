@@ -1,0 +1,30 @@
+{
+  "chat_id": "AAAAud4RJ_I",
+  "kind": "Space",
+  "space_name": "Group Chat",
+  "participants": 4,
+  "date_range": {
+    "start": "2024-03-27",
+    "end": "2024-03-27"
+  },
+  "message_count": 127,
+  "topic": "Optimizing data deletion and insertion processes",
+  "topic_slug": "optimizing-data-deletion-and-insertion-processes",
+  "tags": [
+    "analytics",
+    "campaign",
+    "inventory",
+    "session",
+    "delete"
+  ],
+  "summary_markdown": "The discussion focused on optimizing data deletion and insertion processes for the `device_session_agg_ml_2_sharded` table, specifically addressing performance bottlenecks related to background merges.\n\n**Deletion Optimization:**\n*   Initial attempts to delete historical data were inefficient due to full scans. The team determined that using specific partition keys (e.g., combining date and `agg_period='H'`) significantly improves query efficiency by limiting the scope of deletion to relevant parts/partitions.\n*   The initial plan for deleting records across all companies was deemed too risky, leading to a refined approach focusing on targeted deletions per company/category pair.\n\n**Insertion Optimization:**\n*   A major performance issue was identified: small, synchronous inserts (one row at a time) generated excessive parts that overloaded the background merge process. This bottleneck prevented timely execution of deletion jobs.\n*   The solution proposed was to modify the data loading script to use asynchronous batch inserts (`async_insert`) with increased timeouts, allowing multiple rows/models to be inserted in fewer, larger transactions.\n\n**Final Fixes:**\n*   Temporary issues related to partner company deletions were resolved by reverting the deletion logic for these specific entities. The final code changes were merged and scheduled for deployment to both Staging and Production environments.",
+  "decisions": [
+    "The data loading script will be updated to use asynchronous batch inserts with increased timeouts to prevent background merge bottlenecks.",
+    "Deletion queries must utilize precise partition keys (e.g., `agg_period='H'`) to ensure targeted deletion and avoid full table scans.",
+    "The fix for partner company deletions was implemented, reverting the removal of these entities from the cleanup logic."
+  ],
+  "action_items": [
+    "Merge the final code changes (including async inserts and refined delete logic) into both Staging and Production environments.",
+    "Monitor the production database to ensure the deletion/cleanup process does not recur."
+  ]
+}

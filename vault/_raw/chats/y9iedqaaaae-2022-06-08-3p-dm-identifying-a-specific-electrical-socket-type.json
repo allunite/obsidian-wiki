@@ -1,0 +1,17 @@
+{
+  "chat_id": "y9IEDQAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2022-06-08",
+    "end": "2022-06-08"
+  },
+  "message_count": 14,
+  "topic": "Identifying a specific electrical socket type",
+  "topic_slug": "identifying-a-specific-electrical-socket-type",
+  "tags": [],
+  "summary_markdown": "The conversation focused on identifying an unknown wall socket. It was determined to be a British telephone socket, which is also used in Israel.",
+  "decisions": [],
+  "action_items": []
+}

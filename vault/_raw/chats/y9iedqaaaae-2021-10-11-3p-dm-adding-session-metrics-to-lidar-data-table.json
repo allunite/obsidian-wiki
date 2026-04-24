@@ -1,0 +1,26 @@
+{
+  "chat_id": "y9IEDQAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2021-10-11",
+    "end": "2021-10-11"
+  },
+  "message_count": 31,
+  "topic": "Adding session metrics to lidar data table",
+  "topic_slug": "adding-session-metrics-to-lidar-data-table",
+  "tags": [
+    "analytics",
+    "inventory",
+    "loop"
+  ],
+  "summary_markdown": "The discussion focused on enhancing the existing 3D lidar data table with specific session metrics. The following fields were agreed upon for inclusion:\n\n*   `area_session_start`: To capture the starting area of a session.\n*   `area_session_duration`: To capture the duration of a session.\n*   Vector representation: For movement vectors, it was decided to include `entry_delta_x`, `entry_delta_y`, `exit_delta_x`, and `exit_delta_y` (all Float64). This vector represents the difference between two past points divided by the time difference.\n\nThe data structure proposed by [me] for these fields was accepted.",
+  "decisions": [
+    "Add `area_session_start` and `area_session_duration` to the 3D lidar data table.",
+    "Include four Float64 fields (`entry_delta_x`, `entry_delta_y`, `exit_delta_x`, `exit_delta_y`) representing movement vectors in the table."
+  ],
+  "action_items": [
+    "[me] to update the 3D lidar data table with the specified session metrics and vector fields."
+  ]
+}

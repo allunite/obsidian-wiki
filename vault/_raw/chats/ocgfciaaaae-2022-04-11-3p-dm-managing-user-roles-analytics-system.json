@@ -1,0 +1,23 @@
+{
+  "chat_id": "oCgFCIAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2022-04-11",
+    "end": "2022-04-11"
+  },
+  "message_count": 6,
+  "topic": "Managing user roles in analytics system",
+  "topic_slug": "managing-user-roles-analytics-system",
+  "tags": [
+    "analytics"
+  ],
+  "summary_markdown": "A discussion occurred regarding the management of user roles and IDs within the analytics system. Someone questioned whether existing role IDs, potentially originating from an older MongoDB setup, needed to be managed when adding new roles for improved data visibility (specifically mentioning a future merge). [me] advised that the old IDs were not a concern, suggesting instead that someone simply create a new role and input it into PostgreSQL (pg).",
+  "decisions": [
+    "The existing MongoDB-based user role IDs do not need to be managed when adding new roles."
+  ],
+  "action_items": [
+    "Create the necessary new roles and implement them in PostgreSQL (pg)."
+  ]
+}

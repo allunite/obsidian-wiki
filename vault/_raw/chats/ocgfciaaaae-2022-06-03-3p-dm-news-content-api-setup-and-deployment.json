@@ -1,0 +1,26 @@
+{
+  "chat_id": "oCgFCIAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2022-06-03",
+    "end": "2022-06-03"
+  },
+  "message_count": 11,
+  "topic": "News content API setup and deployment",
+  "topic_slug": "news-content-api-setup-and-deployment",
+  "tags": [
+    "analytics",
+    "inventory"
+  ],
+  "summary_markdown": "The discussion focused on configuring the news content API. [p1] provided two endpoints: one for live data (`/api/news?populate=image`) and another for staging/preview data (`/api/news?publicationState=preview`). \n\nIt was noted that managing impression parameters through a database is inconvenient, and an UI solution would be preferred. [me] stated they would work on the inventory management portion that day.\n\nRegarding deployment, [p1] agreed to start implementing the news content API while [me] would finalize any remaining issues, with the understanding that someone else (Tole) would handle the final deployment.",
+  "decisions": [
+    "The live news content API endpoint requires `populate=image` for correct functionality.",
+    "A staging/preview endpoint exists for unpublished news content: `/api/news?publicationState=preview`."
+  ],
+  "action_items": [
+    "[p1] will start implementing the news content API.",
+    "[me] will finalize remaining issues (inventory management)."
+  ]
+}

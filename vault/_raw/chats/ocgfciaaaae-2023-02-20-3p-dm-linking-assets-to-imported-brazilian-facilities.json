@@ -1,0 +1,26 @@
+{
+  "chat_id": "oCgFCIAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2023-02-20",
+    "end": "2023-02-20"
+  },
+  "message_count": 16,
+  "topic": "Linking assets to imported Brazilian facilities",
+  "topic_slug": "linking-assets-to-imported-brazilian-facilities",
+  "tags": [
+    "facility",
+    "inventory",
+    "frame",
+    "analytics"
+  ],
+  "summary_markdown": "The discussion focused on the process of linking existing internal advertising boxes (45 units currently operating in Brazil) to imported Brazilian facilities. Previously, this task was postponed during the initial import phase.\n\nCurrently, someone created a company and facility for these locations. The goal is to enrich these newly created entities using the imported Brazilian data, rather than the reverse process.\n\nThe plan involves transferring assets and frames onto the existing facilities, guided by a 'mac box' identifier specified in a sheet. While this seems straightforward initially, careful planning must account for potential re-imports to ensure data integrity and maintain connections.",
+  "decisions": [
+    "Assets and frames will be transferred/linked to existing Brazilian facilities using the mac box identifier."
+  ],
+  "action_items": [
+    "Ensure all necessary re-import processes are planned to maintain data connection and integrity."
+  ]
+}

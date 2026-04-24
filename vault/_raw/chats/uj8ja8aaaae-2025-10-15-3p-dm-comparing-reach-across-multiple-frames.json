@@ -1,0 +1,25 @@
+{
+  "chat_id": "uJ8JA8AAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2025-10-15",
+    "end": "2025-10-15"
+  },
+  "message_count": 26,
+  "topic": "Comparing reach across multiple frames",
+  "topic_slug": "comparing-reach-across-multiple-frames",
+  "tags": [
+    "analytics",
+    "frame",
+    "campaign"
+  ],
+  "summary_markdown": "The discussion covered two main topics: the display of default demographics and calculating combined reach for multiple frames. Initially, [p1] questioned why default demographics were displayed on a project lacking defined demographics or campaigns. It was confirmed that the system uses default demographics based on 'areas of living' (AOL). Later, regarding frame data, [p1] sought clarification on how to calculate combined reach when multiple frames from one facility are selected. The current logic appears to use `max_va` across all selected frames within a single facility, rather than simply averaging or calculating the sum. The goal is ensuring that adding new frames does not decrease the overall calculated reach.",
+  "decisions": [
+    "The system uses default demographics based on 'areas of living' (AOL) when specific campaign data is missing."
+  ],
+  "action_items": [
+    "[me] updated the totals section in the analytics report on the staging environment for review."
+  ]
+}

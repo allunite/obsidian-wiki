@@ -1,0 +1,24 @@
+{
+  "chat_id": "oCgFCIAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2024-03-01",
+    "end": "2024-03-01"
+  },
+  "message_count": 15,
+  "topic": "Updating frame status logic and data",
+  "topic_slug": "updating-frame-status-logic-and-data",
+  "tags": [
+    "frame",
+    "analytics"
+  ],
+  "summary_markdown": "The conversation focused on debugging a SQL query designed to find active frames. Initially, the query used `fs.is_frame_active` which was questioned and found to be incorrect or misleading based on the database structure.\n\n**Key Decisions/Updates:**\n*   A review of the `frame_status` table revealed that the status logic was incorrectly populated in the database.\n*   The agreed-upon active statuses were confirmed, excluding specific states like 'Demolished' (removed locations), 'Suspended' (long-term suspension), and 'Declined by AU'/'Declined by 3P'.\n*   `[p1]` provided a list of the intended status meanings: **Active** (default/normal), **Demolished**, **Suspended**, **Declined by AU**, and **Declined by 3P**. The goal was to correct the underlying data population for these statuses.",
+  "decisions": [
+    "The logic for determining active frame statuses needs correction in the database."
+  ],
+  "action_items": [
+    "Update the `frame_status` table records to accurately reflect active/inactive status definitions."
+  ]
+}

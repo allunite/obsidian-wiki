@@ -1,0 +1,21 @@
+{
+  "chat_id": "AAAAranh248",
+  "kind": "Space",
+  "space_name": "Group Chat",
+  "participants": 4,
+  "date_range": {
+    "start": "2023-01-30",
+    "end": "2023-01-30"
+  },
+  "message_count": 7,
+  "topic": "Sharing user behavior data and links",
+  "topic_slug": "sharing-user-behavior-data-and-links",
+  "tags": [
+    "analytics"
+  ],
+  "summary_markdown": "The conversation involved sharing several internal resources and documentation related to facility locations. Specifically, links were provided for 'bus shelter' and 'city' within the AllUnite Atlassian instance. Later, a spreadsheet was shared containing examples of non-standard user behavior patterns, noting that two examples represented classic permanents and one example was deemed acceptable.",
+  "decisions": [],
+  "action_items": [
+    "Review the shared spreadsheet for unusual user behavior examples."
+  ]
+}

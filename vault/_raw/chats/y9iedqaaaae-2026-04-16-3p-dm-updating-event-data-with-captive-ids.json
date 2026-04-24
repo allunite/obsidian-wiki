@@ -1,0 +1,26 @@
+{
+  "chat_id": "y9IEDQAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2026-04-16",
+    "end": "2026-04-16"
+  },
+  "message_count": 28,
+  "topic": "Updating event data with captive IDs",
+  "topic_slug": "updating-event-data-with-captive-ids",
+  "tags": [
+    "analytics",
+    "impression",
+    "campaign"
+  ],
+  "summary_markdown": "The discussion focused on enhancing the tracking of user events by linking `box_mac` (or `facility_id`) to a `captive_id`. Initially, it was confirmed that while the ClickHouse table lacks a dedicated `captive_id` column, the existing `box_mac` field is suitable for this mapping.\n\nLater, a detailed multi-step plan was reviewed and approved for migrating historical event data from Brazil (estimated 200GB). This process involves:\n1. Creating a temporary temporal mapping table (`_tmp_box_captive_mapping`) in ClickHouse to store the relationship between `box_mac`, `captive_id`, and time validity ranges.\n2. Populating this mapping using data from PostgreSQL session tables.\n3. Running a mutation (update) on the main event table (`captive_user_event_sharded`) to backfill missing `captive_id` values for historical records, utilizing the temporal mapping.\n\nThe plan was deemed technically sound and executable, with minor adjustments suggested regarding the use of local MergeTree engines instead of replicated ones.",
+  "decisions": [
+    "A multi-step process involving a temporary mapping table and mutation will be used to backfill missing captive IDs in historical event data.",
+    "The plan for migrating 200GB of Brazilian event history was approved."
+  ],
+  "action_items": [
+    "Execute the proposed ClickHouse mutation steps to update `captive_user_event_sharded` with captive IDs."
+  ]
+}

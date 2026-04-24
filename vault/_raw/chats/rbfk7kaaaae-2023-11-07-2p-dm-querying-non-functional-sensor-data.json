@@ -1,0 +1,22 @@
+{
+  "chat_id": "rBfK7kAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 2,
+  "date_range": {
+    "start": "2023-11-07",
+    "end": "2023-11-07"
+  },
+  "message_count": 8,
+  "topic": "Querying non-functional sensor data",
+  "topic_slug": "querying-non-functional-sensor-data",
+  "tags": [
+    "analytics",
+    "session"
+  ],
+  "summary_markdown": "The conversation focused on retrieving historical data for sensors that were not operational. [me] provided a SQL query to check the `device_session_concept` table, specifically looking at sessions where `is_fake = 1` and the session started within the last day. This flag indicates predicted or simulated data rather than actual recorded sensor activity.",
+  "decisions": [],
+  "action_items": [
+    "Use provided SQL query to check for fake/predicted device sessions."
+  ]
+}

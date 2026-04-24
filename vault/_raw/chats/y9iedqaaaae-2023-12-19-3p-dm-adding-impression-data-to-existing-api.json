@@ -1,0 +1,27 @@
+{
+  "chat_id": "y9IEDQAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2023-12-19",
+    "end": "2023-12-19"
+  },
+  "message_count": 20,
+  "topic": "Adding impression data to existing API",
+  "topic_slug": "adding-impression-data-to-existing-api",
+  "tags": [
+    "analytics",
+    "impression",
+    "campaign",
+    "inventory"
+  ],
+  "summary_markdown": "The discussion centered on developing an API endpoint to include impression data alongside existing metrics. Initially, it was unclear if the requirement was for a separate API or an addition to the current system. [me] confirmed that adding impressions to the existing structure could be completed by the end of the week, but noted dependency on another team member (Свята). [p1] suggested confirming a delivery date of early next week. Despite initial concerns about timelines and ownership, [me] stated they would develop the feature over the weekend if necessary and plan to discuss it with the relevant person on Monday.\n\nLater, there was a brief mention of an ongoing issue regarding frequency data.",
+  "decisions": [
+    "The API will be updated to include impression metrics.",
+    "[me] committed to developing the impression addition by the end of the week or over the weekend if necessary."
+  ],
+  "action_items": [
+    "[me] to discuss the implementation details with the relevant person on Monday."
+  ]
+}

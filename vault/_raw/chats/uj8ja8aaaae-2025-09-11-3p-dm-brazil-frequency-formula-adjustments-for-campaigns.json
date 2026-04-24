@@ -1,0 +1,25 @@
+{
+  "chat_id": "uJ8JA8AAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2025-09-11",
+    "end": "2025-09-11"
+  },
+  "message_count": 37,
+  "topic": "Brazil frequency formula adjustments for campaigns",
+  "topic_slug": "brazil-frequency-formula-adjustments-for-campaigns",
+  "tags": [
+    "analytics",
+    "campaign",
+    "loop"
+  ],
+  "summary_markdown": "The conversation focused on discrepancies found in the production and staging analytics dashboards, particularly regarding campaign metrics. It was noted that while general dashboard units should match between stage and prod, frequency calculations for Brazil require specific handling.\n\nInitially, the user temporarily disabled the `ml-api` to stabilize data visibility across both environments. The core issue revolved around implementing a separate, dedicated frequency formula for campaigns in certain Brazilian locations (specifically 7887/Porto Alegre).\n\nIt was confirmed that different formulas are required for units in Latin America (Latam) and this variation is correct. A specific action item was set to create an additional campaign-level formula for `company_num = 7887` (Clear Channel Brazil) in the city of Porto Alegre.",
+  "decisions": [
+    "The frequency calculation for campaigns in Porto Alegre (7887, Clear Channel Brazil) requires a dedicated, separate formula."
+  ],
+  "action_items": [
+    "Implement and test the new campaign-level frequency formula for 7887/Porto Alegre."
+  ]
+}

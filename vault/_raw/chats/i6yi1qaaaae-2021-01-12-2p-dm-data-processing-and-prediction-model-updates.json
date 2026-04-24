@@ -1,0 +1,27 @@
+{
+  "chat_id": "i6YI1QAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 2,
+  "date_range": {
+    "start": "2021-01-12",
+    "end": "2021-01-12"
+  },
+  "message_count": 65,
+  "topic": "Data processing and prediction model updates",
+  "topic_slug": "data-processing-and-prediction-model-updates",
+  "tags": [
+    "analytics",
+    "campaign",
+    "inventory",
+    "loop"
+  ],
+  "summary_markdown": "The discussion covered the necessity of running predictive models for all locations, not just those with manual data. It was agreed that all sites should be processed through the model to ensure complete dashboard data.\n\nRegarding data ingestion and processing, it was established that: \n*   The primary table used is `device_session_agg_4`.\n*   When updating historical or adding new company data (e.g., for Malls), a full recalculation of the history is an option, but cleaning and overwriting only the specific category's data in the `_ml` table is preferred if it minimizes effort.\n\nThe conversation concluded with troubleshooting database query performance issues related to sending multiple large queries over time.",
+  "decisions": [
+    "All locations should be processed through the predictive model, regardless of manual data availability.",
+    "When updating specific categories (like Malls), cleaning and overwriting only that category's data in the `_ml` table is the preferred method for efficiency."
+  ],
+  "action_items": [
+    "Follow up with 'Sanya' regarding sites lacking predictive model data."
+  ]
+}

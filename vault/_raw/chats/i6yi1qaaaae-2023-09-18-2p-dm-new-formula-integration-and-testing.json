@@ -1,0 +1,25 @@
+{
+  "chat_id": "i6YI1QAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 2,
+  "date_range": {
+    "start": "2023-09-18",
+    "end": "2023-09-18"
+  },
+  "message_count": 9,
+  "topic": "New formula integration and testing",
+  "topic_slug": "new-formula-integration-and-testing",
+  "tags": [
+    "campaign",
+    "analytics",
+    "facility"
+  ],
+  "summary_markdown": "The discussion centered on the implementation of a new formula (attributed to Vlada). It was confirmed that the new formula will be released simultaneously with other updates. A key decision point was established: it is better to adjust existing processes using the new formula rather than having to roll back changes.\n\nRegarding current analytics, [me] noted that the new formula has not yet been integrated into the campaign tracking dashboard. Therefore, users should only refer to the traffic dashboard for current data.",
+  "decisions": [
+    "The new formula will be released simultaneously with other updates."
+  ],
+  "action_items": [
+    "[me] needs to check and integrate the new formula into the campaign tracking dashboard."
+  ]
+}

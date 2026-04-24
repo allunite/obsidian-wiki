@@ -1,0 +1,25 @@
+{
+  "chat_id": "oCgFCIAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2021-12-03",
+    "end": "2021-12-03"
+  },
+  "message_count": 26,
+  "topic": "Debugging mops build errors and dependencies",
+  "topic_slug": "debugging-mops-build-errors-and-dependencies",
+  "tags": [
+    "analytics",
+    "campaign",
+    "inventory"
+  ],
+  "summary_markdown": "The conversation focused on resolving a recurring compilation error when building 'mops' (a system component). The initial error was an `NGCC failed` exception, suggesting version incompatibility issues with Angular and Node.js dependencies.\n\nSeveral versions of tools were tested, including different Node.js versions (v12.x, v14.x) and various Angular CLI/Angular package versions (e.g., 10.2.0, 11.2.3). The core issue was determined to be related to the specific versions of development tools required for compilation.\n\nUltimately, the error was resolved when reverting a file change detected by `git status` while changing tool versions, allowing the build process to complete successfully.",
+  "decisions": [
+    "The Angular project dependencies were adjusted and downgraded/upgraded to resolve the build failure."
+  ],
+  "action_items": [
+    "None"
+  ]
+}

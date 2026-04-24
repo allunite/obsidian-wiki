@@ -1,0 +1,25 @@
+{
+  "chat_id": "oq-w0kAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2023-08-30",
+    "end": "2023-08-30"
+  },
+  "message_count": 21,
+  "topic": "Debugging inventory data export failure",
+  "topic_slug": "debugging-inventory-data-export-failure",
+  "tags": [
+    "analytics",
+    "inventory",
+    "frame"
+  ],
+  "summary_markdown": "The discussion covered two separate technical issues. First, a query regarding the `total-traffic` endpoint showed consistent frequency values across multiple campaigns for the same location and frame count, leading to questions about data accuracy.\n\nThe second issue involved an endpoint (`/api/inventory/facilities-frames`) designed for exporting inventory data in Excel format. While this endpoint works correctly when accessed paginated on staging (using `https://staging-analytics.allunite.com/inventory/frames`), attempting to export all frames at once results in a 502 Bad Gateway error. This failure occurs only when triggering the full download function, despite working locally against the production database.\n\nIt was suggested that the issue might be related to Nginx or potentially a PostgreSQL timeout, but further investigation is required.",
+  "decisions": [
+    "Investigate the 502 Bad Gateway error on the inventory export endpoint."
+  ],
+  "action_items": [
+    "Ask someone (specifically 'Tolya') about the nature of the 502 error and potential causes (Nginx/DB timeout)."
+  ]
+}

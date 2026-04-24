@@ -1,0 +1,25 @@
+{
+  "chat_id": "y9IEDQAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2024-12-05",
+    "end": "2024-12-05"
+  },
+  "message_count": 15,
+  "topic": "Improving dashboard filtering with embeddings",
+  "topic_slug": "improving-dashboard-filtering-with-embeddings",
+  "tags": [
+    "analytics",
+    "campaign"
+  ],
+  "summary_markdown": "The discussion focused on implementing an input prompt for filters on the dashboard. Initially, one participant had started working on this, having generated embeddings but noting that the context size was too large and the resulting utility was low.\n\nIt was suggested to use a specialized vector store (like Qdrant) for handling vectors. The participants agreed that while the current setup might be functional, upgrading or using a dedicated vector database would be beneficial.",
+  "decisions": [
+    "The plan is to implement an input prompt for dashboard filters using embeddings.",
+    "A specialized vector store will be used/upgraded for better vector management."
+  ],
+  "action_items": [
+    "One participant will upgrade the existing specialized vector store."
+  ]
+}

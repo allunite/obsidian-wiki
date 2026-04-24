@@ -1,0 +1,21 @@
+{
+  "chat_id": "y9IEDQAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2021-01-15",
+    "end": "2021-01-15"
+  },
+  "message_count": 7,
+  "topic": "Authorization setup for CH system",
+  "topic_slug": "authorization-setup-for-ch-system",
+  "tags": [
+    "analytics"
+  ],
+  "summary_markdown": "Someone asked about the authorization structure within the CH system. [me] confirmed that the authentication is centralized and shared, meaning all hosts use the same credentials (passwords/logins) rather than having individual setups.",
+  "decisions": [
+    "Authorization for the CH system is centralized."
+  ],
+  "action_items": []
+}

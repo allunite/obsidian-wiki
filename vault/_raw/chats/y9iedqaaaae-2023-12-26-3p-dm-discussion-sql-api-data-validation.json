@@ -1,0 +1,19 @@
+{
+  "chat_id": "y9IEDQAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2023-12-26",
+    "end": "2023-12-26"
+  },
+  "message_count": 4,
+  "topic": "Discussion on SQL API and Data Validation",
+  "topic_slug": "discussion-sql-api-data-validation",
+  "tags": [
+    "analytics"
+  ],
+  "summary_markdown": "The conversation focused on an external article regarding a SQL API. [p1] suggested the idea was interesting, particularly in relation to AllUnite's own data API. A key point of discussion was the necessity for a robust validator within such a system.",
+  "decisions": [],
+  "action_items": []
+}

@@ -1,0 +1,22 @@
+{
+  "chat_id": "y9IEDQAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2021-07-10",
+    "end": "2021-07-10"
+  },
+  "message_count": 10,
+  "topic": "Scheduling data upload job",
+  "topic_slug": "scheduling-data-upload-job",
+  "tags": [
+    "analytics",
+    "campaign"
+  ],
+  "summary_markdown": "The discussion centered on technical requirements for displaying router performance levels in a dashboard. Specifically, the goal is to identify and flag routers with low average signal strength to prevent issues similar to those encountered previously (e.g., in Belgium).\n\nLater, [me] successfully ran a job titled \"upload data to JCDecaux (prod)\\",
+  "decisions": [
+    "The data upload job needs to be scheduled for daily execution."
+  ],
+  "action_items": []
+}

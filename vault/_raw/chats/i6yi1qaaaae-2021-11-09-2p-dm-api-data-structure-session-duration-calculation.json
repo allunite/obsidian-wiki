@@ -1,0 +1,22 @@
+{
+  "chat_id": "i6YI1QAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 2,
+  "date_range": {
+    "start": "2021-11-09",
+    "end": "2021-11-09"
+  },
+  "message_count": 11,
+  "topic": "API data structure and session duration calculation",
+  "topic_slug": "api-data-structure-session-duration-calculation",
+  "tags": [
+    "analytics",
+    "session"
+  ],
+  "summary_markdown": "The discussion focused on the API's handling of session duration data. Specifically, it was questioned whether sending total traffic and then segmenting that same traffic into multiple 5-minute ranges (e.g., [0,300], [301,600]...) would result in a sum equal to the total traffic for the period.\n\nA key concern raised was that the first 5-minute interval ([0,300]) includes zero session duration, which needs clarification.",
+  "decisions": [],
+  "action_items": [
+    "Someone needs to review and confirm the data structure regarding API traffic segmentation."
+  ]
+}

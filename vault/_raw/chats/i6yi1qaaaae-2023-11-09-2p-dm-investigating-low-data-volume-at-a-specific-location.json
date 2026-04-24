@@ -1,0 +1,25 @@
+{
+  "chat_id": "i6YI1QAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 2,
+  "date_range": {
+    "start": "2023-11-09",
+    "end": "2023-11-09"
+  },
+  "message_count": 35,
+  "topic": "Investigating low data volume at a specific location",
+  "topic_slug": "investigating-low-data-volume-at-a-specific-location",
+  "tags": [
+    "analytics",
+    "session",
+    "impression"
+  ],
+  "summary_markdown": "The discussion focused on diagnosing low data volume (traffic/sessions) at a specific location compared to other sites and client footfall. It was suggested that physical obstructions, such as metal around antennas or between plastic elements, could screen the signal and lower the overall signal level.\n\nA separate technical issue regarding a formula for RZK was discussed. The initial concern about the formula's accuracy led to [me] checking the calculation and eventually identifying and fixing a bug, deploying a hotfix to production.",
+  "decisions": [
+    "A hotfix was deployed to production to correct an error in the RZK formula."
+  ],
+  "action_items": [
+    "Someone needs to confirm if the average signal level is lower at the problematic location (pending follow-up with 'Marina')."
+  ]
+}

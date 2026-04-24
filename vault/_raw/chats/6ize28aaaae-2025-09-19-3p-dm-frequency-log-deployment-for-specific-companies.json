@@ -1,0 +1,25 @@
+{
+  "chat_id": "6ize28AAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2025-09-19",
+    "end": "2025-09-19"
+  },
+  "message_count": 34,
+  "topic": "Frequency log deployment for specific companies",
+  "topic_slug": "frequency-log-deployment-for-specific-companies",
+  "tags": [
+    "analytics",
+    "campaign"
+  ],
+  "summary_markdown": "The conversation focused on debugging and deploying a frequency log feature. Initially, [p1] requested that the `/v2/frequency_log_reg_ch` endpoint be used with the argument \"Latvia\" for companies 7873 and 7939, initially only on staging.\n\n[me] confirmed initial implementation. Later, after observing discrepancies (specifically 'freq 1' for company 7939), [me] realized that the data-api had deployed analytics instead of the intended functionality. A fix was needed, and [p1] requested a production deployment immediately for those companies.\n\nAfter a discussion regarding best practices (beta review vs. direct production release), [me] ultimately decided to proceed with the production deployment.",
+  "decisions": [
+    "The `/v2/frequency_log_reg_ch` endpoint must be used with \"Latvia\" for companies 7873 and 7939.",
+    "A fix was deployed to resolve data discrepancies, moving from staging to production."
+  ],
+  "action_items": [
+    "Deployment of the corrected frequency log functionality to production for companies 7873 and 7939."
+  ]
+}

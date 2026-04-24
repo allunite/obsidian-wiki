@@ -1,0 +1,24 @@
+{
+  "chat_id": "y9IEDQAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2025-08-25",
+    "end": "2025-08-25"
+  },
+  "message_count": 8,
+  "topic": "Shared mall data integration timeline",
+  "topic_slug": "shared-mall-data-integration-timeline",
+  "tags": [
+    "analytics",
+    "inventory"
+  ],
+  "summary_markdown": "The discussion focused on integrating shared mall data. [p1] provided a link to the relevant task/project and proposed completing the integration before the release in two weeks. [me] stated that they needed time to review the material and would provide an estimate later that day.",
+  "decisions": [
+    "Review of shared mall data integration is required."
+  ],
+  "action_items": [
+    "[me] to assess the feasibility/timeline for integrating shared mall data by end of day."
+  ]
+}

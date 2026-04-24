@@ -1,0 +1,27 @@
+{
+  "chat_id": "AAAA3oghITo",
+  "kind": "Space",
+  "space_name": "Кабаны",
+  "participants": 4,
+  "date_range": {
+    "start": "2022-04-11",
+    "end": "2022-04-11"
+  },
+  "message_count": 30,
+  "topic": "ClickHouse upgrade plan and testing",
+  "topic_slug": "clickhouse-upgrade-plan-and-testing",
+  "tags": [
+    "analytics",
+    "campaign"
+  ],
+  "summary_markdown": "The discussion centered on upgrading the ClickHouse environment. Initially, a sandbox upgrade was proposed using the latest stable version (22.3.3.44). Concerns were raised regarding repository changes and available versions in the repository.\n\nIt was decided that an update is necessary regardless of the current repository status. The team agreed to proceed with upgrading the production environment this evening, contingent upon successful smoke tests being run on the sandbox first. A discussion also occurred regarding the downtime associated with the upgrade, noting it should take less than a minute.\n\nSomeone planned to pull changes into Ansible for production.",
+  "decisions": [
+    "Upgrade ClickHouse in the sandbox environment using version 22.3.3.44 (or latest stable).",
+    "The production upgrade will happen this evening, provided smoke tests pass on the sandbox."
+  ],
+  "action_items": [
+    "[me] to check on the upgrade status when available.",
+    "Someone to run smoke tests in the sandbox environment.",
+    "Someone to pull changes into Ansible for production."
+  ]
+}

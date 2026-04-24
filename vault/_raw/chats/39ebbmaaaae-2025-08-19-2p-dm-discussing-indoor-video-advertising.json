@@ -1,0 +1,22 @@
+{
+  "chat_id": "39eBBMAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 2,
+  "date_range": {
+    "start": "2025-08-19",
+    "end": "2025-08-19"
+  },
+  "message_count": 4,
+  "topic": "Discussing indoor video advertising",
+  "topic_slug": "discussing-indoor-video-advertising",
+  "tags": [
+    "analytics",
+    "campaign"
+  ],
+  "summary_markdown": "A discussion was initiated regarding Video Advertising (VA) for indoor placements in preparation for an important meeting scheduled the following day.",
+  "decisions": [],
+  "action_items": [
+    "Discuss VA for indoors with [me]"
+  ]
+}

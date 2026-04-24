@@ -1,0 +1,26 @@
+{
+  "chat_id": "oq-w0kAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2026-02-23",
+    "end": "2026-02-23"
+  },
+  "message_count": 27,
+  "topic": "Filtering inactive facilities from dashboard metrics",
+  "topic_slug": "filtering-inactive-facilities-dashboard-metrics",
+  "tags": [
+    "facility",
+    "analytics",
+    "campaign",
+    "dashboard"
+  ],
+  "summary_markdown": "The discussion centered on technical issues related to dashboard metrics and data aggregation. Specifically, there is a need to filter out inactive facilities from calculations displayed on the dashboard.\n\nA separate issue discussed involves unwanted session data originating from buses being included in `device_session_agg_5`. While some parties claim this inclusion is not their fault, it was determined that these bus sessions must be filtered or pre-aggregated before reaching `device_session_agg_5` to ensure accurate reporting.\n\nIt was noted that the task details were unclear and required follow-up from others.",
+  "decisions": [
+    "Inactive facilities need to be hidden/filtered out when calculating metrics on the dashboard."
+  ],
+  "action_items": [
+    "Further investigation is needed regarding how bus session data should be filtered or pre-aggregated before reaching `device_session_agg_5`."
+  ]
+}

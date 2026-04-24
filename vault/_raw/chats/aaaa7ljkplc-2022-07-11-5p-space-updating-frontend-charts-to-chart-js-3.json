@@ -1,0 +1,21 @@
+{
+  "chat_id": "AAAA7lJKPlc",
+  "kind": "Space",
+  "space_name": "Frontend",
+  "participants": 5,
+  "date_range": {
+    "start": "2022-07-11",
+    "end": "2022-07-11"
+  },
+  "message_count": 3,
+  "topic": "Updating frontend charts to chart.js 3+",
+  "topic_slug": "updating-frontend-charts-to-chart-js-3",
+  "tags": [
+    "analytics"
+  ],
+  "summary_markdown": "Someone provided an update on updating the application's charting library from older versions to chart.js 3+. Progress has been made over the last week, with two pages updated so far. The goal is to complete all remaining page updates by the end of the current week. The process is noted as complex due to required changes in chart options and property names across multiple charts.",
+  "decisions": [],
+  "action_items": [
+    "p2 to continue updating remaining pages using chart.js 3+"
+  ]
+}

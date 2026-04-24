@@ -1,0 +1,23 @@
+{
+  "chat_id": "nW_zkkAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2023-07-26",
+    "end": "2023-07-26"
+  },
+  "message_count": 10,
+  "topic": "Data discrepancy after signal limit update",
+  "topic_slug": "data-discrepancy-after-signal-limit-update",
+  "tags": [
+    "analytics",
+    "session",
+    "unique"
+  ],
+  "summary_markdown": "A data discrepancy was observed for company 7901 (Mall category) after updating the signal limits and running a recalculation. The change resulted in higher results compared to previous models.\n\n[me] explained that during the reaggregation, `session_predicted` used the model's output for total traffic, while unique traffic was calculated based on the new `unique/total` ratio derived from `session_predicted`. This caused a noticeable increase in unique users relative to sessions. The core metric, `device_session_agg_ml`, remained relatively stable.\n\nThe initial concern was that the results deviated significantly from expected historical patterns.",
+  "decisions": [
+    "No immediate action is required; the team will monitor client feedback regarding the changed data."
+  ],
+  "action_items": []
+}

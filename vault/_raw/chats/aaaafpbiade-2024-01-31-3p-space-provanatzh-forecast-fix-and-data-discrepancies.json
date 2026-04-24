@@ -1,0 +1,24 @@
+{
+  "chat_id": "AAAAFPbiAdE",
+  "kind": "Space",
+  "space_name": "Group Chat",
+  "participants": 3,
+  "date_range": {
+    "start": "2024-01-31",
+    "end": "2024-01-31"
+  },
+  "message_count": 36,
+  "topic": "Provanatzh forecast fix and data discrepancies",
+  "topic_slug": "provanatzh-forecast-fix-and-data-discrepancies",
+  "tags": [
+    "analytics",
+    "campaign",
+    "impression",
+    "inventory"
+  ],
+  "summary_markdown": "The forecast for Provanatzh was recalculated and uploaded to production, showing a ~2% increase for December and January. Following this, discussion shifted to discrepancies in reach and unique users (uniks) data between the Campaign planner and the traffic page. It was noted that these metrics were previously inconsistent but later appeared consistent after refreshing the view. The conversation concluded by discussing recent hotfixes and bugs related to beta mode implementation, which had caused temporary data display issues.",
+  "decisions": [
+    "Provanatzh forecast for December and January is finalized and uploaded to production."
+  ],
+  "action_items": []
+}

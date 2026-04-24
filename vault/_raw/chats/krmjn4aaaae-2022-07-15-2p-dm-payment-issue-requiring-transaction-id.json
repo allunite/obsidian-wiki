@@ -1,0 +1,23 @@
+{
+  "chat_id": "kRmJN4AAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 2,
+  "date_range": {
+    "start": "2022-07-15",
+    "end": "2022-07-15"
+  },
+  "message_count": 5,
+  "topic": "Payment issue requiring transaction ID",
+  "topic_slug": "payment-issue-requiring-transaction-id",
+  "tags": [
+    "analytics"
+  ],
+  "summary_markdown": "The discussion centered on a payment issue with the payoneer team. [p1] reported that multiple contacts stated they require a specific transaction ID, which should be available on the proof of payment processed by the team. The conversation concluded with [me] advising to proceed with 'plan B' and promising an update when there was a change.",
+  "decisions": [
+    "Proceeding with Plan B for the payment issue."
+  ],
+  "action_items": [
+    "[me] to provide updates regarding changes in the payment status."
+  ]
+}

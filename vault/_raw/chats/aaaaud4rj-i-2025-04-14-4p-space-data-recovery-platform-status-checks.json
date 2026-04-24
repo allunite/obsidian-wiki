@@ -1,0 +1,26 @@
+{
+  "chat_id": "AAAAud4RJ_I",
+  "kind": "Space",
+  "space_name": "Group Chat",
+  "participants": 4,
+  "date_range": {
+    "start": "2025-04-14",
+    "end": "2025-04-14"
+  },
+  "message_count": 30,
+  "topic": "Data recovery and platform status checks",
+  "topic_slug": "data-recovery-platform-status-checks",
+  "tags": [
+    "analytics",
+    "recalc-ch",
+    "session"
+  ],
+  "summary_markdown": "The session focused on verifying data integrity following a potential system issue. The team confirmed that the `agg_5` table was updated by restoring it from a backup (`agg_version = 8`) for February, March, and April 2025.\n\nSpecific actions included:\n*   Restoring the `device_session_agg_ml_2` table from backup, excluding yesterday's data (as of 2025-04-11).\n*   The restoration was confirmed to be complete for the production environment, though reprocessing might be necessary.\n\nThe team discussed communication regarding the rollback/restoration with the Data Team, concluding that a simple statement confirming the tables were restored would suffice.",
+  "decisions": [
+    "Restore `device_session_agg_ml_2` from backup for 2025-02-14 through 2025-04-11.",
+    "The Data Team communication will state that the necessary tables were restored."
+  ],
+  "action_items": [
+    "Clean up/delete the recovered data backups (disks)."
+  ]
+}

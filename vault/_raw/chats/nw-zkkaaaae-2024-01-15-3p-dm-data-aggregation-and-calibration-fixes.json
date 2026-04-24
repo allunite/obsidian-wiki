@@ -1,0 +1,29 @@
+{
+  "chat_id": "nW_zkkAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2024-01-15",
+    "end": "2024-01-15"
+  },
+  "message_count": 100,
+  "topic": "Data aggregation and calibration fixes",
+  "topic_slug": "data-aggregation-and-calibration-fixes",
+  "tags": [
+    "analytics",
+    "facility",
+    "campaign"
+  ],
+  "summary_markdown": "The session focused on multiple data discrepancies, including initial calibration errors for Transport Hub_telt200 (requiring a change from 74 to 78). Later issues involved incorrect copying of calibration settings for company 7897 and category Mall_telt200, which required manual correction to ensure individual facility calibrations were maintained.\n\nA major technical discussion centered on data aggregation scripts. It was identified that the process for removing old records (DELETE statements) was failing or being skipped by the development environment's IDE/tooling, leading to stale data in the staging area. The correct method for deletion using `ALTER TABLE ... DELETE` was provided.\n\nFinally, due to issues with session aggregation data having multiple identical entries across different versions and environments (stage/prod), it was decided that the final step would involve recalculating the production data by averaging the conflicting records.",
+  "decisions": [
+    "The calibration for Transport Hub_telt200 must be set to 78, not 74.",
+    "Calibration settings for Mall_telt200 (company 7897) needed manual adjustment to preserve unique facility calibrations.",
+    "The data deletion process should use the `ALTER TABLE ... DELETE` syntax rather than standard `DELETE FROM` statements.",
+    "Production session aggregation data will be recalculated using an average of conflicting records."
+  ],
+  "action_items": [
+    "Someone needs to update their IDE/tooling (DataGrip) to properly execute advanced SQL commands like ALTER TABLE DELETE.",
+    "The final recalculation and replacement of the production data is scheduled for later in the day by someone."
+  ]
+}

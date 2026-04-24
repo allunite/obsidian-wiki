@@ -1,0 +1,22 @@
+{
+  "chat_id": "nW_zkkAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2023-09-06",
+    "end": "2023-09-06"
+  },
+  "message_count": 4,
+  "topic": "Historical session data for virtual sensors",
+  "topic_slug": "historical-session-data-virtual-sensors",
+  "tags": [
+    "analytics",
+    "session"
+  ],
+  "summary_markdown": "The discussion concerns the need for historical session data (specifically from March 2023) to be used for virtual sensors. A request was made for assistance in running a historical recalculation after copying the necessary data.",
+  "decisions": [],
+  "action_items": [
+    "Someone needs to run a historical recalculation using the copied session data."
+  ]
+}

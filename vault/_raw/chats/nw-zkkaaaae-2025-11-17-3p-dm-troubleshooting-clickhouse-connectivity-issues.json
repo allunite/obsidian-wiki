@@ -1,0 +1,19 @@
+{
+  "chat_id": "nW_zkkAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2025-11-17",
+    "end": "2025-11-17"
+  },
+  "message_count": 3,
+  "topic": "Troubleshooting clickhouse connectivity issues",
+  "topic_slug": "troubleshooting-clickhouse-connectivity-issues",
+  "tags": [
+    "analytics"
+  ],
+  "summary_markdown": "The conversation briefly discusses the status of a ClickHouse connection. [me] reports that the connection initially went up but subsequently dropped and is currently experiencing cold/slow performance, suggesting potential slowdowns or issues.",
+  "decisions": [],
+  "action_items": []
+}

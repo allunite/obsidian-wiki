@@ -1,0 +1,30 @@
+{
+  "chat_id": "oCgFCIAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2025-11-13",
+    "end": "2025-11-13"
+  },
+  "message_count": 38,
+  "topic": "Analytics report generation and performance issues",
+  "topic_slug": "analytics-report-generation-and-performance-issues",
+  "tags": [
+    "analytics",
+    "facility",
+    "impression",
+    "campaign",
+    "recalc-ch"
+  ],
+  "summary_markdown": "The discussion covered several technical issues related to analytics reporting and data processing performance. Initially, concerns were raised about how the frequency metric is calculated in the frame report, particularly when comparing metrics over a month's period, as this calculation remains active even if not intended by the finance team.\n\nLater, focus shifted to optimizing data retrieval speed for large reports (e.g., monthly facility reports). The session involved troubleshooting timeouts and high response sizes (up to 250 MB) when fetching frequency logs. Solutions included implementing hotfixes, adjusting worker counts (to 9 workers), increasing the health checker timeout (from 5s to 60s), and exploring data compression techniques like using embedding keys.\n\nA specific bug was identified regarding report generation failing with a `ClickHouseError: Incompatible types of WITH FILL expression values with column type DateTime('UTC')` when attempting to generate monthly facility reports via the URL. This required setting the time granularity to 'month' for successful reproduction and resolution.",
+  "decisions": [
+    "The frequency metric calculation in the frame report needs adjustment, as it is currently active even if not intended by finance.",
+    "A hotfix was deployed to address performance issues and timeouts during large data retrieval (e.g., monthly reports).",
+    "The time granularity for facility reports must be set to 'month' to resolve a ClickHouse type incompatibility error."
+  ],
+  "action_items": [
+    "Further investigation into optimizing the frequency log request process is needed, including reviewing concurrent requests and potential data compression.",
+    "Monitor system stability after hotfix deployment."
+  ]
+}

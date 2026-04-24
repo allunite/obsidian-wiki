@@ -1,0 +1,21 @@
+{
+  "chat_id": "AAAAaK7z8KI",
+  "kind": "Space",
+  "space_name": "Group Chat",
+  "participants": 5,
+  "date_range": {
+    "start": "2026-01-16",
+    "end": "2026-01-16"
+  },
+  "message_count": 4,
+  "topic": "Fixing latitude and longitude data",
+  "topic_slug": "fixing-latitude-and-longitude-data",
+  "tags": [
+    "analytics"
+  ],
+  "summary_markdown": "The conversation focused on a technical issue where the latitude/longitude coordinates were mixed up in the raw data. [p3] provided two SQL queries for review, indicating that the coordinates needed correction. Later, [me] confirmed that the issue was fixed.",
+  "decisions": [
+    "Latitude/longitude mix-up issue identified and corrected."
+  ],
+  "action_items": []
+}

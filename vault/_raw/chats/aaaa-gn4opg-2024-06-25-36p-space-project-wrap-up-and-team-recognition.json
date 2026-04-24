@@ -1,0 +1,20 @@
+{
+  "chat_id": "AAAA-gn4oPg",
+  "kind": "Space",
+  "space_name": "General and random",
+  "participants": 36,
+  "date_range": {
+    "start": "2024-06-25",
+    "end": "2024-06-25"
+  },
+  "message_count": 14,
+  "topic": "Project wrap-up and team recognition",
+  "topic_slug": "project-wrap-up-and-team-recognition",
+  "tags": [
+    "campaign",
+    "analytics"
+  ],
+  "summary_markdown": "The conversation primarily consists of celebratory messages following a project completion in Helsinki airport. One participant noted taking numerous photos of the screens and congratulated the team, specifically mentioning [p1] and [p13], for successfully winning the contract with Finland, calling it a major milestone for AllUnite.",
+  "decisions": [],
+  "action_items": []
+}

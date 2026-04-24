@@ -1,0 +1,17 @@
+{
+  "chat_id": "rBfK7kAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 2,
+  "date_range": {
+    "start": "2024-02-28",
+    "end": "2024-02-28"
+  },
+  "message_count": 4,
+  "topic": "General status update and outlook",
+  "topic_slug": "general-status-update-and-outlook",
+  "tags": [],
+  "summary_markdown": "The conversation consisted of brief, non-work related exchanges regarding general system status and an expectation that performance will improve significantly next week.",
+  "decisions": [],
+  "action_items": []
+}

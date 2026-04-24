@@ -1,0 +1,24 @@
+{
+  "chat_id": "nW_zkkAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2024-02-02",
+    "end": "2024-02-02"
+  },
+  "message_count": 19,
+  "topic": "Update calibration for specific ad category",
+  "topic_slug": "update-calibration-for-ad-category",
+  "tags": [
+    "analytics",
+    "campaign"
+  ],
+  "summary_markdown": "The conversation revolves around updating calibration values for the `Airport_telt200` category associated with company 7897. Initially, a request was made to set the value to 84 (for both production and staging). This was then canceled by [p1]. Later, [p1] requested an update to set the calibration value to 78 for both environments. The conversation also touched upon running a recalculation for four months on production with a new model, which [me] approved. Finally, it was confirmed that no changes would be made to facilities with explicitly defined calibrations.",
+  "decisions": [
+    "The calibration value for `Airport_telt200` (company 7897) is set to 78 for both production and staging environments."
+  ],
+  "action_items": [
+    "Update the calibration for `Airport_telt200` (company 7897) to 78 in production and staging."
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "chat_id": "uJ8JA8AAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2025-06-06",
+    "end": "2025-06-06"
+  },
+  "message_count": 8,
+  "topic": "Discrepancy in viewable impressions data",
+  "topic_slug": "discrepancy-viewable-impressions-data",
+  "tags": [
+    "impression",
+    "campaign",
+    "analytics",
+    "facility"
+  ],
+  "summary_markdown": "The discussion focused on a significant discrepancy found in viewable impression data when comparing traffic and campaign sources for a specific company. The initial analysis involved SQL queries to calculate metrics like `session_number_predicted`, `vac`, `rots`, `viewable_flow_impressions`, and `viewed_flow_impressions` at the facility level.\n\nIt was noted that when analyzing data for the entire company, comparison should be limited to two categories (as seen on the traffic dashboard) because the campaign view only contains two categories. The discrepancy is substantial: Viewable impressions reported for Traffic were 3,212,077, while those reported for Campaign were 635,172.\n\nThe priority of resolving this data mismatch was confirmed to be high, with a specific emphasis on the Finland region.",
+  "decisions": [
+    "The discrepancy in viewable impressions between traffic and campaign sources needs investigation."
+  ],
+  "action_items": [
+    "Follow up with Marina regarding the priority of resolving the data mismatch (especially for Finland)."
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "chat_id": "8GgAuwAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 2,
+  "date_range": {
+    "start": "2023-05-22",
+    "end": "2023-05-22"
+  },
+  "message_count": 46,
+  "topic": "Fixing missing Mall category in inventory data",
+  "topic_slug": "fixing-missing-mall-category-in-inventory-data",
+  "tags": [
+    "analytics",
+    "campaign",
+    "facility",
+    "inventory"
+  ],
+  "summary_markdown": "The conversation focused on technical issues regarding the display and calculation of data for a specific cluster, 'JCD_UK_Bluewater (master)', within the Mall analytics dashboard. Initially, there were concerns about whether creating a cluster would automatically pull historical data or if manual recalculation was needed.\n\nLater, it was determined that the 'Mall' category was missing from the inventory setup for this master location. The issue required adding the category to the inventory and updating the associated dataset (stage).\n\nFollowing these fixes, the data was deemed ready to be moved to production.",
+  "decisions": [
+    "The 'Mall' category needs to be added to the inventory of 'JCD_UK_Bluewater (master)'",
+    "Data prepared in the stage dataset is ready for migration to production."
+  ],
+  "action_items": [
+    "Move the fixed data from the staging environment to production."
+  ]
+}

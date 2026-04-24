@@ -1,0 +1,19 @@
+{
+  "chat_id": "AAAA9ybOLwM",
+  "kind": "Space",
+  "space_name": "ИТ",
+  "participants": 8,
+  "date_range": {
+    "start": "2021-10-02",
+    "end": "2021-10-02"
+  },
+  "message_count": 3,
+  "topic": "Request for previous scene files",
+  "topic_slug": "request-for-previous-scene-files",
+  "tags": [
+    "facility"
+  ],
+  "summary_markdown": "Someone requested the 'last scene' (сцены последней) from the day before. [p2] confirmed sending it via private message.",
+  "decisions": [],
+  "action_items": []
+}

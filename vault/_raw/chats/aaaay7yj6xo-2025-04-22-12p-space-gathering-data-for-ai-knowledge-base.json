@@ -1,0 +1,26 @@
+{
+  "chat_id": "AAAAy7Yj6Xo",
+  "kind": "Space",
+  "space_name": "IT",
+  "participants": 12,
+  "date_range": {
+    "start": "2025-04-22",
+    "end": "2025-04-22"
+  },
+  "message_count": 8,
+  "topic": "Gathering data for AI knowledge base",
+  "topic_slug": "gathering-data-for-ai-knowledge-base",
+  "tags": [
+    "analytics",
+    "facility",
+    "frame",
+    "inventory"
+  ],
+  "summary_markdown": "The team is developing a Customer Support AI Agent and requires more comprehensive data for its knowledge base. Currently, the agent only has access to three PDFs: translations from analytics and privacy policy pages from allunite.com, meaning it lacks knowledge regarding footfall.\n\nParticipants discussed the need for consistent and non-deprecated terminology. It was suggested that starting with basic vocabulary definitions (e.g., Frame, Facility, Insertion duration) is crucial because clients often use their own naming systems. A document containing standardized terminology will be created and shared to aid in building the bot's knowledge base.",
+  "decisions": [
+    "A centralized location was provided for uploading appropriate files and comments (Google Drive link)."
+  ],
+  "action_items": [
+    "Create a document defining standard terminology for the AI agent's knowledge base."
+  ]
+}

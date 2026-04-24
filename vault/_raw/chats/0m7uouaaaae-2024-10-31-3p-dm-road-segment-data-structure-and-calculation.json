@@ -1,0 +1,22 @@
+{
+  "chat_id": "0m7UOUAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2024-10-31",
+    "end": "2024-10-31"
+  },
+  "message_count": 3,
+  "topic": "Road segment data structure and calculation",
+  "topic_slug": "road-segment-data-structure-and-calculation",
+  "tags": [
+    "inventory",
+    "analytics"
+  ],
+  "summary_markdown": "The discussion focused on the data structure for road segments, how they are displayed in inventory maps, and how they are sent to ML_ARI for calculating Value Added (ВА). [p1] initiated the conversation regarding this topic, noting that their usual contact was unavailable. [me] stated that they were currently busy with other tasks and suggested waiting until Monday or involving another team member who is more familiar with backend data structures.",
+  "decisions": [
+    "The discussion about road segment data structure will wait until Monday."
+  ],
+  "action_items": []
+}

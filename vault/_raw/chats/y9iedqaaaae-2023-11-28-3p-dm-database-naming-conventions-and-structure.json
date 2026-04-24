@@ -1,0 +1,21 @@
+{
+  "chat_id": "y9IEDQAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2023-11-28",
+    "end": "2023-11-28"
+  },
+  "message_count": 9,
+  "topic": "Database naming conventions and structure",
+  "topic_slug": "database-naming-conventions-and-structure",
+  "tags": [
+    "analytics"
+  ],
+  "summary_markdown": "The conversation focused on clarifying the proposed structure for two databases, specifically addressing why a 'core' database might also include non-core data. [me] suggested potential names like `allunite` and `allunite_cluster`. Further suggestions included adding an `archive` or `logs` database. The discussion noted that new engines (e.g., PostgreSQLMaterialized) were being added to the system, necessitating updates.",
+  "decisions": [
+    "The need for updating the current data infrastructure was acknowledged."
+  ],
+  "action_items": []
+}

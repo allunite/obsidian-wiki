@@ -1,0 +1,24 @@
+{
+  "chat_id": "AAAAaK7z8KI",
+  "kind": "Space",
+  "space_name": "Group Chat",
+  "participants": 5,
+  "date_range": {
+    "start": "2025-03-04",
+    "end": "2025-03-04"
+  },
+  "message_count": 3,
+  "topic": "Japanese data migration and SQL script location",
+  "topic_slug": "japanese-data-migration-and-sql-script-location",
+  "tags": [
+    "analytics",
+    "recalc-ch"
+  ],
+  "summary_markdown": "Someone requested the SQL script that utilizes `get_frequency_log_reg_ch`. This script was previously deployed for Finland (City, Bus_Shelter) and is expected to be used for Tractor (South Africa) on staging as an option. Later, [me] announced that Japanese data from `maid_track_20250109_20250209` and `_maid_jp_track_local` has been moved into `maid_track_japan_local`.",
+  "decisions": [
+    "The SQL script location was provided."
+  ],
+  "action_items": [
+    "Review the provided GitHub link for the frequency clustering SQL script."
+  ]
+}

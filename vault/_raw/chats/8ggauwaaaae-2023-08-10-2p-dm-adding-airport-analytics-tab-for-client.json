@@ -1,0 +1,22 @@
+{
+  "chat_id": "8GgAuwAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 2,
+  "date_range": {
+    "start": "2023-08-10",
+    "end": "2023-08-10"
+  },
+  "message_count": 10,
+  "topic": "Adding airport analytics tab for client",
+  "topic_slug": "adding-airport-analytics-tab-for-client",
+  "tags": [
+    "analytics",
+    "facility"
+  ],
+  "summary_markdown": "The discussion focused on adding a dedicated Airport analytics tab for the client JCDecaux India. [me] guided someone through the process of accessing and configuring this feature within the staging analytics platform, specifically instructing them to add the role/tab directly.",
+  "decisions": [
+    "A separate Airport analytics tab is required for JCDecaux India."
+  ],
+  "action_items": []
+}

@@ -1,0 +1,27 @@
+{
+  "chat_id": "nW_zkkAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2025-05-15",
+    "end": "2025-05-15"
+  },
+  "message_count": 25,
+  "topic": "Request for demographic data and campaign setup",
+  "topic_slug": "request-demographic-data-and-campaign-setup",
+  "tags": [
+    "analytics",
+    "campaign",
+    "demographics"
+  ],
+  "summary_markdown": "The conversation covered several requests for data and campaign setup. Initially, a script (`ml2ds_agg.sql`) was mentioned for aggregation.\n\n*   **Airport Demographics:** [p1] requested demographic analysis for an airport (DOOH-1903) and Mexico (DOOH-1862).\n*   **Mexico Data Check:** It was confirmed that the demographics data should be visible for Mexico on the production environment, which someone checked.\n*   **Campaign Setup:** [p1] later requested setting up a campaign using demographic data for company 7950 (due tomorrow).\n*   **Citrus Campaign:** Finally, [p1] provided data for a 'citrus' campaign (DOOH-2065) and asked someone to create it when time permits.",
+  "decisions": [
+    "Demographic analysis was performed/updated for the airport location.",
+    "The demographics data for Mexico was confirmed as visible on production."
+  ],
+  "action_items": [
+    "Set up a campaign using demographic data for company 7950 (due tomorrow).",
+    "Create the 'citrus' campaign using the provided data (DOOH-2065) when time permits."
+  ]
+}

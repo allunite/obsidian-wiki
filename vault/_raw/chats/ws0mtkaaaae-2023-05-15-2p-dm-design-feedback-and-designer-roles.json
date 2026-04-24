@@ -1,0 +1,19 @@
+{
+  "chat_id": "ws0mTkAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 2,
+  "date_range": {
+    "start": "2023-05-15",
+    "end": "2023-05-15"
+  },
+  "message_count": 10,
+  "topic": "Design feedback and designer roles",
+  "topic_slug": "design-feedback-and-designer-roles",
+  "tags": [
+    "analytics"
+  ],
+  "summary_markdown": "The conversation discusses design approaches, specifically comparing the style of one designer (Igor) with another (Vasily). It is noted that Vasily's work is less comprehensive than Igor's, suggesting he acts more as a 'drawing block' rather than an expert UI/UX artist. The perceived dissatisfaction regarding the design may simply be due to evolving or added requirements needing further refinement.",
+  "decisions": [],
+  "action_items": []
+}

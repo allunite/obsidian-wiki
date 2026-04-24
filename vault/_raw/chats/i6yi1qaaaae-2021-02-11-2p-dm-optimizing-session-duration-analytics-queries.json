@@ -1,0 +1,27 @@
+{
+  "chat_id": "i6YI1QAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 2,
+  "date_range": {
+    "start": "2021-02-11",
+    "end": "2021-02-11"
+  },
+  "message_count": 63,
+  "topic": "Optimizing session duration analytics queries",
+  "topic_slug": "optimizing-session-duration-analytics-queries",
+  "tags": [
+    "dwell-time",
+    "analytics",
+    "query"
+  ],
+  "summary_markdown": "The conversation focused on refining SQL queries for calculating average session duration (dwell-time) based on various signal level thresholds and calibration status. Initial discrepancies were noted between manual calculations, existing queries, and dashboard results.\n\nKey adjustments included:\n*   **Grouping:** Changing the time grouping from hourly to daily (`toStartOfDay(session_start_hour)`).\n*   **Metrics Added:** Incorporating additional signal level averages (e.g., <= 60 and <= 65) and a specific average for calibrated sessions (`avg_cal`).\n*   **Discrepancy Resolution:** The final queries provided by [me] were confirmed by [p1] as the correct reference point, although potential aggregation issues were noted by [me] that required further investigation.",
+  "decisions": [
+    "The primary method for calculating average session duration will use daily grouping (toStartOfDay).",
+    "The final provided SQL query structure, including multiple signal level averages and a calibrated average, is accepted as the correct model."
+  ],
+  "action_items": [
+    "[p1] to add a ticket to verify dwell time calculations.",
+    "[me] to investigate potential aggregation issues in the data/queries and determine the criticality of the discrepancy."
+  ]
+}

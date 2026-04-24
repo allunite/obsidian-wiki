@@ -1,0 +1,21 @@
+{
+  "chat_id": "oCgFCIAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2022-12-01",
+    "end": "2022-12-01"
+  },
+  "message_count": 3,
+  "topic": "Frontend developer skill requirements",
+  "topic_slug": "frontend-developer-skill-requirements",
+  "tags": [
+    "analytics"
+  ],
+  "summary_markdown": "A requirement was raised for the frontend developer to have experience with Node.js and server-side capabilities. The concern is that relying solely on UI-focused skills can lead to 'black box' situations where debugging or adding fields requires deep server knowledge, making development more difficult.",
+  "decisions": [
+    "The need for some level of server-side understanding (Node.js) for the frontend developer was noted."
+  ],
+  "action_items": []
+}

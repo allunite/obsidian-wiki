@@ -1,0 +1,23 @@
+{
+  "chat_id": "AAAAeaT1k4s",
+  "kind": "Space",
+  "space_name": "Group Chat",
+  "participants": 3,
+  "date_range": {
+    "start": "2023-12-01",
+    "end": "2023-12-01"
+  },
+  "message_count": 3,
+  "topic": "Reviewing impression and frame data spikes",
+  "topic_slug": "reviewing-impression-and-frame-data-spikes",
+  "tags": [
+    "impression",
+    "frame",
+    "analytics"
+  ],
+  "summary_markdown": "A spike in impressions was noted for June 11th. Discussion followed regarding the high data reported for frames, specifically whether a correction factor should be applied to address potential overestimation of frame data.",
+  "decisions": [],
+  "action_items": [
+    "Someone will adjust/correct the data."
+  ]
+}

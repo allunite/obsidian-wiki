@@ -1,0 +1,21 @@
+{
+  "chat_id": "y9IEDQAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2024-12-20",
+    "end": "2024-12-20"
+  },
+  "message_count": 9,
+  "topic": "Software release version discussion",
+  "topic_slug": "software-release-version-discussion",
+  "tags": [
+    "analytics"
+  ],
+  "summary_markdown": "The conversation focused on the appropriate software build to deploy. [p1] initially questioned the release of v24.12.1.1614-stable. Someone advised against it due to potential issues with cache and lazy loading implemented using primary keys, suggesting that version 24.11 should be deployed instead. Later messages were non-work related.",
+  "decisions": [
+    "Deploy version 24.11 instead of v24.12.1.1614-stable."
+  ],
+  "action_items": []
+}

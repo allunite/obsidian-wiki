@@ -1,0 +1,25 @@
+{
+  "chat_id": "AAAAGidNi10",
+  "kind": "Space",
+  "space_name": "Group Chat",
+  "participants": 6,
+  "date_range": {
+    "start": "2023-08-31",
+    "end": "2023-08-31"
+  },
+  "message_count": 4,
+  "topic": "Australia demo account and facility resources",
+  "topic_slug": "australia-demo-account-and-facility-resources",
+  "tags": [
+    "analytics",
+    "inventory",
+    "campaign"
+  ],
+  "summary_markdown": "The discussion covered resource needs, specifically regarding the number of personnel required (100 or 200). Separately, a demo account for Australia was provided. This demo account includes anonymized and copied traffic data from two facilities in Rio and two facilities in São Paulo. The data is updated daily and provides access only to the traffic, inventory, and campaign pages.",
+  "decisions": [
+    "A demo account for Australia was shared with relevant parties."
+  ],
+  "action_items": [
+    "IT department needs to follow up regarding required IT resources and specifications."
+  ]
+}

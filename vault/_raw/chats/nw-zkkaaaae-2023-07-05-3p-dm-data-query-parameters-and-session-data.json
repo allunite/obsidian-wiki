@@ -1,0 +1,22 @@
+{
+  "chat_id": "nW_zkkAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2023-07-05",
+    "end": "2023-07-05"
+  },
+  "message_count": 4,
+  "topic": "Data query parameters and session data",
+  "topic_slug": "data-query-parameters-and-session-data",
+  "tags": [
+    "analytics",
+    "session"
+  ],
+  "summary_markdown": "A discussion occurred regarding using a URL parameter (`&factor=number`) to modify traffic data. It was clarified that this feature does not multiply traffic but rather sets the output mode to display raw, unaggregated session data (without model or aggregates). The resulting value is calculated by multiplying the clean, real calibrated figure from `device_session_concept` by the specified factor.",
+  "decisions": [],
+  "action_items": [
+    "None"
+  ]
+}

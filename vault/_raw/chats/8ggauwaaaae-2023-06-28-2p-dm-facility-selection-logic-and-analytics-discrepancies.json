@@ -1,0 +1,24 @@
+{
+  "chat_id": "8GgAuwAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 2,
+  "date_range": {
+    "start": "2023-06-28",
+    "end": "2023-06-28"
+  },
+  "message_count": 31,
+  "topic": "Facility selection logic and analytics discrepancies",
+  "topic_slug": "facility-selection-logic-and-analytics-discrepancies",
+  "tags": [
+    "facility",
+    "analytics"
+  ],
+  "summary_markdown": "The conversation covered two main topics: the behavior of facility selection in the application, and unexpected traffic data changes in ProVantage clusters.\n\n**Facility Selection:** The current staging environment logic was discussed. On the product version, selecting a master facility highlights only that master. However, on the stage, it highlights both the master and all sub-facilities beneath it, which is confusing. It was agreed that reverting to the previous behavior (product version style) would be better.\n\n**Analytics Data:** Concerns were raised about ProVantage clusters showing unexpected traffic data changes in the analytics dashboard, appearing as if they only started counting yesterday, even though they have been created for a long time. When individual facilities are selected, the traffic is normal; however, when selecting the master facility, all three masters show this discrepancy.",
+  "decisions": [
+    "Revert facility selection logic to previous behavior (product version style)"
+  ],
+  "action_items": [
+    "Someone needs to address the ProVantage cluster analytics data discrepancies."
+  ]
+}

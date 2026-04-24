@@ -1,0 +1,25 @@
+{
+  "chat_id": "oq-w0kAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2025-02-10",
+    "end": "2025-02-10"
+  },
+  "message_count": 8,
+  "topic": "Developing MC functionality for installation checks",
+  "topic_slug": "developing-mc-functionality-for-installation-checks",
+  "tags": [
+    "analytics",
+    "campaign",
+    "facility"
+  ],
+  "summary_markdown": "The discussion focused on developing a Minimum Component (MC) feature, specifically for checking installations. The functionality requires capturing photos and verifying geolocation data to confirm proper sensor installation and frame orientation. While one participant offered to prototype the concept using AI tools (PWA/Angular), another noted that gathering all requirements is complex due to multiple stakeholders' suggestions. It was determined that initial efforts should focus on understanding the core needs rather than building out specific features like photo capture or geolocation sharing, as there might be more critical functional requirements.\n\nRegarding photo capture, it was suggested that simply uploading photos from a gallery would suffice, though making it shareable directly from the application was considered a more complex alternative.",
+  "decisions": [
+    "The immediate priority is to gather and consolidate all required functionalities for the MC feature."
+  ],
+  "action_items": [
+    "[p1] will find out the specific requirements needed for the MC functionality."
+  ]
+}

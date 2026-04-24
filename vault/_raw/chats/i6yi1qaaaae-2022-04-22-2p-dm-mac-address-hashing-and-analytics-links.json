@@ -1,0 +1,23 @@
+{
+  "chat_id": "i6YI1QAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 2,
+  "date_range": {
+    "start": "2022-04-22",
+    "end": "2022-04-22"
+  },
+  "message_count": 47,
+  "topic": "MAC address hashing and analytics links",
+  "topic_slug": "mac-address-hashing-and-analytics-links",
+  "tags": [
+    "analytics",
+    "inventory"
+  ],
+  "summary_markdown": "The discussion covered the methodology for MAC address changes. It was clarified that real devices do not change their MAC addresses frequently unless a new phone is purchased, though some trusted locations may use more frequent changes.\n\nRegarding hashing, it was discussed whether a constant hash change mechanism (e.g., every 72 hours or on the first day of the month) is implemented for specific clients. It was noted that such implementation might have been done only for particular clients.\n\nFinally, links and instructions were provided for accessing analytics dashboards: one link for Mall Analytics and another set of comparison links (SALT CHEAT vs LV prod/salt) demonstrating how the salt hash changes monthly since the beginning of 2022.",
+  "decisions": [
+    "Provided a link to the Mall Analytics dashboard.",
+    "Provided specific analytics links comparing traffic data with and without the 'salt' dataset, noting that the salt hash changes monthly."
+  ],
+  "action_items": []
+}

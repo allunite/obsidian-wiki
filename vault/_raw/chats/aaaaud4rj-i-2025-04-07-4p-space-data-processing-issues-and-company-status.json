@@ -1,0 +1,26 @@
+{
+  "chat_id": "AAAAud4RJ_I",
+  "kind": "Space",
+  "space_name": "Group Chat",
+  "participants": 4,
+  "date_range": {
+    "start": "2025-04-07",
+    "end": "2025-04-07"
+  },
+  "message_count": 15,
+  "topic": "Data processing issues and company status",
+  "topic_slug": "data-processing-issues-and-company-status",
+  "tags": [
+    "analytics",
+    "campaign",
+    "session",
+    "facility"
+  ],
+  "summary_markdown": "The discussion centered on data processing issues observed after a company (WallDecaux) was marked inactive. Initial concerns included the disappearance of data from the City_Traffic category and empty feeds across multiple sources.\n\nIt was noted that when users are 'deleted,' they are actually marked as inactive, but in this instance, it appeared as if accounts were removed entirely, causing them to disappear from the company list (company_dict) used for filtering.\n\nLater, it was confirmed that data provision for WallDecaux must continue free of charge until June 2025. The team discussed the source of feeds for Germany and whether existing sensors or forecasts should be utilized, considering the possibility of disabling feed ingestion for Germany.",
+  "decisions": [
+    "Data provision for WallDecaux must continue free of charge until June 2025."
+  ],
+  "action_items": [
+    "Determine the source data (sensors or forecast) for German feeds and decide whether to disable feed ingestion for Germany."
+  ]
+}

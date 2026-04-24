@@ -1,0 +1,29 @@
+{
+  "chat_id": "AAAANqEY3K4",
+  "kind": "Space",
+  "space_name": "Group Chat",
+  "participants": 2,
+  "date_range": {
+    "start": "2023-09-07",
+    "end": "2023-09-07"
+  },
+  "message_count": 128,
+  "topic": "Frequency calculation formula adjustments and metrics",
+  "topic_slug": "frequency-calculation-formula-adjustments-and-metrics",
+  "tags": [
+    "analytics",
+    "impression",
+    "dwell-time",
+    "campaign",
+    "facility"
+  ],
+  "summary_markdown": "The session focused heavily on refining the frequency calculation formula used for analytics, particularly concerning different geographical locations (Rio de Janeiro and São Paulo) and their respective mathematical functions (natural logarithm 'ln' vs. base-10 logarithm 'log10').\n\n*   **Frequency Formula:** Multiple adjustments were made to the `getFrequency_2` function definition in the database/cluster, ensuring consistency across different cities and countries.\n*   **Metrics Implementation:** A new metric, ",
+  "decisions": [
+    "The frequency calculation formula was updated multiple times based on mathematical requirements (ln vs. log10) for specific locations.",
+    "A new dashboard metric, 'Viewed Impressions Per Face', was added to the dashboard."
+  ],
+  "action_items": [
+    "Wait for confirmation and final formula update from Vlad regarding frequency calculation.",
+    "Review the discrepancy between 'faces' count and 'slots' count in inventory data."
+  ]
+}

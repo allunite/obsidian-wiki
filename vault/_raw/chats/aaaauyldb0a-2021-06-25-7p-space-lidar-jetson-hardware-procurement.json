@@ -1,0 +1,23 @@
+{
+  "chat_id": "AAAAuyldb0A",
+  "kind": "Space",
+  "space_name": "Lidar development",
+  "participants": 7,
+  "date_range": {
+    "start": "2021-06-25",
+    "end": "2021-06-25"
+  },
+  "message_count": 7,
+  "topic": "Lidar and Jetson hardware procurement",
+  "topic_slug": "lidar-jetson-hardware-procurement",
+  "tags": [
+    "analytics"
+  ],
+  "summary_markdown": "The session involved coordinating the ordering of specific hardware components. Initially, a request was made to order one 2D Lidar (RPLidar S1) and one Jetson 4GB for an individual.\n\nLater, a question regarding the continuous operational capability and expected lifespan of the RPLidar S1 when queried from Slamtech was confirmed as relevant.",
+  "decisions": [
+    "Order one 2D Lidar (RPLidar S1) and one Jetson 4GB."
+  ],
+  "action_items": [
+    "Someone to send the query about the RPLidar S1's continuous operation capability and lifespan to Slamtech."
+  ]
+}

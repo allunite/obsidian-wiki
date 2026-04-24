@@ -1,0 +1,28 @@
+{
+  "chat_id": "y9IEDQAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2025-03-19",
+    "end": "2025-03-19"
+  },
+  "message_count": 33,
+  "topic": "Forecasting data cleanup and adjustments",
+  "topic_slug": "forecasting-data-cleanup-and-adjustments",
+  "tags": [
+    "analytics",
+    "campaign",
+    "impression",
+    "session"
+  ],
+  "summary_markdown": "The conversation focused on several data integrity issues related to forecasting and historical data. \n\n*   **Forecasting Data:** The initial forecast for the period of 28.02 to 18.02 was discussed, with follow-up questions regarding its confirmation status.\n*   **Data Duplicates:** Significant duplicate sessions were identified in the forecast dataset (e.g., appearing a week apart or three weeks apart). Someone decided to manually clean up these duplicates, noting that this issue has been occurring since around 20.02 and was not accounted for during previous data restoration.\n*   **AFA Data:** Concerns were raised about AFA data from February 28th to March 17th, including the possibility of re-uploading data to force a recalculation.\n*   **Rohm Data:** An issue with Rohm was identified where the forecast incorrectly generated traffic for periods when physical equipment (taxis) would be disconnected overnight. This required manual adjustment and historical correction.\n*   **Impressions:** Separately, someone reported that Marina was still working on resolving issues related to impressions.",
+  "decisions": [
+    "Duplicates in the forecast dataset will be manually cleaned up by removing 38 instances from the previous day's data.",
+    "The team is actively addressing AFA data and Rohm-related forecasting discrepancies."
+  ],
+  "action_items": [
+    "Follow up on the status of the AFA forecast for the period 28.02 to 17.03.",
+    "Correct historical traffic generation for Rohm by removing overnight forecast entries that conflict with physical operational schedules."
+  ]
+}

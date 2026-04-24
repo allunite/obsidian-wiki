@@ -1,0 +1,30 @@
+{
+  "chat_id": "AAAA3frAfLA",
+  "kind": "Space",
+  "space_name": "Lidar Tech",
+  "participants": 8,
+  "date_range": {
+    "start": "2021-12-16",
+    "end": "2021-12-16"
+  },
+  "message_count": 35,
+  "topic": "Documentation and zone tracking metrics",
+  "topic_slug": "documentation-and-zone-tracking-metrics",
+  "tags": [
+    "analytics",
+    "inventory",
+    "session"
+  ],
+  "summary_markdown": "The discussion focused on finalizing documentation for location analytics, specifically regarding the use of 'Zone' terminology over 'consideration field'. It was decided to keep 'Zone' for consistency. Participants also discussed adding advanced metrics such as conversion rate and bounce rate (indicating movement from an initial zone without proceeding to a second). Regarding mapping, it was suggested whether to include a full map with zones in the current document or send it separately. The team agreed on clarifying how 'Exposed zone' is calculated, suggesting a simple parenthetical note: \"Optionally provided by AllUnite.\" Finally, the documentation was deemed ready for publication/presentation use.",
+  "decisions": [
+    "The term 'Zone' will be used consistently in documentation.",
+    "Advanced metrics like conversion rate and bounce rate should be considered for inclusion.",
+    "A full map detailing zones may need to be provided separately from the main document.",
+    "The calculation method for 'Exposed zone' will be clarified with a parenthetical note."
+  ],
+  "action_items": [
+    "Review and finalize the documentation draft (including adding an outer cover).",
+    "Provide the map detailing zones to confirm a meeting presentation for Monday.",
+    "Prepare examples demonstrating the difference in visualization (e.g., Dubai example) to explain the concept."
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "chat_id": "AAAAuyldb0A",
+  "kind": "Space",
+  "space_name": "Lidar development",
+  "participants": 7,
+  "date_range": {
+    "start": "2021-09-29",
+    "end": "2021-09-29"
+  },
+  "message_count": 3,
+  "topic": "Requesting specific development data",
+  "topic_slug": "requesting-specific-development-data",
+  "tags": [
+    "analytics"
+  ],
+  "summary_markdown": "Someone requested a picture showing the 11th lane and also requested interim data covering a full hour in Estonia.",
+  "decisions": [],
+  "action_items": [
+    "Send picture of 11th lane",
+    "Provide interim data for full hour in Estonia"
+  ]
+}

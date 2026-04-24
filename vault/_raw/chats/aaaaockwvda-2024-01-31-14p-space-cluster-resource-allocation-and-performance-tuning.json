@@ -1,0 +1,27 @@
+{
+  "chat_id": "AAAAOcKWvdA",
+  "kind": "Space",
+  "space_name": "Delivery Coordination",
+  "participants": 14,
+  "date_range": {
+    "start": "2024-01-31",
+    "end": "2024-01-31"
+  },
+  "message_count": 30,
+  "topic": "Cluster resource allocation and performance tuning",
+  "topic_slug": "cluster-resource-allocation-and-performance-tuning",
+  "tags": [
+    "analytics",
+    "campaign",
+    "recalc-ch"
+  ],
+  "summary_markdown": "The discussion focused on diagnosing high load and potential bottlenecks within the cluster infrastructure. Initial concerns included a traffic page failing to load for one user, though this was later reported as resolved.\n\nRegarding resource management, it was noted that the current system is experiencing high CPU utilization across all machines. A proposed solution involves reconfiguring the cluster setup: making segments 01-03 thinner and segment 04 significantly thicker, with all jobs running on segment 04. This change aims to mitigate memory warnings (e.g., insufficient capacity for recalculations) by upgrading resources to 128 GB, while ensuring that segments 01-03 can still provide adequate data using only 16 GB.\n\nSpecific services like prediction models and job runs were noted as being resource-intensive, leading to temporary load spikes. The decision was made not to disable these critical processes despite the current high load.",
+  "decisions": [
+    "Reconfigure cluster by making segments 01-03 thinner and segment 04 thicker",
+    "Run all jobs on segment 04",
+    "Upgrade resources to 128 GB to prevent memory warnings during recalculations"
+  ],
+  "action_items": [
+    "Monitor cluster performance after proposed reconfiguration"
+  ]
+}

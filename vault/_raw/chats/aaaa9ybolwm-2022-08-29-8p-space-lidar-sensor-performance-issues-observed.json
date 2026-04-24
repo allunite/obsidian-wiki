@@ -1,0 +1,21 @@
+{
+  "chat_id": "AAAA9ybOLwM",
+  "kind": "Space",
+  "space_name": "ИТ",
+  "participants": 8,
+  "date_range": {
+    "start": "2022-08-29",
+    "end": "2022-08-29"
+  },
+  "message_count": 4,
+  "topic": "Lidar sensor performance issues observed",
+  "topic_slug": "lidar-sensor-performance-issues-observed",
+  "tags": [
+    "analytics"
+  ],
+  "summary_markdown": "A new lidar sensor was installed and began malfunctioning after working for three days. The sensor, which is only seven days old, showed erratic data: one day recorded significantly fewer sessions (10k per hour) compared to the expected 200 sessions/hour rate. It was noted that the issue might be temporary or related to external factors like weather or unusual user behavior (e.g., a marathon event).",
+  "decisions": [],
+  "action_items": [
+    "Observe sensor performance further"
+  ]
+}

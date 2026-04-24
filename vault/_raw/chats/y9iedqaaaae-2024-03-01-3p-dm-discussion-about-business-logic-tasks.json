@@ -1,0 +1,19 @@
+{
+  "chat_id": "y9IEDQAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2024-03-01",
+    "end": "2024-03-01"
+  },
+  "message_count": 4,
+  "topic": "Discussion about business logic tasks",
+  "topic_slug": "discussion-about-business-logic-tasks",
+  "tags": [
+    "analytics"
+  ],
+  "summary_markdown": "Someone discussed with another party the need for more tasks that are directly related to business logic. The goal is to move beyond current scope and take on more complex, strategic assignments.",
+  "decisions": [],
+  "action_items": []
+}

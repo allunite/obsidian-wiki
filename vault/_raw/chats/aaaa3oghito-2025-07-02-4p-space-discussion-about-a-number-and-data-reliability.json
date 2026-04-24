@@ -1,0 +1,19 @@
+{
+  "chat_id": "AAAA3oghITo",
+  "kind": "Space",
+  "space_name": "Кабаны",
+  "participants": 4,
+  "date_range": {
+    "start": "2025-07-02",
+    "end": "2025-07-02"
+  },
+  "message_count": 5,
+  "topic": "Discussion about a number and data reliability",
+  "topic_slug": "discussion-about-a-number-and-data-reliability",
+  "tags": [
+    "analytics"
+  ],
+  "summary_markdown": "The participants discussed the reliability of certain data, expressing skepticism about its source. A specific focus was placed on the number 27, with one participant suggesting it might be significant due to historical or cultural associations (e.g., military service). The conversation concluded by questioning how the data specifically derived the value 27.",
+  "decisions": [],
+  "action_items": []
+}

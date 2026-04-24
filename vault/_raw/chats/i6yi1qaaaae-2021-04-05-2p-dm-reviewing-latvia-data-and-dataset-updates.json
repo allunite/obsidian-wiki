@@ -1,0 +1,24 @@
+{
+  "chat_id": "i6YI1QAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 2,
+  "date_range": {
+    "start": "2021-04-05",
+    "end": "2021-04-05"
+  },
+  "message_count": 10,
+  "topic": "Reviewing Latvia data and dataset updates",
+  "topic_slug": "reviewing-latvia-data-and-dataset-updates",
+  "tags": [
+    "analytics",
+    "dwell-time"
+  ],
+  "summary_markdown": "The conversation focused on reviewing analytics data for Latvia. It was confirmed that vendor 0 and Apple data appear to have been removed. Additionally, the dataset was updated, including a fix for mall dwell time.",
+  "decisions": [
+    "Vendor 0 and Apple data are considered removed from the Latvian data."
+  ],
+  "action_items": [
+    "Someone needs to review the updated dataset and the dwell-time fix."
+  ]
+}

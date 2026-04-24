@@ -1,0 +1,23 @@
+{
+  "chat_id": "y9IEDQAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2021-03-17",
+    "end": "2021-03-17"
+  },
+  "message_count": 12,
+  "topic": "Mac address collision issue resolution",
+  "topic_slug": "mac-address-collision-issue-resolution",
+  "tags": [
+    "analytics"
+  ],
+  "summary_markdown": "The discussion centered on a technical issue involving data logging and potential collisions. It was determined that the problem was caused by a cache overlap/conflict, specifically when MAC addresses contained zeros. When this condition occurred, the system experienced an overload or glitch. The conflict only manifested if multiple MAC addresses with identical starting sequences (up to the first zero) were observed within a five-minute window.\n\nStatistics were provided showing that on March 1st, the collision rate was calculated at 0.021% for all sessions (including local data) and 1.428% for calibrated real data.",
+  "decisions": [
+    "The technical issue was identified as a cache overlap/conflict related to MAC addresses containing zeros."
+  ],
+  "action_items": [
+    "Someone will fix the underlying code/system issue."
+  ]
+}

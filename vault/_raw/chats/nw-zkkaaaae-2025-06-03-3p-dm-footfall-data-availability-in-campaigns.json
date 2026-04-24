@@ -1,0 +1,22 @@
+{
+  "chat_id": "nW_zkkAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2025-06-03",
+    "end": "2025-06-03"
+  },
+  "message_count": 10,
+  "topic": "Footfall data availability in campaigns",
+  "topic_slug": "footfall-data-availability-in-campaigns",
+  "tags": [
+    "analytics",
+    "facility"
+  ],
+  "summary_markdown": "The discussion focused on the location and inclusion of footfall data within campaign reporting. It was confirmed that footfall metrics are not universally available across all campaigns but may be specific to certain facilities or clusters, such as one mentioned in Provence.\n\nIt was established that if a cluster contains at least one frame where footfall is recorded, this metric should be reported for the entire cluster within the campaign context.",
+  "decisions": [
+    "Footfall data must be shown for an entire cluster if any single frame within that cluster includes the metric."
+  ],
+  "action_items": []
+}

@@ -1,0 +1,24 @@
+{
+  "chat_id": "y9IEDQAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2024-09-16",
+    "end": "2024-09-16"
+  },
+  "message_count": 9,
+  "topic": "API project status and data transfer",
+  "topic_slug": "api-project-status-and-data-transfer",
+  "tags": [
+    "analytics",
+    "campaign"
+  ],
+  "summary_markdown": "The conversation covered an API project, referencing a high priority ticket (MMT-447). Later, someone requested that the raw data be switched to Norris. It was noted that viewing the difference in data is currently difficult due to cluster issues.",
+  "decisions": [
+    "Raw data transfer needs to be switched to Norris."
+  ],
+  "action_items": [
+    "[p1] will switch the raw data source to Norris."
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "chat_id": "nW_zkkAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2023-07-10",
+    "end": "2023-07-10"
+  },
+  "message_count": 4,
+  "topic": "VA data cleanup and file delivery",
+  "topic_slug": "va-data-cleanup-and-file-delivery",
+  "tags": [
+    "analytics"
+  ],
+  "summary_markdown": "Someone noted that the VA (Verification/Validation?) data contained duplicates. They are currently working on resolving these issues and anticipate sending the corrected file tomorrow.",
+  "decisions": [],
+  "action_items": [
+    "p1 to send the cleaned VA file tomorrow."
+  ]
+}

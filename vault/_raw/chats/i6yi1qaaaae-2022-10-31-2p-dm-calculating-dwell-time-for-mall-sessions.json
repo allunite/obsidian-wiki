@@ -1,0 +1,25 @@
+{
+  "chat_id": "i6YI1QAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 2,
+  "date_range": {
+    "start": "2022-10-31",
+    "end": "2022-10-31"
+  },
+  "message_count": 43,
+  "topic": "Calculating dwell time for mall sessions",
+  "topic_slug": "calculating-dwell-time-for-mall-sessions",
+  "tags": [
+    "dwell-time",
+    "session",
+    "analytics"
+  ],
+  "summary_markdown": "The discussion focused on methods for calculating accurate dwell time within a mall environment. Initial queries suggested using session start and end dates, but concerns were raised about the methodology not accounting for long breaks (e.g., 1 or 2 hours) between sessions.\n\nIt was confirmed that the current system's calculation method involves summing all session durations without dividing by the number of sessions. This approach was implemented quickly to ensure a large enough dwell time figure for presentations, and it has since been adopted.\n\nThe participant provided an updated query structure to review with someone else.",
+  "decisions": [
+    "The current system's method for calculating dwell time (summing all session durations without dividing by the number of sessions) was confirmed and accepted."
+  ],
+  "action_items": [
+    "[me] sent the updated query structure to someone else for review."
+  ]
+}

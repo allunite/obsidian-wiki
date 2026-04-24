@@ -1,0 +1,23 @@
+{
+  "chat_id": "8GgAuwAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 2,
+  "date_range": {
+    "start": "2023-03-15",
+    "end": "2023-03-15"
+  },
+  "message_count": 15,
+  "topic": "Office space allocation discussion",
+  "topic_slug": "office-space-allocation-discussion",
+  "tags": [
+    "facility"
+  ],
+  "summary_markdown": "The conversation shifted from analytics questions to a procedural discussion regarding office space. There are two private smart offices available in CS (effectively 2+2). With only three current full-time candidates for these spots, [me] suggested adding an additional person (e.g., Дима) to the list of occupants. This was discussed as a potential arrangement where the new occupant could visit several times a week.",
+  "decisions": [
+    "The addition of another person to the private smart office space is agreed upon."
+  ],
+  "action_items": [
+    "Someone will inform Дима, who will then contact [me]."
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "chat_id": "oq-w0kAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2023-07-24",
+    "end": "2023-07-24"
+  },
+  "message_count": 7,
+  "topic": "Daily check-in and reporting logistics",
+  "topic_slug": "daily-check-in-and-reporting-logistics",
+  "tags": [
+    "analytics"
+  ],
+  "summary_markdown": "The participants had a brief morning check-in. [p1] requested that [me] send over any reports or metrics when available, suggesting they would schedule a call to review them. They also reminded [me] about picking up a monitor from the office.",
+  "decisions": [
+    "N/A"
+  ],
+  "action_items": [
+    "[me] will pick up the monitor from the office in the coming days."
+  ]
+}

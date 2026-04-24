@@ -1,0 +1,24 @@
+{
+  "chat_id": "6ize28AAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2025-10-31",
+    "end": "2025-10-31"
+  },
+  "message_count": 14,
+  "topic": "Checking frequency differences between ad types",
+  "topic_slug": "checking-frequency-differences-between-ad-types",
+  "tags": [
+    "analytics",
+    "frequency"
+  ],
+  "summary_markdown": "The discussion focused on investigating why the frequency metrics differ significantly between YouTube (YTS) and non-YouTube (non-YTS) inventory. It was confirmed that the frequency calculation should be performed using the ML API, not SQL.\n\n[me] provided instructions for reloading specific dictionaries (`ml_frequency_logreg_http_dict_2`) on the cluster, advising [p1] to execute these commands himself. The reload procedure differs by environment: Production requires reloads №№1 and №№3, while Staging only requires №2.",
+  "decisions": [
+    "Frequency calculation must use the ML API."
+  ],
+  "action_items": [
+    "[me] provided dictionary reload instructions for [p1]."
+  ]
+}

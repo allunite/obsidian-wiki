@@ -1,0 +1,21 @@
+{
+  "chat_id": "i6YI1QAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 2,
+  "date_range": {
+    "start": "2021-06-15",
+    "end": "2021-06-15"
+  },
+  "message_count": 11,
+  "topic": "Improving data extraction from device packets",
+  "topic_slug": "improving-data-extraction-from-device-packets",
+  "tags": [
+    "analytics"
+  ],
+  "summary_markdown": "The discussion focused on identifying additional types of data that could be extracted from device packets, specifically within the context of a 'trusted' firmware update. Suggestions included identifying the type of packet (e.g., connect, service, data, beacon) and finding a more accurate way to exclude permanent records.",
+  "decisions": [
+    "Added suggestions regarding packet type identification and excluding permanents to the workshop discussion list."
+  ],
+  "action_items": []
+}

@@ -1,0 +1,21 @@
+{
+  "chat_id": "uJ8JA8AAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2025-11-06",
+    "end": "2025-11-06"
+  },
+  "message_count": 3,
+  "topic": "Deployment status confirmation",
+  "topic_slug": "deployment-status-confirmation",
+  "tags": [
+    "analytics"
+  ],
+  "summary_markdown": "The deployment was confirmed as successful on staging. The participants agreed that the code/feature could be moved to production.",
+  "decisions": [
+    "Staging deployment is complete and approved for production."
+  ],
+  "action_items": []
+}

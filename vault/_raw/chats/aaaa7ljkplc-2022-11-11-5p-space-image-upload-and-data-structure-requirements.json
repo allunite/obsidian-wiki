@@ -1,0 +1,28 @@
+{
+  "chat_id": "AAAA7lJKPlc",
+  "kind": "Space",
+  "space_name": "Frontend",
+  "participants": 5,
+  "date_range": {
+    "start": "2022-11-11",
+    "end": "2022-11-11"
+  },
+  "message_count": 34,
+  "topic": "Image upload and data structure requirements",
+  "topic_slug": "image-upload-and-data-structure-requirements",
+  "tags": [
+    "facility",
+    "impression",
+    "analytics",
+    "asset"
+  ],
+  "summary_markdown": "The discussion covered technical requirements for uploading images and the necessary data structure updates.\n\n**Image Upload:**\n*   Initial setup required adding access key/secret to environment variables, and changing the upload pass due to restricted write access.\n*   A specific S3 folder path was determined: `captive-portals/_testing/${req.user.getCompanyId()}/facilities/${facilily.id}/${newFileName}`.\n\n**Image Types & Data Structure:**\nThree types of images were defined:\n1.  **Classification Image:** Created only from Google Street View, containing additional properties (date, ID, distance to frame, position).\n2.  **Presentation Image:** Can be uploaded from disk or captured via Google Maps.\n3.  **Facility Presentation Image:** An image showing the whole facility, which should allow user uploads (currently missing a design drop area).\n\nRegarding data structure, updates were proposed:\n*   The `Facility` entity's asset data field (`asset.images`) needs to be updated.\n*   A new `Frame` entity was introduced under `Facility.Asset/AssetData.Frames[]`. Each frame must contain two arrays: `presentationImages` and `classificationImages`, each holding objects with URL and specific metadata (e.g., `use_as_equipment_image`, `lat`, `lng`, `date`).",
+  "decisions": [
+    "The required S3 upload path is set to `captive-portals/_testing/${req.user.getCompanyId()}/facilities/${facilily.id}/${newFileName}`.",
+    "A new data structure was defined for the Facility asset: it includes a Frame entity, which must contain separate arrays for presentation and classification images with specific metadata."
+  ],
+  "action_items": [
+    "Implement changes to allow image uploads using the specified S3 path.",
+    "Update the database schema/code to reflect the new `Frame` entity structure within the Facility asset data."
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "chat_id": "nW_zkkAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2023-08-18",
+    "end": "2023-08-18"
+  },
+  "message_count": 5,
+  "topic": "Database query review and deletion",
+  "topic_slug": "database-query-review-and-deletion",
+  "tags": [
+    "analytics"
+  ],
+  "summary_markdown": "The conversation involves reviewing a SQL DELETE statement intended to clean data related to 'Габон' (Gabon). The provided query targets the `device_session_concept_sharded` table, deleting records based on specific company and facility numbers. [p1] stated that the query was unnecessary ('ноуп'), suggesting someone else might have been performing deletions.",
+  "decisions": [],
+  "action_items": []
+}

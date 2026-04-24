@@ -1,0 +1,27 @@
+{
+  "chat_id": "oq-w0kAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2024-02-19",
+    "end": "2024-02-19"
+  },
+  "message_count": 22,
+  "topic": "Updating campaign parameters from URL",
+  "topic_slug": "updating-campaign-parameters-from-url",
+  "tags": [
+    "analytics",
+    "campaign",
+    "inventory",
+    "loop"
+  ],
+  "summary_markdown": "The discussion focused on improving the process of updating campaign parameters by allowing data to be passed directly via URL parameters. Initially, a task was assigned to handle passing specific parameters from the URL into the system's payload.\n\nKey points included:\n*   **URL Parameter Handling:** The current method requires manual steps (e.g., viewing shared screens) instead of simply using a link, which is inefficient for debugging and data analysis.\n*   **Scope Expansion:** It was suggested that in the future, the system should be updated to automatically overwrite various campaign parameters from the URL, such as time zones (`tz`) and potentially even lists of frames/inventory.\n*   **Implementation Details:** A specific parameter `ds` needs to be read from the URL if present and included in the request body payload. It was noted that this parameter previously wasn't passed via the campaign payload.\n*   **UI vs. Payload:** There is a discussion about whether URL parameters should overwrite the values displayed on the User Interface (UI) form, or if they should only be used to replace the data within the backend request payload. The consensus leaned towards limiting this functionality to internal use and payload replacement only.",
+  "decisions": [
+    "Implement reading parameter `ds` from URL and including it in the request body payload.",
+    "Future development should consider overwriting multiple campaign parameters (e.g., time zone, frames) from the URL for easier debugging."
+  ],
+  "action_items": [
+    "Review whether URL parameters should overwrite UI form values or only replace backend payload data."
+  ]
+}

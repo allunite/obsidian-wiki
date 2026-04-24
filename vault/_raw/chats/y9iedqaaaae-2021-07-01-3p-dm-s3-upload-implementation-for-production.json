@@ -1,0 +1,23 @@
+{
+  "chat_id": "y9IEDQAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2021-07-01",
+    "end": "2021-07-01"
+  },
+  "message_count": 12,
+  "topic": "s3 upload implementation for production",
+  "topic_slug": "s3-upload-implementation-for-production",
+  "tags": [
+    "analytics"
+  ],
+  "summary_markdown": "The conversation concerns implementing S3 uploads. The functionality was approved on the development environment (dev) by 'the Frenchmen' and is now requested for the production environment (prod). It was discussed that this might require setting up a second job, one for dev and one for prod.\n\nSeparately, it was noted regarding the mod system that inserting HTML without escaping may be possible using the same editor used in the captive portal. However, SQL operations are likely to use escaping everywhere, possibly utilizing a dedicated component. It was also mentioned that if an authorized user logs in, they can probably perform actions without needing complex injection methods.",
+  "decisions": [
+    "S3 upload functionality needs to be implemented on production (prod) after being approved on development (dev)."
+  ],
+  "action_items": [
+    "Update the ticket and provide credentials for the implementation."
+  ]
+}

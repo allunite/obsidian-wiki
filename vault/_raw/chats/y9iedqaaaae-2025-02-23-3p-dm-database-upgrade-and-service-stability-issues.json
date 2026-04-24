@@ -1,0 +1,26 @@
+{
+  "chat_id": "y9IEDQAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2025-02-23",
+    "end": "2025-02-23"
+  },
+  "message_count": 61,
+  "topic": "Database upgrade and service stability issues",
+  "topic_slug": "database-upgrade-and-service-stability-issues",
+  "tags": [
+    "analytics",
+    "campaign",
+    "inventory"
+  ],
+  "summary_markdown": "The primary focus was on upgrading a database system (ClickHouse). Initial attempts to apply the configuration and upgrade failed, leading to service instability. The team discussed proper shutdown procedures, noting that standard `sudo service clickhouse-server stop` commands were failing or causing services to hang across multiple servers.\n\nIt was determined that manual intervention (e.g., using AWS Console for stopping instances) and process killing were necessary to manage the upgrade cycle. After several restarts and checks on multiple nodes, all systems eventually reported working status, including DNS resolution and cache warming.\n\nLater, a discussion occurred regarding an alternative database solution (FerretDB), which was deemed unnecessary for current requirements.\n\nFinally, [me] noted that ClickHouse had broken again, requiring a job to be run to fix it.",
+  "decisions": [
+    "The system was upgraded to the latest stable version of ClickHouse (25.1).",
+    "Scripts will be updated to prevent future upgrade issues."
+  ],
+  "action_items": [
+    "Run a job to repair the broken ClickHouse instance."
+  ]
+}

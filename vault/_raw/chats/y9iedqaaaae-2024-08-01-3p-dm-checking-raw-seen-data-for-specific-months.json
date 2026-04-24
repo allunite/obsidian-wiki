@@ -1,0 +1,21 @@
+{
+  "chat_id": "y9IEDQAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2024-08-01",
+    "end": "2024-08-01"
+  },
+  "message_count": 14,
+  "topic": "Checking raw seen data for specific months",
+  "topic_slug": "checking-raw-seen-data-for-specific-months",
+  "tags": [
+    "analytics"
+  ],
+  "summary_markdown": "The discussion centered on accessing and checking 'raw seen' data stored in S3 for months 4 and 5. Initially, [me] requested assistance with this check due to not having AWS MFA access on their computer. Later, someone mentioned that the job might be available there, and [p1] offered to check the job status.",
+  "decisions": [],
+  "action_items": [
+    "Someone will check the raw seen data/job availability."
+  ]
+}

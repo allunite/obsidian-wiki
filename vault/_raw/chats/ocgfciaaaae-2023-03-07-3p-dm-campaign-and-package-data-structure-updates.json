@@ -1,0 +1,31 @@
+{
+  "chat_id": "oCgFCIAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2023-03-07",
+    "end": "2023-03-07"
+  },
+  "message_count": 49,
+  "topic": "Campaign and package data structure updates",
+  "topic_slug": "campaign-and-package-data-structure-updates",
+  "tags": [
+    "analytics",
+    "facility",
+    "inventory",
+    "campaign",
+    "impression"
+  ],
+  "summary_markdown": "The discussion focused on updating the data structure for campaign and package management. Key decisions included:\n\n*   **Package Structure:** Packages should be stored simply in a table format, including `name`, `company_id`, and an array of `facility_ids` to handle facilities from different publishers.\n*   **Availability Requests:** When saving a company, the system must generate availability requests. This process needs to be implemented with a simple logic flow, ideally using event sourcing principles (similar to what was done in Stylepit).\n*   **Company Saving Logic:** The implementation for saving companies should initially keep the scope narrow, focusing on core data and avoiding premature inclusion of complex elements like full facility or package lists.\n*   **Facility Data Enrichment:** For grouping facilities by city/region/country, it was decided to use existing fields from the asset (asset) table. This approach will be used for both regional grouping and demographic updates, even if the initial implementation is simplified.",
+  "decisions": [
+    "Packages should store facility IDs in a simple table structure (name, company_id, facility_ids array).",
+    "Availability requests must be generated upon saving a company.",
+    "The logic for generating availability requests should be kept simple and use event sourcing principles.",
+    "Facility location data (city/region/country) will be sourced from the asset table."
+  ],
+  "action_items": [
+    "Implement the task for saving companies, including availability request generation.",
+    "Investigate how to handle demographic data changes in Brazil due to the lack of postal codes."
+  ]
+}

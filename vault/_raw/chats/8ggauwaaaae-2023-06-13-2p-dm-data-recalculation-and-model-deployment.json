@@ -1,0 +1,26 @@
+{
+  "chat_id": "8GgAuwAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 2,
+  "date_range": {
+    "start": "2023-06-13",
+    "end": "2023-06-13"
+  },
+  "message_count": 21,
+  "topic": "Data recalculation and model deployment",
+  "topic_slug": "data-recalculation-and-model-deployment",
+  "tags": [
+    "analytics",
+    "facility",
+    "campaign"
+  ],
+  "summary_markdown": "The conversation focused on data analysis for Latvia, specifically regarding three sensors. The initial discussion involved recalculating traffic unique counts (both individual and combined) over two days using either a factor application or by running the previous 'bus shelters' model.\n\nLater in the session, there was confirmation that a change to a category needed to be applied to facilities. This task was completed and then followed by multiple confirmations of tasks being finished ('done') and deployed/released.",
+  "decisions": [
+    "The method for recalculating traffic unique counts (factor application vs. running the bus shelters model) needs to be determined.",
+    "A category change needed to be applied to facilities."
+  ],
+  "action_items": [
+    "Determine and execute the best method (factor or model run) for calculating combined and individual unique traffic counts in Latvia over two days."
+  ]
+}

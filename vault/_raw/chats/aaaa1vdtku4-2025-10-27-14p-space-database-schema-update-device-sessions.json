@@ -1,0 +1,25 @@
+{
+  "chat_id": "AAAA1vdtku4",
+  "kind": "Space",
+  "space_name": "DataTeam+",
+  "participants": 14,
+  "date_range": {
+    "start": "2025-10-27",
+    "end": "2025-10-27"
+  },
+  "message_count": 3,
+  "topic": "Database schema update for device sessions",
+  "topic_slug": "database-schema-update-device-sessions",
+  "tags": [
+    "analytics",
+    "session"
+  ],
+  "summary_markdown": "The `device_session` table was converted to a new format and moved to the 'dev' database on clicknorris.allunite.local to fix performance issues. The `device_session_trusted` table is unaffected.\n\nKey changes include:\n*   The `device_session.device_id` field will now store data for up to two months and then be set to zero (this field is noted as not being critical for jobs or most scripts).\n*   Scripts accessing the table must be updated to use the new structure, specifically targeting the `dev.device_session` table.\n\nUsers should refresh SQL scripts from the specified GitHub repository template path. SELECT queries on the original `device_session` table still function without changes. However, any local data removal scripts must be corrected to follow the new syntax: `DELETE FROM dev.device_session WHERE <session_start_date condition> AND <other conditions>`.",
+  "decisions": [
+    "The `device_session` table is now located in the 'dev' database on clicknorris.allunite.local."
+  ],
+  "action_items": [
+    "Refresh SQL scripts from the specified GitHub repository template path.",
+    "Update local data removal queries to use the new syntax: `DELETE FROM dev.device_session WHERE <session_start_date condition> AND <other conditions>`."
+  ]
+}

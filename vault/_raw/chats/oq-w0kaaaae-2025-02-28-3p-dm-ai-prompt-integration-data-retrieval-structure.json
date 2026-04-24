@@ -1,0 +1,22 @@
+{
+  "chat_id": "oq-w0kAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2025-02-28",
+    "end": "2025-02-28"
+  },
+  "message_count": 9,
+  "topic": "AI prompt integration and data retrieval structure",
+  "topic_slug": "ai-prompt-integration-data-retrieval-structure",
+  "tags": [
+    "analytics",
+    "query"
+  ],
+  "summary_markdown": "The discussion focused on the technical implementation of integrating AI prompts with structured data queries. The proposed response format involves sending a JSON object containing both a human-readable `message` (the textual answer) and a machine-readable `query` object. This query object will contain parameters like date ranges (`fromDate`, `toDate`), specific facility IDs, and granularity, allowing the dashboard page to display the retrieved data.\n\nKey points discussed:\n*   The system needs to merge AI-generated queries with existing filters.\n*   A dedicated endpoint for connecting prompts from the front end is not yet available.\n*   There is currently no associated task ticket for implementing the prompt functionality.",
+  "decisions": [
+    "The response structure will include a message and a query object."
+  ],
+  "action_items": []
+}

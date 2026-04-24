@@ -1,0 +1,25 @@
+{
+  "chat_id": "i6YI1QAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 2,
+  "date_range": {
+    "start": "2021-10-25",
+    "end": "2021-10-25"
+  },
+  "message_count": 66,
+  "topic": "Data pipeline updates and debugging",
+  "topic_slug": "data-pipeline-updates-and-debugging",
+  "tags": [
+    "analytics",
+    "campaign",
+    "facility"
+  ],
+  "summary_markdown": "The conversation covered multiple technical topics, including SQL query refinement for filtering facility data based on `ml_model` status (empty vs. 'Low'). Later discussions focused on deploying new model data for Germany and troubleshooting a dashboard failure.\n\n**Key Technical Points:**\n*   SQL queries were adjusted to correctly filter facilities where the `ml_model` field was empty or set to 'Low'. The correct query structure involving `visitParamExtractString(dictGetString('facility_2', 'asset_data', toUInt64(facility_num)), 'ml_model')` was established.\n*   The process for deploying new model data (Germany) involved committing fixes to the staging environment and merging them to production, expected closer to the evening.\n*   A dashboard failure occurred due to potential differences in applied filters or dataset selection between environments (staging vs. account data).\n\n**Decisions:**\n*   The deployment of new German model data will be finalized on production starting the next morning.\n\n**Action Items:**\n*   [me] confirmed ability to handle the German model data release to production.",
+  "decisions": [
+    "New German model data will be released to production the following morning."
+  ],
+  "action_items": [
+    "[me] to assist with the German model data release to production."
+  ]
+}

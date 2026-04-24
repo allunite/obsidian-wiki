@@ -1,0 +1,32 @@
+{
+  "chat_id": "y9IEDQAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2023-11-30",
+    "end": "2023-11-30"
+  },
+  "message_count": 37,
+  "topic": "API development and data structure review",
+  "topic_slug": "api-development-and-data-structure-review",
+  "tags": [
+    "analytics",
+    "impression",
+    "frame",
+    "inventory",
+    "campaign",
+    "facility",
+    "loop",
+    "recalc-ch"
+  ],
+  "summary_markdown": "The discussion focused on redesigning an API endpoint (potentially `/report/v5`) to include metrics such as impressions, frequency, and other data points. The inclusion of virtual sensors in the API was confirmed, though mechanisms for flagging or excluding this data were discussed.\n\nSpecific data capabilities mentioned included adding `viable`/`viewed` impressions for facilities, as well as `rots`, `vac`, and impressions for frames.\n\nA major issue identified was a 'bug' where every frame received two slightly different records for `rots`, `vac`, and `impressions`. This duplication required investigation into the data pipeline commits. The participants agreed that one person should take ownership of the data API to thoroughly investigate these complex metrics.",
+  "decisions": [
+    "The API structure needs updating to include impressions, frequency, and virtual sensor data.",
+    "A dedicated effort is needed to resolve the duplication bug affecting `rots`, `vac`, and `impressions` records per frame."
+  ],
+  "action_items": [
+    "[p1] will take ownership of the data API development to investigate complex metrics (e.g., rots, vac, impressions).",
+    "[me] needs to provide access to the firmware for review."
+  ]
+}

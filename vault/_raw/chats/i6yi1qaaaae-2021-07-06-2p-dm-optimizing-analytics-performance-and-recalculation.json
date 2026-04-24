@@ -1,0 +1,21 @@
+{
+  "chat_id": "i6YI1QAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 2,
+  "date_range": {
+    "start": "2021-07-06",
+    "end": "2021-07-06"
+  },
+  "message_count": 7,
+  "topic": "Optimizing analytics performance and recalculation",
+  "topic_slug": "optimizing-analytics-performance-and-recalculation",
+  "tags": [
+    "analytics"
+  ],
+  "summary_markdown": "The session discussed a technical issue where the system was experiencing low memory due to heavy, real-time map queries from open analytics tools. Someone plans to optimize the process. Later, [me] confirmed that a recalculation for the day had been successfully completed.",
+  "decisions": [
+    "System optimization is required for heavy real-time map queries."
+  ],
+  "action_items": []
+}

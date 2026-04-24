@@ -1,0 +1,26 @@
+{
+  "chat_id": "0VorOYAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2026-03-04",
+    "end": "2026-03-04"
+  },
+  "message_count": 10,
+  "topic": "Re-running virtual session data for Pakistan",
+  "topic_slug": "re-running-virtual-session-data-for-pakistan",
+  "tags": [
+    "analytics",
+    "session",
+    "inventory"
+  ],
+  "summary_markdown": "The discussion focused on using a specific SQL script to re-inject virtual session data for Pakistan due to changes in sensor linking. The user confirmed that running the script with `param_clearExisting = 1` will successfully insert new sessions and delete old ones, preventing duplicates.\n\nThe required date ranges for the re-injection are:\n*   **Start Date:** 2025-11-13 (for data starting from sensors)\n*   **Previous Run:** 2026-02-05\n*   **New Linking Dates:** 2025-02-19 (indicating that the process should cover data from this point onward).\n\nThe task was assigned to [me] for completion, with a follow-up requirement for demographic data via citydata by next Thursday due to a project deadline.",
+  "decisions": [
+    "The virtual session script can be used independently to re-inject data for Pakistan."
+  ],
+  "action_items": [
+    "Complete the task (ClickUp link provided) related to the session data injection.",
+    "Gather demographic data using citydata by next Thursday."
+  ]
+}

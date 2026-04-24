@@ -1,0 +1,21 @@
+{
+  "chat_id": "y9IEDQAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2021-07-14",
+    "end": "2021-07-14"
+  },
+  "message_count": 4,
+  "topic": "Clearing unnecessary screen sessions",
+  "topic_slug": "clearing-unnecessary-screen-sessions",
+  "tags": [
+    "session"
+  ],
+  "summary_markdown": "Someone opened many screen sessions on ch04. They asked if they could delete all of them, confirming that [p1] does not use the screen feature and gave permission to proceed with deleting the unnecessary sessions.",
+  "decisions": [
+    "The user has permission to delete all excess screen sessions on ch04."
+  ],
+  "action_items": []
+}

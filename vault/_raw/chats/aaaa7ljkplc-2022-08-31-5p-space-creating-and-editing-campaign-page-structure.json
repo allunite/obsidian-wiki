@@ -1,0 +1,28 @@
+{
+  "chat_id": "AAAA7lJKPlc",
+  "kind": "Space",
+  "space_name": "Frontend",
+  "participants": 5,
+  "date_range": {
+    "start": "2022-08-31",
+    "end": "2022-08-31"
+  },
+  "message_count": 7,
+  "topic": "Creating and editing campaign page structure",
+  "topic_slug": "creating-and-editing-campaign-page-structure",
+  "tags": [
+    "campaign",
+    "inventory",
+    "facility"
+  ],
+  "summary_markdown": "A new page is being developed to allow users to create or edit campaigns. This page will feature several blocks, similar in concept to the campaign planner, but it will not use the existing campaign planner functionality for this iteration.\n\nThe structure includes three main top blocks: one for creatives (using existing upload functionality), one for audience settings, and a third for additional settings like panel types and days of week. The right block will closely mirror the current campaign planner layout. A bottom block allows users to add facilities either by city/region or via map.\n\nThe final design is in progress, but developers can begin building the page structure using the provided mockups and Figma link. The goal is to have a working version ready by Monday to allow for server-side logic integration.",
+  "decisions": [
+    "A new campaign creation/editing page will be built with specific block structures (creatives, audience settings, additional settings, facility selection).",
+    "The development should start on the 'create-campaign' branch.",
+    "A functional prototype is targeted for completion by Monday."
+  ],
+  "action_items": [
+    "Develop the initial structure of the create/edit campaign page using existing mockups and Figma links.",
+    "Prepare to integrate server logic after the front-end framework is ready."
+  ]
+}

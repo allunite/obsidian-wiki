@@ -1,0 +1,24 @@
+{
+  "chat_id": "AAAANe8ZywQ",
+  "kind": "Space",
+  "space_name": "Group Chat",
+  "participants": 2,
+  "date_range": {
+    "start": "2021-07-19",
+    "end": "2021-07-19"
+  },
+  "message_count": 11,
+  "topic": "Project timeline and roadmap planning",
+  "topic_slug": "project-timeline-and-roadmap-planning",
+  "tags": [
+    "analytics",
+    "campaign"
+  ],
+  "summary_markdown": "The discussion focused on setting a delivery date for an updated project deliverable. Initially, the expected timeframe was noted as approximately six days, with a target completion date of August 9th. [me] confirmed that while a one-day turnaround is possible, larger business requirements often necessitate longer timelines, suggesting the previously agreed-upon '2+4' timeline should be acceptable. [p1] offered an alternative deadline of August 2nd, contingent on current workload, and mentioned sending the final version after confirmation from someone else.",
+  "decisions": [
+    "The target completion date for the deliverable is being adjusted to potentially August 2nd."
+  ],
+  "action_items": [
+    "Someone needs to review the plan before it is sent out."
+  ]
+}

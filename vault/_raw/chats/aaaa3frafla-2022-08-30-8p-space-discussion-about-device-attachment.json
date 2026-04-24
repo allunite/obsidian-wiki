@@ -1,0 +1,19 @@
+{
+  "chat_id": "AAAA3frAfLA",
+  "kind": "Space",
+  "space_name": "Lidar Tech",
+  "participants": 8,
+  "date_range": {
+    "start": "2022-08-30",
+    "end": "2022-08-30"
+  },
+  "message_count": 4,
+  "topic": "Discussion about device attachment",
+  "topic_slug": "discussion-about-device-attachment",
+  "tags": [
+    "facility"
+  ],
+  "summary_markdown": "Participants discussed the physical mounting or attachment of a hand/limb to a device, with one participant questioning the necessity of the setup.",
+  "decisions": [],
+  "action_items": []
+}

@@ -1,0 +1,23 @@
+{
+  "chat_id": "AAAA1vdtku4",
+  "kind": "Space",
+  "space_name": "DataTeam+",
+  "participants": 14,
+  "date_range": {
+    "start": "2026-01-06",
+    "end": "2026-01-06"
+  },
+  "message_count": 3,
+  "topic": "New indoor footfall estimation tool shared",
+  "topic_slug": "new-indoor-footfall-estimation-tool-shared",
+  "tags": [
+    "analytics",
+    "facility",
+    "impression"
+  ],
+  "summary_markdown": "A new application was presented that provides authenticated, source-backed footfall estimates for indoor locations. The tool accepts a place name or coordinates, resolves the location and venue type (e.g., mall, airport), and extracts daily, monthly, or annual footfall metrics from official primary sources (reports, government/authority data). Results are returned with structured data, direct source links, and confidence levels.\n\n[p8] shared the tool for others to test, verify results, and integrate into other applications. The initial testing by [me] and [p11] showed promising results.",
+  "decisions": [],
+  "action_items": [
+    "Team members are asked to use the provided tool link to test it and provide feedback on improvements."
+  ]
+}

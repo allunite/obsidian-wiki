@@ -1,0 +1,25 @@
+{
+  "chat_id": "AAAA3oghITo",
+  "kind": "Space",
+  "space_name": "Кабаны",
+  "participants": 4,
+  "date_range": {
+    "start": "2023-03-13",
+    "end": "2023-03-13"
+  },
+  "message_count": 6,
+  "topic": "Analytics deployment status and next steps",
+  "topic_slug": "analytics-deployment-status-and-next-steps",
+  "tags": [
+    "analytics",
+    "impression"
+  ],
+  "summary_markdown": "The discussion centered on the deployment of analytics features. One participant confirmed they would start working on the necessary tasks today. Two specific tasks were identified: a sandbox setup and Kubernetes integration, with one participant suggesting the sandbox might be simpler to implement first. The immediate goal was to push the latest analytics data from `mall-frequency` to staging, which is currently being built. A follow-up check was scheduled for approximately seven minutes after the build completes.",
+  "decisions": [
+    "The latest analytics data from mall-frequency will be pushed to staging."
+  ],
+  "action_items": [
+    "Complete the build of the `mall-frequency` analytics data.",
+    "Check the staging environment for the deployed analytics data after the build finishes."
+  ]
+}

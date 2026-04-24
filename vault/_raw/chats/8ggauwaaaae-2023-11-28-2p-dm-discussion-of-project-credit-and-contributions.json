@@ -1,0 +1,19 @@
+{
+  "chat_id": "8GgAuwAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 2,
+  "date_range": {
+    "start": "2023-11-28",
+    "end": "2023-11-28"
+  },
+  "message_count": 4,
+  "topic": "Discussion of project credit and contributions",
+  "topic_slug": "discussion-of-project-credit-and-contributions",
+  "tags": [
+    "analytics"
+  ],
+  "summary_markdown": "The conversation revolves around the feeling of uncredited work on a specific client project (Skatchers). One participant expressed frustration that their initiative and analytical contributions were not properly recognized, despite achieving expected results without relying on complex models. The discussion then shifted to confirming which model was used for a recent sales-related task.",
+  "decisions": [],
+  "action_items": []
+}

@@ -1,0 +1,22 @@
+{
+  "chat_id": "oCgFCIAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2025-08-07",
+    "end": "2025-08-07"
+  },
+  "message_count": 5,
+  "topic": "Data API report function error and parameters",
+  "topic_slug": "data-api-report-function-error-and-parameters",
+  "tags": [
+    "analytics",
+    "frame"
+  ],
+  "summary_markdown": "A data reporting issue was discussed, specifically an error related to a non-existent function (`getFrequency_TEST_undefined`) when attempting to run a report via the staging data API. The user noted potential missing parameters and requested assistance with the correct parameters for generating frame reports.\n\nLater, [me] informed participants that code had been pushed to the release branch and would be deployed shortly.",
+  "decisions": [],
+  "action_items": [
+    "Someone needs to provide or confirm the correct parameters for the frame report API."
+  ]
+}

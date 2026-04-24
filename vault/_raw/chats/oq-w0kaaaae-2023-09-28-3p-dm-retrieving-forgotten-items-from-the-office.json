@@ -1,0 +1,17 @@
+{
+  "chat_id": "oq-w0kAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2023-09-28",
+    "end": "2023-09-28"
+  },
+  "message_count": 13,
+  "topic": "Retrieving forgotten items from the office",
+  "topic_slug": "retrieving-forgotten-items-from-the-office",
+  "tags": [],
+  "summary_markdown": "The conversation primarily involved retrieving personal belongings. [p1] confirmed finding a printed Hebrew textbook and later stated that all of [me]'s items were on the desk.",
+  "decisions": [],
+  "action_items": []
+}

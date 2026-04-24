@@ -1,0 +1,25 @@
+{
+  "chat_id": "oCgFCIAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2025-02-24",
+    "end": "2025-02-24"
+  },
+  "message_count": 16,
+  "topic": "Database schema and analytics engine issues",
+  "topic_slug": "database-schema-and-analytics-engine-issues",
+  "tags": [
+    "analytics",
+    "recalc-ch",
+    "inventory"
+  ],
+  "summary_markdown": "The discussion covered technical issues related to data infrastructure. One participant noted the need for metric calculation adjustments due to sensor integration challenges in shared malls, especially since sensors come from different companies. The conversation then shifted to database schema and engine stability. Specific points included: \n\n*   **Boolean Parameters:** A concern was raised about boolean parameters being treated as integers (`int`) in queries (e.g., `is_active = true` vs. `is_active`). One participant suggested simplifying the code by removing the explicit comparison (`and is_active`). \n*   **Engine Changes:** Another issue discussed was a change in the analytics engine's behavior regarding `CREATE TABLE AS`. A fix (in version 24.8) and an improvement (in version 24.9) were reviewed, noting that the latter feature appears to break most `create table as <table` statements and is not backward compatible.\n\nOverall, there was a general concern about configuration settings being lost or unsupported during system upgrades.",
+  "decisions": [
+    "Simplify boolean checks in code from `and is_active = true` to `and is_active`."
+  ],
+  "action_items": [
+    "Investigate the impact of engine changes on data creation statements (e.g., `CREATE TABLE AS`)."
+  ]
+}

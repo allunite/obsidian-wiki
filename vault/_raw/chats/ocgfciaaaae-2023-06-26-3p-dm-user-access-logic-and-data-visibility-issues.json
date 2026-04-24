@@ -1,0 +1,27 @@
+{
+  "chat_id": "oCgFCIAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2023-06-26",
+    "end": "2023-06-26"
+  },
+  "message_count": 32,
+  "topic": "User access logic and data visibility issues",
+  "topic_slug": "user-access-logic-and-data-visibility-issues",
+  "tags": [
+    "analytics",
+    "inventory",
+    "facility"
+  ],
+  "summary_markdown": "The discussion focused on an issue where a user ([email@woko.dk]) lacked proper company access restrictions but was able to view traffic data from multiple companies. The root cause was identified as a flaw in the system's logic: if a user record did not exist, the system defaulted to granting full administrator-level access (showing all available companies). \n\nThe conversation clarified different methods for linking facilities and partners:\n*   **interfacility:** Used for conversion data on the mall dashboard.\n*   **interpartner:** Used specifically for connecting other companies/partners.\n*   **user_access_dict.company_extension_nums:** The current method used to manage company extensions, replacing older methods like `interfacility` or relying solely on `ua_c`.\n\nThe immediate action was taken to create a ticket to address the access logic bug. A temporary fix for the dictionary update frequency was proposed.",
+  "decisions": [
+    "A ticket will be created to fix the user access restriction bug.",
+    "The dictionary update interval will be set to 5-10 minutes in the evening."
+  ],
+  "action_items": [
+    "Fix the system bug where non-existent users default to full company visibility.",
+    "Update the relevant dictionary more frequently (5-10 minute interval)."
+  ]
+}

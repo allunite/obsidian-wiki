@@ -1,0 +1,23 @@
+{
+  "chat_id": "y9IEDQAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2023-10-09",
+    "end": "2023-10-09"
+  },
+  "message_count": 16,
+  "topic": "API changes for removing airspike functionality",
+  "topic_slug": "api-changes-for-removing-airspike-functionality",
+  "tags": [
+    "analytics"
+  ],
+  "summary_markdown": "The discussion focused on modifying the API to remove 'airspike' functionality. [me] inquired about the host name, and [p1] provided it as `as01`. They discussed whether the removal could be implemented gradually. Initially, they confirmed that a component called `sessioner` was no longer in use. It was decided that [p1] would first 'soft-launch' or prepare the change without removing it from reality, and if everything ran normally for a week, the feature would then be completely removed.",
+  "decisions": [
+    "Implement API changes to remove airspike functionality using `as01` as the host."
+  ],
+  "action_items": [
+    "[p1] will soft-launch the removal of airspike functionality and fully remove it after one week if no issues are found."
+  ]
+}

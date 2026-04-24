@@ -1,0 +1,25 @@
+{
+  "chat_id": "i6YI1QAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 2,
+  "date_range": {
+    "start": "2023-09-07",
+    "end": "2023-09-07"
+  },
+  "message_count": 16,
+  "topic": "Adding new dashboard metrics and calculations",
+  "topic_slug": "adding-new-dashboard-metrics-and-calculations",
+  "tags": [
+    "analytics",
+    "impression"
+  ],
+  "summary_markdown": "The discussion focused on adding two specific metrics to a dashboard. The primary, urgent task is to add the 'Viewed Impressions per face' metric, calculated by dividing total impressions by the number of faces (N_faces) for a given frame.\n\nA secondary, non-urgent task involves incorporating 'Viewable Impressions,' which should be sourced from existing calculations (specifically mentioned as `(rots*dsa)/vac`) and displayed on the front end.",
+  "decisions": [
+    "The primary metric to add is 'Viewed Impressions per face' (impressions/N_faces).",
+    "The secondary metric, 'Viewable Impressions,' should be sourced from existing calculations and placed on the front end in a convenient location."
+  ],
+  "action_items": [
+    "Implement the calculation and display of 'Viewed Impressions per face' on the dashboard."
+  ]
+}

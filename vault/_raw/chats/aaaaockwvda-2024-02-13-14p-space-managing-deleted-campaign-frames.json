@@ -1,0 +1,23 @@
+{
+  "chat_id": "AAAAOcKWvdA",
+  "kind": "Space",
+  "space_name": "Delivery Coordination",
+  "participants": 14,
+  "date_range": {
+    "start": "2024-02-13",
+    "end": "2024-02-13"
+  },
+  "message_count": 3,
+  "topic": "Managing deleted campaign frames",
+  "topic_slug": "managing-deleted-campaign-frames",
+  "tags": [
+    "frame",
+    "inventory",
+    "campaign"
+  ],
+  "summary_markdown": "A discussion occurred regarding the process for handling frames that are removed after a campaign has been created. It was noted that there is an 'delete frame' button in the inventory section. The suggestion was made to either delete the frame or change its status to 'demolished' (with potential addition of more statuses).",
+  "decisions": [
+    "The user [p6] will proceed with deleting the frame."
+  ],
+  "action_items": []
+}

@@ -1,0 +1,22 @@
+{
+  "chat_id": "AAAA9ybOLwM",
+  "kind": "Space",
+  "space_name": "ИТ",
+  "participants": 8,
+  "date_range": {
+    "start": "2020-12-09",
+    "end": "2020-12-09"
+  },
+  "message_count": 6,
+  "topic": "Testing captive portal setup for box",
+  "topic_slug": "testing-captive-portal-setup-for-box",
+  "tags": [
+    "inventory",
+    "campaign"
+  ],
+  "summary_markdown": "A user inquired about setting up a Joe's Juice captive portal on a specific hardware box (E894F6BBB234). Another participant questioned if this particular box was already configured for Joe's Juice. The first user clarified that the box in question is located in Dnipro, not associated with Joe's Juice.",
+  "decisions": [
+    "The goal is to test a captive portal setup using the specified hardware box."
+  ],
+  "action_items": []
+}

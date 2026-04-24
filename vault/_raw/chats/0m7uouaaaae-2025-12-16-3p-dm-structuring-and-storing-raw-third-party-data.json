@@ -1,0 +1,27 @@
+{
+  "chat_id": "0m7UOUAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2025-12-16",
+    "end": "2025-12-16"
+  },
+  "message_count": 18,
+  "topic": "Structuring and storing raw third-party data",
+  "topic_slug": "structuring-and-storing-raw-third-party-data",
+  "tags": [
+    "analytics",
+    "inventory",
+    "campaign"
+  ],
+  "summary_markdown": "The discussion focused on optimizing the storage and structure of raw third-party data. A new structured JSON table (`core.raw_data_3rd_party_structured_json`) was proposed to improve compression by storing specific fields (like geohash10, carrier, ip) in column storage format.\n\nIt was confirmed that while the structure changes, the operational workflow for interacting with the data remains unchanged. The overall goal is to load raw datasets periodically from third-party providers into this structured table for read-only analysis over extended periods (months or years).\n\nThe current estimated size of two loaded datasets is 4.77 GB compressed / 15.02 GB uncompressed.\n\nRegarding data retention, the consensus was that since the data will primarily be used for reading and not frequently updated, migrating the table to S3 storage after a delay (suggested as one week instead of one day) is optimal.",
+  "decisions": [
+    "A new structured JSON table schema was created for raw third-party data to improve compression.",
+    "The primary use case for this data is periodic, read-only analysis over long periods.",
+    "Data migration (relocation) from the database to S3 should occur after a delay of approximately one week."
+  ],
+  "action_items": [
+    "Implement the structured JSON table schema for raw third-party data."
+  ]
+}

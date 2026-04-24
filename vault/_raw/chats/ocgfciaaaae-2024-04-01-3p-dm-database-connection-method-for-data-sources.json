@@ -1,0 +1,21 @@
+{
+  "chat_id": "oCgFCIAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2024-04-01",
+    "end": "2024-04-01"
+  },
+  "message_count": 7,
+  "topic": "Database connection method for data sources",
+  "topic_slug": "database-connection-method-for-data-sources",
+  "tags": [
+    "analytics"
+  ],
+  "summary_markdown": "The discussion focused on the correct method for defining data dictionary sources, specifically comparing PostgreSQL and ODBC connections. [p1] questioned why explicit credentials are required when using `SOURCE(POSTGRESQL(...))` on the production server versus working via ODBC on a sandbox environment. It was noted that ODBC might not support all data types, leading to potential failures if the configuration is inconsistent or if the driver is outdated.",
+  "decisions": [
+    "Use explicit SELECT statements from the dictionary after creation to ensure proper data handling."
+  ],
+  "action_items": []
+}

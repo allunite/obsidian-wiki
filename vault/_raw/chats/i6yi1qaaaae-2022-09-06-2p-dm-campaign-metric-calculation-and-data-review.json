@@ -1,0 +1,27 @@
+{
+  "chat_id": "i6YI1QAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 2,
+  "date_range": {
+    "start": "2022-09-06",
+    "end": "2022-09-06"
+  },
+  "message_count": 22,
+  "topic": "Campaign metric calculation and data review",
+  "topic_slug": "campaign-metric-calculation-and-data-review",
+  "tags": [
+    "analytics",
+    "campaign",
+    "impression"
+  ],
+  "summary_markdown": "The discussion focused on defining the required metrics and queries for a campaign. A proposed methodology was reviewed, which involves calculating Reach by selecting specific panels within a district (e.g., 4 screens) and counting the total number of unique visitors to these screens during the selected time range, split by demographic groups. The initial query provided by [p1] was reviewed, with [me] noting that while one query covered both upper and lower sections, they could separate it. Concerns were raised about the 'reach' metric definition, as [me] had not previously tracked it. Furthermore, a specific query for the grid view across districts was noted to show unusually high numbers, and [me] planned to revise this using 'areas of living'. The session concluded with scheduling a meeting to review all metrics with additional team members.",
+  "decisions": [
+    "Reach calculation will be based on counting unique visitors to a defined set of panels (e.g., 4 screens) within a district.",
+    "The grid view query for districts needs revision by [me] using 'areas of living'."
+  ],
+  "action_items": [
+    "[me] to revise the grid view query using 'areas of living'.",
+    "[me] to schedule a meeting to review all campaign metrics."
+  ]
+}

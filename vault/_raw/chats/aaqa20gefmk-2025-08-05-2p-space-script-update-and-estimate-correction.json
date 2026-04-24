@@ -1,0 +1,19 @@
+{
+  "chat_id": "AAQA20geFmk",
+  "kind": "Space",
+  "space_name": "Group Chat",
+  "participants": 2,
+  "date_range": {
+    "start": "2025-08-05",
+    "end": "2025-08-05"
+  },
+  "message_count": 5,
+  "topic": "Script update and estimate correction",
+  "topic_slug": "script-update-and-estimate-correction",
+  "tags": [
+    "analytics"
+  ],
+  "summary_markdown": "The conversation centered on a technical script update. [me] confirmed that the script had been pushed/updated. Later, [me] provided an updated estimate, noting it was less than half of the previous estimate.",
+  "decisions": [],
+  "action_items": []
+}

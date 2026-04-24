@@ -1,0 +1,22 @@
+{
+  "chat_id": "AAAAFPbiAdE",
+  "kind": "Space",
+  "space_name": "Group Chat",
+  "participants": 3,
+  "date_range": {
+    "start": "2023-11-03",
+    "end": "2023-11-03"
+  },
+  "message_count": 4,
+  "topic": "SQL queries for device session data",
+  "topic_slug": "sql-queries-for-device-session-data",
+  "tags": [
+    "analytics",
+    "facility"
+  ],
+  "summary_markdown": "The conversation consists of two SQL queries provided by [me] to analyze device session concepts. The first query counts total and calibrated sessions (product/stage) for a specific company number and facility master number since August 15, 2022. The second query analyzes vendor performance metrics (count, unique devices, frequency) for multiple facilities and vendors within the date range of November 1, 2023, to November 2, 2023. [me] also listed two geographical locations: São Paulo and Rio de Janeiro.",
+  "decisions": [],
+  "action_items": [
+    "Run provided SQL queries against the data warehouse"
+  ]
+}

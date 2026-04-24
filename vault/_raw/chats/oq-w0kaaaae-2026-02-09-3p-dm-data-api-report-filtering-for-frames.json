@@ -1,0 +1,24 @@
+{
+  "chat_id": "oq-w0kAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2026-02-09",
+    "end": "2026-02-09"
+  },
+  "message_count": 4,
+  "topic": "Data API report filtering for frames",
+  "topic_slug": "data-api-report-filtering-for-frames",
+  "tags": [
+    "analytics",
+    "frame"
+  ],
+  "summary_markdown": "The discussion covered two main technical points. First, confirmation was given that all clients should operate using the `clickhouse04` instance for data logging. Second, a concern was raised regarding the `data-api/v1/reports/traffic/by-frame` endpoint: it may lack proper facility ownership checks when generating reports by frame. A sample cURL request demonstrating filtering by specific facilities and demographic parameters was provided for review.",
+  "decisions": [
+    "All clients should use the clickhouse04 instance."
+  ],
+  "action_items": [
+    "[me] will investigate the facility ownership check within the data-api/v1/reports/traffic/by-frame endpoint."
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "chat_id": "8GgAuwAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 2,
+  "date_range": {
+    "start": "2023-06-27",
+    "end": "2023-06-27"
+  },
+  "message_count": 45,
+  "topic": "Analytics dashboard filter and data aggregation",
+  "topic_slug": "analytics-dashboard-filter-and-data-aggregation",
+  "tags": [
+    "facility",
+    "campaign",
+    "analytics"
+  ],
+  "summary_markdown": "The discussion covered several technical fixes and improvements for the analytics dashboard. Initial issues included missing facility data (e.g., WoCO_The Royal Theater) and discrepancies in conversion metrics, which were addressed by removing specific conversions and aggregating historical data from a previously linked facility to an existing one.\n\nLater discussions focused on improving the facility filter control. It was noted that the new filter control behaves differently than the old one but is generally functional. A bug was identified where clicking on lower lines in the facility filter does not correctly activate or show the list, requiring further fixes. The team decided to proceed with a soft release of the updated dashboard while prioritizing collecting user feedback and fixing reported bugs.\n\nAs a final improvement, it was suggested that if the release is postponed until the next day, the system should be updated to ensure that filtered facilities are accounted for in the URL structure, allowing shared links to retain the facility filter state.",
+  "decisions": [
+    "Proceed with a soft release of the new analytics dashboard control.",
+    "Prioritize collecting user feedback and fixing bugs related to the new facility filter.",
+    "If the release is postponed, implement logic to include filtered facilities in the shared URL."
+  ],
+  "action_items": [
+    "Fix the bug where clicking on lower lines in the facility filter does not activate or show the list.",
+    "Test and stabilize the new facility filter control based on user feedback."
+  ]
+}

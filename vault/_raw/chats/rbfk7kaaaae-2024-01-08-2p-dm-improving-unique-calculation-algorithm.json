@@ -1,0 +1,24 @@
+{
+  "chat_id": "rBfK7kAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 2,
+  "date_range": {
+    "start": "2024-01-08",
+    "end": "2024-01-08"
+  },
+  "message_count": 20,
+  "topic": "Improving unique calculation algorithm",
+  "topic_slug": "improving-unique-calculation-algorithm",
+  "tags": [
+    "analytics",
+    "recalc-ch"
+  ],
+  "summary_markdown": "A proposed improvement was detailed for calculating 'uniques' based on location clustering. The process involves:\n1. Clustering the input list of locations into groups (clusters).\n2. Calculating `adjusted_traffic` by taking the maximum total traffic within each cluster.\n3. Applying a frequency formula where the number of locations is replaced by the count of clusters, resulting in `adjusted_frequency`.\n4. Determining uniques using the ratio: `uniques = adjusted_traffic / adjusted_frequency`.\n5. An optional calculation for standard frequency (`total_traffic / uniques`) was also outlined.\n\nThe discussion focused on the technical implementation: whether to create an endpoint solely for clustering or if the entire pipeline should be handled by one party (requiring database access). It was confirmed that clusters are dynamic and change based on the input set of locations, though certain common sets could potentially be cached. The frequency formula will now use the count of clusters instead of the total number of locations.\n\nIt was noted that this improvement aims to consolidate multiple existing `frequency` functions used for Brazil into a single standardized calculation.",
+  "decisions": [
+    "The improved unique calculation algorithm structure (clustering -> adjusted_traffic/adjusted_frequency) is understood and accepted as the proposed method."
+  ],
+  "action_items": [
+    "Discuss the proposed improvement with Galina to ensure alignment, as previous implementations were client-specific."
+  ]
+}

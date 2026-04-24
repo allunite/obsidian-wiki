@@ -1,0 +1,93 @@
+{
+  "type": "object",
+  "title": "QueryTrafficParamsScheme",
+  "description": "Parameters for querying traffic data",
+  "properties": {
+    "from-date": {
+      "type": "string",
+      "format": "date",
+      "description": "Start date in YYYY-MM-DDT00:00:00 format.",
+      "nullable": true
+    },
+    "to-date": {
+      "type": "string",
+      "format": "date",
+      "description": "End date in YYYY-MM-DDT23:59:59 format.",
+      "nullable": true
+    },
+    "tz": {
+      "type": "string",
+      "description": "Timezone identifier. Not included by default, else TZ identifier.",
+      "nullable": true
+    },
+    "days": {
+      "type": "string",
+      "enum": [
+        "all",
+        "weekday",
+        "weekend"
+      ],
+      "description": "Specifies the days as parts of the week.",
+      "nullable": true
+    },
+    "from-hour": {
+      "type": "integer",
+      "description": "Start hour if time restriction is applied.",
+      "nullable": true
+    },
+    "to-hour": {
+      "type": "integer",
+      "description": "End hour if time restriction is applied.",
+      "nullable": true
+    },
+    "inverted-hours": {
+      "type": "boolean",
+      "description": "Indicates if the specified time range is to be excluded.",
+      "nullable": true
+    },
+    "facility": {
+      "type": "array",
+      "items": {
+        "type": "integer"
+      },
+      "description": "List of facility identifiers.",
+      "nullable": true
+    },
+    "network": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "description": "List of networks to restrict the output.",
+      "nullable": true
+    },
+    "region": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "description": "List of provinces to restrict the output.",
+      "nullable": true
+    },
+    "city": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "description": "List of cities to restrict the output.",
+      "nullable": true
+    },
+    "gran": {
+      "type": "string",
+      "enum": [
+        "h",
+        "d",
+        "w",
+        "m"
+      ],
+      "description": "Data granularity if user explicitly ask to set it: 'h' hour, 'd' day, 'w' week, 'm' month.",
+      "nullable": true
+    }
+  },
+  "additionalProperties": false
+}

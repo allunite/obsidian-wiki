@@ -1,0 +1,23 @@
+{
+  "chat_id": "AAAA3oghITo",
+  "kind": "Space",
+  "space_name": "Кабаны",
+  "participants": 4,
+  "date_range": {
+    "start": "2022-05-20",
+    "end": "2022-05-20"
+  },
+  "message_count": 14,
+  "topic": "PostgreSQL memory allocation error investigation",
+  "topic_slug": "postgresql-memory-allocation-error-investigation",
+  "tags": [
+    "analytics"
+  ],
+  "summary_markdown": "The discussion focused on a PostgreSQL fatal error (FATAL: fatal llvm error: Unable to allocate section memory!) encountered when running a query against the `v_ch_facility` view. The issue was suspected to be related to data volume, potential buffer overflow, or inefficient memory usage by the database engine.\n\nParticipants discussed adding swap space and analyzing the complex join structure of the query. It was noted that the table involved has only 3500 rows but includes a JSON field, leading to confusion about how much memory could be consumed.\n\nLater, it was suggested that monitoring tools should be used to track memory usage over time (e.g., hourly) to detect slow or abnormal growth patterns.",
+  "decisions": [
+    "No concrete technical decisions were made regarding the immediate fix."
+  ],
+  "action_items": [
+    "Monitor PostgreSQL memory consumption hourly to identify trends in memory usage."
+  ]
+}

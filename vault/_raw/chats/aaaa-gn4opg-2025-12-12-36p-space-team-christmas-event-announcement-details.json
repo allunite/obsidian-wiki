@@ -1,0 +1,23 @@
+{
+  "chat_id": "AAAA-gn4oPg",
+  "kind": "Space",
+  "space_name": "General and random",
+  "participants": 36,
+  "date_range": {
+    "start": "2025-12-12",
+    "end": "2025-12-12"
+  },
+  "message_count": 4,
+  "topic": "Team Christmas event announcement and details",
+  "topic_slug": "team-christmas-event-announcement-details",
+  "tags": [
+    "campaign"
+  ],
+  "summary_markdown": "The session contained two distinct announcements. First, a general update noted successful meetings secured by several team members at the WOO Conference in Seoul with multiple companies including Stellar Ace, Bloomingterra, Rentasign, IAAC APAC, and JCDecaux Korea. Second, an announcement was made regarding an online Christmas celebration event scheduled for Wednesday, December 17, at 14:00 CET. The event will be hosted by TeamAmazing and is intended to be a lighthearted hour of connection and team games.",
+  "decisions": [
+    "An online Christmas event is scheduled for Wednesday, December 17, at 14:00 CET."
+  ],
+  "action_items": [
+    "A Google Calendar invite will be created for the Christmas event."
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "chat_id": "AAAA_zTBKJ0",
+  "kind": "Space",
+  "space_name": "Releases and updates",
+  "participants": 19,
+  "date_range": {
+    "start": "2025-05-13",
+    "end": "2025-05-13"
+  },
+  "message_count": 4,
+  "topic": "Tech release notes distribution and bugs",
+  "topic_slug": "tech-release-notes-distribution-and-bugs",
+  "tags": [
+    "analytics"
+  ],
+  "summary_markdown": "The May Tech Release notes were distributed to clients. Later, a participant reported encountering a small bug in production during a client meeting, which subsequently disappeared. The issue was suspected to be related to caching.",
+  "decisions": [],
+  "action_items": []
+}

@@ -1,0 +1,25 @@
+{
+  "chat_id": "0VorOYAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2022-05-10",
+    "end": "2022-05-10"
+  },
+  "message_count": 18,
+  "topic": "Updating signal levels for Woco model",
+  "topic_slug": "updating-signal-levels-for-woco-model",
+  "tags": [
+    "analytics",
+    "campaign",
+    "inventory"
+  ],
+  "summary_markdown": "The primary task was updating the signal level for Woco, using a provided spreadsheet detailing default and differing levels per location. The initial work was performed on the staging environment.\n\nDiscussion focused on data modeling logic: whether a calculated column (like 'calibrated') could be used to apply unique signal levels (SL) when the `company_num` remained the same across different locations, or if the source field (`device_session_concept.is_calibrated`) was required. It was clarified that for proper differentiation, the `company_num` must vary.\n\nThe conversation concluded with confirming that the data query code should handle the mapping between partner and company numbers.",
+  "decisions": [
+    "Signal levels for Woco were updated on the staging environment."
+  ],
+  "action_items": [
+    "The user will test the model logic, specifically ensuring the data query correctly handles the relationship between partner and company numbers (partner<->company)."
+  ]
+}

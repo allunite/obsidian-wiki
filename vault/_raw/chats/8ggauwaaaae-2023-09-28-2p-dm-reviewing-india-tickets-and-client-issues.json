@@ -1,0 +1,24 @@
+{
+  "chat_id": "8GgAuwAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 2,
+  "date_range": {
+    "start": "2023-09-28",
+    "end": "2023-09-28"
+  },
+  "message_count": 12,
+  "topic": "Reviewing India tickets and client issues",
+  "topic_slug": "reviewing-india-tickets-and-client-issues",
+  "tags": [
+    "analytics",
+    "campaign"
+  ],
+  "summary_markdown": "The conversation started with a request to review tickets related to India. Later, the discussion shifted to technical issues regarding client data and reporting.\n\nOne participant provided a link to an existing ticket (JCDEC-705). When discussing a client interaction, it was determined that the client did not have virtual boxes.\n\nTechnical fixes were discussed: one issue was resolved and would be deployed to staging. Another issue involved 'reach' not matching with a map, which could be fixed but would change numbers for all clients on maps. This potential change required further consultation with someone named Esben before proceeding.",
+  "decisions": [
+    "The proposed fix involving reach/map discrepancies that changes client numbers must be cleared with Esben."
+  ],
+  "action_items": [
+    "Deploy the resolved code to staging environment."
+  ]
+}

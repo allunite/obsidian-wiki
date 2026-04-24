@@ -1,0 +1,27 @@
+{
+  "chat_id": "oCgFCIAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2023-04-20",
+    "end": "2023-04-20"
+  },
+  "message_count": 8,
+  "topic": "Audience calculation methods for campaigns",
+  "topic_slug": "audience-calculation-methods-for-campaigns",
+  "tags": [
+    "analytics",
+    "impression",
+    "campaign",
+    "frame"
+  ],
+  "summary_markdown": "The discussion focused on calculating audience metrics for campaigns, specifically whether to count data from the general pool (top section) or only selected audiences (bottom section). \n\n*   **Top Section:** Metrics should be calculated using the old method, based on demographic filters and all available data.\n*   **Bottom Section:** For selected client-specific audiences, IDs must be sent to the server for calculation and return. This requires determining if sending IDs directly or linking via a temporary campaign/join is better.\n*   **Demographics:** The functionality for demographic filtering was noted as being temporarily unavailable but planned for implementation.\n*   **Impression Formulas:** It was confirmed that traffic reporting will continue as before, regardless of visibility changes. However, formulas with coefficients for impressions (to account for non-viewable traffic) are expected to be provided soon.",
+  "decisions": [
+    "For selected audiences, IDs must be sent to the server for metric calculation."
+  ],
+  "action_items": [
+    "Determine the best method for sending selected audience data (direct ID transmission vs. temporary campaign join).",
+    "Await formulas with coefficients for impression calculations."
+  ]
+}

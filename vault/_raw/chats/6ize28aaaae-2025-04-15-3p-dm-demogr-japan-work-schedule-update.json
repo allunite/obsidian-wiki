@@ -1,0 +1,21 @@
+{
+  "chat_id": "6ize28AAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2025-04-15",
+    "end": "2025-04-15"
+  },
+  "message_count": 3,
+  "topic": "Demogr Japan work schedule update",
+  "topic_slug": "demogr-japan-work-schedule-update",
+  "tags": [
+    "analytics"
+  ],
+  "summary_markdown": "The discussion concerns the status of 'Demogr Japan' work. A scheduled meeting with Esben was postponed from 13:30 to 16:00, after which someone plans to address the Demogr Japan task.",
+  "decisions": [],
+  "action_items": [
+    "Someone will work on Demogr Japan after the rescheduled meeting."
+  ]
+}

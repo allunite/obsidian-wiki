@@ -1,0 +1,28 @@
+{
+  "chat_id": "AAAA3oghITo",
+  "kind": "Space",
+  "space_name": "Кабаны",
+  "participants": 4,
+  "date_range": {
+    "start": "2022-04-05",
+    "end": "2022-04-05"
+  },
+  "message_count": 88,
+  "topic": "Archiving device data from PostgreSQL to S3",
+  "topic_slug": "archiving-device-data-postgresql-s3",
+  "tags": [
+    "analytics",
+    "inventory",
+    "loop",
+    "session"
+  ],
+  "summary_markdown": "The discussion focused on the necessity and method for archiving historical device data currently stored in PostgreSQL. It was determined that the `device` table, which holds raw device records (BLE/beacon data), should be archived to S3.\n\n**Key Decisions & Methods:**\n*   **Archiving Strategy:** The consensus is to archive the data rather than keeping it indefinitely on the primary database server due to size constraints and performance issues with large tables.\n*   **Data Cleaning:** It was decided that a scheduled job (e.g., weekly) should be set up to archive old records and then truncate/delete them from the active PostgreSQL table.\n*   **Archiving Key:** The data extraction process should ideally segment the records by ID, as this provides better control over the massive dataset compared to date-based segmentation.\n*   **Technical Implementation:** Methods discussed included using `COPY` commands with limits (e.g., 1 million records per file) or utilizing `pg_dump` combined with `split` and `gzip` for chunking large exports.",
+  "decisions": [
+    "Archive historical device data from PostgreSQL to S3 on a weekly basis.",
+    "Implement a job to archive old records and subsequently truncate the active 'device' table."
+  ],
+  "action_items": [
+    "Develop or modify an existing archiving script (for RAW_SEEN/RAW_CONNECTED) to handle device data extraction, potentially using ID-based chunking.",
+    "Test the performance of large data export queries on the PostgreSQL database before full implementation."
+  ]
+}

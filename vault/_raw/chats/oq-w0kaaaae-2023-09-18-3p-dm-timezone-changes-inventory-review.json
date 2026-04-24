@@ -1,0 +1,19 @@
+{
+  "chat_id": "oq-w0kAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2023-09-18",
+    "end": "2023-09-18"
+  },
+  "message_count": 3,
+  "topic": "Timezone changes and inventory review",
+  "topic_slug": "timezone-changes-inventory-review",
+  "tags": [
+    "analytics"
+  ],
+  "summary_markdown": "Someone pushed timezone changes. The `moment-timezone` library was removed from the frontend. Following this, someone went to work on inventory.",
+  "decisions": [],
+  "action_items": []
+}

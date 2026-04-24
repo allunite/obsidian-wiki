@@ -1,0 +1,25 @@
+{
+  "chat_id": "rBfK7kAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 2,
+  "date_range": {
+    "start": "2024-02-21",
+    "end": "2024-02-21"
+  },
+  "message_count": 31,
+  "topic": "Optimizing SQL queries for data filtering",
+  "topic_slug": "optimizing-sql-queries-for-data-filtering",
+  "tags": [
+    "analytics",
+    "campaign",
+    "inventory"
+  ],
+  "summary_markdown": "The discussion focused on debugging and optimizing complex SQL queries involving multiple tables (specifically `device_session_agg_ml_2` and `pg.v_frame_ml_data`).\n\nInitial issues included a data type mismatch error (`invalid input syntax for type integer: \"BRRIODD00052A\"`), suggesting that a field intended to be an integer was incorrectly populated with string data from a JSON field.\n\nSolutions and best practices discussed:\n1. **Data Type Correction:** The immediate fix involved selecting specific, correctly typed columns instead of using `SELECT *`.\n2. **Query Optimization (Subqueries):** It was recommended that when joining tables from a PostgreSQL view (`pg`), the filtering criteria should be applied within a subquery rather than relying on the main query's `WHERE` clause. This prevents the entire large table from being pulled into ClickHouse for subsequent filtering, improving performance.",
+  "decisions": [
+    "The SQL join structure was updated to use a filtered subquery (`SELECT * FROM pg.v_frame_ml_data WHERE company_num = 7887`) to improve query efficiency."
+  ],
+  "action_items": [
+    "Implement the recommended subquery structure for joining PostgreSQL views in ClickHouse queries."
+  ]
+}

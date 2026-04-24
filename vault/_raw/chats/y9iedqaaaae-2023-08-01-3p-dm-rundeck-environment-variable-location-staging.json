@@ -1,0 +1,21 @@
+{
+  "chat_id": "y9IEDQAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2023-08-01",
+    "end": "2023-08-01"
+  },
+  "message_count": 11,
+  "topic": "Rundeck environment variable location for staging",
+  "topic_slug": "rundeck-environment-variable-location-staging",
+  "tags": [
+    "analytics"
+  ],
+  "summary_markdown": "The conversation focused on locating where environment variables are set within the Rundeck workflow tool. Specifically, [me] asked about setting variables for a 'staging' environment, referencing two distinct steps: 'ML Prediction' and 'ML Prediction - staging'. [p1] directed [me] to check the variable settings in the 'Edit definition' section of the job itself.",
+  "decisions": [
+    "The location for changing environment variables was identified as within the job's 'Edit definition'."
+  ],
+  "action_items": []
+}

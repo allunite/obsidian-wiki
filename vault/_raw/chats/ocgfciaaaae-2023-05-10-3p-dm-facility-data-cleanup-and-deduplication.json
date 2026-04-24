@@ -1,0 +1,26 @@
+{
+  "chat_id": "oCgFCIAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2023-05-10",
+    "end": "2023-05-10"
+  },
+  "message_count": 23,
+  "topic": "Facility data cleanup and deduplication",
+  "topic_slug": "facility-data-cleanup-and-deduplication",
+  "tags": [
+    "facility",
+    "analytics",
+    "impression"
+  ],
+  "summary_markdown": "The discussion focused on identifying potential duplicate or closely located facility records within the database. Initial queries using a `CROSS JOIN` revealed many pairs of facilities (200+), which was deemed overly complex and slow.\n\nSubsequent, optimized queries were used to check for facilities with similar coordinates (within 5 units) belonging to the same company ID. It was determined that most identified close proximity points were either duplicates or resulted from slight coordinate inaccuracies.\n\nIt was confirmed that the facility data should be prioritized over the frame data when checking for location consistency, as the team plans to use facilities and their coordinates directly for future work (e.g., drawing roads within a 100-meter radius).\n\nFinally, a process was established to clean up records: 19 specific facility IDs will have corresponding 'dummy' entries imported/linked to frames.",
+  "decisions": [
+    "Facility data and coordinates are the primary source for location checks going forward.",
+    "The team confirmed that facilities generally align well with their respective frame data, minimizing discrepancies."
+  ],
+  "action_items": [
+    "Import 'dummy' entries/links for 19 specific facility IDs into frames."
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "chat_id": "AAAAM2qr3Sc",
+  "kind": "Space",
+  "space_name": "Captive Portal Field Test",
+  "participants": 7,
+  "date_range": {
+    "start": "2024-08-23",
+    "end": "2024-08-23"
+  },
+  "message_count": 13,
+  "topic": "Testing captive portal field data",
+  "topic_slug": "testing-captive-portal-field-data",
+  "tags": [
+    "captive-portal",
+    "session"
+  ],
+  "summary_markdown": "The discussion focused on analyzing the performance of a captive portal during field testing. It was noted that in two visits, an individual (Charles) was detected by the captive portal both times, but no corresponding sessions were recorded.\n\nParticipants discussed re-running the test using firmware with channel switching to capture more data and observe sensor behavior. A key point of confusion was whether the subject needed to actively connect to the Wi-Fi network for the captive portal to detect them. It was confirmed that the individual had connected (or auto-authorized) on the captive portal during previous attempts.",
+  "decisions": [
+    "Re-run the test using firmware with channel switching."
+  ],
+  "action_items": [
+    "Determine who can flash the terminal device with new firmware.",
+    "Clarify if the subject needs to actively connect for the captive portal detection to work."
+  ]
+}

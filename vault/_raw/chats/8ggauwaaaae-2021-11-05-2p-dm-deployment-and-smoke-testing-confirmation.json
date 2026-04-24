@@ -1,0 +1,22 @@
+{
+  "chat_id": "8GgAuwAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 2,
+  "date_range": {
+    "start": "2021-11-05",
+    "end": "2021-11-05"
+  },
+  "message_count": 17,
+  "topic": "Deployment and smoke testing confirmation",
+  "topic_slug": "deployment-and-smoke-testing-confirmation",
+  "tags": [
+    "analytics"
+  ],
+  "summary_markdown": "The conversation focused on deployment timing and quality assurance. [me] confirmed ability to deploy a minor change immediately or postpone it until Monday. [me] requested that someone perform a smoke test on the staging environment for the new version, noting recent refactoring work (including increased timeouts during map updates) intended to improve load times. Someone agreed to run the smoke test, which was completed successfully, confirming no breakage.",
+  "decisions": [
+    "A minor change will be deployed immediately.",
+    "Smoke testing of the staging environment for the new version was successfully completed."
+  ],
+  "action_items": []
+}

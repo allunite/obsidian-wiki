@@ -1,0 +1,27 @@
+{
+  "chat_id": "oCgFCIAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2022-08-26",
+    "end": "2022-08-26"
+  },
+  "message_count": 5,
+  "topic": "Campaign planning and data requirements",
+  "topic_slug": "campaign-planning-and-data-requirements",
+  "tags": [
+    "analytics",
+    "campaign",
+    "inventory"
+  ],
+  "summary_markdown": "The conversation covered several data and tool development topics.\n\n1. **Reach Data:** A review of reach data was conducted, requiring detailed explanation of formulas and parameter extraction. The current version is deemed functional, but there is interest in future balancing using a predictive model. A specific bug regarding the factor calculation (calculated for all sessions vs. unique samples) was identified.\n2. **Campaign Manager Requirements:** New requirements were received from someone regarding the campaign manager tools. These include demonstrating live functionality using real data (Finnish pilot, Danish/Czech, or other regions). The demonstration must showcase dashboards, planning tools, campaign optimization features, and pre-campaign analysis. Furthermore, the system's calculation of key metrics (GRP, reach, VAC) needs to be demonstrated.\n3. **Inventory Management:** A request was made regarding handing over inventory management for testing, but [me] advised that not all of Nastya's requests have been closed yet, and it is too early to hand it over.",
+  "decisions": [
+    "The campaign manager demonstration must showcase live functionality using real data (e.g., Finnish pilot).",
+    "The system must demonstrate the calculation process for metrics like GRP, reach, and VAC."
+  ],
+  "action_items": [
+    "Someone needs to start working on the campaign manager requirements next week.",
+    "A reload function needs to be implemented for inventory management upon user change."
+  ]
+}

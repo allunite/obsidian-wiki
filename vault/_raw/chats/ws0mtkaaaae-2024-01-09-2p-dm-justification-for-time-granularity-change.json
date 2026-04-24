@@ -1,0 +1,24 @@
+{
+  "chat_id": "ws0mTkAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 2,
+  "date_range": {
+    "start": "2024-01-09",
+    "end": "2024-01-09"
+  },
+  "message_count": 10,
+  "topic": "Justification for time granularity change",
+  "topic_slug": "justification-for-time-granularity-change",
+  "tags": [
+    "analytics",
+    "session"
+  ],
+  "summary_markdown": "The discussion focused on creating a clear explanation (in Russian or Ukrainian) regarding the decision to discontinue using hourly time granularity. Two technical reasons were provided for this change:\n\n1. **Virtual Sensors/Mirroring:** The introduction of numerous virtual sensors, particularly those involving mirroring, caused the frequency data to become erratic. This necessitated implementing a frequency formula that performed poorly on small periods, frequently yielding values less than one.\n2. **Data Aggregation Strategy:** A decision was made to save resources by not maintaining hourly unique identifiers (yuniki) in new aggregates, as the value of viewing such granular data was questioned.",
+  "decisions": [
+    "The team decided to discontinue using hourly time granularity for aggregation."
+  ],
+  "action_items": [
+    "Someone needs to formulate a proper explanation regarding the change in time granularity."
+  ]
+}

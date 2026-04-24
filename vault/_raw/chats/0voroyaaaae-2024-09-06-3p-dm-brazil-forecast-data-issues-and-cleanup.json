@@ -1,0 +1,26 @@
+{
+  "chat_id": "0VorOYAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2024-09-06",
+    "end": "2024-09-06"
+  },
+  "message_count": 7,
+  "topic": "Brazil forecast data issues and cleanup",
+  "topic_slug": "brazil-forecast-data-issues-and-cleanup",
+  "tags": [
+    "analytics",
+    "facility",
+    "forecasting"
+  ],
+  "summary_markdown": "The discussion focused on required adjustments to the forecast data for Brazil. Specific concerns were raised regarding locations with missing client data, particularly those in the first two (orange) and next seven (red) groups, which have offline periods or require source-level forecasting into virtual linked sources.\n\nA separate issue was identified concerning locations marked as having sensors (`asset_network=with sensors`) but lacking sensor data (empty `box_macs`). It was determined that cleaning up these records is the responsibility of another team member.\n\nTo facilitate the necessary updates, a specific output format was requested: `facility_num`, `start_forecast_date`, `end_forecast_date`, and optional `source_facility_num`. This list will be used to run sessions against the affected locations.",
+  "decisions": [
+    "The responsibility for cleaning up records of sensor-equipped but currently non-reporting locations was assigned to another team member (Andriy).",
+    "A structured list containing facility numbers, start/end forecast dates, and source facility numbers is required to proceed with data updates."
+  ],
+  "action_items": [
+    "Provide a list in the format: `facility_num`, `start_forecast_date`, `end_forecast_date`, `source_facility_num` for affected locations."
+  ]
+}

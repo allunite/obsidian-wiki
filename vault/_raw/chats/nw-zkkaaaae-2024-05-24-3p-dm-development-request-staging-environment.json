@@ -1,0 +1,23 @@
+{
+  "chat_id": "nW_zkkAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2024-05-24",
+    "end": "2024-05-24"
+  },
+  "message_count": 3,
+  "topic": "Development request for staging environment",
+  "topic_slug": "development-request-staging-environment",
+  "tags": [
+    "analytics"
+  ],
+  "summary_markdown": "A feature or idea was discussed with a third party (Galyna) and deemed viable. A request was made to implement this development work specifically in the staging environment.",
+  "decisions": [
+    "The feature/idea will be developed for the staging environment."
+  ],
+  "action_items": [
+    "Implement the requested feature/idea in the staging environment."
+  ]
+}

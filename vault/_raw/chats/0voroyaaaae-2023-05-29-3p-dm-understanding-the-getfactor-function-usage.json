@@ -1,0 +1,24 @@
+{
+  "chat_id": "0VorOYAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2023-05-29",
+    "end": "2023-05-29"
+  },
+  "message_count": 15,
+  "topic": "Understanding the getFactor function usage",
+  "topic_slug": "understanding-the-getfactor-function-usage",
+  "tags": [
+    "analytics",
+    "recalc-ch"
+  ],
+  "summary_markdown": "The conversation focused on understanding the `getFactor` script function, which calculates a factor based on company number, facility number, and session start hour. Initially, this factor was derived from manual counting coefficients applied to traffic. Currently, the process uses a more advanced 'scientific approach' involving machine learning models. The factor remains conceptually similar but is calculated via complex modeling rather than manual input. Regarding environment differences (prod vs staging), while different factors might exist in some instances, the person who wrote the function noted they are not currently monitoring this and that changes typically happen during calibration.",
+  "decisions": [
+    "None"
+  ],
+  "action_items": [
+    "None"
+  ]
+}

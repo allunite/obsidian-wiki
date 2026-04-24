@@ -1,0 +1,27 @@
+{
+  "chat_id": "0m7UOUAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2025-11-10",
+    "end": "2025-11-10"
+  },
+  "message_count": 19,
+  "topic": "Adjusting reach calculation for specific inventory",
+  "topic_slug": "adjusting-reach-calculation-for-specific-inventory",
+  "tags": [
+    "analytics",
+    "campaign",
+    "frame",
+    "loop"
+  ],
+  "summary_markdown": "The discussion focused on implementing a hardcoded constant to adjust the Reach metric calculation for Ocean Outdoor Denmark. The current logic needs modification because calculating Reach based on city/market filters (e.g., Aalborg, Aalborg SV) is complex.\n\nInitially, there were concerns about whether the list of frames would be available only after grouping or if it was always passed explicitly in the query. It was confirmed that the list of frames is consistently provided to [me].\n\nThe proposed adjustment dictates that when a specific list of frames is selected (as per a file), Reach should be calculated as if there were '1 slot every 1 loop' (while Impressions and other metrics follow standard logic).\n\nTesting was performed, showing expected results for two campaigns: `test_aalborg_16` and `test_aalborg_8`, with specific changes to the Reach and Frequency metrics.",
+  "decisions": [
+    "The reach calculation method will be hardcoded/adjusted for Ocean Outdoor Denmark's inventory.",
+    "Reach should be calculated as 1 slot per loop when a specific list of frames is selected."
+  ],
+  "action_items": [
+    "Final testing of the adjusted logic across all required use cases by [p1]."
+  ]
+}

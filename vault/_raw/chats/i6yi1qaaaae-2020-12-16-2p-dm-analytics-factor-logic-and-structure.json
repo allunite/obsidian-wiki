@@ -1,0 +1,24 @@
+{
+  "chat_id": "i6YI1QAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 2,
+  "date_range": {
+    "start": "2020-12-16",
+    "end": "2020-12-16"
+  },
+  "message_count": 20,
+  "topic": "Analytics factor logic and structure",
+  "topic_slug": "analytics-factor-logic-and-structure",
+  "tags": [
+    "analytics",
+    "facility"
+  ],
+  "summary_markdown": "The conversation focused on the technical implementation of analytics factors, specifically how complex rules can now be built using MOPs (Master Operational Platform System) preaggregation. The ability to define factor checking sequences was discussed, such as checking for a factor based on `facility`, then `master facility`, and so on. This sequence allows for fallback logic: if a factor is found for the current session's `facility_id`, it is used; otherwise, the check continues to `master_facility_id`, and so forth.",
+  "decisions": [
+    "No concrete decisions were made."
+  ],
+  "action_items": [
+    "Someone needs to create a ticket to document or implement the complex factor checking sequence."
+  ]
+}

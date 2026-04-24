@@ -1,0 +1,24 @@
+{
+  "chat_id": "i6YI1QAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 2,
+  "date_range": {
+    "start": "2024-12-16",
+    "end": "2024-12-16"
+  },
+  "message_count": 11,
+  "topic": "API specification for impression reporting",
+  "topic_slug": "api-specification-for-impression-reporting",
+  "tags": [
+    "analytics",
+    "impression"
+  ],
+  "summary_markdown": "The conversation focused on retrieving and clarifying the required API specifications. [p1] requested two specific documents: the current specification sent to DataCorp, and a new one detailing impressions per minute. [me] provided general documentation access via a URL and confirmed that this documentation is always up-to-date as it deploys with the API itself. Regarding the impressions per minute data point, [me] directed [p1] to the `/report/frames` endpoint. It was clarified that existing impression reporting granularity options include hourly, daily, weekly, and monthly breakdowns.",
+  "decisions": [
+    "The general API documentation URL was provided."
+  ],
+  "action_items": [
+    "Provide the specific API specifications (DataCorp version and impressions per minute) to [p1]."
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "chat_id": "y9IEDQAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2022-11-29",
+    "end": "2022-11-29"
+  },
+  "message_count": 4,
+  "topic": "Monitoring field addition for Joe&TheJuice",
+  "topic_slug": "monitoring-field-addition-for-joeandthejuice",
+  "tags": [
+    "analytics",
+    "inventory"
+  ],
+  "summary_markdown": "Discussion regarding the feasibility of adding a monitoring field to the block dedicated to Joe&TheJuice. [me] stated that the addition itself would not be difficult, but noted it might be hard to locate among existing elements.",
+  "decisions": [],
+  "action_items": []
+}

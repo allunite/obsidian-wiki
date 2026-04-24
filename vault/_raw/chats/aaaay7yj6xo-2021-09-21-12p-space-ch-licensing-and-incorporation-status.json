@@ -1,0 +1,19 @@
+{
+  "chat_id": "AAAAy7Yj6Xo",
+  "kind": "Space",
+  "space_name": "IT",
+  "participants": 12,
+  "date_range": {
+    "start": "2021-09-21",
+    "end": "2021-09-21"
+  },
+  "message_count": 3,
+  "topic": "CH licensing and incorporation status",
+  "topic_slug": "ch-licensing-and-incorporation-status",
+  "tags": [
+    "analytics"
+  ],
+  "summary_markdown": "The discussion noted that the entity incorporated in Delaware, US, plans to create a commercial CH Enterprise. However, the base CH remains under Apache 2.0 licensing.",
+  "decisions": [],
+  "action_items": []
+}

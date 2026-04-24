@@ -1,0 +1,23 @@
+{
+  "chat_id": "oCgFCIAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2025-12-18",
+    "end": "2025-12-18"
+  },
+  "message_count": 6,
+  "topic": "Implementing complex group campaign filters",
+  "topic_slug": "implementing-complex-group-campaign-filters",
+  "tags": [
+    "campaign",
+    "analytics",
+    "filter"
+  ],
+  "summary_markdown": "The conversation focused on the complexity of implementing 'group campaigns' for clients. It was noted that these groups require complex filtering logic, specifically an OR condition across multiple campaign filters (date, frames, demographics), necessitating a collection of individual filter arrays.\n\nClient feedback consistently indicates a need for group campaigns beyond standard offerings. Examples of required grouping include: \n*   Frames with varying operating hours (e.g., morning, noon, evening).\n*   The ability to combine multiple separate campaigns into one logical unit.",
+  "decisions": [],
+  "action_items": [
+    "Await guidance from AI regarding the implementation of complex filters."
+  ]
+}

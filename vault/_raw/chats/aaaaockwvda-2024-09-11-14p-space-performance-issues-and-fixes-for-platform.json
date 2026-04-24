@@ -1,0 +1,21 @@
+{
+  "chat_id": "AAAAOcKWvdA",
+  "kind": "Space",
+  "space_name": "Delivery Coordination",
+  "participants": 14,
+  "date_range": {
+    "start": "2024-09-11",
+    "end": "2024-09-11"
+  },
+  "message_count": 15,
+  "topic": "Performance issues and fixes for platform",
+  "topic_slug": "performance-issues-and-fixes-for-platform",
+  "tags": [
+    "analytics"
+  ],
+  "summary_markdown": "The discussion centered on significant performance degradation across multiple parts of the platform. Issues were reported regarding general system slowdowns, specifically affecting campaign data loading and overall site traffic page speed. It was noted that ClickHouse was under heavy load, contributing to the sluggishness. [me] confirmed working on a fix and later stated that the issue was resolved (fixed).",
+  "decisions": [
+    "The performance issues across campaigns and the traffic page are addressed."
+  ],
+  "action_items": []
+}

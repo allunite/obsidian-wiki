@@ -1,0 +1,24 @@
+{
+  "chat_id": "AAAA1vdtku4",
+  "kind": "Space",
+  "space_name": "DataTeam+",
+  "participants": 14,
+  "date_range": {
+    "start": "2025-08-19",
+    "end": "2025-08-19"
+  },
+  "message_count": 14,
+  "topic": "Reviewing staging data discrepancies and deployment",
+  "topic_slug": "reviewing-staging-data-discrepancies-and-deployment",
+  "tags": [
+    "analytics",
+    "frame"
+  ],
+  "summary_markdown": "The discussion focused on reviewing data accuracy in the staging environment before a potential deployment. Initial concerns were raised regarding whether the staging figures matched production data. Later, someone checked several random cases and noted that the 'Total Footfall' metric differed, while all other metrics matched accurately (up to rounding). It was also noted that the 'Reach' metric might be different on staging because it is expected to be new.",
+  "decisions": [
+    "The team needs final approval before deploying changes from staging."
+  ],
+  "action_items": [
+    "Someone will check more cases after reviewing demographics for Finland."
+  ]
+}

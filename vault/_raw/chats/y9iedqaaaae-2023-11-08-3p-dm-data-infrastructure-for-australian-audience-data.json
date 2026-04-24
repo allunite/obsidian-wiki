@@ -1,0 +1,28 @@
+{
+  "chat_id": "y9IEDQAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2023-11-08",
+    "end": "2023-11-08"
+  },
+  "message_count": 96,
+  "topic": "Data infrastructure for Australian audience data",
+  "topic_slug": "data-infrastructure-for-australian-audience-data",
+  "tags": [
+    "analytics",
+    "inventory",
+    "session",
+    "loop"
+  ],
+  "summary_markdown": "The discussion focused on the technical requirements for integrating a large volume of Australian audience data into an analytics platform. The client requested a solution to ingest and query massive datasets (estimated up to 45TB without compression) using a Data Lake approach.\n\nInitial suggestions included using S3 with AWS Athena, but the conversation shifted toward leveraging ClickHouse (CH) due to concerns about performance limitations when running complex queries on raw data lakes. It was determined that providing a dedicated, optimized CH cluster would offer superior query speed and impress the client.\n\nThe team discussed sizing the infrastructure, proposing an initial setup using smaller instances (e.g., r6i.8xlarge) with clear upgrade paths for both storage capacity (sharding) and memory/CPU power to handle potential scaling needs.",
+  "decisions": [
+    "The proposed solution should involve setting up a dedicated ClickHouse cluster rather than relying solely on a raw Data Lake structure (S3/Athena).",
+    "Initial infrastructure sizing should propose an entry-level configuration with clear, scalable upgrade paths for both storage and compute power."
+  ],
+  "action_items": [
+    "Review the feasibility and cost of implementing the data pipeline using ClickHouse.",
+    "Finalize a detailed proposal including multiple scaling options (storage sharding vs. memory/CPU increase)."
+  ]
+}

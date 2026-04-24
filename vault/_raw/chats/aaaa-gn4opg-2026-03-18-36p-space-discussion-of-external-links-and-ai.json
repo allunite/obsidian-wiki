@@ -1,0 +1,19 @@
+{
+  "chat_id": "AAAA-gn4oPg",
+  "kind": "Space",
+  "space_name": "General and random",
+  "participants": 36,
+  "date_range": {
+    "start": "2026-03-18",
+    "end": "2026-03-18"
+  },
+  "message_count": 3,
+  "topic": "Discussion of external links and AI",
+  "topic_slug": "discussion-of-external-links-and-ai",
+  "tags": [
+    "analytics"
+  ],
+  "summary_markdown": "A participant shared multiple external links (including one related to 'newstart_2024') and initiated a discussion topic regarding Artificial Intelligence.",
+  "decisions": [],
+  "action_items": []
+}

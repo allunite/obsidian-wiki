@@ -1,0 +1,22 @@
+{
+  "chat_id": "0m7UOUAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2025-11-15",
+    "end": "2025-11-15"
+  },
+  "message_count": 4,
+  "topic": "Virtual session data handling and device IDs",
+  "topic_slug": "virtual-session-data-device-ids",
+  "tags": [
+    "analytics",
+    "session"
+  ],
+  "summary_markdown": "The discussion revolves around the need for virtual session data, specifically `device_id`s where `is_virtual == true`, which are copies of real sensor data. The goal is to be able to reset or create these sessions without a `device_id`, while still retaining the `device_id` within `device_session_trusted` for frequency-based analysis.",
+  "decisions": [],
+  "action_items": [
+    "Determine if virtual session data requires device IDs"
+  ]
+}

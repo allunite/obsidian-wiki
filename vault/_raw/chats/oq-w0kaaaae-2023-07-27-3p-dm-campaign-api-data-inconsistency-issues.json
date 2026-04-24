@@ -1,0 +1,25 @@
+{
+  "chat_id": "oq-w0kAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2023-07-27",
+    "end": "2023-07-27"
+  },
+  "message_count": 14,
+  "topic": "Campaign API data inconsistency issues",
+  "topic_slug": "campaign-api-data-inconsistency-issues",
+  "tags": [
+    "analytics",
+    "frame",
+    "campaign"
+  ],
+  "summary_markdown": "A discussion occurred regarding inconsistencies in the Campaign APIs, specifically concerning how the returned data changes based on the number of frames available. The API endpoints `/api/campaigns/target/total-traffic` and `/api/campaigns/target/audience` behave differently: when few frames are present (e.g., during initial filtering), the response is normal; however, when more frames are added, the request returns different data, sometimes including `null`. It was noted that significant rework will be required to improve the performance of these APIs. The issue seems related to how filters affect the volume of available frame data.",
+  "decisions": [
+    "The API endpoints for campaign targeting show inconsistent behavior based on the number of frames."
+  ],
+  "action_items": [
+    "Someone will review and address the inconsistencies in the Campaign APIs, particularly regarding filter changes affecting frame count."
+  ]
+}

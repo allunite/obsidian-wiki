@@ -1,0 +1,25 @@
+{
+  "chat_id": "oq-w0kAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2023-10-04",
+    "end": "2023-10-04"
+  },
+  "message_count": 23,
+  "topic": "Frame ID data loading issue resolution",
+  "topic_slug": "frame-id-data-loading-issue-resolution",
+  "tags": [
+    "frame",
+    "analytics",
+    "facility"
+  ],
+  "summary_markdown": "The initial issue involved a discrepancy when loading user frame IDs into campaigns; the system worked correctly only when using a 'mapa' frame ID list. It was determined that the problem was not with the IDs themselves, but rather with data availability.\n\nSomeone confirmed that the facility IDs being loaded were not present in the core database (CH) dictionaries (`frame_dict` or `device_session_agg_4`). The system could display the facilities because they were manually uploaded to the database, but since CH had no records for them, metrics returned zero.\n\nAttempts to resolve this by reloading the dictionaries failed and caused the CH system to crash. Someone later found a separate example where facilities existed, but associated metrics were not being returned.",
+  "decisions": [
+    "The issue was identified as missing facility data in core analytics databases (CH), not an ID mismatch."
+  ],
+  "action_items": [
+    "Someone needs to investigate the metric return failure for existing facilities."
+  ]
+}

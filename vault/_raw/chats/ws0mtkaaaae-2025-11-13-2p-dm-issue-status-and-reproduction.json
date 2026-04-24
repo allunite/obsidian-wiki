@@ -1,0 +1,21 @@
+{
+  "chat_id": "ws0mTkAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 2,
+  "date_range": {
+    "start": "2025-11-13",
+    "end": "2025-11-13"
+  },
+  "message_count": 6,
+  "topic": "Issue status and reproduction",
+  "topic_slug": "issue-status-and-reproduction",
+  "tags": [
+    "analytics"
+  ],
+  "summary_markdown": "The conversation briefly discusses a technical issue. [p1] initially makes several statements, some of which are unclear or seem to be questions regarding system functionality (e.g., impression issues). Later, [me] reports that the issue is no longer reproducible and that it was fixed after a recent release.",
+  "decisions": [],
+  "action_items": [
+    "None"
+  ]
+}

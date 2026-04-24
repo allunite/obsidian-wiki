@@ -1,0 +1,27 @@
+{
+  "chat_id": "AAAAbazPcHo",
+  "kind": "Space",
+  "space_name": "Group Chat",
+  "participants": 3,
+  "date_range": {
+    "start": "2024-03-13",
+    "end": "2024-03-13"
+  },
+  "message_count": 34,
+  "topic": "Debugging campaign analytics query and metrics",
+  "topic_slug": "debugging-campaign-analytics-query-and-metrics",
+  "tags": [
+    "analytics",
+    "impression",
+    "frequency",
+    "campaign"
+  ],
+  "summary_markdown": "The session focused on debugging and refining a complex analytics query used to compare campaign metrics (impressions, frequency) between different sources. Initial issues included timezone discrepancies when pulling data from the production environment (`Brazil_All`). The core problem was resolved by adding a missing column definition (`campaignFacesLimit`) into the SQL query's `WITH` clause.\n\nAfter successful testing on multiple campaigns, it was noted that most metrics showed excellent consistency (discrepancy < 0.2%) for large campaigns. A minor discrepancy was observed in `Frequency_prod`, which someone suggested might be due to dashboard refresh behavior rather than a data error. The team also discussed the ability to filter or calculate metrics based on a single face per frame, confirming that the existing query structure already accounts for this via the `campaignFacesLimit` parameter.",
+  "decisions": [
+    "The analytics query was successfully debugged by adding '12 as campaignFacesLimit' to the WITH clause.",
+    "The team confirmed that the current query structure can account for metrics based on a single face per frame."
+  ],
+  "action_items": [
+    "Someone will continue testing the refined query across various campaigns and report back with any further issues or observations."
+  ]
+}

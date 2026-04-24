@@ -1,0 +1,19 @@
+{
+  "chat_id": "AAAA9ybOLwM",
+  "kind": "Space",
+  "space_name": "ИТ",
+  "participants": 8,
+  "date_range": {
+    "start": "2021-06-01",
+    "end": "2021-06-01"
+  },
+  "message_count": 5,
+  "topic": "S3 jobs and monitoring setup",
+  "topic_slug": "s3-jobs-and-monitoring-setup",
+  "tags": [
+    "analytics"
+  ],
+  "summary_markdown": "The discussion briefly touched upon S3 jobs and the need for associated monitoring. Someone confirmed they are responsible for this task.",
+  "decisions": [],
+  "action_items": []
+}

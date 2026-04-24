@@ -1,0 +1,24 @@
+{
+  "chat_id": "0m7UOUAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2023-09-04",
+    "end": "2023-09-04"
+  },
+  "message_count": 13,
+  "topic": "ML modeling workflow and data aggregation",
+  "topic_slug": "ml-modeling-workflow-and-data-aggregation",
+  "tags": [
+    "analytics",
+    "recalc-ch"
+  ],
+  "summary_markdown": "The conversation focused on the deployment of an ML Traffic prediction model, which was successfully run on staging and merged into master. A key discussion point was the current complexity of the data aggregation process for modeling, noting that different scripts are used in various locations (e.g., Rundeck) to handle daily production tasks.\n\nSomeone proposed standardizing this workflow so that a single job could execute all necessary steps (for a specific company and dataset). [me] provided a reference script (`recalc_ch_agg/aggregate_day_4.sh`) which is used overnight after the model runs, confirming it relates to the aggregation process.\n\nIt was decided to discuss the overall modeling workflow and data aggregation structure in a meeting on the following day.",
+  "decisions": [
+    "The ML Traffic prediction model was successfully deployed to staging and merged into master."
+  ],
+  "action_items": [
+    "Someone will schedule a follow-up meeting to discuss standardizing the ML modeling workflow and data aggregation process."
+  ]
+}

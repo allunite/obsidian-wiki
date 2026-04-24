@@ -1,0 +1,22 @@
+{
+  "chat_id": "AAAA9U6DpfU",
+  "kind": "Space",
+  "space_name": "Group Chat",
+  "participants": 3,
+  "date_range": {
+    "start": "2022-08-30",
+    "end": "2022-08-30"
+  },
+  "message_count": 14,
+  "topic": "Reviewing campaign metrics and mockups",
+  "topic_slug": "reviewing-campaign-metrics-and-mockups",
+  "tags": [
+    "analytics",
+    "campaign"
+  ],
+  "summary_markdown": "The discussion centered on reviewing campaign metrics and a mockup for an upcoming campaign. One participant shared multiple links to the current mockup, inviting feedback and suggestions. The conversation touched upon adding missing metrics and adjusting data display, including disabling a third tab.\n\nRegarding time calculations, it was suggested that instead of tracking hours separately, the calculation should retain the full day's duration and then account for the partial time used.",
+  "decisions": [
+    "The third mockup tab will be disabled."
+  ],
+  "action_items": []
+}

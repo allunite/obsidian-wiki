@@ -1,0 +1,24 @@
+{
+  "chat_id": "0m7UOUAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2025-01-08",
+    "end": "2025-01-08"
+  },
+  "message_count": 14,
+  "topic": "Adding data source quality flags to API",
+  "topic_slug": "adding-data-source-quality-flags-to-api",
+  "tags": [
+    "analytics",
+    "inventory"
+  ],
+  "summary_markdown": "The discussion focused on how to receive status indicators regarding the reliability of multiple data sources (e.g., telia, lam) provided by a third party via an API.\n\nTwo options were considered: 1) A separate endpoint containing date-specific flags for each source's operational status (ok/failed). 2) Adding these status fields directly into the existing `.parquet` files within the current API structure.\n\nAfter discussion, it was decided that adding the quality attributes as new fields directly into the comprehensive `.parquet` file is the preferred method, as this avoids additional processing and simplifies data handling across periods.",
+  "decisions": [
+    "The third party will add data source status flags (e.g., telia_data_status, lam_data_status) as new fields within the existing .parquet API files."
+  ],
+  "action_items": [
+    "[p1] to write to the third party regarding the implementation of these changes."
+  ]
+}

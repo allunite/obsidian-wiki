@@ -1,0 +1,22 @@
+{
+  "chat_id": "nW_zkkAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2025-01-30",
+    "end": "2025-01-30"
+  },
+  "message_count": 9,
+  "topic": "Session duration logic and permanent device status",
+  "topic_slug": "session-duration-permanent-device-status",
+  "tags": [
+    "analytics",
+    "session"
+  ],
+  "summary_markdown": "The discussion focused on the criteria for classifying a session as 'permanent' and how long sessions exceeding expected limits (e.g., 3600*2) can occur without being marked permanent.\n\nIt was clarified that:\n1. A session is definitively marked as permanent after six hours, referencing specific SQL logic (`recalc_ch/steps/20-insert_sessions.sql`).\n2. The criteria for marking a session as permanent are complex: it requires the sum of daily sessions to exceed two hours on three or more days within a week, referencing another specific SQL script (`recalc_ch/steps/11-select_permanents.sql`).\n3. A previous assumption that only `is_permanent_device` was necessary for long sessions was corrected; the logic also involves using `is_calibrated` to filter out overly long sessions.",
+  "decisions": [
+    "The permanent status of a session is determined by complex SQL logic involving daily session sums over multiple days, not just simple duration checks."
+  ],
+  "action_items": []
+}

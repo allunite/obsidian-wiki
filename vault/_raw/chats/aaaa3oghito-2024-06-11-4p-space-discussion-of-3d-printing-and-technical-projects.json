@@ -1,0 +1,21 @@
+{
+  "chat_id": "AAAA3oghITo",
+  "kind": "Space",
+  "space_name": "Кабаны",
+  "participants": 4,
+  "date_range": {
+    "start": "2024-06-11",
+    "end": "2024-06-11"
+  },
+  "message_count": 59,
+  "topic": "3D printing and technical projects discussion",
+  "topic_slug": "discussion-of-3d-printing-and-technical-projects",
+  "tags": [
+    "analytics"
+  ],
+  "summary_markdown": "The conversation covered various unrelated topics, including reports of confrontations between military recruitment centers (ТЦК) and medical personnel in Odessa, which participants largely dismissed as manipulative or staged. The discussion later shifted to technical projects, specifically 3D printing technology.\n\nParticipants discussed the requirements for setting up a functional 3D printing station, noting that it requires space, power, and managing noise/plasma residue. One participant shared resources related to 'drukarmy' (a project focused on printing during times of conflict), suggesting potential areas for development in this field.",
+  "decisions": [],
+  "action_items": [
+    "Review the provided link regarding 3D printing initiatives."
+  ]
+}

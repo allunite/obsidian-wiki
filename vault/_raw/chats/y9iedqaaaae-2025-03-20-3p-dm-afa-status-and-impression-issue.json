@@ -1,0 +1,19 @@
+{
+  "chat_id": "y9IEDQAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2025-03-20",
+    "end": "2025-03-20"
+  },
+  "message_count": 5,
+  "topic": "AFA status and impression issue",
+  "topic_slug": "afa-status-and-impression-issue",
+  "tags": [
+    "impression"
+  ],
+  "summary_markdown": "The conversation briefly addressed the status of AFA. Later, [me] reported that an issue with impressions was found, which was caused by someone else (Sasha), not [me].",
+  "decisions": [],
+  "action_items": []
+}

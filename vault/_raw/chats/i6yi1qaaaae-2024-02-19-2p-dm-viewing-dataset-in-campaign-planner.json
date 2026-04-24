@@ -1,0 +1,24 @@
+{
+  "chat_id": "i6YI1QAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 2,
+  "date_range": {
+    "start": "2024-02-19",
+    "end": "2024-02-19"
+  },
+  "message_count": 15,
+  "topic": "Viewing dataset in campaign planner",
+  "topic_slug": "viewing-dataset-in-campaign-planner",
+  "tags": [
+    "analytics",
+    "campaign"
+  ],
+  "summary_markdown": "The conversation shifted from small talk to a technical issue regarding viewing a dataset within the Campaign Planner. [p1] requested assistance with accessing a specific dataset link in the planner. [me] confirmed that the necessary functionality (ds query param) was deployed to both beta and dev environments, though an initial fix attempt failed because another developer had modified the front-end structure, preventing the URL parameter from reaching the server. [me] stated they would address this issue immediately.",
+  "decisions": [
+    "The dataset query parameter functionality is confirmed as deployed to beta and dev."
+  ],
+  "action_items": [
+    "[me] will create an urgent task to fix the front-end integration issue so that the URL parameter reaches the server."
+  ]
+}

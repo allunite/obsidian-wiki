@@ -1,0 +1,25 @@
+{
+  "chat_id": "0VorOYAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2024-04-22",
+    "end": "2024-04-22"
+  },
+  "message_count": 5,
+  "topic": "Comparing staging analytics and production data",
+  "topic_slug": "comparing-staging-analytics-and-production-data",
+  "tags": [
+    "analytics",
+    "impression",
+    "facility"
+  ],
+  "summary_markdown": "The discussion focused on comparing staging analytics against the production dataset for a specific task (DOOH-779). Someone confirmed that the new aggregates should match the data in the STAGE dataset exactly as it appears in production. A minor discrepancy was noted regarding 'viewed impression' data for 2023 in Brazil on the traffic dashboard, which is acceptable because the new aggregates handle this correctly and do not require facility-level filtering.",
+  "decisions": [
+    "The new aggregates must match the STAGE dataset exactly as it appears in production."
+  ],
+  "action_items": [
+    "[p1] will check and verify the data before tomorrow's call."
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "chat_id": "0VorOYAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2025-04-25",
+    "end": "2025-04-25"
+  },
+  "message_count": 14,
+  "topic": "Adjusting data aggregation and facility parameters",
+  "topic_slug": "adjusting-data-aggregation-and-facility-parameters",
+  "tags": [
+    "analytics",
+    "facility",
+    "recalc-ch"
+  ],
+  "summary_markdown": "The discussion focused on modifying data aggregation parameters for a specific facility. Initial requests included setting `cf*=6.5` using `company_num = 7885` and `facility_master_num = 43975`, while retaining the current aggregation method of grouping by two or more sensors at the stage level.\n\n[me] advised that changing the signature would be necessary, but noted it could be done relatively quickly. [p1] expressed concern about potential issues with high footfall data without impacting traffic metrics.\n\nDue to technical limitations (specifically, inability to pass `facility_master_num` into a function), [me] requested that [p1] create an issue ticket for the required changes.",
+  "decisions": [
+    "The need to modify the data signature was confirmed.",
+    "A Jira ticket (DOOH-1977) was created to track the necessary technical adjustments."
+  ],
+  "action_items": [
+    "[p1] to create a Jira ticket for the required changes."
+  ]
+}

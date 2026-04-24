@@ -1,0 +1,22 @@
+{
+  "chat_id": "nW_zkkAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2024-09-30",
+    "end": "2024-09-30"
+  },
+  "message_count": 4,
+  "topic": "Adding companies to forecast calculations",
+  "topic_slug": "adding-companies-to-forecast-calculations",
+  "tags": [
+    "campaign",
+    "analytics"
+  ],
+  "summary_markdown": "Someone provided a list of company IDs (7919, 7922, 7923, 7932, 7933, 7935, 7936) that need to be added to the forecast calculations. The request specifically included ensuring these additions are incorporated into the night-time (nightly) calculations.",
+  "decisions": [
+    "The specified list of companies was added to the forecast and nightly calculations."
+  ],
+  "action_items": []
+}

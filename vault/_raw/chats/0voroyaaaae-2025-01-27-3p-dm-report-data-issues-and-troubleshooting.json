@@ -1,0 +1,26 @@
+{
+  "chat_id": "0VorOYAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2025-01-27",
+    "end": "2025-01-27"
+  },
+  "message_count": 13,
+  "topic": "Report data issues and troubleshooting",
+  "topic_slug": "report-data-issues-and-troubleshooting",
+  "tags": [
+    "analytics",
+    "campaign",
+    "frame",
+    "inventory"
+  ],
+  "summary_markdown": "The conversation focused on diagnosing discrepancies in reporting data. Initially, it was noted that the traffic page report showed zero unique visitors (uniques) for time-based reports, which [me] confirmed was an error and a bug fix would be implemented.\n\nLater, concerns were raised about the 'Screens' tab within the campaign report being empty, even after selecting an airing period. To troubleshoot this, [me] asked if frames existed in the customer account and if the campaign had been created successfully. It was confirmed that the campaign was created without errors and that related information (e.g., FLN 01-*) was visible on another tab.\n\nThe session concluded with a request for a URL to locate the screen report, as the current UI is complex.",
+  "decisions": [
+    "A bug causing zero unique visitor counts in time-based reports will be fixed."
+  ],
+  "action_items": [
+    "[p1] will provide the URL for the screen report."
+  ]
+}

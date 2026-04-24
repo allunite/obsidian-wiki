@@ -1,0 +1,17 @@
+{
+  "chat_id": "oq-w0kAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2023-02-27",
+    "end": "2023-02-27"
+  },
+  "message_count": 4,
+  "topic": "Payroll timing information",
+  "topic_slug": "payroll-timing-information",
+  "tags": [],
+  "summary_markdown": "The conversation focused on the typical payroll schedule. It was noted that salaries usually arrive between the 28th and 30th of the month, though the exact date depends on the bank.",
+  "decisions": [],
+  "action_items": []
+}

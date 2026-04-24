@@ -1,0 +1,26 @@
+{
+  "chat_id": "nW_zkkAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2025-02-10",
+    "end": "2025-02-10"
+  },
+  "message_count": 31,
+  "topic": "Data model recalculation and dataset preparation",
+  "topic_slug": "data-model-recalculation-dataset-preparation",
+  "tags": [
+    "analytics",
+    "campaign",
+    "session"
+  ],
+  "summary_markdown": "The conversation focused on the necessary steps for recalculating a data model. It was decided that instead of modifying the production environment, a copy of the production dataset should be created in a separate dataset to perform the changes.\n\nRegarding the source data, [me] confirmed aggregating metrics by network and specified the required date range (January 2024 - June 2024). There was discussion about using `session_predicted` from the `ml_2` dataset within the production dataset. It was noted that the existing aggregation for the period before July needs to be recalculated, potentially extending back to January 1st, 2024.",
+  "decisions": [
+    "A copy of the production data will be created in a separate dataset for recalculation.",
+    "The source data should cover the period from January 2024 through June 2024."
+  ],
+  "action_items": [
+    "[me] to create and provide the `aka_test` dataset."
+  ]
+}

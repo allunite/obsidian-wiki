@@ -1,0 +1,22 @@
+{
+  "chat_id": "6ize28AAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2025-10-07",
+    "end": "2025-10-07"
+  },
+  "message_count": 5,
+  "topic": "Fixing frequency and reach calculation bug",
+  "topic_slug": "fixing-frequency-and-reach-calculation-bug",
+  "tags": [
+    "campaign",
+    "analytics"
+  ],
+  "summary_markdown": "A bug was identified in the campaigns related to incorrect calculations of frequency and reach during airing periods for clients using the ml-api formula. A fix is ready for deployment, but applying it will change metrics in specific campaigns (pg). The affected campaigns are primarily test accounts, with Citrus being significantly impacted.",
+  "decisions": [
+    "The bug fix should be deployed."
+  ],
+  "action_items": []
+}

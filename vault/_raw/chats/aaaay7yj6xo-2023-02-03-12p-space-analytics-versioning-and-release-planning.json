@@ -1,0 +1,25 @@
+{
+  "chat_id": "AAAAy7Yj6Xo",
+  "kind": "Space",
+  "space_name": "IT",
+  "participants": 12,
+  "date_range": {
+    "start": "2023-02-03",
+    "end": "2023-02-03"
+  },
+  "message_count": 33,
+  "topic": "Analytics versioning and release planning",
+  "topic_slug": "analytics-versioning-and-release-planning",
+  "tags": [
+    "analytics",
+    "campaign"
+  ],
+  "summary_markdown": "The discussion focused on updating the analytics platform's version number. The current version (v0.14.14) was deemed outdated, and a move to a more structured versioning system was proposed.\n\nMultiple suggestions were made for new version formats, including v[year].[major_release_num].[minor_release_num] and simpler year-based structures. After discussion, the team agreed on using **v2023.1.0** as the official version number.\n\nA release date was also discussed; while one participant suggested releasing immediately (Friday), others recommended waiting until Monday to allow time for final fixes.",
+  "decisions": [
+    "The new analytics version will be v2023.1.0.",
+    "The planned release date is set for Monday."
+  ],
+  "action_items": [
+    "Wait for the last fix from Alex before releasing."
+  ]
+}

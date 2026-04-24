@@ -1,0 +1,27 @@
+{
+  "chat_id": "rBfK7kAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 2,
+  "date_range": {
+    "start": "2024-04-12",
+    "end": "2024-04-12"
+  },
+  "message_count": 21,
+  "topic": "Implementing frequency formula for Gabon and Cote",
+  "topic_slug": "implementing-frequency-formula-gabon-cote",
+  "tags": [
+    "analytics",
+    "recalc-ch",
+    "campaign"
+  ],
+  "summary_markdown": "The conversation focused on implementing a new SQL function (`getFrequency_TEST_11`) to calculate frequency metrics for Gabon and Cote. The initial formula was provided, and technical guidance was given regarding its syntax (requiring `DROP FUNCTION IF EXISTS` and `ON CLUSTER allunite_cluster`).\n\nIt was determined that the formula could not be applied directly on the campaigns page but only on the traffic page.\n\nThe final decision was to integrate this new logic into existing functions (`getFrequency_3C` and `getFrequency_3C_stage`), starting with the staging environment to prevent disruption to production.",
+  "decisions": [
+    "The frequency calculation formula for Gabon/Cote must be integrated into getFrequency_3C and getFrequency_3C_stage functions.",
+    "Development work should start on the staging environment (getFrequency_3C_stage) first."
+  ],
+  "action_items": [
+    "Commit the source code to the designated GitHub repository: github.[redacted]/get_frequency.sql#L192",
+    "Create a Pull Request for the changes, starting with staging environment implementation."
+  ]
+}

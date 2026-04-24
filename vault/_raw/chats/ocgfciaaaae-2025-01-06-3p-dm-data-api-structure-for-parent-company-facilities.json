@@ -1,0 +1,25 @@
+{
+  "chat_id": "oCgFCIAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2025-01-06",
+    "end": "2025-01-06"
+  },
+  "message_count": 26,
+  "topic": "Data API structure for parent company facilities",
+  "topic_slug": "data-api-structure-for-parent-company-facilities",
+  "tags": [
+    "analytics",
+    "facility",
+    "campaign"
+  ],
+  "summary_markdown": "The discussion focused on the correct implementation of facility data retrieval, particularly when dealing with parent companies and linked facilities. Concerns were raised about whether a parent company's API should include all associated (linked) facilities or only those directly owned.\n\nIt was noted that current methods for retrieving facilities often rely on complex joins involving `get_company_facilities` and `get_partner_companies`. The use of the `user_company` table has been inconsistent, leading to reliance on linked company structures. A potential solution discussed involved passing all available locations (including linked ones) from the parent level.\n\nThe immediate goal is to provide a functional, albeit potentially temporary, data structure for reporting purposes, specifically mentioning needs for Finland and general facility mapping.",
+  "decisions": [
+    "The team agreed that a simple, initial draft solution should be created first, even if it requires subsequent modifications."
+  ],
+  "action_items": [
+    "One participant will revisit the data structure with fresh perspective to propose an initial implementation plan for parent company facility data."
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "chat_id": "nW_zkkAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2024-12-19",
+    "end": "2024-12-19"
+  },
+  "message_count": 29,
+  "topic": "Data aggregation and reporting issues",
+  "topic_slug": "data-aggregation-and-reporting-issues",
+  "tags": [
+    "analytics",
+    "impression",
+    "session"
+  ],
+  "summary_markdown": "The session focused on debugging inflated data metrics. [me] identified that the reported increase in data (specifically, sessions/impressions) was due to previous data not being deleted before running new aggregations, causing rows to double.\n\n[p1] confirmed the issue and expressed frustration with the process of recalculating item calculations and aggregation.\n\nTo resolve the discrepancy, [me] suggested re-aggregating the data. They discussed whether to use `facility_master_num` or aggregate across the entire company. [p1] specified using only the master facility number. The agreed dataset for re-aggregation was `model1`.",
+  "decisions": [
+    "The inflated data metrics were caused by failure to delete previous aggregation runs.",
+    "The data needs to be re-aggregated using the 'model1' dataset."
+  ],
+  "action_items": [
+    "Schedule a call for the next day (around 12:00) to finalize the data aggregation process."
+  ]
+}

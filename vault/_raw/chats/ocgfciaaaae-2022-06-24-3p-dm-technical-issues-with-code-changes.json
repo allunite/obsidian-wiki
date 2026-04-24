@@ -1,0 +1,19 @@
+{
+  "chat_id": "oCgFCIAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2022-06-24",
+    "end": "2022-06-24"
+  },
+  "message_count": 5,
+  "topic": "Technical issues with code changes",
+  "topic_slug": "technical-issues-with-code-changes",
+  "tags": [
+    "analytics"
+  ],
+  "summary_markdown": "The conversation revolves around [p1] needing to ask someone about a technical issue. Specifically, the discussion mentions that 'Dima' (a person) did not pull the latest changes and is looking for previous changes in an old version, suggesting difficulty with Git.",
+  "decisions": [],
+  "action_items": []
+}

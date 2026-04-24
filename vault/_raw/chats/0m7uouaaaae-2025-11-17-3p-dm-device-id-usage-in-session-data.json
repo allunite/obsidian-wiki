@@ -1,0 +1,22 @@
+{
+  "chat_id": "0m7UOUAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2025-11-17",
+    "end": "2025-11-17"
+  },
+  "message_count": 4,
+  "topic": "device_id usage in session data",
+  "topic_slug": "device-id-usage-in-session-data",
+  "tags": [
+    "analytics",
+    "session"
+  ],
+  "summary_markdown": "The conversation focused on the use of `device_id` from the `device_session_trusted` table for filtering, including virtual sessions. It was confirmed that the `device_id` is permanently saved in this table. A decision was reached regarding data cleanup: it was agreed to delete entries from `device_session` for virtual sessions so that the necessary data remains in `device_session_trusted`.",
+  "decisions": [
+    "Delete `device_session` records for virtual sessions to preserve data in `device_session_trusted`."
+  ],
+  "action_items": []
+}

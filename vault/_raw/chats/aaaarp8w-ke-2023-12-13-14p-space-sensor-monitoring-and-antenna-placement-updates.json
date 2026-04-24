@@ -1,0 +1,25 @@
+{
+  "chat_id": "AAAARP8w-KE",
+  "kind": "Space",
+  "space_name": "Problematic sensors",
+  "participants": 14,
+  "date_range": {
+    "start": "2023-12-13",
+    "end": "2023-12-13"
+  },
+  "message_count": 12,
+  "topic": "Sensor monitoring and antenna placement updates",
+  "topic_slug": "sensor-monitoring-and-antenna-placement-updates",
+  "tags": [
+    "facility",
+    "inventory",
+    "analytics"
+  ],
+  "summary_markdown": "Discussions covered sensor status, antenna relocation feasibility, and expected traffic increases. It was agreed that the sensors will be added to monitoring to receive alerts for being offline for more than 48 hours. A solution for batteries was mentioned, which could be installed in critical locations if funding is secured.\n\nRegarding antennas:\n*   Bara Mall: Antenna relocation was requested but later confirmed as unlikely this year.\n*   Tshwane and Orange Farm were discussed as potential sites for antenna placement, with Tshwane being considered a good option.\n*   A specific setup photo was reviewed to confirm the desired lower placement of antennas relative to televisions in a hall setting.",
+  "decisions": [
+    "Sensors will be added to monitoring to receive alerts if offline for over 48 hours."
+  ],
+  "action_items": [
+    "Confirm antenna installation specifications (lower than TVs) using provided photos/visuals."
+  ]
+}

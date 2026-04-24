@@ -1,0 +1,17 @@
+{
+  "chat_id": "AAAA9ybOLwM",
+  "kind": "Space",
+  "space_name": "ИТ",
+  "participants": 8,
+  "date_range": {
+    "start": "2021-01-21",
+    "end": "2021-01-21"
+  },
+  "message_count": 3,
+  "topic": "Technical product link sharing",
+  "topic_slug": "technical-product-link-sharing",
+  "tags": [],
+  "summary_markdown": "A participant shared a link to the Rut360 product page on Teltonika Networks. Subsequent messages were brief acknowledgments regarding 5GHz capability.",
+  "decisions": [],
+  "action_items": []
+}

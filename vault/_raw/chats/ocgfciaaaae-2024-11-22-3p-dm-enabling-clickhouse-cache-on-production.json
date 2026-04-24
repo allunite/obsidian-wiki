@@ -1,0 +1,24 @@
+{
+  "chat_id": "oCgFCIAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2024-11-22",
+    "end": "2024-11-22"
+  },
+  "message_count": 16,
+  "topic": "Enabling ClickHouse cache on production",
+  "topic_slug": "enabling-clickhouse-cache-on-production",
+  "tags": [
+    "analytics",
+    "campaign"
+  ],
+  "summary_markdown": "The discussion centered on the status of the built-in ClickHouse cache. [p1] noted that security calculations rely on the presence of this cache (specifically for `user_access` queries). [me] stated they would enable the internal CH cache on production, noting it was previously set to false by default and thus not working in the live environment.\n\n[p1] confirmed seeing the cache enabled on production previously. The conversation concluded with a decision to activate the cache using a single variable switch, which [p1] believes will simplify access for users and is reversible if necessary.",
+  "decisions": [
+    "The built-in ClickHouse cache will be enabled on production."
+  ],
+  "action_items": [
+    "[me] to enable the internal CH cache on production."
+  ]
+}

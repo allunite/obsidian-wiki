@@ -1,0 +1,21 @@
+{
+  "chat_id": "oCgFCIAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2022-08-22",
+    "end": "2022-08-22"
+  },
+  "message_count": 15,
+  "topic": "Reviewing data extraction logic for reports",
+  "topic_slug": "reviewing-data-extraction-logic-for-reports",
+  "tags": [
+    "analytics"
+  ],
+  "summary_markdown": "The conversation focused on a SQL query provided by [me] intended to extract data from multiple districts. The structure of the query ensures that all districts are listed for every date, even if no device activity was recorded in that district, which is necessary to prevent cumulative totals from appearing lower than previous dates. [p1] acknowledged seeing a commit related to this but stated they would review it later.",
+  "decisions": [],
+  "action_items": [
+    "Review the provided SQL query for data extraction logic."
+  ]
+}

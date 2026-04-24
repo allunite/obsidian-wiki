@@ -1,0 +1,25 @@
+{
+  "chat_id": "i6YI1QAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 2,
+  "date_range": {
+    "start": "2023-06-08",
+    "end": "2023-06-08"
+  },
+  "message_count": 19,
+  "topic": "Comparing competitor data with sensor locations in Brazil",
+  "topic_slug": "comparing-competitor-data-with-sensor-locations-in-brazil",
+  "tags": [
+    "analytics",
+    "inventory",
+    "facility"
+  ],
+  "summary_markdown": "The discussion focused on reconciling location data for Brazil. Initially, it was noted that 336 boxes were assigned to 'Brazil CC & JCD', with 109 specifically named 'JCD_BR_stock_XXXX'. Later, the conversation clarified that MGE refers to IPSOS and involves comparing competitor data (imported frames) against internal sensor data linked by location in Brazil. It was established that both [me] and someone were unaware of the term \"MGE boxes\".",
+  "decisions": [
+    "Someone needs to compare competitor data (imported frames) with internal sensor data for Brazilian locations."
+  ],
+  "action_items": [
+    "Someone needs to write to Marina regarding the data comparison."
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "chat_id": "oq-w0kAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2026-04-16",
+    "end": "2026-04-16"
+  },
+  "message_count": 4,
+  "topic": "AI project development and campaign integration",
+  "topic_slug": "ai-project-development-and-campaign-integration",
+  "tags": [
+    "analytics",
+    "campaign"
+  ],
+  "summary_markdown": "The discussion centered on exploring AI applications, specifically within advertising campaigns. One participant mentioned working with memory systems and MCP (Multi-Chip Package) for AI research. A project was planned to be launched over the next day, allowing agents (Sova, Dasha, Ivy, Gio) to begin training.\n\nAnother participant suggested developing a campaign idea and noted that one specific individual (Esben) could be leveraged for this initiative.",
+  "decisions": [
+    "Plan to launch an AI project over the next day for agent training."
+  ],
+  "action_items": [
+    "One participant will show an idea regarding campaign integration the following day."
+  ]
+}

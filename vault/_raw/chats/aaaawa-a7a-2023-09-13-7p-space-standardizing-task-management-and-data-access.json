@@ -1,0 +1,25 @@
+{
+  "chat_id": "AAAAwa--A7A",
+  "kind": "Space",
+  "space_name": "Quick Tasks",
+  "participants": 7,
+  "date_range": {
+    "start": "2023-09-13",
+    "end": "2023-09-13"
+  },
+  "message_count": 22,
+  "topic": "Standardizing task management and data access",
+  "topic_slug": "standardizing-task-management-and-data-access",
+  "tags": [
+    "analytics",
+    "campaign"
+  ],
+  "summary_markdown": "The discussion focused on standardizing internal processes, specifically regarding task tracking and system access. Participants agreed that all tasks should be managed within a single system (Jira) to avoid fragmentation across multiple channels/tools.\n\nRegarding data access, one participant requested write access to postgres/clickhouse. Another participant noted the complexity of existing communication channels (e.g., Issues, Brazil Dev, IT channel), reinforcing the need for centralized task management.",
+  "decisions": [
+    "All tasks must be logged and managed within Jira."
+  ],
+  "action_items": [
+    "Review and standardize data deletion procedures (mentioned by p3).",
+    "Determine a time to meet with [p4]."
+  ]
+}

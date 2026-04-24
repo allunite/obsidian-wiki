@@ -1,0 +1,24 @@
+{
+  "chat_id": "oCgFCIAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2022-02-17",
+    "end": "2022-02-17"
+  },
+  "message_count": 20,
+  "topic": "Database structure for facility and mall data",
+  "topic_slug": "database-structure-facility-mall-data",
+  "tags": [
+    "analytics",
+    "facility"
+  ],
+  "summary_markdown": "The discussion focused on structuring the database to link facilities, malls, and companies. It was suggested that linking by `mall_id` and `facility_id` would be efficient, with access controlled via roles.\n\n[me] noted that existing facility categories might suffice for categorization. The participants discussed how to store mall names and link multiple facilities from different companies to the same malls for traffic analysis, concluding that storing this information within the `asset` data field was considered convenient.",
+  "decisions": [
+    "Use a structure involving `mall_id` and `facility_id` for linking records."
+  ],
+  "action_items": [
+    "Follow up on database schema design, particularly regarding facility-to-mall linkages."
+  ]
+}

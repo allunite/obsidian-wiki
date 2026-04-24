@@ -1,0 +1,23 @@
+{
+  "chat_id": "i6YI1QAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 2,
+  "date_range": {
+    "start": "2022-06-21",
+    "end": "2022-06-21"
+  },
+  "message_count": 13,
+  "topic": "Data discrepancies and model adjustments",
+  "topic_slug": "data-discrepancies-and-model-adjustments",
+  "tags": [
+    "analytics",
+    "recalc-ch"
+  ],
+  "summary_markdown": "The conversation focused on reviewing a dataset named \"uniq_on_sample\". Initially, discrepancies were noted in the totals by [p1]. It was confirmed that the total figures are now acceptable. A key discussion point involved planning for a Finland release using a stage dataset model. [me] advised adjusting the time zone to UTC or starting the data from January 2nd, clarifying that this adjustment does not affect the unique user count (uniques) model.",
+  "decisions": [
+    "The total figures in the dataset are acceptable.",
+    "For Finland release planning using a stage dataset, the date range must be adjusted to UTC or start from January 2nd."
+  ],
+  "action_items": []
+}

@@ -1,0 +1,24 @@
+{
+  "chat_id": "i6YI1QAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 2,
+  "date_range": {
+    "start": "2022-03-14",
+    "end": "2022-03-14"
+  },
+  "message_count": 13,
+  "topic": "Discrepancy in traffic data reporting",
+  "topic_slug": "discrepancy-in-traffic-data-reporting",
+  "tags": [
+    "analytics",
+    "impression"
+  ],
+  "summary_markdown": "A discrepancy was noted regarding traffic data, with [p1] observing differences between the provided screenshots from 'хим платформа' (identified as DataCorp) and internal records. Later, [p1] inquired about potential fixes made by someone concerning Spain's metrics for March 5th, specifically mentioning that their model calculation might be affected if those fixes were not applied.\n\n[me] clarified that the only data adjustments made involved fixing peaks in the STAGE dataset between February 19th and February 28th. [me] confirmed that no changes were made to the data for March 5th.",
+  "decisions": [
+    "The traffic discrepancy issue requires further investigation into the source of the 'хим платформа' data."
+  ],
+  "action_items": [
+    "[p1] will re-calculate Spain's metrics for March 5th if necessary, based on confirmation of data integrity."
+  ]
+}

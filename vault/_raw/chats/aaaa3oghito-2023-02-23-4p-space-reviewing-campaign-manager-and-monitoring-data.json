@@ -1,0 +1,24 @@
+{
+  "chat_id": "AAAA3oghITo",
+  "kind": "Space",
+  "space_name": "Кабаны",
+  "participants": 4,
+  "date_range": {
+    "start": "2023-02-23",
+    "end": "2023-02-23"
+  },
+  "message_count": 20,
+  "topic": "Reviewing campaign manager and monitoring data",
+  "topic_slug": "reviewing-campaign-manager-and-monitoring-data",
+  "tags": [
+    "analytics",
+    "campaign"
+  ],
+  "summary_markdown": "The team discussed deploying minor fixes to production after updating the staging environment. After confirming the deployment, a meeting was scheduled to review updates in the campaign manager and monitoring data (specifically lidar data). One participant shared commands/tools used for importing geometry into the database.",
+  "decisions": [
+    "A meeting was tentatively set up to review the campaign manager and monitoring data."
+  ],
+  "action_items": [
+    "Someone needs to create a calendar invite for the follow-up meeting."
+  ]
+}

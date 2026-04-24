@@ -1,0 +1,19 @@
+{
+  "chat_id": "y9IEDQAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2021-08-07",
+    "end": "2021-08-07"
+  },
+  "message_count": 5,
+  "topic": "Configuration parameter and cluster addressing",
+  "topic_slug": "configuration-parameter-and-cluster-addressing",
+  "tags": [
+    "analytics"
+  ],
+  "summary_markdown": "The conversation discussed a specific configuration parameter that can be found in the configs, noting it could either be searched for and changed or ignored. The participants also addressed an address/IP issue, with one participant suggesting it looked like a Kubernetes IP but noted that ClickHouse is hosted on separate machines.",
+  "decisions": [],
+  "action_items": []
+}

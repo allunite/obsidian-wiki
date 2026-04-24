@@ -1,0 +1,21 @@
+{
+  "chat_id": "AAAA9ybOLwM",
+  "kind": "Space",
+  "space_name": "ИТ",
+  "participants": 8,
+  "date_range": {
+    "start": "2021-05-10",
+    "end": "2021-05-10"
+  },
+  "message_count": 7,
+  "topic": "Model release date confirmation",
+  "topic_slug": "model-release-date-confirmation",
+  "tags": [
+    "campaign"
+  ],
+  "summary_markdown": "The participants confirmed the model was released on April 15th.",
+  "decisions": [
+    "Confirmed model release date: April 15th."
+  ],
+  "action_items": []
+}

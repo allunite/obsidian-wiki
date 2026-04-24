@@ -1,0 +1,30 @@
+{
+  "chat_id": "oCgFCIAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2024-10-23",
+    "end": "2024-10-23"
+  },
+  "message_count": 32,
+  "topic": "Optimizing asset_data fields and database structure",
+  "topic_slug": "optimizing-asset_data-fields-and-database-structure",
+  "tags": [
+    "analytics",
+    "facility",
+    "impression",
+    "asset-data"
+  ],
+  "summary_markdown": "The discussion focused on optimizing the `asset_data` type to reduce data redundancy and improve database efficiency. Several fields were reviewed for potential removal from both the UI and the underlying data structure.\n\nKey points included:\n*   **Field Review:** A list of candidate fields was analyzed, noting that many duplicate existing frame fields. The goal is to prune unused fields while maintaining functionality in ClickHouse.\n*   **Impression Formula:** An existing SQL function for calculating impressions was reviewed; it uses several parameters (`view_distance`, `walking_speed`, `slot_duration`, etc.) and its formula was noted as potentially outdated, with plans for a new version.\n*   **Data Optimization:** Significant effort was made to reduce the size of the facility dictionary data by optimizing how null values were handled in JSON structures. This resulted in a measurable reduction (from 18MB to 12MB) in stored data volume, improving efficiency for servers querying the facility dictionary.\n*   **Next Steps:** The immediate plan is to simplify the UI by reducing the number of fields displayed, which will precede any changes to the core `asset_data` type.",
+  "decisions": [
+    "The goal is to remove unused fields from both the UI and the `asset_data` type.",
+    "Changes to the `asset_data` type must be carefully managed due to potential breakage in ClickHouse queries.",
+    "The facility dictionary data structure was optimized, reducing its size by 4MB."
+  ],
+  "action_items": [
+    "Review and prune unused fields from the `asset_data` type.",
+    "Implement a new formula for calculating impressions (as planned by someone else).",
+    "Simplify the UI to reduce field complexity across different facility types."
+  ]
+}

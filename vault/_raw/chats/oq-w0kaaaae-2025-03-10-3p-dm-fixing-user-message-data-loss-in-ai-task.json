@@ -1,0 +1,21 @@
+{
+  "chat_id": "oq-w0kAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2025-03-10",
+    "end": "2025-03-10"
+  },
+  "message_count": 5,
+  "topic": "Fixing user message data loss in AI task",
+  "topic_slug": "fixing-user-message-data-loss-in-ai-task",
+  "tags": [
+    "analytics"
+  ],
+  "summary_markdown": "A technical issue regarding the handling of user input messages within an AI task was discussed. It was identified that the entered user message was being lost when sent to the server. The fix involves adding a 'params' structure to the request body, which [p1] implemented and pushed.",
+  "decisions": [
+    "Implemented 'params' structure in the request body to prevent loss of user-entered messages."
+  ],
+  "action_items": []
+}

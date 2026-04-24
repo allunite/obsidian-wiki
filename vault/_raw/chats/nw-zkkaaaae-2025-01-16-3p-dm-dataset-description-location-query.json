@@ -1,0 +1,19 @@
+{
+  "chat_id": "nW_zkkAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2025-01-16",
+    "end": "2025-01-16"
+  },
+  "message_count": 6,
+  "topic": "Dataset description location query",
+  "topic_slug": "dataset-description-location-query",
+  "tags": [
+    "analytics"
+  ],
+  "summary_markdown": "Someone inquired about the current location of a dataset description, noting that it was not available on the platform. [me] confirmed that the description is no longer being moved or updated elsewhere.",
+  "decisions": [],
+  "action_items": []
+}

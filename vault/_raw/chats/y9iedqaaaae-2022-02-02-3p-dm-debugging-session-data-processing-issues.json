@@ -1,0 +1,28 @@
+{
+  "chat_id": "y9IEDQAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2022-02-02",
+    "end": "2022-02-02"
+  },
+  "message_count": 91,
+  "topic": "Debugging session data processing issues",
+  "topic_slug": "debugging-session-data-processing-issues",
+  "tags": [
+    "analytics",
+    "session",
+    "facility"
+  ],
+  "summary_markdown": "The discussion focused on debugging why expected sessions (specifically those with `owner_type = 'R'`) were not being processed correctly. Initial confusion arose regarding whether these sessions related to facilities or physical boxes.\n\nMultiple technical issues were identified:\n1. **Null Pointer Exceptions:** Scans repeatedly failed due to `java.lang.NullPointerException` when running data workers, possibly linked to newly added tenants for real-time processing.\n2. **Factor/Calibration Issues:** The process relies on a 'factor' value, which was found to be null or incorrect, causing the scans to fail. It was determined that this factor is necessary because real-time data is sent to Kinesis.\n3. **Concurrency/Locking:** The team suspected concurrency issues (race conditions) where new scan tasks started before previous ones finished, potentially leading to stale data reads or processing failures. A potential solution discussed was extending the lock duration.\n\nThe session concluded with code review and deployment of fixes related to synchronization and default factor handling.",
+  "decisions": [
+    "The owner type filter for sessions should be set to 'R' (facility-based).",
+    "The data worker logic needs adjustments to handle null factors by defaulting them correctly.",
+    "A lock mechanism or increased lock duration is required to prevent race conditions between concurrent scan tasks."
+  ],
+  "action_items": [
+    "Review and deploy the updated commit for improved synchronization and factor handling.",
+    "Monitor data processing after deployment to ensure consistent session capture."
+  ]
+}

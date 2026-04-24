@@ -1,0 +1,22 @@
+{
+  "chat_id": "y9IEDQAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2022-08-17",
+    "end": "2022-08-17"
+  },
+  "message_count": 15,
+  "topic": "Deleting device binding records for testing",
+  "topic_slug": "deleting-device-binding-records-for-testing",
+  "tags": [
+    "analytics",
+    "inventory"
+  ],
+  "summary_markdown": "The conversation focused on technical methods for clearing or 'unbinding' a device record, specifically in the context of captive portal testing. Initial suggestions included using `DELETE https://sdk-api.allunite.com/bind/machash/XXXX` and directly manipulating the `device` table in PostgreSQL.\n\nWhen addressing a specific query involving a MAC hash containing slashes (`/`), the recommended SQL approach was refined to ensure proper deletion from the `device_bind` table, using a subquery targeting devices where the `mac_hash` matches the provided value. The final consensus favored using the API endpoint method for deletion: `DELETE https://sdk-api.allunite.com/bind/mac?macHash=`, noting that while an alternative SQL approach exists (deleting from `device`), this specific method might incorrectly reference the `device` table.",
+  "decisions": [
+    "Use the API endpoint DELETE https://sdk-api.allunite.com/bind/mac?macHash= to delete device bindings."
+  ],
+  "action_items": []
+}

@@ -1,0 +1,21 @@
+{
+  "chat_id": "AAAAy7Yj6Xo",
+  "kind": "Space",
+  "space_name": "IT",
+  "participants": 12,
+  "date_range": {
+    "start": "2021-06-11",
+    "end": "2021-06-11"
+  },
+  "message_count": 7,
+  "topic": "Cabinet dimensions and casing specifications",
+  "topic_slug": "cabinet-dimensions-and-casing-specifications",
+  "tags": [
+    "inventory"
+  ],
+  "summary_markdown": "The conversation focused on identifying suitable physical casings for development boards. Specific links were provided, including one general option and a preferred case with dimensions of 85x110x39mm.",
+  "decisions": [
+    "A specific cabinet model was identified as the primary casing choice."
+  ],
+  "action_items": []
+}

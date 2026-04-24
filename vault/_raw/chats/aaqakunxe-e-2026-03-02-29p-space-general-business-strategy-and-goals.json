@@ -1,0 +1,19 @@
+{
+  "chat_id": "AAQAKuNXe-E",
+  "kind": "Space",
+  "space_name": "Weekly AllUnite status call - 2 Mar",
+  "participants": 29,
+  "date_range": {
+    "start": "2026-03-02",
+    "end": "2026-03-02"
+  },
+  "message_count": 9,
+  "topic": "General business strategy and goals",
+  "topic_slug": "general-business-strategy-and-goals",
+  "tags": [
+    "analytics"
+  ],
+  "summary_markdown": "The discussion focused on general corporate objectives, including achieving positive EBITDA, demonstrating 3-6 month ROI, ensuring happy customers and employees, reaching budget targets, and providing a great solution.",
+  "decisions": [],
+  "action_items": []
+}

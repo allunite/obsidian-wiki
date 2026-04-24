@@ -1,0 +1,27 @@
+{
+  "chat_id": "i6YI1QAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 2,
+  "date_range": {
+    "start": "2022-08-10",
+    "end": "2022-08-10"
+  },
+  "message_count": 44,
+  "topic": "Permanent device rules for airports and malls",
+  "topic_slug": "permanent-device-rules-airports-malls",
+  "tags": [
+    "analytics",
+    "session",
+    "dwell-time"
+  ],
+  "summary_markdown": "The discussion focused on defining new criteria to identify permanent devices, particularly for airport and mall locations. \n\n**New Rules Defined:**\n1. **Airport/General Permanent Rule (Session Length):** A person is considered a permanent device if they are near one screen for 6 hours or more.\n2. **Staff Device Rule (Frequency):** A person is considered a permanent device if they were seen on 3 or more days within the last 7 days, excluding the current day being processed.\n3. **Mall Cluster Rule:** For mall clusters, the criteria are: \n    a) The session must be longer than 6 hours (for the cluster).\n    b) Within the two preceding weeks (current + previous), the device must have spent a total of 2 or more hours on 3 or more separate days.\n\nThese rules were confirmed to be for a new scheme not yet implemented in recalc.",
+  "decisions": [
+    "Permanent devices will be identified by session duration (>6 hours) OR frequency (seen on 3+ days in last 7 days).",
+    "A specific rule set was defined for mall clusters, requiring both >6 hour sessions and presence on 3+ separate days (2+ hours total per day) within the two preceding weeks."
+  ],
+  "action_items": [
+    "The data source (`device_session_concept`) has been updated with the new logic.",
+    "Someone needs to apply these rules as a new scheme in recalc, although it is not yet implemented there."
+  ]
+}

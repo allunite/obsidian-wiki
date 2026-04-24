@@ -1,0 +1,27 @@
+{
+  "chat_id": "y9IEDQAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2023-06-08",
+    "end": "2023-06-08"
+  },
+  "message_count": 18,
+  "topic": "System dependencies and data cleanup",
+  "topic_slug": "system-dependencies-and-data-cleanup",
+  "tags": [
+    "analytics",
+    "session"
+  ],
+  "summary_markdown": "The conversation focused on decommissioning several system components. It was confirmed that JCD does not use real-time data, leading to the planned shutdown of certain systems (RMQ and session-related services). A discussion arose regarding the usage of Aerospike within the `sdk-worker` component. The purpose of queues like `sdk_track_event` and `sdk_bind_browser` was questioned. It was noted that `sdk_bind_browser` is no longer needed, but event tracking (captive) still utilizes these mechanisms.",
+  "decisions": [
+    "The use of real-time data from JCD is confirmed to be unnecessary.",
+    "RMQ and session services are scheduled for decommissioning/shutdown."
+  ],
+  "action_items": [
+    "Investigate the necessity and usage of Aerospike within `sdk-worker`.",
+    "Determine if existing queues (`sdk_track_event`, `sdk_bind_browser`) can be simplified or replaced (e.g., moving to Redis).",
+    "Confirm continued use of event tracking mechanisms."
+  ]
+}

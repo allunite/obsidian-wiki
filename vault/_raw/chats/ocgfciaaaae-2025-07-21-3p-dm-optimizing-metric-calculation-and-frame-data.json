@@ -1,0 +1,26 @@
+{
+  "chat_id": "oCgFCIAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2025-07-21",
+    "end": "2025-07-21"
+  },
+  "message_count": 23,
+  "topic": "Optimizing metric calculation and frame data",
+  "topic_slug": "optimizing-metric-calculation-and-frame-data",
+  "tags": [
+    "analytics",
+    "campaign",
+    "facility",
+    "frame"
+  ],
+  "summary_markdown": "The conversation focused on two main technical points: optimizing metric calculation and handling missing facility/frame data.\n\n**Metric Calculation Optimization:** It was discussed that calculating campaign metrics using the owner user ID, rather than the current viewing user's ID, would significantly improve performance. This approach is proposed to mitigate slowdowns caused by complex access restrictions.\n\n**Facility/Frame Data:** A concern was raised regarding facilities (company_num = 7955) returning empty results when querying `frame_dict`. It was questioned whether this indicates a system issue or standard behavior. The consensus suggested that frames should generally be added, as the company had planned to transition all operations to using frames across various countries.",
+  "decisions": [
+    "Implement metric calculation based on owner user ID for performance improvement."
+  ],
+  "action_items": [
+    "Someone needs to request the addition of missing frame data (frames) into the system."
+  ]
+}

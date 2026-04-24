@@ -1,0 +1,21 @@
+{
+  "chat_id": "AAAAaK7z8KI",
+  "kind": "Space",
+  "space_name": "Group Chat",
+  "participants": 5,
+  "date_range": {
+    "start": "2025-10-23",
+    "end": "2025-10-23"
+  },
+  "message_count": 9,
+  "topic": "ml-api deployment process update",
+  "topic_slug": "ml-api-deployment-process-update",
+  "tags": [
+    "analytics"
+  ],
+  "summary_markdown": "The group discussed the updated automated deployment process for the `ml-api` to the analytics environment. [p1] confirmed that auto-deployment is now active, requiring only a commit to the main branch (including merge commits from pull requests) to trigger the deployment.\n\n[p1] provided instructions on how to verify the deployed version by checking the API endpoint for date, time (UTC), branch, and commit hash.",
+  "decisions": [
+    "The `ml-api` is now set up for automated deployment upon committing to the main branch."
+  ],
+  "action_items": []
+}

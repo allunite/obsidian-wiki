@@ -1,0 +1,20 @@
+{
+  "chat_id": "ws0mTkAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 2,
+  "date_range": {
+    "start": "2023-11-30",
+    "end": "2023-11-30"
+  },
+  "message_count": 4,
+  "topic": "Dwell time discussion and sample completion",
+  "topic_slug": "dwell-time-discussion-and-sample-completion",
+  "tags": [
+    "dwell-time",
+    "analytics"
+  ],
+  "summary_markdown": "A brief exchange regarding dwell time metrics. [p1] mentioned remembering something positive said about dwell time but did not have notes. [me] stated that the topic was likely related to work being done on vendor samples, which are nearing completion.",
+  "decisions": [],
+  "action_items": []
+}

@@ -1,0 +1,27 @@
+{
+  "chat_id": "AAAA9ybOLwM",
+  "kind": "Space",
+  "space_name": "ИТ",
+  "participants": 8,
+  "date_range": {
+    "start": "2022-05-12",
+    "end": "2022-05-12"
+  },
+  "message_count": 25,
+  "topic": "Troubleshooting traffic and data mapping issues",
+  "topic_slug": "troubleshooting-traffic-and-data-mapping-issues",
+  "tags": [
+    "analytics",
+    "facility",
+    "impression"
+  ],
+  "summary_markdown": "The conversation covered several technical topics, including analyzing declining traffic in a specific unit (DP_MC2) and suggesting comparison with another unit (DP_MC4) to rule out firmware issues. A discussion also occurred regarding the proper method for importing/exporting facility data, noting that using Excel files in 'mods' causes zip code corruption and mapping loss. It was decided that fixing this bug is necessary before further use of the import/export function.\n\nRegarding traffic analysis, a specific unit (DP_08) was noted as having consistent, though low, traffic that had not been included in an initial report.",
+  "decisions": [
+    "Compare traffic data between DP_MC2 and DP_MC4 to diagnose potential firmware issues.",
+    "Stop using Excel files for importing/exporting facility data via 'mods' due to zip code corruption bugs."
+  ],
+  "action_items": [
+    "Fix the bug related to zip code loss when importing/exporting facility data in 'mods'.",
+    "Collect more traffic data, potentially waiting until Monday, for comprehensive analysis after a firmware change."
+  ]
+}

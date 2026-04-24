@@ -1,0 +1,19 @@
+{
+  "chat_id": "i6YI1QAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 2,
+  "date_range": {
+    "start": "2022-12-05",
+    "end": "2022-12-05"
+  },
+  "message_count": 12,
+  "topic": "Scheduling and role discussion",
+  "topic_slug": "scheduling-and-role-discussion",
+  "tags": [],
+  "summary_markdown": "The conversation primarily focused on scheduling a meeting for the next day at 10:00 Kyiv time. A secondary topic involved discussing technical tasks and roles, specifically regarding an interview candidate who was a web developer/designer rather than the originally sought-after web developer/scripting specialist. The participants exchanged light banter about professional hierarchy.",
+  "decisions": [
+    "A meeting is scheduled for 10:00 Kyiv time tomorrow."
+  ],
+  "action_items": []
+}

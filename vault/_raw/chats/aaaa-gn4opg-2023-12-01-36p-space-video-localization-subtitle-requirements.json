@@ -1,0 +1,24 @@
+{
+  "chat_id": "AAAA-gn4oPg",
+  "kind": "Space",
+  "space_name": "General and random",
+  "participants": 36,
+  "date_range": {
+    "start": "2023-12-01",
+    "end": "2023-12-01"
+  },
+  "message_count": 13,
+  "topic": "Video localization and subtitle requirements",
+  "topic_slug": "video-localization-subtitle-requirements",
+  "tags": [
+    "analytics",
+    "loop"
+  ],
+  "summary_markdown": "The discussion centered on the recent AllUnite Analytics video. A request was made to include Portuguese subtitles, noting that this would be beneficial for Brazilian audiences. It was suggested that the script could be translated using ChatGPT and then sent to a specific person (sarai) for confirmation. The general consensus noted the value of localization for various countries.",
+  "decisions": [
+    "Portuguese subtitles will be attempted for the video."
+  ],
+  "action_items": [
+    "Translate the script using ChatGPT and send it to sarai for confirmation."
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "chat_id": "y9IEDQAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2025-01-30",
+    "end": "2025-01-30"
+  },
+  "message_count": 48,
+  "topic": "Technical setup and internal knowledge bot development",
+  "topic_slug": "technical-setup-and-internal-knowledge-bot-development",
+  "tags": [
+    "analytics",
+    "campaign",
+    "session"
+  ],
+  "summary_markdown": "The conversation covered two main areas: technical troubleshooting (AWS EKS/Kubernetes setup) and the development of an internal knowledge bot. \n\nRegarding the infrastructure, [me] struggled with connecting to the Kubernetes cluster using `kubectl`, receiving credential errors despite running `aws eks update-kubeconfig`. The discussion noted that `kubelet` is a node service, not something run on the user's machine.\n\nFor the knowledge bot, [p1] requested assistance in creating a document containing typical Q&A from data teams. [me] outlined a more robust plan: building a bot with a vector database, establishing an internal text upload method (`*.allunite.local`), and implementing strict pre-prompts to prevent unauthorized information disclosure (like passwords). The scope was expanded to include indexing various sources like chat histories (from multiple individuals), Confluence materials, and even dedicated bots for CRM/Operations functions to answer questions about commitments or deadlines.\n\nFinally, the participants agreed on testing a new software release (v25.1.2.3-stable) immediately on the sandbox environment.",
+  "decisions": [
+    "The internal knowledge bot will be built using a vector database and an internal text upload method.",
+    "The bot's scope will include indexing chat histories, Confluence materials, and potentially dedicated CRM/Operations data sources.",
+    "A new software release (v25.1.2.3-stable) must be deployed to the sandbox environment."
+  ],
+  "action_items": [
+    "[p1] to provide an initial history document for bot testing.",
+    "Test the v25.1.2.3-stable release on the sandbox environment."
+  ]
+}

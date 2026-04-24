@@ -1,0 +1,24 @@
+{
+  "chat_id": "oCgFCIAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2022-06-08",
+    "end": "2022-06-08"
+  },
+  "message_count": 61,
+  "topic": "Debugging admin user data visibility issues",
+  "topic_slug": "debugging-admin-user-data-visibility-issues",
+  "tags": [
+    "analytics",
+    "campaign"
+  ],
+  "summary_markdown": "The conversation covered two main technical topics. First, the team discussed reviewing an anomalous peak in data and confirming that recovered data was successfully copied to production after applying a fix (slicing off the 5th point). Second, a major issue was identified where a request querying inter-clusters on staging environments incorrectly exposed `company_id` when the user was an admin. The root cause was traced back to logic related to how the admin status affected data visibility and menu structure.\n\n**Decisions/Approaches:**\n*   The team agreed that the fix should ensure the administrator can see all data, but ideally, this functionality should be contained (e.g., using a 'super-admin' role or magic constants) and not affect production logic.\n*   It was decided to implement a fix allowing an admin user to view their own company's data plus inter-cluster data on the sandbox environment.\n\n**Next Steps:**\n*   The fix was pushed locally by [me] and will be deployed later, after the current demo period concludes.",
+  "decisions": [
+    "Implement a fix for admin users to correctly view their own company's data plus inter-cluster data on sandbox environments."
+  ],
+  "action_items": [
+    "Deploy the committed fix once the current demonstration period ends."
+  ]
+}

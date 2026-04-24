@@ -1,0 +1,31 @@
+{
+  "chat_id": "AAAAaK7z8KI",
+  "kind": "Space",
+  "space_name": "Group Chat",
+  "participants": 5,
+  "date_range": {
+    "start": "2025-03-21",
+    "end": "2025-03-21"
+  },
+  "message_count": 82,
+  "topic": "ML API performance and scaling issues",
+  "topic_slug": "ml-api-performance-and-scaling-issues",
+  "tags": [
+    "analytics",
+    "campaign",
+    "facility",
+    "impression",
+    "loop",
+    "mops"
+  ],
+  "summary_markdown": "The discussion focused on performance issues with the ML API, specifically related to calculating frequency coefficients for AllUnite data. Initial concerns included `ValueError: Unknown city` and general request timeouts when running large queries (many facilities/long date ranges).\n\nIt was determined that the primary issue is not necessarily memory exhaustion but rather the service failing to respond within the 60-second timeout limit, leading monitoring systems to restart the pod. The ML API's architecture, being single-threaded by default (using FastAPI), exacerbates this problem as requests are queued.\n\nProposed solutions included refactoring the process into a streaming pipeline (`stream in -> transformer -> stream out`) and implementing an intermediate grouping level (by city) before calling the ML API. The consensus was that optimizing the Python code for memory efficiency (e.g., avoiding unnecessary DataFrame copies) is crucial, alongside increasing concurrency by configuring multiple workers.\n\nTesting methods discussed included running load tests using ApacheBench (`ab`) to simulate high concurrent requests.",
+  "decisions": [
+    "The ML API needs performance optimization and scaling improvements due to timeouts under heavy load.",
+    "Implement a strategy to group calculations by city before calling the ML API, rather than at the highest level of location data."
+  ],
+  "action_items": [
+    "Run benchmark tests (e.g., using ApacheBench) on the ML API to test performance with concurrent requests.",
+    "Investigate and implement multi-threading/worker scaling for the ML API service (e.g., setting worker count in Dockerfile).",
+    "Add historical data (9.02 to 20.03) for Japan into the `maid_track_japan_local` table."
+  ]
+}

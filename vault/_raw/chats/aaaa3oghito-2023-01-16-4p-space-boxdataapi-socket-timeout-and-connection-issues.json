@@ -1,0 +1,22 @@
+{
+  "chat_id": "AAAA3oghITo",
+  "kind": "Space",
+  "space_name": "Кабаны",
+  "participants": 4,
+  "date_range": {
+    "start": "2023-01-16",
+    "end": "2023-01-16"
+  },
+  "message_count": 12,
+  "topic": "BoxDataAPI socket timeout and connection issues",
+  "topic_slug": "boxdataapi-socket-timeout-and-connection-issues",
+  "tags": [
+    "analytics",
+    "impression"
+  ],
+  "summary_markdown": "The discussion centers on persistent errors observed in the `boxdataapi` logs, specifically a `java.net.SocketTimeoutException: timeout` and subsequent `java.net.SocketException: Socket closed`. The issue appears to be recurring and is noted as happening constantly since the current date.\n\nIt was determined that the API cannot ping or connect to the box data source (referred to as 'box' or 'kora'). A participant confirmed that restarting the service temporarily resolves the immediate error, but the problem recurs later. The root cause of the socket closing is unknown.",
+  "decisions": [
+    "The issue requires investigation from someone who developed the BoxDataAPI."
+  ],
+  "action_items": []
+}

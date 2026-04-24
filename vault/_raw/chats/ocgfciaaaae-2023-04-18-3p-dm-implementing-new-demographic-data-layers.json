@@ -1,0 +1,26 @@
+{
+  "chat_id": "oCgFCIAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2023-04-18",
+    "end": "2023-04-18"
+  },
+  "message_count": 33,
+  "topic": "Implementing new demographic data layers",
+  "topic_slug": "implementing-new-demographic-data-layers",
+  "tags": [
+    "analytics",
+    "facility",
+    "campaign"
+  ],
+  "summary_markdown": "The discussion focused on the technical implementation of new demographic data within the facility system. The current setup uses `demographic_data_layer` and `demographic_area_id` fields, with a new dictionary (`demographic_area`) being introduced to define the level at which demographics are captured (e.g., 'BR.Subdistricts', 'DK.Postcodes4').\n\nIt was noted that for certain countries (like Denmark, Finland, and Latvia), only postal codes were available in the old system. To improve accuracy, it is necessary to acquire and update missing district-level data (`demographic_data`) and run an `update facility` process.\n\nRegarding campaign reporting, there is a need to integrate calculations for both reach (similar to existing logic) and impressions, which have not yet been fully calculated. This requires considering new logic for calculating metrics based on selected frame IDs, especially without district-level data.",
+  "decisions": [
+    "The immediate plan is to review the current demographic figures; if they are acceptable, the use of zip codes will continue. If significant changes are needed, efforts will be made to find district-level mapping data."
+  ],
+  "action_items": [
+    "Someone needs to investigate finding and integrating district-level demographics for countries like Finland and Denmark.",
+    "The team needs to plan the integration of new calculations into the campaign manager, specifically for impressions and reach based on selected frame IDs."
+  ]
+}

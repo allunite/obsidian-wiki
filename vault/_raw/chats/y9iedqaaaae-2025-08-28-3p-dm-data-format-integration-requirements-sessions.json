@@ -1,0 +1,28 @@
+{
+  "chat_id": "y9IEDQAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2025-08-28",
+    "end": "2025-08-28"
+  },
+  "message_count": 40,
+  "topic": "Data format and integration requirements for sessions",
+  "topic_slug": "data-format-integration-requirements-sessions",
+  "tags": [
+    "session",
+    "analytics",
+    "inventory",
+    "campaign"
+  ],
+  "summary_markdown": "The discussion focused on the required data structure for integrating session data into the system, emphasizing minimal effort for integration. It was agreed that the data should be provided in Parquet format, ideally dumped to S3 if real-time ingestion is not possible.\n\nThe participants discussed replicating the client's existing session model and field set (specifically for GPS & Beacon tables) to ensure their models function correctly. A key point of discussion was how to handle signal strength/level data; it was suggested that a simple calibration where distance equals signal level might be necessary to avoid detection by the client's models.\n\nRegarding implementation scope, initial estimates were revised upwards from 2 hours to 6 hours due to required follow-up tasks such as combining clusters and calculating footfall. Furthermore, the inventory setup was noted as an additional task not included in the time estimate.",
+  "decisions": [
+    "Session data should be provided in Parquet format, ideally dumped to S3 if real-time ingestion is infeasible.",
+    "The session data structure must replicate the client's existing model and field set (GPS & Beacon tables) to maintain model functionality.",
+    "A calibration method (e.g., distance = signal level) will be used for signal strength/level data."
+  ],
+  "action_items": [
+    "Confirming the full scope of work, including inventory setup, is necessary due to time estimate revisions."
+  ]
+}

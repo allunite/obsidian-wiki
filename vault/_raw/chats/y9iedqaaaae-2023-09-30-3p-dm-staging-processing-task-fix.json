@@ -1,0 +1,21 @@
+{
+  "chat_id": "y9IEDQAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2023-09-30",
+    "end": "2023-09-30"
+  },
+  "message_count": 3,
+  "topic": "Staging processing task fix",
+  "topic_slug": "staging-processing-task-fix",
+  "tags": [
+    "analytics"
+  ],
+  "summary_markdown": "Someone discussed a technical issue regarding the staging environment's processing that was reportedly causing problems with the main task. [p1] acknowledged having left it incomplete and committed to fixing it today.",
+  "decisions": [],
+  "action_items": [
+    "[p1] will fix the staging processing issue today."
+  ]
+}

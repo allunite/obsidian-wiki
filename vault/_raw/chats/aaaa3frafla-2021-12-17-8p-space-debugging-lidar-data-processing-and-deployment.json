@@ -1,0 +1,25 @@
+{
+  "chat_id": "AAAA3frAfLA",
+  "kind": "Space",
+  "space_name": "Lidar Tech",
+  "participants": 8,
+  "date_range": {
+    "start": "2021-12-17",
+    "end": "2021-12-17"
+  },
+  "message_count": 25,
+  "topic": "Debugging lidar data processing and deployment",
+  "topic_slug": "debugging-lidar-data-processing-and-deployment",
+  "tags": [
+    "analytics",
+    "campaign",
+    "impression"
+  ],
+  "summary_markdown": "The primary focus was debugging a system that processes Lidar data. Initial issues involved the logic not running and problems with drivers, specifically concerning Ouster driver updates.\n\n[p1] reported difficulty deploying the feature due to driver conflicts. The issue was localized: while the code works locally on a Jetson device, it fails when run with the actual lidar hardware in Dubai, suggesting a deployment or environment-specific problem.\n\nLater, [p1] confirmed that data for 'consideration' was successfully deployed after bypassing an error, though further investigation might be required.",
+  "decisions": [
+    "The Lidar processing logic is currently being debugged and fixed for release."
+  ],
+  "action_items": [
+    "Further investigation into the failure of data extraction in Dubai is needed."
+  ]
+}

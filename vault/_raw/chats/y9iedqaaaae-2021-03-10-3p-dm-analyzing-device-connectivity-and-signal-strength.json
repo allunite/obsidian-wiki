@@ -1,0 +1,28 @@
+{
+  "chat_id": "y9IEDQAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2021-03-10",
+    "end": "2021-03-10"
+  },
+  "message_count": 90,
+  "topic": "Analyzing device connectivity and signal strength",
+  "topic_slug": "analyzing-device-connectivity-and-signal-strength",
+  "tags": [
+    "analytics",
+    "inventory",
+    "box-mac"
+  ],
+  "summary_markdown": "The discussion focused on optimizing data queries for analyzing device activity. Initial suggestions involved querying data over the last 5 minutes, but this was revised due to data latency issues.\n\n**Data Query Optimization:**\n*   A method was developed to calculate `number_per_minute` and unique boxes (`boxes`) by grouping raw device seen buffer data into five-minute intervals (using `toStartOfFiveMinute(timestamp)`).\n*   The query window was adjusted from 5 minutes to a larger range (e.g., `now()-1200` or `now()-1800`) for reliable rate calculation.\n\n**Device Health Monitoring:**\n*   A specific query structure was designed to identify boxes (`box_mac`) with unusually low activity rates (less than 30 packets) in five-minute intervals over the last hour, helping flag potential connectivity issues.\n*   The ability of ClickHouse to parse and analyze complex JSON structures within the `raw_devices_seen_buffer` table was demonstrated, allowing for the extraction of signal strength (`sl`) levels (average or maximum).\n\n**Device Identification:**\n*   A final query structure was established to join device MAC addresses with a 'box' dictionary to retrieve human-readable box names, while simultaneously filtering for low activity rates.",
+  "decisions": [
+    "Use five-minute intervals (`toStartOfFiveMinute`) for grouping raw device data analysis.",
+    "Query historical data over longer periods (e.g., 2 hours or more) to accurately assess device packet rates.",
+    "Implement a query that flags boxes with maximum packets below 30 in any given five-minute interval over the last hour."
+  ],
+  "action_items": [
+    "Test and refine queries for extracting signal strength levels from JSON data within `raw_devices_seen_buffer`.",
+    "Utilize dictionary lookups (`dictGetString`) to associate MAC addresses with box names when running low-activity reports."
+  ]
+}

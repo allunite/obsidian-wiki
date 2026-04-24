@@ -1,0 +1,24 @@
+{
+  "chat_id": "uJ8JA8AAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2025-09-16",
+    "end": "2025-09-16"
+  },
+  "message_count": 6,
+  "topic": "Deploying campaign frequency formula to production",
+  "topic_slug": "deploying-campaign-frequency-formula-to-production",
+  "tags": [
+    "campaign",
+    "analytics"
+  ],
+  "summary_markdown": "A request was made to deploy a specific frequency calculation formula for the Clear Channel Brazil campaign (company_num = 7887, city = Porto Alegre) from staging to production. The deployment was requested by [p1] and confirmed by [me]. A deadline of 14:00 was set to ensure it could be presented during a client call involving Lucas.",
+  "decisions": [
+    "The frequency formula for the specified campaign will be deployed to production."
+  ],
+  "action_items": [
+    "[me] needs to deploy the frequency formula by 14:00."
+  ]
+}

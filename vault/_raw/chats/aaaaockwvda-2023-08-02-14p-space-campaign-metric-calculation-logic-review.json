@@ -1,0 +1,27 @@
+{
+  "chat_id": "AAAAOcKWvdA",
+  "kind": "Space",
+  "space_name": "Delivery Coordination",
+  "participants": 14,
+  "date_range": {
+    "start": "2023-08-02",
+    "end": "2023-08-02"
+  },
+  "message_count": 31,
+  "topic": "Campaign metric calculation logic review",
+  "topic_slug": "campaign-metric-calculation-logic-review",
+  "tags": [
+    "analytics",
+    "frame",
+    "inventory"
+  ],
+  "summary_markdown": "A critical issue was identified regarding how campaign metrics are calculated, specifically the division of frame metrics by the average number of faces across all selected frames. This calculation leads to inaccurate results when only a few frames are selected.\n\n**Proposed Fix:** Instead of dividing the metric by the average face count, the metric for *each* individual frame should be divided by that frame's specific face count. The resulting values should then be summed up and sent to the front end.\n\n**Technical Constraints:** Implementing this fix requires backend database changes, as current endpoints (e.g., `/api/campaigns/target/total-traffic`) lack access to individual frame properties like face counts. A frontend fix is insufficient due to data limitations.\n\n**Secondary Discussion:** The need for an 'APPLY' button was discussed to reduce excessive server calls when selecting frames, though this does not solve the core calculation problem.",
+  "decisions": [
+    "The metric calculation must be revised to divide each frame's metric by its individual face count before summing (backend change).",
+    "An 'Apply manual selection' button will be placed near the 'Manual selection mode' text in the frame list pop-up."
+  ],
+  "action_items": [
+    "Investigate where the current average face calculation is performed on the backend.",
+    "Implement the revised metric calculation logic (backend development)."
+  ]
+}

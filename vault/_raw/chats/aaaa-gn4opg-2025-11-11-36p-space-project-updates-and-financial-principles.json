@@ -1,0 +1,25 @@
+{
+  "chat_id": "AAAA-gn4oPg",
+  "kind": "Space",
+  "space_name": "General and random",
+  "participants": 36,
+  "date_range": {
+    "start": "2025-11-11",
+    "end": "2025-11-11"
+  },
+  "message_count": 14,
+  "topic": "Project updates and financial principles",
+  "topic_slug": "project-updates-and-financial-principles",
+  "tags": [
+    "campaign",
+    "analytics",
+    "inventory"
+  ],
+  "summary_markdown": "The session covered general company progress, emphasizing the need for financial logic across all projects to ensure scalability and fund future R&D. Key operational principles include maintaining a minimum 50% margin on first-year projects.\n\nSeveral major project updates were shared:\n*   **Finland:** A tough project is currently underway.\n*   **Japan (JP):** Work has begun with several challenges regarding delivery, contracts, and budgets. There is an opportunity to secure an agreement with Dentsu in JP to extend the budget.\n*   **Denmark (DK):** Efforts are focused on closing a contract that is at iteration 13.\n*   **Poland:** A tender is scheduled for submission by the end of November.\n*   **United States (US):** The team expects to receive an RFP this week, involving a consortium with AU, Nielsen, and TPP Stagwell. The US market size was noted as approximately $9 billion in OOH compared to Europe's $9.5 million.\n\nOperationally, Data and IT are working to standardize the platform, which is considered key to success.",
+  "decisions": [
+    "Maintain a minimum 50% margin on all first-year projects."
+  ],
+  "action_items": [
+    "Data and IT continue standardizing the platform."
+  ]
+}

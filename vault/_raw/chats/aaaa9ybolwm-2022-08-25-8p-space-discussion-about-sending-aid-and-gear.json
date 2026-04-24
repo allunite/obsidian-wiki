@@ -1,0 +1,17 @@
+{
+  "chat_id": "AAAA9ybOLwM",
+  "kind": "Space",
+  "space_name": "ИТ",
+  "participants": 8,
+  "date_range": {
+    "start": "2022-08-25",
+    "end": "2022-08-25"
+  },
+  "message_count": 5,
+  "topic": "Discussion about sending aid and gear",
+  "topic_slug": "discussion-about-sending-aid-and-gear",
+  "tags": [],
+  "summary_markdown": "The conversation involves multiple unrelated topics, including links and discussions regarding sending humanitarian aid from Denmark to Ukraine. A participant also inquired about purchasing military tactical clothing in Denmark.",
+  "decisions": [],
+  "action_items": []
+}

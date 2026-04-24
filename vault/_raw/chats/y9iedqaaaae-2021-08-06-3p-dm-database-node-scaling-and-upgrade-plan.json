@@ -1,0 +1,24 @@
+{
+  "chat_id": "y9IEDQAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2021-08-06",
+    "end": "2021-08-06"
+  },
+  "message_count": 16,
+  "topic": "Database node scaling and upgrade plan",
+  "topic_slug": "database-node-scaling-and-upgrade-plan",
+  "tags": [
+    "analytics",
+    "recalc-ch"
+  ],
+  "summary_markdown": "The conversation focused on resolving database connection errors (e.g., `Code: 210. DB::NetException: Connection refused`) and improving system stability, particularly when running data exports like 'seen'.\n\nIt was decided that the number of nodes should be increased. The specific plan discussed involved doubling all existing nodes using the next available r5 instance type.\n\n[me] suggested focusing only on memory upgrades as an alternative to scaling all components.",
+  "decisions": [
+    "Increase the total number of database nodes",
+    "Double all existing nodes using the next available r5 instance type",
+    "Perform the upgrade in the evening"
+  ],
+  "action_items": []
+}

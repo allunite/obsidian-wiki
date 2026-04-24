@@ -1,0 +1,21 @@
+{
+  "chat_id": "qF2Fa0AAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 2,
+  "date_range": {
+    "start": "2024-01-10",
+    "end": "2024-01-10"
+  },
+  "message_count": 3,
+  "topic": "Technical issue requiring follow-up call",
+  "topic_slug": "technical-issue-requiring-follow-up-call",
+  "tags": [
+    "analytics"
+  ],
+  "summary_markdown": "The conversation started with [unknown] requesting a call because they were stuck on an issue. The chat ended with [unknown] pasting a technical error code and stack trace related to a database exception, indicating the core problem.",
+  "decisions": [],
+  "action_items": [
+    "Schedule a follow-up call to discuss the technical issue"
+  ]
+}

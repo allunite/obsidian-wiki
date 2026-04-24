@@ -1,0 +1,19 @@
+{
+  "chat_id": "ws0mTkAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 2,
+  "date_range": {
+    "start": "2024-01-05",
+    "end": "2024-01-05"
+  },
+  "message_count": 9,
+  "topic": "Adding participants to WhatsApp chat",
+  "topic_slug": "adding-participants-to-whatsapp-chat",
+  "tags": [],
+  "summary_markdown": "The conversation revolves around adding a participant to a specific WhatsApp group chat concerning Brazil. [me] stated that they cannot add the person and suggested asking Esben, as only he might be able to do it. [p1] mentioned that another individual (Tolya) had already requested and been added.",
+  "decisions": [],
+  "action_items": [
+    "Ask Esben to add the participant to the WhatsApp chat."
+  ]
+}

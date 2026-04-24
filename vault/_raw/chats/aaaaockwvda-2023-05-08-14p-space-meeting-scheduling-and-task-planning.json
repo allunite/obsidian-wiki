@@ -1,0 +1,23 @@
+{
+  "chat_id": "AAAAOcKWvdA",
+  "kind": "Space",
+  "space_name": "Delivery Coordination",
+  "participants": 14,
+  "date_range": {
+    "start": "2023-05-08",
+    "end": "2023-05-08"
+  },
+  "message_count": 9,
+  "topic": "Meeting scheduling and task planning",
+  "topic_slug": "meeting-scheduling-and-task-planning",
+  "tags": [
+    "campaign"
+  ],
+  "summary_markdown": "The participants discussed the agenda for a meeting regarding Brazil. They agreed to schedule a follow-up discussion on campaigns separately from the main meeting.\n\nLater, someone reminded the group about outstanding tasks that had not been created or discussed in previous sessions, suggesting they consolidate all remaining items into new tasks.",
+  "decisions": [
+    "A separate campaign discussion will be held."
+  ],
+  "action_items": [
+    "Create tasks for previously undiscussed and unassigned items on the Campaign manager board."
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "chat_id": "AAAAE6wwLnU",
+  "kind": "Space",
+  "space_name": "Finnish meeting preparation",
+  "participants": 5,
+  "date_range": {
+    "start": "2022-09-09",
+    "end": "2022-09-09"
+  },
+  "message_count": 57,
+  "topic": "Analytics dashboard updates and data preparation",
+  "topic_slug": "analytics-dashboard-updates-and-data-preparation",
+  "tags": [
+    "campaign",
+    "impression",
+    "inventory",
+    "analytics"
+  ],
+  "summary_markdown": "The team discussed necessary updates to the analytics dashboard, including renaming metrics and simplifying the campaign table view. Specific changes include:\n\n*   Changing 'viewable impressions' (OTC) to simply 'OTC'.\n*   Renaming 'Total traffic' to 'Traffic' and 'Total uniques' to 'Uniques'.\n*   Simplifying column headers like 'Population covered' and 'Target population'.\n*   Addressing potential JavaScript errors observed in the system.\n\nAdditionally, data preparation for a demo access was discussed. It was decided that while the client requested access for both Denmark and Finland, the initial focus would be on providing fake data for Denmark (multiplying by 0.73) to test the functionality.",
+  "decisions": [
+    "Rename 'viewable impressions' (OTC) to 'OTC'.",
+    "Simplify campaign table columns and headers.",
+    "Provide demo access initially focused on Denmark using scaled/fake data."
+  ],
+  "action_items": [
+    "Update the analytics dashboard with simplified metrics and column names.",
+    "Prepare fake data for Danish market demonstration access."
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "chat_id": "0m7UOUAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2023-12-01",
+    "end": "2023-12-01"
+  },
+  "message_count": 11,
+  "topic": "SQL script debugging and deployment planning",
+  "topic_slug": "sql-script-debugging-and-deployment-planning",
+  "tags": [
+    "analytics",
+    "campaign"
+  ],
+  "summary_markdown": "A technical discussion occurred regarding a failing SQL script (`ml_to_stage_aggregation.sql`). The error was related to an unknown column (`t.agg_version`) in the ClickHouse database, which prevented one data transfer process (D) from completing while another (H) succeeded.\n\nLater, the conversation shifted to verifying the stability of a different script (`stage_to_prod_copy.sql`) before planning a production deployment for new model data. Someone confirmed that the current script is stable but noted that future changes will involve adding new fields.",
+  "decisions": [
+    "The immediate SQL error in `ml_to_stage_aggregation.sql` was addressed and fixed.",
+    "The stability of `stage_to_prod_copy.sql` was confirmed for the upcoming production data transfer."
+  ],
+  "action_items": [
+    "No concrete action items were assigned, but a future deployment of new model data is planned."
+  ]
+}

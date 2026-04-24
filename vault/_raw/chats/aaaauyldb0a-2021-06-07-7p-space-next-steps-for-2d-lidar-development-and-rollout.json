@@ -1,0 +1,29 @@
+{
+  "chat_id": "AAAAuyldb0A",
+  "kind": "Space",
+  "space_name": "Lidar development",
+  "participants": 7,
+  "date_range": {
+    "start": "2021-06-07",
+    "end": "2021-06-07"
+  },
+  "message_count": 38,
+  "topic": "Next steps for 2D Lidar development and rollout",
+  "topic_slug": "next-steps-for-2d-lidar-development-and-rollout",
+  "tags": [
+    "analytics",
+    "inventory",
+    "campaign"
+  ],
+  "summary_markdown": "The team discussed the progress of 2D Lidar, noting that a go-ahead was received from Estonia. It was decided that a Purchase Order (PO) should be sent to formalize the agreement.\n\nRegarding development timelines, two weeks for development seems acceptable. The initial phase will involve developing the product before shipping sensors.\n\nThe team plans to add 2D Lidar to the product portfolio and aims for a full rollout in one large country. To facilitate this, [p1] suggested creating a 3D printed casing/box for the lidar unit, which someone agreed to design.\n\n[p5] committed to finalizing MQTT firmware and broker within two days to focus on the 2D Lidar development.",
+  "decisions": [
+    "Send a Purchase Order (PO) to Estonia to formalize the agreement and schedule a call.",
+    "The initial phase will involve product development before shipping sensors.",
+    "A 3D printed casing/box for the lidar unit needs to be designed."
+  ],
+  "action_items": [
+    "[p3] to send PO to Estonia and schedule a follow-up call.",
+    "Someone to design the 3D printed casing/box.",
+    "[p5] to finalize MQTT firmware and broker within two days."
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "chat_id": "AAAAOcKWvdA",
+  "kind": "Space",
+  "space_name": "Delivery Coordination",
+  "participants": 14,
+  "date_range": {
+    "start": "2023-08-18",
+    "end": "2023-08-18"
+  },
+  "message_count": 46,
+  "topic": "Delaying release due to data discrepancies",
+  "topic_slug": "delaying-release-due-to-data-discrepancies",
+  "tags": [
+    "analytics",
+    "campaign",
+    "impression",
+    "session"
+  ],
+  "summary_markdown": "The discussion focused on the timing and methodology of releasing updated metrics, specifically concerning a change to the frequency formula. Initially, there was debate over whether to release all changes at once or wait for the formula update.\n\nLater, issues arose regarding data discrepancies between production and staging environments. It was noted that even after running a script and clearing old data from August 1st, the updated metrics were not visible on the staging dashboard, appearing identical to existing data.\n\nThe decision was made to postpone the release until Monday to allow time for troubleshooting and resolving the underlying data issues.",
+  "decisions": [
+    "The release of updated metrics is postponed until Monday."
+  ],
+  "action_items": [
+    "Investigate and resolve the data discrepancies between staging and production environments."
+  ]
+}

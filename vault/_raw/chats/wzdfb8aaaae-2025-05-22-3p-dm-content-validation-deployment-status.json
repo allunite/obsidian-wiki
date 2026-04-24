@@ -1,0 +1,20 @@
+{
+  "chat_id": "wZDFB8AAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2025-05-22",
+    "end": "2025-05-22"
+  },
+  "message_count": 3,
+  "topic": "Content validation and deployment status",
+  "topic_slug": "content-validation-deployment-status",
+  "tags": [
+    "campaign",
+    "analytics"
+  ],
+  "summary_markdown": "The content was completed. [p1] validated the item on staging and confirmed it is ready to move to production.",
+  "decisions": [],
+  "action_items": []
+}

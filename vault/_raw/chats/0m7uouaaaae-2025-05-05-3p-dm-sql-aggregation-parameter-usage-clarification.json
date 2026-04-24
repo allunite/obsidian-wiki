@@ -1,0 +1,23 @@
+{
+  "chat_id": "0m7UOUAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2025-05-05",
+    "end": "2025-05-05"
+  },
+  "message_count": 11,
+  "topic": "SQL aggregation parameter usage clarification",
+  "topic_slug": "sql-aggregation-parameter-usage-clarification",
+  "tags": [
+    "analytics"
+  ],
+  "summary_markdown": "The conversation focused on clarifying the function of the `param_forceLatestMasterNum` parameter within a specific SQL aggregation script. This parameter determines how cluster facility numbers are sourced:\n\n*   **Value 0:** Uses the `device_session_trusted.facility_master_num` as it existed at the time of session creation.\n*   **Value 1:** Uses the current definition, derived via a dictionary lookup (`getDict('facility_2', 'facility_master_num', device_session_trusted.facility_num)`).\n\nThe discussion noted that `facility_dict` is technically newer and declared in the DDL, while `facility_2` is an older method used historically. It was confirmed that when referencing the original facility master number from the session, the correct parameter value is 0 (a boolean).",
+  "decisions": [
+    "The SQL script will be updated to correctly use the boolean parameter for sourcing the original facility master number."
+  ],
+  "action_items": [
+    "Someone will commit changes today to adjust the SQL script based on the clarification of the parameter value (0)."
+  ]
+}

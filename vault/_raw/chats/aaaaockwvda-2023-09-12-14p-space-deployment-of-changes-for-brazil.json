@@ -1,0 +1,21 @@
+{
+  "chat_id": "AAAAOcKWvdA",
+  "kind": "Space",
+  "space_name": "Delivery Coordination",
+  "participants": 14,
+  "date_range": {
+    "start": "2023-09-12",
+    "end": "2023-09-12"
+  },
+  "message_count": 7,
+  "topic": "Deployment of changes for Brazil",
+  "topic_slug": "deployment-of-changes-for-brazil",
+  "tags": [
+    "campaign"
+  ],
+  "summary_markdown": "A deployment was coordinated to implement small changes specifically for the Brazilian market. The process involved merging all code into master, followed by a successful release.",
+  "decisions": [
+    "Small changes for Brazil were deployed."
+  ],
+  "action_items": []
+}

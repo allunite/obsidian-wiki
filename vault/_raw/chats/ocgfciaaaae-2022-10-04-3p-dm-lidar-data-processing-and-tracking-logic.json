@@ -1,0 +1,32 @@
+{
+  "chat_id": "oCgFCIAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2022-10-04",
+    "end": "2022-10-04"
+  },
+  "message_count": 115,
+  "topic": "Lidar data processing and tracking logic",
+  "topic_slug": "lidar-data-processing-and-tracking-logic",
+  "tags": [
+    "analytics",
+    "impression",
+    "session",
+    "object-id",
+    "raw-data"
+  ],
+  "summary_markdown": "The session focused on defining and refining the logic for processing raw 3D lidar data, specifically concerning traffic counting and user behavior metrics. Key points included:\n\n*   **Traffic Definition:** Traffic should be counted as sessions passing through a defined entry zone (blue box), filtering out other movements.\n*   **Metrics Calculation:** Consideration is calculated by summing sessions with `activity` type 'consideration' or those that entered an interaction state. Interaction requires both the event and a minimum session duration (e.g., > 2000ms).\n*   **Data Integrity Issues:** Multiple issues were identified, including data duplication due to network load/QoS settings, and the need for robust methods (like using `ROW_NUMBER` or temporary tables) to clean the raw data.\n*   **Lidar ID Mapping:** A decision was made regarding how to map lidar IDs. Initially, a preference for storing the ID in configuration files was discussed, but later consensus favored making the `lidar_id` field text-based (VARCHAR) to accommodate serial numbers directly.\n*   **Data Aggregation:** The use of `uniq(object_id)` was suggested for traffic counting to mitigate duplication issues, although full deduplication requires grouping by all relevant fields.\n\nOverall, the goal is to create a stable data pipeline that aggregates metrics (total traffic, consideration, interaction) based on filtered and cleaned raw lidar sessions.",
+  "decisions": [
+    "Traffic should be counted as sessions passing through the designated entry zone.",
+    "Consideration and Interaction counts must filter for specific activities and minimum session durations.",
+    "The `lidar_id` field should ideally be stored as a text/string type to accommodate serial numbers directly, rather than relying solely on GUID generation.",
+    "Data duplication issues require advanced SQL techniques (e.g., using CTEs or temporary tables) for cleaning the raw data before aggregation."
+  ],
+  "action_items": [
+    "Implement logic to count objects only if they were detected in the defined entry zone (`reappearance = 0`).",
+    "Refine SQL queries to correctly calculate unique traffic, consideration, and interaction counts using `uniq(object_id)` or full grouping.",
+    "Develop a process (e.g., service redeployment) to fix data duplication issues by cleaning the raw table structure."
+  ]
+}

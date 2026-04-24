@@ -1,0 +1,21 @@
+{
+  "chat_id": "y9IEDQAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2025-02-07",
+    "end": "2025-02-07"
+  },
+  "message_count": 3,
+  "topic": "Bot command usage for daily status updates",
+  "topic_slug": "bot-command-usage-for-daily-status-updates",
+  "tags": [
+    "analytics"
+  ],
+  "summary_markdown": "Someone was informed about a new bot command, `/standup_done`, which can be used to report completion of tasks within the day. This will allow the bot to prompt for updates on subsequent days.",
+  "decisions": [],
+  "action_items": [
+    "Use the /standup_done bot command today."
+  ]
+}

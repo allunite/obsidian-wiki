@@ -1,0 +1,25 @@
+{
+  "chat_id": "oCgFCIAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2026-03-24",
+    "end": "2026-03-24"
+  },
+  "message_count": 6,
+  "topic": "Moving Danish clusters to shared access",
+  "topic_slug": "moving-danish-clusters-to-shared-access",
+  "tags": [
+    "facility",
+    "analytics",
+    "campaign"
+  ],
+  "summary_markdown": "The discussion centered on the technical feasibility of moving existing Danish clusters into a shared access group, where all participants will have visibility. The primary concern was how metric calculations would be affected when a cluster containing facilities from only one company moves to this shared environment.\n\nIt was determined that if the cluster contains facilities solely belonging to one company, there should be no major issues with the transition. The frequency and dwell formula for the logged-in user's company will be used in the shared setup.\n\nAction items included checking specific settings, particularly ensuring the 'Frequency' setting in Denmark is consistent across all locations and has been properly transferred to the ml-api.",
+  "decisions": [
+    "The move of single-company Danish clusters into shared access is deemed safe regarding metric history."
+  ],
+  "action_items": [
+    "Check and standardize 'Frequency' settings in Denmark across all locations, ensuring consistency with the ml-api."
+  ]
+}

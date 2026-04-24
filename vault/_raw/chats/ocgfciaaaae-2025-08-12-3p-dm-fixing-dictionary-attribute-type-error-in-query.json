@@ -1,0 +1,22 @@
+{
+  "chat_id": "oCgFCIAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2025-08-12",
+    "end": "2025-08-12"
+  },
+  "message_count": 11,
+  "topic": "Fixing dictionary attribute type error in query",
+  "topic_slug": "fixing-dictionary-attribute-type-error-in-query",
+  "tags": [
+    "analytics",
+    "recalc-ch"
+  ],
+  "summary_markdown": "The discussion focused on resolving a persistent `Function dictGetUInt8 dictionary attribute has different type UInt32 expected UInt8` error within a complex SQL query. The issue stemmed from an isolated section of code that was difficult to manage and frequently caused errors.\n\nIt was determined that the fix involved correcting how the `faces_count` attribute is retrieved from the `frame_dict`. Specifically, the data type used for this retrieval needed adjustment (from potentially incorrect usage to a proper implementation). The goal was to integrate this logic back into the main query structure rather than leaving it as an isolated piece of code.",
+  "decisions": [
+    "The fix requires integrating the faces count attribute retrieval directly into the main SQL query structure."
+  ],
+  "action_items": []
+}

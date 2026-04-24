@@ -1,0 +1,24 @@
+{
+  "chat_id": "uJ8JA8AAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2025-11-05",
+    "end": "2025-11-05"
+  },
+  "message_count": 11,
+  "topic": "Demographic data requirements for UAE integration",
+  "topic_slug": "demographic-data-requirements-for-uae-integration",
+  "tags": [
+    "analytics",
+    "facility"
+  ],
+  "summary_markdown": "The discussion focused on gathering demographic data for the Emirates, specifically determining required fields for an integration. [p1] provided a link and confirmed that `facility_master_num` and general demographic figures are needed.\n\nWhen discussing purchasing power (PP), it was noted that raw data is available only in absolute values (e.g., PPPC_CY). A suggestion was made to categorize the purchasing power into two groups (e.g., above/below 100,000).\n\nUltimately, it was decided to skip using purchasing power metrics for this integration.",
+  "decisions": [
+    "Purchasing power data will be skipped for the current integration."
+  ],
+  "action_items": [
+    "Someone needs to confirm the final approach regarding demographic data with Akshay Jain."
+  ]
+}

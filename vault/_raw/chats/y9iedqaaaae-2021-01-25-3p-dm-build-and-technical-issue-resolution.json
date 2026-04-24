@@ -1,0 +1,21 @@
+{
+  "chat_id": "y9IEDQAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2021-01-25",
+    "end": "2021-01-25"
+  },
+  "message_count": 14,
+  "topic": "Build and technical issue resolution",
+  "topic_slug": "build-and-technical-issue-resolution",
+  "tags": [
+    "analytics"
+  ],
+  "summary_markdown": "The conversation primarily revolves around troubleshooting a build process. Initially, [me] noted that the build had previously taken 7-10 minutes and experienced crashes. Later, [p1] confirmed that the issue was resolved after some effort. The resolution involved addressing broken pip packages and migrating the environment from unsupported Python 2.7 to Python 3.",
+  "decisions": [
+    "The technical issue with the build process was resolved."
+  ],
+  "action_items": []
+}

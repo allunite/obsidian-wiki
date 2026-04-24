@@ -1,0 +1,24 @@
+{
+  "chat_id": "rBfK7kAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 2,
+  "date_range": {
+    "start": "2023-08-11",
+    "end": "2023-08-11"
+  },
+  "message_count": 5,
+  "topic": "Request for data aggregation script run",
+  "topic_slug": "request-for-data-aggregation-script-run",
+  "tags": [
+    "analytics",
+    "campaign"
+  ],
+  "summary_markdown": "Someone requested assistance with running or modifying a data aggregation script to cover the July/August period. [me] offered to provide an updated, centralized version of the script. To proceed, [me] asked for details regarding the required changes, affected parties, dates, and specific data sources (e.g., `*_ml`, `*_ml_staging`). The requester confirmed that both `*_ml` and `*_ml_staging` needed to be updated.",
+  "decisions": [
+    "The aggregation script will be provided in a dedicated, always-current location."
+  ],
+  "action_items": [
+    "[me] needs to run the data aggregation script for July/August using the specified sources (`*_ml`, `*_ml_staging`)."
+  ]
+}

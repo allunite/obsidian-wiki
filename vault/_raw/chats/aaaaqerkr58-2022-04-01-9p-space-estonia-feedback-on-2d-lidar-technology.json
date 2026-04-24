@@ -1,0 +1,21 @@
+{
+  "chat_id": "AAAAqeRkR58",
+  "kind": "Space",
+  "space_name": "Estonia",
+  "participants": 9,
+  "date_range": {
+    "start": "2022-04-01",
+    "end": "2022-04-01"
+  },
+  "message_count": 4,
+  "topic": "Estonia feedback on 2D lidar technology",
+  "topic_slug": "estonia-feedback-on-2d-lidar-technology",
+  "tags": [
+    "analytics"
+  ],
+  "summary_markdown": "A presentation link was shared. Later, it was noted that Estonia was very happy with the 2D lidar solution. The team plans to build a case around the success of the 2D lidar and push this offering to all customers.",
+  "decisions": [
+    "The team will create a case study based on the successful implementation of 2D lidar in Estonia."
+  ],
+  "action_items": []
+}

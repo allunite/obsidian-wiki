@@ -1,0 +1,25 @@
+{
+  "chat_id": "i6YI1QAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 2,
+  "date_range": {
+    "start": "2021-05-07",
+    "end": "2021-05-07"
+  },
+  "message_count": 23,
+  "topic": "Data structure changes and calibration updates",
+  "topic_slug": "data-structure-changes-and-calibration-updates",
+  "tags": [
+    "analytics",
+    "inventory",
+    "campaign"
+  ],
+  "summary_markdown": "The conversation covered several technical data points. First, [p1] mentioned changing parameters in the staging calibration for Latvia and asked about extracting specific information from 'trusted' data.\n\nRegarding database issues, it was noted that auto-incrementing IDs and creation dates are not being set correctly in the `device_session_calibration_staging` table, but this issue is deemed non-critical for now as the system will be updated to work.\n\nLater, [me] advised someone to use `raw_devices_seen_buffer` instead of `raw_devices_seen` when making package requests because the data structure was modified. The process involves gradually migrating all references to the newer table, `raw_devices_seen_2`, with the buffer remaining the current source of truth.",
+  "decisions": [
+    "Use `raw_devices_seen_buffer` for future package requests instead of `raw_devices_seen`."
+  ],
+  "action_items": [
+    "Someone needs to run a script on the new calibration parameters."
+  ]
+}

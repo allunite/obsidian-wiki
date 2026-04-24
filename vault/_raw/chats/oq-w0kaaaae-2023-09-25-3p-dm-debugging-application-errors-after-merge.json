@@ -1,0 +1,24 @@
+{
+  "chat_id": "oq-w0kAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2023-09-25",
+    "end": "2023-09-25"
+  },
+  "message_count": 20,
+  "topic": "Debugging application errors after merge",
+  "topic_slug": "debugging-application-errors-after-merge",
+  "tags": [
+    "analytics",
+    "campaign"
+  ],
+  "summary_markdown": "The conversation focused on debugging technical issues encountered in the campaign reporting section following a code merge. Initially, an Angular error (NG0100) was observed when accessing the campaign list, though the list remained viewable. A more critical issue arose when attempting to open the campaign report, resulting in a `NullInjectorError` related to `FormatSecondsPipe`. The user suspected that removing `moment-timezone` from both client and server packages might have caused the pipe failure. After confirming the changes, someone reviewed the code, fixed the error, and pushed the fix.",
+  "decisions": [
+    "The NullInjectorError for FormatSecondsPipe was resolved by a subsequent code push."
+  ],
+  "action_items": [
+    "None"
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "chat_id": "y9IEDQAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2026-01-28",
+    "end": "2026-01-28"
+  },
+  "message_count": 12,
+  "topic": "AWS data transfer and local storage performance",
+  "topic_slug": "aws-data-transfer-and-local-storage-performance",
+  "tags": [
+    "analytics",
+    "facility"
+  ],
+  "summary_markdown": "The conversation covered technical details regarding AWS S3 data handling. One participant noted that they downloaded necessary files for the first month from s3-to-s3 and are loading them directly into a database. A discrepancy was noted in the cost calculation for intercontinental S3-S3 transfer: one source cited $0.00033/GB, while another (Gemini) suggested $0.02/GB, potentially costing ~$100 for the first and second months. The discussion also touched upon local storage performance, noting that an NVMe4 recording limit was 131MB/s with 100% I/O utilization. A comparison of data transfer speeds was made, contrasting a high speed (11.8Gb/s) when writing to memory versus hitting a write limit when writing to disk. The feasibility of migrating services to Hetzner was briefly discussed in the context of low expected traffic and minimal cost.",
+  "decisions": [
+    "The participant will continue investigating data transfer costs between AWS regions."
+  ],
+  "action_items": [
+    "None"
+  ]
+}

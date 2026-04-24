@@ -1,0 +1,22 @@
+{
+  "chat_id": "nW_zkkAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2026-01-09",
+    "end": "2026-01-09"
+  },
+  "message_count": 3,
+  "topic": "Changing network for facility metrics",
+  "topic_slug": "changing-network-for-facility-metrics",
+  "tags": [
+    "facility",
+    "inventory"
+  ],
+  "summary_markdown": "A question was raised regarding changing the network associated with a specific facility. It was noted that while cluster metrics are calculated for networks within clusters, this particular facility is located outside of any defined cluster (on the street). The discussion confirmed that if the facility is definitively not part of a cluster, simply changing the network name should be sufficient without requiring additional recalculations.",
+  "decisions": [
+    "Changing the network name for an out-of-cluster facility requires no additional calculations."
+  ],
+  "action_items": []
+}

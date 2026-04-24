@@ -1,0 +1,22 @@
+{
+  "chat_id": "AAAA9ybOLwM",
+  "kind": "Space",
+  "space_name": "ИТ",
+  "participants": 8,
+  "date_range": {
+    "start": "2021-03-10",
+    "end": "2021-03-10"
+  },
+  "message_count": 9,
+  "topic": "Data loading and format confirmation",
+  "topic_slug": "data-loading-and-format-confirmation",
+  "tags": [
+    "analytics",
+    "campaign"
+  ],
+  "summary_markdown": "A discussion arose regarding the necessity of reloading three days' worth of data due to potentially empty datasets. Someone inquired if [me] had uploaded this three-day dataset to S3. [me] confirmed that the data was not yet uploaded because a decision needed to be made regarding the required format (old vs. new). Currently, only the `allunite_test` location is accessible, which contains several files in the new format.",
+  "decisions": [],
+  "action_items": [
+    "Determine and confirm the required data format (old or new) for the three-day dataset."
+  ]
+}

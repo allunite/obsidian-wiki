@@ -1,0 +1,23 @@
+{
+  "chat_id": "AAQAJYNdXUw",
+  "kind": "Space",
+  "space_name": "IT Tasks - 16 Jan",
+  "participants": 5,
+  "date_range": {
+    "start": "2026-01-16",
+    "end": "2026-01-16"
+  },
+  "message_count": 31,
+  "topic": "Project scope and development timeline estimates",
+  "topic_slug": "project-scope-and-development-timeline-estimates",
+  "tags": [
+    "analytics",
+    "campaign",
+    "inventory"
+  ],
+  "summary_markdown": "The discussion focused on estimating the scope, resources, and timelines for a potential project involving SSP trading and camera integration. Key components discussed included:\n\n*   **SSP Trading:** Targeting 2% trading volume as an SSP.\n*   **Camera/Sensor Integration:** Developing systems using sensors (e.g., Teltonika) inside screens, potentially requiring multiple antennas.\n*   **Timeline Estimates:** A rough estimate for the project lifecycle was provided, including:\n    *   Project sale phase: 6–12 months.\n    *   Installing sensors: 2–6 months.\n    *   Modeling/Development: 2 months.\n    *   Validation data collection: 2 months.\n    *   Total lead time before launch: Approximately 24 months.\n*   **Resource Concerns:** Potential resource drain on Operations was noted, alongside the need for speedup in installation processes and ensuring high quality of data.",
+  "decisions": [
+    "The project requires a multi-stage timeline spanning several years (sale, installation, modeling, validation)."
+  ],
+  "action_items": []
+}

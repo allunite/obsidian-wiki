@@ -1,0 +1,21 @@
+{
+  "chat_id": "rS9vSiAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 2,
+  "date_range": {
+    "start": "2026-02-03",
+    "end": "2026-02-03"
+  },
+  "message_count": 3,
+  "topic": "Belgian demographics analytics link",
+  "topic_slug": "belgian-demographics-analytics-link",
+  "tags": [
+    "analytics"
+  ],
+  "summary_markdown": "Someone shared a staging analytics link regarding Belgian demographics. [p1] acknowledged receipt and stated they would look at it after lunch.",
+  "decisions": [],
+  "action_items": [
+    "Review the Belgian demographics analytics link after lunch."
+  ]
+}

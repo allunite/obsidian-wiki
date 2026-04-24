@@ -1,0 +1,24 @@
+{
+  "chat_id": "y9IEDQAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2024-01-31",
+    "end": "2024-01-31"
+  },
+  "message_count": 18,
+  "topic": "Data requirements for hourly impression reporting",
+  "topic_slug": "data-requirements-for-hourly-impression-reporting",
+  "tags": [
+    "analytics",
+    "impression"
+  ],
+  "summary_markdown": "The discussion centered on data availability and granularity required by a third party (referred to as Arthur). Key questions included:\n\n*   **Historical Data:** Whether it is possible to send data for periods lacking sensor collection (e.g., March), and how this would be calculated (averages, Kido).\n*   **Granularity:** Confirmation of the ability to access impression data at an hourly level.\n\n[me] confirmed that the API can provide data with hourly granularity including impressions, suggesting a 'forecast back' method for handling missing historical data. It was advised that consulting the data team (Дататиму) would be best.",
+  "decisions": [
+    "The API supports retrieving impression data at an hourly level."
+  ],
+  "action_items": [
+    "Consult the data team regarding methods for forecasting or filling missing historical sensor data."
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "chat_id": "AAAA3oghITo",
+  "kind": "Space",
+  "space_name": "Кабаны",
+  "participants": 4,
+  "date_range": {
+    "start": "2022-02-28",
+    "end": "2022-02-28"
+  },
+  "message_count": 6,
+  "topic": "Database performance and cleanup options",
+  "topic_slug": "database-performance-and-cleanup-options",
+  "tags": [
+    "analytics"
+  ],
+  "summary_markdown": "The discussion focused on persistent database loading issues, specifically related to a monitoring system (Incignia). The current setup was designed to clean data and retain only 180 days of history. A problematic table was identified as the source of performance degradation, with queries failing due to its size (approx. 350 GB).\n\nSeveral potential solutions were proposed:\n* Restarting PostgreSQL to potentially force a cleanup.\n* Truncating the problematic table (with caution regarding loss of monitoring history).\n* Renaming the existing table and creating a new one with the same name (to preserve historical data).",
+  "decisions": [],
+  "action_items": [
+    "Wait for 'Tolya' to become available to implement a solution."
+  ]
+}

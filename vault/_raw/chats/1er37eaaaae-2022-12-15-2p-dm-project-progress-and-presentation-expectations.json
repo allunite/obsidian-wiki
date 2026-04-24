@@ -1,0 +1,23 @@
+{
+  "chat_id": "1er37EAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 2,
+  "date_range": {
+    "start": "2022-12-15",
+    "end": "2022-12-15"
+  },
+  "message_count": 10,
+  "topic": "Project progress and presentation expectations",
+  "topic_slug": "project-progress-and-presentation-expectations",
+  "tags": [
+    "analytics"
+  ],
+  "summary_markdown": "The conversation addressed the expected participation in a meeting regarding project status. It was clarified that presenting individual progress is not mandatory, though someone will be asked to speak about their progress on Monday.\nRegarding new styles, it was suggested that an intermediate version of general styles with a sidebar could be deployed to staging sooner rather than waiting for a fixed timeframe.",
+  "decisions": [
+    "Someone will present their project progress on Monday."
+  ],
+  "action_items": [
+    "[me] will ask the other participant to add a few words about their progress on Monday."
+  ]
+}

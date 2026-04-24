@@ -1,0 +1,24 @@
+{
+  "chat_id": "AAAAud4RJ_I",
+  "kind": "Space",
+  "space_name": "Group Chat",
+  "participants": 4,
+  "date_range": {
+    "start": "2025-08-19",
+    "end": "2025-08-19"
+  },
+  "message_count": 3,
+  "topic": "Manually running data import job",
+  "topic_slug": "manually-running-data-import-job",
+  "tags": [
+    "analytics",
+    "impression"
+  ],
+  "summary_markdown": "Discussion centered on manually triggering a specific data import job for Ramboll data. [p1] needs to run the job immediately because Ramboll fixed an issue (missing one week of data) and wants to upload the data from their API directly into the database.\n[p2] confirmed that running the job is acceptable, noting that the process should be straightforward. [p2] also suggested that if the API fails to return data by key, it can be done manually.",
+  "decisions": [
+    "The data import job for Ramboll data can be run manually."
+  ],
+  "action_items": [
+    "[p1] to run the data import job using the provided link/flow."
+  ]
+}

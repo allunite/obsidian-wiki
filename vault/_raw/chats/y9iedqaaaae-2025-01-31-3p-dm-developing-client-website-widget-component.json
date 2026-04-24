@@ -1,0 +1,26 @@
+{
+  "chat_id": "y9IEDQAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2025-01-31",
+    "end": "2025-01-31"
+  },
+  "message_count": 53,
+  "topic": "Developing client website widget component",
+  "topic_slug": "developing-client-website-widget-component",
+  "tags": [
+    "analytics",
+    "campaign",
+    "impression"
+  ],
+  "summary_markdown": "The discussion centered on a client request for a dynamic website widget displaying metrics, specifically impressions from the previous day. Initial attempts to use the internal API were complicated by authentication issues (401 errors) and unclear data availability.\n\nMultiple options for accessing data were reviewed, including `/report/demographics/short` and recommending `/report/v5`. The consensus shifted toward acknowledging that a simple client-side widget is difficult without proper credentials or backend integration. Ultimately, the decision was made to initiate development on this component, suggesting it be approved by someone named Esben.",
+  "decisions": [
+    "A website widget displaying daily metrics (e.g., impressions) will be developed for the client."
+  ],
+  "action_items": [
+    "Initiate a project to build the client-facing widget component.",
+    "Obtain approval from Esben regarding the widget development."
+  ]
+}

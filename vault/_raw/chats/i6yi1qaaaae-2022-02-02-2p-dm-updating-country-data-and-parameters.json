@@ -1,0 +1,24 @@
+{
+  "chat_id": "i6YI1QAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 2,
+  "date_range": {
+    "start": "2022-02-02",
+    "end": "2022-02-02"
+  },
+  "message_count": 28,
+  "topic": "Updating country data and parameters",
+  "topic_slug": "updating-country-data-and-parameters",
+  "tags": [
+    "analytics",
+    "inventory"
+  ],
+  "summary_markdown": "The conversation covered several updates to regional data. Initially, a request was made to move Latvia from staging to production for a specific company number. Later discussions focused on anomalies in Denmark and follow-ups regarding Lithuania's issues from the 28th/29th.\n\nRegarding country parameters, two new entities (Clear Channel Suomi Oy and Mediateko) were discussed. It was determined that both are related to Finland, with a parameter value of 10 being assigned for both. Furthermore, it was decided to change the default parameter for Latvia to 10.",
+  "decisions": [
+    "Latvia's data was moved from staging to production.",
+    "Clear Channel Suomi Oy and Mediateko parameters were set to 10 (Finland).",
+    "The default parameter for Latvia was changed to 10."
+  ],
+  "action_items": []
+}

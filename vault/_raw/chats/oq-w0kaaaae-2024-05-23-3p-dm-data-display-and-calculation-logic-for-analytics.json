@@ -1,0 +1,26 @@
+{
+  "chat_id": "oq-w0kAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2024-05-23",
+    "end": "2024-05-23"
+  },
+  "message_count": 19,
+  "topic": "Data display and calculation logic for analytics",
+  "topic_slug": "data-display-and-calculation-logic-for-analytics",
+  "tags": [
+    "analytics",
+    "facility",
+    "session"
+  ],
+  "summary_markdown": "The discussion focused on integrating and displaying various data sets within an admin view. It was decided that `admin_totals` data would be merged with existing totals and displayed in a table format. The admin mode functionality requires adding three additional columns, along with a frequency distribution bar at the bottom.\n\nRegarding calculations, it was noted that while total metrics can be summed across all master facilities on the front end, calculating 'frequency' this way is problematic. A suggestion was made to use an average weighted calculation (`avgWeighted`), potentially using the number of sessions as the weight.",
+  "decisions": [
+    "`admin_totals` data will be merged with totals and displayed in a table.",
+    "Admin mode requires adding three columns and a frequency distribution bar."
+  ],
+  "action_items": [
+    "Review implementation of `avgWeighted` calculation for front-end display, potentially using session count as weight."
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "chat_id": "8GgAuwAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 2,
+  "date_range": {
+    "start": "2023-06-08",
+    "end": "2023-06-08"
+  },
+  "message_count": 10,
+  "topic": "Clarification on required sensor data",
+  "topic_slug": "clarification-on-required-sensor-data",
+  "tags": [
+    "analytics",
+    "session"
+  ],
+  "summary_markdown": "The conversation revolves around a request for specific technical data, particularly concerning 'MGE' and active sensors in Brazil. Someone was initially confused about what MGE referred to or where the information could be found. [me] clarified that the core requirement is knowing the number of active sensors for Brazil.\n\nThe term 'MGE' was discussed but remained unclear throughout the session, with one participant suggesting it refers to some kind of box.",
+  "decisions": [],
+  "action_items": [
+    "Determine what MGE stands for and where the required data is stored."
+  ]
+}

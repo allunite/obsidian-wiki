@@ -1,0 +1,24 @@
+{
+  "chat_id": "oCgFCIAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2023-03-20",
+    "end": "2023-03-20"
+  },
+  "message_count": 10,
+  "topic": "Facility access system design for multiple locations",
+  "topic_slug": "facility-access-system-design",
+  "tags": [
+    "facility",
+    "analytics"
+  ],
+  "summary_markdown": "The discussion focused on determining the best technical approach for managing user access to facilities, particularly in preparation for a new airport launch and existing mall requirements. Two main options were discussed: 1) Utilizing an interpartner system for access management, or 2) Building a custom system where facility data is pulled based on individual user IDs and associated permissions. The latter option requires modifying the existing code that retrieves facility information to use `user_id` instead of company identifiers. This change was deemed necessary despite potential initial underutilization.",
+  "decisions": [
+    "Implement a custom system for managing facility access, pulling data based on user IDs and associated permissions."
+  ],
+  "action_items": [
+    "[p1] to meet with [me] tomorrow to finalize the decision regarding the facility access system."
+  ]
+}

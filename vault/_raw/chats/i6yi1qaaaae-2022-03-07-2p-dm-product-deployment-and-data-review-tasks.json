@@ -1,0 +1,25 @@
+{
+  "chat_id": "i6YI1QAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 2,
+  "date_range": {
+    "start": "2022-03-07",
+    "end": "2022-03-07"
+  },
+  "message_count": 13,
+  "topic": "Product deployment and data review tasks",
+  "topic_slug": "product-deployment-and-data-review-tasks",
+  "tags": [
+    "analytics",
+    "campaign"
+  ],
+  "summary_markdown": "The discussion focused on prioritizing immediate development tasks. Two main items were identified: 1) Deploying the demographics and fixed maps to production after an evening meeting. 2) Reviewing peak data for Finland, as access will be granted tomorrow.\n\n[me] confirmed that they would identify the necessary information regarding the peaks themselves.",
+  "decisions": [
+    "Deploy demographics and fixed maps to production tonight",
+    "Review Finnish peak data after access is provided tomorrow"
+  ],
+  "action_items": [
+    "[me] to identify required information on Finnish peaks"
+  ]
+}

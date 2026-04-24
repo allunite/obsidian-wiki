@@ -1,0 +1,27 @@
+{
+  "chat_id": "y9IEDQAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2023-11-02",
+    "end": "2023-11-02"
+  },
+  "message_count": 39,
+  "topic": "Database cleanup and data retention strategy",
+  "topic_slug": "database-cleanup-data-retention-strategy",
+  "tags": [
+    "analytics",
+    "recalc-ch",
+    "inventory"
+  ],
+  "summary_markdown": "The conversation focused on best practices for deleting large amounts of historical data from the `raw_devices_seen` table in ClickHouse. It was confirmed that deletion should be performed by day or month, not by hour.\n\nSpecific SQL examples were provided for deleting data based on date and start-of-month timestamps (e.g., `DELETE WHERE toDate(timestamp) = '2023-09-01'`). It was noted that the deletion process is asynchronous and does not return a count of deleted records, requiring monitoring of cluster mutations.\n\nDiscussion also covered data retention limits, specifically addressing concerns about hitting cold storage space limitations (e.g., 60 days).\n\nFinally, the discussion shifted to data pipeline tooling, comparing options like Windmill, dbt, and RandoK for managing data transformation tasks, with a consensus that recalculation logic should be considered for migration.",
+  "decisions": [
+    "Data deletion in ClickHouse must target full days or months using appropriate SQL functions (toDate/toStartOfMonth).",
+    "The process of deleting historical data is asynchronous and requires checking cluster mutations to confirm completion."
+  ],
+  "action_items": [
+    "Monitor cluster mutations using `system.mutations` to ensure all deletion tasks are completed.",
+    "Evaluate migrating recalculation logic to a dedicated workflow tool (Windmill or similar)."
+  ]
+}

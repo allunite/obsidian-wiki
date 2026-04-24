@@ -1,0 +1,28 @@
+{
+  "chat_id": "nW_zkkAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2023-11-29",
+    "end": "2023-11-29"
+  },
+  "message_count": 56,
+  "topic": "Mall Analytics data discrepancies and fixes",
+  "topic_slug": "mall-analytics-data-discrepancies-and-fixes",
+  "tags": [
+    "analytics",
+    "facility",
+    "session",
+    "campaign"
+  ],
+  "summary_markdown": "The conversation focused on resolving data discrepancies within the Mall Analytics system, particularly for Provantage Media South Africa. Initial issues arose because renaming a field (`Mall_telt200`) affected the analytics functionality.\n\nTo address reporting needs, specific guidance was provided on querying session data from `device_session_agg_4`. It was noted that aggregated records are found where `facility_num = 0` and `facility_master_num != 0`.\n\nA detailed query structure was shared for retrieving historical session data (November 2023) using the correct cluster factor calculation, which is necessary because the dashboard's current production version lacks a fix for the specific asset category (`Mall_telt200`). The corrected query logic involves calculating `cluster_session_number`.\n\nLater, discrepancies were observed between unique traffic counts and session counts across different dashboards (Mall Analytics vs. general Traffic). It was confirmed that while Unique traffic should be consistent, session numbers might differ depending on the source or calculation method.",
+  "decisions": [
+    "A hotfix for Mall Analytics was implemented/shared to address data issues caused by field renaming.",
+    "The correct SQL query structure for retrieving historical session data from `device_session_agg_4` (including cluster factor logic) was provided."
+  ],
+  "action_items": [
+    "Someone needs to check the dev-analytics dashboard link after the hotfix deployment.",
+    "Follow up on whether applying the 'cluster frequency' fix to production is decided upon."
+  ]
+}

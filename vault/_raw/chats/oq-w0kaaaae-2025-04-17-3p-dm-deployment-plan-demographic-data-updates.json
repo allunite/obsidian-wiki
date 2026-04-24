@@ -1,0 +1,26 @@
+{
+  "chat_id": "oq-w0kAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2025-04-17",
+    "end": "2025-04-17"
+  },
+  "message_count": 8,
+  "topic": "Deployment plan for demographic data updates",
+  "topic_slug": "deployment-plan-demographic-data-updates",
+  "tags": [
+    "analytics",
+    "campaign"
+  ],
+  "summary_markdown": "The conversation revolves around updating and deploying demographic age group data related to a specific task (DOOH-1862). [p1] noted that the designated branch (2025.04.08-religion-demographic) lacked updates, suggesting someone was waiting for changes in the age groups.\n\n[me] confirmed they would start working on it shortly. Later, [me] stated they would finalize the work and deploy it from the release branch. [p1] agreed to this plan and suggested that the current feature branch could be deleted.\n\nFinally, a deployment strategy was established: [p1] will merge the release branch into master tomorrow, while [me] will handle merging their changes into develop, preventing excessive merge conflicts.",
+  "decisions": [
+    "[me] will finalize and deploy the updates from the release branch.",
+    "[p1] will merge the release branch into master tomorrow.",
+    "[me] will merge changes into develop."
+  ],
+  "action_items": [
+    "Delete the current feature branch (2025.04.08-religion-demographic)."
+  ]
+}

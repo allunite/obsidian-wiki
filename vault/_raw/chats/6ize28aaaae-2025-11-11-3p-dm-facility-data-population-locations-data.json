@@ -1,0 +1,22 @@
+{
+  "chat_id": "6ize28AAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2025-11-11",
+    "end": "2025-11-11"
+  },
+  "message_count": 10,
+  "topic": "Facility data population in locations_data",
+  "topic_slug": "facility-data-population-locations-data",
+  "tags": [
+    "facility",
+    "analytics"
+  ],
+  "summary_markdown": "The discussion centered on why certain cluster facilities might appear or 'fall' into the `locations_data` dataset. Initially, [p1] questioned the source of this data population, noting that it was only happening for specific facilities and was unusual.\n\n[me] clarified that all facilities with associated traffic are likely included in the data set. [p1] confirmed they were still investigating the issue, specifically checking if the facility (which is cluster-based) had calculated traffic figures.",
+  "decisions": [],
+  "action_items": [
+    "P1 to continue reviewing the specific facilities and their associated traffic calculations."
+  ]
+}

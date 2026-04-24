@@ -1,0 +1,22 @@
+{
+  "chat_id": "uJ8JA8AAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2025-05-23",
+    "end": "2025-05-23"
+  },
+  "message_count": 12,
+  "topic": "Data cleanup for changed facility categories",
+  "topic_slug": "data-cleanup-for-changed-facility-categories",
+  "tags": [
+    "analytics",
+    "campaign"
+  ],
+  "summary_markdown": "The discussion focused on the procedure for cleaning up data records in `allunite.device_session_agg_ml_2`.\n\n*   **Task:** The goal is to remove records for facilities belonging to specific categories ('Taxi Rank_good', 'Taxi Rank_bad') for a given company (7942) across all datasets (including prod/stage).\n*   **Review:** [me] reviewed the proposed task and confirmed that the query logic was correct, performing it without making changes.\n*   **Process Decision:** It was agreed that future data cleanup queries should be shared directly in the chat for review before execution, rather than relying solely on formal tasks/tickets.",
+  "decisions": [
+    "Future data cleaning queries must be reviewed and posted in the chat first."
+  ],
+  "action_items": []
+}

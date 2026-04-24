@@ -1,0 +1,28 @@
+{
+  "chat_id": "y9IEDQAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2025-08-11",
+    "end": "2025-08-11"
+  },
+  "message_count": 25,
+  "topic": "Technical issues and development updates",
+  "topic_slug": "technical-issues-and-development-updates",
+  "tags": [
+    "analytics",
+    "campaign",
+    "mops"
+  ],
+  "summary_markdown": "The conversation covered several technical topics, including database capacity issues (DB::Exception: Cannot reserve 7.47 MiB), and the need to deploy a version for testing on specific instances (01-04). A user noted difficulties with data retrieval, specifically that the 'screens' function was behaving unexpectedly, returning null when no campaign was present. The development of a view based on existing data sources is progressing, but the integration into Mops remains pending.\n\nRegarding timelines, one participant reported being unable to deploy the version for testing and expects to complete it before the next day's meeting.",
+  "decisions": [
+    "A deployment of 'raw seen' was confirmed as functional.",
+    "The view development is progressing and needs integration into Mops."
+  ],
+  "action_items": [
+    "Investigate database space issues on specific instances (01-04).",
+    "Follow up with someone regarding the unexpected behavior of 'screens' returning null for missing campaigns.",
+    "Deploy the version for testing by the next day's meeting."
+  ]
+}

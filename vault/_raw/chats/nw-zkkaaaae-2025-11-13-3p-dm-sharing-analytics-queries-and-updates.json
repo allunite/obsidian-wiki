@@ -1,0 +1,23 @@
+{
+  "chat_id": "nW_zkkAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2025-11-13",
+    "end": "2025-11-13"
+  },
+  "message_count": 6,
+  "topic": "Sharing analytics queries and updates",
+  "topic_slug": "sharing-analytics-queries-and-updates",
+  "tags": [
+    "analytics"
+  ],
+  "summary_markdown": "The conversation involved sharing a complex SQL query designed to calculate session screens and footfall metrics. The query targets specific facility data (master number 43230) for the period between November 11th and November 12th, 2025, within company number 7962. Following the query, links were shared to update tasks in a project management system.",
+  "decisions": [
+    "A complex SQL query was provided for analyzing session screens and footfall."
+  ],
+  "action_items": [
+    "Review updates linked via ClickUp (DEV-55 and DEV-166)."
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "chat_id": "nW_zkkAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2024-07-26",
+    "end": "2024-07-26"
+  },
+  "message_count": 12,
+  "topic": "Status update on metric aggregation plan",
+  "topic_slug": "status-update-on-metric-aggregation-plan",
+  "tags": [
+    "analytics"
+  ],
+  "summary_markdown": "The initial plan for storing network metrics was deemed suitable for storage but inadequate for period aggregation. A new plan is currently being implemented, with a staging version 0.1 expected to be deployed today or early next week, depending on feedback and development time.",
+  "decisions": [
+    "A new plan will be used for aggregating network metrics."
+  ],
+  "action_items": [
+    "[p1] will test the deployed staging version 0.1."
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "chat_id": "i6YI1QAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 2,
+  "date_range": {
+    "start": "2022-06-03",
+    "end": "2022-06-03"
+  },
+  "message_count": 15,
+  "topic": "Virtual sensor data scope and duplication",
+  "topic_slug": "virtual-sensor-data-scope-and-duplication",
+  "tags": [
+    "analytics",
+    "inventory"
+  ],
+  "summary_markdown": "The discussion focused on the visibility and uniqueness of virtual sensors and connected inventory across different company scopes. It was confirmed that when accessing data without a higher-level partner user encompassing both companies (e.g., 7863 and 7864), the number of unique sensor records increases, as virtual sensors from one company will appear unique to the other.\n\nA specific technical point was addressed regarding duplicating units: it was decided not to add a fixed percentage (5%) but rather to duplicate data directly from neighboring sensors.",
+  "decisions": [
+    "Virtual sensor data visibility is scope-dependent; uniqueness increases when viewing data without access through an overarching partner user."
+  ],
+  "action_items": []
+}

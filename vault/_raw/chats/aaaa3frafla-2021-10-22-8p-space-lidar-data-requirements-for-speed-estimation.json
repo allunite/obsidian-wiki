@@ -1,0 +1,22 @@
+{
+  "chat_id": "AAAA3frAfLA",
+  "kind": "Space",
+  "space_name": "Lidar Tech",
+  "participants": 8,
+  "date_range": {
+    "start": "2021-10-22",
+    "end": "2021-10-22"
+  },
+  "message_count": 4,
+  "topic": "Lidar data requirements for speed estimation",
+  "topic_slug": "lidar-data-requirements-for-speed-estimation",
+  "tags": [
+    "analytics"
+  ],
+  "summary_markdown": "The discussion focused on improving the accuracy of speed estimations using Lidar data. It was requested that if a participant (Tolia) could provide the maximum object height within a session, it would significantly improve the ability to estimate speed more accurately. Additionally, relative measurements are needed, such as counting how many beams hit an object in different locations.",
+  "decisions": [],
+  "action_items": [
+    "Someone needs to send data including maximum object height per session.",
+    "Relative beam count data must be provided for better analysis."
+  ]
+}

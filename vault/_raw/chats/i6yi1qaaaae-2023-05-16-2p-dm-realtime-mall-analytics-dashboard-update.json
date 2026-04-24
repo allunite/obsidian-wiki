@@ -1,0 +1,21 @@
+{
+  "chat_id": "i6YI1QAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 2,
+  "date_range": {
+    "start": "2023-05-16",
+    "end": "2023-05-16"
+  },
+  "message_count": 9,
+  "topic": "Realtime mall analytics dashboard update",
+  "topic_slug": "realtime-mall-analytics-dashboard-update",
+  "tags": [
+    "analytics"
+  ],
+  "summary_markdown": "The user shared a link to the staging analytics dashboard for mall data, enabling real-time viewing. This was done to provide clarity regarding potential data discrepancies when reporting on current day metrics due to system load.",
+  "decisions": [],
+  "action_items": [
+    "p1 to review the updated analytics dashboard"
+  ]
+}

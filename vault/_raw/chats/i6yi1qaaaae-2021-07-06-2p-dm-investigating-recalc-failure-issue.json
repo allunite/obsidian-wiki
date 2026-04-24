@@ -1,0 +1,24 @@
+{
+  "chat_id": "i6YI1QAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 2,
+  "date_range": {
+    "start": "2021-07-06",
+    "end": "2021-07-06"
+  },
+  "message_count": 8,
+  "topic": "Investigating recalc failure issue",
+  "topic_slug": "investigating-recalc-failure-issue",
+  "tags": [
+    "analytics",
+    "recalc-ch"
+  ],
+  "summary_markdown": "The conversation addresses a recurring failure of the recalculation (recalc) process. Someone confirms that they are currently working on restoring functionality and have already discussed the issue with another colleague. They acknowledge having ideas regarding the cause and are conducting further investigation. The other participant requested an update once the root cause is determined.",
+  "decisions": [
+    "None"
+  ],
+  "action_items": [
+    "Someone to investigate and report findings on the recalc failure."
+  ]
+}

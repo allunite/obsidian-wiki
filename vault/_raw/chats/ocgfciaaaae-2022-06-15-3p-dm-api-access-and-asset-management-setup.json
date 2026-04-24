@@ -1,0 +1,28 @@
+{
+  "chat_id": "oCgFCIAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2022-06-15",
+    "end": "2022-06-15"
+  },
+  "message_count": 70,
+  "topic": "API access and asset management setup",
+  "topic_slug": "api-access-and-asset-management-setup",
+  "tags": [
+    "analytics",
+    "inventory",
+    "campaign",
+    "asset"
+  ],
+  "summary_markdown": "The discussion focused on establishing API access for asset management and data retrieval. It was confirmed that the current method for cleaning assets in the inventory manager is limited to a specific endpoint.\n\nFor image uploads, it was decided that a separate S3 bucket should be used for sandbox testing rather than sharing the main production bucket.\n\nRegarding data access, using the live demo account on production was deemed simpler and preferable over setting up a full sandbox environment in Lambda, which would require creating dedicated access and connection strings. The team also discussed the need to replicate lost data from previous weeks onto production.\n\nFinally, troubleshooting of a save function failure revealed that the issue was likely due to browser compatibility (specifically, needing Chrome for successful API requests).",
+  "decisions": [
+    "Use a separate S3 bucket for sandbox image uploads.",
+    "Utilize the live demo account on production for data access instead of building a full Lambda sandbox environment."
+  ],
+  "action_items": [
+    "Create an API key for the team to access the demo account.",
+    "Investigate and fix the process of copying lost historical data onto production."
+  ]
+}

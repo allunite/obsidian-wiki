@@ -1,0 +1,19 @@
+{
+  "chat_id": "AAAA9IpyQmY",
+  "kind": "Space",
+  "space_name": "Group Chat",
+  "participants": 2,
+  "date_range": {
+    "start": "2024-04-05",
+    "end": "2024-04-05"
+  },
+  "message_count": 3,
+  "topic": "CC Denmark data availability and update",
+  "topic_slug": "cc-denmark-data-availability-update",
+  "tags": [
+    "analytics"
+  ],
+  "summary_markdown": "A query was made regarding the location of CC Denmark data. Later, someone confirmed that the issue was addressed by updating the ml2stage script and making the CC DK data available on STAGE.",
+  "decisions": [],
+  "action_items": []
+}

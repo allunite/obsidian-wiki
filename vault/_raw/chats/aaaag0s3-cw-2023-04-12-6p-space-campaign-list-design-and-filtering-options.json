@@ -1,0 +1,24 @@
+{
+  "chat_id": "AAAAg0s3_Cw",
+  "kind": "Space",
+  "space_name": "Бразилия Дезигн",
+  "participants": 6,
+  "date_range": {
+    "start": "2023-04-12",
+    "end": "2023-04-12"
+  },
+  "message_count": 11,
+  "topic": "Campaign list design and filtering options",
+  "topic_slug": "campaign-list-design-and-filtering-options",
+  "tags": [
+    "analytics",
+    "campaign"
+  ],
+  "summary_markdown": "The discussion focused on the design for the campaign list screen. Someone provided three screens, including two variations of table filtering.\n\nKey points discussed:\n*   **Column Selection:** The first filter option allows users to select visible columns in a large table (over 30 columns). It was suggested that this feature should be labeled simply as 'Columns' rather than implying data filtering.\n*   **Metric Customization:** A second tab addresses the ability for clients to customize and display necessary metrics when reviewing campaign performance. Someone noted that existing filter functionality might already cover this need, but understanding the data source is required.\n\nOverall, the team reviewed the feasibility of implementing these advanced list view features.",
+  "decisions": [
+    "The column selection feature should be labeled 'Columns' instead of implying data filtering."
+  ],
+  "action_items": [
+    "Determine the data source for all metrics displayed on the campaign report screen."
+  ]
+}

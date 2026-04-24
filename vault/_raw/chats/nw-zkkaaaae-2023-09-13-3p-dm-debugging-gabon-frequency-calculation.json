@@ -1,0 +1,22 @@
+{
+  "chat_id": "nW_zkkAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2023-09-13",
+    "end": "2023-09-13"
+  },
+  "message_count": 4,
+  "topic": "Debugging Gabon frequency calculation",
+  "topic_slug": "debugging-gabon-frequency-calculation",
+  "tags": [
+    "analytics",
+    "recalc-ch"
+  ],
+  "summary_markdown": "A data discrepancy regarding weekly versus monthly user counts for Gabon was noted. [me] confirmed that the issue was resolved by disabling the Brazilian frequency formula for Gabon. Additionally, an attempt to apply a San Paolo formula to Gabon was abandoned because it produced anomalous results.",
+  "decisions": [
+    "The Brazilian frequency formula was disabled for Gabon."
+  ],
+  "action_items": []
+}

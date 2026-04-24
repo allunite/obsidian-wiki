@@ -1,0 +1,25 @@
+{
+  "chat_id": "oq-w0kAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2023-12-01",
+    "end": "2023-12-01"
+  },
+  "message_count": 15,
+  "topic": "Campaign report data and analytics review",
+  "topic_slug": "campaign-report-data-and-analytics-review",
+  "tags": [
+    "campaign",
+    "analytics",
+    "impression"
+  ],
+  "summary_markdown": "The conversation began with a reminder regarding data needed for campaign reports. A discussion followed about the feasibility of 'reach' metrics decreasing, which was questioned by someone and deemed impossible in standard reporting.\n\nLater, [me] addressed an issue related to a frequency formula that appeared unexpectedly, stating they would attempt to fix it. Someone provided access to a staging analytics URL for review.",
+  "decisions": [
+    "A staging analytics link was shared for reviewing campaign data."
+  ],
+  "action_items": [
+    "[me] will attempt to fix the frequency formula issue in the reports."
+  ]
+}

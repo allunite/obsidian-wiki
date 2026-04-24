@@ -1,0 +1,27 @@
+{
+  "chat_id": "i6YI1QAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 2,
+  "date_range": {
+    "start": "2023-10-09",
+    "end": "2023-10-09"
+  },
+  "message_count": 40,
+  "topic": "Analytics updates and future release planning",
+  "topic_slug": "analytics-updates-and-future-release-planning",
+  "tags": [
+    "analytics",
+    "dwell-time",
+    "campaign"
+  ],
+  "summary_markdown": "The conversation covered several technical tasks and scheduling points. One participant committed to fixing the demographics data after the release, aiming to complete it by 4 PM that day. Regarding dwell time, both parties agreed to postpone promising night peaks until the next release cycle. Specifically, the commitment for dwell time was set for October 17th, which is related to Brazil.\n\nTasks were assigned and discussed in relation to ongoing development work and new features.",
+  "decisions": [
+    "Demographics data fix will be completed by 4 PM on the day of the chat.",
+    "The commitment regarding dwell time night peaks was postponed until the next release cycle.",
+    "Dwell time for Brazil is scheduled for October 17th."
+  ],
+  "action_items": [
+    "Fix demographics data and share version by 4 PM today."
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "chat_id": "AAAAaK7z8KI",
+  "kind": "Space",
+  "space_name": "Group Chat",
+  "participants": 5,
+  "date_range": {
+    "start": "2025-02-19",
+    "end": "2025-02-19"
+  },
+  "message_count": 11,
+  "topic": "GPS data request for Japan locations",
+  "topic_slug": "gps-data-request-for-japan-locations",
+  "tags": [
+    "facility",
+    "analytics"
+  ],
+  "summary_markdown": "The discussion initially focused on filtering facility data, specifically whether to hide or remove facilities based on criteria like company activity status or the presence of 'stock' in the name. It was decided that no immediate changes were necessary for this filtering.\n\nLater, [p3] requested GPS data download/upload for a specific list of locations in Japan, covering the period from January 9th to February 9th. [me] confirmed that while possible, the process would not be fast.",
+  "decisions": [
+    "No immediate changes are required regarding facility filtering."
+  ],
+  "action_items": [
+    "[me] to download/upload GPS data for Japanese locations (Jan 9 - Feb 9)"
+  ]
+}

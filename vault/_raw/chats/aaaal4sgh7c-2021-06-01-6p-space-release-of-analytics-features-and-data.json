@@ -1,0 +1,26 @@
+{
+  "chat_id": "AAAAl4SgH7c",
+  "kind": "Space",
+  "space_name": "Lithuania_old",
+  "participants": 6,
+  "date_range": {
+    "start": "2021-06-01",
+    "end": "2021-06-01"
+  },
+  "message_count": 27,
+  "topic": "Release of analytics features and data",
+  "topic_slug": "release-of-analytics-features-and-data",
+  "tags": [
+    "analytics",
+    "tooltips",
+    "campaign"
+  ],
+  "summary_markdown": "The team finalized the release of several analytics features, including tooltips and category multiselect. Data for the Bus shelter category was confirmed as ready on analytics.allunite.com for client communication.\n\nMultiple participants approved the release after confirming that no API changes were required. The final deployment included both tooltips and category multiselect functionality.",
+  "decisions": [
+    "Tooltips and category multiselect features were released to analytics.allunite.com",
+    "Data for the Bus shelter category is ready for client communication"
+  ],
+  "action_items": [
+    "The email regarding Lithuania was sent to the client"
+  ]
+}

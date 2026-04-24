@@ -1,0 +1,26 @@
+{
+  "chat_id": "AAAAaK7z8KI",
+  "kind": "Space",
+  "space_name": "Group Chat",
+  "participants": 5,
+  "date_range": {
+    "start": "2025-09-12",
+    "end": "2025-09-12"
+  },
+  "message_count": 63,
+  "topic": "Analytics data discrepancies and API fix",
+  "topic_slug": "analytics-data-discrepancies-and-api-fix",
+  "tags": [
+    "analytics",
+    "impression",
+    "campaign"
+  ],
+  "summary_markdown": "The conversation focused on resolving discrepancies in the analytics platform, specifically regarding unique traffic counts (Uniques) not matching total traffic when viewing daily graphs. The issue was traced to inconsistent behavior of the `ml-api`, which sometimes returned incorrect or missing frequency data (`frequency = 1` being observed for a specific date).\n\nIt was determined that the `ml-api` is currently restricted to a limited set of company IDs, causing errors when querying companies outside this list (e.g., Media Audit Finland). The immediate fix required expanding the scope of the `ml-api` to include all relevant Finnish companies.\n\nRegarding data display, it was confirmed that if no sessions occurred for certain facilities/companies, they will simply not appear in the location data output.",
+  "decisions": [
+    "The `ml-api` must be expanded to support a broader list of company IDs, including all Finnish entities (e.g., 7962, 7953).",
+    "The API scope was updated to include the full list of required companies for accurate analytics reporting."
+  ],
+  "action_items": [
+    "None specified; the issue appears resolved after updating the `ml-api` scope."
+  ]
+}

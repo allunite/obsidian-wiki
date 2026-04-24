@@ -1,0 +1,26 @@
+{
+  "chat_id": "i6YI1QAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 2,
+  "date_range": {
+    "start": "2022-08-05",
+    "end": "2022-08-05"
+  },
+  "message_count": 67,
+  "topic": "Refining device session tracking queries",
+  "topic_slug": "refining-device-session-tracking-queries",
+  "tags": [
+    "analytics",
+    "session"
+  ],
+  "summary_markdown": "The conversation focused on refining complex SQL queries designed to track device movement and sessions within a facility. Initial discussions covered applying new rules for permanent devices historically versus only from the moment of implementation.\n\nMultiple iterations were performed on a query intended to identify devices whose first session occurred at specific immigration facilities (4028 or 4022) and whose last session occurred at a designated gate (4020), while ensuring that both conditions were met simultaneously. The initial queries incorrectly grouped by week, leading to inaccurate results.\n\nThe final agreed-upon approach involved removing the weekly grouping (`week_number`) from the query structure to analyze movement across the entire defined period for each device ID.",
+  "decisions": [
+    "The SQL query was modified by removing the `week_number` grouping to track device movements over the full session period.",
+    "The filtering criteria in the query were adjusted by removing constraints on `is_local` and `is_trusted` to broaden the scope of tracked devices."
+  ],
+  "action_items": [
+    "The user will write a Jira ticket regarding the complex device movement tracking model, including potential future needs like calculating average viewed screens for Mall analysis.",
+    "Someone needs to test the final refined SQL query against specific problematic device IDs (e.g., 8532972507964220731) to ensure accurate last session location."
+  ]
+}

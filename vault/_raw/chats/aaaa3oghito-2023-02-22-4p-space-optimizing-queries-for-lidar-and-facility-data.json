@@ -1,0 +1,25 @@
+{
+  "chat_id": "AAAA3oghITo",
+  "kind": "Space",
+  "space_name": "Кабаны",
+  "participants": 4,
+  "date_range": {
+    "start": "2023-02-22",
+    "end": "2023-02-22"
+  },
+  "message_count": 57,
+  "topic": "Optimizing queries for lidar and facility data",
+  "topic_slug": "optimizing-queries-for-lidar-and-facility-data",
+  "tags": [
+    "analytics",
+    "query",
+    "dictionary"
+  ],
+  "summary_markdown": "The discussion focused on optimizing SQL queries to retrieve lidar names, facility names, and company information using dictionary structures. It was established that nested calls are possible to reach the facility name from the lidar ID.\n\nTechnical details included:\n*   Lidar data is stored in two dictionaries: `lidar` (using UUID as key) and `lidar_2` (using integer/sequential number as key).\n*   The dictionary structure for `lidar` includes attributes like `company_id`, `facility_id`, `lidar_name`, etc.\n*   A separate discussion covered the technical limitations of using parameters in `clickhouse-cpp` for monitoring alerts, suggesting that parameterized views might be a better approach.",
+  "decisions": [
+    "The method to retrieve lidar and facility names via dictionary lookups was confirmed."
+  ],
+  "action_items": [
+    "None"
+  ]
+}

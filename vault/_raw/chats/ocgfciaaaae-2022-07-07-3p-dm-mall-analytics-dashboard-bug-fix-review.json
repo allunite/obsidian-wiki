@@ -1,0 +1,26 @@
+{
+  "chat_id": "oCgFCIAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2022-07-07",
+    "end": "2022-07-07"
+  },
+  "message_count": 24,
+  "topic": "Mall analytics dashboard bug fix and review",
+  "topic_slug": "mall-analytics-dashboard-bug-fix-review",
+  "tags": [
+    "facility",
+    "analytics",
+    "campaign"
+  ],
+  "summary_markdown": "The conversation focused on a bug found in the mall analytics dashboard. The issue was that when switching between different facilities (malls), only the upper part of the page reloaded, leaving data for the first facility visible in the lower section, including the conversion block.\n\nTwo potential solutions were discussed: converting all components to observable state or implementing a full reload whenever the selected mall changed. The latter was chosen as the simpler fix and was implemented by [me].\n\nSeparately, there is a need to review permanent data for an airport location (Hong Kong). It was noted that these permanents appear consistently 3-5 times per week but all show a session duration of zero, which requires investigation.",
+  "decisions": [
+    "The mall analytics dashboard bug will be fixed by implementing a full page reload when the selected facility changes."
+  ],
+  "action_items": [
+    "Review permanent data for the Hong Kong airport location due to consistently observed permanents with zero session duration.",
+    "Investigate potential device limits or infrastructure constraints related to high user traffic in the mall analytics system."
+  ]
+}

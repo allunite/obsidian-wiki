@@ -1,0 +1,24 @@
+{
+  "chat_id": "i6YI1QAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 2,
+  "date_range": {
+    "start": "2024-02-12",
+    "end": "2024-02-12"
+  },
+  "message_count": 5,
+  "topic": "Brazil frequency formula and data plans",
+  "topic_slug": "brazil-frequency-formula-and-data-plans",
+  "tags": [
+    "analytics"
+  ],
+  "summary_markdown": "The current frequency calculation for both beta and stage environments in Brazil was confirmed to use the same formula. The focus is now on completing TGI demographics, followed by integrating clusterization from the ML API.",
+  "decisions": [
+    "Frequency formula for Brazil (beta/stage) remains consistent."
+  ],
+  "action_items": [
+    "Complete TGI demographics analysis today or tomorrow.",
+    "Integrate clusterization using the ML API."
+  ]
+}

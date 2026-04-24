@@ -1,0 +1,24 @@
+{
+  "chat_id": "oq-w0kAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2024-02-20",
+    "end": "2024-02-20"
+  },
+  "message_count": 7,
+  "topic": "Implementing query cache bypass functionality",
+  "topic_slug": "implementing-query-cache-bypass-functionality",
+  "tags": [
+    "analytics",
+    "campaign"
+  ],
+  "summary_markdown": "The discussion focused on implementing a temporary solution to allow users to force reports or charts to refresh by bypassing the cache. Initially, [p1] questioned if this required manually adding the query parameter (qc) to all request payloads across dashboards and campaigns. [me] clarified that the requirement is for users who need to view specific reports or charts without cached data to be able to add `qc=0` directly into the URL. This method was deemed functional for now, with a plan to improve the implementation later.",
+  "decisions": [
+    "Users can force cache bypass by adding `qc=0` to the report/chart URL."
+  ],
+  "action_items": [
+    "Implement the temporary cache bypass mechanism using `qc=0` in the URL."
+  ]
+}

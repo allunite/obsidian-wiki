@@ -1,0 +1,24 @@
+{
+  "chat_id": "i6YI1QAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 2,
+  "date_range": {
+    "start": "2021-12-01",
+    "end": "2021-12-01"
+  },
+  "message_count": 22,
+  "topic": "ML model data extraction and format",
+  "topic_slug": "ml-model-data-extraction-and-format",
+  "tags": [
+    "analytics",
+    "impression"
+  ],
+  "summary_markdown": "The discussion focused on extracting ML model data. Initially, the plan was to pull data from PostgreSQL (PG) or ClickHouse (CH). It was determined that mapping the `model_columns` array of strings into CH proved difficult.\n\nInstead, a JSON format approach was implemented and shared. The resulting data structure is available in CH as a string, which can be processed using Python.\n\nThe extracted data includes model details such as company ID, model type, model name, and category.",
+  "decisions": [
+    "ML model data will be extracted into JSON format for easier processing."
+  ],
+  "action_items": [
+    "Someone needs to process the JSON data structure in Python."
+  ]
+}

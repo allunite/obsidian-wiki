@@ -1,0 +1,25 @@
+{
+  "chat_id": "i6YI1QAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 2,
+  "date_range": {
+    "start": "2022-07-06",
+    "end": "2022-07-06"
+  },
+  "message_count": 19,
+  "topic": "Analyzing device session connection status",
+  "topic_slug": "analyzing-device-session-connection-status",
+  "tags": [
+    "analytics",
+    "dwell-time"
+  ],
+  "summary_markdown": "The conversation focused on the technical behavior of device connectivity, specifically regarding 'trusted' and 'connected' statuses. It was noted that the `is_trusted` flag is currently set simply by the `connected` flag, lacking complex logic like permanent or excluded status checks.\n\nA SQL query was shared to analyze session data from a specific device ID within a defined date range, including metrics like `dwell_time`, `facility_id`, and `session_duration`. The discussion concluded with follow-up items regarding fixing the calculation of `dwell_time`.",
+  "decisions": [
+    "No concrete decisions were made."
+  ],
+  "action_items": [
+    "Someone needs to provide a device ID and date for further analysis.",
+    "Follow up on fixing the dwell time calculation."
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "chat_id": "oCgFCIAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2022-03-07",
+    "end": "2022-03-07"
+  },
+  "message_count": 42,
+  "topic": "Fixing campaign list display issue",
+  "topic_slug": "fixing-campaign-list-display-issue",
+  "tags": [
+    "analytics",
+    "campaign"
+  ],
+  "summary_markdown": "A critical bug was identified in the sandbox analytics environment where the list of campaigns was missing from a dropdown selector following a recent deployment. The issue was traced to corrupted JSON data, specifically an `ERROR TypeError: e.campaigns is undefined`. The problem was resolved by modifying the code structure and deploying the fix.",
+  "decisions": [
+    "The campaign list bug in the sandbox analytics environment has been fixed and deployed."
+  ],
+  "action_items": []
+}

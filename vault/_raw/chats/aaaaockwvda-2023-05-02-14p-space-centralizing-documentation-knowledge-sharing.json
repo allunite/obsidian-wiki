@@ -1,0 +1,24 @@
+{
+  "chat_id": "AAAAOcKWvdA",
+  "kind": "Space",
+  "space_name": "Delivery Coordination",
+  "participants": 14,
+  "date_range": {
+    "start": "2023-05-02",
+    "end": "2023-05-02"
+  },
+  "message_count": 14,
+  "topic": "Centralizing documentation and knowledge sharing",
+  "topic_slug": "centralizing-documentation-knowledge-sharing",
+  "tags": [
+    "analytics"
+  ],
+  "summary_markdown": "The discussion focused on the need to centralize company documentation, particularly regarding Brazil operations. One participant started collecting links and materials into a dedicated Confluence space. Participants agreed that relying on chat history for information is inefficient and difficult to manage.\n\nIt was noted that while some documentation exists in Confluence (specifically for data and models), there is a need for better organization and accessibility, with suggestions of creating separate sections for specific topics, such as router firmware builds.\n\nConfusion arose regarding the primary location of official documentation, with mentions of both `docs.allunite.local` and Confluence.",
+  "decisions": [
+    "Documentation links for Brazil are being collected into a central Confluence space."
+  ],
+  "action_items": [
+    "Review access permissions to ensure all team members can edit the centralized documentation space.",
+    "Standardize the location of official company documentation (Confluence vs. dedicated local docs)."
+  ]
+}

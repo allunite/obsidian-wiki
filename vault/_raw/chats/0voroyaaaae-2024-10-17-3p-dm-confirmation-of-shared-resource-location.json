@@ -1,0 +1,19 @@
+{
+  "chat_id": "0VorOYAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2024-10-17",
+    "end": "2024-10-17"
+  },
+  "message_count": 3,
+  "topic": "Confirmation of shared resource location",
+  "topic_slug": "confirmation-of-shared-resource-location",
+  "tags": [
+    "analytics"
+  ],
+  "summary_markdown": "The conversation confirms the location of a specific item or resource, referencing an internal Atlassian link.",
+  "decisions": [],
+  "action_items": []
+}

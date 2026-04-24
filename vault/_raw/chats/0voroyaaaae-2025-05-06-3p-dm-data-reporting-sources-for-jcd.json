@@ -1,0 +1,25 @@
+{
+  "chat_id": "0VorOYAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2025-05-06",
+    "end": "2025-05-06"
+  },
+  "message_count": 19,
+  "topic": "Data reporting and data sources for jcd",
+  "topic_slug": "data-reporting-sources-for-jcd",
+  "tags": [
+    "analytics",
+    "campaign",
+    "inventory"
+  ],
+  "summary_markdown": "The discussion focused on data availability, specifically regarding traffic totals and the inclusion of 'datecorp' data. It was noted that while total traffic figures were not visible in the current view, this might be a feature rather than a bug. The participants discussed whether Brazil should be included for jcd reporting, with one participant recalling previous instances where Brazil and Campinas were released to jcd. [me] confirmed that clients retrieve data directly from the data-api, suggesting they can re-extract necessary information.",
+  "decisions": [
+    "The inclusion of 'datecorp' data will be added to the report."
+  ],
+  "action_items": [
+    "[me] needs to investigate the requirement for Brazil data for jcd."
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "chat_id": "i6YI1QAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 2,
+  "date_range": {
+    "start": "2022-06-28",
+    "end": "2022-06-28"
+  },
+  "message_count": 36,
+  "topic": "Data transfer and Apple exclusion methodology",
+  "topic_slug": "data-transfer-and-apple-exclusion-methodology",
+  "tags": [
+    "analytics",
+    "session",
+    "impression"
+  ],
+  "summary_markdown": "The session covered two main topics: data migration and device filtering.\n\n1. **Data Migration:** Data for Finland was successfully transferred/updated, involving three specific company IDs (7864, 7863, 7865). \n2. **Apple Exclusion Logic:** Discussion focused on excluding Apple devices (`is_excluded`). It was determined that currently, `is_excluded` is only set for Citimedia and JCD. Implementing this exclusion universally would significantly reduce traffic from other sources.\n\nThe consensus was that while the model structure (using `countIf` with explicit exclusions) might not be affected by a universal Apple exclusion, the frequency metrics could be impacted, especially for clients without dedicated models. A full implementation of Apple exclusion across all devices should wait until a comprehensive model is available for all significant clients.",
+  "decisions": [
+    "Do not implement universal Apple device exclusion (`is_excluded`) immediately due to potential impact on traffic and frequency metrics."
+  ],
+  "action_items": []
+}

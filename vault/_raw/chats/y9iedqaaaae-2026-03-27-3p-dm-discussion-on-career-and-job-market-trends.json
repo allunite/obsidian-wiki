@@ -1,0 +1,19 @@
+{
+  "chat_id": "y9IEDQAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2026-03-27",
+    "end": "2026-03-27"
+  },
+  "message_count": 15,
+  "topic": "Discussion on career and job market trends",
+  "topic_slug": "discussion-on-career-and-job-market-trends",
+  "tags": [
+    "analytics"
+  ],
+  "summary_markdown": "The conversation focused entirely on personal feelings regarding professional success displayed online (specifically LinkedIn) and the current state of the tech job market. Participants discussed how difficult it is to find opportunities now compared to previous eras, referencing past instances where top talent was approached directly by companies rather than having to actively search for jobs.",
+  "decisions": [],
+  "action_items": []
+}

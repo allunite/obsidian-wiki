@@ -1,0 +1,23 @@
+{
+  "chat_id": "i6YI1QAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 2,
+  "date_range": {
+    "start": "2022-01-21",
+    "end": "2022-01-21"
+  },
+  "message_count": 11,
+  "topic": "Discussing data anomalies and packet accumulation",
+  "topic_slug": "discussing-data-anomalies-and-packet-accumulation",
+  "tags": [
+    "analytics"
+  ],
+  "summary_markdown": "The conversation initiated with a query regarding potential data anomalies, specifically whether packets might accumulate after an event or peak. The participants agreed to connect via a call to discuss this technical issue.",
+  "decisions": [
+    "A meeting was scheduled/agreed upon to discuss the anomaly."
+  ],
+  "action_items": [
+    "The participant ([p1]) shared a Google Meet link for the discussion."
+  ]
+}

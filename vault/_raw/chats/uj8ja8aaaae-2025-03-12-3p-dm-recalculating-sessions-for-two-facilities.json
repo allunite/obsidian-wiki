@@ -1,0 +1,25 @@
+{
+  "chat_id": "uJ8JA8AAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2025-03-12",
+    "end": "2025-03-12"
+  },
+  "message_count": 3,
+  "topic": "Recalculating sessions for two facilities",
+  "topic_slug": "recalculating-sessions-for-two-facilities",
+  "tags": [
+    "facility",
+    "session",
+    "inventory"
+  ],
+  "summary_markdown": "A request was made to recalculate session data for two specific facilities (44860, 44861) because the inventory data was previously incorrect and not accounted for. The initial issue involved two facilities being incorrectly added as frames to two other existing ones. It was clarified that these two facilities were never actually present before, meaning no prior associations existed.",
+  "decisions": [
+    "Recalculate session data for facility 44860 and 44861."
+  ],
+  "action_items": [
+    "Someone needs to take on the task of copying/recalculating sessions for the specified facilities, preferably tomorrow."
+  ]
+}

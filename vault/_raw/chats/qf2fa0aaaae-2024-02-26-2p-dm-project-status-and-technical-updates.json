@@ -1,0 +1,19 @@
+{
+  "chat_id": "qF2Fa0AAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 2,
+  "date_range": {
+    "start": "2024-02-26",
+    "end": "2024-02-26"
+  },
+  "message_count": 4,
+  "topic": "Project status and technical updates",
+  "topic_slug": "project-status-and-technical-updates",
+  "tags": [
+    "analytics"
+  ],
+  "summary_markdown": "The conversation briefly references a Jira ticket (DOOH-661) related to caching and data. One participant reports that they are currently working on integrating OpenAI into the staging environment, including connecting Sasha.",
+  "decisions": [],
+  "action_items": []
+}

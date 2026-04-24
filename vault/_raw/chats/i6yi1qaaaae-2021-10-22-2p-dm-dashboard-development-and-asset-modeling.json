@@ -1,0 +1,28 @@
+{
+  "chat_id": "i6YI1QAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 2,
+  "date_range": {
+    "start": "2021-10-22",
+    "end": "2021-10-22"
+  },
+  "message_count": 49,
+  "topic": "Dashboard development and asset modeling",
+  "topic_slug": "dashboard-development-and-asset-modeling",
+  "tags": [
+    "analytics",
+    "impression",
+    "facility",
+    "campaign"
+  ],
+  "summary_markdown": "The discussion focused on the timeline for developing a dashboard that calculates impressions, which is expected to follow the launch of 'Lidar' data. Initially, [p1] suggested a target date around mid-to-late November. [me] revised this estimate, stating that while the formula implementation itself should take only a couple of days, factoring in necessary adjustments and coordination, a release date of November 9th–10th was proposed as the latest possible deadline.\n\nRegarding dashboard functionality, it was decided that 'share of time' would be calculated client-side (on the fly), while server requests would only be needed for filtering by facility and time period. Furthermore, [me] provided a SQL query structure to help [p1] populate an `ml_model` attribute within the asset data for better sensor identification across different models.",
+  "decisions": [
+    "The dashboard release date is tentatively set for November 9th–10th, accounting for necessary adjustments and coordination.",
+    "'Share of time' will be calculated client-side (on the fly) rather than requiring a server request.",
+    "Server requests for the dashboard are limited to filtering by facility and period time."
+  ],
+  "action_items": [
+    "Someone needs to populate the `ml_model` attribute using the provided SQL structure to categorize sensors/assets."
+  ]
+}

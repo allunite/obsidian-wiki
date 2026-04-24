@@ -1,0 +1,25 @@
+{
+  "chat_id": "i6YI1QAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 2,
+  "date_range": {
+    "start": "2021-01-06",
+    "end": "2021-01-06"
+  },
+  "message_count": 42,
+  "topic": "Analytics algorithm scope and improvements",
+  "topic_slug": "analytics-algorithm-scope-and-improvements",
+  "tags": [
+    "analytics",
+    "facility",
+    "inventory"
+  ],
+  "summary_markdown": "The conversation addressed the scope of anomaly detection within the analytics system. It was confirmed that when analyzing anomalies, the data is treated per sensor/location (facility), meaning multiple boxes in one location are not combined into a single facility unit.\n\nA potential improvement to the algorithm was discussed: comparing peaks across different vendors for a single sensor. Currently, if a peak occurs across all vendors, it is excluded; however, suggesting that implementing cross-vendor comparison could be beneficial, as a simultaneous jump across all vendors might indicate normal activity.",
+  "decisions": [
+    "The current anomaly detection algorithm operates on a per-sensor basis (facility)."
+  ],
+  "action_items": [
+    "Create a ticket to evaluate implementing cross-vendor peak comparison in the analytics algorithm."
+  ]
+}

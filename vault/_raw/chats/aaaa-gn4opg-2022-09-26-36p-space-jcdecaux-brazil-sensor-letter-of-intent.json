@@ -1,0 +1,22 @@
+{
+  "chat_id": "AAAA-gn4oPg",
+  "kind": "Space",
+  "space_name": "General and random",
+  "participants": 36,
+  "date_range": {
+    "start": "2022-09-26",
+    "end": "2022-09-26"
+  },
+  "message_count": 5,
+  "topic": "JCDecaux Brazil sensor letter of intent",
+  "topic_slug": "jcdecaux-brazil-sensor-letter-of-intent",
+  "tags": [
+    "campaign",
+    "inventory"
+  ],
+  "summary_markdown": "A participant announced that JCDecaux Brazil signed a Letter of Intent (LOI) for 275 sensors. Another participant subsequently scheduled and initiated an event, referencing the time 15:30 CET.",
+  "decisions": [],
+  "action_items": [
+    "Join the scheduled bell ringing/event"
+  ]
+}

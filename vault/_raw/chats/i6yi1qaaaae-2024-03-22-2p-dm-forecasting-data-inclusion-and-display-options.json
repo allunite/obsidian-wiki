@@ -1,0 +1,24 @@
+{
+  "chat_id": "i6YI1QAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 2,
+  "date_range": {
+    "start": "2024-03-22",
+    "end": "2024-03-22"
+  },
+  "message_count": 8,
+  "topic": "Forecasting data inclusion and display options",
+  "topic_slug": "forecasting-data-inclusion-and-display-options",
+  "tags": [
+    "analytics",
+    "forecast"
+  ],
+  "summary_markdown": "The discussion centered on the implementation of forecasting data across all accounts. A concern was raised that a previous fix for missing aggregates during low traffic periods caused inaccurate forecast data (lacking dwell time and frequency) to populate the aggregates, even for companies where forecasting was not intended to be included.\n\nTwo main options were presented: either disable the missing data fix or enable forecasting universally. It was agreed that enabling the forecast is preferred, but mechanisms must be put in place to clearly distinguish this data as a forecast from actual measured traffic. Suggestions included providing clients with advance notice and implementing controls at both the company and facility levels to allow users to toggle the forecast feature.",
+  "decisions": [
+    "Forecasting should be enabled universally across accounts."
+  ],
+  "action_items": [
+    "Investigate methods for clearly labeling and controlling the display of forecast data (e.g., per company/facility level toggles)."
+  ]
+}

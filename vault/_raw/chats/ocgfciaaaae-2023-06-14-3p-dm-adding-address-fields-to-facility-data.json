@@ -1,0 +1,23 @@
+{
+  "chat_id": "oCgFCIAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2023-06-14",
+    "end": "2023-06-14"
+  },
+  "message_count": 5,
+  "topic": "Adding address fields to facility data",
+  "topic_slug": "adding-address-fields-to-facility-data",
+  "tags": [
+    "facility",
+    "analytics"
+  ],
+  "summary_markdown": "The discussion focused on adding two new optional address fields: 'Metropolitan region' and 'Reference'. The participants debated whether these should be added to the main facility table or stored in asset data. It was decided that since the address is primarily housed in the facility record, adding them directly to the facility table is the preferred approach.\n\nSeparately, a discussion occurred regarding the 'frames' field within the facility table. Although it is currently unused, [me] confirmed using it for temporary/intermediate data during import processes. It was agreed that if the field must remain, it should be renamed to `_frames` to clearly indicate its internal or service use.",
+  "decisions": [
+    "Add 'Metropolitan region' and 'Reference' fields directly to the facility table.",
+    "Rename the existing 'frames' field in the facility table to '_frames' for clarity."
+  ],
+  "action_items": []
+}

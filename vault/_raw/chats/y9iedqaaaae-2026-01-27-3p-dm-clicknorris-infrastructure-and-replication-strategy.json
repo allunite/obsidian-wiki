@@ -1,0 +1,27 @@
+{
+  "chat_id": "y9IEDQAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2026-01-27",
+    "end": "2026-01-27"
+  },
+  "message_count": 42,
+  "topic": "ClickNorris infrastructure and replication strategy",
+  "topic_slug": "clicknorris-infrastructure-and-replication-strategy",
+  "tags": [
+    "analytics",
+    "inventory",
+    "campaign"
+  ],
+  "summary_markdown": "The discussion focused on the technical feasibility and cost implications of migrating or replicating the ClickNorris system. \n\n**Key Points & Decisions:**\n*   **AWS vs. Hetzner:** The participants discussed alternatives to AWS, noting that while Hetzner offers cheaper storage (HDD cold storage), maintaining redundancy requires multiple physical locations (e.g., Germany and Finland) for high availability.\n*   **Replication Goal:** The primary goal is ensuring ClickNorris remains operational even if one instance fails, minimizing client impact. This involves setting up a replicated Norris system with real-time data feeding into front-end ClickHouse replicas.\n*   **Data Volume & Cost:** Data volume was estimated at approximately 350GB/day (or ~450GB in/out), leading to cost estimations for the new setup.\n*   **Japan Deployment:** It was determined that if deploying infrastructure in Japan, additional storage capacity (around 300GB) or a direct connection/data transfer method from S3 would be necessary due to the volume of data being processed.",
+  "decisions": [
+    "The goal is to establish a replicated ClickNorris system for high availability.",
+    "If deploying in Japan, additional storage capacity (approx. 300GB) or direct S3 integration must be addressed."
+  ],
+  "action_items": [
+    "Evaluate the cost of running a redundant Norris setup across multiple geographical locations (e.g., Germany and Finland).",
+    "Determine the current monthly traffic volume passing through ClickNorris for accurate cost comparison."
+  ]
+}

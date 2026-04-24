@@ -1,0 +1,23 @@
+{
+  "chat_id": "kRmJN4AAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 2,
+  "date_range": {
+    "start": "2022-07-01",
+    "end": "2022-07-01"
+  },
+  "message_count": 7,
+  "topic": "Investigating pending payment status",
+  "topic_slug": "investigating-pending-payment-status",
+  "tags": [
+    "analytics"
+  ],
+  "summary_markdown": "The conversation focused on tracking a delayed incoming payment from AllUnite. [me] advised [p1] that Payoneer might not be able to link a SWIFT payment using only requisites. After confirming no recent incoming ATM payments, [me] instructed [p1] to contact Payoneer support and provide the Danish bank receipt for assistance.",
+  "decisions": [
+    "Contact Payoneer support with the Danish bank receipt."
+  ],
+  "action_items": [
+    "[p1] will write to Payoneer support with the Danish bank receipt attached."
+  ]
+}

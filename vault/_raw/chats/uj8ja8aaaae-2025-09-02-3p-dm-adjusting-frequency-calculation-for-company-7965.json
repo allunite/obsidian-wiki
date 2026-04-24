@@ -1,0 +1,24 @@
+{
+  "chat_id": "uJ8JA8AAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2025-09-02",
+    "end": "2025-09-02"
+  },
+  "message_count": 11,
+  "topic": "Adjusting frequency calculation for company 7965",
+  "topic_slug": "adjusting-frequency-calculation-for-company-7965",
+  "tags": [
+    "dwell-time",
+    "analytics",
+    "campaign"
+  ],
+  "summary_markdown": "The discussion focused on adjusting the dwell time and frequency calculations for company 7965. Initially, [p1] requested that the dwell time calculation be enabled using the internal method. Regarding frequency, [p1] noted that while a basic frequency was used, multipliers dependent on the number of days were commented out in the code. [me] confirmed that the frequency formula had been uncommented and found previous chat history confirming when the formula was disabled.\n\n[p1] stated that leaving the calculation with only sensor data (without multipliers) resulted in high numbers, whereas including the multipliers provided a more adequate result.",
+  "decisions": [
+    "The dwell time calculation for company 7965 is to be enabled using the internal method.",
+    "Frequency multipliers dependent on the number of days were uncommented and reactivated."
+  ],
+  "action_items": []
+}

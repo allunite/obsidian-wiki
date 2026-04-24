@@ -1,0 +1,25 @@
+{
+  "chat_id": "AAAA97r8Cx0",
+  "kind": "Space",
+  "space_name": "Dubai DF",
+  "participants": 6,
+  "date_range": {
+    "start": "2021-10-14",
+    "end": "2021-10-14"
+  },
+  "message_count": 34,
+  "topic": "Adapter procurement for Dubai deployment",
+  "topic_slug": "adapter-procurement-for-dubai-deployment",
+  "tags": [
+    "inventory",
+    "campaign"
+  ],
+  "summary_markdown": "The discussion centered on providing specific electrical adapters to a client in Dubai. The initial confusion was whether the required adapter converted from UK plug to EU plug, or vice versa. It was clarified that the requirement is for an adaptor equipped with a 3-pin UK type plug.\n\nThe participants reviewed potential solutions, including purchasing universal plugs at the airport and finding specific adapters online (Amazon links provided).\n\nIt was determined that the client needs Ouster and Teltonika equipment to be powered directly by these specialized plugs, without using converters. Specific product links were shared for both Teltonika and potential power supply types for Ouster.\n\n[p2] agreed to confirm with Dubai if the understanding of the required adapters is correct, and subsequently connect with Ouster to verify the necessary connection type.",
+  "decisions": [
+    "The client requires specialized adaptors with 3-pin UK plugs for Ouster and Teltonika equipment."
+  ],
+  "action_items": [
+    "[p2] to confirm adapter requirements directly with Dubai.",
+    "[p2] to connect with Ouster to verify the necessary power supply connection type."
+  ]
+}

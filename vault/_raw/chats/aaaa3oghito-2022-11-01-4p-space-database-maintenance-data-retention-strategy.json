@@ -1,0 +1,28 @@
+{
+  "chat_id": "AAAA3oghITo",
+  "kind": "Space",
+  "space_name": "Кабаны",
+  "participants": 4,
+  "date_range": {
+    "start": "2022-11-01",
+    "end": "2022-11-01"
+  },
+  "message_count": 23,
+  "topic": "Database maintenance and data retention strategy",
+  "topic_slug": "database-maintenance-data-retention-strategy",
+  "tags": [
+    "analytics",
+    "facility",
+    "impression",
+    "raw-device-seen",
+    "session"
+  ],
+  "summary_markdown": "The discussion focused on managing storage capacity and data retention within the ClickHouse database, specifically concerning `raw_device_seen` tables.\n\n*   **Storage Issues:** It was noted that when ClickHouse runs low on space, it moves data from hot to cold storage but sometimes fails to delete old partitions in the 'moving' folder. This often requires restarting the service or manually cleaning up stale partitions (6-9 months old).\n*   **Data Source Confirmation:** Participants confirmed that PostgreSQL is the definitive source of truth for retrieving facility and box information.\n*   **Retention Strategy:** A plan was proposed to automatically clean up `raw_device_seen` data, alongside query logs. This requires careful consideration due to past instances where manual deletion caused data gaps or failed ingestion processes.\n*   **Data Ingestion Stability:** The current data ingestion process is reported as stable, contrasting with previous periods when backups were missed and data was lost.",
+  "decisions": [
+    "PostgreSQL will be used as the source of truth for facility information."
+  ],
+  "action_items": [
+    "Implement automatic cleanup policies for raw device seen data and query logs in ClickHouse to ensure sufficient space on both hot and cold storage volumes.",
+    "Monitor the stability of the current data ingestion process before implementing automated deletion scripts."
+  ]
+}

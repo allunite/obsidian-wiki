@@ -1,0 +1,21 @@
+{
+  "chat_id": "AAAAJ2xjT2w",
+  "kind": "Space",
+  "space_name": "DailyStandup",
+  "participants": 5,
+  "date_range": {
+    "start": "2025-08-11",
+    "end": "2025-08-11"
+  },
+  "message_count": 3,
+  "topic": "Daily standup status check",
+  "topic_slug": "daily-standup-status-check",
+  "tags": [
+    "analytics"
+  ],
+  "summary_markdown": "The chat session included a brief daily standup update. One participant noted they were on vacation. Another participant mentioned that answers from [me] were still missing.",
+  "decisions": [],
+  "action_items": [
+    "Follow up with [me] for missing answers."
+  ]
+}

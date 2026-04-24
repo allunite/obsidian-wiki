@@ -1,0 +1,19 @@
+{
+  "chat_id": "mR6Xw8AAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 2,
+  "date_range": {
+    "start": "2025-02-11",
+    "end": "2025-02-11"
+  },
+  "message_count": 7,
+  "topic": "Database access and schema selection issue",
+  "topic_slug": "database-access-schema-selection-issue",
+  "tags": [
+    "analytics"
+  ],
+  "summary_markdown": "The conversation focused on troubleshooting database connectivity issues. Initially, [unknown] reported difficulty querying tables despite having database access. [me] suggested checking if the 'allunite' schema was selected. [unknown] confirmed that the problem was resolved after realizing the default schema was not set to 'allunite', which was causing query failures.",
+  "decisions": [],
+  "action_items": []
+}

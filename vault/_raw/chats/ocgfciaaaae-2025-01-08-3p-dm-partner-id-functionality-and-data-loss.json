@@ -1,0 +1,25 @@
+{
+  "chat_id": "oCgFCIAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2025-01-08",
+    "end": "2025-01-08"
+  },
+  "message_count": 5,
+  "topic": "Partner ID functionality and data loss",
+  "topic_slug": "partner-id-functionality-and-data-loss",
+  "tags": [
+    "analytics",
+    "inventory",
+    "campaign"
+  ],
+  "summary_markdown": "The discussion focused on the historical tracking of user company data, specifically noting that `user_company` no longer reliably saves information after a certain date (2023-04-21). The functionality for linking partner companies via `partner_id`, which allowed granting access to linked company data, was identified as lost or difficult to use in the current system. While `parent_id` is consistently used and saved, the mechanism using `partner_id` for accessing linked company data is currently non-functional for new companies. Furthermore, the function `get_partner_companies` does not correctly return all child companies, leading to visibility issues (e.g., AllUnite cannot see all newly created companies through partners). The process of how the `partner_id` was generated from a core event using CQRS was also discussed.",
+  "decisions": [
+    "The functionality for accessing linked partner company data via `partner_id` needs to be fixed or deprecated."
+  ],
+  "action_items": [
+    "Add the necessary fixes/improvements related to partner company linking and data visibility to the task list."
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "chat_id": "nW_zkkAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2025-11-03",
+    "end": "2025-11-03"
+  },
+  "message_count": 5,
+  "topic": "Demographic data inquiry and ownership",
+  "topic_slug": "demographic-data-inquiry-and-ownership",
+  "tags": [
+    "analytics"
+  ],
+  "summary_markdown": "A discussion regarding the availability of demographic data. [me] stated that they checked the high-level metrics on Friday but could not find a cause for an issue. When asked by [p1] to clarify who was responsible for the task, [me] confirmed that the issue belonged to them.",
+  "decisions": [
+    "The demographic data inquiry is related to [me]'s area of responsibility."
+  ],
+  "action_items": []
+}

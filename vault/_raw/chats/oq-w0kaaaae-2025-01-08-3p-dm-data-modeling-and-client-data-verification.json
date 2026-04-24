@@ -1,0 +1,24 @@
+{
+  "chat_id": "oq-w0kAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2025-01-08",
+    "end": "2025-01-08"
+  },
+  "message_count": 16,
+  "topic": "Data modeling and client data verification",
+  "topic_slug": "data-modeling-and-client-data-verification",
+  "tags": [
+    "analytics",
+    "campaign"
+  ],
+  "summary_markdown": "The discussion focused on the structure of new charts, specifically whether 'transport models' and 'purpose' fields will require value tuning relative to a total. [me] confirmed that this is likely necessary, referencing previous work done by [p1]. The conversation then shifted to verifying client data; initially, [me] mentioned 'juno.koro', but [p1] could not find the client and asked for clarification. [me] subsequently provided an email address ([email@jcdecaux.com]) which was identified as incorrect or irrelevant.",
+  "decisions": [
+    "No concrete decisions regarding data structure were finalized."
+  ],
+  "action_items": [
+    "None"
+  ]
+}

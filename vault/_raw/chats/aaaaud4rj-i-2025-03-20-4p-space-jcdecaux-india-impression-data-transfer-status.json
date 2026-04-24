@@ -1,0 +1,25 @@
+{
+  "chat_id": "AAAAud4RJ_I",
+  "kind": "Space",
+  "space_name": "Group Chat",
+  "participants": 4,
+  "date_range": {
+    "start": "2025-03-20",
+    "end": "2025-03-20"
+  },
+  "message_count": 11,
+  "topic": "JCDecaux India impression data transfer status",
+  "topic_slug": "jcdecaux-india-impression-data-transfer-status",
+  "tags": [
+    "impression",
+    "campaign",
+    "analytics"
+  ],
+  "summary_markdown": "The discussion concerns the updated impression data for JCDecaux India (7898), specifically regarding historical impressions from 2025-02-26 that were supposedly fixed and recalculated. The core issue is whether this data needs to be reloaded into DataCorp.\n\n[p1] initially questioned who was responsible for the transfer process, noting a previous assumption that all JCDecaux accounts were sent data.\n[p2] clarified that the practice of sending all data to the Danish account has stopped; currently, only Denmark's data is transferred there. \n[p3] confirmed that India is not included in the current data transfer scope.",
+  "decisions": [
+    "JCDecaux India impression data does not need to be reloaded into DataCorp."
+  ],
+  "action_items": [
+    "[me] will check on the data reloading process later, potentially coordinating with 'Afa'."
+  ]
+}

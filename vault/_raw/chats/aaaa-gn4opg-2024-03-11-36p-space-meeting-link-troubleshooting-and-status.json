@@ -1,0 +1,21 @@
+{
+  "chat_id": "AAAA-gn4oPg",
+  "kind": "Space",
+  "space_name": "General and random",
+  "participants": 36,
+  "date_range": {
+    "start": "2024-03-11",
+    "end": "2024-03-11"
+  },
+  "message_count": 11,
+  "topic": "Meeting link troubleshooting and status",
+  "topic_slug": "meeting-link-troubleshooting-and-status",
+  "tags": [
+    "analytics"
+  ],
+  "summary_markdown": "The conversation focused on technical issues accessing a scheduled team meeting. Initially, one participant reported that the provided meeting link was not working or showed an error message. Other participants advised troubleshooting steps, including navigating to the main Google Meet site and connecting from there. The issue was resolved by the users.",
+  "decisions": [
+    "The correct method for accessing the team meeting was identified."
+  ],
+  "action_items": []
+}

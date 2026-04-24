@@ -1,0 +1,17 @@
+{
+  "chat_id": "y9IEDQAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2025-06-24",
+    "end": "2025-06-24"
+  },
+  "message_count": 9,
+  "topic": "Location discussion and clarification",
+  "topic_slug": "location-discussion-and-clarification",
+  "tags": [],
+  "summary_markdown": "The conversation primarily revolves around determining a specific geographical location. [p1] initially asks about the area of a residence, suggesting 'center' and later mentioning potential areas like 'красный камень' or 'парус'. [me] provides clarification on the location, stating it is near Zavodskaya metro station and specifying the street as 'Сухой Остров', correcting an earlier guess by [p1].",
+  "decisions": [],
+  "action_items": []
+}

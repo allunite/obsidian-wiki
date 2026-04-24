@@ -1,0 +1,23 @@
+{
+  "chat_id": "y9IEDQAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2024-10-30",
+    "end": "2024-10-30"
+  },
+  "message_count": 3,
+  "topic": "Creating DNS aliases for environment selection",
+  "topic_slug": "creating-dns-aliases-for-environment-selection",
+  "tags": [
+    "analytics"
+  ],
+  "summary_markdown": "The discussion focused on the technical requirement to create two specific DNS aliases: `ml-api.allunite.local` pointing to `ml-api-prod.allunite.local`, and `staging-ml-api.allunite.local` pointing to `ml-api-stage.allunite.local`. This setup is intended to allow the code to dynamically select the environment (prod/stage) using a simple substitution variable, as demonstrated in the provided SQL query structure.",
+  "decisions": [
+    "DNS aliases will be created for production and staging environments."
+  ],
+  "action_items": [
+    "p1 will create the required DNS aliases tomorrow."
+  ]
+}

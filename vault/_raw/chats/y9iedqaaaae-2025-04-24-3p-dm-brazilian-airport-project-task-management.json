@@ -1,0 +1,24 @@
+{
+  "chat_id": "y9IEDQAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2025-04-24",
+    "end": "2025-04-24"
+  },
+  "message_count": 18,
+  "topic": "Brazilian airport project task management",
+  "topic_slug": "brazilian-airport-project-task-management",
+  "tags": [
+    "analytics",
+    "campaign"
+  ],
+  "summary_markdown": "The conversation focused on managing multiple tasks related to a high-priority Brazilian airport project. Three specific tickets were identified: DOOH-1964 (requiring interaction with Nina), DOOH-1965 (awaiting a model from Sasha), and DOOH-1904 (in the queue). The participants confirmed the dependencies for the first two tasks, noting that action was required on ticket DOOH-1964.",
+  "decisions": [
+    "The status of tickets DOOH-1964, DOOH-1965, and DOOH-1904 were reviewed."
+  ],
+  "action_items": [
+    "A comment needed to be added to the relevant task (DOOH-1964) to clarify responsibility for senior management."
+  ]
+}

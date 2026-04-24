@@ -1,0 +1,28 @@
+{
+  "chat_id": "AAAA9ybOLwM",
+  "kind": "Space",
+  "space_name": "ИТ",
+  "participants": 8,
+  "date_range": {
+    "start": "2021-05-12",
+    "end": "2021-05-12"
+  },
+  "message_count": 35,
+  "topic": "Data correction and reporting for Latvia",
+  "topic_slug": "data-correction-and-reporting-for-latvia",
+  "tags": [
+    "analytics",
+    "session",
+    "recalc-ch"
+  ],
+  "summary_markdown": "The team discussed data cleaning procedures, specifically regarding the exclusion of certain records (e.g., those from 20th day) and focusing on Latvia's data quality.\n\n*   **Latvia Data:** It was decided that the Latvian sessions should be returned to the recalc process. [me] offered to 'underlap' or adjust the Latvian data separately.\n*   **Alerting:** The consensus was to implement an alert system but *without* deleting the problematic sessions, as the source of the issue needs investigation.\n*   **Reporting Timeline:** A concern was raised about communicating the corrected Latvian data to the client. Since uncalibrated data for Latvia was sent via JCD until May 11th, it was confirmed that if the client accesses JCD, they will need to reload data starting from late March.",
+  "decisions": [
+    "Latvian sessions should be returned to the recalc process (recalc-ch).",
+    "An alert system must be implemented for problematic sessions without deleting them.",
+    "The team confirmed that client access to JCD requires reloading data back to late March."
+  ],
+  "action_items": [
+    "[p5] will check the remaining AFU categories and company data.",
+    "Someone needs to find the source of the problematic sessions/data."
+  ]
+}

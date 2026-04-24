@@ -1,0 +1,28 @@
+{
+  "chat_id": "AAAAOcKWvdA",
+  "kind": "Space",
+  "space_name": "Delivery Coordination",
+  "participants": 14,
+  "date_range": {
+    "start": "2023-09-04",
+    "end": "2023-09-04"
+  },
+  "message_count": 34,
+  "topic": "Data aggregation and pipeline updates",
+  "topic_slug": "data-aggregation-and-pipeline-updates",
+  "tags": [
+    "analytics",
+    "campaign",
+    "session",
+    "recalc-ch"
+  ],
+  "summary_markdown": "The discussion focused on correcting and updating data in staging environments, specifically concerning session aggregation.\n\n*   **Data Correction:** It was identified that a gap in the data exists from July 29th to August 6th. The current aggregation process needs to be rerun using production data (`device_session_agg_ml`) instead of the staging version (`device_session_agg_ml_staging`).\n*   **Pipeline Execution:** Multiple participants discussed running ML predictions and subsequent aggregations for India in the staging environment, noting that while this will slow down existing processes (specifically Vlad's aggregation), it is not expected to cause a conflict. The decision was made to proceed with the run.\n*   **Tooling Discussion:** There was a brief discussion regarding whether key jobs should remain in Rundeck or be migrated to Windmill for better user interface, though consensus leaned toward keeping critical recalculation tasks stable in their current location.",
+  "decisions": [
+    "The session aggregation process must be rerun using production data sources (starting from June 1st).",
+    "Running ML predictions and subsequent aggregations for India in the staging environment is approved despite potential slowdowns."
+  ],
+  "action_items": [
+    "Rerun the device session aggregation calculation using production data.",
+    "Investigate why the aggregation process failed to run correctly (for tomorrow's follow-up)."
+  ]
+}

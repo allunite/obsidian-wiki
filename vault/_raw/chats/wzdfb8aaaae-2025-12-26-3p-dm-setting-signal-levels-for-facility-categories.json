@@ -1,0 +1,24 @@
+{
+  "chat_id": "wZDFB8AAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2025-12-26",
+    "end": "2025-12-26"
+  },
+  "message_count": 21,
+  "topic": "Setting signal levels for facility categories",
+  "topic_slug": "setting-signal-levels-for-facility-categories",
+  "tags": [
+    "analytics",
+    "campaign"
+  ],
+  "summary_markdown": "The conversation covered technical methods for setting specific signal levels. Initially, it was discussed that while there is no direct code to calibrate a `facility_master_num` by its `facility_num`, the calibration can be set using the `facility_master_num` directly in functions like `getCalibration()`. It was noted that the priority of `facility_num` (or `facility_master_num`) level calibration is higher than category.\n\nLater, specific signal level changes were implemented for company 7885 under the 'Airport' category. The initial stage setting was changed from 72 to 84 upon request. Subsequently, the signal level stage was reverted to 72 for 'Airport', and then set to 84 for a new category, 'Airport_B2', for both staging and production environments.",
+  "decisions": [
+    "Signal levels were adjusted for company 7885 under the 'Airport' category (stage: 72 -> 84).",
+    "The signal level stage was reverted to 72 for 'Airport'.",
+    "The signal level was set to 84 for 'Airport_B2' in both staging and production environments."
+  ],
+  "action_items": []
+}

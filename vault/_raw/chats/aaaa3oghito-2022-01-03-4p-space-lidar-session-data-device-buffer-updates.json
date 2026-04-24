@@ -1,0 +1,28 @@
+{
+  "chat_id": "AAAA3oghITo",
+  "kind": "Space",
+  "space_name": "Кабаны",
+  "participants": 4,
+  "date_range": {
+    "start": "2022-01-03",
+    "end": "2022-01-03"
+  },
+  "message_count": 66,
+  "topic": "Lidar session data and device buffer updates",
+  "topic_slug": "lidar-session-data-device-buffer-updates",
+  "tags": [
+    "analytics",
+    "impression",
+    "campaign",
+    "inventory"
+  ],
+  "summary_markdown": "The discussion covered the necessity of including a `timestamp` field in lidar session data, with consensus reached to keep it for potential future use. The team reviewed and updated the process for loading device box data into ClickHouse.\n\nKey technical points included:\n*   **Lidar Timestamp:** A timestamp field is required for unique session identification, even if currently overkill (nanosecond precision).\n*   **Data Loading:** Changes were implemented to pipe device box data into the development ClickHouse cluster. The team confirmed that data was successfully flowing and advised loading historical data into ClickHouse instead of overloading PostgreSQL.\n*   **Device Buffer:** The process for populating the raw devices seen buffer (`raw_devices_seen_buffer`) was reviewed, confirming it holds data for up to 10 minutes or 100k records. It was confirmed that this buffer is successfully loading into the production environment (specifically `prod02`).",
+  "decisions": [
+    "Keep the timestamp field in lidar session data.",
+    "Load historical device box data into ClickHouse instead of PostgreSQL."
+  ],
+  "action_items": [
+    "Verify that the changes made to populate the development ClickHouse cluster did not break production functionality.",
+    "Ensure raw devices seen buffer is loading into prod02."
+  ]
+}

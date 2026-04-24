@@ -1,0 +1,17 @@
+{
+  "chat_id": "oq-w0kAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2024-10-29",
+    "end": "2024-10-29"
+  },
+  "message_count": 4,
+  "topic": "Presentation content warning",
+  "topic_slug": "presentation-content-warning",
+  "tags": [],
+  "summary_markdown": "Someone reminded another participant about the content of a presentation, advising caution regarding inappropriate material being included in the shared tab.",
+  "decisions": [],
+  "action_items": []
+}

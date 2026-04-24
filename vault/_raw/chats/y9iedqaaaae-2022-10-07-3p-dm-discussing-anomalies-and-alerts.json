@@ -1,0 +1,19 @@
+{
+  "chat_id": "y9IEDQAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2022-10-07",
+    "end": "2022-10-07"
+  },
+  "message_count": 7,
+  "topic": "Discussing anomalies and alerts",
+  "topic_slug": "discussing-anomalies-and-alerts",
+  "tags": [
+    "analytics"
+  ],
+  "summary_markdown": "The conversation initiated with a request to discuss observed anomalies, referencing a previous call. The discussion was then redirected to start with an alert.",
+  "decisions": [],
+  "action_items": []
+}

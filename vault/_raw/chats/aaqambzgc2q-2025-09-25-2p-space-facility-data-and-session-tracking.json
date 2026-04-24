@@ -1,0 +1,24 @@
+{
+  "chat_id": "AAQAmbzGc2Q",
+  "kind": "Space",
+  "space_name": "Group Chat",
+  "participants": 2,
+  "date_range": {
+    "start": "2025-09-25",
+    "end": "2025-09-25"
+  },
+  "message_count": 14,
+  "topic": "Facility data and session tracking",
+  "topic_slug": "facility-data-and-session-tracking",
+  "tags": [
+    "facility",
+    "analytics"
+  ],
+  "summary_markdown": "The conversation focused on identifying session data for virtual facilities, specifically addressing the difference between sensor-equipped and non-sensor-equipped facilities. It was noted that the facility type 'Bus_Shelter' was discussed. A SQL query was shared to select facility numbers from a dictionary table based on a list of IDs. However, it was determined that the specific facility ('Bus_Shelter') was not included in the provided list of facility IDs.",
+  "decisions": [
+    "The required facility data needs verification against existing records."
+  ],
+  "action_items": [
+    "Someone needs to write to Fishman regarding this issue."
+  ]
+}

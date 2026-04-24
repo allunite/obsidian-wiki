@@ -1,0 +1,27 @@
+{
+  "chat_id": "AAAA7lJKPlc",
+  "kind": "Space",
+  "space_name": "Frontend",
+  "participants": 5,
+  "date_range": {
+    "start": "2022-05-20",
+    "end": "2022-05-20"
+  },
+  "message_count": 28,
+  "topic": "Implementing airport passenger flow tracking component",
+  "topic_slug": "implementing-airport-passenger-flow-tracking-component",
+  "tags": [
+    "analytics",
+    "campaign",
+    "inventory"
+  ],
+  "summary_markdown": "The discussion focused on implementing a new 'Airport' section within the dashboard to track people flow from different areas (e.g., gate A, B, C). The goal is for customers to visualize traffic sources and movement.\n\nRegarding implementation details:\n*   A specific component was identified: `chartjs-chart-sankey` (provided by [p2]).\n*   The team decided that if this library is used, development should start from the `angular12` branch to update Chart.js and integrate the new component.\n*   [me] suggested a 'funnel' component as an alternative visualization, but noted difficulty finding a chart3 compatible version.\n\nDevelopment efforts are proceeding with mock data using a JSON web server for initial implementation, allowing frontend work before backend readiness.",
+  "decisions": [
+    "The Airport section will track people flow from different areas (gates).",
+    "If the Sankey diagram component is used, development should start on the angular12 branch.",
+    "Frontend implementation can proceed using mock data."
+  ],
+  "action_items": [
+    "Review and estimate time needed for implementing the airport page to prepare backend resources."
+  ]
+}

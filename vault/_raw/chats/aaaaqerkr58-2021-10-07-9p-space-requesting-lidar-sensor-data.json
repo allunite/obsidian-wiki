@@ -1,0 +1,21 @@
+{
+  "chat_id": "AAAAqeRkR58",
+  "kind": "Space",
+  "space_name": "Estonia",
+  "participants": 9,
+  "date_range": {
+    "start": "2021-10-07",
+    "end": "2021-10-07"
+  },
+  "message_count": 6,
+  "topic": "Requesting lidar sensor data",
+  "topic_slug": "requesting-lidar-sensor-data",
+  "tags": [
+    "analytics"
+  ],
+  "summary_markdown": "Someone requested data for the last two hours concerning sensors EST02 and EST03. [p5] confirmed they would retrieve this information.",
+  "decisions": [],
+  "action_items": [
+    "[p5] to provide data for EST02 and EST03 for the last two hours."
+  ]
+}

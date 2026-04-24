@@ -1,0 +1,24 @@
+{
+  "chat_id": "ws0mTkAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 2,
+  "date_range": {
+    "start": "2023-09-25",
+    "end": "2023-09-25"
+  },
+  "message_count": 12,
+  "topic": "Accessing the analytics interface translation system",
+  "topic_slug": "accessing-analytics-interface-translation-system",
+  "tags": [
+    "analytics"
+  ],
+  "summary_markdown": "The conversation addressed a client's inability to locate or access the analytics interface translation system. [me] provided the link (https://i18n.allunite.com/) and noted that another team member had previously closed registration for it.\n\nIt was determined that confirmation is needed regarding the current status of the system's registration. If it is closed, a temporary opening must be requested for the client.",
+  "decisions": [
+    "Confirm if the analytics interface translation system is currently registered/open."
+  ],
+  "action_items": [
+    "Follow up with the relevant team member (Толя) to confirm the registration status of i18n.allunite.com.",
+    "If closed, request a temporary opening for the client access."
+  ]
+}

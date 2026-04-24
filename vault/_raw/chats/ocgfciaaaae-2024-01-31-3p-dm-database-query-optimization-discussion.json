@@ -1,0 +1,21 @@
+{
+  "chat_id": "oCgFCIAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2024-01-31",
+    "end": "2024-01-31"
+  },
+  "message_count": 3,
+  "topic": "Database query optimization discussion",
+  "topic_slug": "database-query-optimization-discussion",
+  "tags": [
+    "analytics"
+  ],
+  "summary_markdown": "A participant initiated a request for a 5-minute call to discuss PostgreSQL search functionality, specifically questioning the utility of using materialized views.",
+  "decisions": [],
+  "action_items": [
+    "Schedule a brief call to discuss materialized view usage in Postgres."
+  ]
+}

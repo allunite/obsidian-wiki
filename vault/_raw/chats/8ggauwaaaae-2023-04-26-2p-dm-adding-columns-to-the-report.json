@@ -1,0 +1,23 @@
+{
+  "chat_id": "8GgAuwAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 2,
+  "date_range": {
+    "start": "2023-04-26",
+    "end": "2023-04-26"
+  },
+  "message_count": 5,
+  "topic": "Adding columns to the report",
+  "topic_slug": "adding-columns-to-the-report",
+  "tags": [
+    "analytics"
+  ],
+  "summary_markdown": "Someone requested that two additional columns, 'Box name' and 'Box mac', be added to an existing report. [me] confirmed this request and stated they would complete the update within 40 minutes.",
+  "decisions": [
+    "The report will include 'Box name' and 'Box mac' columns."
+  ],
+  "action_items": [
+    "[me] needs to update the report with the requested columns."
+  ]
+}

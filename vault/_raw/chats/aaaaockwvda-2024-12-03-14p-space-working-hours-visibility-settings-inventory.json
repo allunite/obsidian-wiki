@@ -1,0 +1,23 @@
+{
+  "chat_id": "AAAAOcKWvdA",
+  "kind": "Space",
+  "space_name": "Delivery Coordination",
+  "participants": 14,
+  "date_range": {
+    "start": "2024-12-03",
+    "end": "2024-12-03"
+  },
+  "message_count": 16,
+  "topic": "Working hours visibility settings for inventory",
+  "topic_slug": "working-hours-visibility-settings-inventory",
+  "tags": [
+    "analytics",
+    "inventory"
+  ],
+  "summary_markdown": "The discussion focused on the implementation and default visibility of 'working hours' settings within the Inventory module.\n\n*   **Scope:** The setting will initially be available only on Beta and Staging environments.\n*   **Pro-vanotage (Провантаж):** For this specific client/project, the working hours option must be visible but defaulted to **OFF**. \n*   **Other Clients:** For all other clients, the working hours option should not be shown at all. The setting is currently available on Staging for Pro-vanotage, and it is correctly set to default OFF.\n\nAdditionally, visibility cone calculations were confirmed as functional (max distance recalculates if width & height are present; min distance recalculates if height & height from ground & height > 3).",
+  "decisions": [
+    "Working hours setting will be visible but defaulted to OFF for Pro-vanotage on Beta/Staging.",
+    "The working hours option should not be shown for any other client."
+  ],
+  "action_items": []
+}

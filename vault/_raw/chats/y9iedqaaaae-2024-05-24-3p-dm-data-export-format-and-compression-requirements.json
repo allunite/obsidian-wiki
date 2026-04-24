@@ -1,0 +1,23 @@
+{
+  "chat_id": "y9IEDQAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2024-05-24",
+    "end": "2024-05-24"
+  },
+  "message_count": 12,
+  "topic": "Data export format and compression requirements",
+  "topic_slug": "data-export-format-and-compression-requirements",
+  "tags": [
+    "analytics"
+  ],
+  "summary_markdown": "The discussion centered on changing the data export format from JSON to Parquet, specifically addressing the required compression method. It was confirmed that exporting to Parquet is possible via ClickHouse. The primary concern raised was supporting ZSTD compression; while ClickHouse supports gzip (using Lempel-Ziv), implementing ZSTD might require an additional pipe or custom solution.",
+  "decisions": [
+    "The data export format will be considered for Parquet instead of JSON."
+  ],
+  "action_items": [
+    "Someone needs to confirm the feasibility of exporting Parquet with ZSTD compression, potentially requiring a custom pipeline setup."
+  ]
+}

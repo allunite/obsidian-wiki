@@ -1,0 +1,21 @@
+{
+  "chat_id": "7l_n6kAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 2,
+  "date_range": {
+    "start": "2023-06-12",
+    "end": "2023-06-12"
+  },
+  "message_count": 10,
+  "topic": "Removing lines from digital ad modules",
+  "topic_slug": "removing-lines-from-digital-ad-modules",
+  "tags": [
+    "analytics"
+  ],
+  "summary_markdown": "The conversation involved multiple requests to remove specific lines or data points from a module located at the Ofelia Beach pier location. The initial request was fulfilled, and a second line removal was subsequently requested and completed.",
+  "decisions": [
+    "Lines were removed from the specified digital ad modules for Ofelia Beach pier."
+  ],
+  "action_items": []
+}

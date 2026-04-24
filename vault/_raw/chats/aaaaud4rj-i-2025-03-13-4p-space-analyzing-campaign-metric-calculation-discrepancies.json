@@ -1,0 +1,27 @@
+{
+  "chat_id": "AAAAud4RJ_I",
+  "kind": "Space",
+  "space_name": "Group Chat",
+  "participants": 4,
+  "date_range": {
+    "start": "2025-03-13",
+    "end": "2025-03-13"
+  },
+  "message_count": 30,
+  "topic": "Analyzing campaign metric calculation discrepancies",
+  "topic_slug": "analyzing-campaign-metric-calculation-discrepancies",
+  "tags": [
+    "analytics",
+    "impression",
+    "frame",
+    "campaign"
+  ],
+  "summary_markdown": "The discussion focused on discrepancies in how campaign metrics, specifically impressions and traffic, are calculated for individual frames within an analytics platform. Initial concerns included why some fields showed zero values when they should have data, and inconsistencies between adjacent frames.\n\nSeveral SQL queries were shared to investigate the source data (e.g., `allunite.device_session_agg_ml_2`). The calculation logic for viewed and viewable impressions per face was reviewed, involving factors like `faceWeight` and aggregation functions (`sumIf`).\nThe core issue revolved around ensuring that metrics are correctly attributed to specific frames/spots, especially when viewing data via seeded links or different time zones. It was determined that discrepancies could be related to filtering parameters, the specific frame being analyzed, or potential differences in time zone settings (e.g., Brazilian vs. UTC).\n\nUltimately, aligning the query's logic and checking the time zone setting allowed for the numbers to match correctly.",
+  "decisions": [
+    "The calculation methodology for viewed/viewable impressions per face was reviewed using advanced SQL functions involving `faceWeight` and aggregation.",
+    "Discrepancies in campaign metrics were resolved by verifying the correct frame selection and synchronizing time zone settings (UTC vs. local)."
+  ],
+  "action_items": [
+    "Reviewing the analytics platform's logic for attributing impressions to specific frames/spots based on the shared SQL query."
+  ]
+}

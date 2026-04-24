@@ -1,0 +1,22 @@
+{
+  "chat_id": "AAQAcf74sIY",
+  "kind": "Space",
+  "space_name": "Group Chat",
+  "participants": 3,
+  "date_range": {
+    "start": "2026-03-06",
+    "end": "2026-03-06"
+  },
+  "message_count": 12,
+  "topic": "Enabling demographics for analytics beta",
+  "topic_slug": "enabling-demographics-for-analytics-beta",
+  "tags": [
+    "analytics",
+    "campaign"
+  ],
+  "summary_markdown": "The discussion focused on enabling demographic data retrieval for the 'tractor' tool within a beta environment. [p2] requested that demographics be enabled for 'tractor' on the beta platform. [me] initially stated it was enabled everywhere, but subsequent messages indicated issues or limitations with the functionality.\n\n[p1] emphasized that campaign performance is dependent on demographic data. The conversation concluded with conflicting statements regarding whether the feature was functional.",
+  "decisions": [],
+  "action_items": [
+    "Follow up on enabling demographics for 'tractor' in the beta environment."
+  ]
+}

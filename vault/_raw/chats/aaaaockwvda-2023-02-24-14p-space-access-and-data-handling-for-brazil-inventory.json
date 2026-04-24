@@ -1,0 +1,28 @@
+{
+  "chat_id": "AAAAOcKWvdA",
+  "kind": "Space",
+  "space_name": "Delivery Coordination",
+  "participants": 14,
+  "date_range": {
+    "start": "2023-02-24",
+    "end": "2023-02-24"
+  },
+  "message_count": 27,
+  "topic": "Access and data handling for Brazil inventory",
+  "topic_slug": "access-and-data-handling-for-brazil-inventory",
+  "tags": [
+    "inventory",
+    "frame",
+    "analytics",
+    "campaign"
+  ],
+  "summary_markdown": "The discussion focused on user access to inventory data for Brazil and the process of handling changes in facility frames.\n\n**Access:** The 'inventory manager' role is restricted, requiring specific assignment. It was noted that multiple Brazilian locations exist (one imported, one with physical boxes), and users need appropriate roles/access credentials to view inventory data.\n\n**Data Integrity:** Concerns were raised about changes made to facility frames, particularly when analyzing data. It was suggested that blocking frame change saving might be beneficial for analysis purposes. The process of re-importing facilities is common, especially given the mix of imported and physical box locations in Brazil. To maintain data integrity before a release, it was agreed to take initial inventory data and re-import it as a precaution.",
+  "decisions": [
+    "The 'inventory manager' role must be assigned individually to specific users or accessed via direct URL.",
+    "Initial inventory data should be taken and re-imported before the next release for safety."
+  ],
+  "action_items": [
+    "Assign necessary roles/access credentials for Brazil players ([email@clearchannel.com.br] and [email@jcdecaux.com]).",
+    "Review feasibility of blocking frame change saving during analysis periods."
+  ]
+}

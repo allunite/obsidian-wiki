@@ -1,0 +1,24 @@
+{
+  "chat_id": "0m7UOUAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2025-08-12",
+    "end": "2025-08-12"
+  },
+  "message_count": 13,
+  "topic": "Debugging and performance testing code",
+  "topic_slug": "debugging-and-performance-testing-code",
+  "tags": [
+    "analytics",
+    "recalc-ch"
+  ],
+  "summary_markdown": "The conversation focused on debugging best practices, noting that Sentry provides detailed Python error reporting. It was suggested to set `ROLLBAR_ENVIRONMENT=manual` when dealing with potential production errors. Regarding a code change, the speaker confirmed it works in simple tests but noted that performance differences (memory/speed) had not been measured. The speaker recommended having someone measure the current stage's speed on a large dataset and then compare it to the proposed version, or using a memory profiler for deeper analysis.",
+  "decisions": [
+    "Measure the speed of the current stage versus the new version on a significant data volume."
+  ],
+  "action_items": [
+    "Use a memory profiler to analyze code performance."
+  ]
+}

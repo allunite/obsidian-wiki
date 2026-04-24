@@ -1,0 +1,23 @@
+{
+  "chat_id": "y9IEDQAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2021-11-01",
+    "end": "2021-11-01"
+  },
+  "message_count": 5,
+  "topic": "Data upload process via CLI",
+  "topic_slug": "data-upload-process-via-cli",
+  "tags": [
+    "analytics"
+  ],
+  "summary_markdown": "The conversation confirms that data needs to be uploaded using a Command Line Interface (CLI). The data source is specified as being extracted from the data API, and a link to the relevant repository for jobs/data upload was shared.",
+  "decisions": [
+    "Data must be uploaded via CLI."
+  ],
+  "action_items": [
+    "Use the provided GitHub repository for data uploading jobs."
+  ]
+}

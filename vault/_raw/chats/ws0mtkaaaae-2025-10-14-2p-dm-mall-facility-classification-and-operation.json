@@ -1,0 +1,21 @@
+{
+  "chat_id": "ws0mTkAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 2,
+  "date_range": {
+    "start": "2025-10-14",
+    "end": "2025-10-14"
+  },
+  "message_count": 17,
+  "topic": "Mall facility classification and operation",
+  "topic_slug": "mall-facility-classification-and-operation",
+  "tags": [
+    "facility"
+  ],
+  "summary_markdown": "The conversation focused on the operational viability of a mall facility that contains both 'cluster' and 'underground' categories. It was confirmed (with high confidence) that if the main cluster category is designated as 'mall', the functionality should work.",
+  "decisions": [
+    "Mall facility classification with specific internal categories (cluster/underground) will function correctly."
+  ],
+  "action_items": []
+}

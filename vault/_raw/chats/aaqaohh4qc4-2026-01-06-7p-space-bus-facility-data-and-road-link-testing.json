@@ -1,0 +1,25 @@
+{
+  "chat_id": "AAQAohh4qc4",
+  "kind": "Space",
+  "space_name": "Bus Finland",
+  "participants": 7,
+  "date_range": {
+    "start": "2026-01-06",
+    "end": "2026-01-06"
+  },
+  "message_count": 5,
+  "topic": "Bus facility data and road link testing",
+  "topic_slug": "bus-facility-data-and-road-link-testing",
+  "tags": [
+    "facility",
+    "inventory",
+    "analytics"
+  ],
+  "summary_markdown": "The conversation focused on gathering and verifying data for bus facilities and testing traffic data collection.\n\nOne participant provided a Python script designed to calculate road links. This script queries `road_segment` using geographical coordinates (longitude, latitude) and a radius to identify relevant segments where public transport is 'Bus'. The results are then aggregated and saved to the `facility_segment_data` table in the database.\n\nAnother participant shared lists of `asset_id`s and `facility_id`s for various bus stops (e.g., Tampere 1 TKL through Tampere 10 TKL), noting potential duplicates or missing entries. They also provided a list of facility IDs with specific locations, including some noted as having zero coordinates.\n\nLater messages confirmed that parts of the data were fixed and questions regarding holidays were addressed.",
+  "decisions": [
+    "A script was used to calculate and store road links linking bus facilities to relevant road segments."
+  ],
+  "action_items": [
+    "Follow up on specific zones for testing data collection from Rembl for buses (initial request)."
+  ]
+}

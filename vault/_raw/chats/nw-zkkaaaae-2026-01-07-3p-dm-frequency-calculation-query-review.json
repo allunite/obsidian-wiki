@@ -1,0 +1,19 @@
+{
+  "chat_id": "nW_zkkAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2026-01-07",
+    "end": "2026-01-07"
+  },
+  "message_count": 5,
+  "topic": "Frequency calculation query review",
+  "topic_slug": "frequency-calculation-query-review",
+  "tags": [
+    "analytics"
+  ],
+  "summary_markdown": "The conversation started with a request to discuss frequency calculation. Later, a SQL script link was shared for review.",
+  "decisions": [],
+  "action_items": []
+}

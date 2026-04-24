@@ -1,0 +1,27 @@
+{
+  "chat_id": "0m7UOUAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2026-02-23",
+    "end": "2026-02-23"
+  },
+  "message_count": 14,
+  "topic": "Developing new metrics for LATAM development",
+  "topic_slug": "developing-new-metrics-for-latam-development",
+  "tags": [
+    "analytics",
+    "dwell-time",
+    "unique"
+  ],
+  "summary_markdown": "A discussion occurred regarding the evaluation of special developments and new metrics for a client in LATAM. The proposed implementation involves adding several new fields to `agg_5/ml_2`.\n\nThe required metrics are: Total Traffic (staying), Total Traffic (passing by), Dwell-time (staying), Dwell-time (passing by), Unique Traffic (staying), and Unique Traffic (passing by).\n\n**Data Structure Decisions:**\n*   The implementation requires two new fields in `ml_2`: one for `traffic_staying_share` (a proportion from 0 to 1) and another for `dwell-time staying`.\n*   Total Traffic is calculated by splitting the total traffic into 'staying' and 'passing by' shares using the `traffic_staying_share` field.\n*   Unique Traffic (staying) and Unique Traffic (passing by) are derived using a weighted average of the `traffic_staying_share` against the overall Unique Traffic calculation.\n\n**Alternative Approach:**\nThe participants initially discussed whether to use separate rows/types for metrics, but settled on adding dedicated fields within the existing data structure.",
+  "decisions": [
+    "Implement new metrics (Total Traffic, Dwell-time, Unique Traffic) by adding specific fields to `agg_5/ml_2` rather than using separate row types.",
+    "Define a new field, `traffic_staying_share`, to calculate the split of Total Traffic into 'staying' and 'passing by'.",
+    "Calculate Unique Traffic (staying) and Unique Traffic (passing by) using weighted averages based on the `traffic_staying_share`."
+  ],
+  "action_items": [
+    "Await approval before beginning work on the new metric implementation."
+  ]
+}

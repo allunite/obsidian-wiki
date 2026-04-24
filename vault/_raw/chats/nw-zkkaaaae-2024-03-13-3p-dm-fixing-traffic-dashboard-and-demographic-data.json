@@ -1,0 +1,27 @@
+{
+  "chat_id": "nW_zkkAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2024-03-13",
+    "end": "2024-03-13"
+  },
+  "message_count": 59,
+  "topic": "Fixing traffic dashboard and demographic data",
+  "topic_slug": "fixing-traffic-dashboard-and-demographic-data",
+  "tags": [
+    "analytics",
+    "dwell-time",
+    "campaign"
+  ],
+  "summary_markdown": "The conversation focused on debugging a report from the traffic dashboard, which had issues with both dwell time and cluster traffic data. A specific issue was identified regarding campaign 7897, where data for a one-day duration was missing for certain networks (Visionet LED and Airport TV), despite being available when using a week's duration.\n\nLater, the discussion shifted to demographic data issues within campaigns. It was determined that if a location lacked demographic data, other associated metrics might also fail to display. The individual responsible for the report noted that while they had temporarily disabled demographics on the beta environment, this action was reversed at the request of someone else.",
+  "decisions": [
+    "The traffic dashboard report needs fixing regarding dwell time and cluster traffic data.",
+    "A fix for the missing campaign data (Campaign 7897) will be implemented tomorrow."
+  ],
+  "action_items": [
+    "Fix the traffic dashboard report issues (dwell-time, cluster traffic).",
+    "Address the demographic data display issue in campaigns."
+  ]
+}

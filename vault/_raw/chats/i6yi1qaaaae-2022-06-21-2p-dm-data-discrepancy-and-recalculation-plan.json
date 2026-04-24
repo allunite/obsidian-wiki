@@ -1,0 +1,24 @@
+{
+  "chat_id": "i6YI1QAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 2,
+  "date_range": {
+    "start": "2022-06-21",
+    "end": "2022-06-21"
+  },
+  "message_count": 19,
+  "topic": "Data discrepancy and recalculation plan",
+  "topic_slug": "data-discrepancy-and-recalculation-plan",
+  "tags": [
+    "analytics",
+    "recalc-ch"
+  ],
+  "summary_markdown": "A data issue was identified regarding missing session data for February 28th in the `device_session_agg_ml` table. The discussion centered on whether to recalculate the entire ML production dataset for 2022 or apply a targeted fix.\n\n*   **Initial Problem:** Missing records for specific dates (e.g., Feb 28) were noted in the ML table.\n*   **Proposed Solution (p1):** Clear the entire ML production data for 2022 and recalculate all companies' data.\n*   **Concern ([me]):** Concern was raised that clearing the total dataset might change the overall totals, even if approval was given. It was suggested that a targeted fix, similar to how the Feb 28 issue was found, would be safer than a full recalculation.",
+  "decisions": [
+    "Avoid clearing and recalculating the entire ML production data for 2022."
+  ],
+  "action_items": [
+    "Implement a targeted fix for specific date discrepancies (e.g., Feb 28) rather than full dataset recalculation."
+  ]
+}

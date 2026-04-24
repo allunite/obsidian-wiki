@@ -1,0 +1,22 @@
+{
+  "chat_id": "nW_zkkAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2025-06-02",
+    "end": "2025-06-02"
+  },
+  "message_count": 9,
+  "topic": "Facility category for analytics clustering",
+  "topic_slug": "facility-category-for-analytics-clustering",
+  "tags": [
+    "facility",
+    "analytics"
+  ],
+  "summary_markdown": "The discussion addressed determining the appropriate category when a cluster contains facilities with various categories. It was established that generally, the category of the master facility should be used for clustering and analytics.\n\nSpecifically, regarding an external request (from 'fishman'), it was determined that:\n*   The analytics section should use the master facility's category.\n*   The frequency formula should also use the master facility's category.\n*   Calibration and model development can be done based on the categories of individual screens.",
+  "decisions": [
+    "Analytics, frequency formula, and cluster categorization will primarily use the master facility's assigned category."
+  ],
+  "action_items": []
+}

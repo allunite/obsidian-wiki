@@ -1,0 +1,23 @@
+{
+  "chat_id": "0VorOYAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2025-01-20",
+    "end": "2025-01-20"
+  },
+  "message_count": 7,
+  "topic": "Integrating new demographic data categories",
+  "topic_slug": "integrating-new-demographic-data-categories",
+  "tags": [
+    "analytics",
+    "campaign"
+  ],
+  "summary_markdown": "The discussion centered on integrating updated demographic data. [p1] noted that a recent update from Rembol included two new categories that need to be integrated into the current system (reference: DOOH-1615). Additionally, [p1] requested adjustments to the gender ratio demographics for one specific park location, noting that other sections, including the 'Color or Race' block provided by someone else, were accurate.",
+  "decisions": [],
+  "action_items": [
+    "Review and integrate two new demographic categories into the system (DOOH-1615)",
+    "Adjust gender ratio demographics for a specific park location"
+  ]
+}

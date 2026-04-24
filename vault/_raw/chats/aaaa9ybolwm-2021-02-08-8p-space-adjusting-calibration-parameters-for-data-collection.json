@@ -1,0 +1,29 @@
+{
+  "chat_id": "AAAA9ybOLwM",
+  "kind": "Space",
+  "space_name": "ИТ",
+  "participants": 8,
+  "date_range": {
+    "start": "2021-02-08",
+    "end": "2021-02-08"
+  },
+  "message_count": 140,
+  "topic": "Adjusting calibration parameters for data collection",
+  "topic_slug": "adjusting-calibration-parameters-for-data-collection",
+  "tags": [
+    "analytics",
+    "campaign",
+    "session",
+    "mops"
+  ],
+  "summary_markdown": "The discussion focused on optimizing data collection parameters, particularly for the Belgian market. Several adjustments were proposed and agreed upon:\n\n*   **Signal Limit:** The `signal_limit` was adjusted from 60 to 89 (as suggested for AFY).\n*   **Session Duration:** The session capture range was expanded significantly, changing from a limit of 1.5 minutes to capturing sessions from 0 up to 7200 seconds.\n*   **Data Sources/Hardware:** It was noted that some devices (e.g., BE 10) were previously installed without antennas and required new installations with antennas for proper data flow. The discussion also highlighted discrepancies between dashboard data and production data, requiring the use of `staging-mops` with the latest build from the `agg4-rollback` branch.\n*   **Calibration:** A request was made to recalculate historical data (for a week prior) using the new calibration settings, though this was advised for future dates only.\n\nTechnical discussions also covered ensuring that all sessions, including local ones, were captured and addressed issues regarding device connectivity and timing information.",
+  "decisions": [
+    "Set `signal_limit` to 89.",
+    "Adjust session capture range from 0 to 7200 seconds.",
+    "Use staging-mops with the latest build from the agg4-rollback branch for data consistency."
+  ],
+  "action_items": [
+    "Update the mops dashboard filter to accommodate a large number of facilities (e.g., Rail category).",
+    "Investigate device connectivity and internal timers for Teltonika's request, potentially requiring access to a physical unit."
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "chat_id": "AAAAOcKWvdA",
+  "kind": "Space",
+  "space_name": "Delivery Coordination",
+  "participants": 14,
+  "date_range": {
+    "start": "2024-12-12",
+    "end": "2024-12-12"
+  },
+  "message_count": 12,
+  "topic": "Advanced settings and feature visibility fixes",
+  "topic_slug": "advanced-settings-and-feature-visibility-fixes",
+  "tags": [
+    "analytics",
+    "campaign"
+  ],
+  "summary_markdown": "Two issues were discussed regarding advanced campaign settings:\n\n1. **Time selection in Brazil campaigns:** The time selection functionality within advanced settings for Brazilian campaigns is currently non-functional and requires urgent fixing for pre-year analysis.\n2. **Cycle count feature visibility:** A beta feature allowing the selection of cycle counts, which was released previously, is not visible to the client on the staging environment (beta). It was confirmed that this feature should only be available for CC accounts on the beta environment.\n\n[p5] confirmed they would enable the feature for other companies besides 'map' and instructed [p11] to refresh the page to view it.",
+  "decisions": [
+    "The time selection functionality in advanced settings for Brazilian campaigns needs urgent fixing.",
+    "The cycle count feature must be enabled on the beta environment, limited only to CC accounts."
+  ],
+  "action_items": [
+    "Fix the non-functional time selection in advanced settings for Brazil campaigns (DOOH-1546).",
+    "Enable the cycle count feature visibility for CC accounts on the beta environment."
+  ]
+}

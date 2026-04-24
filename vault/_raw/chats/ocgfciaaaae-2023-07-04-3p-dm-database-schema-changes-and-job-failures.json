@@ -1,0 +1,29 @@
+{
+  "chat_id": "oCgFCIAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2023-07-04",
+    "end": "2023-07-04"
+  },
+  "message_count": 32,
+  "topic": "Database schema changes and job failures",
+  "topic_slug": "database-schema-changes-and-job-failures",
+  "tags": [
+    "analytics",
+    "recalc-ch",
+    "campaign",
+    "inventory",
+    "session"
+  ],
+  "summary_markdown": "The conversation focused on debugging and fixing failures in data processing jobs, specifically involving recalculations (recalc) and database schema modifications.\n\n*   **Initial Failure:** A job failed due to a `DB::Exception` related to type incompatibility (`String`, `UInt8`) when executing a function. This was traced back to an issue with how the vendor ID was handled in the data pipeline.\n*   **Codec Issue:** One participant fixed a bug by reverting a change made earlier: altering the column codec for `vendor_id` from ZSTD(22) back to UInt16, which resolved the failure. The discussion noted that optimizing codecs (like for `device_id`) did not yield significant performance gains.\n*   **Job Maintenance:** A separate job (",
+  "decisions": [
+    "The codec for vendor_id was reverted from ZSTD(22) to UInt16 to fix a data processing bug.",
+    "A special job ('ml + health check + upload') was successfully run after the initial failure."
+  ],
+  "action_items": [
+    "Investigate why virtual sessions are not copying correctly into the sandbox environment.",
+    "Determine when specific session types (JCD Brazil & CC Brazil) were introduced to ensure proper data handling."
+  ]
+}

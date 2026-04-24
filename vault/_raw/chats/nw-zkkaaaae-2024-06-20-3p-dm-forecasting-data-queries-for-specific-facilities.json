@@ -1,0 +1,23 @@
+{
+  "chat_id": "nW_zkkAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2024-06-20",
+    "end": "2024-06-20"
+  },
+  "message_count": 21,
+  "topic": "Forecasting and data queries for specific facilities",
+  "topic_slug": "forecasting-data-queries-for-specific-facilities",
+  "tags": [
+    "analytics",
+    "facility",
+    "session"
+  ],
+  "summary_markdown": "The conversation covered several analytical tasks. Initially, a request was made to calculate 2024 forecasts for company 7600 using model2 with beta data.\n\nLater, multiple specific facility IDs (3471, 3407, and 3372) were discussed for potential analysis. The discussion included notes that one station (3407) was considered 'passing' and might not provide comprehensive data.\n\nFinally, [me] provided two complex SQL queries designed to analyze device session aggregates (`device_session_agg_ml_2`). These queries count sessions and sum predicted session numbers, grouping by date and version, specifically for company 7897 and facilities with IDs greater than zero. The analysis was completed later in the day.",
+  "decisions": [
+    "The initial request to calculate 2024 forecasts for company 7600 using model2/beta data was addressed."
+  ],
+  "action_items": []
+}

@@ -1,0 +1,19 @@
+{
+  "chat_id": "y9IEDQAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2024-05-02",
+    "end": "2024-05-02"
+  },
+  "message_count": 6,
+  "topic": "Discussion about AFA ideas",
+  "topic_slug": "discussion-about-afa-ideas",
+  "tags": [
+    "analytics"
+  ],
+  "summary_markdown": "The conversation briefly touched upon the status of 'AFA' (Analytics/Ad Format Analysis, implied) and brainstorming for new ideas. [me] stated that an idea was presented previously and no other ideas were available. The discussion concluded with a non-work related observation about someone's typing habits.",
+  "decisions": [],
+  "action_items": []
+}

@@ -1,0 +1,22 @@
+{
+  "chat_id": "oCgFCIAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2022-04-18",
+    "end": "2022-04-18"
+  },
+  "message_count": 24,
+  "topic": "Angular version compatibility and syntax changes",
+  "topic_slug": "angular-version-compatibility-and-syntax-changes",
+  "tags": [
+    "analytics",
+    "campaign"
+  ],
+  "summary_markdown": "The discussion focused on technical difficulties encountered when updating Angular versions, specifically moving from older versions to newer ones (e.g., 12 through 13).\n\nKey issues identified included:\n*   **Syntax Changes:** Significant syntax changes were noted in libraries like TailwindCSS and Webpack for loaders.\n*   **Component Syntax:** A specific change was observed in the typography configuration, moving from `mat-typography-config` to `mat.define-typography-config`.\n*   **Dependency Management:** The difficulty of managing incompatible changes across major library updates (e.g., Angular versions) requires a careful, step-by-step downgrade approach rather than jumping directly to the latest version.\n\nIt was determined that template components should be used as a reference for correct dependency versions.",
+  "decisions": [
+    "The team will attempt to run the template using Angular version 12 to stabilize dependencies."
+  ],
+  "action_items": []
+}

@@ -1,0 +1,24 @@
+{
+  "chat_id": "AAQAPH1pAKM",
+  "kind": "Space",
+  "space_name": "Group Chat",
+  "participants": 5,
+  "date_range": {
+    "start": "2026-03-13",
+    "end": "2026-03-13"
+  },
+  "message_count": 4,
+  "topic": "Client metric calculation for golf inventory",
+  "topic_slug": "client-metric-calculation-for-golf-inventory",
+  "tags": [
+    "analytics",
+    "campaign"
+  ],
+  "summary_markdown": "Someone requested the calculation of metrics for a client meeting scheduled for Tuesday. The initial request was vague, but [p3] clarified that the required data is specifically for 'golf' inventory and involves only one company.",
+  "decisions": [
+    "The metric calculation scope has been narrowed down to focus solely on 'golf' inventory for a single company."
+  ],
+  "action_items": [
+    "[me] will attempt to calculate the metrics by Monday noon, though feasibility was questioned."
+  ]
+}

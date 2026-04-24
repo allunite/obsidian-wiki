@@ -1,0 +1,25 @@
+{
+  "chat_id": "AAAAFPbiAdE",
+  "kind": "Space",
+  "space_name": "Group Chat",
+  "participants": 3,
+  "date_range": {
+    "start": "2024-05-08",
+    "end": "2024-05-08"
+  },
+  "message_count": 7,
+  "topic": "Mall network discrepancy in campaign reporting",
+  "topic_slug": "mall-network-discrepancy-in-campaign-reporting",
+  "tags": [
+    "analytics",
+    "inventory",
+    "facility"
+  ],
+  "summary_markdown": "A discrepancy was identified regarding the network classification for several Malls locations (e.g., PMG_ZA_Alex_Mall_3x6m_LED_screen, PMG_ZA_Mdantsane_City_Mall_3X6_LED). The issue is that while these specific inventory items are correctly included in traffic calculations on the dashboard (due to filtering by Malls master facility), they are excluded from campaign reporting within TRANSIT XL. This difference arises because the dashboard uses a master-facility filter, whereas the campaign reports filter individual frames regardless of the master facility.\n\nIt was noted that the current network classification is based on data provided by the client and has been previously accepted as correct. However, since the clients are reportedly not satisfied with the current reporting data, further discussion is required to determine the appropriate action.",
+  "decisions": [
+    "No concrete decisions were made regarding changing the network classification."
+  ],
+  "action_items": [
+    "Discuss and decide on how to resolve the discrepancy in Malls network reporting for client satisfaction."
+  ]
+}

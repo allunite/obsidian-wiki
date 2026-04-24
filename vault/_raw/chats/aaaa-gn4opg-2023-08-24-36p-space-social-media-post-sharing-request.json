@@ -1,0 +1,21 @@
+{
+  "chat_id": "AAAA-gn4oPg",
+  "kind": "Space",
+  "space_name": "General and random",
+  "participants": 36,
+  "date_range": {
+    "start": "2023-08-24",
+    "end": "2023-08-24"
+  },
+  "message_count": 7,
+  "topic": "Social media post sharing request",
+  "topic_slug": "social-media-post-sharing-request",
+  "tags": [
+    "campaign"
+  ],
+  "summary_markdown": "A participant shared a link to a LinkedIn update and requested that others like, comment, or share the post. Later, another user asked for assistance with an issue regarding a post that could not be exhibited, questioning if changes were being made.",
+  "decisions": [],
+  "action_items": [
+    "Participants are asked to like/comment/share the provided LinkedIn link."
+  ]
+}

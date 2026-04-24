@@ -1,0 +1,21 @@
+{
+  "chat_id": "y9IEDQAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2025-08-11",
+    "end": "2025-08-11"
+  },
+  "message_count": 5,
+  "topic": "Discussion about contract terms and payment schedule",
+  "topic_slug": "discussion-about-contract-terms-and-payment-schedule",
+  "tags": [
+    "campaign"
+  ],
+  "summary_markdown": "The conversation focused on a professional agreement or contract. [me] received a document link from someone (Дикша) to fill out personal details, but there has been no follow-up action. Regarding the service period, [me] inquired about starting dates of 01.26 through 12.26. The other party stated that the entire deal must fit within 12 months, suggesting an alternative schedule of 01.26–08.26 with a larger payment amount.",
+  "decisions": [
+    "The service period must be contained within a 12-month window."
+  ],
+  "action_items": []
+}

@@ -1,0 +1,19 @@
+{
+  "chat_id": "nW_zkkAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2026-01-05",
+    "end": "2026-01-05"
+  },
+  "message_count": 12,
+  "topic": "Sharing a new aggregation script",
+  "topic_slug": "sharing-new-aggregation-script",
+  "tags": [
+    "analytics"
+  ],
+  "summary_markdown": "The conversation started with scheduling difficulties. Later, [p1] shared a link to a new aggregation script that was reported to be working.",
+  "decisions": [],
+  "action_items": []
+}

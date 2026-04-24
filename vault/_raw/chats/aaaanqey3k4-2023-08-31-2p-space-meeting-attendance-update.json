@@ -1,0 +1,17 @@
+{
+  "chat_id": "AAAANqEY3K4",
+  "kind": "Space",
+  "space_name": "Group Chat",
+  "participants": 2,
+  "date_range": {
+    "start": "2023-08-31",
+    "end": "2023-08-31"
+  },
+  "message_count": 4,
+  "topic": "Meeting attendance update",
+  "topic_slug": "meeting-attendance-update",
+  "tags": [],
+  "summary_markdown": "The participant updated the group regarding their arrival time for a meeting, initially stating they might be 10 minutes late. They later confirmed that they arrived successfully.",
+  "decisions": [],
+  "action_items": []
+}

@@ -1,0 +1,24 @@
+{
+  "chat_id": "uJ8JA8AAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2025-08-12",
+    "end": "2025-08-12"
+  },
+  "message_count": 10,
+  "topic": "Adjusting dwell time calculation for client",
+  "topic_slug": "adjusting-dwell-time-calculation-for-client",
+  "tags": [
+    "dwell-time",
+    "analytics"
+  ],
+  "summary_markdown": "The discussion covered a client's request regarding the formula used to calculate reach and how to incorporate this into existing systems. [me] provided a SQL link containing the necessary calculation formula for potential client integration. Regarding new reach, it was noted that the initial test version was expected today, with full implementation potentially taking up to a week.\n\nSeparately, [p1] requested that the dwell time metric be switched to the newly calculated version on the beta environment. [me] confirmed this change was completed and provided notes regarding cache clearing (a five-minute window) for proper data reflection.",
+  "decisions": [
+    "Dwell time calculation on the beta environment will use the new formula."
+  ],
+  "action_items": [
+    "Monitor the implementation of the new reach calculation, expected to be rolled out within a week."
+  ]
+}

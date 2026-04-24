@@ -1,0 +1,25 @@
+{
+  "chat_id": "oq-w0kAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2024-11-28",
+    "end": "2024-11-28"
+  },
+  "message_count": 12,
+  "topic": "Filtering options for campaigns and inventory",
+  "topic_slug": "filtering-options-for-campaigns-and-inventory",
+  "tags": [
+    "analytics",
+    "campaign",
+    "inventory"
+  ],
+  "summary_markdown": "The conversation addressed the compatibility of different filtering parameters. It was confirmed that for both Inventory/IWH (In-Window Hours) and campaign targeting, these filters are not mutually exclusive. Specifically:\n\n*   **Inventory:** IWH can be combined with time-based filters.\n*   **Campaigns:** The API endpoint `/api/campaigns/target/total-traffic` allows for simultaneous use of IWH and explicit hour assignments.\n\nThe discussion concluded with a technical update: a version including IWH functionality was pushed. This feature is enabled for the Sandbox environment (for Mapa) and the Staging environment (for Provantage). It was noted that this feature should be implemented using an explicit toggle switch, as requested by someone.",
+  "decisions": [
+    "IWH and time-based filters are not mutually exclusive for inventory and campaigns."
+  ],
+  "action_items": [
+    "Implement IWH functionality using a clear toggle switch in the UI/UX."
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "chat_id": "6ize28AAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2025-05-05",
+    "end": "2025-05-05"
+  },
+  "message_count": 11,
+  "topic": "Dwell-time logic and data availability",
+  "topic_slug": "dwell-time-logic-data-availability",
+  "tags": [
+    "dwell-time",
+    "analytics"
+  ],
+  "summary_markdown": "A discussion occurred regarding the new dwell-time logic. It was confirmed that this feature is active on the stage environment for all users. The specific SQL script used for aggregation was provided, and it was noted that data should be pulled using the date of April 28th.",
+  "decisions": [
+    "The new dwell-time logic is operational on the staging environment."
+  ],
+  "action_items": [
+    "Someone needs to review the aggregation script located at https://github.com/allunite/data-science/blob/template_scripts/ml_to_stage_aggregation.sql",
+    "Data retrieval for this analysis should use April 28th data."
+  ]
+}

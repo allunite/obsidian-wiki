@@ -1,0 +1,24 @@
+{
+  "chat_id": "0VorOYAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2022-05-09",
+    "end": "2022-05-09"
+  },
+  "message_count": 9,
+  "topic": "Troubleshooting sensor data retrieval issues",
+  "topic_slug": "troubleshooting-sensor-data-retrieval-issues",
+  "tags": [
+    "analytics",
+    "facility"
+  ],
+  "summary_markdown": "A discussion occurred regarding difficulties retrieving data from a specific sensor location (Caf Kafeteria). The user reported that the sensor was failing to pull data via query and caused dashboard freezing when selected, while other locations functioned correctly. It was determined that there is currently no data available for this particular sensor since its installation date. Someone offered to investigate the analytics reaction to this lack of data.",
+  "decisions": [
+    "The specific sensor location (Caf Kafeteria) has insufficient historical data."
+  ],
+  "action_items": [
+    "Someone will investigate how the analytics platform handles a complete lack of data for this sensor."
+  ]
+}

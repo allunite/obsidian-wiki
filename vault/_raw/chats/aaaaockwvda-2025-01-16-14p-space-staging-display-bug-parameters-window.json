@@ -1,0 +1,21 @@
+{
+  "chat_id": "AAAAOcKWvdA",
+  "kind": "Space",
+  "space_name": "Delivery Coordination",
+  "participants": 14,
+  "date_range": {
+    "start": "2025-01-16",
+    "end": "2025-01-16"
+  },
+  "message_count": 15,
+  "topic": "Staging display bug in parameters window",
+  "topic_slug": "staging-display-bug-parameters-window",
+  "tags": [
+    "analytics"
+  ],
+  "summary_markdown": "A technical issue was reported regarding the display of parameters on staging. Specifically, when opening the parameters window, the view shifts, causing the 'apply' button to fall outside the visible area unless the user scrolls significantly. The problem was noted to occur in Chrome and seemed related to demographic data display. Testing with different users and regions (e.g., Brazil) did not consistently replicate the issue for all participants, but it appeared linked to the specific demographic section on staging.",
+  "decisions": [
+    "The bug appears localized to the parameters window's layout when viewing certain demographics on staging."
+  ],
+  "action_items": []
+}

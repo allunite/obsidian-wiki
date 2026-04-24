@@ -1,0 +1,24 @@
+{
+  "chat_id": "y9IEDQAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2025-04-11",
+    "end": "2025-04-11"
+  },
+  "message_count": 23,
+  "topic": "Prioritizing content and next steps",
+  "topic_slug": "prioritizing-content-and-next-steps",
+  "tags": [
+    "analytics",
+    "campaign"
+  ],
+  "summary_markdown": "The discussion focused on prioritizing new material found by [p1]. It was agreed that the initial focus should be on reviewing the documents previously shared by [p1], with additional content to follow later. The conversation also briefly addressed a forgotten task regarding JCD UK, which someone mentioned would handle.\n\n[p1] emphasized the need to prioritize this new material due to external pressure (mentioning 'Эсбен').",
+  "decisions": [
+    "The immediate focus for work should be on reviewing the documents previously shared by [p1]."
+  ],
+  "action_items": [
+    "Review and utilize the initial set of documents provided by [p1]."
+  ]
+}

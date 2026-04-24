@@ -1,0 +1,19 @@
+{
+  "chat_id": "xdx5dQAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 2,
+  "date_range": {
+    "start": "2021-03-22",
+    "end": "2021-03-22"
+  },
+  "message_count": 3,
+  "topic": "Impression calculation adjustment",
+  "topic_slug": "impression-calculation-adjustment",
+  "tags": [
+    "impression"
+  ],
+  "summary_markdown": "A discussion regarding the calculation of impressions. It was noted that a new impression count is not required. Instead, it was suggested to potentially multiply the current impression count by six.",
+  "decisions": [],
+  "action_items": []
+}

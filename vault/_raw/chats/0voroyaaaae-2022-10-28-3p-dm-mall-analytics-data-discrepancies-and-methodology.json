@@ -1,0 +1,28 @@
+{
+  "chat_id": "0VorOYAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2022-10-28",
+    "end": "2022-10-28"
+  },
+  "message_count": 33,
+  "topic": "Mall analytics data discrepancies and methodology",
+  "topic_slug": "mall-analytics-data-discrepancies-and-methodology",
+  "tags": [
+    "analytics",
+    "facility",
+    "impression",
+    "session",
+    "unique"
+  ],
+  "summary_markdown": "The conversation focused on discrepancies found in the Mall dashboard analytics for UK, specifically regarding the ratio between total traffic and unique visitors. It was determined that historical data prior to October 20th had been recalculated without a unique sample.\n\n**Methodology Review:**\n*   **Total Session Traffic:** Calculated by merging sessions from different sensors on one device if the time gap is less than two hours.\n*   **Unique Devices:** Counts the total number of unique devices seen across all mall sensors.\n*   **Comparison to Footfall:** The method differs from manual footfall counts because automated systems may count a single device passing through multiple times in a day, while manual counts might only record it once. \n\n**Technical Updates:**\n*   The SQL script used to transfer ML data to the staging environment was confirmed to have changed several months ago, and an older version was still being utilized.\n*   A new feature for switching between Stage and Production environments on the Mall Analytics dashboard is planned but not yet published.",
+  "decisions": [
+    "The discrepancy in UK mall analytics history (pre-Oct 20) was attributed to a recalculation error regarding unique samples."
+  ],
+  "action_items": [
+    "A new feature allowing switching between Stage and Production environments on the Mall Analytics dashboard needs to be deployed to staging.",
+    "The team agreed to review and sign off on client data in person on Monday, making immediate action unnecessary."
+  ]
+}

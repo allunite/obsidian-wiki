@@ -1,0 +1,24 @@
+{
+  "chat_id": "xdx5dQAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 2,
+  "date_range": {
+    "start": "2021-02-24",
+    "end": "2021-02-24"
+  },
+  "message_count": 6,
+  "topic": "S3 access issue for AFA JSON upload",
+  "topic_slug": "s3-access-issue-for-afa-json-upload",
+  "tags": [
+    "analytics",
+    "inventory"
+  ],
+  "summary_markdown": "The primary topic was the inability to upload a JSON file for AFA (presumably an analytics function) to the specified S3 bucket location (`s3://jcd-dev-datacorp-partners/`). Multiple attempts failed due to 'access denied' errors. The conversation noted that previous email threads provided vague details regarding access, only mentioning an AWS account ARN. It was stated that the files were generated and ready for upload to a specific path: `s3://jcd-dev-datacorp-partners/allunite_test/dk/data/2021/02/`. The issue remains unresolved.",
+  "decisions": [
+    "None"
+  ],
+  "action_items": [
+    "Someone needs to confirm or provide correct credentials/access rights for the S3 bucket."
+  ]
+}

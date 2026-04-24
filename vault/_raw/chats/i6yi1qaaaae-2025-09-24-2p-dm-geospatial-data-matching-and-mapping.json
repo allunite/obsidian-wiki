@@ -1,0 +1,26 @@
+{
+  "chat_id": "i6YI1QAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 2,
+  "date_range": {
+    "start": "2025-09-24",
+    "end": "2025-09-24"
+  },
+  "message_count": 19,
+  "topic": "Geospatial data matching and mapping",
+  "topic_slug": "geospatial-data-matching-and-mapping",
+  "tags": [
+    "analytics",
+    "inventory"
+  ],
+  "summary_markdown": "The discussion focused on technical challenges related to geospatial data, specifically how to map or match administrative shape IDs (city districts) with standard geographical identifiers. The initial attempt using a public source for country boundaries was deemed insufficient.\n\nIt was discussed that the required `admin_shape_id` is a proprietary hash used as a primary key in geometry tables. Alternatives suggested included obtaining mapping data directly from the city/district provider or via an API, provided licensing permits.\n\nThe consensus leaned toward providing a separate mapping table containing district data to ensure accurate matching, rather than relying solely on name-based matching or simple center points.",
+  "decisions": [
+    "The team will investigate obtaining proprietary `admin_shape_id`s for city districts.",
+    "A dedicated mapping table with district data is recommended to improve accuracy."
+  ],
+  "action_items": [
+    "Someone needs to check the source provider (Louis) regarding accessing the necessary geospatial data/mapping IDs.",
+    "Review and correct any mismatched data points found in previous matching attempts."
+  ]
+}

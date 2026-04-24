@@ -1,0 +1,22 @@
+{
+  "chat_id": "0m7UOUAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2024-12-10",
+    "end": "2024-12-10"
+  },
+  "message_count": 6,
+  "topic": "Data requirements for location analysis",
+  "topic_slug": "data-requirements-for-location-analysis",
+  "tags": [
+    "analytics",
+    "impression"
+  ],
+  "summary_markdown": "The discussion focused on data fields needed from a large dataset (estimated 1000 files per day, originating from Japan). Initially, the required fields were identified as `maid`, `latitude`, `longitude`, and `timestamp`. It was noted that geohash with 8 characters provides sufficient accuracy for selecting points within a circle (19x19 meters square). However, someone advised retaining the `accuracy` field for potential future experimentation.",
+  "decisions": [
+    "The core data fields required are maid, latitude, longitude, and timestamp."
+  ],
+  "action_items": []
+}

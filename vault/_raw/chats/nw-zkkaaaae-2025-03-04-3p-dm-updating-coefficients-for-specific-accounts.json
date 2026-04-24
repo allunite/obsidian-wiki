@@ -1,0 +1,25 @@
+{
+  "chat_id": "nW_zkkAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2025-03-04",
+    "end": "2025-03-04"
+  },
+  "message_count": 27,
+  "topic": "Updating coefficients for specific accounts",
+  "topic_slug": "updating-coefficients-for-specific-accounts",
+  "tags": [
+    "analytics",
+    "campaign"
+  ],
+  "summary_markdown": "The conversation covered multiple technical tasks and troubleshooting steps. Initially, a request was made to update the calibration coefficient (78) for company 7961 on both production and staging environments.\n\nLater discussions focused on generating reports for campaigns that were not saved. It was determined that a campaign must be saved first before downloading the report, as there is no alternative method.\n\nFinally, a request was made to update coefficients again for ",
+  "decisions": [
+    "Update calibration coefficient (78) for company 7961 on production and staging.",
+    "A campaign must be saved before generating the report."
+  ],
+  "action_items": [
+    "Update coefficient for 'ocean' (or similar client) on both production and staging environments."
+  ]
+}

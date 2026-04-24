@@ -1,0 +1,21 @@
+{
+  "chat_id": "ws0mTkAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 2,
+  "date_range": {
+    "start": "2023-12-06",
+    "end": "2023-12-06"
+  },
+  "message_count": 28,
+  "topic": "Reviewing reach data and follow-up",
+  "topic_slug": "reviewing-reach-data-and-follow-up",
+  "tags": [
+    "analytics"
+  ],
+  "summary_markdown": "The conversation began with a technical review of 'Reach' data displayed via a specific link. The participants struggled to view the correct visualization, requiring testing across different browsers (Chrome and Safari) and using incognito mode/clearing cache.\n\nLater in the session, [p1] mentioned having an update or additional information for [me].",
+  "decisions": [
+    "The reach data display issue required cross-browser testing."
+  ],
+  "action_items": []
+}

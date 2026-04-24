@@ -1,0 +1,23 @@
+{
+  "chat_id": "AAAAugwcjos",
+  "kind": "Space",
+  "space_name": "Group Chat",
+  "participants": 3,
+  "date_range": {
+    "start": "2021-06-03",
+    "end": "2021-06-03"
+  },
+  "message_count": 5,
+  "topic": "Data review status and next steps",
+  "topic_slug": "data-review-status-and-next-steps",
+  "tags": [
+    "analytics"
+  ],
+  "summary_markdown": "A data check was performed for Lithuania (as of May 31st). Initial checks confirmed no visible data duplication or obvious problems. Further investigation into vendors and anomalies is pending, but nothing explicit has been found yet.\n\nThe discussion concluded with a decision to postpone the detailed review of the 'city' category until the next day.",
+  "decisions": [
+    "The analysis for the city category will be postponed until tomorrow."
+  ],
+  "action_items": [
+    "Someone will continue checking vendors and anomalies related to the data."
+  ]
+}

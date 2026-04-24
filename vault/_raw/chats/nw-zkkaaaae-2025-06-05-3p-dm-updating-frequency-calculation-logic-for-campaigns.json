@@ -1,0 +1,25 @@
+{
+  "chat_id": "nW_zkkAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2025-06-05",
+    "end": "2025-06-05"
+  },
+  "message_count": 19,
+  "topic": "Updating frequency calculation logic for campaigns",
+  "topic_slug": "updating-frequency-calculation-logic-for-campaigns",
+  "tags": [
+    "analytics",
+    "campaign"
+  ],
+  "summary_markdown": "The conversation focused on technical updates to the frequency calculation. Someone noted that the default frequency in campaign formulas would now match the traffic dashboard for all users not explicitly defined otherwise (referencing `get_frequency.sql`). It was decided that certain lines of code (L84-L89) could be removed because they duplicate existing dashboard logic.\n\nLater, a meeting was scheduled for the following day to discuss an urgent task related to mirroring.",
+  "decisions": [
+    "Remove redundant SQL lines (L84-L89) from `get_frequency.sql` as they match dashboard logic."
+  ],
+  "action_items": [
+    "Review and implement the changes to the frequency calculation logic on production (Citrus).",
+    "Prepare for an urgent task regarding mirroring scheduled for the next day, around 11:00 AM."
+  ]
+}

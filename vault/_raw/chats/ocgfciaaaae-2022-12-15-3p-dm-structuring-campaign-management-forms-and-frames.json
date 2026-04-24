@@ -1,0 +1,29 @@
+{
+  "chat_id": "oCgFCIAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2022-12-15",
+    "end": "2022-12-15"
+  },
+  "message_count": 64,
+  "topic": "Structuring campaign management forms and frames",
+  "topic_slug": "structuring-campaign-management-forms-and-frames",
+  "tags": [
+    "facility",
+    "frame",
+    "inventory",
+    "analytics",
+    "campaign"
+  ],
+  "summary_markdown": "The discussion focused on restructuring the campaign management interface, particularly how to handle multiple frames and associated components. It was decided that the system should be designed around an array of frames, allowing the UI to iterate through them and render a form for each specific frame.\n\nKey components identified for each frame include: map data, traffic segments, classification images, presentation images, vacant spots (vac), comments, and visual images. The ability to link these components within a single frame was highlighted as crucial.\n\nRegarding technical implementation, the frames were pushed into the `facility` area of the database/system structure, stored separately from asset data to prevent bloating the main asset data table. This approach was deemed preferable over complex relational structures involving linked tables.",
+  "decisions": [
+    "The campaign management UI will be structured using an array of frames (or similar iteration logic) rather than a single form or tab system.",
+    "Frames and their associated components are to be stored in the `facility.frames` JSONB structure, separate from asset data."
+  ],
+  "action_items": [
+    "The speaker will continue adding map and other necessary components/logic for the campaign management section.",
+    "Further consultation with 'Nastia' is needed regarding potential future requirements for multiple assets per location."
+  ]
+}

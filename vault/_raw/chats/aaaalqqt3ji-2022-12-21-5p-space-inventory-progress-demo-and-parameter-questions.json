@@ -1,0 +1,24 @@
+{
+  "chat_id": "AAAAlqqt3JI",
+  "kind": "Space",
+  "space_name": "Brazil development",
+  "participants": 5,
+  "date_range": {
+    "start": "2022-12-21",
+    "end": "2022-12-21"
+  },
+  "message_count": 5,
+  "topic": "Inventory progress demo and parameter questions",
+  "topic_slug": "inventory-progress-demo-and-parameter-questions",
+  "tags": [
+    "inventory",
+    "analytics"
+  ],
+  "summary_markdown": "A meeting was scheduled for January 10th to demonstrate inventory progress and clarify outstanding questions. One key discussion point involved new parameters detailed in a provided document, which are necessary for data import but currently lack corresponding information from JCD and CC. Sergio is expected to provide clarification on this specific part.",
+  "decisions": [
+    "A demo regarding inventory progress was scheduled for January 10th."
+  ],
+  "action_items": [
+    "Sergio needs to clarify the use of new parameters detailed in the provided document."
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "chat_id": "oq-w0kAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2025-05-02",
+    "end": "2025-05-02"
+  },
+  "message_count": 22,
+  "topic": "Dashboard development status and next steps",
+  "topic_slug": "dashboard-development-status-and-next-steps",
+  "tags": [
+    "analytics",
+    "campaign",
+    "inventory"
+  ],
+  "summary_markdown": "The conversation covered several technical points regarding dashboard development. [p1] mentioned hardcoding parameters to rebuild the traffic page when 'Filter the Traffic Dashboard' is clicked, though [me] disagreed that changes were necessary.\n\n[me] requested a scrollbar for an element that was missing/disappearing. Later, [me] provided examples of questions suitable for testing bot assistant formatting (e.g., \"explain how the dashboard numbers are calculated\" and \"how many people visited bars and restaurants in San Paolo last summer?\").\n\n[p1] confirmed implementing filters based on [me]'s example. Finally, [p1] advised against making any changes today, as all current work is only for demonstration purposes, especially since a designer was expected to write video content.",
+  "decisions": [
+    "No changes are to be made to the dashboard today, as the current implementation is for demo purposes only."
+  ],
+  "action_items": [
+    "Wait for someone (Tolya) to change the URL for 'ch' (mentioned in chat history)."
+  ]
+}

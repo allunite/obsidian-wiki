@@ -1,0 +1,25 @@
+{
+  "chat_id": "y9IEDQAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2026-02-26",
+    "end": "2026-02-26"
+  },
+  "message_count": 13,
+  "topic": "Fixing report with missing frame IDs",
+  "topic_slug": "fixing-report-with-missing-frame-ids",
+  "tags": [
+    "analytics",
+    "frame"
+  ],
+  "summary_markdown": "The conversation focused on a technical issue regarding a report that was incorrectly returning empty `frameId` values. Someone acknowledged the need to fix this specific report and confirmed they would work on it immediately. The discussion briefly touched upon general development challenges, including API documentation from Japanese sources and personal prioritization issues.",
+  "decisions": [
+    "The user will work on fixing the report that returns empty frame IDs."
+  ],
+  "action_items": [
+    "[me] will fix the report today.",
+    "Someone (p1) will respond to the Japanese contacts, stating they will write about it tomorrow."
+  ]
+}

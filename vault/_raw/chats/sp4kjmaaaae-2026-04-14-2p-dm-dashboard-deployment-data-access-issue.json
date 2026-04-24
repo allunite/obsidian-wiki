@@ -1,0 +1,22 @@
+{
+  "chat_id": "sP4KJMAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 2,
+  "date_range": {
+    "start": "2026-04-14",
+    "end": "2026-04-14"
+  },
+  "message_count": 16,
+  "topic": "Dashboard deployment and data access issue",
+  "topic_slug": "dashboard-deployment-data-access-issue",
+  "tags": [
+    "analytics",
+    "campaign"
+  ],
+  "summary_markdown": "A data dashboard was experiencing zero values for a specific client in the production environment. The issue was traced to an incomplete deployment of new demography features.\n\n[me] suggested two options: deploying the update to production or rolling back the changes to maintain functionality without demography data.\n\n[p1] confirmed that the updates needed to be deployed to production for Media Owners (MOs) to view the correct data. [me] subsequently deployed the fix, which resolved the issue and allowed [p1] to confirm successful access.",
+  "decisions": [
+    "The new demography dashboard update was deployed to the production environment."
+  ],
+  "action_items": []
+}

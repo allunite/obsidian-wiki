@@ -1,0 +1,25 @@
+{
+  "chat_id": "y9IEDQAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2025-11-25",
+    "end": "2025-11-25"
+  },
+  "message_count": 34,
+  "topic": "Reviewing login data and system architecture",
+  "topic_slug": "reviewing-login-data-and-system-architecture",
+  "tags": [
+    "analytics",
+    "inventory",
+    "campaign"
+  ],
+  "summary_markdown": "The discussion focused on two main areas: the handling of financial invoices and the technical infrastructure for tracking user logins. Regarding finance, someone advised keeping records of all negative invoices due to potential issues with a 'financial dream team'. On the technical side, [p1] proposed migrating data from an existing PostgreSQL database (located in Brazil) into ClickHouse, suggesting redesigning the captive portal to work directly with ClickHouse. Concerns were raised about potential latency from Brazil and the reliability of using ClickHouse for transactional data like logins.\n\n[me] advised against relying on ClickHouse for critical, non-transactional event storage due to its nature. Instead, [me] suggested maintaining a robust PostgreSQL database for key events if the latency was acceptable. The current setup involves the captive portal running in ECS and using RDS Postgres in Brazil. The conversation concluded with [p1] finding records with empty `client_id` in the PostgreSQL database.",
+  "decisions": [
+    "No concrete decisions were made regarding system architecture or data migration."
+  ],
+  "action_items": [
+    "Further discussion is needed to determine the best approach for captive portal data storage and event logging."
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "chat_id": "8GgAuwAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 2,
+  "date_range": {
+    "start": "2022-10-05",
+    "end": "2022-10-05"
+  },
+  "message_count": 7,
+  "topic": "Modifying a specific box in Modse",
+  "topic_slug": "modifying-box-in-modse",
+  "tags": [
+    "analytics"
+  ],
+  "summary_markdown": "Someone requested that a specific 'box' be written into the modse 001E424ED724. [me] confirmed completion of this task.",
+  "decisions": [
+    "The box was successfully written/updated in modse 001E424ED724."
+  ],
+  "action_items": []
+}

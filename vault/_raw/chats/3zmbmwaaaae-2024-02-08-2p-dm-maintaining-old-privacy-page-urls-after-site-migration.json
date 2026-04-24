@@ -1,0 +1,23 @@
+{
+  "chat_id": "3ZMBmwAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 2,
+  "date_range": {
+    "start": "2024-02-08",
+    "end": "2024-02-08"
+  },
+  "message_count": 16,
+  "topic": "Maintaining old privacy page URLs after site migration",
+  "topic_slug": "maintaining-old-privacy-page-urls-after-site-migration",
+  "tags": [
+    "analytics"
+  ],
+  "summary_markdown": "The discussion centered on the technical challenge of migrating existing privacy pages from an old website to a new one while ensuring that the original URLs remain functional. This is critical because QR codes are printed with specific, fixed URLs tied to these pages. The goal is to maintain the appearance and functionality of the previous pages without changing their associated URLs.",
+  "decisions": [
+    "The issue requires adjustments in site routing/architecture."
+  ],
+  "action_items": [
+    "Someone will investigate implementing a solution within the site's routing system."
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "chat_id": "0VorOYAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2024-08-26",
+    "end": "2024-08-26"
+  },
+  "message_count": 3,
+  "topic": "Scheduling report review on staging",
+  "topic_slug": "scheduling-report-review-on-staging",
+  "tags": [
+    "analytics"
+  ],
+  "summary_markdown": "Someone requested a demonstration of a new report by Serhiy on the staging environment, at the request of Galina. [p1] confirmed they could show it but stated that today would not be possible unless it was urgent.",
+  "decisions": [],
+  "action_items": [
+    "Schedule report review for a later date"
+  ]
+}

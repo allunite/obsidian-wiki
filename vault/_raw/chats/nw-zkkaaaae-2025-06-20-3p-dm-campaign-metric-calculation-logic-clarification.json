@@ -1,0 +1,22 @@
+{
+  "chat_id": "nW_zkkAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2025-06-20",
+    "end": "2025-06-20"
+  },
+  "message_count": 18,
+  "topic": "Campaign metric calculation logic clarification",
+  "topic_slug": "campaign-metric-calculation-logic-clarification",
+  "tags": [
+    "analytics",
+    "campaign"
+  ],
+  "summary_markdown": "The discussion focused on clarifying the technical logic for calculating campaign metrics, specifically addressing discrepancies between reported data and expected values. A specific code snippet was reviewed to determine how 'reach' is calculated relative to other metrics like 'viewed_impressions_per_face'. The established rule is that if the frequency of a campaign metric is less than 1, the system should display `viewed_impressions_per_face` instead of `reach`.",
+  "decisions": [
+    "If campaign frequency is less than 1, viewed_impressions_per_face will be used instead of reach for calculation."
+  ],
+  "action_items": []
+}

@@ -1,0 +1,19 @@
+{
+  "chat_id": "AAAAy7Yj6Xo",
+  "kind": "Space",
+  "space_name": "IT",
+  "participants": 12,
+  "date_range": {
+    "start": "2021-10-04",
+    "end": "2021-10-04"
+  },
+  "message_count": 6,
+  "topic": "Social media platform outages reported",
+  "topic_slug": "social-media-platform-outages-reported",
+  "tags": [
+    "analytics"
+  ],
+  "summary_markdown": "A participant reported that several major social media platforms, including Facebook, Instagram, and WhatsApp, were experiencing downtime. This was corroborated by another participant who noted the extended duration of the outages.",
+  "decisions": [],
+  "action_items": []
+}

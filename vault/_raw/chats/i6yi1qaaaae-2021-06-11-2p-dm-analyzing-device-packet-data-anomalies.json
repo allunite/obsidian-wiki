@@ -1,0 +1,25 @@
+{
+  "chat_id": "i6YI1QAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 2,
+  "date_range": {
+    "start": "2021-06-11",
+    "end": "2021-06-11"
+  },
+  "message_count": 25,
+  "topic": "Analyzing device packet data anomalies",
+  "topic_slug": "analyzing-device-packet-data-anomalies",
+  "tags": [
+    "analytics",
+    "inventory"
+  ],
+  "summary_markdown": "The conversation focused on investigating unexplained behavior in data. Initial checks confirmed that the absolute number of sessions matched expected trends, though a suspicious pattern was noted. The user ran processing packets from April 1st to the previous day and reported that the process is currently running but its duration is uncertain. A specific SQL query was executed against `device_packet` records for two MAC addresses (001e422a1be2, 001e422dd839) within a specified date range, which revealed a noticeable spike in packet counts.",
+  "decisions": [
+    "A detailed analysis of device packets was performed using SQL."
+  ],
+  "action_items": [
+    "The user will continue monitoring the long-running packet processing job.",
+    "Investigate if the routers associated with the MAC addresses had firmware changes."
+  ]
+}

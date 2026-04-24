@@ -1,0 +1,27 @@
+{
+  "chat_id": "AAAA3oghITo",
+  "kind": "Space",
+  "space_name": "Кабаны",
+  "participants": 4,
+  "date_range": {
+    "start": "2022-01-10",
+    "end": "2022-01-10"
+  },
+  "message_count": 26,
+  "topic": "Analytics upgrade and deployment plan",
+  "topic_slug": "analytics-upgrade-and-deployment-plan",
+  "tags": [
+    "campaign",
+    "inventory",
+    "analytics",
+    "loop"
+  ],
+  "summary_markdown": "The discussion focused on the technical steps and readiness for an analytics system upgrade. It was confirmed that testing of KPI-lambda methods using `test.js` passed successfully via API gateway calls, indicating no immediate changes are required.\n\nRegarding deployment, it was decided that instead of re-running the entire cluster creation process, the plan is to remove problematic tables and update the core software (CH) directly on production after testing on staging. The necessary steps include deploying analytics to staging using ClickHouse Dev and performing smoke tests across all components.",
+  "decisions": [
+    "The upgrade will proceed by removing specific failing tables and updating the CH software directly on production, bypassing a full cluster recreation process."
+  ],
+  "action_items": [
+    "Deploy analytics to staging using ClickHouse Dev.",
+    "Perform smoke tests across all components of the upgraded system."
+  ]
+}

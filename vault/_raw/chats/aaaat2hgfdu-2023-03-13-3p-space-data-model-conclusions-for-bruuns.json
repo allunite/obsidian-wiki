@@ -1,0 +1,21 @@
+{
+  "chat_id": "AAAAt2hGfdU",
+  "kind": "Space",
+  "space_name": "Group Chat",
+  "participants": 3,
+  "date_range": {
+    "start": "2023-03-13",
+    "end": "2023-03-13"
+  },
+  "message_count": 3,
+  "topic": "Data model conclusions for Bruuns",
+  "topic_slug": "data-model-conclusions-for-bruuns",
+  "tags": [
+    "analytics"
+  ],
+  "summary_markdown": "Review of current data models for Bruuns revealed several key findings:\n*   The Denmark traffic model significantly underestimates actual traffic (MAPE = 42%).\n*   The UK traffic model slightly overestimates actual traffic (MAPE = 13%).\n*   The total count of Mall traffic with a 15-minute gap was deemed unusual and not useful for analysis.",
+  "decisions": [],
+  "action_items": [
+    "Discuss findings and make decisions regarding the data models in the morning."
+  ]
+}

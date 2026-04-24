@@ -1,0 +1,19 @@
+{
+  "chat_id": "AAAA3oghITo",
+  "kind": "Space",
+  "space_name": "Кабаны",
+  "participants": 4,
+  "date_range": {
+    "start": "2025-08-01",
+    "end": "2025-08-01"
+  },
+  "message_count": 4,
+  "topic": "Review of online video content",
+  "topic_slug": "review-of-online-video-content",
+  "tags": [
+    "analytics"
+  ],
+  "summary_markdown": "The conversation involved sharing and reviewing various external video links (YouTube, Facebook Reel). The discussion focused on the novelty or recurrence of certain visual effects, such as glasses/mustaches.",
+  "decisions": [],
+  "action_items": []
+}

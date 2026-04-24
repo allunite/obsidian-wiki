@@ -1,0 +1,22 @@
+{
+  "chat_id": "i6YI1QAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 2,
+  "date_range": {
+    "start": "2022-08-08",
+    "end": "2022-08-08"
+  },
+  "message_count": 6,
+  "topic": "Reviewing device movement route query",
+  "topic_slug": "reviewing-device-movement-route-query",
+  "tags": [
+    "analytics",
+    "facility"
+  ],
+  "summary_markdown": "The session involved sharing a complex SQL query designed to analyze mall routes. The query calculates facility visited names, counts devices, and determines the average dwell time in minutes for specific device sessions within defined company and facility parameters.",
+  "decisions": [],
+  "action_items": [
+    "None"
+  ]
+}

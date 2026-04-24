@@ -1,0 +1,19 @@
+{
+  "chat_id": "xdx5dQAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 2,
+  "date_range": {
+    "start": "2022-04-22",
+    "end": "2022-04-22"
+  },
+  "message_count": 6,
+  "topic": "Hashing salt change frequency",
+  "topic_slug": "hashing-salt-change-frequency",
+  "tags": [
+    "analytics"
+  ],
+  "summary_markdown": "The conversation addressed the necessity of changing salts for MAC hashes. It was determined that while a change is advisable, specific details regarding who needs it and how often are not currently defined.",
+  "decisions": [],
+  "action_items": []
+}

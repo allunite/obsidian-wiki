@@ -1,0 +1,26 @@
+{
+  "chat_id": "0m7UOUAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2023-09-11",
+    "end": "2023-09-11"
+  },
+  "message_count": 28,
+  "topic": "Git workflow and branching strategy review",
+  "topic_slug": "git-workflow-and-branching-strategy-review",
+  "tags": [
+    "analytics",
+    "campaign"
+  ],
+  "summary_markdown": "The discussion focused on correcting a problematic Git merge flow involving multiple branches (master, stage) and Pull Requests (PRs). The initial issue was that changes were incorrectly merging into both 'stage' and 'master'.\n\n**Key Decisions/Recommendations:**\n*   To prevent incorrect merges, developers must ensure they pull the latest state of *all* relevant server branches before creating a PR.\n*   The recommended flow is to branch from the primary source (e.g., master) and perform PRs sequentially: `my-branch` -> `stage`, followed by `stage` -> `master`. However, it was noted that this might be overly complex or unnecessary depending on the project's specific needs.\n*   A general principle established is to avoid merging changes into both 'stage' and 'master' from a feature branch simultaneously. If following Git Flow, branching should ideally start from 'stage', with PRs going into 'stage' first, then subsequently into 'master'.\n*   It was confirmed that the `stage` environment should receive merges from `master`, but releases to `master` do not always happen immediately from `stage`.\n*   The final advice was for the user to proceed with resolving the merge of `stage` into `master`.",
+  "decisions": [
+    "Developers must pull all relevant server branches before creating a PR.",
+    "PRs should follow a sequential flow (e.g., feature -> stage, then stage -> master).",
+    "The 'stage' environment is primarily for receiving merges from 'master', and releases to 'master' are not always immediate."
+  ],
+  "action_items": [
+    "User needs to resolve the merge of 'stage' into 'master'."
+  ]
+}

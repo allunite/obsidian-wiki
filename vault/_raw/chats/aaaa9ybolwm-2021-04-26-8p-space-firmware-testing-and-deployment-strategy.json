@@ -1,0 +1,25 @@
+{
+  "chat_id": "AAAA9ybOLwM",
+  "kind": "Space",
+  "space_name": "ИТ",
+  "participants": 8,
+  "date_range": {
+    "start": "2021-04-26",
+    "end": "2021-04-26"
+  },
+  "message_count": 10,
+  "topic": "Firmware testing and deployment strategy",
+  "topic_slug": "firmware-testing-and-deployment-strategy",
+  "tags": [
+    "analytics",
+    "campaign"
+  ],
+  "summary_markdown": "The discussion focused on deploying a new firmware (v53-dirty) into the RMS system, which includes channel switching and additional fields. Two testing strategies were proposed:\n\n1. **Office Testing:** Using two adjacent devices in the office—one with the new firmware and one with the previous version.\n2. **Field Testing:** Flashing a new firmware onto an existing device located in a city store for testing.\n\nThe team confirmed that two units at local sites were successfully flashed.",
+  "decisions": [
+    "Two adjacent devices will be used for comparative testing (new vs. old firmware) in the office.",
+    "A field testing option was identified using existing store locations."
+  ],
+  "action_items": [
+    "None specified."
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "chat_id": "AAAA-gn4oPg",
+  "kind": "Space",
+  "space_name": "General and random",
+  "participants": 36,
+  "date_range": {
+    "start": "2026-03-03",
+    "end": "2026-03-03"
+  },
+  "message_count": 3,
+  "topic": "Denmark contract signing announcement",
+  "topic_slug": "denmark-contract-signing-announcement",
+  "tags": [
+    "campaign"
+  ],
+  "summary_markdown": "A participant announced the successful signing of a contract in Denmark. Other participants offered congratulations and acknowledged the effort involved.",
+  "decisions": [],
+  "action_items": []
+}

@@ -1,0 +1,28 @@
+{
+  "chat_id": "nW_zkkAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2024-06-19",
+    "end": "2024-06-19"
+  },
+  "message_count": 37,
+  "topic": "Analytics data discrepancies and fixes",
+  "topic_slug": "analytics-data-discrepancies-and-fixes",
+  "tags": [
+    "analytics",
+    "impression",
+    "dwell-time",
+    "campaign"
+  ],
+  "summary_markdown": "The conversation focused on reviewing and validating recent fixes to analytics data. Initial issues were noted regarding dwell time for two categories, with a third category still requiring attention. Later, the participants reviewed impression counts, noting that while 'Viewed Impressions' looked ideal, 'Viewable Impressions' showed minimal discrepancies. It was agreed that these small differences could be accepted and potentially presented as evidence of methodological rigor (99.X% match). The discussion concluded with plans to recalculate data and adjust jobs due to the confirmed fixes for impressions.",
+  "decisions": [
+    "Minimal discrepancies between Viewed Impressions and Viewable Impressions are acceptable.",
+    "Data must be recalculated, and associated jobs adjusted, following the implementation of impression fixes."
+  ],
+  "action_items": [
+    "Someone needs to coordinate with Fishman regarding remaining issues on the iBioscope network.",
+    "The team will recalculate data and adjust jobs related to impression metrics."
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "chat_id": "nW_zkkAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2025-05-05",
+    "end": "2025-05-05"
+  },
+  "message_count": 3,
+  "topic": "Sharing documents and files",
+  "topic_slug": "sharing-documents-and-files",
+  "tags": [],
+  "summary_markdown": "Someone shared two Google Docs links with [me]. The content of the documents was not discussed.",
+  "decisions": [],
+  "action_items": []
+}

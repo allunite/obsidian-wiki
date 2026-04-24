@@ -1,0 +1,19 @@
+{
+  "chat_id": "nW_zkkAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2024-12-06",
+    "end": "2024-12-06"
+  },
+  "message_count": 8,
+  "topic": "Scheduling a call regarding data aggregation",
+  "topic_slug": "scheduling-call-data-aggregation",
+  "tags": [
+    "analytics"
+  ],
+  "summary_markdown": "The conversation consisted of initial greetings and scheduling attempts. Later, [p1] initiated contact again to discuss 'aggregation' (likely referring to data or analytics).",
+  "decisions": [],
+  "action_items": []
+}

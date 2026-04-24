@@ -1,0 +1,24 @@
+{
+  "chat_id": "i6YI1QAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 2,
+  "date_range": {
+    "start": "2022-01-18",
+    "end": "2022-01-18"
+  },
+  "message_count": 25,
+  "topic": "Discussing data anomalies and beacon costs",
+  "topic_slug": "data-anomalies-and-beacon-costs",
+  "tags": [
+    "analytics",
+    "session"
+  ],
+  "summary_markdown": "The conversation began with a discussion regarding potentially duplicated or unusually high data volumes recorded for Spain, specifically questioning the validity of the traffic metrics compared to other countries. It was noted that such duplication is unlikely.\n\nLater, [p1] requested time to discuss beacons (bicons) and their inclusion in a tender document, requiring an analysis of their advantages and disadvantages. A brief discussion confirmed that the cost of a beacon is significantly cheaper than Wi-Fi.",
+  "decisions": [
+    "Schedule a follow-up call to discuss beacons for the tender."
+  ],
+  "action_items": [
+    "[p1] needs to prepare documentation detailing the pros and cons of beacons for a tender."
+  ]
+}

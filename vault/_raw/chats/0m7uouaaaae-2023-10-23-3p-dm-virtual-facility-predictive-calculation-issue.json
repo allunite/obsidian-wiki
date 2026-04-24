@@ -1,0 +1,22 @@
+{
+  "chat_id": "0m7UOUAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2023-10-23",
+    "end": "2023-10-23"
+  },
+  "message_count": 13,
+  "topic": "Virtual facility predictive calculation issue",
+  "topic_slug": "virtual-facility-predictive-calculation-issue",
+  "tags": [
+    "analytics",
+    "inventory"
+  ],
+  "summary_markdown": "The discussion centered on a procedural query regarding two Latvian facilities (4141 and 27689) in the `facility_dict`. Both are categorized as 'Bus Shelter', but the virtual facility (27689) is not included in predictive calculations, even though it was set up similarly to other virtual installations. The issue was traced back by someone to company association: for a specific company (`[redacted]`), the model only exists for the 'City' category, suggesting that the calculation script might be failing due to missing data linkage at the company level.",
+  "decisions": [
+    "The predictive calculation failure for the virtual facility (27689) is likely related to the underlying company model limitations."
+  ],
+  "action_items": []
+}

@@ -1,0 +1,24 @@
+{
+  "chat_id": "i6YI1QAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 2,
+  "date_range": {
+    "start": "2021-09-03",
+    "end": "2021-09-03"
+  },
+  "message_count": 10,
+  "topic": "Discussing metrics and data analysis methods",
+  "topic_slug": "discussing-metrics-and-data-analysis-methods",
+  "tags": [
+    "analytics",
+    "mops"
+  ],
+  "summary_markdown": "The conversation focused on reviewing key performance indicators (KPIs) and data metrics. Specifically, the participants discussed implementing a demo mode for MOPs, starting with map integration. A technical discussion followed regarding suitable functions for calculating rich metrics and frequency tracking. The function `runningAccumulate` was identified as appropriate for these calculations. As an example, a fake graph structure was proposed for visualizing rich and frequency data over seven days (Day 1 through Day 7).",
+  "decisions": [
+    "The use of the `runningAccumulate` function was confirmed for calculating rich metrics and frequency."
+  ],
+  "action_items": [
+    "Implement demo mode for MOPs, starting with map integration."
+  ]
+}

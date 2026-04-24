@@ -1,0 +1,24 @@
+{
+  "chat_id": "AAAA3oghITo",
+  "kind": "Space",
+  "space_name": "Кабаны",
+  "participants": 4,
+  "date_range": {
+    "start": "2022-05-20",
+    "end": "2022-05-20"
+  },
+  "message_count": 51,
+  "topic": "Deploying analytics to staging environment",
+  "topic_slug": "deploying-analytics-to-staging-environment",
+  "tags": [
+    "mops",
+    "analytics",
+    "campaign"
+  ],
+  "summary_markdown": "The discussion focused on the technical process of deploying analytics services (MOPs) to a staging environment. Initial attempts required using `helm upgrade` with specific versioning and namespace details (`allunite/mops`, `-n staging`). It was noted that the service name for staging changed from `mops-staging` to simply `staging`. The process involved updating Kubernetes configuration via AWS CLI commands (e.g., `aws eks update-kubeconfig`) and ensuring access to the correct Helm repository (`s3://allunite-helm-charts/`). Multiple deployment attempts were made, requiring specific version tags from the develop branch of MOPs. Finally, someone confirmed that the staging deployment was successful.",
+  "decisions": [
+    "The analytics service (MOPs) must be deployed to staging using `helm upgrade` commands.",
+    "The Helm repository for allunite charts is located at `s3://allunite-helm-charts/`."
+  ],
+  "action_items": []
+}

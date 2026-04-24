@@ -1,0 +1,21 @@
+{
+  "chat_id": "y9IEDQAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2023-10-11",
+    "end": "2023-10-11"
+  },
+  "message_count": 10,
+  "topic": "Access request for urgent fix",
+  "topic_slug": "access-request-for-urgent-fix",
+  "tags": [
+    "analytics"
+  ],
+  "summary_markdown": "The conversation centered on obtaining necessary access to resolve an urgent issue. [me] requested access via a specific Jira ticket (AUHS-55). [p1] confirmed the provision of this access.",
+  "decisions": [
+    "Access was granted for the required task."
+  ],
+  "action_items": []
+}

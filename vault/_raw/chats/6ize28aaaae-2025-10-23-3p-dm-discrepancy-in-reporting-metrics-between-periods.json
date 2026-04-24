@@ -1,0 +1,25 @@
+{
+  "chat_id": "6ize28AAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2025-10-23",
+    "end": "2025-10-23"
+  },
+  "message_count": 28,
+  "topic": "Discrepancy in reporting metrics between periods",
+  "topic_slug": "discrepancy-in-reporting-metrics-between-periods",
+  "tags": [
+    "analytics",
+    "recalc-ch"
+  ],
+  "summary_markdown": "The conversation focused on retrieving specific campaign and inventory data. [me] requested the `company_num` and a list of frames/locations from [p1]. [p1] provided the `company_num` (7949) and listed several specific frame IDs (e.g., MB03 Nørreport.01, MB12 Rådhuspladsen.01). \n\nA secondary discussion arose regarding a significant discrepancy in reporting metrics. [p1] noted that the reported metrics for the 'airing period' were substantially lower (around 40% less) compared to the 'analytics period,' and this pattern was observed across multiple reports/tools, including ",
+  "decisions": [
+    "The necessary frame IDs and company number were identified.",
+    "A discrepancy in reporting metrics between airing and analytics periods requires investigation."
+  ],
+  "action_items": [
+    "Someone needs to investigate the reported metric discrepancies for the 'airing period' versus the 'analytics period'."
+  ]
+}

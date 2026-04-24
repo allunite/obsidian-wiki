@@ -1,0 +1,26 @@
+{
+  "chat_id": "y9IEDQAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2021-08-26",
+    "end": "2021-08-26"
+  },
+  "message_count": 27,
+  "topic": "Database schema improvements and data handling",
+  "topic_slug": "database-schema-improvements-and-data-handling",
+  "tags": [
+    "analytics",
+    "session"
+  ],
+  "summary_markdown": "The discussion focused on improving the database structure, specifically regarding session data. Key decisions included:\n\n*   **Timestamp Field:** Adding a dedicated `timestamp` field to capture precise timing information for records.\n*   **Duplicate Handling:** Implementing the CollapsedMergeTree engine to automatically handle and collapse duplicate sessions, eliminating the need for manual cleanup based on timestamps.\n*   **Schema Additions:** Temporarily adding extra fields (`duration_frames` and `freq`) for debugging purposes, with plans to remove them later.\n\nRegarding data population, it was noted that while the timestamp field was added, it had not been populated for existing records. A plan was discussed to backfill this data using the `session_start` field as an approximation when new data ingestion begins.",
+  "decisions": [
+    "Add a dedicated timestamp field to the database schema.",
+    "Use CollapsedMergeTree engine to automatically handle duplicate sessions.",
+    "Temporarily add 'duration_frames' and 'freq' fields for debugging."
+  ],
+  "action_items": [
+    "Populate the new timestamp field for existing records when new data ingestion starts."
+  ]
+}

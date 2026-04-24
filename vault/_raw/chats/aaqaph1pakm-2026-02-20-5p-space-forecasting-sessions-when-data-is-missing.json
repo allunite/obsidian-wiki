@@ -1,0 +1,25 @@
+{
+  "chat_id": "AAQAPH1pAKM",
+  "kind": "Space",
+  "space_name": "Group Chat",
+  "participants": 5,
+  "date_range": {
+    "start": "2026-02-20",
+    "end": "2026-02-20"
+  },
+  "message_count": 13,
+  "topic": "Forecasting sessions when data is missing",
+  "topic_slug": "forecasting-sessions-when-data-is-missing",
+  "tags": [
+    "analytics",
+    "session",
+    "forecast"
+  ],
+  "summary_markdown": "The discussion centered on the functionality and limitations of session forecasting, particularly when historical session data is absent. It was clarified that the forecast requires existing sessions (specifically from the previous week's same day) to function; if no sessions are present in `dev.device_session`, the forecast will not run.\n\nTwo potential workarounds were discussed for estimating missing traffic: 1) Manually inputting a full week's worth of session data (e.g., copying existing records), which would allow the forecasting process to continue; or 2) Directly populating the `ml_2` table with estimated traffic, which would be treated as standard traffic and not flagged as a forecast.\n\nParticipants also noted that previous manual recovery efforts for sessions in specific regions (like Japan) might have interfered with the automatic running of the forecasting model.",
+  "decisions": [
+    "The forecast requires existing session data from the previous week's same day to run."
+  ],
+  "action_items": [
+    "Investigate if past manual session recoveries (e.g., in Japan) impacted the automated forecasting process."
+  ]
+}

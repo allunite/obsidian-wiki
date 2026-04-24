@@ -1,0 +1,22 @@
+{
+  "chat_id": "AAAA3oghITo",
+  "kind": "Space",
+  "space_name": "Кабаны",
+  "participants": 4,
+  "date_range": {
+    "start": "2023-03-07",
+    "end": "2023-03-07"
+  },
+  "message_count": 15,
+  "topic": "Checking time and status of ad boxes",
+  "topic_slug": "checking-time-and-status-of-ad-boxes",
+  "tags": [
+    "analytics",
+    "inventory"
+  ],
+  "summary_markdown": "The conversation focused on checking the current operational time and status of several specific digital advertising boxes (c04a002cb2ec, f09fc27c0cbf, 001e42319ca4). Initial attempts to check these 'old' boxes were complicated. The participants confirmed that the displayed timestamps for at least two of the boxes were incorrect or outdated (one showing a time in 2023 and another suggesting they might be stuck in February 2022), indicating potential technical issues with the inventory reporting.",
+  "decisions": [
+    "The current operational status/time sync of several specific ad boxes was reviewed."
+  ],
+  "action_items": []
+}

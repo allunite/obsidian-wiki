@@ -1,0 +1,25 @@
+{
+  "chat_id": "ws0mTkAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 2,
+  "date_range": {
+    "start": "2023-09-01",
+    "end": "2023-09-01"
+  },
+  "message_count": 32,
+  "topic": "Standardizing timezone format in inventory editor",
+  "topic_slug": "standardizing-timezone-format-inventory-editor",
+  "tags": [
+    "analytics",
+    "facility"
+  ],
+  "summary_markdown": "The session focused on correcting an issue where the inventory editor was incorrectly adding redundant and non-standardized time zone information (e.g., \"Asia/Kolkata (Asia/Kolkata)\") to the database.\n\nIt was determined that a fix is being deployed to staging, or alternatively, data can be reimported via assets in mods.\n\nThe primary decision was to standardize the timezone across all facilities using the format \"Asia/Calcutta,\" as this format is recognized by ClickHouse and avoids discrepancies caused by different naming conventions (e.g., 'local' vs. 'Calcutta' vs. 'Kolkatta').",
+  "decisions": [
+    "Standardize the time zone for all facilities to 'Asia/Calcutta'."
+  ],
+  "action_items": [
+    "A fix is being deployed to staging environment.",
+    "Alternatively, data can be reimported via assets in mods."
+  ]
+}

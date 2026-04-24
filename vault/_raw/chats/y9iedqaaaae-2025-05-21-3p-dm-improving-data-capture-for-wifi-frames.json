@@ -1,0 +1,27 @@
+{
+  "chat_id": "y9IEDQAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2025-05-21",
+    "end": "2025-05-21"
+  },
+  "message_count": 67,
+  "topic": "Improving data capture for WiFi frames",
+  "topic_slug": "improving-data-capture-for-wifi-frames",
+  "tags": [
+    "frame",
+    "analytics",
+    "session"
+  ],
+  "summary_markdown": "The discussion covered enhancing the data captured from Wi-Fi frames for better analytics and sessionization.\n\n*   **Frame Data Enhancement:** It was decided to include sequence number and fragment number in the captured data, as these fields are crucial for robust sessionization of random fingerprints. Instead of saving every frame, it was agreed to save the minimum and maximum values for these numbers within a given time grouping.\n*   **SSID/Point Tracking:** A method was discussed for tracking neighboring Wi-Fi points (SSIDs). The plan is to send all collected point information in a single packet, using the BSSID (MAC address) as the key. This approach allows for linking data even if an SSID is not present in every 5-second interval.\n*   **Data Reporting:** A final check was performed on reporting discrepancies between facility and frame data, confirming that the necessary adjustments were made to ensure consistency before finalizing the report.",
+  "decisions": [
+    "Include min/max sequence number and fragment number for sessionization",
+    "Use BSSID as a key when transmitting collected point information",
+    "Ensure consistency between facility and frame data reporting"
+  ],
+  "action_items": [
+    "Finalize the report based on updated data sources"
+  ]
+}

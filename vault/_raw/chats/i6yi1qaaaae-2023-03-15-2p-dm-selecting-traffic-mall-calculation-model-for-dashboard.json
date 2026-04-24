@@ -1,0 +1,25 @@
+{
+  "chat_id": "i6YI1QAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 2,
+  "date_range": {
+    "start": "2023-03-15",
+    "end": "2023-03-15"
+  },
+  "message_count": 7,
+  "topic": "Selecting traffic mall calculation model for dashboard",
+  "topic_slug": "selecting-traffic-mall-calculation-model-for-dashboard",
+  "tags": [
+    "analytics",
+    "dwell-time",
+    "impression"
+  ],
+  "summary_markdown": "The discussion focused on determining which traffic mall metric should be displayed on the dashboard. Two options were presented: 1) The current model (8h gap + sample), which is proposed to align closely with unique daily data. 2) An older method (previously called 2h gap, but functionally an 8h gap without sampling), which was reportedly preferred by someone named Esben and would result in higher unique counts but lower screen traffic while maintaining desired dwell time.\n\n[p1] stated that the current model (8h gap + sample) was applied for UK and should be standardized across all malls. [me] clarified that the 'new way' is no longer available, only 'total traffic (mall)' which uses the gap + sample method. [p1] concluded by suggesting that the existing approach should be maintained.",
+  "decisions": [
+    "The current traffic mall calculation model (8h gap + sample) will be used for all malls on the dashboard."
+  ],
+  "action_items": [
+    "[p1] to review the data further."
+  ]
+}

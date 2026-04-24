@@ -1,0 +1,22 @@
+{
+  "chat_id": "nW_zkkAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2025-10-02",
+    "end": "2025-10-02"
+  },
+  "message_count": 18,
+  "topic": "Adding session data for specific facilities",
+  "topic_slug": "adding-session-data-for-specific-facilities",
+  "tags": [
+    "facility",
+    "session"
+  ],
+  "summary_markdown": "The discussion focused on the need to generate and link session data for four specified facilities (IDs provided). Initially, there was confusion regarding whether 'trusted' or all sessions were required. It was confirmed that the requirement related to targeting ('таргеты'). The process involved inputting the data into both 'trusted' and 'device_session'. A clarification was made that the model is not based on sessions, but despite this, the necessary data preparation was completed.",
+  "decisions": [
+    "Session data for four specified facilities needs to be generated/linked for May."
+  ],
+  "action_items": []
+}

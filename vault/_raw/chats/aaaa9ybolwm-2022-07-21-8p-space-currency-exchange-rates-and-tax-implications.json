@@ -1,0 +1,19 @@
+{
+  "chat_id": "AAAA9ybOLwM",
+  "kind": "Space",
+  "space_name": "ИТ",
+  "participants": 8,
+  "date_range": {
+    "start": "2022-07-21",
+    "end": "2022-07-21"
+  },
+  "message_count": 8,
+  "topic": "Currency exchange rates and tax implications",
+  "topic_slug": "currency-exchange-rates-and-tax-implications",
+  "tags": [
+    "analytics"
+  ],
+  "summary_markdown": "The conversation covered recent fluctuations in currency exchange rates (UAH/USD, UAH/EUR) and the potential tax complications associated with using foreign cards for business expenses or 'fictitious' business trips. Participants noted that while such checks are unlikely, prolonged expense claims could raise questions during a tax inspection.",
+  "decisions": [],
+  "action_items": []
+}

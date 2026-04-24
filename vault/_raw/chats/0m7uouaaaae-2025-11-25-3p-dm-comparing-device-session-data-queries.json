@@ -1,0 +1,24 @@
+{
+  "chat_id": "0m7UOUAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2025-11-25",
+    "end": "2025-11-25"
+  },
+  "message_count": 4,
+  "topic": "Comparing device session data queries",
+  "topic_slug": "comparing-device-session-data-queries",
+  "tags": [
+    "analytics",
+    "session"
+  ],
+  "summary_markdown": "The conversation involves sharing SQL queries for comparing device session data across different tables (`v_device_session_agg_dev` and `device_session`). The criteria used in the queries include specific company/facility numbers, filtering for non-permanent local devices, requiring a calibrated status (isCalibrated=1), limiting session duration (<7200), and setting signal level limits (<=89). Later, an additional calibration parameter was noted: Japan requires `session_duration>=3`. Finally, a set of parameters for running a model comparison was provided.",
+  "decisions": [
+    "The data analysis should compare device sessions using specific SQL queries targeting two different session tables."
+  ],
+  "action_items": [
+    "Use the provided parameters (ROLLBAR_ENVIRONMENT=manual, S3_FOLDER=prod, etc.) to run the model comparison."
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "chat_id": "kPX97cAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 2,
+  "date_range": {
+    "start": "2025-01-27",
+    "end": "2025-01-27"
+  },
+  "message_count": 3,
+  "topic": "Fixing future technical issues",
+  "topic_slug": "fixing-future-technical-issues",
+  "tags": [
+    "analytics"
+  ],
+  "summary_markdown": "Someone confirmed they will coordinate a fix with Andrw. They also stated that for future occurrences of this issue, they will know how to resolve it.",
+  "decisions": [],
+  "action_items": []
+}

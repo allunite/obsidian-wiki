@@ -1,0 +1,26 @@
+{
+  "chat_id": "oCgFCIAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2024-06-26",
+    "end": "2024-06-26"
+  },
+  "message_count": 19,
+  "topic": "Refactoring profile ID for data retrieval",
+  "topic_slug": "refactoring-profile-id-for-data-retrieval",
+  "tags": [
+    "analytics",
+    "campaign"
+  ],
+  "summary_markdown": "The discussion focused on the technical approach to switching company profiles and retrieving user data. It was decided that relying on `profileId` is preferable, as it offers flexibility by allowing multiple parameters (company, profile, user) to be available.\n\nTo implement this, a new view (`вьюха`) will be created in the database. The schema change involves updating the join logic: replacing joins on `user` and `userId` with joins on `user_profile` and using `profileId`. It was agreed that keeping `profileId` as an integer type is best practice to maintain clarity between `userId` and `profileId`.\n\nRegarding implementation scope, it was suggested to start by integrating the new logic into a few key pages before rolling out to all remaining areas.",
+  "decisions": [
+    "Adopt using `profileId` as the primary identifier for data retrieval.",
+    "Create a new database view to handle the updated join logic.",
+    "Keep `profileId` as an integer type (intov) for clarity."
+  ],
+  "action_items": [
+    "[p1] will attempt implementation and follow up on the task."
+  ]
+}

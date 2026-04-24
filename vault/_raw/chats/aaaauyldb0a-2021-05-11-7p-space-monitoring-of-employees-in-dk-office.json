@@ -1,0 +1,19 @@
+{
+  "chat_id": "AAAAuyldb0A",
+  "kind": "Space",
+  "space_name": "Lidar development",
+  "participants": 7,
+  "date_range": {
+    "start": "2021-05-11",
+    "end": "2021-05-11"
+  },
+  "message_count": 6,
+  "topic": "Monitoring of employees in dk office",
+  "topic_slug": "monitoring-of-employees-in-dk-office",
+  "tags": [
+    "analytics"
+  ],
+  "summary_markdown": "The conversation briefly mentioned the implementation of monitoring for all employees located in the DK office.",
+  "decisions": [],
+  "action_items": []
+}

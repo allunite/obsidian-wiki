@@ -1,0 +1,27 @@
+{
+  "chat_id": "AAAANqEY3K4",
+  "kind": "Space",
+  "space_name": "Group Chat",
+  "participants": 2,
+  "date_range": {
+    "start": "2023-08-30",
+    "end": "2023-08-30"
+  },
+  "message_count": 52,
+  "topic": "Frequency calculation adjustments for single frames",
+  "topic_slug": "frequency-calculation-adjustments-for-single-frames",
+  "tags": [
+    "analytics",
+    "frame",
+    "campaign"
+  ],
+  "summary_markdown": "The discussion focused on discrepancies found in frequency calculations, particularly when dealing with data from sensors that were offline or limited to single frames. Initial concerns arose regarding sensor data gaps and whether the current dashboard data was stable despite reported offline periods.\n\nRegarding frequency calculation (f_rj), it was noted that the formula currently used for approximating frequency across large numbers of frames results in inflated values when applied to a single frame count. It was determined that adjustments are needed, especially for short periods or low frame counts (e.g., 1-10).\n\nIt was agreed that while further investigation into the calculation's behavior for minimal data points is necessary, the immediate priority is to release current findings related to the dashboard and campaign metrics, including frequency calculations.",
+  "decisions": [
+    "The team will proceed with releasing current dashboard and campaign results, including preliminary frequency calculations.",
+    "Adjustments are needed for frequency calculation when dealing with very low frame counts (e.g., 1-10 frames)."
+  ],
+  "action_items": [
+    "Someone needs to investigate the formula's behavior for single frames and short periods more thoroughly.",
+    "The system/algorithm team will work on implementing necessary adjustments for frequency calculation."
+  ]
+}

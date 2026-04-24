@@ -1,0 +1,23 @@
+{
+  "chat_id": "AAAAw8LFttQ",
+  "kind": "Space",
+  "space_name": "Data",
+  "participants": 5,
+  "date_range": {
+    "start": "2021-02-15",
+    "end": "2021-02-15"
+  },
+  "message_count": 5,
+  "topic": "Data requirements for Belgium market analysis",
+  "topic_slug": "data-requirements-for-belgium-market-analysis",
+  "tags": [
+    "analytics"
+  ],
+  "summary_markdown": "The discussion focused on gathering appropriate historical data for the Belgian market. It was determined that additional months of data, specifically covering Autumn 2020 or later, are needed. This is because using January 2020 data might be misleading due to pre-COVID conditions, which could skew the total number of baskets per day.",
+  "decisions": [
+    "Request additional historical data for Belgium, focusing on Autumn 2020 or later."
+  ],
+  "action_items": [
+    "Someone needs to request the necessary additional months of data from the relevant party."
+  ]
+}

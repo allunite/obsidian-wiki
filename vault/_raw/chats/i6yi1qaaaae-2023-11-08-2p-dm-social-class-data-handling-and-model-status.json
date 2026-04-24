@@ -1,0 +1,22 @@
+{
+  "chat_id": "i6YI1QAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 2,
+  "date_range": {
+    "start": "2023-11-08",
+    "end": "2023-11-08"
+  },
+  "message_count": 37,
+  "topic": "Social class data handling and model status",
+  "topic_slug": "social-class-data-handling-and-model-status",
+  "tags": [
+    "analytics",
+    "campaign"
+  ],
+  "summary_markdown": "The conversation covered two main topics: the structure of social class data, and the status of a specific predictive model.\n\n*   **Social Class Data:** It was noted that social class is not tied to age or gender. To ensure the filter functions without limitations, the data must be proportionally distributed across 20+ male/female groups. This addresses potential questions regarding disproportionate representation (e.g., high percentage of young women in a specific class).\n*   **Model Status:** The model was confirmed to be working on the 'factor' and the stage was left with previous experiments. It was also mentioned that a predictive component related to sales ('sell') had been removed/deleted.",
+  "decisions": [
+    "Social class data must be proportionally distributed across 20+ male/female groups for filtering purposes."
+  ],
+  "action_items": []
+}

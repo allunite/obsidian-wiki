@@ -1,0 +1,27 @@
+{
+  "chat_id": "1er37EAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 2,
+  "date_range": {
+    "start": "2022-12-14",
+    "end": "2022-12-14"
+  },
+  "message_count": 21,
+  "topic": "Accessing staging analytics and personalization setup",
+  "topic_slug": "accessing-staging-analytics-and-personalization-setup",
+  "tags": [
+    "analytics",
+    "inventory",
+    "campaign"
+  ],
+  "summary_markdown": "The conversation focused on providing access to the latest version of the AllUnite website for visual comparison, suggesting using the staging environment. The user was guided through accessing the analytics platform and setting up personalization data.\n\n**Key Information & Setup:**\n*   The staging site generally reflects the `develop` branch.\n*   To view personalized content (specifically demographics and reach), a specific client email must be entered into the top-right corner of the dashboard.\n*   Multiple client emails were provided for different types of data access, including: [email@jcdecaux.com] (UK client/Traffic with vehicles panels), [email@allunite.com] (Danish large client/multiple malls and campaigns), [email@citymedia.com] (Traffic & Mall Analytics with demographics panels), and [email@cph.dk] (Airport Audience).\n*   It was noted that dedicated Demographics and Reach pages are currently incomplete, inactive, and their future activation is uncertain.",
+  "decisions": [
+    "The staging environment should be used for viewing the latest site version.",
+    "Specific client emails must be entered to activate personalization data views."
+  ],
+  "action_items": [
+    "None",
+    ""
+  ]
+}

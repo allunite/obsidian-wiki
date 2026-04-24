@@ -1,0 +1,21 @@
+{
+  "chat_id": "1er37EAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 2,
+  "date_range": {
+    "start": "2022-12-13",
+    "end": "2022-12-13"
+  },
+  "message_count": 6,
+  "topic": "Reviewing dashboard styling and components",
+  "topic_slug": "reviewing-dashboard-styling-and-components",
+  "tags": [
+    "analytics"
+  ],
+  "summary_markdown": "The conversation focused on reviewing the appearance of a draft dashboard. [me] noted that the fonts had been reduced, which was visible even though it is an early draft. A specific component (referred to as 'vex's pedal') also appeared. The other participant confirmed that both the font changes and the new component were not intentional but seemed to have surfaced due to style conflicts or module overlaps. They requested feedback on any unintended elements.",
+  "decisions": [],
+  "action_items": [
+    "The other participant will correct any unexpected styling issues if pointed out by [me]."
+  ]
+}

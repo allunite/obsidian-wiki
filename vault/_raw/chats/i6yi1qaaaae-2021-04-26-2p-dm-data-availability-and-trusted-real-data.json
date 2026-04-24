@@ -1,0 +1,25 @@
+{
+  "chat_id": "i6YI1QAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 2,
+  "date_range": {
+    "start": "2021-04-26",
+    "end": "2021-04-26"
+  },
+  "message_count": 47,
+  "topic": "Data availability and trusted real data",
+  "topic_slug": "data-availability-and-trusted-real-data",
+  "tags": [
+    "analytics",
+    "inventory",
+    "dwell-time"
+  ],
+  "summary_markdown": "The conversation covered the status of STAGE dataset preparation, which was successfully completed. A primary discussion point focused on accessing historical data regarding 'trusted real' metrics (e.g., percentage change over time). It was noted that raw data only started flowing from one box and that parsing this data correctly is a necessary skill/process. The specific requirement for the analysis was to track the trusted percentage of devices connecting to Wi-Fi over time, which requires historical data beyond what was currently available or easily extractable.\n\nRegarding technical implementation, there was a discussion about optimizing scripts so they do not need constant re-release and could allow model changes based on country or category, potentially using a database table structure.",
+  "decisions": [
+    "The STAGE dataset is ready/available."
+  ],
+  "action_items": [
+    "Discuss script optimization (avoiding constant release) and implementing model switching by country/category, possibly via a database table."
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "chat_id": "oCgFCIAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2022-05-19",
+    "end": "2022-05-19"
+  },
+  "message_count": 17,
+  "topic": "Data architecture and session tracking issues",
+  "topic_slug": "data-architecture-and-session-tracking-issues",
+  "tags": [
+    "analytics",
+    "mops"
+  ],
+  "summary_markdown": "The conversation focused on identifying data flow issues, specifically regarding device session tracking tables. It was noted that the archiving process has been non-functional for a month and requires repair. A major concern raised was the instability of the main calculation pipeline (recalc), which failed because new models were being tested in staging environments without proper readiness checks.\n\nTo mitigate future failures, it was proposed to restructure the data writing process: writing new data to `device_session_realtime_4` and maintaining `device_session_realtime_3` as a view for backward compatibility, potentially involving the MOPs team.",
+  "decisions": [
+    "New device session data should be written to `device_session_realtime_4`.",
+    "`device_session_realtime_3` will remain a view for compatibility."
+  ],
+  "action_items": [
+    "Investigate if any processes are reading from `device_session_realtime_3`.",
+    "Repair the data archiving process, which has been down for one month."
+  ]
+}

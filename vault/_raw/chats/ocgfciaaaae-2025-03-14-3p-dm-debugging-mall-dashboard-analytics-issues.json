@@ -1,0 +1,26 @@
+{
+  "chat_id": "oCgFCIAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2025-03-14",
+    "end": "2025-03-14"
+  },
+  "message_count": 22,
+  "topic": "Debugging mall dashboard analytics issues",
+  "topic_slug": "debugging-mall-dashboard-analytics-issues",
+  "tags": [
+    "analytics",
+    "facility",
+    "campaign",
+    "inventory"
+  ],
+  "summary_markdown": "The conversation focused on debugging and fixing issues within the mall dashboard analytics. Initially, the dashboard was found to only display 'Total' data in the zone section, losing facility-specific grouping. It was noted that previous changes had broken much of the functionality.\n\nLater, it was determined that two separate API endpoints were required: one for total metrics and another specifically for facility-based zones. The fix involved ensuring both sets of data could populate their respective blocks correctly, allowing all elements to function as intended.",
+  "decisions": [
+    "The mall dashboard requires separate queries/endpoints for total metrics and facility-specific zone data."
+  ],
+  "action_items": [
+    "A hotfix will be deployed on Monday morning to finalize the fixes."
+  ]
+}

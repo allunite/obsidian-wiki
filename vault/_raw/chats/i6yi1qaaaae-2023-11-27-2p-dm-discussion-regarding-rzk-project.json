@@ -1,0 +1,21 @@
+{
+  "chat_id": "i6YI1QAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 2,
+  "date_range": {
+    "start": "2023-11-27",
+    "end": "2023-11-27"
+  },
+  "message_count": 10,
+  "topic": "Discussion regarding RZK project",
+  "topic_slug": "discussion-regarding-rzk-project",
+  "tags": [
+    "analytics"
+  ],
+  "summary_markdown": "The conversation revolves around discussing a specific task or project, referenced by the Jira ticket MMT-299. Later, [p1] requests a discussion about 'РЗК' (RZK) with two other individuals.",
+  "decisions": [],
+  "action_items": [
+    "Meet to discuss RZK with Vlad and Marina."
+  ]
+}

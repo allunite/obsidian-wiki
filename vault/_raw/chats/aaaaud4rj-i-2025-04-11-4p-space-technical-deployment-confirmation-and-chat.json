@@ -1,0 +1,19 @@
+{
+  "chat_id": "AAAAud4RJ_I",
+  "kind": "Space",
+  "space_name": "Group Chat",
+  "participants": 4,
+  "date_range": {
+    "start": "2025-04-11",
+    "end": "2025-04-11"
+  },
+  "message_count": 6,
+  "topic": "Technical deployment confirmation and chat",
+  "topic_slug": "technical-deployment-confirmation-and-chat",
+  "tags": [
+    "analytics"
+  ],
+  "summary_markdown": "The conversation begins with [p1] requesting that [p2] redeploy the ml-api from stage to stage. [p2] confirms that the deployment has been launched. The remainder of the chat consists of general, non-work-related commentary and discussion among participants.",
+  "decisions": [],
+  "action_items": []
+}

@@ -1,0 +1,21 @@
+{
+  "chat_id": "AAAA3oghITo",
+  "kind": "Space",
+  "space_name": "Кабаны",
+  "participants": 4,
+  "date_range": {
+    "start": "2026-02-27",
+    "end": "2026-02-27"
+  },
+  "message_count": 12,
+  "topic": "Personal finance and retirement planning discussion",
+  "topic_slug": "personal-finance-retirement-planning-discussion",
+  "tags": [
+    "analytics"
+  ],
+  "summary_markdown": "The conversation focused on personal financial topics, specifically discussing pension fund contributions and retirement age. One participant mentioned checking the pension fund website and calculating that continued payments would allow for retirement at age 60 with a benefit of 2000 UAH per month, requiring an additional 14 years of contribution.\n\nAnother participant inquired about purchasing missing pension experience (stazh). The discussion noted the cost implications of these contributions.",
+  "decisions": [],
+  "action_items": [
+    "Review personal pension fund status using the provided portal link."
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "chat_id": "nW_zkkAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2024-02-22",
+    "end": "2024-02-22"
+  },
+  "message_count": 5,
+  "topic": "Database script execution warning",
+  "topic_slug": "database-script-execution-warning",
+  "tags": [
+    "analytics"
+  ],
+  "summary_markdown": "Someone reminded another participant not to run large scripts outside of the designated environment (04). The second participant acknowledged forgetting to switch data sources.",
+  "decisions": [],
+  "action_items": []
+}

@@ -1,0 +1,28 @@
+{
+  "chat_id": "y9IEDQAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2023-12-16",
+    "end": "2023-12-16"
+  },
+  "message_count": 190,
+  "topic": "ClickHouse cluster resilience and instance upgrades",
+  "topic_slug": "clickhouse-cluster-resilience-and-instance-upgrades",
+  "tags": [
+    "analytics",
+    "campaign",
+    "facility",
+    "inventory",
+    "session"
+  ],
+  "summary_markdown": "The session covered technical issues related to the ClickHouse database, including repeated failures when loading metadata for the `reaggr_device_session_temp_sharded` table due to incompatible default expressions and dictionary errors. The immediate fix involved deleting the problematic metadata file (`/data/hot/metadata/allunite/reaggr_device_session_temp_sharded.sql`) on all machines.\n\nLater discussions focused on infrastructure upgrades, specifically migrating ClickHouse instances from current types to AWS Graviton processors (ARM architecture) for potential performance gains. Concerns were raised regarding the feasibility of this migration due to required re-installation and dependency issues (like HDFS integration and gRPC support).\n\nRegarding system resilience, it was confirmed that if one of four ClickHouse nodes is unavailable, write operations will continue, but read operations may fail.\n\nFinally, a plan was established to improve the Sandbox environment by creating dedicated data volumes (approx. 20 GB) attached to the instances, allowing for easier data restoration.",
+  "decisions": [
+    "The metadata file `/data/hot/metadata/allunite/reaggr_device_session_temp_sharded.sql` must be deleted on all machines to resolve database loading errors."
+  ],
+  "action_items": [
+    "Investigate migrating ClickHouse instances to AWS Graviton processors (ARM architecture) for performance improvement.",
+    "Create dedicated data volumes (approx. 20 GB each) and attach them to the Sandbox instances to improve data recovery capability."
+  ]
+}

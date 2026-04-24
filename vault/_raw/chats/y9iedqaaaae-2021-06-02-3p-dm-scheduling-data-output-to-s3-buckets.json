@@ -1,0 +1,28 @@
+{
+  "chat_id": "y9IEDQAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2021-06-02",
+    "end": "2021-06-02"
+  },
+  "message_count": 49,
+  "topic": "Scheduling data output to S3 buckets",
+  "topic_slug": "scheduling-data-output-to-s3-buckets",
+  "tags": [
+    "analytics",
+    "inventory",
+    "campaign"
+  ],
+  "summary_markdown": "The discussion focused on the process of moving generated files into S3 storage. It was confirmed that the current data pipeline uses a Lambda function, which is necessary because it integrates with existing Data APIs and other systems.\n\n**Key Decisions/Steps:**\n*   Initial deployment should target the **staging** environment first.\n*   The process requires scheduling the job to run after both **recalculation (recalc)** and **aggregation** are complete.\n*   The final step involves updating the S3 bucket key and name to deploy the output to production, following successful testing in staging.",
+  "decisions": [
+    "Initial deployment target is staging environment",
+    "Job must be scheduled after aggregation and recalculation steps",
+    "Production rollout requires changing the S3 bucket key and name"
+  ],
+  "action_items": [
+    "Review the job definition in Rundeck to ensure correct scheduling parameters for production.",
+    "Update the S3 bucket key and name when moving from staging to production."
+  ]
+}

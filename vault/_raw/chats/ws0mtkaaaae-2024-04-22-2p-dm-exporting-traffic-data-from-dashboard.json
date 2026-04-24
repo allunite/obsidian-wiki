@@ -1,0 +1,24 @@
+{
+  "chat_id": "ws0mTkAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 2,
+  "date_range": {
+    "start": "2024-04-22",
+    "end": "2024-04-22"
+  },
+  "message_count": 10,
+  "topic": "Exporting traffic data from dashboard",
+  "topic_slug": "exporting-traffic-data-from-dashboard",
+  "tags": [
+    "analytics",
+    "impression"
+  ],
+  "summary_markdown": "A user reported an urgent issue exporting data from a traffic dashboard, receiving a network error regardless of the login used or network tested. The required parameters were set for the date range 3–31 March 2024 and Malls.\n\nLater in the conversation, the location of the export function was identified as a button labeled 'EXPORT' on the filter panel, which generates an XLSX file rather than a CSV.",
+  "decisions": [
+    "The specific steps for exporting data from the traffic dashboard were clarified."
+  ],
+  "action_items": [
+    "Investigate why the user is receiving a network error when attempting to download the report data."
+  ]
+}

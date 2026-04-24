@@ -1,0 +1,29 @@
+{
+  "chat_id": "oCgFCIAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2022-02-01",
+    "end": "2022-02-01"
+  },
+  "message_count": 18,
+  "topic": "Reviewing data discrepancies and demographics",
+  "topic_slug": "reviewing-data-discrepancies-and-demographics",
+  "tags": [
+    "analytics",
+    "campaign",
+    "impression",
+    "inventory"
+  ],
+  "summary_markdown": "The discussion covered several technical and data points. First, a meeting is scheduled for Thursday to review Dubai data, which will require time allocation.\n\nRegarding data discrepancies, it was noted that two routers in Dnipro, from the same operator, are showing different data, suggesting a potential bug or issue with firmware/configuration.\n\nOn demographics, there was discussion about completing an existing script and fulfilling requests made by someone (Galina). It was confirmed that most of the required demographic queries had been addressed, though further additions were requested. The plan is to proceed with the current configuration rather than re-mounting disks.\n\nTechnical tasks included setting up communication between clusters under a system user account.",
+  "decisions": [
+    "Schedule time on Thursday for Dubai data review",
+    "Focus on completing the demographics script and addressing outstanding queries",
+    "Proceed with the current configuration instead of re-mounting disks"
+  ],
+  "action_items": [
+    "Investigate data discrepancies between two routers in Dnipro",
+    "Review communication setup between clusters under a system user account"
+  ]
+}

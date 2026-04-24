@@ -1,0 +1,21 @@
+{
+  "chat_id": "1er37EAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 2,
+  "date_range": {
+    "start": "2023-01-18",
+    "end": "2023-01-18"
+  },
+  "message_count": 3,
+  "topic": "Scheduling a quick call",
+  "topic_slug": "scheduling-a-quick-call",
+  "tags": [],
+  "summary_markdown": "The participants exchanged greetings and agreed to connect via Google Meet.",
+  "decisions": [
+    "A meeting was scheduled for the day."
+  ],
+  "action_items": [
+    "Join the provided Google Meet link."
+  ]
+}

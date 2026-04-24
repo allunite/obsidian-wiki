@@ -1,0 +1,19 @@
+{
+  "chat_id": "i6YI1QAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 2,
+  "date_range": {
+    "start": "2022-06-30",
+    "end": "2022-06-30"
+  },
+  "message_count": 5,
+  "topic": "Status update on unique user fix",
+  "topic_slug": "status-update-on-unique-user-fix",
+  "tags": [
+    "analytics"
+  ],
+  "summary_markdown": "A brief exchange regarding the status of fixing unique users (юников). [me] reported that the issue was not yet fixed, stating they were still working on it. Later, [me] confirmed completion of the task.",
+  "decisions": [],
+  "action_items": []
+}

@@ -1,0 +1,21 @@
+{
+  "chat_id": "0kjuCiAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2025-12-12",
+    "end": "2025-12-12"
+  },
+  "message_count": 5,
+  "topic": "Deploying frequency for specific ID",
+  "topic_slug": "deploying-frequency-for-specific-id",
+  "tags": [
+    "analytics"
+  ],
+  "summary_markdown": "A request was made to deploy the frequency setting for ID 7978 to production today. The deployment was subsequently confirmed as completed.",
+  "decisions": [
+    "Frequency deployed for ID 7978 to production."
+  ],
+  "action_items": []
+}

@@ -1,0 +1,21 @@
+{
+  "chat_id": "AAAAud4RJ_I",
+  "kind": "Space",
+  "space_name": "Group Chat",
+  "participants": 4,
+  "date_range": {
+    "start": "2025-05-19",
+    "end": "2025-05-19"
+  },
+  "message_count": 3,
+  "topic": "Redeploying the ml-api main branch",
+  "topic_slug": "redeploying-the-ml-api-main-branch",
+  "tags": [
+    "analytics"
+  ],
+  "summary_markdown": "Someone requested that the `ml-api` main branch be redeployed to `ml-api.allunite.local`. Another participant questioned if this was appropriate for a production environment and suggested using a different chat channel for deployment discussions.",
+  "decisions": [],
+  "action_items": [
+    "Use the designated chat for deployment requests."
+  ]
+}

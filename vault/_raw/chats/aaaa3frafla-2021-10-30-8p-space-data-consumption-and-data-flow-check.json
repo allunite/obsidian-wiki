@@ -1,0 +1,19 @@
+{
+  "chat_id": "AAAA3frAfLA",
+  "kind": "Space",
+  "space_name": "Lidar Tech",
+  "participants": 8,
+  "date_range": {
+    "start": "2021-10-30",
+    "end": "2021-10-30"
+  },
+  "message_count": 6,
+  "topic": "Data consumption and data flow check",
+  "topic_slug": "data-consumption-and-data-flow-check",
+  "tags": [
+    "analytics"
+  ],
+  "summary_markdown": "A participant inquired about the status of incoming data. Another confirmed that the data appeared to be flowing correctly for both date and hourly granularity. A later message noted that the RMS system was showing data consumption around 8 MB in the morning, which was considered good.",
+  "decisions": [],
+  "action_items": []
+}

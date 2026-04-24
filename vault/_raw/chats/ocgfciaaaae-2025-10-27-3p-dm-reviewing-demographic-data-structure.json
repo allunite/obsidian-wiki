@@ -1,0 +1,24 @@
+{
+  "chat_id": "oCgFCIAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2025-10-27",
+    "end": "2025-10-27"
+  },
+  "message_count": 8,
+  "topic": "Reviewing demographic data structure",
+  "topic_slug": "reviewing-demographic-data-structure",
+  "tags": [
+    "analytics",
+    "impression"
+  ],
+  "summary_markdown": "The conversation focused on reviewing and correcting the structure of demographic data. One participant confirmed that the current dataset appears to be limited only to Estonia, which is insufficient for proper analysis.\n\nAnother participant stated they made a fix specifically for 'areas of living' but did not alter other parts of the data structure.",
+  "decisions": [
+    "The demographic data needs expansion beyond just Estonia."
+  ],
+  "action_items": [
+    "[p1] will provide further guidance or return with more information regarding the required data scope."
+  ]
+}

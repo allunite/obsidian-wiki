@@ -1,0 +1,25 @@
+{
+  "chat_id": "0VorOYAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2023-04-25",
+    "end": "2023-04-25"
+  },
+  "message_count": 7,
+  "topic": "Facility naming and script adjustment for Brazil",
+  "topic_slug": "facility-naming-and-script-adjustment-for-brazil",
+  "tags": [
+    "analytics",
+    "facility"
+  ],
+  "summary_markdown": "The discussion centered on a data anomaly found in Brazilian facility records where two distinct physical locations (boxes/facilities) were assigned the same name, despite having different addresses and details. It was confirmed that this naming convention issue does not affect foreign keys or IDs, suggesting the script should handle it.\n\nA separate technical point raised concerned the logic for calculating `local_adjustment_factor` within a specific internal script. The speaker acknowledged an error in this calculation logic but stated they could fix it and would implement the correction pending approval from someone else (Galina).\n\nThe primary issue was deemed to be merely a naming convention problem, requiring minor adjustments by the person who created the facilities (Nastya).",
+  "decisions": [
+    "The facility name duplication is confirmed as a non-critical naming convention issue.",
+    "A fix for the `local_adjustment_factor` calculation logic will be implemented and requires final approval."
+  ],
+  "action_items": [
+    "Someone needs to make minor adjustments to the facility names created by Nastya."
+  ]
+}

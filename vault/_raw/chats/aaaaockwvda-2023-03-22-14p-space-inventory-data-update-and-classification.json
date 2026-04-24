@@ -1,0 +1,25 @@
+{
+  "chat_id": "AAAAOcKWvdA",
+  "kind": "Space",
+  "space_name": "Delivery Coordination",
+  "participants": 14,
+  "date_range": {
+    "start": "2023-03-22",
+    "end": "2023-03-22"
+  },
+  "message_count": 21,
+  "topic": "Inventory data update and classification",
+  "topic_slug": "inventory-data-update-and-classification",
+  "tags": [
+    "facility",
+    "frame",
+    "inventory"
+  ],
+  "summary_markdown": "The discussion focused on updating inventory data, specifically for JCD (Joe&TheJuice) assets. A new file containing SP inventory was shared, which includes updated asset positions (Lat/Long, address), frame types (Digital, Scrolling, Static), and IDs.\n\nIt was clarified that the 2,000 facilities listed in the new file are additions or changes provided by JCD. The existing database contains a larger number of assets (approximately 14k frames).\n\nThe consensus is that if this new file represents the only fresh data source, the current active inventory in the system should be maintained, and the assets from the attached file should be added/updated.",
+  "decisions": [
+    "The new SP inventory file provided by JCD will be used to update or add facilities."
+  ],
+  "action_items": [
+    "Someone needs to clarify any additional questions regarding the data with Nastya."
+  ]
+}

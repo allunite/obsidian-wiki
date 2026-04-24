@@ -1,0 +1,26 @@
+{
+  "chat_id": "nW_zkkAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2024-12-02",
+    "end": "2024-12-02"
+  },
+  "message_count": 33,
+  "topic": "Fixing dwell time cluster reporting gap",
+  "topic_slug": "fixing-dwell-time-cluster-reporting-gap",
+  "tags": [
+    "analytics",
+    "dwell-time",
+    "recalc-ch"
+  ],
+  "summary_markdown": "The discussion focused on a data discrepancy regarding the calculation of dwell time clusters across various networks. The initial issue was identified as a gap in reporting for the period of September 5th to September 21st, which was not available for all networks.\n\nIt was determined that an aggregation had been performed on September 5th, and an aggregate for the networks was subsequently inserted into the system. However, this change was only reflected in the recalculation (recalc) process on September 23rd, necessitating a manual re-aggregation of the data.\n\n[me] confirmed that the fix was implemented later in the day.",
+  "decisions": [
+    "The dwell time cluster reporting gap for networks between Sept 5th and Sept 21st needs to be fixed via re-aggregation."
+  ],
+  "action_items": [
+    "Review of Pharma TV data handling (potential exclusion from the fix) was discussed but not finalized.",
+    "Follow-up review scheduled for the next day."
+  ]
+}

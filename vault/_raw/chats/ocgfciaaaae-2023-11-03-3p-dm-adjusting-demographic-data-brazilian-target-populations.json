@@ -1,0 +1,25 @@
+{
+  "chat_id": "oCgFCIAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2023-11-03",
+    "end": "2023-11-03"
+  },
+  "message_count": 24,
+  "topic": "Adjusting demographic data for Brazilian target populations",
+  "topic_slug": "adjusting-demographic-data-brazilian-target-populations",
+  "tags": [
+    "analytics",
+    "inventory",
+    "campaign"
+  ],
+  "summary_markdown": "The discussion focused on discrepancies in demographic data for target populations, specifically concerning Brazil. The initial issue involved mismatched IDs when trying to link `demographic_area_data` with the target population table (`demographic_target`).\n\n*   **Data Structure Changes:** Someone modified the hierarchy structure by assigning three-digit codes to metropolitan areas.\n*   **Linking Issues:** It was noted that not all cities in São Paulo are correctly included under the metropolitan area, and linking city names from Wikipedia does not match existing database names.\n*   **Calculation Method:** One participant confirmed they had calculated demographic figures for metropolitan areas by multiplying the percentage of people living in the metro area by the total population figure. The other participant confirmed that they did not alter the core demographic data.",
+  "decisions": [
+    "The `demographic_target` table needs to be updated with new IDs for metropolitan areas."
+  ],
+  "action_items": [
+    "Someone needs to re-link or adjust the target population data in the specified tables, particularly concerning metropolitan area definitions and ID consistency."
+  ]
+}

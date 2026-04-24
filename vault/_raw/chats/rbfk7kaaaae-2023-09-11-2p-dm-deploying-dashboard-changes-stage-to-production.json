@@ -1,0 +1,21 @@
+{
+  "chat_id": "rBfK7kAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 2,
+  "date_range": {
+    "start": "2023-09-11",
+    "end": "2023-09-11"
+  },
+  "message_count": 9,
+  "topic": "Deploying dashboard changes from stage to production",
+  "topic_slug": "deploying-dashboard-changes-stage-to-production",
+  "tags": [
+    "analytics"
+  ],
+  "summary_markdown": "The conversation focused on deploying recent changes made by someone to a dashboard. The initial discussion clarified that the goal was not data migration, but rather transferring front-end logic/updates from the staging (stage) environment to the production (prod) environment. [me] confirmed understanding of the scope and proceeded with the deployment.",
+  "decisions": [
+    "Front-end changes made on stage will be deployed to prod."
+  ],
+  "action_items": []
+}

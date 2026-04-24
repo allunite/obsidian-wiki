@@ -1,0 +1,27 @@
+{
+  "chat_id": "AAAA3oghITo",
+  "kind": "Space",
+  "space_name": "Кабаны",
+  "participants": 4,
+  "date_range": {
+    "start": "2022-04-21",
+    "end": "2022-04-21"
+  },
+  "message_count": 122,
+  "topic": "Database cleanup and ownership transfer on sandbox",
+  "topic_slug": "database-cleanup-ownership-transfer-sandbox",
+  "tags": [
+    "analytics",
+    "facility",
+    "inventory"
+  ],
+  "summary_markdown": "The discussion focused heavily on database maintenance, specifically transferring ownership of various tables and views in the `analytics` database to a specific user (`papa`) within the sandbox environment. Multiple SQL scripts were executed to achieve this.\n\nAdditionally, there was a decision made to drop the entire `allunite` database from the sandbox PostgreSQL server, as it was deemed incorrect for the analytics data.\n\nFinally, access issues regarding ClickHouse credentials on the sandbox environment were discussed and resolved.",
+  "decisions": [
+    "Transfer ownership of tables and views in the 'analytics' database to user 'papa'.",
+    "Drop the entire 'allunite' database from the sandbox PostgreSQL server."
+  ],
+  "action_items": [
+    "Verify that all necessary data structures (tables, views) are correctly owned by 'papa' on the analytics sandbox database.",
+    "Confirm ClickHouse access credentials for the sandbox environment."
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "chat_id": "AAAAy7Yj6Xo",
+  "kind": "Space",
+  "space_name": "IT",
+  "participants": 12,
+  "date_range": {
+    "start": "2021-03-01",
+    "end": "2021-03-01"
+  },
+  "message_count": 10,
+  "topic": "IT Roadmap and Upcoming Feature Releases",
+  "topic_slug": "it-roadmap-and-upcoming-feature-releases",
+  "tags": [
+    "analytics",
+    "dashboard",
+    "campaign"
+  ],
+  "summary_markdown": "A roadmap was outlined covering several IT initiatives. These include: locally administered systems only, integration of AllUnite LiDAR, and dashboard improvements for mall and airport projects (specifically a track-to-store update dashboard). Other planned features involve an impression model, setting up data monitoring/health checks, firmware updates from Teltonika, and Confluence permissions.\n\nDiscussion focused on the timing of announcing the next release. [p1] indicated that the announcement should happen within the week or so.",
+  "decisions": [
+    "The IT roadmap includes LiDAR integration, dashboard improvements for mall/airport projects, an impression model, and data monitoring setup."
+  ],
+  "action_items": [
+    "[p1] needs to clarify the timing of announcing the next release (within the week or so)."
+  ]
+}

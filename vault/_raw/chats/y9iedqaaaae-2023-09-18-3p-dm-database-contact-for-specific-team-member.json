@@ -1,0 +1,19 @@
+{
+  "chat_id": "y9IEDQAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2023-09-18",
+    "end": "2023-09-18"
+  },
+  "message_count": 4,
+  "topic": "Database contact for specific team member",
+  "topic_slug": "database-contact-for-specific-team-member",
+  "tags": [
+    "analytics"
+  ],
+  "summary_markdown": "The conversation was a brief exchange confirming the best point of contact regarding database matters. [me] suggested that 'Саше' is the most knowledgeable and responsible person on the team for this topic.",
+  "decisions": [],
+  "action_items": []
+}

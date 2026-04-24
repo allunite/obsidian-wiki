@@ -1,0 +1,24 @@
+{
+  "chat_id": "y9IEDQAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2024-08-21",
+    "end": "2024-08-21"
+  },
+  "message_count": 17,
+  "topic": "Data API access and documentation sharing",
+  "topic_slug": "data-api-access-and-documentation-sharing",
+  "tags": [
+    "analytics",
+    "inventory"
+  ],
+  "summary_markdown": "The conversation focused on providing client access to the internal data API (JCD FI). [me] requested the final documentation or presentation materials that [p1] had previously used when explaining the data API, specifically mentioning Swagger links and call examples. [p1] provided a link to the existing data API documentation. Later in the session, [p1] shared a new page for opt-out functionality. The discussion concluded with technical troubleshooting regarding database configuration errors (ClickHouse), which both parties addressed.",
+  "decisions": [
+    "The current data API documentation link was provided for client access."
+  ],
+  "action_items": [
+    "[me] to create and share the comprehensive guide/documentation for the data API with [p1]."
+  ]
+}

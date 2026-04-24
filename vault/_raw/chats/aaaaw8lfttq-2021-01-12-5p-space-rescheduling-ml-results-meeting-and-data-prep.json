@@ -1,0 +1,24 @@
+{
+  "chat_id": "AAAAw8LFttQ",
+  "kind": "Space",
+  "space_name": "Data",
+  "participants": 5,
+  "date_range": {
+    "start": "2021-01-12",
+    "end": "2021-01-12"
+  },
+  "message_count": 4,
+  "topic": "Rescheduling ML results meeting and data prep",
+  "topic_slug": "rescheduling-ml-results-meeting-and-data-prep",
+  "tags": [
+    "analytics",
+    "recalc-ch"
+  ],
+  "summary_markdown": "The initial ML results meeting was postponed because the analysis is not yet ready. The presenter needs to incorporate new Mall manual countings and recalculate data, noting that the Mall results are currently insufficient for presentation.\n\nThe meeting time was rescheduled for Thursday morning.",
+  "decisions": [
+    "ML results meeting moved to Thursday morning"
+  ],
+  "action_items": [
+    "Recalculate data using new Mall manual countings before the ML results meeting."
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "chat_id": "8GgAuwAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 2,
+  "date_range": {
+    "start": "2022-11-03",
+    "end": "2022-11-03"
+  },
+  "message_count": 41,
+  "topic": "Dwell time calculation discrepancies across reports",
+  "topic_slug": "dwell-time-calculation-discrepancies-across-reports",
+  "tags": [
+    "analytics",
+    "dwell-time",
+    "facility"
+  ],
+  "summary_markdown": "The discussion focused on a client query regarding inconsistencies in dwell-time metrics. Specifically, the average dwell-time calculated at the company level differs from the averages reported by individual facilities or displayed on dashboards.\n\nIt was established that the company-level metric calculates the true weighted average of all sessions (total duration / total number of sessions), rather than a simple average of facility averages (average of averages).\n\nThe discrepancy is expected due to mathematical principles, as the average of averages is not equal to the overall average. The conversation concluded with plans for [me] to investigate specific data points and report findings.",
+  "decisions": [
+    "The company-level dwell-time metric uses a weighted average (total duration / total sessions).",
+    "The difference between facility-specific averages and the company average is expected due to mathematical principles."
+  ],
+  "action_items": [
+    "[me] will investigate specific data points regarding the dwell-time discrepancy, particularly for dates like 2022-10-14."
+  ]
+}

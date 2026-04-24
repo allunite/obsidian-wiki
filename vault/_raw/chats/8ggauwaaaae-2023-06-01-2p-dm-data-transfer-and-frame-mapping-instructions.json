@@ -1,0 +1,23 @@
+{
+  "chat_id": "8GgAuwAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 2,
+  "date_range": {
+    "start": "2023-06-01",
+    "end": "2023-06-01"
+  },
+  "message_count": 8,
+  "topic": "Data transfer and frame mapping instructions",
+  "topic_slug": "data-transfer-and-frame-mapping-instructions",
+  "tags": [
+    "facility",
+    "frame"
+  ],
+  "summary_markdown": "The conversation focused on clarifying data handling for a project. Regarding point 2, the instruction was given to use coordinates already defined in the facility system rather than those from a spreadsheet (sheet). For point 1, it was confirmed that only frames needed to be copied/transferred, and no complex merging of other fields was required.",
+  "decisions": [
+    "Use existing facility coordinates for mapping.",
+    "Only transfer frames for point 1; do not merge other data fields."
+  ],
+  "action_items": []
+}

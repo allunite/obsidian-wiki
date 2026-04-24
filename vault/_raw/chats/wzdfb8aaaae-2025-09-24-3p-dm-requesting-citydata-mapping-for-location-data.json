@@ -1,0 +1,23 @@
+{
+  "chat_id": "wZDFB8AAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2025-09-24",
+    "end": "2025-09-24"
+  },
+  "message_count": 5,
+  "topic": "Requesting citydata mapping for location data",
+  "topic_slug": "requesting-citydata-mapping-for-location-data",
+  "tags": [
+    "analytics"
+  ],
+  "summary_markdown": "The discussion centered on obtaining better geographical data. [p1] mentioned that Galina returned some archives in a ticket and offered to request more information from Citydata if needed. [me] requested specific mapping data: the mapping from `admin_shape_id` to latitude/longitude (or full polygon), noting that while Galina's workaround was sufficient, Citydata mapping would be optimal.\n\n[p1] confirmed they had asked Cany for the required data and will follow up. If the data is not received today, [me] agreed that proceeding with Galina’s provided method tomorrow is acceptable.",
+  "decisions": [
+    "Proceeding with Galina's workaround if Citydata mapping is unavailable by end of day."
+  ],
+  "action_items": [
+    "[p1] to check with Cany regarding the `admin_shape_id` to lat/lon mapping data."
+  ]
+}

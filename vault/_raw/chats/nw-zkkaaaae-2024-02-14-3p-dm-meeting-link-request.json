@@ -1,0 +1,19 @@
+{
+  "chat_id": "nW_zkkAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2024-02-14",
+    "end": "2024-02-14"
+  },
+  "message_count": 3,
+  "topic": "Meeting link request",
+  "topic_slug": "meeting-link-request",
+  "tags": [],
+  "summary_markdown": "A participant requested a meeting link and provided a Google Meet URL.",
+  "decisions": [],
+  "action_items": [
+    "N/A"
+  ]
+}

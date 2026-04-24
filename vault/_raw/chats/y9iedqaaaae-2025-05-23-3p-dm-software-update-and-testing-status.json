@@ -1,0 +1,23 @@
+{
+  "chat_id": "y9IEDQAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2025-05-23",
+    "end": "2025-05-23"
+  },
+  "message_count": 10,
+  "topic": "Software update and testing status",
+  "topic_slug": "software-update-and-testing-status",
+  "tags": [
+    "analytics"
+  ],
+  "summary_markdown": "The conversation briefly discussed a software release (version 25.5) which includes features like 'Support scalar correlated subqueries in the WHERE clause' and beta functionality for 'Vector search using the vector similarity index'. The participants agreed to wait for minor builds before deploying this update, with one participant confirming they would deploy it onto a sandbox environment.",
+  "decisions": [
+    "Wait for several minor builds before deployment."
+  ],
+  "action_items": [
+    "[p1] will deploy the software version onto the sandbox environment."
+  ]
+}

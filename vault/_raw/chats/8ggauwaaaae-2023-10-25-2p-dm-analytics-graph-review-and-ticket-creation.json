@@ -1,0 +1,21 @@
+{
+  "chat_id": "8GgAuwAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 2,
+  "date_range": {
+    "start": "2023-10-25",
+    "end": "2023-10-25"
+  },
+  "message_count": 5,
+  "topic": "Analytics graph review and ticket creation",
+  "topic_slug": "analytics-graph-review-and-ticket-creation",
+  "tags": [
+    "analytics"
+  ],
+  "summary_markdown": "A user questioned a 3D analytics graph provided via a link. Subsequently, [me] requested that a support ticket be created for them.",
+  "decisions": [],
+  "action_items": [
+    "Create an Atlassian ticket (JCDEC-985) as requested."
+  ]
+}

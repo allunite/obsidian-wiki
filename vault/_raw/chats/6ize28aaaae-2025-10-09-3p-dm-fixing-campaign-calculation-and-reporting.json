@@ -1,0 +1,26 @@
+{
+  "chat_id": "6ize28AAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2025-10-09",
+    "end": "2025-10-09"
+  },
+  "message_count": 10,
+  "topic": "Fixing campaign calculation and reporting",
+  "topic_slug": "fixing-campaign-calculation-and-reporting",
+  "tags": [
+    "analytics",
+    "campaign",
+    "dwell-time",
+    "recalc-ch"
+  ],
+  "summary_markdown": "A bug was identified in the job responsible for calculating the airing period, causing it to incorrectly use default local frequency formulas, reach, and dwell time instead of pulling data linked to the campaign's associated company. This issue has been fixed and redeployed.\n\nLater, a request came from finance requiring report detail down to the frame level. If this new reporting requirement is implemented, the existing discrepancies mentioned above will also be corrected.",
+  "decisions": [
+    "The bug in the airing period calculation job was fixed and redeployed."
+  ],
+  "action_items": [
+    "[me] needs to add the finance's request for frame-level report detail into a task."
+  ]
+}

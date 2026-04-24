@@ -1,0 +1,21 @@
+{
+  "chat_id": "mQzF6wAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 2,
+  "date_range": {
+    "start": "2023-06-26",
+    "end": "2023-06-26"
+  },
+  "message_count": 5,
+  "topic": "Database query for asset log review",
+  "topic_slug": "database-query-for-asset-log-review",
+  "tags": [
+    "analytics"
+  ],
+  "summary_markdown": "Someone shared a SQL query (`select * from asset_log order by created desc limit 10;`) to view the last 10 entries in the `asset_log` table. The purpose is to track changes and identify who made them.",
+  "decisions": [],
+  "action_items": [
+    "p1 will execute the provided SQL query on PostgreSQL and review the results."
+  ]
+}

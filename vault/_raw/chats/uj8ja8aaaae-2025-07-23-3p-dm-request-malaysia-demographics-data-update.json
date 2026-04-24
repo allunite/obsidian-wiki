@@ -1,0 +1,21 @@
+{
+  "chat_id": "uJ8JA8AAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2025-07-23",
+    "end": "2025-07-23"
+  },
+  "message_count": 3,
+  "topic": "Request for Malaysia demographics and data update",
+  "topic_slug": "request-malaysia-demographics-data-update",
+  "tags": [
+    "analytics"
+  ],
+  "summary_markdown": "Someone requested the demographic data for Malaysia by the end of the week. Later, [me] asked someone to add a list of `company_num` into the ticket, which was then completed.",
+  "decisions": [],
+  "action_items": [
+    "Complete and deliver Malaysia demographics report by end of week"
+  ]
+}

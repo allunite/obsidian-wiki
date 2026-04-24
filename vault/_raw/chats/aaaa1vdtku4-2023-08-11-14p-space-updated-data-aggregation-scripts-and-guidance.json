@@ -1,0 +1,23 @@
+{
+  "chat_id": "AAAA1vdtku4",
+  "kind": "Space",
+  "space_name": "DataTeam+",
+  "participants": 14,
+  "date_range": {
+    "start": "2023-08-11",
+    "end": "2023-08-11"
+  },
+  "message_count": 3,
+  "topic": "Updated data aggregation scripts and guidance",
+  "topic_slug": "updated-data-aggregation-scripts-and-guidance",
+  "tags": [
+    "analytics"
+  ],
+  "summary_markdown": "The user provided an update regarding room membership and shared critical information about deprecated data sources. Specifically, the `device_session_agg_4` source is no longer reliable. To prevent data loss, updated scripts were distributed for two key processes: 1. Aggregating Machine Learning (ML) data to staging. 2. Copying data from staging to production.",
+  "decisions": [
+    "Updated scripts must be used for ML-to-staging and stage-to-prod aggregation."
+  ],
+  "action_items": [
+    "Users should utilize the provided GitHub links for updated data processing scripts."
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "chat_id": "oq-w0kAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2023-10-25",
+    "end": "2023-10-25"
+  },
+  "message_count": 3,
+  "topic": "Luggage storage instructions for Krakow",
+  "topic_slug": "luggage-storage-instructions-for-krakow",
+  "tags": [],
+  "summary_markdown": "The conversation concerns temporary luggage storage arrangements in Krakow. [p1] inquired about leaving several suitcases, noting the location lacks a dedicated closet space and that items would need to be placed in a corner of a room.\n[me] provided specific instructions for stacking and placing the bags: one large suitcase, one large bag (which can be stacked on top of the first), and a large shopping-style bag (like an ATB grocery bag) which could also be placed on top.",
+  "decisions": [
+    "Luggage will be stored in the corner of the room."
+  ],
+  "action_items": []
+}

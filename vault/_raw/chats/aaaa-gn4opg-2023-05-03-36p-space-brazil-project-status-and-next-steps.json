@@ -1,0 +1,19 @@
+{
+  "chat_id": "AAAA-gn4oPg",
+  "kind": "Space",
+  "space_name": "General and random",
+  "participants": 36,
+  "date_range": {
+    "start": "2023-05-03",
+    "end": "2023-05-03"
+  },
+  "message_count": 4,
+  "topic": "Brazil project status and next steps",
+  "topic_slug": "brazil-project-status-and-next-steps",
+  "tags": [
+    "campaign"
+  ],
+  "summary_markdown": "A participant provided a general update on their trip to Brazil, mentioning meetings with various agencies (clear, rzk, omnicom) and upcoming meetings with JCD and electromidia. The overall project in Brazil is progressing to the next stages, including discussions about the São Paulo metro.",
+  "decisions": [],
+  "action_items": []
+}

@@ -1,0 +1,25 @@
+{
+  "chat_id": "oCgFCIAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2022-10-28",
+    "end": "2022-10-28"
+  },
+  "message_count": 17,
+  "topic": "Updating mops framework version",
+  "topic_slug": "updating-mops-framework-version",
+  "tags": [
+    "analytics",
+    "mops"
+  ],
+  "summary_markdown": "The conversation focused on updating the MOPs repository to incorporate the latest JSON Forms version and address Angular compatibility issues. It was noted that upgrading frameworks, particularly from Angular 13 to 14, caused unexpected bugs (e.g., refresh issues with added tabs). A decision was made to deploy the updated code to development for testing and debugging any new issues.",
+  "decisions": [
+    "The MOPs repository will be updated to use the latest JSON Forms version.",
+    "The codebase will be deployed to the development environment for thorough testing."
+  ],
+  "action_items": [
+    "Change the version number in the repository to 0.14.XX"
+  ]
+}

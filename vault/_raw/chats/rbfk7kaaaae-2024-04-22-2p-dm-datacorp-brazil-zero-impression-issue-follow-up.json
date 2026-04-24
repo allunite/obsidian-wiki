@@ -1,0 +1,22 @@
+{
+  "chat_id": "rBfK7kAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 2,
+  "date_range": {
+    "start": "2024-04-22",
+    "end": "2024-04-22"
+  },
+  "message_count": 6,
+  "topic": "DataCorp Brazil zero impression issue follow-up",
+  "topic_slug": "datacorp-brazil-zero-impression-issue-follow-up",
+  "tags": [
+    "analytics",
+    "impression"
+  ],
+  "summary_markdown": "A discussion was initiated regarding a reported problem of zero impressions for DataCorp in Brazil. The conversation consisted primarily of scheduling delays and acknowledgments, with no technical details or solutions provided.",
+  "decisions": [],
+  "action_items": [
+    "Follow up on the zero impression issue for DataCorp, Brazil."
+  ]
+}

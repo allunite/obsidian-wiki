@@ -1,0 +1,19 @@
+{
+  "chat_id": "AAAA9ybOLwM",
+  "kind": "Space",
+  "space_name": "ИТ",
+  "participants": 8,
+  "date_range": {
+    "start": "2022-09-22",
+    "end": "2022-09-22"
+  },
+  "message_count": 7,
+  "topic": "Antenna painting and radio waves",
+  "topic_slug": "antenna-painting-and-radio-waves",
+  "tags": [
+    "analytics"
+  ],
+  "summary_markdown": "A discussion arose regarding the feasibility of painting an antenna, specifically to match a screen color or prevent sun fading. Someone advised that paint generally does not affect radio waves, suggesting it be painted with a thin layer on one side initially.",
+  "decisions": [],
+  "action_items": []
+}

@@ -1,0 +1,21 @@
+{
+  "chat_id": "i6YI1QAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 2,
+  "date_range": {
+    "start": "2025-09-12",
+    "end": "2025-09-12"
+  },
+  "message_count": 12,
+  "topic": "Project timeline and priority update",
+  "topic_slug": "project-timeline-and-priority-update",
+  "tags": [
+    "analytics"
+  ],
+  "summary_markdown": "The conversation focused on estimating the time required for a specific task linked in ClickUp. Initially, [me] provided an optimistic estimate of 2 hours and a pessimistic estimate of 8 hours, stating it could be completed in 4 hours without distractions. Later, [p1] approved the work and requested that the priority be raised. [me] acknowledged the task's complexity.",
+  "decisions": [
+    "The project priority was increased."
+  ],
+  "action_items": []
+}

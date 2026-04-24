@@ -1,0 +1,19 @@
+{
+  "chat_id": "xdx5dQAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 2,
+  "date_range": {
+    "start": "2022-08-09",
+    "end": "2022-08-09"
+  },
+  "message_count": 23,
+  "topic": "Staffing and hiring frustrations discussion",
+  "topic_slug": "staffing-and-hiring-frustrations-discussion",
+  "tags": [
+    "analytics"
+  ],
+  "summary_markdown": "The conversation focused on the difficulties encountered during interviews and staffing processes. One participant expressed frustration with the current hiring environment, suggesting that 'younger teams' are selecting candidates based on personal connections rather than technical competence.\n\nRegarding budget expectations for talent, it was noted that some individuals prefer higher budgets (e.g., 7-7.5K Romanian currency), which previously led to assumptions that the company could not afford such sums. However, it was concluded that the company is capable of meeting these higher budgets; the issue lies with internal HR processes.\n\nThe overall sentiment was one of frustration regarding the perceived lack of professionalism and excessive demands from potential hires.",
+  "decisions": [],
+  "action_items": []
+}

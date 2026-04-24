@@ -1,0 +1,28 @@
+{
+  "chat_id": "y9IEDQAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2024-05-23",
+    "end": "2024-05-23"
+  },
+  "message_count": 43,
+  "topic": "Raw data sample structure and fields",
+  "topic_slug": "raw-data-sample-structure-and-fields",
+  "tags": [
+    "analytics",
+    "session",
+    "campaign"
+  ],
+  "summary_markdown": "The conversation focused on providing a raw data sample for daily use. It was decided that the vendor directory (sправочник вендоров) would be shared, along with an internal `vendor_id`. Regarding the timestamp fields in the raw data, it was agreed to rename them for clarity: `event_time` should remain for router arrival time, and new names like `srv_time` and `box_time` should be used. The sample file was updated and provided.\n\nLater, a discussion occurred about whether the raw data included a field for the count of samples with a specific signal level, which seemed to have been added during traffic optimization. It was noted that this field might not have been properly documented or remembered by someone.",
+  "decisions": [
+    "The vendor directory and internal vendor_id will be provided as part of the raw data sample.",
+    "Timestamp fields in the raw data should be renamed for clarity (e.g., using srv_time and box_time).",
+    "A new, updated sample file was created and shared."
+  ],
+  "action_items": [
+    "Provide the daily raw data sample file.",
+    "Review the necessity of a dedicated field for counting samples with specific signal levels in the raw data."
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "chat_id": "AAAAB4lIPLI",
+  "kind": "Space",
+  "space_name": "Group Chat",
+  "participants": 3,
+  "date_range": {
+    "start": "2022-12-19",
+    "end": "2022-12-19"
+  },
+  "message_count": 15,
+  "topic": "Prioritizing design and inventory development",
+  "topic_slug": "prioritizing-design-and-inventory-development",
+  "tags": [
+    "analytics",
+    "inventory"
+  ],
+  "summary_markdown": "The team discussed the prioritization of current development tasks. It was decided that improving the overall design should take precedence over building out forms within the inventory section, as the latter can wait until next year.\n\n[me] created two Jira tasks (JCDEC-696 and JCDEC-699) for follow-up on these items.\n\nRegarding the inventory development, [p1] noted that only a framework exists, meaning fields are not yet being modified. [me] confirmed that the team will manage to complete the necessary work.",
+  "decisions": [
+    "Focus efforts on design improvements before developing forms in the inventory section",
+    "Forms for the inventory section development can be postponed until next year"
+  ],
+  "action_items": [
+    "[p2] to add tasks or prioritize existing ones for Polina"
+  ]
+}

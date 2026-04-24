@@ -1,0 +1,22 @@
+{
+  "chat_id": "nW_zkkAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2024-11-25",
+    "end": "2024-11-25"
+  },
+  "message_count": 9,
+  "topic": "Forecasting traffic from session data",
+  "topic_slug": "forecasting-traffic-from-session-data",
+  "tags": [
+    "analytics",
+    "session"
+  ],
+  "summary_markdown": "A discussion occurred regarding the ability to forecast traffic when sensor data is unavailable (due to a power outage). It was confirmed that forecasting works for session data. To view this capability, one should filter the aggregated 'favorite companies' list using `is_fake`.",
+  "decisions": [
+    "Forecasting is possible and functional within session data."
+  ],
+  "action_items": []
+}

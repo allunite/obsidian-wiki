@@ -1,0 +1,27 @@
+{
+  "chat_id": "rBfK7kAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 2,
+  "date_range": {
+    "start": "2023-07-14",
+    "end": "2023-07-14"
+  },
+  "message_count": 34,
+  "topic": "Updating device session staging table fields",
+  "topic_slug": "updating-device-session-staging-table-fields",
+  "tags": [
+    "analytics",
+    "facility"
+  ],
+  "summary_markdown": "The conversation focused on modifying the `device_session_agg_ml_staging` table. Initially, the request was for three new calculated fields: `rots = predicted * 0.5`, `vac = predicted * 0.45`, and `impressions = predicted* 4.5`. The required data type was determined to be integer (`int`).\n\nAfter clarification, it was decided that these fields should not be views but permanent columns in the table. They must be initialized with the specified formulas for existing data, while allowing future manual population by someone.\n\nThe implementation involved adding the columns with default values (using ClickHouse functionality) so that they are populated either by the formula or by subsequent inserts.",
+  "decisions": [
+    "Add three new integer columns (`rots`, `vac`, `impressions`) to the `device_session_agg_ml_staging` table.",
+    "The new columns must be initialized using the formulas: `rots = predicted * 0.5`, `vac = predicted * 0.45`, and `impressions = predicted* 4.5` for existing data.",
+    "The fields should function as permanent columns, not views."
+  ],
+  "action_items": [
+    "Use `facility_dict` instead of the deprecated `facility` column when referencing facility frames in ClickHouse (CH).",
+    "Someone will write documentation regarding Brazil once the work there is complete to help a new team member onboard."
+  ]
+}

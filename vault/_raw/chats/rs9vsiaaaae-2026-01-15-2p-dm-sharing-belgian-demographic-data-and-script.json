@@ -1,0 +1,21 @@
+{
+  "chat_id": "rS9vSiAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 2,
+  "date_range": {
+    "start": "2026-01-15",
+    "end": "2026-01-15"
+  },
+  "message_count": 3,
+  "topic": "Sharing Belgian demographic data and script",
+  "topic_slug": "sharing-belgian-demographic-data-and-script",
+  "tags": [
+    "analytics"
+  ],
+  "summary_markdown": "Someone shared a link to Belgian demographic data. They also mentioned creating a script to generate these tables, inviting feedback or questions for refinement.",
+  "decisions": [],
+  "action_items": [
+    "Review the provided Belgian demographic data and script."
+  ]
+}

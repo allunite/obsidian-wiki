@@ -1,0 +1,20 @@
+{
+  "chat_id": "AAAAl4SgH7c",
+  "kind": "Space",
+  "space_name": "Lithuania_old",
+  "participants": 6,
+  "date_range": {
+    "start": "2021-10-12",
+    "end": "2021-10-12"
+  },
+  "message_count": 21,
+  "topic": "Monitoring outdoor advertising traffic data",
+  "topic_slug": "monitoring-outdoor-advertising-traffic-data",
+  "tags": [
+    "analytics",
+    "impression"
+  ],
+  "summary_markdown": "The discussion centered on an article detailing AllUnite's monitoring of real-time digital out-of-home (DOOH) advertising traffic in Lithuania. The core finding highlighted the accuracy of the data, noting that representatives monitored city traffic and compared it with sensor data, achieving a low average error rate (around 6%). This demonstrated the capability to calculate flow even when devices are stationary within the measured radius.",
+  "decisions": [],
+  "action_items": []
+}

@@ -1,0 +1,24 @@
+{
+  "chat_id": "uJ8JA8AAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2025-07-25",
+    "end": "2025-07-25"
+  },
+  "message_count": 4,
+  "topic": "Enable dwell time for Finnish companies",
+  "topic_slug": "enable-dwell-time-finnish-companies",
+  "tags": [
+    "dwell-time",
+    "analytics"
+  ],
+  "summary_markdown": "A request was made to enable 'dwell time' calculation on the production environment for all Finnish companies, matching the method used in staging. It was agreed that a ticket should be created to track this task.",
+  "decisions": [
+    "Dwell time needs to be enabled on prod for all Finnish companies."
+  ],
+  "action_items": [
+    "Create a ticket (reference provided) and include a list of company numbers or IDs."
+  ]
+}

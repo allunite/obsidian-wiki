@@ -1,0 +1,26 @@
+{
+  "chat_id": "0VorOYAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2022-10-31",
+    "end": "2022-10-31"
+  },
+  "message_count": 33,
+  "topic": "Data migration and dwell time calculation",
+  "topic_slug": "data-migration-and-dwell-time-calculation",
+  "tags": [
+    "analytics",
+    "dwell-time",
+    "facility"
+  ],
+  "summary_markdown": "The conversation covered data discrepancies observed in the staging environment, specifically regarding unique counts (uniques) and total values after sample recalculation. The issue was resolved by confirming that historical data had been recalculated up to a specific date.\n\nLater, discussions focused on extracting dwell-time metrics for an entire mall rather than per sensor. A complex SQL query was provided to calculate average dwell time using current and new calculation methods across the facility master number.\n\nFinally, it was decided that the existing reporting method (the one currently working in staging) needed to be migrated from the staging environment to production. The data migration was completed by [me].",
+  "decisions": [
+    "The dwell-time calculation logic used in staging must be applied and enabled on the production environment.",
+    "Data discrepancies regarding uniques/totals were resolved after confirming historical recalculation."
+  ],
+  "action_items": [
+    "Ensure the method for calculating dwell time is correctly implemented and activated on the production system."
+  ]
+}

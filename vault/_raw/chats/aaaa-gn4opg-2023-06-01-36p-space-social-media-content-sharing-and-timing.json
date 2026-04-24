@@ -1,0 +1,21 @@
+{
+  "chat_id": "AAAA-gn4oPg",
+  "kind": "Space",
+  "space_name": "General and random",
+  "participants": 36,
+  "date_range": {
+    "start": "2023-06-01",
+    "end": "2023-06-01"
+  },
+  "message_count": 8,
+  "topic": "Social media content sharing and timing",
+  "topic_slug": "social-media-content-sharing-and-timing",
+  "tags": [
+    "campaign"
+  ],
+  "summary_markdown": "The participants discussed sharing external company posts, specifically a LinkedIn post regarding gathering activity. The timing of the reposting was adjusted to ensure multiple posts were not made too close together. A specific JCD LV Facebook post with high engagement (1000+ shares) was also shared for review.",
+  "decisions": [
+    "Content will be reposted on a different day to avoid excessive posting frequency."
+  ],
+  "action_items": []
+}

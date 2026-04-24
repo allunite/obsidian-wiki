@@ -1,0 +1,22 @@
+{
+  "chat_id": "y9IEDQAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2024-03-31",
+    "end": "2024-03-31"
+  },
+  "message_count": 13,
+  "topic": "Converting disk formats for better performance",
+  "topic_slug": "converting-disk-formats-for-better-performance",
+  "tags": [
+    "analytics",
+    "inventory"
+  ],
+  "summary_markdown": "The discussion focused on optimizing data storage and transfer rates, specifically comparing 'standard' (old format) vs. 'st1' conversion.\n\n*   **Performance Concern:** [me] noted that the 'cold' environment seemed significantly slower than others.\n*   **Conversion Recommendation:** It was agreed that converting to st1 is preferable because the team does not frequently use the cold storage, and accumulating credits for bursts is beneficial. Furthermore, st1 offers linearly increasing speed based on volume.\n*   **Data Comparison:** [me] provided specific transfer rate data: 'standard' claims 40-90 MiB/s, but actual transfers were observed at 60-65 MiB/s (on 01-03) and only 22-23 MiB/s (on 04). For a 400GB capacity, st1 would provide 16 units in base and up to 100 burst. For an 800GB capacity, this translates to 32 units / 200 burst.",
+  "decisions": [
+    "Convert data format from 'standard' to st1."
+  ],
+  "action_items": []
+}

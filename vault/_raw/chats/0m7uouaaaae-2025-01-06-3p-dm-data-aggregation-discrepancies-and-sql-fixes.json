@@ -1,0 +1,25 @@
+{
+  "chat_id": "0m7UOUAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2025-01-06",
+    "end": "2025-01-06"
+  },
+  "message_count": 17,
+  "topic": "Data aggregation discrepancies and SQL fixes",
+  "topic_slug": "data-aggregation-discrepancies-and-sql-fixes",
+  "tags": [
+    "analytics",
+    "impression",
+    "dwell-time"
+  ],
+  "summary_markdown": "The discussion focused on data integrity issues within aggregated analytics tables. Initial concerns included missing demographic parameters and discrepancies in record counts for hourly aggregates (e.g., two records per hour). The issue was traced to differing record counts when running aggregation queries against the same dataset using different parameter settings (`alex_test_1` vs `alex_test_2`), even though daily metric sums appeared consistent.\n\nA potential solution suggested was modifying the SQL query structure by wrapping the final selection in a `SELECT ... FROM ... FINAL WHERE ...` clause, which resolved the record count mismatch.",
+  "decisions": [
+    "The aggregation process needs review to ensure consistent record counts across different dataset runs."
+  ],
+  "action_items": [
+    "Implement `SELECT ... FROM ... FINAL WHERE ...` structure in relevant SQL queries to stabilize data aggregation results."
+  ]
+}

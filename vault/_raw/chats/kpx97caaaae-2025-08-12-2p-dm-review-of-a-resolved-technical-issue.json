@@ -1,0 +1,19 @@
+{
+  "chat_id": "kPX97cAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 2,
+  "date_range": {
+    "start": "2025-08-12",
+    "end": "2025-08-12"
+  },
+  "message_count": 5,
+  "topic": "Review of a resolved technical issue",
+  "topic_slug": "review-of-a-resolved-technical-issue",
+  "tags": [
+    "analytics"
+  ],
+  "summary_markdown": "The conversation briefly discussed a simple problem that was resolved. It was noted that the fault appeared to be on the client side and not related to the platform.",
+  "decisions": [],
+  "action_items": []
+}

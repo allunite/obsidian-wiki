@@ -1,0 +1,21 @@
+{
+  "chat_id": "y9IEDQAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2024-03-02",
+    "end": "2024-03-02"
+  },
+  "message_count": 3,
+  "topic": "Scheduling a meeting for tomorrow",
+  "topic_slug": "scheduling-a-meeting-for-tomorrow",
+  "tags": [],
+  "summary_markdown": "The participants discussed scheduling a meeting. [p1] mentioned being in Berlin today and having documents to handle, suggesting they meet the following evening. [me] acknowledged this and agreed to reschedule.",
+  "decisions": [
+    "Meeting rescheduled for tomorrow"
+  ],
+  "action_items": [
+    "Someone needs to move the existing calendar meeting."
+  ]
+}

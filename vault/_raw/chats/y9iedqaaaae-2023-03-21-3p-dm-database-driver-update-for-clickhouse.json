@@ -1,0 +1,21 @@
+{
+  "chat_id": "y9IEDQAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2023-03-21",
+    "end": "2023-03-21"
+  },
+  "message_count": 3,
+  "topic": "Database driver update for ClickHouse",
+  "topic_slug": "database-driver-update-for-clickhouse",
+  "tags": [
+    "analytics"
+  ],
+  "summary_markdown": "Someone requested updating the PostgreSQL driver used with ClickHouse. The current setup, which uses a native CH driver, works but requires embedding passwords in the DDL, which is undesirable.",
+  "decisions": [],
+  "action_items": [
+    "p1 will update the database driver."
+  ]
+}

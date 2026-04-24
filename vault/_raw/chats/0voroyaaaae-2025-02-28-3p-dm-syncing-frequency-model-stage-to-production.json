@@ -1,0 +1,25 @@
+{
+  "chat_id": "0VorOYAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2025-02-28",
+    "end": "2025-02-28"
+  },
+  "message_count": 42,
+  "topic": "Syncing frequency model from stage to production",
+  "topic_slug": "syncing-frequency-model-stage-to-production",
+  "tags": [
+    "analytics",
+    "campaign",
+    "facility"
+  ],
+  "summary_markdown": "The discussion focused on synchronizing data and models between the staging (stage) and production (prod) environments. Initially, [me] restored the stage environment from a model to ensure data integrity.\n\nLater, it was determined that the same frequency formula used for 'Viva' must be applied consistently across both stage and production environments. A key decision was made to apply the frequency model currently active on staging to production, ensuring consistency after a demonstration/demo period.",
+  "decisions": [
+    "Apply the frequency model from the staging environment to the production environment."
+  ],
+  "action_items": [
+    "Ensure the correct frequency formula is applied consistently across stage and production environments."
+  ]
+}

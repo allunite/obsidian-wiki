@@ -1,0 +1,30 @@
+{
+  "chat_id": "oCgFCIAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2024-01-22",
+    "end": "2024-01-22"
+  },
+  "message_count": 28,
+  "topic": "Data pipeline updates and versioning strategy",
+  "topic_slug": "data-pipeline-updates-and-versioning-strategy",
+  "tags": [
+    "analytics",
+    "campaign",
+    "session",
+    "recalc-ch",
+    "agg-version"
+  ],
+  "summary_markdown": "The discussion focused on updating data pipelines, particularly for analytics and machine learning (ML) predictions. Several changes were proposed to improve robustness and versioning.\n\n*   **Script Updates:** [me] provided a replacement script template (`ml_to_stage_aggregation.sql`) that [p1] plans to integrate into existing processes.\n*   **Data Structure Improvement:** It was noted that the current data structure needs improvement, specifically regarding dataset management and versioning. Suggestions included including `agg_version` in the primary key or partition key for easier deletion/management, preventing old scripts from accidentally clearing all datasets (`device_session_agg_ml`).\n*   **ML Data Handling:** [p1] plans to consolidate ML prediction tables into a single table and integrate data sources from other regions (e.g., Brazil) that use different scripting approaches.\n*   **Process Flow:** The team agreed on updating the process flow to incorporate these changes, with one participant taking ownership of integrating the new scripts into existing tasks.",
+  "decisions": [
+    "Use a replacement script template for ML data aggregation.",
+    "Include `agg_version` in the primary or partition key for better dataset management.",
+    "Consolidate multiple ML prediction tables into a single source table."
+  ],
+  "action_items": [
+    "[me] to adjust scripts and announce the date/time for implementation.",
+    "[p1] to integrate new scripts into existing tasks, focusing on parameterizing datasets (environment)."
+  ]
+}

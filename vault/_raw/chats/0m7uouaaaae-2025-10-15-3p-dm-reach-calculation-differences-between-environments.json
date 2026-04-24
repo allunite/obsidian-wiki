@@ -1,0 +1,25 @@
+{
+  "chat_id": "0m7UOUAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2025-10-15",
+    "end": "2025-10-15"
+  },
+  "message_count": 19,
+  "topic": "Reach calculation differences between environments",
+  "topic_slug": "reach-calculation-differences-between-environments",
+  "tags": [
+    "analytics",
+    "frame",
+    "campaign"
+  ],
+  "summary_markdown": "The discussion focused on discrepancies in 'reach' calculations when comparing data across different deployment environments (production vs. development). \n\n*   **Reach Calculation:** Initial queries addressed whether the reach calculation for loading content differs between production and development, noting that the new method depends on specific parameters while the old method might not.\n*   **Slot Coefficient Issue:** A detailed technical discussion highlighted an issue where the calculated impression percentage (e.g., 95.8% for 23/24 slots) based on a dynamic slot coefficient was not accurately reflected in the campaign report, showing a lower value (0.923).\n*   **Data Normalization:** One participant shared methods for normalizing 'vac' data at the facility level and distributing it across frames using proportional allocation.\n*   **Reporting Scope:** Concerns were raised about whether frame-specific reach calculations could be displayed in reports, especially if they vary by frame within a single facility.",
+  "decisions": [
+    "A technical issue regarding the discrepancy between calculated dynamic slot coefficients and reported impression percentages was identified."
+  ],
+  "action_items": [
+    "Follow up on whether the new field/data point will be available to all companies or restricted to specific ones (e.g., Brazil)."
+  ]
+}

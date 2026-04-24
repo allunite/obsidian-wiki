@@ -1,0 +1,24 @@
+{
+  "chat_id": "oCgFCIAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2022-04-29",
+    "end": "2022-04-29"
+  },
+  "message_count": 29,
+  "topic": "Deployment tools and local development environment setup",
+  "topic_slug": "deployment-tools-and-local-development-environment-setup",
+  "tags": [
+    "analytics",
+    "mops"
+  ],
+  "summary_markdown": "The conversation covered technical issues related to deployment, specifically the need for updated commands after a repository move. A discussion ensued regarding local development environments, noting that using WSL (Windows Subsystem for Linux) was highly beneficial compared to previous difficulties with Windows-based tools like Cygwin64. The participants discussed limitations when attempting to run complex services (like CH cluster or Ansible) locally via Docker or WLS 2.0.",
+  "decisions": [
+    "The deployment process requires specific `helm` commands to be executed after the repository move."
+  ],
+  "action_items": [
+    "Deploy necessary fixes/updates into mops."
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "chat_id": "oCgFCIAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2024-05-13",
+    "end": "2024-05-13"
+  },
+  "message_count": 14,
+  "topic": "Troubleshooting total traffic query logic",
+  "topic_slug": "troubleshooting-total-traffic-query-logic",
+  "tags": [
+    "analytics",
+    "campaign",
+    "inventory",
+    "session"
+  ],
+  "summary_markdown": "The conversation focused on debugging a total traffic query that was failing or returning empty sets for certain campaigns. The issue was traced to discrepancies in demographic data used across different company setups (KIDO vs. AREA). It was determined that when creating child companies, the system needs improved logic for metric inheritance and default demographics. One participant suggested checking parameters and using `WHERE` clauses to find differences, while another noted that a more robust solution would involve setting default demographics at the country or top level.",
+  "decisions": [
+    "The immediate query issue was resolved by addressing demographic data discrepancies between different company setups."
+  ],
+  "action_items": [
+    "Investigate implementing better logic for metric inheritance when creating child companies.",
+    "Determine how to manage specific field availability (e.g., 'Ready' status for maps) so that not all metrics are inherited by child entities."
+  ]
+}

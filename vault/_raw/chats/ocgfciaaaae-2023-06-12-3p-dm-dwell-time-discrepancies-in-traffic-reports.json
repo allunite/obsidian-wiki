@@ -1,0 +1,25 @@
+{
+  "chat_id": "oCgFCIAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2023-06-12",
+    "end": "2023-06-12"
+  },
+  "message_count": 7,
+  "topic": "Dwell time discrepancies in traffic reports",
+  "topic_slug": "dwell-time-discrepancies-in-traffic-reports",
+  "tags": [
+    "analytics",
+    "dwell-time",
+    "impression"
+  ],
+  "summary_markdown": "A data anomaly was discussed regarding dwell time values appearing in areas where no traffic is recorded. The issue seems related to timezone discrepancies within the reporting system.\n\n[p1] suggested creating a query/task for investigation, noting that the error appears when analyzing client accounts with low traffic volume and that the issue persists even after limiting the time frame.\n\n[me] requested steps to reproduce the bug before proceeding with the task.",
+  "decisions": [
+    "Investigate dwell time discrepancies in reports due to potential timezone issues."
+  ],
+  "action_items": [
+    "[p1] will create a query/task for investigation, providing necessary client data and scope details."
+  ]
+}

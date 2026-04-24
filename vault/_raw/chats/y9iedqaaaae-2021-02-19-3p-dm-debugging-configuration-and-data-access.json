@@ -1,0 +1,22 @@
+{
+  "chat_id": "y9IEDQAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2021-02-19",
+    "end": "2021-02-19"
+  },
+  "message_count": 36,
+  "topic": "Debugging configuration and data access",
+  "topic_slug": "debugging-configuration-and-data-access",
+  "tags": [
+    "analytics",
+    "session"
+  ],
+  "summary_markdown": "The conversation covered technical debugging, starting with a discussion about deploying code (p1 confirmed deployment). Later, the focus shifted to data access and configuration visibility. [me] initially struggled to locate a specific setting in kubeapps, believing it should be visible in the config, but was guided by [p1] to check the correct location within the application's environment variables for `REALTIME_TENANT_ID`. The discussion concluded with general status updates on development tools.",
+  "decisions": [
+    "The code was deployed (by p1)."
+  ],
+  "action_items": []
+}

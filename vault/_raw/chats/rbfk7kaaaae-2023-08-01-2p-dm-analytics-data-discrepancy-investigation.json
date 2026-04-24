@@ -1,0 +1,25 @@
+{
+  "chat_id": "rBfK7kAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 2,
+  "date_range": {
+    "start": "2023-08-01",
+    "end": "2023-08-01"
+  },
+  "message_count": 19,
+  "topic": "Analytics data discrepancy investigation",
+  "topic_slug": "analytics-data-discrepancy-investigation",
+  "tags": [
+    "analytics",
+    "session",
+    "facility"
+  ],
+  "summary_markdown": "A discussion occurred regarding discrepancies in analytics data. Specifically, the user noted that while `session_agg_ml_staging` contains data for a certain period (e.g., July 15 to July 29), the corresponding dashboard view (`traffic`) was not displaying any information. It was also mentioned that sensor functionality worked on one specific date but subsequently failed.\n\nRegarding historical session data, it was clarified that virtual sessions were set to start from June 1st, meaning predictive models for May could not be attached to this data.",
+  "decisions": [
+    "The issue of the missing dashboard traffic data will be discussed in a general chat channel."
+  ],
+  "action_items": [
+    "Investigate why `session_agg_ml_staging` data is present but not visible on the analytics dashboard for the specified period."
+  ]
+}

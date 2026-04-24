@@ -1,0 +1,23 @@
+{
+  "chat_id": "i6YI1QAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 2,
+  "date_range": {
+    "start": "2021-09-07",
+    "end": "2021-09-07"
+  },
+  "message_count": 16,
+  "topic": "Analytics dashboard updates and review",
+  "topic_slug": "analytics-dashboard-updates-and-review",
+  "tags": [
+    "analytics",
+    "session"
+  ],
+  "summary_markdown": "The analytics dashboard was updated, featuring a switch to the live dataset which provided real-time data for the day. Changes included reducing the 'donut' chart size and removing the frequency graph in favor of an internal AllUnite frequency metric.\n\nRegarding session metrics, it was confirmed that 'views' are cumulative sessions, suggesting they might need to be divided by two if representing sessions. The real-time session count is noted as being accurate but fluctuates due to the process of converting active sessions to passive ones, which occurs intermittently.",
+  "decisions": [
+    "The analytics dashboard was updated using the live dataset.",
+    "The 'views' metric should be treated as cumulative sessions."
+  ],
+  "action_items": []
+}

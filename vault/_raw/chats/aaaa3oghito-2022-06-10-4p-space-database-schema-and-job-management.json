@@ -1,0 +1,26 @@
+{
+  "chat_id": "AAAA3oghITo",
+  "kind": "Space",
+  "space_name": "Кабаны",
+  "participants": 4,
+  "date_range": {
+    "start": "2022-06-10",
+    "end": "2022-06-10"
+  },
+  "message_count": 30,
+  "topic": "Database schema and job management",
+  "topic_slug": "database-schema-and-job-management",
+  "tags": [
+    "analytics",
+    "inventory",
+    "campaign"
+  ],
+  "summary_markdown": "The discussion focused on technical issues, including a memory limit error encountered during sandbox operations. It was noted that the system's default behavior regarding memory overcommit might improve with ClickHouse release 22.5.\n\nSeveral database management topics were addressed: \n*   A specific job, \"Sync sandbox realtime data,\" was discussed; it is currently only available in Randex and needs to be properly integrated into version control (Git).\n*   The need for a centralized repository for all database schemas and scripts was raised due to the difficulty of tracking updates across multiple locations.\n*   One participant added TTL (Time To Live) functionality to a table, pending testing.\n\nTechnical updates included pushing a version with Angular 12 to the sandbox and switching to Node.js 16 for faster presentation testing.",
+  "decisions": [
+    "The need for a centralized repository for all database schemas was acknowledged."
+  ],
+  "action_items": [
+    "Update the 'Sync sandbox realtime data' job in version control (Git) rather than relying solely on Randex.",
+    "Ensure that newly added TTL fields are documented and placed within the designated schema repository location."
+  ]
+}

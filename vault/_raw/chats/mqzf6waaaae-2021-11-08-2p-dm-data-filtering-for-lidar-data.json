@@ -1,0 +1,22 @@
+{
+  "chat_id": "mQzF6wAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 2,
+  "date_range": {
+    "start": "2021-11-08",
+    "end": "2021-11-08"
+  },
+  "message_count": 11,
+  "topic": "Data filtering for lidar data",
+  "topic_slug": "data-filtering-for-lidar-data",
+  "tags": [
+    "analytics",
+    "dwell-time"
+  ],
+  "summary_markdown": "A discussion occurred regarding the completeness of data visible in a data viewer, specifically concerning lidar data. It was confirmed that currently, only pedestrian areas are filtered out from the 2D lidar feed. Future planned steps include anomaly removal and more precise speed calculation.",
+  "decisions": [
+    "Currently, only pedestrian areas are filtered out from the 2D lidar data."
+  ],
+  "action_items": []
+}

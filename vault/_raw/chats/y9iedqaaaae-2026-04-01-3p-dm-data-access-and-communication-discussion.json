@@ -1,0 +1,26 @@
+{
+  "chat_id": "y9IEDQAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2026-04-01",
+    "end": "2026-04-01"
+  },
+  "message_count": 26,
+  "topic": "Discussion regarding data access and communication",
+  "topic_slug": "data-access-and-communication-discussion",
+  "tags": [
+    "analytics",
+    "inventory",
+    "campaign"
+  ],
+  "summary_markdown": "The conversation primarily revolves around technical workflow issues, specifically concerning data requests and internal communication processes. One participant noted difficulties with accessing necessary information, mentioning a request for 'AllUnite’s collective wisdom' that requires admin approval. Another participant shared details about investigating credentials and finding confusing data structures related to PK in multiple folders.\n\nRegarding a specific client data issue (referred to as 'citydata'), the participants discussed improving direct communication with the relevant party ('Akshaya'). It was noted that initial attempts via automated systems or intermediaries led to unclear responses, but direct communication eventually clarified the required details and provided better context for the data supplied.",
+  "decisions": [
+    "The participant should write about the citydata issue in a separate ticket/task and send it back to Akshaya for review."
+  ],
+  "action_items": [
+    "None specified",
+    "Follow up on the 'AllUnite’s collective wisdom' request status (if applicable)"
+  ]
+}

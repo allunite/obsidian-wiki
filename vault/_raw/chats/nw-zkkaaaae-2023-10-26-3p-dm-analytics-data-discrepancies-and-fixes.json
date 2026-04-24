@@ -1,0 +1,28 @@
+{
+  "chat_id": "nW_zkkAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2023-10-26",
+    "end": "2023-10-26"
+  },
+  "message_count": 110,
+  "topic": "Analytics data discrepancies and fixes",
+  "topic_slug": "analytics-data-discrepancies-and-fixes",
+  "tags": [
+    "analytics",
+    "impression",
+    "campaign",
+    "facility"
+  ],
+  "summary_markdown": "The discussion focused on multiple issues with analytics data, specifically regarding session prediction and traffic discrepancies across different facility groupings.\n\n**Key Issues Identified:**\n*   **Master Facility Aggregation:** The predicted sessions for the master facility were incorrectly summing up the predictions of its component facilities, which is not desired. It was determined that the master facility's total should not be a sum of its parts.\n*   **Data Corruption/Overwriting:** An external script (from Brazil) introduced incorrect data into the staging environment (`ml_staging`), leading to inaccurate aggregation results for company 7894. This required manual cleaning and re-aggregation.\n*   **Unique ID Discrepancy:** A persistent issue was noted where the total unique traffic counts differed significantly when filtering by all facilities versus filtering by a specific group of four facilities (27080, 27083, 27086, 27081).\n*   **Frequency Formula Discrepancy:** The root cause for some discrepancies was identified as the frequency formula used in analytics, which varies based on whether a facility filter is applied (country-level vs. city/facility-specific calculation).\n\n**Decisions Made:**\n*   The aggregation script was fixed and pushed to templates.\n*   It was decided to set a calibration value of 72 for both production and staging environments across the entire company, and re-calibrate all sessions starting from July.\n*   A full cleaning of the `ml_staging` data for company 7894 was performed to remove corrupted data.\n\n**Action Items:**\n*   The unique ID discrepancy issue needs further investigation due to its complexity (related to frequency formulas).",
+  "decisions": [
+    "Set calibration value to 72 for both production and staging environments.",
+    "Re-calibrate all sessions starting from July.",
+    "Perform re-aggregation using the new script."
+  ],
+  "action_items": [
+    "Create a high-priority ticket regarding the unique ID discrepancy issue (frequency formula difference)."
+  ]
+}

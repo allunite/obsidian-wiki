@@ -1,0 +1,24 @@
+{
+  "chat_id": "i6YI1QAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 2,
+  "date_range": {
+    "start": "2021-01-21",
+    "end": "2021-01-21"
+  },
+  "message_count": 41,
+  "topic": "Data loading strategy for historical comparison",
+  "topic_slug": "data-loading-strategy-for-historical-comparison",
+  "tags": [
+    "analytics",
+    "campaign"
+  ],
+  "summary_markdown": "The discussion focused on the optimal method for loading multiple versions of data (e.g., yesterday's vs. today's) to allow for historical comparison between staging and production datasets. It was clarified that while the user wants to maintain separate records for different days, the system primarily draws updates from the main `_ml` source.\n\n**Key points:**\n*   The current process uses the main dataset (`_ml`) for all updates, making the use of a dedicated `ml_staging` table unnecessary for core functionality.\n*   For historical comparison purposes, data should be loaded into the **STAGE** environment/table to ensure previous day's records are accessible alongside new data.",
+  "decisions": [
+    "Historical data (previous days) must be stored in the STAGE dataset/table."
+  ],
+  "action_items": [
+    "None"
+  ]
+}

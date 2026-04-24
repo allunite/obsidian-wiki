@@ -1,0 +1,25 @@
+{
+  "chat_id": "AAQA20geFmk",
+  "kind": "Space",
+  "space_name": "Group Chat",
+  "participants": 2,
+  "date_range": {
+    "start": "2025-08-04",
+    "end": "2025-08-04"
+  },
+  "message_count": 3,
+  "topic": "Data migration logic for facility metrics",
+  "topic_slug": "data-migration-logic-for-facility-metrics",
+  "tags": [
+    "analytics",
+    "recalc-ch",
+    "facility"
+  ],
+  "summary_markdown": "A query was raised regarding the correct aggregation and copying of metrics when a facility's master number changes or when data is moved between clusters. The concern was that transferring data from `oksana_test_2` to `stage` using `facility_master_num` might incorrectly transfer metrics for a specific facility if that facility previously had a different `facility_master`. \n\n[me] advised two scenarios:\n1. If the facility moved from one cluster to another, both clusters must be recalculated and subsequently transferred.\n2. If the facility was simply 'screened' (scraped) and entered a cluster, additional cleaning based on `facility_num` is necessary on the stage data.",
+  "decisions": [
+    "When transferring metrics for a moved facility, recalculate both source clusters before transfer."
+  ],
+  "action_items": [
+    "Implement additional cleaning using `facility_num` on the stage data if the facility was simply screened into a cluster."
+  ]
+}

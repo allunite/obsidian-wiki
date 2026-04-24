@@ -1,0 +1,21 @@
+{
+  "chat_id": "uJ8JA8AAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2025-05-22",
+    "end": "2025-05-22"
+  },
+  "message_count": 3,
+  "topic": "Analytics script for widget calculation",
+  "topic_slug": "analytics-script-for-widget-calculation",
+  "tags": [
+    "analytics"
+  ],
+  "summary_markdown": "A complex SQL query was shared, which calculates data points likely used for a specific digital advertising widget. The script involves joining and aggregating session data from `device_session_trusted` and `device_session_agg_5`, filtering by various facility and company parameters (including those related to partner IDs). The calculation determines metrics like estimated device counts (`n`) and percentages (`p`).",
+  "decisions": [
+    "The SQL script was provided for review/use."
+  ],
+  "action_items": []
+}

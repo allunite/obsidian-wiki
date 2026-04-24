@@ -1,0 +1,26 @@
+{
+  "chat_id": "0VorOYAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2022-07-27",
+    "end": "2022-07-27"
+  },
+  "message_count": 14,
+  "topic": "Syncing stage and production data for Germany",
+  "topic_slug": "syncing-stage-and-production-data-for-germany",
+  "tags": [
+    "analytics",
+    "inventory",
+    "campaign"
+  ],
+  "summary_markdown": "The discussion focused on synchronizing specific ad unit parameters (SL values) and historical sensor data from the staging environment to production for German inventory. \n\n**Key actions discussed:**\n*   Setting the SL value for several specified units (`JCD_DE_14262`, `JCD_DE_4666`, etc.) to 89, while others remain at the default of 81.\n*   Transferring historical data from staging to production for sensors installed since June 27th. The goal is to ensure all parameters and history match those currently set in staging.\n\n[me] confirmed that the necessary updates were completed.",
+  "decisions": [
+    "SL values for specified German units must be updated on production (e.g., JCD_DE_14262, JCD_DE_4666) to 89.",
+    "Historical sensor data from staging must be migrated to production."
+  ],
+  "action_items": [
+    "None (The updates were confirmed as completed by [me])."
+  ]
+}

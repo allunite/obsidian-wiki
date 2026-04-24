@@ -1,0 +1,24 @@
+{
+  "chat_id": "oCgFCIAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2023-11-06",
+    "end": "2023-11-06"
+  },
+  "message_count": 17,
+  "topic": "Handling numeric data types in JSON serialization",
+  "topic_slug": "handling-numeric-data-types-in-json-serialization",
+  "tags": [
+    "analytics",
+    "dwell-time"
+  ],
+  "summary_markdown": "The discussion focused on the inconsistent handling of floating-point numbers (like `length` and `dwell_time`) when retrieved from a database and serialized into JSON. Specifically, if the field type is defined as numeric in PostgreSQL, it might be returned as a string (`\"length\":\"0.23\"`), while casting it to float results in a proper number (`\"length\": 0.23`).\n\nRegarding data storage types:\n*   **PostgreSQL:** The preference was given to using the `numeric` type for fixed-point precision, as this is generally preferred over standard floats due to potential rounding errors.\n*   **Ch (presumably a different system):** It was noted that while PostgreSQL uses `numeric`, the other system only has `float` available for this purpose, though it also supports `Decimal`.\n\nThe conversation concluded with an acknowledgment of JavaScript's inherent limitations regarding true decimal types, which often forces workarounds.",
+  "decisions": [
+    "Store fractional data (like dwell time) using the `numeric` type in PostgreSQL."
+  ],
+  "action_items": [
+    "Investigate serialization issues related to floating-point numbers within NestJS/JavaScript environment."
+  ]
+}

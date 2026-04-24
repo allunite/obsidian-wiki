@@ -1,0 +1,19 @@
+{
+  "chat_id": "AAAANmw33e8",
+  "kind": "Space",
+  "space_name": "BLE vs WiFi",
+  "participants": 4,
+  "date_range": {
+    "start": "2022-02-17",
+    "end": "2022-02-17"
+  },
+  "message_count": 10,
+  "topic": "Technical discussion on firmware and hardware",
+  "topic_slug": "technical-discussion-firmware-hardware",
+  "tags": [
+    "analytics"
+  ],
+  "summary_markdown": "The conversation began with a technical query regarding the use of stock vs. custom x11 firmware. Someone stated they could assemble a custom version for x11. The discussion briefly shifted to unrelated, humorous topics involving props and imagery.",
+  "decisions": [],
+  "action_items": []
+}

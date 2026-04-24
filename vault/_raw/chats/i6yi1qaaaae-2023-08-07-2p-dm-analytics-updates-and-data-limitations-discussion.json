@@ -1,0 +1,29 @@
+{
+  "chat_id": "i6YI1QAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 2,
+  "date_range": {
+    "start": "2023-08-07",
+    "end": "2023-08-07"
+  },
+  "message_count": 49,
+  "topic": "Analytics updates and data limitations discussion",
+  "topic_slug": "analytics-updates-and-data-limitations-discussion",
+  "tags": [
+    "analytics",
+    "campaign",
+    "inventory",
+    "dwell-time",
+    "recalc-ch"
+  ],
+  "summary_markdown": "The conversation covered several technical and data points. First, the status of a specific task (DOOH-195) was confirmed to be completed and available on staging, including performance optimization. It was noted that switching to staging requires coordination after another team member completes tasks for both Staging and Production environments.\n\nSecondly, there was a discussion regarding fixing unique identifiers (uniques) on the traffic page. The measurable goal was discussed, with suggestions ranging from creating a sample vendor list based on company or country data, specifically mentioning LG in Brazil. Constraints included that reach cannot exceed 100% and population size limits were noted.\n\nFinally, updates to analytics dashboards were shared, showing changes when comparing different timeframes (e.g., last month vs. last week). The speaker confirmed they would apply these changes on staging and update the recalculation logic for company-related sample vendors list once approved.",
+  "decisions": [
+    "The unique identifier fix for the traffic page needs to be addressed as a task.",
+    "A plan was discussed to limit frequency in Brazil, potentially focusing only on LG data with a maximum daily frequency of 5."
+  ],
+  "action_items": [
+    "Switching to staging environment requires coordination after another team member completes tasks for both Staging and Production environments.",
+    "The speaker will apply the analytics changes on staging and update the recalculation logic for company-related sample vendors list upon approval."
+  ]
+}

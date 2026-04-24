@@ -1,0 +1,24 @@
+{
+  "chat_id": "AAQAycFUDW0",
+  "kind": "Space",
+  "space_name": "Group Chat",
+  "participants": 5,
+  "date_range": {
+    "start": "2025-09-09",
+    "end": "2025-09-09"
+  },
+  "message_count": 12,
+  "topic": "Finland demographics integration tasks discussion",
+  "topic_slug": "finland-demographics-integration-tasks-discussion",
+  "tags": [
+    "analytics",
+    "facility"
+  ],
+  "summary_markdown": "The conversation focused on two required IT tasks for integrating demographics data in Finland: 'Demographics Indoor environments - validate data, fix' and 'Demographics Outdoor environments - update new Ramboll data for outdoor environments'. [p1] created a ticket in ClickUp detailing the need to integrate demographics for both indoor and outdoor environments. Regarding the status of these tasks, it was noted that some work has been done but needs validation and fixing (Indoor). For the outdoor environment using new Ramboll data, [me] stated that the data would be ready within the day, but the implementation/release would occur the following day. A follow-up discussion regarding the 'Demographics Indoor environments' task was scheduled for the next day with specific team members.",
+  "decisions": [
+    "The two required demographics tasks (Indoor validation/fix and Outdoor Ramboll update) were identified."
+  ],
+  "action_items": [
+    "A detailed discussion on the 'Demographics Indoor environments' task is scheduled for tomorrow with relevant personnel."
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "chat_id": "0VorOYAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2026-01-30",
+    "end": "2026-01-30"
+  },
+  "message_count": 14,
+  "topic": "SQL script variable error troubleshooting",
+  "topic_slug": "sql-script-variable-error-troubleshooting",
+  "tags": [
+    "analytics"
+  ],
+  "summary_markdown": "The discussion focused on debugging an aggregation SQL script (`data-[redacted]ml2ds_agg.sql`) that failed because it could not recognize the `dataset` variable.\n\nInitial troubleshooting steps included changing the IDE environment from Playground to Script, which did not resolve the issue. The core solution was identified as needing to roll back the ClickHouse driver in the IDE. A specific version (0.6.3) was recommended and confirmed to work, despite documentation suggesting a newer 0.9.X version.",
+  "decisions": [
+    "Rollback the ClickHouse driver in the IDE to version 0.6.3."
+  ],
+  "action_items": []
+}

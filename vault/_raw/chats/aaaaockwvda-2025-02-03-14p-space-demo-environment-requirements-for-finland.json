@@ -1,0 +1,22 @@
+{
+  "chat_id": "AAAAOcKWvdA",
+  "kind": "Space",
+  "space_name": "Delivery Coordination",
+  "participants": 14,
+  "date_range": {
+    "start": "2025-02-03",
+    "end": "2025-02-03"
+  },
+  "message_count": 3,
+  "topic": "Demo environment requirements for Finland",
+  "topic_slug": "demo-environment-requirements-for-finland",
+  "tags": [
+    "analytics",
+    "campaign"
+  ],
+  "summary_markdown": "A demo is scheduled for the Kyiv area from 13:00 to 14:00 for a Finnish client. Participants requested that no experiments, deployments, or hotfixes be run during this time slot to prevent system slowdowns.\n\nRegarding the environment, [p11] confirmed the demo will run on production (prod), but unreleased demographics will be shown using staging data.",
+  "decisions": [
+    "No experiments, deployments, or hotfixes are allowed in Kyiv between 13:00 and 14:00 for the Finland demo."
+  ],
+  "action_items": []
+}

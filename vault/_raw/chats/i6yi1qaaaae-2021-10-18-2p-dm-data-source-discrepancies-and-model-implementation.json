@@ -1,0 +1,26 @@
+{
+  "chat_id": "i6YI1QAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 2,
+  "date_range": {
+    "start": "2021-10-18",
+    "end": "2021-10-18"
+  },
+  "message_count": 29,
+  "topic": "Data source discrepancies and model implementation",
+  "topic_slug": "data-source-discrepancies-and-model-implementation",
+  "tags": [
+    "analytics",
+    "impression",
+    "campaign",
+    "inventory"
+  ],
+  "summary_markdown": "The conversation covered two main topics: data sourcing for Lithuania and implementing a new model.\n\n1. **Lithuania Data:** There was confusion regarding the presence of Lithuanian data in the API/dashboard, as it appeared that JCD (Joe&TheJuice) had access to this data via their main office's API, which they may have provided separately. This contradicted previous understanding that separate data feeds for Lithuania were not sent.\n2. **Trusted Model Implementation:** A discussion took place regarding the time required to integrate a 'trusted plus local' model into the database and collection process. It was determined that implementation would take two days: one day for realization and recalculation/aggregation on staging, and a second day for cleanup and adding jobs.",
+  "decisions": [
+    "The integration of the trusted plus local model will take two days to implement."
+  ],
+  "action_items": [
+    "[me] to discuss the Lithuania data discrepancy with Saney and provide an answer."
+  ]
+}

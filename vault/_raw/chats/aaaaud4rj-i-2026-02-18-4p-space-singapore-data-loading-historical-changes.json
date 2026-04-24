@@ -1,0 +1,24 @@
+{
+  "chat_id": "AAAAud4RJ_I",
+  "kind": "Space",
+  "space_name": "Group Chat",
+  "participants": 4,
+  "date_range": {
+    "start": "2026-02-18",
+    "end": "2026-02-18"
+  },
+  "message_count": 9,
+  "topic": "Singapore data loading and historical changes",
+  "topic_slug": "singapore-data-loading-historical-changes",
+  "tags": [
+    "analytics",
+    "recalc-ch"
+  ],
+  "summary_markdown": "The discussion focused on the history and rationale for loading Singapore data. It was noted that the initial load of Singapore data occurred at some point, potentially since January 1st or earlier. The reason for this data inclusion is linked to a specific task description found in ClickUp.\n\nMultiple participants mentioned repeated requests from various people over time to 're-pour' (reload/adjust) the Singapore data, but the underlying reasons were not always clear. One participant suggested that the original creator of the task would know exactly when changes occurred.",
+  "decisions": [
+    "The reason for loading Singapore data is documented in a specific ClickUp task description."
+  ],
+  "action_items": [
+    "Confirm with the person who created the task regarding the exact timeline and reasons for historical data adjustments (Singapore)."
+  ]
+}

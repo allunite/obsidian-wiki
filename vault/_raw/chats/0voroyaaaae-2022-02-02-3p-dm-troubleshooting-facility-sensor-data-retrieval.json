@@ -1,0 +1,25 @@
+{
+  "chat_id": "0VorOYAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2022-02-02",
+    "end": "2022-02-02"
+  },
+  "message_count": 35,
+  "topic": "Troubleshooting facility sensor data retrieval",
+  "topic_slug": "troubleshooting-facility-sensor-data-retrieval",
+  "tags": [
+    "analytics",
+    "facility",
+    "session"
+  ],
+  "summary_markdown": "The conversation focused on troubleshooting the inability to retrieve historical session data for two specific sensors in Denmark. Initially, attempts using standard queries and tools (Jupiter, DataGrip) failed for a specified period (Aug 1 - Oct 4, 2021).\n\nIt was determined that the physical location of the boxes had changed; they were moved to AFA 142 and AFA 164 during that time. The initial facility IDs used by [p1] were incorrect.\n\n[me] provided updated `facility_master_num` (3817 and 3818) corresponding to the correct addresses, which allowed for successful data retrieval. Further testing confirmed a specific start date (August 12th) was necessary for one of the sensors' data to appear in the query.",
+  "decisions": [
+    "The facility IDs used for querying must reflect the location where the sensor boxes were physically located during the target period."
+  ],
+  "action_items": [
+    "Use updated `facility_master_num` (3817 and 3818) when querying historical session data for these sensors."
+  ]
+}

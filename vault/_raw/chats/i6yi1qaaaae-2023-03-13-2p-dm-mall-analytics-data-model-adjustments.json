@@ -1,0 +1,27 @@
+{
+  "chat_id": "i6YI1QAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 2,
+  "date_range": {
+    "start": "2023-03-13",
+    "end": "2023-03-13"
+  },
+  "message_count": 29,
+  "topic": "Mall analytics data model adjustments",
+  "topic_slug": "mall-analytics-data-model-adjustments",
+  "tags": [
+    "analytics",
+    "dwell-time",
+    "session"
+  ],
+  "summary_markdown": "The team discussed significant changes to the mall analytics calculation models. Specifically, it was decided that for malls, two metrics must be maintained: one based on an 8-hour session duration and a second based on a reduced 15-minute session duration.\n\n*   **Data Model Changes:** The model needs adjustment because the current calculation depends on unique counts (uniques).\n*   **Testing/Review:** [me] provided links to staging analytics dashboards, showing data recalculated for both 8 hours and 15 minutes. It was noted that when comparing with production data from January, the production data used an 'old way' calculation method.\n*   **Next Steps:** Someone suggested clarifying the dataset differences verbally and jointly deciding which version of the data to present.",
+  "decisions": [
+    "Mall analytics will maintain two parallel metrics: 8-hour session duration and 15-minute session duration.",
+    "The mall analytics model needs recalculation because it currently depends on unique counts."
+  ],
+  "action_items": [
+    "Someone should clarify the dataset differences verbally for better understanding.",
+    "Jointly decide which version of the data to present to Esben."
+  ]
+}

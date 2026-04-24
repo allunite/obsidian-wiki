@@ -1,0 +1,26 @@
+{
+  "chat_id": "0m7UOUAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2023-11-14",
+    "end": "2023-11-14"
+  },
+  "message_count": 16,
+  "topic": "Impression recalculation and data discrepancies",
+  "topic_slug": "impression-recalculation-and-data-discrepancies",
+  "tags": [
+    "impression",
+    "analytics",
+    "campaign"
+  ],
+  "summary_markdown": "The discussion focused on fixing missing viewable/viewed impressions data starting from 2023-11-06. A PR was submitted to address this, which requires recalculating production impression data for multiple companies.\n\nA major issue discussed was a commit that corrupted the impression calculation process in production. This corruption occurred because changes were made to `get_data_by_zones` without updating the function signature, causing the code to fail but allowing the error to be caught and ignored by existing exception handling logic.\n\nIt was noted that staging and production scripts differ, which allowed the issue to persist in staging environments. The proposed solution involves merging master into staging or running a full recalculation for all companies after verifying the fix with specific clients (e.g., company_num=7854).\n\n[me] suggested reaggregating data once impressions are available in `*_ml_staging`.",
+  "decisions": [
+    "Recalculate production impression data for multiple companies to account for missing viewable/viewed views since 2023-11-06."
+  ],
+  "action_items": [
+    "Run the recalculation first for company_num=7854 (Lithuania) and then potentially for all companies.",
+    "Merge master into staging or create a PR from master to address script discrepancies between environments."
+  ]
+}

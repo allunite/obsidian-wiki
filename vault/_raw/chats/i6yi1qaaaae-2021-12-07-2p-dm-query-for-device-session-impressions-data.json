@@ -1,0 +1,24 @@
+{
+  "chat_id": "i6YI1QAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 2,
+  "date_range": {
+    "start": "2021-12-07",
+    "end": "2021-12-07"
+  },
+  "message_count": 7,
+  "topic": "Query for device session impressions data",
+  "topic_slug": "query-for-device-session-impressions-data",
+  "tags": [
+    "analytics",
+    "impression"
+  ],
+  "summary_markdown": "A SQL query was provided to retrieve `device_session_agg_ml_staging` data for the day of December 6th, 2021. The user noted that if `visibility_factor=0`, it indicates no impressions were recorded for the company.\n\n[p1] stated they would test the query further before loading it and asked [me] to use the results for a dashboard.",
+  "decisions": [
+    "The provided SQL query is intended for dashboard data."
+  ],
+  "action_items": [
+    "Use the provided SQL query for dashboard development."
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "chat_id": "AAAA9ybOLwM",
+  "kind": "Space",
+  "space_name": "ИТ",
+  "participants": 8,
+  "date_range": {
+    "start": "2020-12-10",
+    "end": "2020-12-10"
+  },
+  "message_count": 4,
+  "topic": "mops dashboard traffic updates",
+  "topic_slug": "mops-dashboard-traffic-updates",
+  "tags": [
+    "analytics",
+    "session"
+  ],
+  "summary_markdown": "The mops tool was updated. The general traffic dashboard, accessible under the admin view, now displays overall traffic metrics without requiring user impersonation. Metrics available include total traffic, unique users, and dwell time, calculated across all sessions regardless of `company_id`. A note was made that the current value for AFA is over 90%, suggesting it is not close to two billion.",
+  "decisions": [],
+  "action_items": [
+    "None"
+  ]
+}

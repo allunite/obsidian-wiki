@@ -1,0 +1,24 @@
+{
+  "chat_id": "y9IEDQAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2026-01-05",
+    "end": "2026-01-05"
+  },
+  "message_count": 17,
+  "topic": "Database setup and development resources",
+  "topic_slug": "database-setup-and-development-resources",
+  "tags": [
+    "analytics",
+    "campaign"
+  ],
+  "summary_markdown": "A discussion occurred regarding the technical requirements for building a service from scratch, specifically concerning ClickHouse implementation. [p1] requested documentation or a schema guide for setting up the entire service using ClickHouse. [me] provided an older, working code repository link (https://github.com/allunite/db/tree/master/ch/db_front), noting that the current 'up-to-date' structure is spread across multiple repositories: [me] handles ClickHouse (ch), and another person handles PostgreSQL (pg). It was confirmed that the PostgreSQL part has been assembled by someone else. As a follow-up, [me] requested assistance in creating an urgent ticket for work to be completed by Wednesday or Thursday.",
+  "decisions": [
+    "An older ClickHouse code repository was shared as a starting point for service development."
+  ],
+  "action_items": [
+    "[me] needs help creating an urgent ticket for tasks due by Wednesday/Thursday."
+  ]
+}

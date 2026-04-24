@@ -1,0 +1,23 @@
+{
+  "chat_id": "wZDFB8AAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2025-12-09",
+    "end": "2025-12-09"
+  },
+  "message_count": 5,
+  "topic": "Deployment and testing of campaign reach function",
+  "topic_slug": "deployment-and-testing-campaign-reach",
+  "tags": [
+    "analytics",
+    "campaign"
+  ],
+  "summary_markdown": "A specific function used for Brazilian campaigns was confirmed to still be in use. The function was subsequently moved to production, and a test of the 'Reach' metric within campaigns was performed. The deployment was successful and verified by [p1].",
+  "decisions": [
+    "The function was approved for movement to production.",
+    "Testing of campaign Reach functionality was completed successfully."
+  ],
+  "action_items": []
+}

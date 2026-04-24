@@ -1,0 +1,27 @@
+{
+  "chat_id": "oq-w0kAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2025-03-14",
+    "end": "2025-03-14"
+  },
+  "message_count": 37,
+  "topic": "Controlling forecast visibility on the platform",
+  "topic_slug": "controlling-forecast-visibility-on-platform",
+  "tags": [
+    "analytics",
+    "campaign"
+  ],
+  "summary_markdown": "The discussion centered on making the forecasting data visible for specific companies (e.g., 7600) and users, rather than being restricted to administrative settings or dependent only on server-side availability.\n\nIt was determined that while the forecast display is currently tied to admin status or aggregation settings, a mechanism needs to be implemented to control visibility at the client/user level (e.g., via user settings).\n\n[me] suggested adding a parameter like `isForecastShown` to manage this.\n\n[p1] confirmed that implementing this requires deciding whether to universally disable or enable the feature, suggesting a list-based approach for controlling visibility per client/user group.",
+  "decisions": [
+    "The forecast display needs to be controllable at the company/client level, not just admin settings.",
+    "A mechanism (like user settings) is needed to control forecast visibility (`isForecastShown` parameter).",
+    "The implementation requires deciding on a scope: either disabling for all and enabling for specific groups, or vice versa."
+  ],
+  "action_items": [
+    "Determine the urgency of the request from Marina.",
+    "Discuss whether to implement this change as a hotfix or wait for the next scheduled release (approx. one month)."
+  ]
+}

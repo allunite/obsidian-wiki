@@ -1,0 +1,25 @@
+{
+  "chat_id": "oCgFCIAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2023-03-22",
+    "end": "2023-03-22"
+  },
+  "message_count": 45,
+  "topic": "Data import and frame ID management",
+  "topic_slug": "data-import-and-frame-id-management",
+  "tags": [
+    "analytics",
+    "campaign",
+    "inventory",
+    "frame"
+  ],
+  "summary_markdown": "The discussion focused on the complexities of re-importing updated DOOH data, specifically concerning frame IDs and facility identifiers. It was noted that previous attempts to find specific frames were hampered by corrupted files (e.g., quotes in frame IDs) and inconsistent data sources.\n\n**Key Decisions/Confirmations:**\n*   [me] confirmed that when merging imported data with existing records, the facility IDs are not modified.\n*   The process involves transferring frames to existing facilities.\n*   It was agreed that for testing purposes, focusing on new data is acceptable, even if it means losing change history for a few frames.\n\n**Data Handling:**\nThe participants discussed whether to 're-import' or 'simply import' the new dataset. [me] suggested simply importing the new file due to structural differences and lack of existing identifiers (like faces).\n*   The team decided that further action on data mapping should wait until the external party is ready to test, as they are currently gathering more input.\n\n**Technical Points:**\n*   A potential unique identifier for tracking was identified as 'mid', which had not been fully utilized previously.\n*   [me] advised using the 'updated' field during re-importing to avoid overwriting modified frames and maintain historical data integrity.",
+  "decisions": [
+    "The team will wait until the external party is ready to test before proceeding with complex data mapping or updates.",
+    "Data imports should be handled by simply importing new files rather than attempting a full re-import, due to structural changes."
+  ],
+  "action_items": []
+}

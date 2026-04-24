@@ -1,0 +1,20 @@
+{
+  "chat_id": "AAAA-gn4oPg",
+  "kind": "Space",
+  "space_name": "General and random",
+  "participants": 36,
+  "date_range": {
+    "start": "2024-05-01",
+    "end": "2024-05-01"
+  },
+  "message_count": 5,
+  "topic": "US OOH Company Meeting Updates",
+  "topic_slug": "us-ooh-company-meeting-updates",
+  "tags": [
+    "campaign",
+    "inventory"
+  ],
+  "summary_markdown": "A participant provided an update regarding a US conference, noting positive discussions with major Out-of-Home (OOH) companies. Concrete dialogues were established to conduct Proofs of Concept (POCs) with Lamar (focusing on Baton Rouge roadside screens), Clear (targeting 1-2 airports and potential transit areas), and Outfront. Additional talks occurred with Pattison Outdoor from Canada and Siroky Canada.",
+  "decisions": [],
+  "action_items": []
+}

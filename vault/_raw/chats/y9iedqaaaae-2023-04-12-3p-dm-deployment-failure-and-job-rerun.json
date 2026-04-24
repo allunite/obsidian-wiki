@@ -1,0 +1,21 @@
+{
+  "chat_id": "y9IEDQAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2023-04-12",
+    "end": "2023-04-12"
+  },
+  "message_count": 10,
+  "topic": "Deployment failure and job rerun",
+  "topic_slug": "deployment-failure-and-job-rerun",
+  "tags": [
+    "analytics"
+  ],
+  "summary_markdown": "A deployment to the production environment failed. The process was successfully deployed to staging. Someone advised running a re-run of the jobs via a provided GitHub link, which [me] subsequently executed.",
+  "decisions": [
+    "The job rerun was initiated on the production environment."
+  ],
+  "action_items": []
+}

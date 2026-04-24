@@ -1,0 +1,28 @@
+{
+  "chat_id": "i6YI1QAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 2,
+  "date_range": {
+    "start": "2021-06-10",
+    "end": "2021-06-10"
+  },
+  "message_count": 68,
+  "topic": "Calibrating City data for Lithuania",
+  "topic_slug": "calibrating-city-data-for-lithuania",
+  "tags": [
+    "analytics",
+    "campaign",
+    "facility",
+    "impression"
+  ],
+  "summary_markdown": "The discussion focused on correcting the calibration data for City metrics in Lithuania. Initial checks revealed a discrepancy, with the current reading being 76 when it should be 89.\n\nIt was determined that the existing historical data displayed on dashboards is based on calibration and not raw aggregation. The team confirmed that applying the new calibration required recalculating and re-aggregating the City metrics for the past three days (starting June 7th).\n\n[me] performed the necessary calculations and updates, first deploying to STAGE, followed by a transfer to PRODUCTION. A final review was conducted confirming the data looked correct.",
+  "decisions": [
+    "The calibration value for City metrics in Lithuania must be updated from 76 to 89.",
+    "City metrics need recalculation and re-aggregation for the last three days (starting June 7th).",
+    "The corrected data was deployed first to STAGE, then promoted to PRODUCTION."
+  ],
+  "action_items": [
+    "Someone needs to have Nastya perform a final check on the production data."
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "chat_id": "y9IEDQAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2021-12-06",
+    "end": "2021-12-06"
+  },
+  "message_count": 3,
+  "topic": "Kubernetes cluster connection error troubleshooting",
+  "topic_slug": "kubernetes-cluster-connection-error-troubleshooting",
+  "tags": [
+    "analytics"
+  ],
+  "summary_markdown": "A user reported an `helm upgrade` failure due to the Kubernetes cluster being unreachable. The specific error indicated a timeout when attempting to connect to `https://api.k8s.allunite.com:6443`. [p1] confirmed that they did not cause any issues with the cluster.",
+  "decisions": [],
+  "action_items": [
+    "Investigate network connectivity or Kubernetes API server status."
+  ]
+}

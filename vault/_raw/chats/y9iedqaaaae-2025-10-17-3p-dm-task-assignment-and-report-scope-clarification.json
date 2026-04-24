@@ -1,0 +1,21 @@
+{
+  "chat_id": "y9IEDQAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2025-10-17",
+    "end": "2025-10-17"
+  },
+  "message_count": 3,
+  "topic": "Task assignment and report scope clarification",
+  "topic_slug": "task-assignment-and-report-scope-clarification",
+  "tags": [
+    "analytics"
+  ],
+  "summary_markdown": "Someone requested task assignments due to difficulty remembering tasks. [p1] provided a link (ClickUp) and clarified that the discussion was limited to reporting, not making changes to the entire dashboard.",
+  "decisions": [],
+  "action_items": [
+    "Review assigned tasks via the provided ClickUp link."
+  ]
+}

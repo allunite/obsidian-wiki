@@ -1,0 +1,23 @@
+{
+  "chat_id": "oq-w0kAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2025-04-04",
+    "end": "2025-04-04"
+  },
+  "message_count": 7,
+  "topic": "Exporting dwell time and frequency data",
+  "topic_slug": "exporting-dwell-time-and-frequency-data",
+  "tags": [
+    "analytics",
+    "dwell-time",
+    "impression"
+  ],
+  "summary_markdown": "The user reported an issue encountered while exporting data from a GitHub repository. Specifically, four-digit values for dwell time were converting to NaN in Excel, while three-digit values remained correct. The user noted that the `frequency` metric also went missing during this process. They questioned why NaN appeared in the screen report when it should not have been possible based on the query.\n\nThe user confirmed that dwell time always arrives as an integer from the server, but frequency is already rounded to two decimal places.",
+  "decisions": [],
+  "action_items": [
+    "Review data export issue (dwell time/frequency) on Monday."
+  ]
+}

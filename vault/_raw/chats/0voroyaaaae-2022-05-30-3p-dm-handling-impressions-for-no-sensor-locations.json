@@ -1,0 +1,27 @@
+{
+  "chat_id": "0VorOYAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2022-05-30",
+    "end": "2022-05-30"
+  },
+  "message_count": 67,
+  "topic": "Handling impressions for no-sensor locations",
+  "topic_slug": "handling-impressions-for-no-sensor-locations",
+  "tags": [
+    "impression",
+    "analytics",
+    "facility"
+  ],
+  "summary_markdown": "The discussion covered two main technical issues. First, regarding data handling for locations without sensors (in Finland), it was determined that while the initial approach of leaving missing values as `NaN` or using `None` is preferred for UI display, technical constraints in the database/querying environment require filling these values with 0 to prevent type mismatch errors (`UInt32` expected).\n\nSecond, concerning data loading on the staging environment, it was identified that the existing SQL query, which relies on session-based data, fails to populate traffic for no-sensor locations. The solution requires modifying the process to calculate and insert modeled traffic directly using base connected facility data, rather than relying on derived session metrics.",
+  "decisions": [
+    "For impressions in no-sensor locations, missing values should be replaced with 0 during data processing to resolve type mismatch errors.",
+    "The process for loading staged data must be updated to calculate and insert modeled traffic directly using connected facility base data, rather than relying on session aggregation."
+  ],
+  "action_items": [
+    "Implement the change to use 0 instead of null/NaN for no-sensor location impressions.",
+    "Modify the staging load query to model and populate traffic for no-sensor locations based on connected facility data."
+  ]
+}

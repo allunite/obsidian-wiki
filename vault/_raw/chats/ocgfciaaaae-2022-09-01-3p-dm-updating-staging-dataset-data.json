@@ -1,0 +1,24 @@
+{
+  "chat_id": "oCgFCIAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2022-09-01",
+    "end": "2022-09-01"
+  },
+  "message_count": 3,
+  "topic": "Updating staging dataset data",
+  "topic_slug": "updating-staging-dataset-data",
+  "tags": [
+    "analytics",
+    "session"
+  ],
+  "summary_markdown": "Someone requested that the staging dataset be updated to include more data, specifically for viewing purposes. The request focused on updating the `device_session_agg_4` table with the last month's data for afa(7600). [me] confirmed they would make the adjustments and load the data once Galina approved it, as she needed time to review it.",
+  "decisions": [
+    "The staging dataset will be updated after approval from Galina."
+  ],
+  "action_items": [
+    "[me] needs to wait for Galina's final approval before loading the updated data."
+  ]
+}

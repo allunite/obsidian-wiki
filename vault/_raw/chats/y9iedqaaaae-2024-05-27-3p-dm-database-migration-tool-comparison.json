@@ -1,0 +1,19 @@
+{
+  "chat_id": "y9IEDQAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2024-05-27",
+    "end": "2024-05-27"
+  },
+  "message_count": 5,
+  "topic": "Database migration tool comparison",
+  "topic_slug": "database-migration-tool-comparison",
+  "tags": [
+    "analytics"
+  ],
+  "summary_markdown": "The conversation focused on a potential database schema management tool found at atlasgo.io. [p1] initially sought a general migration tool for updating captive portal schemas but discovered this specific resource instead. The participants discussed the concept of treating DB schema like code, with one participant noting past negative experiences using synchronization tools from Embarcadero.",
+  "decisions": [],
+  "action_items": []
+}

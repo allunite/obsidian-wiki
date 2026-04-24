@@ -1,0 +1,28 @@
+{
+  "chat_id": "AAAA9ybOLwM",
+  "kind": "Space",
+  "space_name": "ИТ",
+  "participants": 8,
+  "date_range": {
+    "start": "2021-07-07",
+    "end": "2021-07-07"
+  },
+  "message_count": 35,
+  "topic": "API mock creation for tender requirements",
+  "topic_slug": "api-mock-creation-for-tender-requirements",
+  "tags": [
+    "analytics",
+    "inventory",
+    "facility"
+  ],
+  "summary_markdown": "The discussion focused on defining the parameters and structure for a mock API endpoint required for a tender submission. Key data points include traffic metrics (pedestrian, bike, cars), OTC, VAC, and demographics (age, gender). \n\nInitial confusion arose regarding whether to include separate filters for `facility`, `master facility`, and `network`. It was determined that the existing `location` parameter might suffice, but a dedicated `master facility` filter was requested by someone.\n\nThe API mock needs to be created in Swagger. The response structure must accommodate various data types (e.g., network as float, OTC/VAC as integer).\n\nUltimately, the plan is to create both a mock endpoint and ensure that the real method exists for use.",
+  "decisions": [
+    "The API mock must include filters for start, end, facilities, granularity, and network.",
+    "The response data structure must include traffic metrics (pedestrian, bike, cars), OTC, VAC, and demographics.",
+    "A dedicated master facility filter is required for the tender."
+  ],
+  "action_items": [
+    "Create the Swagger mock endpoint for the API.",
+    "Update the demographic data to include income and adjust age ranges."
+  ]
+}

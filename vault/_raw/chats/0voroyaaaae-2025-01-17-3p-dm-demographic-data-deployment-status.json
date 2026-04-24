@@ -1,0 +1,21 @@
+{
+  "chat_id": "0VorOYAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2025-01-17",
+    "end": "2025-01-17"
+  },
+  "message_count": 3,
+  "topic": "Demographic data deployment status",
+  "topic_slug": "demographic-data-deployment-status",
+  "tags": [
+    "analytics"
+  ],
+  "summary_markdown": "The discussion concerns the deployment of demographic data visualizations for Finland. It was noted that transferring new graphs (Trip Purpose and Transport Models) from staging to production requires a release, causing a delay. The main question addressed was whether existing graphs (By Age Group and By Gender), using updated data from Rembola, could be deployed to production.",
+  "decisions": [
+    "The deployment of new graphs (Trip Purpose and Transport Models) is delayed pending a formal release."
+  ],
+  "action_items": []
+}

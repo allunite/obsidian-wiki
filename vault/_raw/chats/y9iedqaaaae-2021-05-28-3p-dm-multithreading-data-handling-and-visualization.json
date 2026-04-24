@@ -1,0 +1,22 @@
+{
+  "chat_id": "y9IEDQAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2021-05-28",
+    "end": "2021-05-28"
+  },
+  "message_count": 38,
+  "topic": "Multithreading data handling and visualization",
+  "topic_slug": "multithreading-data-handling-and-visualization",
+  "tags": [
+    "analytics",
+    "session"
+  ],
+  "summary_markdown": "The discussion focused on safely sharing data between two separate threads: one that processes 3D lidar data to extract objects, and a second thread responsible for visualization. The core problem identified is preventing race conditions (like segmentation faults) when the visualizer reads data while the processing thread modifies it.\n\nInitial suggestions included using mutexes or passing copies of the data upon change. However, due to the high frequency of updates (10 frames per second), copying large amounts of data was deemed inefficient and impractical.\n\nThe proposed solution is for the visualizer to retrieve data from the tracker via a lambda function, which would encapsulate the necessary locking mechanism, thus hiding the explicit lock usage.",
+  "decisions": [
+    "The visualization component will not be present in production."
+  ],
+  "action_items": []
+}

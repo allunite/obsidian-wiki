@@ -1,0 +1,26 @@
+{
+  "chat_id": "i6YI1QAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 2,
+  "date_range": {
+    "start": "2021-08-17",
+    "end": "2021-08-17"
+  },
+  "message_count": 18,
+  "topic": "Sample size calculation by facility area",
+  "topic_slug": "sample-size-calculation-by-facility-area",
+  "tags": [
+    "analytics",
+    "facility",
+    "inventory"
+  ],
+  "summary_markdown": "The discussion focused on refining the criteria for target location analysis, suggesting that targeting could be restricted to 'living area' and implementing stricter rules (e.g., only working days, minimum two sightings per week).\n\nRegarding sample size calculation, it was clarified that the requirement is not just a total sample size for a target facility, but rather a specific sample size calculated *for each individual facility* within an 'area of living'. The desired output format was demonstrated: `facility_master_num`, `area_devices.facility_master_num`, and the corresponding `sample` size (e.g., 3363, 3523, sample=100 devices).",
+  "decisions": [
+    "Targeting criteria should be refined to focus on 'living area' locations.",
+    "Stricter rules for targeting were suggested, including limiting analysis to working days and requiring a minimum of two sightings per week."
+  ],
+  "action_items": [
+    "[me] needs to review the sample data structure (array of arrays containing facility num and uniqueState) and potentially revise the approach to better suit 'ch' requirements."
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "chat_id": "AAAAud4RJ_I",
+  "kind": "Space",
+  "space_name": "Group Chat",
+  "participants": 4,
+  "date_range": {
+    "start": "2025-09-11",
+    "end": "2025-09-11"
+  },
+  "message_count": 12,
+  "topic": "Data update plan for specific advertisers",
+  "topic_slug": "data-update-plan-for-specific-advertisers",
+  "tags": [
+    "analytics",
+    "campaign"
+  ],
+  "summary_markdown": "The discussion centered on updating production data (prod) with recalculated dataset values (model2) for various client companies, specifically concerning the date range 2025-09-03 to 2025-09-06. Initial analysis showed discrepancies in data for several listed companies, particularly regarding 2025-09-04.\n\nTwo main options were discussed: (1) Overwriting prod for all clients and managing potential complaints later, or (2) Only overwriting prod for clients whose calculations matched on 2025-09-03 and 2025-09-05, leaving potentially missing data for the rest.\n\nLater analysis narrowed down companies with measurable differences in metrics (device_session_agg_5) between prod and model2 for 2025-09-04. A final list of companies was identified that showed discrepancies on 2025-09-03 and 2025-09-05 but also had differences on 2025-09-04 (Demo, Innovocean, JCDecaux Côte d’Ivoire, JCDecaux Gabon, JCDecaux India, JCDecaux Latvia, WallDecaux). These specific companies were subsequently moved/updated to prod.",
+  "decisions": [
+    "The decision was made to update production data for a select list of companies that showed discrepancies on 2025-09-03 and 2025-09-05, in addition to those with differences on 2025-09-04."
+  ],
+  "action_items": [
+    "The final identified list of companies (Demo, Innovocean, JCDecaux Côte d’Ivoire, JCDecaux Gabon, JCDecaux India, JCDecaux Latvia, WallDecaux) was moved/updated to production."
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "chat_id": "oq-w0kAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2026-01-28",
+    "end": "2026-01-28"
+  },
+  "message_count": 4,
+  "topic": "Calculating unique user session metrics",
+  "topic_slug": "calculating-unique-user-session-metrics",
+  "tags": [
+    "analytics",
+    "session"
+  ],
+  "summary_markdown": "The discussion focused on the methodology for calculating unique user data, specifically addressing whether certain metrics originate from `session_number_predicted` in `v_device_session_agg_base`. It was confirmed that `session_number_predicted` is divided by frequency. The base frequency is defined as the ratio of sample sessions to unique samples. An aggregation script link was provided for reference, and it was noted that while some clients use a formula within SQL for frequency calculation, others utilize an ML-API call which does not even take the base frequency as a parameter, instead modeling scientifically.",
+  "decisions": [
+    "The method for calculating unique user data metrics involving `session_number_predicted` and frequency was clarified."
+  ],
+  "action_items": []
+}

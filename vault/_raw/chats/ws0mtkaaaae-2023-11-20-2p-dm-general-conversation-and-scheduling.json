@@ -1,0 +1,19 @@
+{
+  "chat_id": "ws0mTkAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 2,
+  "date_range": {
+    "start": "2023-11-20",
+    "end": "2023-11-20"
+  },
+  "message_count": 7,
+  "topic": "General conversation and scheduling",
+  "topic_slug": "general-conversation-and-scheduling",
+  "tags": [],
+  "summary_markdown": "The conversation consisted of general banter regarding memory, technology comparisons (iPhone vs. Mac), and an agreement to connect later for a detailed discussion.",
+  "decisions": [],
+  "action_items": [
+    "Connect later to discuss topics further."
+  ]
+}

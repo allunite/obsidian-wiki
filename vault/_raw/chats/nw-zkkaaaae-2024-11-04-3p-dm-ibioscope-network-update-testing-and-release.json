@@ -1,0 +1,22 @@
+{
+  "chat_id": "nW_zkkAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2024-11-04",
+    "end": "2024-11-04"
+  },
+  "message_count": 21,
+  "topic": "iBioscope network update testing and release",
+  "topic_slug": "ibioscope-network-update-testing-and-release",
+  "tags": [
+    "analytics",
+    "campaign"
+  ],
+  "summary_markdown": "The team discussed the implementation of 'Provantage: Amend iBioscope to iBioskop Network'. A testing session was scheduled for that evening (around 17:00). The changes were confirmed to be implemented across both beta and production environments. Potential failure points identified included network search functionality on dashboards and within reports related to networks.",
+  "decisions": [
+    "The 'Provantage: Amend iBioscope to iBioskop Network' update was scheduled for release/testing that evening (around 17:00)."
+  ],
+  "action_items": []
+}

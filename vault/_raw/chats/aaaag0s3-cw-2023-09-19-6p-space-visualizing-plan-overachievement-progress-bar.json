@@ -1,0 +1,23 @@
+{
+  "chat_id": "AAAAg0s3_Cw",
+  "kind": "Space",
+  "space_name": "Бразилия Дезигн",
+  "participants": 6,
+  "date_range": {
+    "start": "2023-09-19",
+    "end": "2023-09-19"
+  },
+  "message_count": 10,
+  "topic": "Visualizing plan overachievement progress bar",
+  "topic_slug": "visualizing-plan-overachievement-progress-bar",
+  "tags": [
+    "analytics"
+  ],
+  "summary_markdown": "A discussion occurred regarding the visualization of a progress bar used to track performance against a set plan. The current setup uses a gray background for the plan and a colored inner bar (dynamic color from red at 0% to green at 100%) for actual achievement.\n\nThe core question raised was how to visually represent the situation when the actual performance exceeds the initial forecast/plan, as the current visualization method is insufficient. Someone working on the visualization promised to provide several options by the next day.",
+  "decisions": [
+    "The need for a clearer visual representation of plan overachievement was identified."
+  ],
+  "action_items": [
+    "[p2] will present multiple visualization options for the progress bar tomorrow."
+  ]
+}

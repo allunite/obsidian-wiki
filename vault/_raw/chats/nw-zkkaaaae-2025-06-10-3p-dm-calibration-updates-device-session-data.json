@@ -1,0 +1,26 @@
+{
+  "chat_id": "nW_zkkAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2025-06-10",
+    "end": "2025-06-10"
+  },
+  "message_count": 37,
+  "topic": "Calibration updates for device session data",
+  "topic_slug": "calibration-updates-device-session-data",
+  "tags": [
+    "analytics",
+    "facility"
+  ],
+  "summary_markdown": "The conversation covered two main topics: campaign setup and calibration procedures. Initially, a request was made to open a campaign for 'праймідії 7942' without demographic or frequency targeting, which was successfully implemented by [me].\n\nLater, the discussion focused on updating device session calibration. Someone questioned if they could independently update the calibration for specific categories (Metro/Underground) and companies (7863, 7962). [me] clarified that while updates are possible, the process differs between staging and production environments. Specifically, for production data, one must use `device_session_calibration_3`, and reloading dictionaries should be done separately for both `*_3` and `*_staging`. Furthermore, only `device_session_calibration_company_category_*` needs to be reloaded when category changes are made.",
+  "decisions": [
+    "The campaign for 'праймідії 7942' was opened without demographic or frequency targeting.",
+    "For production calibration updates, the table `device_session_calibration_3` must be used."
+  ],
+  "action_items": [
+    "Someone needs to check the data regarding impressions for Finnish users starting from March 27, 2025.",
+    "The process for updating device session calibration was clarified (staging vs. production tables and specific reload commands)."
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "chat_id": "y9IEDQAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2024-09-30",
+    "end": "2024-09-30"
+  },
+  "message_count": 84,
+  "topic": "Separating data API and Mops deployment",
+  "topic_slug": "separating-data-api-and-mops-deployment",
+  "tags": [
+    "analytics",
+    "campaign",
+    "inventory",
+    "loop"
+  ],
+  "summary_markdown": "The discussion focused on the technical architecture for deploying `data-api` separately from `Mops`. It was determined that while both services reside in the same repository (`mops`), they must be built and deployed as two distinct containers/services to prevent changes in one from affecting the other.\n\n**Key Technical Points:**\n*   The `data-api` service should be built separately (e.g., using `nest build data-api`) and run independently, even though it shares environment variables with `Mops`.\n*   It was agreed that for deployment consistency, both services should ideally be deployed together in the same pod/release to ensure synchronization of updates across both applications.\n*   The team discussed standardizing environments. It was decided to simplify the naming convention, potentially limiting environments to 'prod' and 'sandbox', while clarifying how data will transition between these stages (e.g., from sandbox dataset to production dataset).\n\n**Action Items:**\n*   A documentation link was shared detailing the proposed architecture.",
+  "decisions": [
+    "The `data-api` service must be built and deployed as a separate container/service from `Mops`.",
+    "Both `data-api` and `Mops` should ideally be deployed together in the same release to maintain version synchronization.",
+    "The environment naming convention will be simplified, potentially focusing on 'prod' and 'sandbox'."
+  ],
+  "action_items": [
+    "Investigate implementing separate CI/Docker configurations for `data-api` within the Mops repository.",
+    "Update documentation with the finalized deployment architecture."
+  ]
+}

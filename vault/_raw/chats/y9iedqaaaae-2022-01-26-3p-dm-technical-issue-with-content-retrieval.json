@@ -1,0 +1,19 @@
+{
+  "chat_id": "y9IEDQAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2022-01-26",
+    "end": "2022-01-26"
+  },
+  "message_count": 5,
+  "topic": "Technical issue with content retrieval",
+  "topic_slug": "technical-issue-with-content-retrieval",
+  "tags": [
+    "analytics"
+  ],
+  "summary_markdown": "A technical issue was discussed regarding accessing content, specifically encountering a 'too many redirects' error. [p1] requested the raw content file (a text file) directly from [me].",
+  "decisions": [],
+  "action_items": []
+}

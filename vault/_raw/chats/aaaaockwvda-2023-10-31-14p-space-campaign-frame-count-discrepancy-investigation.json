@@ -1,0 +1,23 @@
+{
+  "chat_id": "AAAAOcKWvdA",
+  "kind": "Space",
+  "space_name": "Delivery Coordination",
+  "participants": 14,
+  "date_range": {
+    "start": "2023-10-31",
+    "end": "2023-10-31"
+  },
+  "message_count": 18,
+  "topic": "Campaign frame count discrepancy investigation",
+  "topic_slug": "campaign-frame-count-discrepancy-investigation",
+  "tags": [
+    "frame",
+    "analytics",
+    "campaign"
+  ],
+  "summary_markdown": "A discussion arose regarding discrepancies in the number of frames reported for a campaign between 'stage' and 'prod' environments. It was noted that when uploading via CSV, the system should alert if some uploaded frames are not in the correct status. One participant identified a mismatch where 392 expected frames were compared to only 346 available frames.\n\nLater, someone checked the campaign data for consistency and confirmed that all frame counts matched across environments.",
+  "decisions": [
+    "The discrepancy in frame count between stage and prod was investigated."
+  ],
+  "action_items": []
+}

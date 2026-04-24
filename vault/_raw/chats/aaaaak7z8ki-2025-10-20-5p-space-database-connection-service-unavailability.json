@@ -1,0 +1,22 @@
+{
+  "chat_id": "AAAAaK7z8KI",
+  "kind": "Space",
+  "space_name": "Group Chat",
+  "participants": 5,
+  "date_range": {
+    "start": "2025-10-20",
+    "end": "2025-10-20"
+  },
+  "message_count": 6,
+  "topic": "Database connection and service unavailability",
+  "topic_slug": "database-connection-service-unavailability",
+  "tags": [
+    "analytics",
+    "impression"
+  ],
+  "summary_markdown": "The session discusses a recurring database error (`DB::Exception: Dictionary allunite.ml_frequency_logreg_http_dict_2 source seems unavailable, because 60000 ms timeout exceeded`) encountered when running analytics queries.\n\nAdditionally, the system is receiving an HTTP 503 'Service Temporarily Unavailable' error from the `ml-api-prod` endpoint. The general consensus suggests that the instability and high volume of requests placed on ClickHouse (a database) have caused a broader service disruption, potentially affecting AWS infrastructure.",
+  "decisions": [
+    "The issue is attributed to system overload following excessive queries hitting ClickHouse."
+  ],
+  "action_items": []
+}

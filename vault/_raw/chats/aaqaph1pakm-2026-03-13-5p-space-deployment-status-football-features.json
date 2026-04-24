@@ -1,0 +1,24 @@
+{
+  "chat_id": "AAQAPH1pAKM",
+  "kind": "Space",
+  "space_name": "Group Chat",
+  "participants": 5,
+  "date_range": {
+    "start": "2026-03-13",
+    "end": "2026-03-13"
+  },
+  "message_count": 4,
+  "topic": "Deployment status of football features",
+  "topic_slug": "deployment-status-football-features",
+  "tags": [
+    "campaign",
+    "analytics"
+  ],
+  "summary_markdown": "The discussion centered on deploying 'football' features to production. While the feature is ready for deployment, concerns were raised regarding its functionality when dealing with multiple subsidiary companies (beyond the single case tested at Aurinko Golf Club). It was decided that further investigation into the multi-subsidiary scenario is required before proceeding with the production migration.",
+  "decisions": [
+    "Do not deploy 'football' features to production until the handling of multiple subsidiary companies is fully verified."
+  ],
+  "action_items": [
+    "[me] needs to investigate and resolve the functionality for scenarios involving two or more subsidiary companies."
+  ]
+}

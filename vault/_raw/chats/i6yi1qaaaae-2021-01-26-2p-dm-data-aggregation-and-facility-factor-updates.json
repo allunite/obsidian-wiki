@@ -1,0 +1,26 @@
+{
+  "chat_id": "i6YI1QAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 2,
+  "date_range": {
+    "start": "2021-01-26",
+    "end": "2021-01-26"
+  },
+  "message_count": 91,
+  "topic": "Data aggregation and facility factor updates",
+  "topic_slug": "data-aggregation-and-facility-factor-updates",
+  "tags": [
+    "analytics",
+    "facility"
+  ],
+  "summary_markdown": "The discussion focused on refining data queries, specifically calculating average dwell time (avg) instead of sums. Multiple adjustments were made to the facility factor dataset and aggregation process.\n\nKey updates included:\n*   **Dwell Time Calculation:** The need for an average calculation (`avg`) was confirmed for session duration/dwell time metrics.\n*   **Facility Factor Data:** The team worked on updating the facility factor data, ensuring that the staging environment reflected the production setup. This involved correcting cached values and re-aggregating the dataset multiple times.\n*   **Platform Inclusion:** A critical fix was implemented to ensure that 'Metro platform' facilities were correctly included in the asset selection query alongside 'Metro' and 'Rail'.\n*   **Data Delivery:** The final factor data, including fixes for two previously unlisted facilities, was successfully delivered.",
+  "decisions": [
+    "Dwell time metrics should use an average calculation (avg) rather than a sum.",
+    "The facility factor dataset on the staging environment must be updated to match the production setup.",
+    "The asset query must explicitly include 'Metro platform' category facilities."
+  ],
+  "action_items": [
+    "Someone needs to write to Nasta regarding the new Metro data set for comparison."
+  ]
+}

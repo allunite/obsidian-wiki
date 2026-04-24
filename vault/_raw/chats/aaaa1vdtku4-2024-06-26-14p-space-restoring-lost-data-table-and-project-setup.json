@@ -1,0 +1,26 @@
+{
+  "chat_id": "AAAA1vdtku4",
+  "kind": "Space",
+  "space_name": "DataTeam+",
+  "participants": 14,
+  "date_range": {
+    "start": "2024-06-26",
+    "end": "2024-06-26"
+  },
+  "message_count": 24,
+  "topic": "Restoring lost data table and project setup",
+  "topic_slug": "restoring-lost-data-table-and-project-setup",
+  "tags": [
+    "analytics",
+    "inventory",
+    "campaign"
+  ],
+  "summary_markdown": "The discussion centered on recovering a temporary PostgreSQL table, `_kido_sample_20230607`, which was used in the VA API and appeared to have been deleted or archived. It was noted that tables with underscores are often temporary.\n\nTo mitigate future data loss, it was decided to rename the sample table structure from date-specific (`kido_sample_20230607`) to a permanent name (`kido_data_sample`).\n\nSeparately, someone inquired about setting up two new projects on Rollbar: 'ML-API' and 'Data Monitoring', for error tracking integration. This was approved by another participant.",
+  "decisions": [
+    "The temporary table `_kido_sample_20230607` structure should be made permanent, renamed to `kido_data_sample`."
+  ],
+  "action_items": [
+    "Follow up with someone regarding the backup status of the lost data table.",
+    "Create two new projects on Rollbar: ML-API and Data Monitoring for error tracking."
+  ]
+}

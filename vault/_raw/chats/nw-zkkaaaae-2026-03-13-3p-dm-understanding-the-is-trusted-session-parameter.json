@@ -1,0 +1,24 @@
+{
+  "chat_id": "nW_zkkAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2026-03-13",
+    "end": "2026-03-13"
+  },
+  "message_count": 17,
+  "topic": "Understanding the is_trusted session parameter",
+  "topic_slug": "understanding-the-is-trusted-session-parameter",
+  "tags": [
+    "analytics",
+    "session"
+  ],
+  "summary_markdown": "The conversation clarifies the technical definition and utility of the `is_trusted` session parameter. It was explained that `is_trusted` indicates a connected session (as opposed to a probe request, handshake, or beacon), meaning the device is connected to a specific Wi-Fi network.\n\n*   **`is_local AND is_trusted`**: This combination signifies a local randomized MAC address session. While useful for assessing immediate traffic within a sensor's range, it is unsuitable for tracking a device's movement over time because the `device_id` may change in different locations or days.\n*   **General Use**: For sessions where `NOT is_local`, the value of `is_trusted` does not matter, as both probe requests and traffic data (which use static MAC addresses) are captured.\n\nIt was noted that most sensors do not broadcast Wi-Fi signals but rather passively listen. The presence of trusted sessions is generally expected in indoor or urban environments.",
+  "decisions": [
+    "No concrete decisions were made."
+  ],
+  "action_items": [
+    "None."
+  ]
+}

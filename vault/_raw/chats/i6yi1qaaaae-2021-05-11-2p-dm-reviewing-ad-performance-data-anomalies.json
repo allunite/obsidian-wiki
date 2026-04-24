@@ -1,0 +1,25 @@
+{
+  "chat_id": "i6YI1QAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 2,
+  "date_range": {
+    "start": "2021-05-11",
+    "end": "2021-05-11"
+  },
+  "message_count": 39,
+  "topic": "Reviewing ad performance data anomalies",
+  "topic_slug": "reviewing-ad-performance-data-anomalies",
+  "tags": [
+    "analytics",
+    "session",
+    "inventory"
+  ],
+  "summary_markdown": "The discussion focused on investigating unusual behavior in ad metrics, specifically the relationship between sessions and unique identifiers (yuniks) for Latvia. Initial checks confirmed that overall totals were fine, but a discrepancy was noted regarding the ratio of sessions to unique IDs on a specific day.\n\nLater, a potential issue with data calibration was discussed, which led someone to find a problem in the system but not its root cause. The conversation concluded with scheduling model reprocessing for April 20th, requiring careful handling due to different models across categories.",
+  "decisions": [
+    "Model reprocessing for 2021-04-20 will be scheduled for the next day."
+  ],
+  "action_items": [
+    "Someone needs to review potential data issues from April 30th regarding a specific facility."
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "chat_id": "AAAAOcKWvdA",
+  "kind": "Space",
+  "space_name": "Delivery Coordination",
+  "participants": 14,
+  "date_range": {
+    "start": "2024-12-19",
+    "end": "2024-12-19"
+  },
+  "message_count": 9,
+  "topic": "Adjusting client reporting metrics",
+  "topic_slug": "adjusting-client-reporting-metrics",
+  "tags": [
+    "analytics"
+  ],
+  "summary_markdown": "The discussion focused on the placement and visibility of 'Percent of Forecast' in client-facing reports. Initially, there was confusion regarding whether this metric should be displayed for clients or internally. It was decided that the chart should not be visible to clients until further notice due to potential questions.\n\nLater, someone confirmed that a fix had been implemented, making the feature available only to administrators and functioning as previously described.",
+  "decisions": [
+    "Remove 'Percent of Forecast' from client-facing reports until further notice."
+  ],
+  "action_items": []
+}

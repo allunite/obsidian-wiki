@@ -1,0 +1,24 @@
+{
+  "chat_id": "y9IEDQAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2021-02-18",
+    "end": "2021-02-18"
+  },
+  "message_count": 5,
+  "topic": "Deploying citymedia and jcd BE locations",
+  "topic_slug": "deploying-citymedia-and-jcd-be-locations",
+  "tags": [
+    "inventory",
+    "campaign"
+  ],
+  "summary_markdown": "The discussion focused on deploying specific inventory sources: citymedia, JCD BE (LT, NL). It was decided that these locations needed to be configured and deployed in real-time during the morning.",
+  "decisions": [
+    "citymedia and jcd BE (LT, NL) must be written up and deployed"
+  ],
+  "action_items": [
+    "Write up and deploy citymedia and jcd BE locations in the morning"
+  ]
+}

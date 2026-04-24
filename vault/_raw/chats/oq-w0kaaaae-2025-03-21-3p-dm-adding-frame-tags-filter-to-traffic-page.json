@@ -1,0 +1,28 @@
+{
+  "chat_id": "oq-w0kAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2025-03-21",
+    "end": "2025-03-21"
+  },
+  "message_count": 15,
+  "topic": "Adding frame tags filter to traffic page",
+  "topic_slug": "adding-frame-tags-filter-to-traffic-page",
+  "tags": [
+    "analytics",
+    "inventory",
+    "campaign",
+    "impression"
+  ],
+  "summary_markdown": "A new requirement was discussed for Task 1812: adding a filter based on frame tags to the traffic page. The front end will pull all available tags from inventory and implement a multi-select filter, passing them as an additional parameter (e.g., `&tags=aaa,bbb,ccc`) to the `/api/dashboard/traffic/totals` endpoint and similar methods.\n\nRegarding implementation time, it was estimated that the backend work would take a couple of hours, including adding tags to the directory structure.\n\nThe target deployment timeline for the beta environment is set for Tuesday evening.",
+  "decisions": [
+    "The traffic page will receive a new filter based on frame tags.",
+    "The backend parameter handling for frame tags must be implemented in API endpoints like /api/dashboard/traffic/totals."
+  ],
+  "action_items": [
+    "Implement the server-side logic to accept and calculate metrics based on frame tags (Task 1812).",
+    "Deploy the feature to beta environment by Tuesday evening."
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "chat_id": "oCgFCIAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2022-01-25",
+    "end": "2022-01-25"
+  },
+  "message_count": 32,
+  "topic": "Database schema design and cleanup",
+  "topic_slug": "database-schema-design-and-cleanup",
+  "tags": [
+    "analytics",
+    "inventory",
+    "campaign"
+  ],
+  "summary_markdown": "The discussion covered two main areas: repository maintenance and database schema design. \n\n**Repository Cleanup:** The participants discussed cleaning up a Git repository, specifically removing sensitive credentials (passwords) from environment files across old branches. It was decided that all but the `fix_seed` branch are outdated and should be removed or merged into the main development branch. The process involved using `git filter-branch`.\n\n**Database Schema:** Regarding regional data, it was determined that the region table must be created in PostgreSQL first before being mapped to ClickHouse. It was agreed that naming conventions for tables (e.g., single vs. plural) and fields should be standardized, potentially using prefixes like `demography_region` to distinguish different types of reference data.",
+  "decisions": [
+    "Sensitive credentials must be removed from all Git branches in the repository.",
+    "All outdated branches, except for `fix_seed`, are slated for removal or merging into development."
+  ],
+  "action_items": [
+    "Perform local Git cleanup (e.g., using `git remote add upstream`) to manage and merge branches within the current repository."
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "chat_id": "y9IEDQAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2021-12-13",
+    "end": "2021-12-13"
+  },
+  "message_count": 18,
+  "topic": "Java application security and upgrade planning",
+  "topic_slug": "java-application-security-and-upgrade-planning",
+  "tags": [
+    "analytics",
+    "campaign"
+  ],
+  "summary_markdown": "The discussion focused on the potential vulnerability of Java applications, specifically regarding Log4j. It was confirmed that while a mobile API uses an older version (1.2.17) that predates the specific vulnerability, there is concern about public-facing components. Regarding development work, [me] stated plans to create a full copy of the main system in a dev environment and suggested provisioning four servers for this setup, noting that this task is not urgent.",
+  "decisions": [
+    "The mobile API uses an older version of Log4j (1.2.17) which mitigates the immediate vulnerability concern."
+  ],
+  "action_items": []
+}

@@ -1,0 +1,26 @@
+{
+  "chat_id": "oCgFCIAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2023-07-03",
+    "end": "2023-07-03"
+  },
+  "message_count": 19,
+  "topic": "Debugging MOPs frame data and duplicates",
+  "topic_slug": "debugging-mops-frame-data-and-duplicates",
+  "tags": [
+    "analytics",
+    "inventory",
+    "frame"
+  ],
+  "summary_markdown": "The conversation focused on debugging the `v_mops_frame_va` view, particularly concerning data discrepancies and duplicate records. \n\n*   **Data Retrieval:** Initial discussions involved running SQL queries to retrieve frame data for testing purposes, including checking for instances where `va > 0`. The necessary views were confirmed for pulling traffic and impression data.\n*   **Duplicate Records:** A significant issue identified was the presence of multiple duplicate records within the view, even when filtering by specific `frame_num` and `road_id`, suggesting a potential bug in segment or ID handling. \n*   **Data Source Confirmation:** It was noted that while segments are stable, discrepancies might arise from external data sources (like an Excel presentation) joining with internal data.\n\n[me] confirmed fixing the initial data retrieval issue.",
+  "decisions": [
+    "The `v_mops_frame_va` view needs debugging due to duplicate records and potential segment/ID issues."
+  ],
+  "action_items": [
+    "Someone needs to investigate the source of duplicate records in the MOPs frame data, potentially involving checking external Excel inputs or joining logic.",
+    "The initial data retrieval issue (related to `va > 0`) was fixed by [me]."
+  ]
+}

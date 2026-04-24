@@ -1,0 +1,28 @@
+{
+  "chat_id": "AAAAl4SgH7c",
+  "kind": "Space",
+  "space_name": "Lithuania_old",
+  "participants": 6,
+  "date_range": {
+    "start": "2021-04-26",
+    "end": "2021-04-26"
+  },
+  "message_count": 28,
+  "topic": "Lithuania launch milestones and installation planning",
+  "topic_slug": "lithuania-launch-milestones-and-installation-planning",
+  "tags": [
+    "campaign",
+    "analytics",
+    "inventory",
+    "manual counting"
+  ],
+  "summary_markdown": "A set of key milestones were established for the Lithuania launch, aiming for a June 1st deadline. These include: Installation Deadline (May 9th), Manual Counting Deadline (May 16th), AU Presentation of Data Calibration Results to JCD LT and Feedback (May 23rd), and Final confirmation of traffic data from JCD LT (May 30th).\n\nRegarding the process, it was confirmed that old traffic data from manual countings should be requested before May 9th. The team also discussed setting internal deadlines for finding freelancers by May 2nd to allow installations to begin in Lithuania on May 3rd and 4th, enabling subsequent Manual Counting (MC).\n\nSeparately, it was noted that some screens lack warranty coverage; therefore, additional outlets and sensors will be installed without the need for specific cables.",
+  "decisions": [
+    "The launch deadline is set for June 1st.",
+    "Milestones include installation by May 9th and final data confirmation by May 30th."
+  ],
+  "action_items": [
+    "Request old traffic data from manual countings before May 9th.",
+    "Find freelancers by May 2nd to start installations in Lithuania on May 3rd/4th."
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "chat_id": "i6YI1QAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 2,
+  "date_range": {
+    "start": "2021-11-08",
+    "end": "2021-11-08"
+  },
+  "message_count": 37,
+  "topic": "Analytics data access and modeling timeline",
+  "topic_slug": "analytics-data-access-and-modeling-timeline",
+  "tags": [
+    "analytics",
+    "impression",
+    "session",
+    "facility"
+  ],
+  "summary_markdown": "The discussion covered technical limitations regarding data access, specifically the use of `is_trusted` flag for sessions and facilities. It was clarified that session data should be limited to the last day due to a previous bug.\n\nRegarding analytics modeling, [p1] requested an update on when impression data could be processed, noting the need to verify formulas and potentially adjust parameters. The timeline is tight, with results needed by December 8th for Esben's presentation, requiring work on both the impression model and demographics.\n\n[me] suggested that working directly in the database rather than using the analytics editor would be faster due to time constraints. A follow-up was also given regarding how to programmatically identify which facilities belong to a specific network, with [me] agreeing to write a query.",
+  "decisions": [
+    "Session data should only use records from the last day.",
+    "Analytics modeling for impressions will be done by writing directly in the database, bypassing the analytics editor."
+  ],
+  "action_items": [
+    "[me] to provide a query detailing which facilities belong to a specific network."
+  ]
+}

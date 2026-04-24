@@ -1,0 +1,21 @@
+{
+  "chat_id": "AAAAOcKWvdA",
+  "kind": "Space",
+  "space_name": "Delivery Coordination",
+  "participants": 14,
+  "date_range": {
+    "start": "2025-01-20",
+    "end": "2025-01-20"
+  },
+  "message_count": 4,
+  "topic": "Real-time map marker updates fix",
+  "topic_slug": "real-time-map-marker-updates-fix",
+  "tags": [
+    "analytics"
+  ],
+  "summary_markdown": "A fix was implemented for the real-time tracking feature, ensuring that markers on the map update correctly. The fix is currently available on staging and can be deployed to production if necessary.\n\nIt was clarified that the map displays a designated area (e.g., city or quarter), and to match the count of active devices with the visual representation, the map must be zoomed out so all markers appear as a single cluster.\n\nRegarding data fetching, it was confirmed that only one periodic request is needed for real-time updates; previously, the markers were failing to update on subsequent requests, while only the total device count was updating.",
+  "decisions": [
+    "The fix for real-time map marker updates is available on staging and can be deployed to production."
+  ],
+  "action_items": []
+}

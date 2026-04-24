@@ -1,0 +1,21 @@
+{
+  "chat_id": "y9IEDQAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2025-03-10",
+    "end": "2025-03-10"
+  },
+  "message_count": 3,
+  "topic": "mops-ai redeployment status check",
+  "topic_slug": "mops-ai-redeployment-status-check",
+  "tags": [
+    "analytics"
+  ],
+  "summary_markdown": "Someone confirmed the redeployment of mops-ai. [p1] subsequently requested a review to confirm if the deployment was successful.",
+  "decisions": [],
+  "action_items": [
+    "Review and confirm the status of the mops-ai redeployment."
+  ]
+}

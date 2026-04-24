@@ -1,0 +1,30 @@
+{
+  "chat_id": "AAAA3oghITo",
+  "kind": "Space",
+  "space_name": "Кабаны",
+  "participants": 4,
+  "date_range": {
+    "start": "2022-04-08",
+    "end": "2022-04-08"
+  },
+  "message_count": 111,
+  "topic": "Database upgrade and system testing",
+  "topic_slug": "database-upgrade-and-system-testing",
+  "tags": [
+    "analytics",
+    "campaign",
+    "facility",
+    "impression",
+    "mops",
+    "session"
+  ],
+  "summary_markdown": "The session focused heavily on database maintenance, specifically an upgrade to version 14 and subsequent testing of the new environment. Multiple issues were encountered during the upgrade process, including errors related to custom aggregates (`array_accum`, `median`) and connection/authentication failures (e.g., `pg_hba.conf` entries, password locale). The view `v_ch_facility` was dropped and then restored.\n\nTesting confirmed that core systems like Randex and Icinga rely on PostgreSQL, making the database upgrade critical for overall functionality. After resolving connection issues (including setting correct password locales), initial tests showed successful data retrieval and operation across various sections of the analytics platform, including facility listings in the dashboard filter.\n\nThe final decision was made to proceed with the full upgrade and migration after hours.",
+  "decisions": [
+    "The database will be upgraded to version 14.",
+    "The system testing confirmed that core services (Randex, Icinga) rely on PostgreSQL, necessitating a successful database transition."
+  ],
+  "action_items": [
+    "Perform the final database upgrade and migration after hours (after 21:00).",
+    "Monitor job performance over the weekend following the upgrade."
+  ]
+}

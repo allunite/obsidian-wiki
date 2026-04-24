@@ -1,0 +1,23 @@
+{
+  "chat_id": "y9IEDQAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2023-03-02",
+    "end": "2023-03-02"
+  },
+  "message_count": 7,
+  "topic": "Comparing analytics data processing methods",
+  "topic_slug": "comparing-analytics-data-processing-methods",
+  "tags": [
+    "recalc-ch",
+    "session",
+    "analytics"
+  ],
+  "summary_markdown": "The conversation focused on comparing different approaches for data processing, specifically regarding sessionization and recalculation logic. One participant mentioned developing a new recalculation process. They then discussed the suitability of using Kinesis's session analytics compared to their custom approach. It was determined that Kinesis might only group sessions by time, whereas the required grouping needs to include box, device, and subsequently time. The participant confirmed that their existing implementation for CH sessions yielded excellent results.",
+  "decisions": [
+    "The current recalculation method developed for CH sessions is preferred over the initial review of Kinesis session analytics."
+  ],
+  "action_items": []
+}

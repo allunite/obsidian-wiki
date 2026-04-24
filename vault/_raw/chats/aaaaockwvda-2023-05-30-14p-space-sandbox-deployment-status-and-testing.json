@@ -1,0 +1,22 @@
+{
+  "chat_id": "AAAAOcKWvdA",
+  "kind": "Space",
+  "space_name": "Delivery Coordination",
+  "participants": 14,
+  "date_range": {
+    "start": "2023-05-30",
+    "end": "2023-05-30"
+  },
+  "message_count": 20,
+  "topic": "Sandbox deployment status and testing",
+  "topic_slug": "sandbox-deployment-status-and-testing",
+  "tags": [
+    "analytics",
+    "inventory"
+  ],
+  "summary_markdown": "The session focused on the current status of deployments and testing. It was noted that no deployments should occur for the next hour, including to the sandbox environment. Data availability was confirmed: yesterday's real-time data is available on stage, but production failed.\n\nTesting progressed with a focus on inventory functionality, which reportedly worked well. There was discussion regarding whether initial fixes or immediate breakage testing should be prioritized.",
+  "decisions": [
+    "No deployments are to occur for the next hour (including sandbox)."
+  ],
+  "action_items": []
+}

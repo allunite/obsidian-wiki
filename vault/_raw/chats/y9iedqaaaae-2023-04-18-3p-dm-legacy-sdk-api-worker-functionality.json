@@ -1,0 +1,21 @@
+{
+  "chat_id": "y9IEDQAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2023-04-18",
+    "end": "2023-04-18"
+  },
+  "message_count": 12,
+  "topic": "Legacy SDK API and Worker Functionality",
+  "topic_slug": "legacy-sdk-api-worker-functionality",
+  "tags": [
+    "analytics"
+  ],
+  "summary_markdown": "The conversation focused on defining the purpose of the deprecated `sdk-api` and `sdk-worker`. It was noted that the `sdk-api` is primarily used for tracking captive portal activity, specifically checking if a device is already authorized. The function of `sdk-worker` was described as handling asynchronous data transfer (e.g., from RabbitMQ to PostgreSQL). Regarding its use in Aerospike, it was unclear what specific role it plays, though one participant noted the presence of some kind of cache within it. Finally, participants confirmed that the repository `data-api-lambda` is no longer in use.",
+  "decisions": [
+    "The purpose of sdk-api and sdk-worker needs documentation."
+  ],
+  "action_items": []
+}

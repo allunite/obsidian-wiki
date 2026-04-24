@@ -1,0 +1,23 @@
+{
+  "chat_id": "AAAAOcKWvdA",
+  "kind": "Space",
+  "space_name": "Delivery Coordination",
+  "participants": 14,
+  "date_range": {
+    "start": "2023-11-22",
+    "end": "2023-11-22"
+  },
+  "message_count": 32,
+  "topic": "Standardizing release version numbering format",
+  "topic_slug": "standardizing-release-version-numbering-format",
+  "tags": [
+    "analytics"
+  ],
+  "summary_markdown": "The discussion focused on standardizing the version number format for releases to avoid confusion between production, staging, and development builds. Initial suggestions included using year/month/sequential number or simply three digits.\n\nMultiple formats were proposed: Year.Month.SequentialNumber (current practice), YYYY.MM.DD.build_id, or incorporating a commit hash (e.g., `YYYY.MM.DD.branch.commit_hash`). The consensus leaned towards using the date and a commit hash to ensure traceability of features included in the release.\n\n[me] suggested that adopting a format like `YYYY.MM.DD.develop.32af56ff` (Date.Branch.CommitHash) would provide maximum clarity, while [p10] suggested using the date number if releases are bi-weekly and stable.\n\nUltimately, it was decided to wait until Friday to finalize the versioning strategy, specifically avoiding development branches on production builds where possible.",
+  "decisions": [
+    "The release version numbering format needs standardization for better clarity."
+  ],
+  "action_items": [
+    "Wait until Friday to finalize the versioning strategy for releases."
+  ]
+}

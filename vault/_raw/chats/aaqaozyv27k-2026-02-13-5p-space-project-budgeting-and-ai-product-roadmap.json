@@ -1,0 +1,27 @@
+{
+  "chat_id": "AAQAoZYV27k",
+  "kind": "Space",
+  "space_name": "IT Tasks - 13 Feb",
+  "participants": 5,
+  "date_range": {
+    "start": "2026-02-13",
+    "end": "2026-02-13"
+  },
+  "message_count": 68,
+  "topic": "Project budgeting and AI product roadmap",
+  "topic_slug": "project-budgeting-and-ai-product-roadmap",
+  "tags": [
+    "analytics",
+    "campaign",
+    "inventory",
+    "impression"
+  ],
+  "summary_markdown": "The discussion covered financial projections, including ARR estimates (up to 6-8 million USD) and ROI targets. Several project budgets were reviewed, detailing required hours for R&D and specific projects like the Publiex report.\n\nKey product development areas included:\n*   **AI Model:** Requires significant data processing time (70 hours) plus additional development hours.\n*   **Sensor Deployment:** Initial estimates suggested 3-4 months to install 40 sensors, with a later mention of 160 hours for sensor installation.\n*   **Ocean Outdoor Project:** Estimated at 9 months and requiring 210 hours for one mall with 10 sensors.\n\nThe team discussed increasing prices and the need for project management involvement to determine if services should be offered free or paid. The AI product is targeted for launch around March 10th, focusing on metrics like traffic, impressions, reach, and frequency, requiring inventory upload.",
+  "decisions": [
+    "The AI product is scheduled for launch on March 10th.",
+    "Pricing adjustments are being considered, with a focus on increasing client payments."
+  ],
+  "action_items": [
+    "Project manager and sales need to decide the pricing model (free vs. paid) for new projects."
+  ]
+}

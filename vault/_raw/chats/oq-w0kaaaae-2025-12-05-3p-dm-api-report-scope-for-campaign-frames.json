@@ -1,0 +1,22 @@
+{
+  "chat_id": "oq-w0kAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2025-12-05",
+    "end": "2025-12-05"
+  },
+  "message_count": 4,
+  "topic": "API report scope for campaign frames",
+  "topic_slug": "api-report-scope-for-campaign-frames",
+  "tags": [
+    "analytics",
+    "frame"
+  ],
+  "summary_markdown": "A question was raised regarding the `/api/campaigns/report/screens` endpoint. It was confirmed that this report returns data only for frames that generated traffic, not all frames included in the payload or just active ones.",
+  "decisions": [
+    "The campaign report API endpoint filters results to include only frames with recorded traffic."
+  ],
+  "action_items": []
+}

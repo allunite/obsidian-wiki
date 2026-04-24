@@ -1,0 +1,22 @@
+{
+  "chat_id": "y9IEDQAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2024-04-23",
+    "end": "2024-04-23"
+  },
+  "message_count": 10,
+  "topic": "Data reporting requirements for VIOOH",
+  "topic_slug": "data-reporting-requirements-for-viooh",
+  "tags": [
+    "analytics",
+    "impression"
+  ],
+  "summary_markdown": "The conversation focused on data reporting, specifically regarding traffic data from a data API and the scope of required reports. It was discussed whether V4 reports needed to cover an entire year's worth of data or if they should be limited in scope. A key point raised was that currently, BR data is not being uploaded/provided, but it may become necessary as VIOOH prepares its systems.",
+  "decisions": [
+    "The necessity of providing BR data needs further confirmation due to upcoming VIOOH preparations."
+  ],
+  "action_items": []
+}

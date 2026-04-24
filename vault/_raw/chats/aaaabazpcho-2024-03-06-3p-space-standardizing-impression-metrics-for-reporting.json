@@ -1,0 +1,25 @@
+{
+  "chat_id": "AAAAbazPcHo",
+  "kind": "Space",
+  "space_name": "Group Chat",
+  "participants": 3,
+  "date_range": {
+    "start": "2024-03-06",
+    "end": "2024-03-06"
+  },
+  "message_count": 4,
+  "topic": "Standardizing impression metrics for reporting",
+  "topic_slug": "standardizing-impression-metrics-for-reporting",
+  "tags": [
+    "analytics",
+    "impression",
+    "viewable"
+  ],
+  "summary_markdown": "A discrepancy was identified regarding how impressions are calculated and sourced between campaign reports (using fields like `dsa.impressions` for frames) and dashboard reports (using older facility fields like `viewable_flow_impressions`). The current issue is that the necessary fields (`viewable_flow_impressions`, `viewable_dwell_impressions`) are not populated for a specific date range (Feb 1 - Feb 8, 2024). A previous resolution involved having someone copy impression data into facility-level fields to simplify reporting.\n\nThe discussion concluded that the next step is to fully resolve and standardize the definitions of various impression metrics: `impressions`, `viewable_flow_impressions`, `viewable_dwell_impressions`, `viewed_flow_impressions`, and `viewed_dwell_impressions`.",
+  "decisions": [
+    "The need for a definitive standardization of all impression metrics was established."
+  ],
+  "action_items": [
+    "Resolve the definitions and data population for viewable/viewed flow and dwell impressions across reporting platforms."
+  ]
+}

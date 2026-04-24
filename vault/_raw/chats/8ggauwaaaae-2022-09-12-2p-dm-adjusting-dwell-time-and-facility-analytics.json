@@ -1,0 +1,23 @@
+{
+  "chat_id": "8GgAuwAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 2,
+  "date_range": {
+    "start": "2022-09-12",
+    "end": "2022-09-12"
+  },
+  "message_count": 10,
+  "topic": "Adjusting dwell time and facility analytics",
+  "topic_slug": "adjusting-dwell-time-and-facility-analytics",
+  "tags": [
+    "analytics",
+    "facility",
+    "dwell-time"
+  ],
+  "summary_markdown": "The discussion focused on verifying and adjusting the calculation of dwell time for a specific location (Master) within UK mall analytics. Initially, there was concern that the reported dwell time might be inaccurate or calculated as an average across all screens rather than actual time spent in the mall.\n\nTo correct this, it was determined that the user role needed to be set to 'mall' and the category 'Mall' had to be specified for all facilities within the cluster, including Master. These settings were subsequently applied by [me]. Regarding the dwell time calculation, [me] confirmed that the metric is based on traffic data derived from screens and available in the mall analytics for the entire cluster.",
+  "decisions": [
+    "The user role was set to 'mall' and the category 'Mall' was specified for all facilities within the cluster, including Master."
+  ],
+  "action_items": []
+}

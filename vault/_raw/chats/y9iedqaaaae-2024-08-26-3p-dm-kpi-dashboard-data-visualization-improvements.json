@@ -1,0 +1,25 @@
+{
+  "chat_id": "y9IEDQAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2024-08-26",
+    "end": "2024-08-26"
+  },
+  "message_count": 27,
+  "topic": "KPI dashboard data visualization improvements",
+  "topic_slug": "kpi-dashboard-data-visualization-improvements",
+  "tags": [
+    "analytics",
+    "campaign",
+    "inventory"
+  ],
+  "summary_markdown": "The discussion focused on improving the KPI dashboard's ability to visualize data. Initially, [p1] requested that the graphs show breakdowns by country rather than just a total sum. It was confirmed that the current system allows filtering by countries and categories, but combining multiple countries onto a single graph is difficult.\n\n[me] committed to restoring the KPI dashboard to its previous functionality (KPI 1.0) while simultaneously developing an updated version (KPI 2.0). The improved dashboard link was shared later in the day for review.\n\nSeparately, [p1] inquired about implementing specific updates requested by 'Serbs' regarding campaign data, and [me] advised that while technically possible, it would require significant changes to the campaigns structure.",
+  "decisions": [
+    "KPI dashboard will be restored to its previous functionality (KPI 1.0) while developing an updated version (KPI 2.0)."
+  ],
+  "action_items": [
+    "Review the refactored KPI dashboard link provided by [me]."
+  ]
+}

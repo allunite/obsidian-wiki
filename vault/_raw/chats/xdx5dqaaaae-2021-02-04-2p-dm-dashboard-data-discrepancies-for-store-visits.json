@@ -1,0 +1,22 @@
+{
+  "chat_id": "xdx5dQAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 2,
+  "date_range": {
+    "start": "2021-02-04",
+    "end": "2021-02-04"
+  },
+  "message_count": 4,
+  "topic": "Dashboard data discrepancies for store visits",
+  "topic_slug": "dashboard-data-discrepancies-for-store-visits",
+  "tags": [
+    "analytics",
+    "session"
+  ],
+  "summary_markdown": "The discussion focused on a specific dashboard URL (http://staging-mods.allunite.com/dashboard/omnichannel). [me] noted that the store visit data currently does not match, but it appears correct when reviewing data from October 2020 or earlier.",
+  "decisions": [],
+  "action_items": [
+    "Review historical dashboard data (Oct 2020 or prior) for comparison."
+  ]
+}

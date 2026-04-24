@@ -1,0 +1,24 @@
+{
+  "chat_id": "6ize28AAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2025-10-03",
+    "end": "2025-10-03"
+  },
+  "message_count": 18,
+  "topic": "South Africa demographic data sourcing and queries",
+  "topic_slug": "south-africa-demographic-data-sourcing-queries",
+  "tags": [
+    "analytics",
+    "facility"
+  ],
+  "summary_markdown": "The conversation focused on retrieving demographic data for South Africa. [p1] initially requested demographic levels by district or municipality. [me] confirmed that both TRACTOR and TGI data are available for South Africa. [me] provided a complex SQL query designed to aggregate facility counts, grouping results by provider (TRACTOR/TGI), gender, age, race, and employment status, while extracting unique lists of cities, districts, and postal codes from the `demography_agg` table.",
+  "decisions": [
+    "A comprehensive SQL query was provided to aggregate demographic data from TRACTOR and TGI providers in South Africa."
+  ],
+  "action_items": [
+    "None"
+  ]
+}

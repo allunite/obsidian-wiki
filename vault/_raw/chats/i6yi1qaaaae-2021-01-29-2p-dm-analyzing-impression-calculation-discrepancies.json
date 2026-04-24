@@ -1,0 +1,26 @@
+{
+  "chat_id": "i6YI1QAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 2,
+  "date_range": {
+    "start": "2021-01-29",
+    "end": "2021-01-29"
+  },
+  "message_count": 33,
+  "topic": "Analyzing impression calculation discrepancies",
+  "topic_slug": "analyzing-impression-calculation-discrepancies",
+  "tags": [
+    "impression",
+    "analytics",
+    "campaign"
+  ],
+  "summary_markdown": "The discussion focused on a client reporting an unexplained spike in impressions since November 22nd. It was clarified that no API changes were released; instead, the MOPs calculation was rolled back to previous aggregates, where impression counting is heavily dependent on dwell-time.\n\nFor factor data, the relevant PostgreSQL table is `device_session_factor_3`, which contains `start_date` and `end_date` fields. It was noted that for a specific client (Afa), impressions are no longer displayed in the system.\n\nThe discrepancy might be related to the client's own reporting, possibly due to their machine learning models or predictive location data, rather than internal factor adjustments.",
+  "decisions": [
+    "The MOPs calculation was rolled back to previous aggregates.",
+    "Impressions for the specific client (Afa) are not displayed in the system."
+  ],
+  "action_items": [
+    "Investigate impression spikes by checking the `device_session_factor_3` table using start/end dates."
+  ]
+}

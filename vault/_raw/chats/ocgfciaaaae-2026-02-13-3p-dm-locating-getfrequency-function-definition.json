@@ -1,0 +1,21 @@
+{
+  "chat_id": "oCgFCIAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2026-02-13",
+    "end": "2026-02-13"
+  },
+  "message_count": 3,
+  "topic": "Locating getFrequency function definition",
+  "topic_slug": "locating-getfrequency-function-definition",
+  "tags": [
+    "analytics"
+  ],
+  "summary_markdown": "A discussion occurred regarding the location of the `getFrequency_internal_prod` function. [p1] initially asked where to find this function, noting it is used by an ML API and was not visible in the database project structure. Later, [p1] confirmed finding only the call site, as ClickHouse does not provide DLLs for functions. [me] provided a link pointing to the SQL definition of the function.",
+  "decisions": [
+    "The location of `getFrequency_internal_prod` was identified via a specific GitHub link."
+  ],
+  "action_items": []
+}

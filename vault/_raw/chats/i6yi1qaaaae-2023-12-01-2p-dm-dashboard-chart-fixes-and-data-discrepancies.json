@@ -1,0 +1,27 @@
+{
+  "chat_id": "i6YI1QAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 2,
+  "date_range": {
+    "start": "2023-12-01",
+    "end": "2023-12-01"
+  },
+  "message_count": 47,
+  "topic": "Dashboard chart fixes and data discrepancies",
+  "topic_slug": "dashboard-chart-fixes-and-data-discrepancies",
+  "tags": [
+    "analytics",
+    "campaign",
+    "frame",
+    "facility"
+  ],
+  "summary_markdown": "The conversation covered several technical issues related to analytics dashboards. Initially, a request was made to disable unique traffic charts on all dashboards when using 'per hour' granularity.\n\nLater, discrepancies in the reach curve for Brazil were discussed, with [me] identifying that the issue found on staging was due to an aggregation error where data from frames was included without removing previous segments. This specific bug did not appear on production.\n\nAdditionally, [me] identified and fixed a separate issue within the campaign report charts, noting that the left graph displayed data without demographic filters while the right graph (and totals) correctly accounted for them.",
+  "decisions": [
+    "The unique traffic chart will be disabled on all dashboards when using 'per hour' granularity.",
+    "A fix was implemented for the discrepancy in the campaign report charts regarding demographic filter application."
+  ],
+  "action_items": [
+    "Someone should share details of the staging reach curve error with Vlad for review."
+  ]
+}

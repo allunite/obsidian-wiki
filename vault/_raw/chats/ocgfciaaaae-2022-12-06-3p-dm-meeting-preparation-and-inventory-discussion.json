@@ -1,0 +1,21 @@
+{
+  "chat_id": "oCgFCIAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2022-12-06",
+    "end": "2022-12-06"
+  },
+  "message_count": 13,
+  "topic": "Meeting preparation and inventory discussion",
+  "topic_slug": "meeting-preparation-and-inventory-discussion",
+  "tags": [
+    "inventory"
+  ],
+  "summary_markdown": "The session involved coordinating for a 10:00 AM interview/meeting. One participant noted they were delayed due to leaving the hospital and getting blood work done. The meeting agenda was outlined, starting with formalities presented by someone named Galina, followed by discussions about the company/team.\n\nLater, one participant requested advice regarding inventory from [me].",
+  "decisions": [],
+  "action_items": [
+    "Follow up on inventory questions at a later time."
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "chat_id": "nW_zkkAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2023-11-07",
+    "end": "2023-11-07"
+  },
+  "message_count": 5,
+  "topic": "Analytics model aggregation for transit data",
+  "topic_slug": "analytics-model-aggregation-for-transit-data",
+  "tags": [
+    "analytics",
+    "loop"
+  ],
+  "summary_markdown": "The conversation confirms the required inputs for a new function, `isCalibrated`, which needs level signal, session duration, and operational time (though the latter is noted as outdated). Later, someone was asked to add a new model for RZK Digital Media. The request specified aggregating transit analytics data in models 4 and 5 at both 1-hour and 2-hour intervals. This aggregation was subsequently completed.",
+  "decisions": [
+    "Transit analytics data in models 4 and 5 will be aggregated at 1-hour and 2-hour intervals."
+  ],
+  "action_items": []
+}

@@ -1,0 +1,22 @@
+{
+  "chat_id": "AAAAOcKWvdA",
+  "kind": "Space",
+  "space_name": "Delivery Coordination",
+  "participants": 14,
+  "date_range": {
+    "start": "2023-05-10",
+    "end": "2023-05-10"
+  },
+  "message_count": 12,
+  "topic": "Campaign planner access and status changes",
+  "topic_slug": "campaign-planner-access-and-status-changes",
+  "tags": [
+    "campaign",
+    "analytics"
+  ],
+  "summary_markdown": "The discussion focused on the scope of access granted to a campaign planner. It was clarified that while the planner can change the DataBase period, Airing period, Campaign ID, and product/campaign names (which should be shared with the advertiser), they cannot modify the frames or change the public status of the campaign, as this status is intended to be consistent for all users.\n\nParticipants agreed to discuss remaining questions regarding campaign status and sharing in a voice call the following morning.",
+  "decisions": [
+    "Discuss remaining questions about campaign status and sharing via voice call tomorrow morning."
+  ],
+  "action_items": []
+}

@@ -1,0 +1,26 @@
+{
+  "chat_id": "rBfK7kAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 2,
+  "date_range": {
+    "start": "2023-11-29",
+    "end": "2023-11-29"
+  },
+  "message_count": 14,
+  "topic": "Data aggregation issue in session analytics",
+  "topic_slug": "data-aggregation-issue-in-session-analytics",
+  "tags": [
+    "analytics",
+    "impression",
+    "session",
+    "frame"
+  ],
+  "summary_markdown": "A data discrepancy was identified regarding the aggregation of metrics (specifically mentioning `vac` and `impressions`) across multiple rows per frame. The issue appeared to be related to an incorrect join or filtering process in the underlying query logic. After initial investigation, a fix was implemented by someone.",
+  "decisions": [
+    "The data discrepancy needed correction."
+  ],
+  "action_items": [
+    "None specified."
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "chat_id": "oq-w0kAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2025-10-31",
+    "end": "2025-10-31"
+  },
+  "message_count": 5,
+  "topic": "Data payload exceeding specified time limits",
+  "topic_slug": "data-payload-exceeding-time-limits",
+  "tags": [
+    "analytics",
+    "impression"
+  ],
+  "summary_markdown": "A data team member reported an issue where the API endpoint `/api/dashboard/traffic/charts` returns traffic data outside of the specified time window, even when parameters like `from-hour=11&to-hour=14` are used. Specifically, data points from times like 02:00:00 appear in the chart and are causing concern for users.",
+  "decisions": [
+    "The issue needs to be fixed."
+  ],
+  "action_items": [
+    "Create a task to address the API data leakage outside specified hours."
+  ]
+}

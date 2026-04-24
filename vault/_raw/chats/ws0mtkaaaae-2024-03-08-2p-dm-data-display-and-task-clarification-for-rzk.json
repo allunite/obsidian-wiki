@@ -1,0 +1,26 @@
+{
+  "chat_id": "ws0mTkAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 2,
+  "date_range": {
+    "start": "2024-03-08",
+    "end": "2024-03-08"
+  },
+  "message_count": 13,
+  "topic": "Data display and task clarification for RZK",
+  "topic_slug": "data-display-and-task-clarification-for-rzk",
+  "tags": [
+    "analytics",
+    "facility",
+    "inventory",
+    "campaign"
+  ],
+  "summary_markdown": "Discussion covered two main points: the appearance of data in newly added frames and a specific task (DOOH-691) related to RZK.\n\n*   **Frame Data:** If a frame is added to an existing facility that already had virtual or forecasted sessions, the data will immediately appear on the new frame. For entirely new locations, assistance from someone with specialized data retrieval skills is required.\n*   **DOOH-691 Task:** The task relates to RZK and requires mapping available sources to specified targets because mirroring (data synchronization) has not yet been implemented. The original query was incorrect as it used 'targets' instead of 'sources'.\n\nSomeone confirmed the need to implement monitoring for these new areas.",
+  "decisions": [
+    "The DOOH-691 task requires mapping sources to targets due to lack of mirroring."
+  ],
+  "action_items": [
+    "Implement monitoring for the newly discussed areas/targets."
+  ]
+}

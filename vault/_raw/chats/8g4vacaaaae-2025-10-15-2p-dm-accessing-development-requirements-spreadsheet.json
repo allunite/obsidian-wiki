@@ -1,0 +1,19 @@
+{
+  "chat_id": "8G4VaCAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 2,
+  "date_range": {
+    "start": "2025-10-15",
+    "end": "2025-10-15"
+  },
+  "message_count": 4,
+  "topic": "Accessing development requirements spreadsheet",
+  "topic_slug": "accessing-development-requirements-spreadsheet",
+  "tags": [
+    "analytics"
+  ],
+  "summary_markdown": "Someone requested the latest spreadsheet containing new development requirements, estimated hours, and costs for Finland. [me] provided a link to the most recent version of the file.",
+  "decisions": [],
+  "action_items": []
+}

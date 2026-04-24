@@ -1,0 +1,24 @@
+{
+  "chat_id": "oCgFCIAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2023-01-05",
+    "end": "2023-01-05"
+  },
+  "message_count": 15,
+  "topic": "Fixing map marker positioning and scaling",
+  "topic_slug": "fixing-map-marker-positioning-and-scaling",
+  "tags": [
+    "analytics",
+    "frame"
+  ],
+  "summary_markdown": "A technical issue was identified regarding the incorrect placement of markers on a map interface. The problem stemmed from using an incorrect coordinate parameter (the center point instead of the base/origin) for marker positioning, causing the displayed location to be inaccurate and leading to scaling issues when zooming in or out.\n\nThis required implementing the correct center coordinates within the icon data structure to ensure proper board scaling on the frames page.",
+  "decisions": [
+    "The map markers must use the base/origin point for accurate positioning."
+  ],
+  "action_items": [
+    "Someone needs to obtain separate AWS keys from another team member (Tolya) for Polina, including a mechanism to revoke them."
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "chat_id": "i6YI1QAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 2,
+  "date_range": {
+    "start": "2022-07-11",
+    "end": "2022-07-11"
+  },
+  "message_count": 31,
+  "topic": "Requesting unique traffic data for Spain",
+  "topic_slug": "requesting-unique-traffic-data-for-spain",
+  "tags": [
+    "analytics",
+    "inventory",
+    "dwell-time"
+  ],
+  "summary_markdown": "The conversation focused on retrieving historical and unique user traffic data. Initially, a request was made to recalculate permanent metrics for the master facility in Hong Kong. Later, [p1] requested unique traffic data (unique users) for a mall cluster in Spain for specific date ranges: January 2022 and May 2022. The required granularity was confirmed to be daily. A complex SQL query template was provided by someone to assist with the data extraction.",
+  "decisions": [
+    "The unique traffic data request for Spain (Jan/May 2022) is being processed.",
+    "A detailed SQL query structure was shared to facilitate the data pull."
+  ],
+  "action_items": [
+    "Someone needs to run the provided SQL query using specific parameters (company_num = 7862, facility details, and date ranges).",
+    "The unique traffic data for Spain will be delivered via a request/export mechanism."
+  ]
+}

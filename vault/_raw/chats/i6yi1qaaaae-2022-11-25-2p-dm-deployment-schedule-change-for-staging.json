@@ -1,0 +1,23 @@
+{
+  "chat_id": "i6YI1QAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 2,
+  "date_range": {
+    "start": "2022-11-25",
+    "end": "2022-11-25"
+  },
+  "message_count": 8,
+  "topic": "Deployment schedule change for staging",
+  "topic_slug": "deployment-schedule-change-for-staging",
+  "tags": [
+    "analytics"
+  ],
+  "summary_markdown": "The planned deployment was discussed and postponed. It was determined that deploying on Friday might be problematic due to the timing relative to Shabbat, and testing on staging was noted as not being thorough.\n\nThe deployment is rescheduled for Monday.",
+  "decisions": [
+    "Deployment will not happen on Friday."
+  ],
+  "action_items": [
+    "Reschedule deployment for Monday."
+  ]
+}

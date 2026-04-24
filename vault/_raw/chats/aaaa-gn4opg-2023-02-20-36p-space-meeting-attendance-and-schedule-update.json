@@ -1,0 +1,19 @@
+{
+  "chat_id": "AAAA-gn4oPg",
+  "kind": "Space",
+  "space_name": "General and random",
+  "participants": 36,
+  "date_range": {
+    "start": "2023-02-20",
+    "end": "2023-02-20"
+  },
+  "message_count": 3,
+  "topic": "Meeting attendance and schedule update",
+  "topic_slug": "meeting-attendance-and-schedule-update",
+  "tags": [
+    "analytics"
+  ],
+  "summary_markdown": "One participant updated the group that they would not be joining the morning meeting due to an audit of code meeting with Finland.",
+  "decisions": [],
+  "action_items": []
+}

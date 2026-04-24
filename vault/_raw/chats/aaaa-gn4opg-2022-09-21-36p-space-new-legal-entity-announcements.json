@@ -1,0 +1,21 @@
+{
+  "chat_id": "AAAA-gn4oPg",
+  "kind": "Space",
+  "space_name": "General and random",
+  "participants": 36,
+  "date_range": {
+    "start": "2022-09-21",
+    "end": "2022-09-21"
+  },
+  "message_count": 3,
+  "topic": "New legal entity announcements",
+  "topic_slug": "new-legal-entity-announcements",
+  "tags": [
+    "facility"
+  ],
+  "summary_markdown": "A Brazilian legal entity, \"ALLUNITE TECNOLOGIA LTDA,\" was announced as officially open. This is noted alongside the existence of Italian, Ukrainian, and American entities.",
+  "decisions": [],
+  "action_items": [
+    "Update website with new ALLUNITE TECNOLOGIA LTDA entity"
+  ]
+}

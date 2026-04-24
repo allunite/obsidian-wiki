@@ -1,0 +1,21 @@
+{
+  "chat_id": "nW_zkkAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2025-04-02",
+    "end": "2025-04-02"
+  },
+  "message_count": 5,
+  "topic": "Discussing project timeline and release schedule",
+  "topic_slug": "discussing-project-timeline-and-release-schedule",
+  "tags": [
+    "analytics"
+  ],
+  "summary_markdown": "The conversation focused on confirming the timing for a promised deliverable. [p1] shared an Atlassian ticket link (DOOH-1785) and mentioned needing to update project deadlines. [me] confirmed that the item was scheduled for the next release, specifically Tuesday or Wednesday.",
+  "decisions": [
+    "The deliverable is slated for the next release on Tuesday/Wednesday."
+  ],
+  "action_items": []
+}

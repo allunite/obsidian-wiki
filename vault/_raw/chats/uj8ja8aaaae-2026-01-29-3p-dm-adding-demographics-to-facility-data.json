@@ -1,0 +1,24 @@
+{
+  "chat_id": "uJ8JA8AAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2026-01-29",
+    "end": "2026-01-29"
+  },
+  "message_count": 6,
+  "topic": "Adding demographics to facility data",
+  "topic_slug": "adding-demographics-to-facility-data",
+  "tags": [
+    "facility",
+    "analytics"
+  ],
+  "summary_markdown": "The discussion centered on the process of adding demographic data for specific facilities, particularly from Rembla. Initially, [p1] asked if providing a list of facility IDs in a ticket was sufficient to enable this integration. [me] advised that typically the raw data itself needs to be provided and suggested checking with someone named Evgeniy Negrobov (Жека) regarding existing scripts or previous data extraction from Rembla.\n\nLater, [p1] shared a SQL query result showing impression data for a specific zone ID at a facility. [me] confirmed that creating a ticket was the correct next step.",
+  "decisions": [
+    "The process requires providing the raw demographic data itself."
+  ],
+  "action_items": [
+    "Create a ticket to proceed with adding demographics to the facility data."
+  ]
+}

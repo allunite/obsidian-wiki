@@ -1,0 +1,25 @@
+{
+  "chat_id": "0VorOYAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2024-05-30",
+    "end": "2024-05-30"
+  },
+  "message_count": 12,
+  "topic": "Report data issue for Brazil traffic metrics",
+  "topic_slug": "report-data-issue-for-brazil-traffic-metrics",
+  "tags": [
+    "analytics",
+    "impression",
+    "session"
+  ],
+  "summary_markdown": "A discrepancy was identified in the reported traffic metrics (specifically 'unique users' or 'юніки') for Brazil. The issue relates to how unique user counts are displayed when generating reports, particularly concerning hourly granularity.\n\nInitially, unique user data was removed from hourly granularity months ago for performance reasons and space saving, with client communication explaining that multiple sessions from one device on the same screen within an hour were rare.\n\nRecently, hourly unique users were reinstated because movement in public areas (like airports) frequently causes multiple sessions on a single screen within an hour. This reinstatement caused 'N/A' to persist in reports generated without selecting specific facilities.\n\nThe discussion identified two potential solutions:\n1. Remove the 'N/A' placeholder, keeping unique users set to sessions as shown in cloud reports.\n2. Display 'N/A' for screens outside a cluster and show actual unique users within clusters.\n\nIt was noted that Option 2 would not resolve the persistent 'N/A' issue for Brazil.\n\nThe consensus leaned toward Option 1, which was deemed better both conceptually and in terms of explanation to the client.",
+  "decisions": [
+    "The preferred solution is to remove the 'N/A' placeholder in reports, maintaining unique users equal to sessions (as seen in cloud reports)."
+  ],
+  "action_items": [
+    "[me] will follow up with Galina regarding the proposed change."
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "chat_id": "0VorOYAAAAE",
+  "kind": "DM",
+  "space_name": null,
+  "participants": 3,
+  "date_range": {
+    "start": "2025-02-14",
+    "end": "2025-02-14"
+  },
+  "message_count": 9,
+  "topic": "Data calibration and deployment tasks",
+  "topic_slug": "data-calibration-and-deployment-tasks",
+  "tags": [
+    "analytics",
+    "recalc-ch"
+  ],
+  "summary_markdown": "The conversation focused on several data processing and deployment tasks. These included:\n\n*   **Calibration:** Applying a specific calibration set for 'sell' (sl=68) using `company_num = 7948` and specifying facility numbers in the range of (43793, 44213).\n*   **Staging Deployment:** Migrating a stage dataset to production with `company_num = 7948` for the period spanning from 2024-11-01 until the current date.\n*   **Frequency Model:** Implementing the RZK model (via a provided SQL link) on both production and staging environments.",
+  "decisions": [
+    "Apply specific calibration parameters for 'sell' using company_num = 7948 and facilities 43793, 44213.",
+    "Migrate the stage dataset to production for company_num = 7948 covering November 1, 2024, to present."
+  ],
+  "action_items": [
+    "Implement RZK frequency model on both production and staging environments."
+  ]
+}

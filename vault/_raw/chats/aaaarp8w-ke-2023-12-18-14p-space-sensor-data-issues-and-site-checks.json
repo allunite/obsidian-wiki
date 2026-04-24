@@ -1,0 +1,25 @@
+{
+  "chat_id": "AAAARP8w-KE",
+  "kind": "Space",
+  "space_name": "Problematic sensors",
+  "participants": 14,
+  "date_range": {
+    "start": "2023-12-18",
+    "end": "2023-12-18"
+  },
+  "message_count": 20,
+  "topic": "Sensor data issues and site checks",
+  "topic_slug": "sensor-data-issues-and-site-checks",
+  "tags": [
+    "facility",
+    "analytics",
+    "impression"
+  ],
+  "summary_markdown": "The discussion focused on historical sensor data availability, particularly for Bara Mall. It was noted that the mall consists of multiple unrelated stores, and power outages are common due to an unreliable local grid, leading to gaps in historical data.\n\nRegarding specific sensors, one participant suggested checking a sensor located at a 'Transport Hub' (PMG_ZA_Park_station_XL_outside) because its reported traffic volume seemed too low for the observed high foot traffic area. The concern was whether the antenna placement needed verification.",
+  "decisions": [
+    "The need to check the antenna placement for the Transport Hub sensor (PMG_ZA_Park_station_XL_outside)."
+  ],
+  "action_items": [
+    "Confirm if any actions were taken at Bara Mall on December 5th."
+  ]
+}
