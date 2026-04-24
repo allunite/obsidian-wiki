@@ -327,23 +327,28 @@ By default, `wiki-ingest` and `wiki-query` use `Grep`/`Glob` for search — full
 **Setup:**
 
 1. Install QMD and add it to your MCP config (see the QMD repo for instructions).
-2. Index your wiki and/or source documents:
+2. Register your wiki and/or source documents as collections (this also performs the initial index):
    ```bash
-   qmd index --name wiki /path/to/your/vault
-   qmd index --name papers /path/to/your/sources
+   qmd collection add /path/to/your/vault   --name wiki
+   qmd collection add /path/to/your/sources --name papers
+   qmd embed                                  # build vector embeddings for semantic search
    ```
 3. Set the collection names in your `.env`:
    ```env
    QMD_WIKI_COLLECTION=wiki      # used by wiki-query
    QMD_PAPERS_COLLECTION=papers  # used by wiki-ingest (source discovery)
    ```
+4. To refresh later (after new pages are written), run `qmd update && qmd embed` or invoke the `/qmd-reindex` skill.
 
 **What changes with QMD enabled:**
 
 - **`wiki-query`** runs a semantic pass (lex+vec) against your wiki collection before falling back to Grep. Finds conceptually related pages even when the exact terms don't match.
 - **`wiki-ingest`** queries your papers collection before writing a new page — surfaces related sources, spots contradictions, and decides whether to create a new page or merge into an existing one.
+- **`data-ingest`** and the history-ingest skills (`claude-history-ingest`, `codex-history-ingest`, `hermes-history-ingest`, `openclaw-history-ingest`) consult QMD to dedup against existing wiki pages before writing — catches concept-level duplication that Glob/Grep misses, especially when the same topic recurs across agents or over time.
 
-Both skills degrade gracefully: if `QMD_WIKI_COLLECTION` / `QMD_PAPERS_COLLECTION` are not set, they skip the QMD step silently and use Grep instead.
+All skills degrade gracefully: if `QMD_WIKI_COLLECTION` / `QMD_PAPERS_COLLECTION` are not set, they skip the QMD step silently and use Grep instead.
+
+**Keeping the index fresh.** `qmd index` is an external CLI — nothing in the framework writes to QMD automatically, so the index drifts as you ingest new pages. Run `/qmd-reindex` after a batch ingest to refresh both collections in one command. The skill guards on the env vars, so it's safe to invoke even when QMD isn't configured.
 
 ### `_raw/` Staging Directory
 
