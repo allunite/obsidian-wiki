@@ -38,6 +38,7 @@ import sys
 import time
 import urllib.request
 import urllib.error
+from collections import Counter
 from dataclasses import dataclass, field
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
@@ -95,7 +96,9 @@ MIN_SESSION_MESSAGES = 3                      # below this, not worth extracting
 MAX_SESSION_MESSAGES = 120                    # cap to keep prompts small
 
 # A YYYYMM+topic file overflowing this size triggers a -2/-3 split (per SKILL).
-MAX_FILE_BYTES = 10 * 1024
+# Set high so concepts collapse into one fat page per topic-month — the goal is
+# hundreds of pages total, not thousands of one-session shards.
+MAX_FILE_BYTES = 50 * 1024
 
 # Checkpoint cadence — write state to disk after this many new session sections.
 CHECKPOINT_EVERY = 20
@@ -367,24 +370,40 @@ SYSTEM_PROMPT = """You are a strict extraction engine for a personal Obsidian wi
 
 Your input is a Google Chat session with real participant names. Names are NOT redacted — keep them as-is when they actually carry information (decision owners, drivers of an action, etc.). The summary should still be about TOPICS AND DECISIONS, not "X said, Y said", so use names sparingly. Credentials and secret URLs already appear as [redacted] — never echo them.
 
+YOUR PRIMARY JOB IS TO REJECT EPHEMERAL CHATTER. Default to skip. Only keep a session if it carries CONCEPTUAL, DURABLE knowledge — something a future-you would want to know about how AllUnite *works* or *why a decision was made*. This includes:
+- How a system behaves (recalc, MOPS, ml_traffic_prediction, ClickHouse pipelines, etc.)
+- The reasoning behind a non-trivial decision (architecture, data model, methodology, naming, scope)
+- Domain rules / business logic (visibility adjustment, dwell time methodology, calibration, sessionization)
+- Postmortems, root causes, debugging insights with lasting value
+- Definitions, conventions, contracts between systems
+
+SKIP (set "skip": true) when the session is dominated by:
+- Logistics: "let's not release today", "moved the deploy to tomorrow", "let's call at 3", "I'm late", scheduling, calendar coordination
+- Status pings: "done", "merged", "deployed", "approved", "looks good", "I'm out for lunch", OOO, vacation, sick leave
+- One-off file or link sharing without substantive discussion
+- Greetings, congratulations, banter, jokes, condolences
+- Personal coordination (lunch, transport, who is in the office)
+- Mere ticket/PR cross-posting without added reasoning
+- Generic acknowledgements
+The bar is high: if you cannot articulate one concrete, durable concept the session teaches, set skip: true with a one-phrase reason.
+
 Your output is a SINGLE JSON object matching this schema (no prose, no markdown fences):
 
 {
-  "topic":         "BROAD topic phrase, 1-3 words. Pick the most general label that still describes the conversation, so several sessions in this chapter naturally collapse into the same page. Good: 'recalc rollout', 'inventory issues', 'campaign launches', 'dashboard fixes', 'release planning', 'JoeAndTheJuice'. Bad (too narrow): 'fix off-by-one in March recalc query'.",
-  "topic_slug":    "kebab-case slug derived from topic, max ~25 chars, no dates, no incident-specifics",
+  "topic":         "VERY BROAD topic phrase, 1-3 generic words. Pick the most general label that still describes the conversation, so MANY sessions in this chapter collapse into the SAME page. Good: 'recalc', 'inventory issues', 'campaigns', 'dashboards', 'release planning', 'JoeAndTheJuice', 'data pipelines'. Bad (too narrow): 'fix off-by-one in March recalc query', 'march dashboard widget bug', 'frame 12345 coordinate fix'. The wiki should grow to HUNDREDS of fat pages — not thousands of narrow shards. If unsure, pick the broader option.",
+  "topic_slug":    "kebab-case slug derived from topic, max ~20 chars, no dates, no incident-specifics, no version numbers",
   "chapter":       "ONE OF: inventory, recalc, dashboards, campaigns, analytics, mops, data-science, infra, ops, clients, releases, misc",
   "tags":          ["lowercase kebab-case tags drawn from AllUnite vocabulary: facility, frame, insertion, loop, loop-duration, impression, campaign, inventory, dwell-time, session, mops, analytics, joe-and-the-juice, recalc-ch, etc. Only include tags clearly supported by the conversation."],
-  "body_markdown": "Dense factual markdown. Distill TOPICS AND DECISIONS. Generic markdown (paragraphs and bullets); do NOT add headings — the host file supplies them. No emojis, no tone filler.",
-  "decisions":     ["concrete decisions made, one per string, short"],
-  "action_items":  ["concrete follow-ups, one per string, short"],
+  "body_markdown": "Dense factual markdown FOCUSED ON CONCEPTS. Capture: how the system behaves, why a decision was made, definitions, constraints, root causes. Drop scheduling, status, who-said-what. Generic markdown (paragraphs and bullets); do NOT add headings — the host file supplies them. No emojis, no tone filler.",
+  "decisions":     ["concrete decisions with LASTING consequences, one per string, short. Skip ephemeral ones like 'release tomorrow instead of today' unless the reason itself is a durable constraint."],
+  "action_items":  ["concrete follow-ups that change a system or document, one per string, short. Skip 'I'll call you back', 'will check tomorrow'."],
   "skip":          false,
   "skip_reason":   ""
 }
 
-If the entire session is small talk, greetings, scheduling, or otherwise without substance, set "skip": true, "skip_reason": "<one short phrase>", and leave other fields empty strings / empty arrays.
-
 Rules:
-- Generalize aggressively: prefer a topic that already exists in spirit over inventing a new narrow one. The wiki should grow a small number of fat pages, not a forest of one-session files.
+- Generalize aggressively: prefer a topic that already exists in spirit over inventing a new narrow one. The wiki should grow HUNDREDS of fat pages, not THOUSANDS of one-session files.
+- When in doubt between two topic granularities, pick the broader one.
 - Never echo credentials, tokens, or URLs containing secrets.
 - Do not copy specific revenue, margin, or other finance figures verbatim — bucket them ("mid-six-figures", "double-digit growth") or omit.
 - Client-company names (e.g., Joe&TheJuice) and team names ARE allowed.
@@ -970,6 +989,306 @@ def run(args: argparse.Namespace) -> None:
         sys.exit(130)
 
 
+# ---------------------------------------------------------------------------
+# Consolidation: collapse narrow per-incident topics into broad canonical pages
+# ---------------------------------------------------------------------------
+
+# Target ceiling: at most this many distinct topic slugs per (chapter, yyyymm).
+# When the directory has more, the LLM is asked to canonicalize them down.
+MAX_TOPICS_PER_MONTH = 4
+# Don't bother running the LLM if a chapter+month has fewer files than this.
+MIN_FILES_TO_CONSOLIDATE = 4
+
+CONSOLIDATE_SCHEMA = {
+    "name": "topic_canonicalization",
+    "strict": True,
+    "schema": {
+        "type": "object",
+        "additionalProperties": False,
+        "required": ["mapping"],
+        "properties": {
+            "mapping": {
+                "type": "array",
+                "items": {
+                    "type": "object",
+                    "additionalProperties": False,
+                    "required": ["from", "canonical"],
+                    "properties": {
+                        "from":      {"type": "string"},
+                        "canonical": {"type": "string"},
+                    },
+                },
+            },
+        },
+    },
+}
+
+CONSOLIDATE_SYSTEM = """You are consolidating an Obsidian wiki of Google Chat sessions at AllUnite (a Digital Out-of-Home advertising analytics company).
+
+Your job: relabel narrow per-incident kebab-case topic slugs into BROAD canonical slugs, so dozens of files in a chapter+month collapse into a small handful.
+
+Input: a JSON object with the chapter, the YYYYMM, a max canonical count, and a list of current slugs.
+
+Output: a SINGLE JSON object with a "mapping" array. Each entry maps one input slug to a canonical broad slug.
+
+Hard constraints:
+- The set of distinct canonical values in your output MUST contain at most max_canonical entries.
+- Canonical slugs are 1-3 generic kebab-case words, max 20 characters, drawn from the AllUnite domain (e.g. recalc, inventory, dashboards, campaigns, releases, joe-and-the-juice, data-pipelines, mops, infra). A slug may map to itself if it is already canonical.
+- NO dates, version numbers, person names, or incident-specifics in canonical slugs.
+- EVERY input slug must appear exactly once in the mapping.
+- Output MUST be a single valid JSON object and nothing else."""
+
+
+_SECTION_SPLIT_RE = re.compile(r"(?m)^(?=## \*\*)")
+
+
+def parse_sections(body: str) -> list[str]:
+    """Split a page body into individual chat-session sections."""
+    parts = _SECTION_SPLIT_RE.split(body)
+    return [p.strip() for p in parts if p.strip().startswith("## **")]
+
+
+def _list_field(value: str) -> set[str]:
+    return {t.strip() for t in (value or "").strip("[]").split(",") if t.strip()}
+
+
+def call_lm_studio_canonicalize(endpoint: str, model: str, slugs: list[str],
+                                 chapter: str, yyyymm: str,
+                                 max_canonical: int,
+                                 timeout: int = 180) -> dict[str, str]:
+    """Ask LM Studio for slug→canonical mapping. Returns {} on failure."""
+    payload_user = {
+        "chapter": chapter,
+        "yyyymm": yyyymm,
+        "max_canonical": max_canonical,
+        "current_slugs": sorted(slugs),
+    }
+    url = endpoint.rstrip("/") + "/chat/completions"
+    payload = {
+        "model": model,
+        "messages": [
+            {"role": "system", "content": CONSOLIDATE_SYSTEM},
+            {"role": "user", "content": json.dumps(payload_user,
+                                                    ensure_ascii=False,
+                                                    indent=2)},
+        ],
+        "temperature": 0.1,
+        "response_format": {"type": "json_schema",
+                             "json_schema": CONSOLIDATE_SCHEMA},
+        "stream": False,
+    }
+    req = urllib.request.Request(
+        url,
+        data=json.dumps(payload).encode("utf-8"),
+        headers={"Content-Type": "application/json"},
+        method="POST",
+    )
+    try:
+        with urllib.request.urlopen(req, timeout=timeout) as resp:
+            raw = resp.read().decode("utf-8")
+    except urllib.error.HTTPError as e:
+        body = ""
+        try:
+            body = e.read().decode("utf-8", errors="replace")
+        except Exception:
+            pass
+        raise RuntimeError(
+            f"LM Studio HTTP {e.code} at {url}: {body[:800] or e.reason}"
+        ) from None
+    data = json.loads(raw)
+    content = data["choices"][0]["message"]["content"].strip()
+    if content.startswith("```"):
+        content = re.sub(r"^```(?:json)?\s*|\s*```$", "", content, flags=re.S)
+    parsed = json.loads(content)
+    return {
+        item["from"]: kebab(item["canonical"])[:25]
+        for item in parsed.get("mapping", [])
+        if item.get("from") and item.get("canonical")
+    }
+
+
+def _write_canonical_files(chapter: str, yyyymm: str, canonical: str,
+                            sections: list[str], tags: list[str],
+                            sources: list[str], title: str,
+                            today: str) -> int:
+    """Write all sections under one canonical slug, splitting on overflow.
+
+    Returns the number of files written.
+    """
+    suffix = 1
+    target = page_path(chapter, yyyymm, canonical, suffix)
+    target.parent.mkdir(parents=True, exist_ok=True)
+    buf = render_frontmatter(title, tags, sources, today)
+    written = 0
+    for sec in sections:
+        chunk = sec.rstrip() + "\n\n"
+        projected = len(buf.encode("utf-8")) + len(chunk.encode("utf-8"))
+        if projected > MAX_FILE_BYTES and "## **" in buf:
+            target.write_text(buf, encoding="utf-8")
+            written += 1
+            suffix += 1
+            target = page_path(chapter, yyyymm, canonical, suffix)
+            buf = render_frontmatter(title, tags, sources, today)
+        buf += chunk
+    target.write_text(buf, encoding="utf-8")
+    return written + 1
+
+
+def consolidate(args: argparse.Namespace) -> None:
+    """Walk wiki/chats/ and collapse narrow topic files into canonical ones."""
+    if not CHATS_OUT.exists():
+        print("[consolidate] no chats dir; nothing to do")
+        return
+
+    chapters_scanned = 0
+    groups_rewritten = 0
+    files_before = 0
+    files_after = 0
+    today = datetime.now(timezone.utc).strftime("%Y-%m-%d")
+
+    for chapter_dir in sorted(p for p in CHATS_OUT.iterdir() if p.is_dir()):
+        chapter = chapter_dir.name
+        chapters_scanned += 1
+
+        # Group files by yyyymm; within yyyymm, group by base slug (suffix-stripped).
+        by_month: dict[str, dict[str, list[Path]]] = {}
+        for md in sorted(chapter_dir.glob("*.md")):
+            m = re.match(r"^(\d{6})-(.+?)(?:-(\d+))?\.md$", md.name)
+            if not m:
+                continue
+            yyyymm, slug = m.group(1), m.group(2)
+            by_month.setdefault(yyyymm, {}).setdefault(slug, []).append(md)
+            files_before += 1
+
+        for yyyymm, slugs_to_paths in by_month.items():
+            distinct_slugs = len(slugs_to_paths)
+            file_count = sum(len(v) for v in slugs_to_paths.values())
+
+            if (distinct_slugs <= MAX_TOPICS_PER_MONTH
+                    or file_count < MIN_FILES_TO_CONSOLIDATE):
+                files_after += file_count
+                continue
+
+            print(f"[consolidate] {chapter}/{yyyymm}: "
+                  f"{distinct_slugs} slugs across {file_count} files "
+                  f"-> target ≤{MAX_TOPICS_PER_MONTH}")
+
+            slugs = list(slugs_to_paths.keys())
+            try:
+                mapping = call_lm_studio_canonicalize(
+                    args.endpoint, args.model, slugs, chapter, yyyymm,
+                    MAX_TOPICS_PER_MONTH,
+                )
+            except (urllib.error.URLError, urllib.error.HTTPError,
+                    json.JSONDecodeError, KeyError, TimeoutError,
+                    RuntimeError) as e:
+                print(f"  !! canonicalize error: {e}")
+                files_after += file_count
+                continue
+
+            # LLM may have missed slugs — keep them as-is.
+            for s in slugs:
+                mapping.setdefault(s, s)
+
+            # If LLM violated max_canonical, force-collapse the long tail
+            # into the largest bucket.
+            distinct_canonical = sorted(set(mapping.values()))
+            if len(distinct_canonical) > MAX_TOPICS_PER_MONTH:
+                load = Counter()
+                for s, c in mapping.items():
+                    load[c] += len(slugs_to_paths.get(s, []))
+                top = {c for c, _ in load.most_common(MAX_TOPICS_PER_MONTH)}
+                fallback = load.most_common(1)[0][0]
+                mapping = {s: (c if c in top else fallback)
+                           for s, c in mapping.items()}
+
+            # If the mapping is a no-op, leave the directory alone.
+            if all(mapping[s] == s for s in slugs):
+                print("  -- already canonical, no rewrite needed")
+                files_after += file_count
+                continue
+
+            canon_sections: dict[str, list[str]] = {}
+            canon_tags: dict[str, set[str]] = {}
+            canon_sources: dict[str, set[str]] = {}
+            files_to_remove: list[Path] = []
+
+            for slug, paths in slugs_to_paths.items():
+                canonical = mapping[slug]
+                for p in paths:
+                    try:
+                        text = p.read_text(encoding="utf-8")
+                    except OSError as e:
+                        print(f"  !! cannot read {p.name}: {e}")
+                        continue
+                    fm, body = parse_frontmatter(text)
+                    sections = parse_sections(body)
+                    if not sections:
+                        # Nothing parseable; preserve the file.
+                        continue
+                    canon_sections.setdefault(canonical, []).extend(sections)
+                    canon_tags.setdefault(canonical, set()).update(
+                        _list_field(fm.get("tags", ""))
+                    )
+                    canon_sources.setdefault(canonical, set()).update(
+                        _list_field(fm.get("sources", ""))
+                    )
+                    files_to_remove.append(p)
+
+            if not canon_sections:
+                print("  -- nothing parseable, skipping")
+                files_after += file_count
+                continue
+
+            if args.dry_run:
+                summary = ", ".join(
+                    f"{c}<-{sum(1 for s in slugs if mapping[s]==c)}"
+                    for c in sorted(set(mapping.values()))
+                )
+                print(f"  [dry-run] would collapse: {summary}")
+                files_after += file_count
+                continue
+
+            for p in files_to_remove:
+                try:
+                    p.unlink()
+                except OSError as e:
+                    print(f"  !! cannot remove {p.name}: {e}")
+
+            for canonical, sections in canon_sections.items():
+                # Sort sections by their leading date so the page reads
+                # chronologically after the merge.
+                def _sec_key(s: str) -> str:
+                    m = re.search(r"(\d{4}-\d{2}-\d{2})", s)
+                    return m.group(1) if m else "9999-99-99"
+                sections.sort(key=_sec_key)
+
+                tags = sorted(canon_tags.get(canonical, set()) - {"chat"})
+                sources = sorted(canon_sources.get(canonical, set()))
+                title = canonical.replace("-", " ")
+                written = _write_canonical_files(
+                    chapter, yyyymm, canonical, sections,
+                    tags, sources, title, today,
+                )
+                files_after += written
+                print(f"  ++ {canonical}: {len(sections)} section(s) -> "
+                      f"{written} file(s)")
+
+            groups_rewritten += 1
+
+    if not args.dry_run:
+        rebuild_index()
+
+    print(
+        f"\n[consolidate] done.\n"
+        f"  Chapters scanned:           {chapters_scanned}\n"
+        f"  Chapter+month groups touched: {groups_rewritten}\n"
+        f"  Files before:               {files_before}\n"
+        f"  Files after:                {files_after}\n"
+        f"  Net change:                 {files_after - files_before:+d}"
+    )
+
+
 def main() -> None:
     # Windows consoles default to cp1252/cp1251 which can't encode the arrows
     # and other Unicode we both log and write into markdown. Force UTF-8 so
@@ -997,7 +1316,17 @@ def main() -> None:
                     help="Wipe wiki/.ingest-state.json and start from scratch")
     ap.add_argument("--sleep-ms", type=int, default=0,
                     help="Sleep between LLM calls, ms")
+    ap.add_argument("--consolidate", action="store_true",
+                    help="Skip ingest. Walk wiki/chats/ and collapse narrow "
+                         "per-incident topic files into <=4 canonical broad "
+                         "topics per chapter+month, calling LM Studio to pick "
+                         "the canonical labels. Old files are removed; new "
+                         "ones are written, splitting on overflow. Combine "
+                         "with --dry-run to preview.")
     args = ap.parse_args()
+    if args.consolidate:
+        consolidate(args)
+        return
     run(args)
 
 
