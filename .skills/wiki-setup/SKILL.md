@@ -28,9 +28,20 @@ If `.env` doesn't exist, create it from `.env.example`. Ask the user for:
    - Default: auto-discovers from `~/.claude`
    - Set explicitly if Claude data is elsewhere
 
-4. **Have QMD installed?** → `QMD_WIKI_COLLECTION` / `QMD_PAPERS_COLLECTION`
-   - Optional. Enables semantic search in `wiki-query` and source discovery in `wiki-ingest`.
-   - If unsure, skip for now — both skills fall back to `Grep` automatically.
+4. **Have a ClickHouse instance for RAG?** → `CLICKHOUSE_URL` + RAG embedding config
+   - Optional but recommended. Primary semantic search tier for `wiki-query` and source discovery for `wiki-ingest`.
+   - If yes, also ask for:
+     - `CLICKHOUSE_DATABASE` (default `obsidian_rag`), `CLICKHOUSE_USER`, `CLICKHOUSE_PASSWORD`
+     - `RAG_EMBEDDING_PROVIDER` — `openai` (default), `ollama`, or `lmstudio`
+     - `RAG_EMBEDDING_MODEL` — `text-embedding-3-small` for OpenAI, `bge-m3` for Ollama/LM Studio
+     - `RAG_EMBEDDING_DIMS` — `1536` (OpenAI default) or `1024` (bge-m3)
+     - `OPENAI_API_KEY` when provider is `openai`
+   - After setup, run `wiki-rag-index` to build the initial index.
+   - If unsure, skip for now — `wiki-query` falls back to QMD (if set) then `Grep`.
+
+5. **Have QMD installed?** → `QMD_WIKI_COLLECTION` / `QMD_PAPERS_COLLECTION`
+   - Optional fallback semantic tier (below ClickHouse RAG). Prefer ClickHouse RAG for new installs.
+   - If unsure, skip — skills fall back through ClickHouse → QMD → `Grep` automatically.
    - Install instructions: see `.env.example` (QMD section).
 
 ## Step 2: Create Vault Directory Structure

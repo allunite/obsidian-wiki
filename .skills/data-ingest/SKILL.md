@@ -109,6 +109,22 @@ Before creating pages:
 - Merge overlapping information from multiple sources
 - Note contradictions between sources
 
+**Semantic dedup (optional but recommended when the vault is large):** if `$CLICKHOUSE_URL` is set, for each cluster's topic string run a vector query against the wiki collection to find concept-level duplicates that exact-name grep would miss:
+
+```bash
+QVEC=$(rag_embed "$CLUSTER_TOPIC")
+curl -sS "$CLICKHOUSE_URL/?database=$CLICKHOUSE_DATABASE" \
+  ${CLICKHOUSE_USER:+-u "$CLICKHOUSE_USER:$CLICKHOUSE_PASSWORD"} \
+  --data-binary "
+    SELECT vault_path, heading_path, chunk_text,
+           cosineDistance(embedding, $QVEC) AS dist
+    FROM rag_chunks
+    WHERE collection = '${RAG_WIKI_COLLECTION:-wiki}'
+    ORDER BY dist ASC LIMIT 5 FORMAT JSON"
+```
+
+See `.skills/wiki-rag-index/references/query-snippet.md` for the `rag_embed` helper. If a result comes back with `dist < 0.3`, merge into that page rather than creating a new one. If `CLICKHOUSE_URL` is unset, fall back to QMD (`$QMD_WIKI_COLLECTION`, same shape as `wiki-query` Step 2b) or plain `Grep` on titles and `summary:` fields.
+
 ## Step 4: Distill into Wiki Pages
 
 Follow the `wiki-ingest` skill's process for creating/updating pages:

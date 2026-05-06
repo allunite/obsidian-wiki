@@ -63,32 +63,66 @@ Build a candidate set *without opening any page bodies*:
 
 If you're in **index-only mode**, stop here. Answer from `summary:` fields, titles, and `index.md` descriptions only. Label the answer clearly: **"(index-only answer — page bodies not read; facts below are from page summaries and may miss nuance)"**. Then skip to Step 5.
 
-### Step 2b: QMD Semantic Pass (optional — requires `QMD_WIKI_COLLECTION` in `.env`)
+### Step 2a: ClickHouse RAG Semantic Pass (optional — requires `CLICKHOUSE_URL` in `.env`)
 
-**GUARD: If `$QMD_WIKI_COLLECTION` is empty or unset, skip this entire step and proceed to Step 3.**
+**GUARD: If `$CLICKHOUSE_URL` is empty or unset, skip this step and try Step 2b (QMD).**
 
-> **No QMD?** Skip to Step 3 and use `Grep` directly on the vault. QMD is faster and concept-aware but the grep path is fully functional. See `.env.example` for setup.
+> **No ClickHouse?** Skip to Step 2b. If QMD is also unavailable, skip to Step 3 and grep directly. See `.env.example` for ClickHouse + RAG setup, and run `wiki-rag-index` to populate the table.
 
-If `QMD_WIKI_COLLECTION` is set and the index pass didn't produce clear candidates — or the question requires semantic matching rather than exact terms — use QMD before reaching for `Grep`:
+If `CLICKHOUSE_URL` is set and the index pass didn't produce clear candidates — or the question requires semantic matching rather than exact terms — query the RAG table:
+
+```bash
+# See .skills/wiki-rag-index/references/query-snippet.md for the canonical form.
+# Embed the question, then run hybrid vec+lex against rag_chunks.
+QVEC=$(rag_embed "$QUESTION")
+curl -sS "$CLICKHOUSE_URL/?database=$CLICKHOUSE_DATABASE" \
+  ${CLICKHOUSE_USER:+-u "$CLICKHOUSE_USER:$CLICKHOUSE_PASSWORD"} \
+  --data-binary "
+    SELECT vault_path, heading_path, chunk_text,
+           cosineDistance(embedding, $QVEC) AS dist, tags
+    FROM rag_chunks
+    WHERE collection = '${RAG_WIKI_COLLECTION:-wiki}'
+    ORDER BY dist ASC
+    LIMIT 10
+    FORMAT JSON"
+```
+
+Run a parallel lexical query (`hasToken(lower(chunk_text), lower('<key-term>'))`) and merge by `vault_path`, boosting pages that appear in both result sets. See `wiki-rag-index/references/query-snippet.md` for the full merge recipe and the `rag_embed` helper.
+
+The returned chunks act as pre-read section summaries. If they answer the question fully, skip Step 3 and go straight to Step 4 (reading only the pages ClickHouse ranked highest). Otherwise, use the ranked `vault_path` list to guide Step 3's grepping.
+
+**Also search the `papers` collection when the question may have source material in `_raw/`:**
+
+If `RAG_PAPERS_COLLECTION` is set and the user is asking about a topic likely covered by ingested papers (research, theory, background), run the same query with `collection = '$RAG_PAPERS_COLLECTION'` and cite raw sources separately from compiled wiki pages.
+
+**Filtered mode:** when active, add `AND NOT has(tags, 'visibility/internal') AND NOT has(tags, 'visibility/pii')` to each WHERE clause.
+
+**Stale index check:** if ClickHouse returns empty or very low-quality matches for a topic you're sure exists in the vault, the index may be stale. Suggest the user run `wiki-rag-index` and proceed with Step 2b/3 for now.
+
+### Step 2b: QMD Semantic Pass (fallback — requires `QMD_WIKI_COLLECTION` in `.env`)
+
+**GUARD: If Step 2a found good matches, skip this step. If `$QMD_WIKI_COLLECTION` is empty, skip to Step 3.**
+
+> QMD is kept as a secondary semantic tier for setups that haven't migrated to ClickHouse RAG yet. New installs should prefer `wiki-rag-index`.
+
+If `QMD_WIKI_COLLECTION` is set and neither the index pass nor ClickHouse produced clear candidates, use QMD:
 
 ```
 mcp__qmd__query:
-  collection: <QMD_WIKI_COLLECTION>   # e.g. "knowledge-base-wiki"
+  collection: <QMD_WIKI_COLLECTION>
   intent: <the user's question>
   searches:
-    - type: lex    # keyword match — good for exact names, file paths, error messages
+    - type: lex
       query: <key terms>
-    - type: vec    # semantic match — good for concepts, patterns, "what is X like"
+    - type: vec
       query: <question rephrased as a description>
 ```
 
-The returned snippets act as pre-read section summaries. If they answer the question fully, skip Step 3 and go straight to Step 4 (reading only the pages QMD ranked highest). If not, use the ranked file list to guide which files to grep or read in Step 3.
+The returned snippets act as pre-read section summaries. If they answer the question fully, skip Step 3 and go straight to Step 4. Otherwise, use the ranked file list to guide which files to grep or read in Step 3.
 
-**Also search `papers` when the question may have source material in `_raw/`:**
+**Also search `papers` when the question may have source material in `_raw/`:** if `QMD_PAPERS_COLLECTION` is set and the topic is likely in ingested papers, run a parallel search against that collection.
 
-If `QMD_PAPERS_COLLECTION` is set and the user is asking about a topic likely covered by ingested papers (research, theory, background), run a parallel search against the papers collection. Cite raw sources separately from compiled wiki pages in your answer.
-
-### Step 3: Section Pass (medium cost — only if Steps 2/2b are inconclusive)
+### Step 3: Section Pass (medium cost — only if Steps 2/2a/2b are inconclusive)
 
 For each of the top candidates, pull the relevant section *without reading the whole page*:
 

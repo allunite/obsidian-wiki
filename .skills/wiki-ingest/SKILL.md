@@ -89,36 +89,72 @@ Vision is interpretive by nature, so image-derived pages will skew heavily towar
 
 For PDFs that are mostly images (scanned docs, slide decks exported to PDF), use `Read pages: "N"` to pull specific pages and treat each page as an image source.
 
-### Step 1b: QMD Source Discovery (optional — requires `QMD_PAPERS_COLLECTION` in `.env`)
+### Step 1a: ClickHouse RAG Source Discovery (optional — requires `CLICKHOUSE_URL` in `.env`)
 
-**GUARD: If `$QMD_PAPERS_COLLECTION` is empty or unset, skip this entire step and proceed to Step 2.**
+**GUARD: If `$CLICKHOUSE_URL` is empty or unset, skip this step and try Step 1b (QMD).**
 
-> **No QMD?** Skip this step entirely. Use `Grep` in Step 4 to check for existing pages on the same topic before creating new ones. See `.env.example` for QMD setup instructions.
+> **No ClickHouse?** Skip to Step 1b. If QMD is also unavailable, skip to Step 2 and rely on Step 4's `Grep` pass to dedup. See `.env.example` for ClickHouse + RAG setup, and run `wiki-rag-index` to populate it.
 
-When `QMD_PAPERS_COLLECTION` is set:
+When `CLICKHOUSE_URL` is set, check the RAG table for related material before extracting knowledge. Query both the compiled wiki (to dedup against existing pages) and the papers collection (to surface related sources):
 
-Before extracting knowledge from a document, check whether related papers are already indexed that could enrich the page you're about to write:
+```bash
+# Embed the source's topic/thesis, then query rag_chunks.
+# See .skills/wiki-rag-index/references/query-snippet.md for the canonical form.
+QVEC=$(rag_embed "$TOPIC_OR_THESIS")
 
-```
-mcp__qmd__query:
-  collection: <QMD_PAPERS_COLLECTION>   # e.g. "papers"
-  intent: <what this document is about>
-  searches:
-    - type: vec    # semantic — finds papers on the same topic even with different vocabulary
-      query: <topic or thesis of the source being ingested>
-    - type: lex    # keyword — finds papers citing the same methods, tools, or authors
-      query: <key terms, author names, method names from the source>
+# 1. Papers collection — related prior sources
+curl -sS "$CLICKHOUSE_URL/?database=$CLICKHOUSE_DATABASE" \
+  ${CLICKHOUSE_USER:+-u "$CLICKHOUSE_USER:$CLICKHOUSE_PASSWORD"} \
+  --data-binary "
+    SELECT vault_path, heading_path, chunk_text,
+           cosineDistance(embedding, $QVEC) AS dist
+    FROM rag_chunks
+    WHERE collection = '${RAG_PAPERS_COLLECTION:-papers}'
+    ORDER BY dist ASC
+    LIMIT 10
+    FORMAT JSON"
+
+# 2. Wiki collection — existing pages on the same concept (dedup signal)
+curl -sS "$CLICKHOUSE_URL/?database=$CLICKHOUSE_DATABASE" \
+  ${CLICKHOUSE_USER:+-u "$CLICKHOUSE_USER:$CLICKHOUSE_PASSWORD"} \
+  --data-binary "
+    SELECT vault_path, heading_path, chunk_text,
+           cosineDistance(embedding, $QVEC) AS dist
+    FROM rag_chunks
+    WHERE collection = '${RAG_WIKI_COLLECTION:-wiki}'
+    ORDER BY dist ASC
+    LIMIT 5
+    FORMAT JSON"
 ```
 
 Use the returned snippets to:
-1. **Surface related papers** you may not have thought to link — add them as cross-references in the wiki page
-2. **Identify recurring themes** across the corpus — these deserve their own concept pages
-3. **Find contradictions** between this source and indexed papers — flag with `^[ambiguous]`
-4. **Avoid duplicate pages** — if the corpus already covers this concept heavily, merge rather than create
+1. **Surface related papers** you may not have thought to link — add them as cross-references in the new wiki page.
+2. **Identify recurring themes** — if 3+ papers touch the same concept, that concept warrants a global `concepts/` page.
+3. **Find contradictions** between this source and indexed papers — flag with `^[ambiguous]`.
+4. **Avoid duplicate pages** — if the wiki query returns a page with `dist < 0.3` on the same concept, merge into it rather than creating a new one.
 
-If the QMD results show that 3+ papers touch the same concept, that concept almost certainly warrants a global `concepts/` page.
+After writing the new page, remember to run `wiki-rag-index` (or ask the user to) so the next ingest sees it.
 
-**Skip this step** if `QMD_PAPERS_COLLECTION` is not set.
+### Step 1b: QMD Source Discovery (fallback — requires `QMD_PAPERS_COLLECTION` in `.env`)
+
+**GUARD: If Step 1a returned useful matches, skip this step. If `$QMD_PAPERS_COLLECTION` is empty, proceed to Step 2.**
+
+> QMD is kept as a secondary semantic tier for setups that haven't migrated to ClickHouse RAG yet. New installs should prefer `wiki-rag-index`.
+
+When `QMD_PAPERS_COLLECTION` is set and Step 1a was unavailable or inconclusive:
+
+```
+mcp__qmd__query:
+  collection: <QMD_PAPERS_COLLECTION>
+  intent: <what this document is about>
+  searches:
+    - type: vec
+      query: <topic or thesis of the source being ingested>
+    - type: lex
+      query: <key terms, author names, method names from the source>
+```
+
+Same four use cases as Step 1a: surface related papers, identify recurring themes, find contradictions, avoid duplicate pages.
 
 
 ### Step 2: Extract Knowledge

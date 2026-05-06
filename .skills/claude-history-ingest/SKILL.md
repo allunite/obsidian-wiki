@@ -165,6 +165,20 @@ Don't create one wiki page per conversation. Instead:
 - Three conversations across different days about "React performance" → one merged topic
 - The project directory name gives you a natural first-level grouping
 
+**Semantic dedup (optional):** if `$CLICKHOUSE_URL` is set, for each cluster's topic run a ClickHouse RAG query against the wiki collection to catch concept-level duplicates across prior history ingests:
+
+```bash
+QVEC=$(rag_embed "$CLUSTER_TOPIC")
+curl -sS "$CLICKHOUSE_URL/?database=$CLICKHOUSE_DATABASE" \
+  ${CLICKHOUSE_USER:+-u "$CLICKHOUSE_USER:$CLICKHOUSE_PASSWORD"} \
+  --data-binary "
+    SELECT vault_path, chunk_text, cosineDistance(embedding, $QVEC) AS dist
+    FROM rag_chunks WHERE collection = '${RAG_WIKI_COLLECTION:-wiki}'
+    ORDER BY dist ASC LIMIT 5 FORMAT JSON"
+```
+
+See `.skills/wiki-rag-index/references/query-snippet.md` for the `rag_embed` helper and merge logic. Merge into an existing page when `dist < 0.3`. Fall back to QMD (`$QMD_WIKI_COLLECTION`) or plain `Grep` when ClickHouse isn't configured.
+
 ## Step 5: Distill into Wiki Pages
 
 Each Claude project maps to a project directory in the vault. The project directory name from `~/.claude/projects/` encodes the original path — decode it to get a clean project name:
